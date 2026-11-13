@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.analysis/
+Theory_and_questionbank/
+test-results/
+playwright-report/
+release/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store

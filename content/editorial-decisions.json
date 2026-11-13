@@ -1,0 +1,2971 @@
+{
+  "lms-g1-01": {
+    "concept": "congress2",
+    "answer": "a",
+    "tags": [
+      "congress"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-02": {
+    "concept": "eulogy",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-03": {
+    "concept": "congress4",
+    "answer": "a",
+    "tags": [
+      "congress"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-04": {
+    "concept": "congress5",
+    "answer": "a",
+    "tags": [
+      "congress"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-05": {
+    "concept": "congress6",
+    "answer": "a",
+    "tags": [
+      "congress"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-06": {
+    "concept": "definition",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-07": {
+    "concept": "meaning",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-08": {
+    "concept": "definition",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-09": {
+    "concept": "meaning",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g1-10": {
+    "concept": "method",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-01": {
+    "concept": "practical",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-02": {
+    "concept": "theoretical",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-03": {
+    "concept": "eastern",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-04": {
+    "concept": "confucius",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-05": {
+    "concept": "jesus",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-06": {
+    "concept": "buddhism",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-07": {
+    "concept": "marx-method",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-08": {
+    "concept": "marx-method",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-09": {
+    "concept": "tam-dan",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-10": {
+    "concept": "subjective",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-11": {
+    "concept": "phase2",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-12": {
+    "concept": "phase3",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-13": {
+    "concept": "phase4",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-14": {
+    "concept": "leech",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "Bổ sung từ 'chỉ' bị thiếu trong đề gốc; không thay đổi kiến thức hỏi.",
+    "prompt": "Hồ Chí Minh đã dùng hình tượng nào dưới đây để chỉ chủ nghĩa tư bản?",
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-15": {
+    "concept": "versailles",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-16": {
+    "concept": "lenin-theses",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-17": {
+    "concept": "phase4",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-18": {
+    "concept": "phase2",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-19": {
+    "concept": "vo-san",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-20": {
+    "concept": "duong-kach-menh",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-21": {
+    "concept": "youth1925",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-22": {
+    "concept": "ban-an",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-23": {
+    "concept": "vietminh",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-24": {
+    "concept": "army1944",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-25": {
+    "concept": "independence1966",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-26": {
+    "concept": "value",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-27": {
+    "concept": "value",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Câu hỏi yêu cầu chọn nội dung không thuộc nhóm giá trị được trình bày. Phương án trực tiếp chỉ đạo cách mạng XHCN giành nhiều thành tựu không phải cách diễn đạt của nhóm giá trị này.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-28": {
+    "concept": "chinh-cuong",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "Giữ tên Chính cương vắn tắt theo ngân hàng; tài liệu lý luận cũng dùng cách viết Chánh cương vắn tắt.",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-29": {
+    "concept": "declaration",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g2-30": {
+    "concept": "tax1908",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-01": {
+    "concept": "independence",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Mở rộng quan hệ đối ngoại không phải một trong bốn nội dung về độc lập dân tộc đang hỏi. Nhớ bốn ý: quyền thiêng liêng; tự do, hạnh phúc; độc lập thật sự; thống nhất và toàn vẹn lãnh thổ.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-02": {
+    "concept": "socialism",
+    "answer": "a",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-03": {
+    "concept": "vo-san",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-04": {
+    "concept": "declaration",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-05": {
+    "concept": "violence",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Điểm sai là chỉ nói bạo động cách mạng. Bạo lực cách mạng rộng hơn, kết hợp đấu tranh chính trị với đấu tranh vũ trang.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-06": {
+    "concept": "socialism",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-07": {
+    "concept": "economy",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-08": {
+    "concept": "socialism",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-09": {
+    "concept": "transition",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-10": {
+    "concept": "transition",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-11": {
+    "concept": "transition-tasks",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-12": {
+    "concept": "transition-tasks",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-13": {
+    "concept": "transition-tasks",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-14": {
+    "concept": "transition-tasks",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g3-15": {
+    "concept": "human-motivation",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-01": {
+    "concept": "party-role",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-02": {
+    "concept": "party-principles",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-03": {
+    "concept": "front",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-04": {
+    "concept": "party-principles",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-05": {
+    "concept": "party-foundation",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-06": {
+    "concept": "party-renewal",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-07": {
+    "concept": "party-principles",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Số lượng đảng viên đông không phải nguyên tắc xây dựng Đảng. Nguyên tắc nhấn mạnh chất lượng tổ chức như tập trung dân chủ, kỷ luật và tự phê bình.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-08": {
+    "concept": "party-civilized",
+    "answer": "a",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-09": {
+    "concept": "three-relations",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-10": {
+    "concept": "cadres",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Phải biết cách làm giàu không thuộc nhóm yêu cầu cán bộ, đảng viên được hỏi. Các yêu cầu chính là trung thành, đạo đức, trách nhiệm và năng lực.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-11": {
+    "concept": "democracy",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Bảo vệ lợi ích giai cấp tư sản không thuộc quan điểm về nhà nước dân chủ ở đây. Nhà nước phải của dân, do dân và vì dân.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-12": {
+    "concept": "state-class",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Tam quyền phân lập không thuộc ba biểu hiện bản chất giai cấp công nhân của Nhà nước được trình bày. Nguyên tắc tổ chức và hoạt động là tập trung dân chủ.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-13": {
+    "concept": "democracy",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-14": {
+    "concept": "democracy",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-15": {
+    "concept": "law",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-16": {
+    "concept": "clean-state",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-17": {
+    "concept": "constitutional",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-18": {
+    "concept": "clean-state",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-19": {
+    "concept": "clean-state",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g4-20": {
+    "concept": "internal-enemy",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-01": {
+    "concept": "unity-role",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-02": {
+    "concept": "unity-conditions",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Đại đoàn kết không đòi mọi người cùng trình độ, nhận thức. Điều kiện cần nhớ là truyền thống yêu nước, lòng khoan dung và niềm tin vào nhân dân.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-03": {
+    "concept": "unity-conditions",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-04": {
+    "concept": "front",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-05": {
+    "concept": "front",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-06": {
+    "concept": "vietminh",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-07": {
+    "concept": "unity-methods",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Thường xuyên tổ chức các hoạt động không phải tên một trong ba phương thức được liệt kê. Nhớ dân vận, xây đoàn thể và tập hợp trong Mặt trận.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-08": {
+    "concept": "international-role",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-09": {
+    "concept": "international-forces",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Phong trào không liên kết không thuộc ba nhóm lực lượng được liệt kê trong nội dung này: cộng sản–công nhân, giải phóng dân tộc, lực lượng tiến bộ yêu hòa bình.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g5-10": {
+    "concept": "international-principles",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-01": {
+    "concept": "culture1943",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-02": {
+    "concept": "culture-politics",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-03": {
+    "concept": "culture-economy",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-04": {
+    "concept": "culture-society",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-05": {
+    "concept": "identity",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-06": {
+    "concept": "identity",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-07": {
+    "concept": "culture-role",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Đánh dấu A trong nguồn mâu thuẫn với giáo trình trang in 115 (PDF 117) và slide chương 6 trang 12: văn hóa là mục tiêu, động lực là một vai trò. Chưa dùng câu này để chấm.",
+    "disputed": true
+  },
+  "lms-g6-08": {
+    "concept": "ethics-standards",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Sống hài hòa, đảm bảo lợi ích của nhân dân không phải tên một trong bốn chuẩn mực đạo đức được liệt kê. Đừng nhầm chuẩn mực với một diễn đạt tốt nhưng không thuộc danh mục đang hỏi.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-09": {
+    "concept": "ethics-principles",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "lms-g6-10": {
+    "concept": "human-role",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g1-07": {
+    "concept": "theoretical",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g1-08": {
+    "concept": "congress5",
+    "answer": "c",
+    "tags": [
+      "congress"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g1-09": {
+    "concept": "definition",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g1-10": {
+    "concept": "meaning",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g1-11": {
+    "concept": "congress11",
+    "answer": "b",
+    "tags": [
+      "congress"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g1-06": {
+    "concept": "value-definition",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Điền từ còn thiếu: Tư tưởng Hồ Chí Minh là tài sản ... vô cùng to lớn và quý giá của Đảng và dân tộc ta.",
+    "options": [
+      "Tinh thần",
+      "Vật chất",
+      "Kinh tế",
+      "Quân sự"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-01": {
+    "concept": "invasion",
+    "answer": "d",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-02": {
+    "concept": "patenotre",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-04": {
+    "concept": "nghia-thuc",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-06": {
+    "concept": "colonial",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-07": {
+    "concept": "colonial",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-08": {
+    "concept": "classes",
+    "answer": "a",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-09": {
+    "concept": "classes",
+    "answer": "a",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-03": {
+    "concept": "dong-du",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Phong trào Đông Du do ai lãnh đạo?",
+    "options": [
+      "Phan Bội Châu",
+      "Phan Châu Trinh",
+      "Lương Văn Can",
+      "Hoàng Hoa Thám"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-05": {
+    "concept": "dong-du",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Phong trào Đông Du đưa thanh niên Việt Nam sang nước nào du học?",
+    "options": [
+      "Nhật Bản",
+      "Pháp",
+      "Trung Quốc",
+      "Ấn Độ"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g2-10": {
+    "concept": "dong-du",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Phong trào Cần Vương là phong trào yêu nước theo khuynh hướng nào?",
+    "options": [
+      "Phong kiến",
+      "Dân chủ tư sản",
+      "Vô sản",
+      "Xã hội chủ nghĩa"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-01": {
+    "concept": "invasion",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-03": {
+    "concept": "classes",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-05": {
+    "concept": "dong-du",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-06": {
+    "concept": "dong-du",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-08": {
+    "concept": "world-contradictions",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-09": {
+    "concept": "comintern",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-10": {
+    "concept": "october",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-12": {
+    "concept": "theoretical",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-13": {
+    "concept": "buddhism",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-14": {
+    "concept": "confucius",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-15": {
+    "concept": "jesus",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-16": {
+    "concept": "lao-tu",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-02": {
+    "concept": "invasion",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Câu dùng 'nguyên nhân' nhưng cần phân biệt với cái cớ cấm đạo; chưa có đáp án nguồn đủ rõ để chấm.",
+    "disputed": false
+  },
+  "quiz-g3-04": {
+    "concept": "classes",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Hai phương án A và C có cùng nội dung dân tộc Việt Nam với thực dân Pháp; chưa có đáp án duy nhất.",
+    "disputed": false
+  },
+  "quiz-g3-07": {
+    "concept": "practical",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Cần làm rõ phân biệt nguyên nhân sâu xa giữa giai cấp tư sản non yếu và thiếu đường lối đúng; nguồn không đánh dấu đáp án.",
+    "disputed": false
+  },
+  "quiz-g3-11": {
+    "concept": "theoretical",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Cả bốn lựa chọn đều nêu nguồn thuộc cơ sở lý luận hoặc lặp ý; câu phủ định không có đáp án loại trừ rõ.",
+    "disputed": false
+  },
+  "quiz-g3-17": {
+    "concept": "buddhism",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Một ảnh hưởng của Phật giáo đến tư tưởng Hồ Chí Minh là đề cao quyền ... của con người và chân lý.",
+    "options": [
+      "Bình đẳng",
+      "Tư hữu",
+      "Đặc quyền",
+      "Thống trị"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-18": {
+    "concept": "lenin-core",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Điền từ còn thiếu: Bây giờ học thuyết nhiều, chủ nghĩa nhiều, nhưng chủ nghĩa chân chính nhất, cách mạng nhất là...",
+    "options": [
+      "Chủ nghĩa Lênin",
+      "Chủ nghĩa Tam dân",
+      "Nho giáo",
+      "Lão giáo"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g3-19": {
+    "concept": "subjective",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Các lựa chọn đều có thể mô tả phẩm chất Hồ Chí Minh; chưa xác lập được một phương án sai rõ ràng theo câu nguồn.",
+    "disputed": false
+  },
+  "quiz-g3-20": {
+    "concept": "subjective",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Bài giảng dùng 'khoảng 30 nước', trong khi phương án phân biệt gần/hơn 30; cần xác minh trước khi chấm.",
+    "disputed": false
+  },
+  "quiz-g4-01": {
+    "concept": "phases",
+    "answer": "b",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-02": {
+    "concept": "phase1",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-03": {
+    "concept": "departure",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-04": {
+    "concept": "phase2",
+    "answer": "b",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-05": {
+    "concept": "phase3",
+    "answer": "b",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-06": {
+    "concept": "vo-san",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-07": {
+    "concept": "duong-kach-menh",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-08": {
+    "concept": "youth1925",
+    "answer": "b",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-09": {
+    "concept": "vo-san",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-10": {
+    "concept": "party-founder",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-11": {
+    "concept": "le-paria",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-12": {
+    "concept": "socialist-party",
+    "answer": "b",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-13": {
+    "concept": "versailles",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-14": {
+    "concept": "lenin-theses",
+    "answer": "b",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-15": {
+    "concept": "tours",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-16": {
+    "concept": "letter1938",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-17": {
+    "concept": "return1941",
+    "answer": "b",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-18": {
+    "concept": "vietminh",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-19": {
+    "concept": "declaration",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g4-20": {
+    "concept": "independence1966",
+    "answer": "d",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-01": {
+    "concept": "independence",
+    "answer": "c",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-02": {
+    "concept": "independence",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-04": {
+    "concept": "versailles",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-05": {
+    "concept": "return1941",
+    "answer": "b",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-06": {
+    "concept": "france1946",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-07": {
+    "concept": "tam-dan",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-08": {
+    "concept": "lenin-theses",
+    "answer": "a",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-11": {
+    "concept": "liberation",
+    "answer": "c",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-12": {
+    "concept": "marx-violence",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-14": {
+    "concept": "violence",
+    "answer": "b",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-03": {
+    "concept": "independence",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Theo Hồ Chí Minh, độc lập dân tộc phải gắn liền tự do, cơm no, áo ấm và hạnh phúc của...",
+    "options": [
+      "Nhân dân",
+      "Riêng cán bộ",
+      "Riêng công nhân",
+      "Riêng nông dân"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-09": {
+    "concept": "vo-san",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Điền cụm từ: Muốn cứu nước và giải phóng dân tộc không có con đường nào khác là con đường...",
+    "options": [
+      "Cách mạng vô sản",
+      "Cách mạng tư sản",
+      "Cần Vương",
+      "Đông Du"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-10": {
+    "concept": "violence",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Điền từ: Trong cuộc đấu tranh gian khổ chống kẻ thù giai cấp và kẻ thù dân tộc, cần dùng bạo lực cách mạng chống lại bạo lực ..., giành lấy chính quyền và bảo vệ chính quyền.",
+    "options": [
+      "Phản cách mạng",
+      "Chính trị",
+      "Quần chúng",
+      "Vũ trang"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g5-13": {
+    "concept": "violence",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Điền từ: Chế độ thực dân, tự bản thân nó đã là một hành vi ... của kẻ mạnh đối với kẻ yếu rồi.",
+    "options": [
+      "Bạo lực",
+      "Nhân nghĩa",
+      "Khoan dung",
+      "Bình đẳng"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-01": {
+    "concept": "party-role",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-02": {
+    "concept": "party-birth",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-03": {
+    "concept": "party-role",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-04": {
+    "concept": "party-role",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-05": {
+    "concept": "party-principles",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Lãnh đạo chính phủ và nhân dân là vai trò, không phải tên một nguyên tắc xây dựng Đảng. Phân biệt vai trò với nguyên tắc tổ chức, sinh hoạt.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-06": {
+    "concept": "party-foundation",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-08": {
+    "concept": "three-relations",
+    "answer": "b",
+    "tags": [],
+    "explanation": "Ba quan hệ được liệt kê là đối với mình, người và việc; 'đối với tổ chức' không nằm trong danh mục ba quan hệ của câu hỏi.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-09": {
+    "concept": "centralism",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-10": {
+    "concept": "four-liberations",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-11": {
+    "concept": "party-principles",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-12": {
+    "concept": "party-role",
+    "answer": "a",
+    "tags": [],
+    "explanation": "Chống lại giai cấp tư sản không thuộc ba vai trò đang được hỏi: giác ngộ, tổ chức dân chúng và đoàn kết với vô sản, dân tộc bị áp bức.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-13": {
+    "concept": "party-principles",
+    "answer": "c",
+    "tags": [],
+    "explanation": "Nêu gương, đi trước không phải tên nguyên tắc xây dựng Đảng trong danh mục đang hỏi. Các lựa chọn còn lại là đoàn kết, kỷ luật và tự phê bình.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-15": {
+    "concept": "democracy",
+    "answer": "d",
+    "tags": [],
+    "explanation": "Nhà nước của mọi người dân nói về 'của dân'. 'Do dân' nhấn mạnh nhân dân tạo lập, đóng góp và tham gia quản lý Nhà nước.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-16": {
+    "concept": "democracy",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-17": {
+    "concept": "law",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-18": {
+    "concept": "constitutional",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-19": {
+    "concept": "law",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-20": {
+    "concept": "law",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-21": {
+    "concept": "clean-state",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g6-07": {
+    "concept": "party-civilized",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Phương án A đúng và D ('A đúng, B sai') cũng đúng về cùng sự kiện; giữ lại để biên tập lựa chọn.",
+    "disputed": false
+  },
+  "quiz-g6-14": {
+    "concept": "cadres",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Cả bốn phương án đều thuộc yêu cầu cán bộ, đảng viên; câu hỏi phủ định chưa có đáp án hợp lệ.",
+    "disputed": false
+  },
+  "quiz-g7-01": {
+    "concept": "unity-conditions",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-02": {
+    "concept": "front",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-03": {
+    "concept": "vietminh",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-04": {
+    "concept": "front1955",
+    "answer": "d",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-05": {
+    "concept": "international-role",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-06": {
+    "concept": "international-forces",
+    "answer": "c",
+    "tags": [],
+    "explanation": "Phong trào chống lại chủ nghĩa tư bản không phải tên một trong ba nhóm lực lượng được liệt kê. Nhớ cộng sản–công nhân, giải phóng dân tộc và lực lượng tiến bộ yêu hòa bình.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-07": {
+    "concept": "international-principles",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-09": {
+    "concept": "unity-conditions",
+    "answer": "c",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-10": {
+    "concept": "international-principles",
+    "answer": "a",
+    "tags": [
+      "count"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-11": {
+    "concept": "international-principles",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g7-08": {
+    "concept": "unity-conditions",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": "Điền từ: Một điều kiện xây dựng đại đoàn kết toàn dân tộc là kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của...",
+    "options": [
+      "Dân tộc",
+      "Riêng công nhân",
+      "Riêng nông dân",
+      "Riêng trí thức"
+    ],
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-01": {
+    "concept": "culture1943",
+    "answer": "d",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-02": {
+    "concept": "culture-society",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-03": {
+    "concept": "ethics-standards",
+    "answer": "b",
+    "tags": [],
+    "explanation": "Sống hài hòa, đảm bảo lợi ích của nhân dân không phải tên một trong bốn chuẩn mực đang học. Nhớ trung–hiếu; cần–kiệm–liêm–chính; yêu thương con người; quốc tế trong sáng.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-04": {
+    "concept": "human-role",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-06": {
+    "concept": "education",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-07": {
+    "concept": "ethics-standards",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-08": {
+    "concept": "culture-economy",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-09": {
+    "concept": "culture-politics",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-11": {
+    "concept": "ethics-principles",
+    "answer": "d",
+    "tags": [],
+    "explanation": "Ý thức lập thân, lập nghiệp không thuộc ba nguyên tắc xây dựng đạo đức. Ba nguyên tắc là nói–làm/nêu gương, xây–chống và tu dưỡng suốt đời.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-12": {
+    "concept": "lifelong",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-13": {
+    "concept": "culture-role",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-14": {
+    "concept": "culture-role",
+    "answer": "d",
+    "tags": [],
+    "explanation": "Văn hóa là tiền đề của cách mạng không phải một trong ba vai trò được trình bày. Ba vai trò là mục tiêu–động lực, mặt trận và phục vụ quần chúng.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-15": {
+    "concept": "human-role",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-16": {
+    "concept": "culture-society",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "quiz-g8-05": {
+    "concept": "early-ethics",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Câu trích 'sông có nguồn, cây có gốc' thuộc Sửa đổi lối làm việc, nhưng tác phẩm này không có trong lựa chọn nguồn; không ép chọn một đáp án sai.",
+    "disputed": false
+  },
+  "quiz-g8-10": {
+    "concept": "culture-role",
+    "answer": "a",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "Cùng cấu trúc với câu LMS đang có đáp án mâu thuẫn; cần làm rõ lựa chọn 'sự nghiệp của quần chúng' trước khi đưa vào chấm.",
+    "disputed": true
+  },
+  "sample-g1-03": {
+    "concept": "congress7",
+    "answer": "d",
+    "tags": [
+      "congress"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-04": {
+    "concept": "tax1908",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-05": {
+    "concept": "versailles",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-06": {
+    "concept": "youth1925",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-07": {
+    "concept": "death-sentence",
+    "answer": "c",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-08": {
+    "concept": "lenin-colonies",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-09": {
+    "concept": "pac-bo",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-10": {
+    "concept": "foundation",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-11": {
+    "concept": "jesus",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-12": {
+    "concept": "marx-method",
+    "answer": "d",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-13": {
+    "concept": "industrialization",
+    "answer": "b",
+    "tags": [],
+    "explanation": "Không đúng là máy móc bắt đầu bằng phát triển công nghiệp nặng. Cần xuất phát từ nền nông nghiệp toàn diện và điều kiện thực tế.",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-14": {
+    "concept": "human-motivation",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-15": {
+    "concept": "lenin-slogan",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-16": {
+    "concept": "front",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-17": {
+    "concept": "lenin-core",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-18": {
+    "concept": "early-ethics",
+    "answer": "b",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-19": {
+    "concept": "van-phuc",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-20": {
+    "concept": "young-generation",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-21": {
+    "concept": "national-first",
+    "answer": "c",
+    "tags": [],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  },
+  "sample-g1-22": {
+    "concept": "truong-son",
+    "answer": "b",
+    "tags": [
+      "date"
+    ],
+    "explanation": "",
+    "note": "",
+    "prompt": null,
+    "options": null,
+    "fixed": false,
+    "pending": "",
+    "disputed": false
+  }
+}
