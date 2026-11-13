@@ -2,6 +2,8 @@
 
 Web ôn trắc nghiệm ưu tiên laptop và desktop, không cần đăng nhập. Học ý cốt lõi, luyện câu ngân hàng, ghi nhớ keyword và ôn lại câu còn yếu.
 
+**Vào học:** [trungngd195.github.io/nam-y-tthcm](https://trungngd195.github.io/nam-y-tthcm/)
+
 ## Chạy tại máy
 
 Cần Node.js 22.18 trở lên (bản 22 LTS hoặc bản LTS mới hơn tương thích).

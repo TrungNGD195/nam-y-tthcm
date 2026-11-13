@@ -17,3 +17,10 @@ Ngày: 13/11/2026. Bản dữ liệu: `2026.11.13.1`.
 - Thống kê học tập lưu riêng theo trình duyệt. Xuất/nhập JSON dùng để chuyển máy, không có đồng bộ tài khoản.
 
 Workflow GitHub Pages tiếp tục chạy cùng các kiểm tra engine, nội dung và trình duyệt trước khi công khai bản build.
+
+## Bản public
+
+- Website: https://trungngd195.github.io/nam-y-tthcm/
+- Repository: https://github.com/TrungNGD195/nam-y-tthcm
+- Workflow build và deploy đã thành công: https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/43464845102
+- Đã mở URL public bằng Chrome headless: HTTP 200, đủ 6 chương; chọn chương → bắt đầu luyện → chọn đúng → xem lời giải → reload giữ nguyên kết quả. Không ghi nhận lỗi JavaScript hoặc HTTP trong lượt kiểm tra.
