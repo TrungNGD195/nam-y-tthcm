@@ -1,6 +1,6 @@
 import '../shared/styles/base.css';
 import '../shared/styles/multisubject.css';
-import { subjects, getSubject, loadBank } from './subjects.ts';
+import { subjects, getSubject, loadBank, loadSolutions } from './subjects.ts';
 import { legacyRedirect, resolveRoute } from './router.ts';
 import { awaitingPage, catalogPage, catalogShell } from '../features/subjects/catalog.ts';
 import { icon, link } from '../shared/ui.ts';
@@ -33,6 +33,11 @@ async function renderApp(): Promise<void> {
   }
   app.innerHTML=catalogShell('<div class="empty-state" role="status">Đang mở nội dung môn học…</div>',subjects,subject.id);
   try{
+    if(subject.learningMode==='solutions'){
+      const [data,module]=await Promise.all([loadSolutions(subject),import('../features/solutions/controller.ts')]);
+      if(token!==generation)return;
+      active={id:subject.id,controller:module.mountSolutions(subject,data)};return;
+    }
     const [bank,module]=await Promise.all([loadBank(subject),import('../features/study/controller.ts')]);
     if(token!==generation)return;
     const controller=module.mountStudy(subject,bank);
@@ -47,8 +52,8 @@ async function renderApp(): Promise<void> {
 document.addEventListener('click',event=>{
   const action=(event.target as Element).closest<HTMLElement>('[data-action]')?.dataset.action;
   if(action==='retry-load'){void renderApp();return;}
+  if(action==='skip-content'){event.preventDefault();document.querySelector<HTMLElement>('#main')?.focus();return;}
   if(active)return;
-  if(action==='skip-content'){event.preventDefault();document.querySelector<HTMLElement>('#main')?.focus();}
   if(action==='menu'){
     const sidebar=document.querySelector('.sidebar'),open=!sidebar?.classList.contains('open');
     sidebar?.classList.toggle('open',open);document.querySelector('.mobile-shade')?.classList.toggle('visible',open);

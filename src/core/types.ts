@@ -4,6 +4,7 @@ export type Collection = { id: string; title: string; description: string; icon:
 export type Subject = {
   id: string; name: string; shortName: string; description: string; icon: string;
   accent: string; accentLight: string; status: 'ready' | 'awaiting-materials';
+  learningMode?: 'quiz' | 'solutions';
   questionCount?: number; chapterCount?: number; examSize?: number; sampleTitle?: string;
   sourceDescription?: string; collections: Collection[];
 };

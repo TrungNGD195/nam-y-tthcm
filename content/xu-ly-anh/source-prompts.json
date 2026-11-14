@@ -1,0 +1,2893 @@
+{
+  "sources": [
+    {
+      "id": "slide-f3847995",
+      "title": "1_DIP1_Intro_3credits_3.pdf",
+      "path": "Xử lý ảnh/Slide/1_DIP1_Intro_3credits_3.pdf",
+      "pages": 11,
+      "sha256": "97657655e999065e515cd3ea7a2098b1f701699bb21e9a3d6f36ebe4e1f634e8"
+    },
+    {
+      "id": "bank",
+      "title": "Ngân hàng câu hỏi.pdf",
+      "path": "Xử lý ảnh/Ngân hàng câu hỏi.pdf",
+      "pages": 12,
+      "sha256": "d7a5480defd216d8f6333be766513f6612c24647b17addfe6785040db3bba6f2"
+    },
+    {
+      "id": "slide-cc89ca81",
+      "title": "1_DIP1_Intro_3credits_1.pdf",
+      "path": "Xử lý ảnh/Slide/1_DIP1_Intro_3credits_1.pdf",
+      "pages": 15,
+      "sha256": "3a89a19907dccbdd0ae14854bbda9df413b2b465b441f704efcf398d82163d98"
+    },
+    {
+      "id": "slide-457ace89",
+      "title": "2_DIP_Fundamentals_rev.pdf",
+      "path": "Xử lý ảnh/Slide/2_DIP_Fundamentals_rev.pdf",
+      "pages": 27,
+      "sha256": "9d8bd42ea93e10251bbdb40b76e8732cf58aa6903831898ad222b7055356c2f3"
+    },
+    {
+      "id": "key",
+      "title": "Ngân hàng câu hỏi - Đáp án chi tiết.pdf",
+      "path": "Xử lý ảnh/Ngân hàng câu hỏi - Đáp án chi tiết.pdf",
+      "pages": 50,
+      "sha256": "ed071db0b671d76ef2fc15e03568ddd2b94e9f75630f58b140ac3eb2b080944d"
+    },
+    {
+      "id": "slide-6e361f49",
+      "title": "8_XLA8_NhanDangAnh.pdf",
+      "path": "Xử lý ảnh/Slide/8_XLA8_NhanDangAnh.pdf",
+      "pages": 74,
+      "sha256": "94b53424c9229dcc47c8e962348eb546b048bd7b7d74c108df5b5c8cda89a67f"
+    },
+    {
+      "id": "slide-d6860fcb",
+      "title": "1_DIP1_Intro_3credits_2.pdf",
+      "path": "Xử lý ảnh/Slide/1_DIP1_Intro_3credits_2.pdf",
+      "pages": 13,
+      "sha256": "ac9a1712995a02a181d8d2f4a029e2646e05b3d24448b74dcc2fe14ea72a2a55"
+    },
+    {
+      "id": "slide-4141e9f7",
+      "title": "1_XLA1_Gioi-thieu.pdf",
+      "path": "Xử lý ảnh/Slide/1_XLA1_Gioi-thieu.pdf",
+      "pages": 37,
+      "sha256": "c2ccefcc3645278c1f9c8f930ca2e59c1eca2b0fa832d6245e505a278072acf6"
+    },
+    {
+      "id": "slide-85ae24a7",
+      "title": "4_DIP4_ColorModel_Printing_rev.pdf",
+      "path": "Xử lý ảnh/Slide/4_DIP4_ColorModel_Printing_rev.pdf",
+      "pages": 66,
+      "sha256": "7d55328c282f477a88f29a32cbbe9f7dda43dd561978d5c7eb9a340c522e6697"
+    },
+    {
+      "id": "slide-f2853554",
+      "title": "DoAn_XuLyAnh.pdf",
+      "path": "Xử lý ảnh/Slide/DoAn_XuLyAnh.pdf",
+      "pages": 8,
+      "sha256": "f9f4192f4c852a2274b2e716d598b21340bdd7218e7b57d7d1a24f5a6da0b1af"
+    },
+    {
+      "id": "slide-84c5bcdd",
+      "title": "2_XLA2_Co-ban-ve-XLA.pdf",
+      "path": "Xử lý ảnh/Slide/2_XLA2_Co-ban-ve-XLA.pdf",
+      "pages": 40,
+      "sha256": "759732a5c4826bcd6bfeead9ef82cac62ac02602bdbd3b3677bb5736d1bf2741"
+    },
+    {
+      "id": "slide-c72bec8c",
+      "title": "8_DIP8_ObjectRecognition_rev.pdf",
+      "path": "Xử lý ảnh/Slide/8_DIP8_ObjectRecognition_rev.pdf",
+      "pages": 51,
+      "sha256": "a648d279aa66110b487aceb529cbb428d2508c1bd99d2a193e0d07e23670576d"
+    },
+    {
+      "id": "textbook",
+      "title": "Giáo trình xử lý ảnh.pdf",
+      "path": "Xử lý ảnh/Giáo trình xử lý ảnh.pdf",
+      "pages": 114,
+      "sha256": "ffe085ba08b81dff29856d9171f30c37b524b7a70d131e22bda4a54a88949686"
+    },
+    {
+      "id": "slide-80de7056",
+      "title": "4_XLA4_-Cac-he-mau-va-ky-thuat-in-anh.pdf",
+      "path": "Xử lý ảnh/Slide/4_XLA4_-Cac-he-mau-va-ky-thuat-in-anh.pdf",
+      "pages": 66,
+      "sha256": "51b175685e059304487e945ce09dd278ee88228724d0465ab39788d569c90a21"
+    },
+    {
+      "id": "slide-93fc03ae",
+      "title": "6_XLA6_Nen-anh.pdf",
+      "path": "Xử lý ảnh/Slide/6_XLA6_Nen-anh.pdf",
+      "pages": 59,
+      "sha256": "ddae50abce8771cf828715ab92b6598ffe9b9dc1f8ead8101e3770de0941888e"
+    },
+    {
+      "id": "slide-2dbce532",
+      "title": "7_DIP7_Morphology.pdf",
+      "path": "Xử lý ảnh/Slide/7_DIP7_Morphology.pdf",
+      "pages": 55,
+      "sha256": "56bb178037093044f0343181e4fd4e8aaa2948c27ae65e736022fd8b7f746ae8"
+    },
+    {
+      "id": "slide-c12ce030",
+      "title": "6_DIP6_ImageCompression_rev.pdf",
+      "path": "Xử lý ảnh/Slide/6_DIP6_ImageCompression_rev.pdf",
+      "pages": 60,
+      "sha256": "248a700112a914716de9dbb83fe2749e3d73e3f0c4878789a3c1ae8420704282"
+    },
+    {
+      "id": "slide-f927fd5a",
+      "title": "3_DIP3_ImageEnhancement_rev.pdf",
+      "path": "Xử lý ảnh/Slide/3_DIP3_ImageEnhancement_rev.pdf",
+      "pages": 81,
+      "sha256": "437ceec63892c4d91af3afb10e0c13ed57b76c87cd6ee2c075e302d714385d8d"
+    },
+    {
+      "id": "slide-aff97144",
+      "title": "5_DIP5_EdgeDetection_ImgSegmentation_rev.pdf",
+      "path": "Xử lý ảnh/Slide/5_DIP5_EdgeDetection_ImgSegmentation_rev.pdf",
+      "pages": 101,
+      "sha256": "09af25b46fb6dfc2f9abc2d125210c0e8ebc74640b497365a59041c857158def"
+    },
+    {
+      "id": "slide-b85f4af9",
+      "title": "7_XLA7_Xu ly hinh thai.pdf",
+      "path": "Xử lý ảnh/Slide/7_XLA7_Xu ly hinh thai.pdf",
+      "pages": 50,
+      "sha256": "1d2479314c7da561e3e8aeeb0117dffd93a84e4e17d4429dbaad1a0d4842d90f"
+    },
+    {
+      "id": "slide-f3d70c08",
+      "title": "5_XLA5_Phat-hien-bien.pdf",
+      "path": "Xử lý ảnh/Slide/5_XLA5_Phat-hien-bien.pdf",
+      "pages": 100,
+      "sha256": "94fac2379fe8692f4248a8b00d9dac6e41430db9ed27c8809879041fb94b7986"
+    },
+    {
+      "id": "slide-21086cbe",
+      "title": "3_XLA3_Nang-cao-chat-luong-anh.pdf",
+      "path": "Xử lý ảnh/Slide/3_XLA3_Nang-cao-chat-luong-anh.pdf",
+      "pages": 84,
+      "sha256": "967a02940e00c55b705dacb4959611e428a12eaa76ea1c42b075618b701ce547"
+    },
+    {
+      "id": "english-theory",
+      "title": "Theory Questions.pdf",
+      "path": "Ôn tập/Theory Questions.pdf",
+      "pages": 2,
+      "sha256": "f37bc7c11af79c5d85d1199d79d81589e81b92123f80e4c4d5a925ad3932b625"
+    },
+    {
+      "id": "uyen-5",
+      "title": "BT chương 5.pdf",
+      "path": "Ôn tập/BT chương 5.pdf",
+      "pages": 5,
+      "sha256": "fe83b5bc4043eb788ea3e8c88dee20b19af7b19e29a2eaaf6616c30f43213971"
+    },
+    {
+      "id": "uyen-theory",
+      "title": "Lý thuyết.pdf",
+      "path": "Ôn tập/Lý thuyết.pdf",
+      "pages": 2,
+      "sha256": "1a9f90dcc1b63eeb4a4a133c8d33b51b684a26e1ef68ff5bb1f3ae42f7227298"
+    },
+    {
+      "id": "uyen-3",
+      "title": "BT chương 3.pdf",
+      "path": "Ôn tập/BT chương 3.pdf",
+      "pages": 4,
+      "sha256": "0434b1b66c3d7ac48902606fdf0312f2b81d969300c458b9e349b62f9fd08286"
+    },
+    {
+      "id": "uyen-4",
+      "title": "BT chương 4.pdf",
+      "path": "Ôn tập/BT chương 4.pdf",
+      "pages": 2,
+      "sha256": "3e8a04c57f645eed18bcbc702579a778dd8594abfcdc50aeec0d9497147528d2"
+    },
+    {
+      "id": "uyen-7",
+      "title": "BT chương 7.pdf",
+      "path": "Ôn tập/BT chương 7.pdf",
+      "pages": 6,
+      "sha256": "5db17cd65ab4bb04f7ac9c533278375fbdcc64366193fb71e7c8de78bc8d8290"
+    },
+    {
+      "id": "uyen-6",
+      "title": "BT chương 6.pdf",
+      "path": "Ôn tập/BT chương 6.pdf",
+      "pages": 7,
+      "sha256": "2514cb9b428f14271775876e5875ba36418cfb7a50bcffa2345927f87ac4ffb9"
+    }
+  ],
+  "records": [
+    {
+      "id": "bank-1-1",
+      "code": "1.1",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.1(A) Mô hình mầu là gì? Liệt kê một vài mô hình mầu thông dụng.",
+      "prompt": "1.1(A) Mô hình mầu là gì? Liệt kê một vài mô hình mầu thông dụng.",
+      "images": []
+    },
+    {
+      "id": "bank-1-2",
+      "code": "1.2",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.2(A) Mô hình mầu CMYlà gì? CMY khác RGB ở chỗ nào?",
+      "prompt": "1.2(A) Mô hình mầu CMYlà gì? CMY khác RGB ở chỗ nào?",
+      "images": []
+    },
+    {
+      "id": "bank-1-3",
+      "code": "1.3",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.3(A) Tại sao người ta phát triển nên hệ mầu HSV và HSL? Nêu ý nghĩa của từng chữ cái thể hiện\nmột thành phần của HSV và HSL (H là gì, S là gì...).",
+      "prompt": "1.3(A) Tại sao người ta phát triển nên hệ mầu HSV và HSL? Nêu ý nghĩa của từng chữ cái thể hiện một thành phần của HSV và HSL (H là gì, S là gì...).",
+      "images": []
+    },
+    {
+      "id": "bank-1-4",
+      "code": "1.4",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.4(A) Mô hình lưu trữ raster là gì? Mô hình raster khác mô hình vector ở điểm nào? Trong trường\nhợp nào thì dùng raster và trong trường hợp nào thì dùng vector?",
+      "prompt": "1.4(A) Mô hình lưu trữ raster là gì? Mô hình raster khác mô hình vector ở điểm nào? Trong trường hợp nào thì dùng raster và trong trường hợp nào thì dùng vector?",
+      "images": []
+    },
+    {
+      "id": "bank-1-5",
+      "code": "1.5",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.5(A) Tại sao kỹ thuật nửa cường độ (halftone) được dùng trong in ấn? Và ý tưởng cơ bản của kỹ\nthuật nửa cường độ là gì?",
+      "prompt": "1.5(A) Tại sao kỹ thuật nửa cường độ (halftone) được dùng trong in ấn? Và ý tưởng cơ bản của kỹ thuật nửa cường độ là gì?",
+      "images": []
+    },
+    {
+      "id": "bank-1-6",
+      "code": "1.6",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.6(A) Để in ảnh đa cấp xám với chỉ mực mầu đen cần sử dụng kỹ thuật gì? Khuếch tán lỗi hỗ trợ\nđược gì cho kỹ thuật này? Khuếch tán lỗi hơn gì tách ngưỡng thông thường?",
+      "prompt": "1.6(A) Để in ảnh đa cấp xám với chỉ mực mầu đen cần sử dụng kỹ thuật gì? Khuếch tán lỗi hỗ trợ được gì cho kỹ thuật này? Khuếch tán lỗi hơn gì tách ngưỡng thông thường?",
+      "images": []
+    },
+    {
+      "id": "bank-1-7",
+      "code": "1.7",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.7(A) Khuếch tán lỗi là gì? Khuếch tán lỗi một chiều khác gì khuếch tán lỗi hai chiều? Khuếch\ntán lỗi hai chiều khắc phục được điểm yếu gì của khuếch tán lỗi một chiều?",
+      "prompt": "1.7(A) Khuếch tán lỗi là gì? Khuếch tán lỗi một chiều khác gì khuếch tán lỗi hai chiều? Khuếch tán lỗi hai chiều khắc phục được điểm yếu gì của khuếch tán lỗi một chiều?",
+      "images": []
+    },
+    {
+      "id": "bank-1-8",
+      "code": "1.8",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.8(B) Với ảnh đa mức xám thì tăng giảm độ sáng của ảnh như thế nào? Chúng ta phải sử dụng\ntoán tử loại nào đề thực hiện phép toán này?",
+      "prompt": "1.8(B) Với ảnh đa mức xám thì tăng giảm độ sáng của ảnh như thế nào? Chúng ta phải sử dụng toán tử loại nào đề thực hiện phép toán này?",
+      "images": []
+    },
+    {
+      "id": "bank-1-9",
+      "code": "1.9",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.9(B) Cân bằng tần suất là gì? Tại sao phải cân bằng tần suất?",
+      "prompt": "1.9(B) Cân bằng tần suất là gì? Tại sao phải cân bằng tần suất?",
+      "images": []
+    },
+    {
+      "id": "bank-1-10",
+      "code": "1.10",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.10(C) Biến đổi cửa sổ di chuyển hay còn gọi là biến đổi cuộn là biến đối sử dụng toán tử gì? Ý\ntưởng cơ bản của biến đổi này là gì?",
+      "prompt": "1.10(C) Biến đổi cửa sổ di chuyển hay còn gọi là biến đổi cuộn là biến đối sử dụng toán tử gì? Ý tưởng cơ bản của biến đổi này là gì?",
+      "images": []
+    },
+    {
+      "id": "bank-1-11",
+      "code": "1.11",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.11(B) Mô hình nhiễu là gì? Tại sao phải sử dụng mô hình nhiễu. Biên là gì? Phát hiện biên trực\ntiếp là gì? Nêu một vài ví dụ về cách phát hiện biên trực tiếp?",
+      "prompt": "1.11(B) Mô hình nhiễu là gì? Tại sao phải sử dụng mô hình nhiễu. Biên là gì? Phát hiện biên trực tiếp là gì? Nêu một vài ví dụ về cách phát hiện biên trực tiếp?",
+      "images": []
+    },
+    {
+      "id": "bank-1-12",
+      "code": "1.12",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.12(D) Biên là gì? Phát hiện biên gián tiếp là gì? Nêu một vài ví dụ về cách phát hiện biên gián\ntiếp?",
+      "prompt": "1.12(D) Biên là gì? Phát hiện biên gián tiếp là gì? Nêu một vài ví dụ về cách phát hiện biên gián tiếp?",
+      "images": []
+    },
+    {
+      "id": "bank-1-13",
+      "code": "1.13",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.13(D) Biên là gì? Nhiễu là gi? Làm thế nào đ phân biệt biên và nhiễu?",
+      "prompt": "1.13(D) Biên là gì? Nhiễu là gi? Làm thế nào đ phân biệt biên và nhiễu?",
+      "images": []
+    },
+    {
+      "id": "bank-1-14",
+      "code": "1.14",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": 1,
+      "chapter": null,
+      "originalText": "1.14(D) Tại sao chúng ta phải nén ảnh? Nén dữ liệu nói chung và nén ảnh nói riêng khác nhau cơ\nbản ở điểm gì?",
+      "prompt": "1.14(D) Tại sao chúng ta phải nén ảnh? Nén dữ liệu nói chung và nén ảnh nói riêng khác nhau cơ bản ở điểm gì?",
+      "images": []
+    },
+    {
+      "id": "bank-2-1",
+      "code": "2.1",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.1(A) Phối mầu cộng là gì? Phối mầu trừ là gì? Trong trường hợp nào thì sử dụng phối mầu cộng,\ntrong trường hợp nào thì sử dụng phối mầu trừ?",
+      "prompt": "2.1(A) Phối mầu cộng là gì? Phối mầu trừ là gì? Trong trường hợp nào thì sử dụng phối mầu cộng, trong trường hợp nào thì sử dụng phối mầu trừ?",
+      "images": []
+    },
+    {
+      "id": "bank-2-2",
+      "code": "2.2",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.2(A) Mô hình mầu CMY là gì? Tại sao phải sử dụng hệ mầu CMY? Làm thể nào để chuyển từ\nhệ mầu RGB sang hệ mầu CMY?",
+      "prompt": "2.2(A) Mô hình mầu CMY là gì? Tại sao phải sử dụng hệ mầu CMY? Làm thể nào để chuyển từ hệ mầu RGB sang hệ mầu CMY?",
+      "images": []
+    },
+    {
+      "id": "bank-2-3",
+      "code": "2.3",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.3(A) Mô hình lưu trữ vector là gì? Mô hình vector khác mô hình cơ bản ở điểm nào? Nếu ảnh\nvector có nhiều ưu điểm tại sao không sử dụng vector mà vẫn phải sử dụng ảnh raster?",
+      "prompt": "2.3(A) Mô hình lưu trữ vector là gì? Mô hình vector khác mô hình cơ bản ở điểm nào? Nếu ảnh vector có nhiều ưu điểm tại sao không sử dụng vector mà vẫn phải sử dụng ảnh raster?",
+      "images": []
+    },
+    {
+      "id": "bank-2-4",
+      "code": "2.4",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.4(C) Lọc trung vị khác với lọc trung bình khác với lọc trung bình k giá trị gần nhất như thế nào?\nNên chọn từng phép lọc trong từng trường hợp như thế nào?",
+      "prompt": "2.4(C) Lọc trung vị khác với lọc trung bình khác với lọc trung bình k giá trị gần nhất như thế nào? Nên chọn từng phép lọc trong từng trường hợp như thế nào?",
+      "images": []
+    },
+    {
+      "id": "bank-2-5",
+      "code": "2.5",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.5(D) Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Ma trận (-1 1) có ý nghĩa gì?",
+      "prompt": "2.5(D) Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Ma trận (-1 1) có ý nghĩa gì?",
+      "images": []
+    },
+    {
+      "id": "bank-2-6",
+      "code": "2.6",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.6(D) Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Nêu ba loại ma trận nhân chập có thể\ntìm biên. Với mỗi ma trận hãy nêu nguyên lý và các bước tiếp theo nếu có để có biên rõ ràng.",
+      "prompt": "2.6(D) Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Nêu ba loại ma trận nhân chập có thể tìm biên. Với mỗi ma trận hãy nêu nguyên lý và các bước tiếp theo nếu có để có biên rõ ràng.",
+      "images": []
+    },
+    {
+      "id": "bank-2-7",
+      "code": "2.7",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.7(D) Canny có mấy bước, là những bước gì? Bước nào trong Canny là quan trọng nhất, tại sao?",
+      "prompt": "2.7(D) Canny có mấy bước, là những bước gì? Bước nào trong Canny là quan trọng nhất, tại sao?",
+      "images": []
+    },
+    {
+      "id": "bank-2-8",
+      "code": "2.8",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.8(D) Phân vùng dùng thuật toán đối xứng nền là kỹ thuật gì? Dựa vào điều gì trong các bức ảnh\nđầu vào cho phép thuật toán trả về kết quả đúng nhất?",
+      "prompt": "2.8(D) Phân vùng dùng thuật toán đối xứng nền là kỹ thuật gì? Dựa vào điều gì trong các bức ảnh đầu vào cho phép thuật toán trả về kết quả đúng nhất?",
+      "images": []
+    },
+    {
+      "id": "bank-2-9",
+      "code": "2.9",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.9(D) Phân vùng sử dụng thuật toán tam giác là gì? Ý tưởng cơ bản của thuật toán này là gì?\nTrong trường hợp nào thì thuật toán này không nên sử dụng?",
+      "prompt": "2.9(D) Phân vùng sử dụng thuật toán tam giác là gì? Ý tưởng cơ bản của thuật toán này là gì? Trong trường hợp nào thì thuật toán này không nên sử dụng?",
+      "images": []
+    },
+    {
+      "id": "bank-2-10",
+      "code": "2.10",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.10(D) Kỹ thuật tách cây tứ phân và hợp cũng như tách-hợp trong phân vùng dựa vào ý tưởng gì?\nYếu tố gì đánh giá tính chính xác cũng như tính thống nhất của thuật toán?",
+      "prompt": "2.10(D) Kỹ thuật tách cây tứ phân và hợp cũng như tách-hợp trong phân vùng dựa vào ý tưởng gì? Yếu tố gì đánh giá tính chính xác cũng như tính thống nhất của thuật toán?",
+      "images": []
+    },
+    {
+      "id": "bank-2-11",
+      "code": "2.11",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.11(D) Kỹ thuật K trung bình là kỹ thuật gì, ý tưởng cơ bản là gì? Yếu tố gì có ảnh hưởng rất lớn\ntới hiệu suất của k trung bình?",
+      "prompt": "2.11(D) Kỹ thuật K trung bình là kỹ thuật gì, ý tưởng cơ bản là gì? Yếu tố gì có ảnh hưởng rất lớn tới hiệu suất của k trung bình?",
+      "images": []
+    },
+    {
+      "id": "bank-2-12",
+      "code": "2.12",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.12(D) Kỹ thuật K láng giềng là kỹ thuật gì? K láng giềng thường được sử dụng để làm gì? Ý\ntưởng căn bản nhất của K láng giềng là gì?",
+      "prompt": "2.12(D) Kỹ thuật K láng giềng là kỹ thuật gì? K láng giềng thường được sử dụng để làm gì? Ý tưởng căn bản nhất của K láng giềng là gì?",
+      "images": []
+    },
+    {
+      "id": "bank-2-13",
+      "code": "2.13",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.13(D) Mạng Hopfield là gì? Mạng Hopfield có cấu tạo như thế nào? Mô tả sơ bộ hoạt động của\nmạng Hopfield.",
+      "prompt": "2.13(D) Mạng Hopfield là gì? Mạng Hopfield có cấu tạo như thế nào? Mô tả sơ bộ hoạt động của mạng Hopfield.",
+      "images": []
+    },
+    {
+      "id": "bank-2-14",
+      "code": "2.14",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.14(D) Mạng Kohonen có tên gọi khác là gì? Tại sao chúng ta gọi mạng Kohonen như vậy? Ý\ntưởng cơ bản của mạng Kohonen là gì? Ở khía cạnh nào mạng Kohonen mô phỏng não người?",
+      "prompt": "2.14(D) Mạng Kohonen có tên gọi khác là gì? Tại sao chúng ta gọi mạng Kohonen như vậy? Ý tưởng cơ bản của mạng Kohonen là gì? Ở khía cạnh nào mạng Kohonen mô phỏng não người?",
+      "images": []
+    },
+    {
+      "id": "bank-2-15",
+      "code": "2.15",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.15(D) Mã hóa loạt dài RLC là gì? Trong trường hợp nào mã hóa loạt dài sẽ tăng kích thước dự\nliệu được mã hóa?",
+      "prompt": "2.15(D) Mã hóa loạt dài RLC là gì? Trong trường hợp nào mã hóa loạt dài sẽ tăng kích thước dự liệu được mã hóa?",
+      "images": []
+    },
+    {
+      "id": "bank-2-16",
+      "code": "2.16",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        3
+      ],
+      "kind": "theory",
+      "points": 2,
+      "chapter": null,
+      "originalText": "2.16(D) Biến đổi Cosin trong nén JPEG nhằm mục đích gì? Và bước nào trong nén JPEG sẽ làm\ncho quá trình nén ảnh là không bảo toàn?",
+      "prompt": "2.16(D) Biến đổi Cosin trong nén JPEG nhằm mục đích gì? Và bước nào trong nén JPEG sẽ làm cho quá trình nén ảnh là không bảo toàn?",
+      "images": []
+    },
+    {
+      "id": "bank-3-1",
+      "code": "3.1",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.1(C) a.Tính biểu đồ tần suất h(g) cho bức ảnh I sau:\n\n                              1  2  1  3  2  1\n                              4  4  3  2  4  0\n                              6  9  2  3  2  1\n                    𝐼=\n                              6  2  0  5  3  0\n                              3  4  0  5  1  5\n                                              [5  6  8  9  3  6]\nb. h'(g) là biểu đồ tần suất của ảnh I' biển đổi từ ảnh I bằng hàm f(g) sau. Hãy tính h'(g).\n\n                                 𝑓(𝑔) = |𝑔−4|",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-1-p4.webp"
+      ]
+    },
+    {
+      "id": "bank-3-2",
+      "code": "3.2",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.2(C) a.Tính biểu đồ tần suất h(g) cho bức ảnh I sau:\n\n                              1  2  1  3  2  1\n                              4  4  3  2  4  0\n                              6  9  2  3  2  1\n                    𝐼=\n                              6  2  0  5  3  0\n                              3  4  0  5  1  5\n                                              [5  6  8  9  3  6]\nb. h'(g) là biểu đồ tần suất của ảnh I' biển đổi từ ảnh I bằng hàm f(g) sau. Hãy tính h'(g).\n\n                                𝑓(𝑔) = |2𝑔−9|",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-2-p4.webp"
+      ]
+    },
+    {
+      "id": "bank-3-3",
+      "code": "3.3",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.3(C) a.Tính biểu đồ tần suất h(g) cho bức ảnh I sau:\n\n                              1  2  1  3  2  1\n                              4  4  3  2  4  0\n                              6  9  2  3  2  1\n                    𝐼=\n                              6  2  0  5  3  0\n                              3  4  0  5  1  5\n                                              [5  6  8  9  3  6]\nb. Thực hiện làm trơn biểu đồ tần suất tính được ở trên với W=3 và W=5.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-3-p4.webp"
+      ]
+    },
+    {
+      "id": "bank-3-4",
+      "code": "3.4",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.4(C) a.Thực hiện cân bằng tần suất cho ảnh I, được biết ảnh gốc và ảnh kết quả cùng là ảnh 6 cấp\nxám.\n\n                              3  1  4  4  2  3\n                              3  2  2  0  5  1\n                              1  2  3  1  0  1\n                    𝐼=\n                              4  1  0  2  4  4\n                              3  1  0  1  0  1\n                                              [2  1  3  2  1  3]\nb. Thế nào là ảnh cân bằng lý tưởng? Sau khi cân bằng thì ảnh đã là cân bằng lý tưởng chưa?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-4-p4.webp"
+      ]
+    },
+    {
+      "id": "bank-3-5",
+      "code": "3.5",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        5
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.5(C) a. Thực hiện cân bằng tần suất cho ảnh I thành ảnh I’, được biết ảnh I và I’ cùng là ảnh 6\ncấp xám.\n\n                              3  4  1  1  4  3\n                              3  4  4  5  0  4\n                              4  4  3  4  5  4\n                    𝐼=\n                              1  4  5  4  0  2\n                              3  4  5  4  5  4\n                                              [2  4  3  4  2  3]\nb. Thế nào là ảnh cân bằng lý tưởng? Sau khi cân bằng thì ảnh đã là cân bằng lý tưởng chưa?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-5-p5.webp"
+      ]
+    },
+    {
+      "id": "bank-3-6",
+      "code": "3.6",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        5
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.6(B) a. Thực hiện khuếch tán lỗi một chiều với ảnh I sử dụng ngưỡng 127, được biết ảnh này là\nảnh 256 mức xám với mức nhỏ nhất là 0 và lớn nhất là 255.\n\n                                                   1   23  156  22  45 \n                                                                                                                                   I = 133  13   12  12  212                                                                             \n                                                                                                     12  232  127  32  21 \nb. Kỹ thuật khuếch tán lỗi được sử dụng để làm gì, ảnh thu được sau khuếch tán lỗi hơn gì ảnh tách\nngưỡng thông thường ?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-6-p5.webp"
+      ]
+    },
+    {
+      "id": "bank-3-7",
+      "code": "3.7",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        5
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.7(B) a. Thực hiện khuếch tán lỗi một chiều với ảnh I sử dụng ngưỡng 127, được biết ảnh này là\nảnh 256 mức xám với mức nhỏ nhất là 0 và lớn nhất là 255.\n\n                                                    11  23  156  2   45 \n                                                                                                                                     I = 12  133  32  12  112                                                                              \n                                                                                                        12  232  127  32  128 \nb. Kỹ thuật khuếch tán lỗi được sử dụng để làm gì, ảnh thu được sau khuếch tán lỗi hơn gì ảnh tách\nngưỡng thông thường ?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-7-p5.webp"
+      ]
+    },
+    {
+      "id": "bank-3-8",
+      "code": "3.8",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        5
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.8(D) Thực hiện mã hóa ảnh sau bằng thuật toán Huffman. Được biết ảnh được chia làm các khối\n\nkích thước 2x2 để làm đơn vị mã hóa (Mỗi khối này sẽ như là một chữ cái của bức ảnh).\n\n                        1  1  1  0  1  1  1  1  1  1  1  0  1  1  1  1  1  0  0  1 \n                                                                                                                  1  1  0  1  1  1  1  1  1  0  1  0  1  1  1  0  1  0  0  1                                                                                               \n                        1  0  1  0  1  1  1  1  1  0  0  1  1  1  0  0  0  0  0  0 \n                       I =                                                                        \n                         0  1  0  1  1  0  0  0  1  0  0  1  1  0  1  1  1  1  0  0 \n                        1  1  1  0  1  1  1  1  1  1  1  0  0  0  0  0  0  0  1  1 \n                                                0  0  0  1  1  1  1  0  1  1  0  1  1  1  0  0  0  0  1  1 ",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-8-p5.webp"
+      ]
+    },
+    {
+      "id": "bank-3-9",
+      "code": "3.9",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        6
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.9(D) Thực hiện mã hóa ảnh sau bằng thuật toán Huffman. Được biết ảnh được chia làm các khối\n\nkích thước 2x2 để làm đơn vị mã hóa (Mỗi khối này sẽ như là một chữ cái của bức ảnh).\n\n                       1  1  1  0  1  1  1  1  1  1  1  0  1  1  1  1  1  0  0  1 \n                                                                                                                 1  1  0  1  1  1  1  1  0  0  1  0  1  1  1  0  1  0  0  1                                                                                              \n                       1  0  1  0  1  1  1  1  1  0  0  1  1  1  0  0  1  1  0  0 \n                       I =                                                                        \n                        0  1  0  1  1  0  0  0  1  0  0  1  1  0  1  1  1  1  0  0 \n                       1  1  1  1  1  1  1  1  1  1  1  0  0  0  1  0  0  0  1  1 \n                                                0  0  1  1  1  1  1  0  1  1  0  1  1  1  0  1  0  0  1  1 ",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-9-p6.webp"
+      ]
+    },
+    {
+      "id": "bank-3-10",
+      "code": "3.10",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        6
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.10(D) Thực hiện phép co và dãn hình X với một phần tử cấu trúc B sau để được hai hình X1 và\n\nX2.\n\n                                0  1  1  0  0  1  0  0 \n                                                                                   1  1  0  0  0  1  1  0                                                          \n                                0  1  1  0  1  1  1  1 \n                                                                    0  1  0 \n                         1  1  0  1  1  1  1  1                                                                                                                            X =                                 với B = 1  1  1\n                               1  0  1  1  1  1  0  0                  \n                                                                    0  1  0 \n                               1  0  0  1  0  1  1  1 \n                                                                                   1  0  1  1  1  0  1  0\n                                                          \n                               1  0  0  0  1  1  1  1 ",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-10-p6.webp"
+      ]
+    },
+    {
+      "id": "bank-3-11",
+      "code": "3.11",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        6
+      ],
+      "kind": "exercise",
+      "points": 3,
+      "chapter": null,
+      "originalText": "3.11(D) Thực hiện phép co và dãn hình X với một phần tử cấu trúc B sau để được hai hình X1 và\n\nX2.\n\n                                0  1  1  0  0  1  0  0 \n                                                                                   1  1  0  0  0  1  1  0                                                          \n                                0  1  1  0  1  1  1  1 \n                                                                   1  0  0 \n                         1  1  0  1  1  1  1  1                                                                                                                             X =                                 với B = 0  1  1\n                               1  0  1  1  1  1  0  0                   \n                                                                   1  0  0 \n                               1  0  0  1  0  1  1  1 \n                                                                                   1  0  1  1  1  0  1  0\n                                                          \n                               1  0  0  0  1  1  1  1 ",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-3-11-p6.webp"
+      ]
+    },
+    {
+      "id": "bank-4-1",
+      "code": "4.1",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        7
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.1(D) Cho ảnh I như sau:\n\n                           2  2  2   2   2  2  2\n                           2  2  2   2   2  2  2\n                           2  2  15  15  15  2  2\n                  𝐼= 2  2  13  12  16  2  2\n                           2  2  15  15  15  2  2\n                           2  2  2   2   2  2  2\n                                          [2  2  2   2   2  2  2]\na. Thực hiện nhân chập ảnh I với các ma trận Hx và Hy rồi cộng với nhau để được ảnh I1\n\n                     −1  0  1        −1  −1  −1\n               𝐻𝑥= [ −1  0  1 ] và 𝐻𝑦= [ 0   0   0 ]\n                     −1  0  1          1   1   1\nb. Thực hiện nhân chập ảnh I ở trên với Hz dưới đây để được I2\n\n                            −1  −1  −1\n                      𝐻𝑧= [ −1  8  −1]\n                            −1  −1  −1\nc. Ảnh I1, I2 đã là ảnh biên chưa? Cần phải làm thêm những gì để có ảnh biên? (nên sử dụng kết\nquả trên để minh họa)\nLưu ý nhân chập sử dụng tâm ở giữa.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-1-p7.webp"
+      ]
+    },
+    {
+      "id": "bank-4-2",
+      "code": "4.2",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        7
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.2(D) Cho ảnh I như sau:\n\n                           2  2  2   2   2  2  2\n                           2  2  2   2   2  2  2\n                           2  2  15  15  15  2  2\n                  𝐼= 2  2  13  12  16  2  2\n                           2  2  15  15  15  2  2\n                           2  2  2   2   2  2  2\n                                          [2  2  2   2   2  2  2]\na. Thực hiện nhân chập ảnh I với các ma trận Hx và Hy rồi cộng với nhau để được ảnh I1\n\n                        1  0  −1          1   2   1\n               𝐻𝑥= [ 2  0  −2] và 𝐻𝑦= [ 0   0   0 ]\n                        1  0  −1        −1  −2  −1\nb. Thực hiện nhân chập ảnh I ở trên với Hz dưới đây để được I2\n\n                                 0  −1  0\n                      𝐻𝑧= [ −1  4  −1]\n                                 0  −1  0\nc. Ảnh I1, I2 đã là ảnh biên chưa? Cần phải làm thêm những gì để có ảnh biên? (nên sử dụng kết\nquả trên để minh họa)\nLưu ý nhân chập sử dụng tâm ở giữa.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-2-p7.webp"
+      ]
+    },
+    {
+      "id": "bank-4-3",
+      "code": "4.3",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        8
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.3(D) Cho ảnh I1 và I2 cùng Hx và Hy như sau:\n\n                      5  5  5  5  5  5  5                    5   5   5   5   5   5   5 \n                                                                                                               4  5  5  5  5  5  5                14  5   5   5   5   5   5                                                                                              \n                      3  4  5  5  5  5  5                    3  14  5   5   5   5   5 \n                                                                                              \n                   1I =  3  3  4  5  5  5  5               2I =  3   3  14  5   5   5   5 \n                      3  3  3  4  4  4  4                    3   3   3  14  14  14  14 \n                                                                                              \n                      3  3  3  3  3  3  3                    3   3   3   3   3   3   3 \n                                                                                                                    3  3  3  3  3  3  3                    3   3   3   3   3   3   3 \n\n                  −1  0  1            −1  −1  −1\n             𝐻𝑥= [ −1  0  1 ]      𝐻𝑦= [ 0   0   0 ]\n                  −1  0  1               1   1   1\na. Thực hiện nhân chập ảnh I1 với các ma trận Hx và Hy rồi cộng với nhau để được ảnh I1’\na. Thực hiện nhân chập ảnh I2 với các ma trận Hx và Hy rồi cộng với nhau để được ảnh I2’\nc. Ảnh I1’, I2’ khác gì nhau?\nLưu ý nhân chập sử dụng tâm ở giữa.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-3-p8.webp"
+      ]
+    },
+    {
+      "id": "bank-4-4",
+      "code": "4.4",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        8
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.4(D) Cho ảnh I1 và I2 cùng Hx và Hy như sau:\n\n                      5  5  5  5  5  5  5                    5   5   5   5   5   5   5 \n                                                                                                               5  5  5  5  5  5  5                5   5   5   5   5   5   5                                                                                              \n                      5  5  5  5  5  5  5                    5   5   5   5   5   5   5 \n                                                                                              \n                   1I =  5  5  5  5  5  5  5               2I =  5   5   5   5   5   5   5 \n                      5  5  5  4  4  4  4                    5   5   5  14  14  14  14 \n                                                                                              \n                      5  4  4  3  3  3  3                    5  14  14  3   3   3   3 \n                                                                                                                    4  3  3  3  3  3  3                   14  3   3   3   3   3   3 \n\n                      1  0  −1               1   2   1\n             𝐻𝑥= [ 2  0  −2]      𝐻𝑦= [ 0   0   0 ]\n                      1  0  −1            −1  −2  −1\na. Thực hiện nhân chập ảnh I1 với các ma trận Hx và Hy rồi cộng với nhau để được ảnh I1’\na. Thực hiện nhân chập ảnh I2 với các ma trận Hx và Hy rồi cộng với nhau để được ảnh I2’\nc. Ảnh I1’, I2’ khác gì nhau?\nLưu ý nhân chập sử dụng tâm ở giữa.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-4-p8.webp"
+      ]
+    },
+    {
+      "id": "bank-4-5",
+      "code": "4.5",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        9
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.5(C) a. Sử dụng thuật toán tìm ngưỡng tự động để tách ngưỡng ảnh I, được biết ảnh có 10 mức\n\nxám.\n\nb. Có lúc nào chúng ta có thể tìm được nhiều ngưỡng không? Trong trường hợp như vậy thì ta nên\n\nxử lý như thế nào?\n\n                                        1  4  1  1  2  3  2  3 \n                                                                                                  3  2  3  2  5  2  6  2                                                                   \n                                        2  3  8  2  3  2  5  6 \n                                        I =                             \n                               4  5  2  4  2  9  1  4                                                                   \n                                        2  4  3  2  0  1  2  1 \n                                                                               3  5  7  1  2  4  5  6 ",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-5-p9.webp"
+      ]
+    },
+    {
+      "id": "bank-4-6",
+      "code": "4.6",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        9
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.6(C) a. Sử dụng thuật toán tìm ngưỡng tự động để tách ngưỡng ảnh I, được biết ảnh có 10 mức\n\nxám.\n\nb. Có lúc nào chúng ta có thể tìm được nhiều ngưỡng không? Trong trường hợp như vậy thì ta nên\n\nxử lý như thế nào?\n\n                                        1  4  1  1  2  3  2  3 \n                                                                                                  3  2  3  2  5  2  6  2                                                                   \n                                        2  1  8  2  3  2  5  6 \n                                         I =                             \n                               2  5  2  4  2  9  1  4                                                                   \n                                        2  2  3  2  0  1  2  1 \n                                                                               1  5  7  1  2  4  5  6 ",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-6-p9.webp"
+      ]
+    },
+    {
+      "id": "bank-4-7",
+      "code": "4.7",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.7(C) a. Thực hiện tìm ngưỡng tự động với thuật toán đẳng liệu cho bức ảnh I có biểu đồ tần suất\nsau:\n\n     g    0    1    2    3    4    5    6    7    8    9\n\n      h(g)  27   45   33   22   22   36   45   34   23   13\n\nMô tả từng bước cho đến khi tìm được ngưỡng mong muốn. Được biết ảnh có 10 mức xám.\n\nb. Thực hiện tìm ngưỡng tự động với thuật toán đối xứng nền cho bức ảnh I' có biểu đồ tần suất\nsau:\n\n     g    0    1    2    3    4    5    6    7    8    9\n\n      h(g)  2    3    4    5    7    8    12   47   10   2\n\nĐược biết độ chính xác cần tính là 88%.\nthì bạn chọn thế nào và tại sao?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-7-p9.webp",
+        "subjects/xu-ly-anh/prompts/bank-4-7-p10.webp"
+      ]
+    },
+    {
+      "id": "bank-4-8",
+      "code": "4.8",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        10
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.8(C) a. Thực hiện tìm ngưỡng tự động với thuật toán đẳng liệu cho bức ảnh I có biểu đồ tần suất\nsau:\n\n     g    0    1    2    3    4    5    6    7    8    9\n\n      h(g)  13   45   33   22   22   36   47   43   32   13\n\nMô tả từng bước cho đến khi tìm được ngưỡng mong muốn. Được biết ảnh có 10 mức xám.\n\nb. Thực hiện tìm ngưỡng tự động với thuật toán đối xứng nền cho bức ảnh I' có biểu đồ tần suất\nsau:\n\n     g    0    1    2    3    4    5    6    7    8    9\n\n      h(g)  2    3    4    5    7    12   47   11   8    2\n\nĐược biết độ chính xác cần tính là 91%.\n\nc. Với hai biểu đồ tần suất như trên thì việc chọn phương pháp đã đúng chưa? Nếu được chọn lại\nthì bạn chọn thế nào và tại sao?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-8-p10.webp"
+      ]
+    },
+    {
+      "id": "bank-4-8-bs",
+      "code": "4.8-bs",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        10
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "a. Thực hiện tìm ngưỡng tự động với thuật toán đẳng điệu cho bức ảnh I có biểu đồ tần suất sau:\n\n\n     g    0    1    2    3    4    5    6    7    8    9\n\n\n      h(g)  20   40   30   50   70   60   120  250  100  20\n\n\nMô tả từng bước cho đến khi tìm được ngưỡng mong muốn. Được biết ảnh có 10 mức xám.\n\nb. Thực hiện tìm ngưỡng tự động với thuật toán đối xứng nền cho bức ảnh I' có biểu đồ tần suất\n\nsau:\n\n\n     g    0    1    2    3    4    5    6    7    8    9\n\n      h(g)  39   45   53   72   40   112  25   34   23   13\n\n\nĐược biết độ chính xác cần tính là 88%.\n\nVới hai biểu đồ tần suất như trên thì việc chọn phương pháp đã đúng chưa? Nếu được chọn lại thì\n\nbạn chọn thế nào và tại sao?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-8-bs-p10.webp"
+      ]
+    },
+    {
+      "id": "bank-4-9",
+      "code": "4.9",
+      "area": "bank",
+      "sourceId": "bank",
+      "sourcePages": [
+        11
+      ],
+      "kind": "exercise",
+      "points": 4,
+      "chapter": null,
+      "originalText": "4.9(D) Thực hiện mã hóa ảnh sau bằng kỹ thuật LZW. Được biết ảnh được chia làm các khối kích\nthước 1x2 để làm đơn vị mã hóa. Và từ điền gốc bao gồm 4 đơn vị mã hóa sau 00, 01, 10, 11 tương\nđương với giá trị từ 0 đến 3, từ điển sẽ được xây dựng tiếp theo từ giá trị 4. Bức ảnh sẽ được đọc từ\ntrái qua phải và từ trên xuống dưới.\n\na. Thực hiện mã hóa và giải mã ảnh trên với LZW. Coi từ điền là đủ lớn để không thiếu chỗ.\nb. Ý tưởng cơ bản của mã hóa LZW là ở đâu? LZW có vấn đề gì và có cách nào để giải quyết nó\nkhông?\n\n                                       1  0  0  0  1  1  0  0 \n                                                                                                 1  1  1  0  0  1  1  1                                        I =                            \n                                       1  1  0  0  1  1  0  1 \n                                                                  \n                                        0  1  1  1  1  0  0  0 ",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/bank-4-9-p11.webp"
+      ]
+    },
+    {
+      "id": "uyen-5-L1",
+      "code": "5.L1",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L1. Biên là gì? Phát hiện biên trực tiếp là gì? Nêu hai ví dụ về cách phát hiện biên trực\ntiếp (kèm mặt nạ nhân chập) và cho biết ảnh biên thu được tính như thế nào.",
+      "prompt": "Câu 5.L1. Biên là gì? Phát hiện biên trực tiếp là gì? Nêu hai ví dụ về cách phát hiện biên trực tiếp (kèm mặt nạ nhân chập) và cho biết ảnh biên thu được tính như thế nào.",
+      "images": []
+    },
+    {
+      "id": "uyen-5-L2",
+      "code": "5.L2",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L2. Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Mặt nạ (−1 1) và mặt nạ (−1\n1)ᵀ có ý nghĩa gì? Vì sao khi tính độ lớn gradient người ta thường dùng |Gx| + |Gy| thay cho\n√(Gx² + Gy²)?",
+      "prompt": "Câu 5.L2. Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Mặt nạ (−1 1) và mặt nạ (−1 1)ᵀ có ý nghĩa gì? Vì sao khi tính độ lớn gradient người ta thường dùng |Gx| + |Gy| thay cho √(Gx² + Gy²)?",
+      "images": []
+    },
+    {
+      "id": "uyen-5-L3",
+      "code": "5.L3",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L3. Nêu ba loại mặt nạ nhân chập thường dùng để tìm biên bằng đạo hàm bậc nhất\n(Prewitt, Sobel, Frei–Chen). Với mỗi loại hãy nêu nguyên lý và các bước tiếp theo nếu muốn\ncó biên rõ ràng. Sobel khác Prewitt ở điểm nào và điều đó có lợi gì?",
+      "prompt": "Câu 5.L3. Nêu ba loại mặt nạ nhân chập thường dùng để tìm biên bằng đạo hàm bậc nhất (Prewitt, Sobel, Frei–Chen). Với mỗi loại hãy nêu nguyên lý và các bước tiếp theo nếu muốn có biên rõ ràng. Sobel khác Prewitt ở điểm nào và điều đó có lợi gì?",
+      "images": []
+    },
+    {
+      "id": "uyen-5-L4",
+      "code": "5.L4",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L4. Phát hiện biên bằng đạo hàm bậc hai (Laplace) dựa trên nguyên lý gì? Viết hai mặt\nnạ Laplace thường gặp. Vì sao ảnh thu được sau khi nhân chập với mặt nạ Laplace chưa phải\nlà ảnh biên? Nêu hai nhược điểm của phương pháp này.",
+      "prompt": "Câu 5.L4. Phát hiện biên bằng đạo hàm bậc hai (Laplace) dựa trên nguyên lý gì? Viết hai mặt nạ Laplace thường gặp. Vì sao ảnh thu được sau khi nhân chập với mặt nạ Laplace chưa phải là ảnh biên? Nêu hai nhược điểm của phương pháp này.",
+      "images": []
+    },
+    {
+      "id": "uyen-5-L5",
+      "code": "5.L5",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L5. Thuật toán Canny gồm mấy bước, đó là những bước nào? Bước nào là quan trọng\nnhất, tại sao?",
+      "prompt": "Câu 5.L5. Thuật toán Canny gồm mấy bước, đó là những bước nào? Bước nào là quan trọng nhất, tại sao?",
+      "images": []
+    },
+    {
+      "id": "uyen-5-L6",
+      "code": "5.L6",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L6. Vì sao phải làm trơn (smoothing) lược đồ xám trước khi tìm ngưỡng tự động? Viết\ncông thức làm trơn với cửa sổ W và cho biết chọn W quá lớn sẽ gây hậu quả gì.\n\n\n\n                                                1",
+      "prompt": "Câu 5.L6. Vì sao phải làm trơn (smoothing) lược đồ xám trước khi tìm ngưỡng tự động? Viết công thức làm trơn với cửa sổ W và cho biết chọn W quá lớn sẽ gây hậu quả gì. 1",
+      "images": []
+    },
+    {
+      "id": "uyen-5-L7",
+      "code": "5.L7",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L7. Trình bày ý tưởng và các bước của thuật toán Otsu. Khi nào ta có thể tìm được\nnhiều ngưỡng? Trong trường hợp như vậy thì nên xử lý như thế nào? Trình bày các bước của\nthuật toán đẳng điệu (ISODATA) và điều kiện dừng.",
+      "prompt": "Câu 5.L7. Trình bày ý tưởng và các bước của thuật toán Otsu. Khi nào ta có thể tìm được nhiều ngưỡng? Trong trường hợp như vậy thì nên xử lý như thế nào? Trình bày các bước của thuật toán đẳng điệu (ISODATA) và điều kiện dừng.",
+      "images": []
+    },
+    {
+      "id": "uyen-5-L8",
+      "code": "5.L8",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L8. Phân vùng dùng thuật toán đối xứng nền là kỹ thuật gì? Dựa vào điều gì trong các\nbức ảnh đầu vào cho phép thuật toán trả về kết quả đúng nhất? Thuật toán tam giác có ý tưởng\ncơ bản là gì và trong trường hợp nào thì không nên sử dụng thuật toán này?",
+      "prompt": "Câu 5.L8. Phân vùng dùng thuật toán đối xứng nền là kỹ thuật gì? Dựa vào điều gì trong các bức ảnh đầu vào cho phép thuật toán trả về kết quả đúng nhất? Thuật toán tam giác có ý tưởng cơ bản là gì và trong trường hợp nào thì không nên sử dụng thuật toán này?",
+      "images": []
+    },
+    {
+      "id": "uyen-5-L9",
+      "code": "5.L9",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.L9. Kỹ thuật tách cây tứ phân và hợp cùng như tách–hợp trong phân vùng dựa vào ý\ntưởng gì? Yếu tố gì đánh giá tính chính xác cũng như tính thống nhất của thuật toán?\n\n2. Bài tập tính toán",
+      "prompt": "Câu 5.L9. Kỹ thuật tách cây tứ phân và hợp cùng như tách–hợp trong phân vùng dựa vào ý tưởng gì? Yếu tố gì đánh giá tính chính xác cũng như tính thống nhất của thuật toán? 2. Bài tập tính toán",
+      "images": []
+    },
+    {
+      "id": "uyen-5-T1",
+      "code": "5.T1",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.T1. Cho ảnh I như sau:\n\nẢnh I\n 4    4    4    4    4    4    4\n 4    4    4    4    4    4    4\n 4    4    18   18   18   4    4\n 4    4    17   14   19   4    4\n 4    4    18   18   18   4    4\n 4    4    4    4    4    4    4\n 4    4    4    4    4    4    4\n\n\na. Thực hiện nhân chập ảnh I với ma trận Hx và Hy rồi cộng với nhau để được ảnh I₁, với Hx\n= [[−1 0 1],[−1 0 1],[−1 0 1]] và Hy = [[−1 −1 −1],[0 0 0],[1 1 1]] (mặt nạ Prewitt).\n\nb. Thực hiện nhân chập ảnh I ở trên với Hz = [[−1 −1 −1],[−1 8 −1],[−1 −1 −1]] để được ảnh\nI₂.\n\nc. Ảnh I₁, I₂ đã là ảnh biên chưa? Cần phải làm thêm những gì để có ảnh biên? (Nên sử dụng\nkết quả trên để minh họa.)",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-5-T1-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-5-T2",
+      "code": "5.T2",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.T2. Cho ảnh I như sau:\n\nẢnh I\n 3    3    3    3    3    3    3\n 3    3    3    12   13   12   3\n 3    3    3    13   11   12   3\n 3    3    3    12   12   13   3\n 3    3    3    3    3    3    3\n 3    3    3    3    3    3    3\n 3    3    3    3    3    3    3\n\n\n                                                2\na. Thực hiện nhân chập ảnh I với ma trận Hx và Hy rồi tính ảnh I₁ = |I ⊗ Hx| + |I ⊗ Hy|, với\nHx = [[1 0 −1],[2 0 −2],[1 0 −1]] và Hy = [[1 2 1],[0 0 0],[−1 −2 −1]] (mặt nạ Sobel).\n\nb. Thực hiện nhân chập ảnh I với Hz = [[0 −1 0],[−1 4 −1],[0 −1 0]] để được ảnh I₂.\n\nc. Ảnh I₁, I₂ đã là ảnh biên chưa? Cần phải làm thêm những gì để có ảnh biên? (Nên sử dụng\nkết quả trên để minh họa.)",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-5-T2-p2.webp",
+        "subjects/xu-ly-anh/prompts/uyen-5-T2-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-5-T3",
+      "code": "5.T3",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.T3. Cho ảnh S₁ và S₂ (S₂ giống S₁ nhưng có hai điểm ảnh bị nhiễu ở vị trí (hàng 3, cột\n4) và (hàng 5, cột 4), đánh số từ 1) cùng Hx và Hy (Prewitt) như sau:\n\nẢnh S₁\n 40   60   60   60   60   60\n 20   40   60   60   60   60\n 20   20   40   60   60   60\n 20   20   20   40   60   60\n 20   20   20   20   40   60\n 20   20   20   20   20   40\n\n\nẢnh S₂\n 40   60   60   60   60   60\n 20   40   60   60   60   60\n 20   20   40   90   60   60\n 20   20   20   40   60   60\n 20   20   20   5    40   60\n 20   20   20   20   20   40\n\n\na. Thực hiện nhân chập ảnh S₁ với các ma trận Hx và Hy rồi tính S₁′ = |S₁ ⊗ Hx| + |S₁ ⊗ Hy|.\n\nb. Thực hiện tương tự với ảnh S₂ để được ảnh S₂′.\n\nc. Ảnh S₁′ và S₂′ khác nhau thế nào? Từ đó rút ra nhận xét về ảnh hưởng của nhiễu đối với\nphát hiện biên bằng đạo hàm và cách khắc phục.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-5-T3-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-5-T4",
+      "code": "5.T4",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.T4. a. Sử dụng thuật toán tìm ngưỡng tự động (Otsu) để tách ngưỡng ảnh I dưới đây,\nbiết ảnh có 10 mức xám (0–9).\n\n\n\n\n\n                                                3\nẢnh I (6 × 8)\n 3    7    3    2    5    2    3    7\n 1    1    2    4    8    4    1    9\n 9    2    7    2    7    2    2    5\n 0    8    7    8    1    0    2    6\n 8    4    5    1    1    1    6    4\n 7    8    2    2    7    1    1    2\n\n\nb. Có lúc nào chúng ta có thể tìm được nhiều ngưỡng không? Trong trường hợp như vậy thì\nta nên xử lý như thế nào? Áp dụng thuật toán Otsu cho ảnh có lược đồ tần suất sau và nhận\nxét:\n\n g      0     1     2     3     4     5     6     7     8     9\n h(g)    7     2     2     1     11    11    1     2     2     7",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-5-T4-p3.webp",
+        "subjects/xu-ly-anh/prompts/uyen-5-T4-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-5-T5",
+      "code": "5.T5",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.T5. a. Thực hiện tìm ngưỡng tự động với thuật toán đẳng điệu cho bức ảnh IA có biểu\nđồ tần suất sau, chọn ngưỡng khởi đầu t₀ = 2. Mô tả từng bước cho đến khi tìm được ngưỡng\nmong muốn. Biết ảnh có 10 mức xám.\n\n g      0     1     2     3     4     5     6     7     8     9\n hA(g)  6     15    19    9     4     3     8     21    12    3\n\n\nb. Thực hiện tìm ngưỡng tự động với thuật toán đối xứng nền cho bức ảnh IB có biểu đồ tần\nsuất sau. Biết độ chính xác cần tính là 95%.\n\n g      0     1     2     3     4     5     6     7     8     9\n hB(g)  4     9     5     3     2     4     48    17    6     2\n\n\nc. Với hai biểu đồ tần suất như trên thì việc chọn phương pháp ở câu a, b đã đúng chưa? Hãy\nthử áp dụng đổi chéo (đối xứng nền với p = 90% cho IA; đẳng điệu với t₀ = 6 cho IB) và nhận\nxét. Nếu được chọn lại thì bạn chọn như thế nào, tại sao?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-5-T5-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-5-T6",
+      "code": "5.T6",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.T6. a. Tính biểu đồ tần suất h(g) cho bức ảnh I sau (10 mức xám 0–9):\n\n\n\n\n\n                                                4\nẢnh I (6 × 6)\n 3    4    1    8    3    3\n 8    6    1    8    1    2\n 4    8    3    1    8    5\n 3    9    6    8    2    6\n 2    0    3    1    0    7\n 3    9    1    8    8    9\n\n\nb. Thực hiện làm trơn biểu đồ tần suất tính được ở trên với W = 3 và W = 5 theo công thức\nhsmooth(g) = (1/W)·Σ h(g − w), w chạy từ −(W−1)/2 đến (W−1)/2 (h(g) = 0 khi g nằm ngoài\nkhoảng 0–9). Làm tròn đến 2 chữ số thập phân.\n\nc. Đếm số cực đại cục bộ (đỉnh) của biểu đồ trước và sau khi làm trơn. Nhận xét tác dụng của\nviệc làm trơn đối với việc tìm ngưỡng.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-5-T6-p4.webp",
+        "subjects/xu-ly-anh/prompts/uyen-5-T6-p5.webp"
+      ]
+    },
+    {
+      "id": "uyen-5-T7",
+      "code": "5.T7",
+      "area": "uyen",
+      "sourceId": "uyen-5",
+      "sourcePages": [
+        5
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 5,
+      "originalText": "Câu 5.T7 (bổ sung). Dùng thuật toán tam giác để tìm ngưỡng cho ảnh có biểu đồ tần suất\nsau. Biết đỉnh cao nhất nằm ở g = 2; đường Δ nối đỉnh đó với điểm cuối của biểu đồ (mức\nxám lớn nhất có h(g) > 0). Ngưỡng là mức xám có khoảng cách vuông góc tới Δ lớn nhất.\n\n g      0     1     2     3     4     5     6     7     8     9\n h(g)    3     10    52    24    9     5     3     2     1     1\n\n\n\n\n\n                                                5",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-5-T7-p5.webp"
+      ]
+    },
+    {
+      "id": "uyen-lt-1-1",
+      "code": "1.1",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.1: Mô hình màu là gì? Liệt kê một vài mô hình màu thông dụng?",
+      "prompt": "Câu 1.1: Mô hình màu là gì? Liệt kê một vài mô hình màu thông dụng?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-2",
+      "code": "1.2",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.2: Mô hình màu CMY là gì? CMY khác RGB ở chỗ nào?",
+      "prompt": "Câu 1.2: Mô hình màu CMY là gì? CMY khác RGB ở chỗ nào?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-3",
+      "code": "1.3",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.3: Tại sao người ta phát triển nên hệ màu HSV và HSL? Nêu ý nghĩa từng chữ cái\nthể hiện một thành phần của HSV và HSL?",
+      "prompt": "Câu 1.3: Tại sao người ta phát triển nên hệ màu HSV và HSL? Nêu ý nghĩa từng chữ cái thể hiện một thành phần của HSV và HSL?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-4",
+      "code": "1.4",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.4: Mô hình lưu trữ raster là gì? Mô hình raster khác mô hình vector ở điểm nào?\nTrong trường hợp nào thì dùng raster và trong trường hợp nào thì dùng vector?",
+      "prompt": "Câu 1.4: Mô hình lưu trữ raster là gì? Mô hình raster khác mô hình vector ở điểm nào? Trong trường hợp nào thì dùng raster và trong trường hợp nào thì dùng vector?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-5",
+      "code": "1.5",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.5: Tại sao kỹ thuật nửa cường độ (halftone) được dùng trong in ấn? và ý tưởng cơ\nbản của kỹ thuật nửa cường độ là gì?",
+      "prompt": "Câu 1.5: Tại sao kỹ thuật nửa cường độ (halftone) được dùng trong in ấn? và ý tưởng cơ bản của kỹ thuật nửa cường độ là gì?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-6",
+      "code": "1.6",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.6: Điểm ảnh đa cấp xám với chỉ mực màu đen cần sử dụng kỹ thuật gì? Khuếch tin\nlỗi hỗ trợ được gì cho kỹ thuật này? Khuếch tán lỗi hơn gì tách ngưỡng thông thường?",
+      "prompt": "Câu 1.6: Điểm ảnh đa cấp xám với chỉ mực màu đen cần sử dụng kỹ thuật gì? Khuếch tin lỗi hỗ trợ được gì cho kỹ thuật này? Khuếch tán lỗi hơn gì tách ngưỡng thông thường?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-7",
+      "code": "1.7",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.7: Khuếch tán lỗi là gì? Khuếch tán lỗi một chiều khác gì khuếch tán lỗi hai chiều?\nKhuếch tán lỗi hai chiều khắc phục được điểm yếu gì của khuếch tán lỗi một chiều?",
+      "prompt": "Câu 1.7: Khuếch tán lỗi là gì? Khuếch tán lỗi một chiều khác gì khuếch tán lỗi hai chiều? Khuếch tán lỗi hai chiều khắc phục được điểm yếu gì của khuếch tán lỗi một chiều?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-8",
+      "code": "1.8",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.8: Với ảnh đa mức xám thì tăng giảm độ sáng của ảnh như thế nào? Chúng ta phải\nsử dụng toán tử loại nào để thực hiện phép toán này?",
+      "prompt": "Câu 1.8: Với ảnh đa mức xám thì tăng giảm độ sáng của ảnh như thế nào? Chúng ta phải sử dụng toán tử loại nào để thực hiện phép toán này?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-9",
+      "code": "1.9",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.9: Cân bằng tần suất là gì? Tại sao phải cân bằng tần suất?",
+      "prompt": "Câu 1.9: Cân bằng tần suất là gì? Tại sao phải cân bằng tần suất?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-10",
+      "code": "1.10",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.10: Biến đổi cửa sổ di chuyển hay còn gọi là biến đổi cuộn là biến đổi sử dụng\ntoán tử gì? Ý tưởng cơ bản căn biến đổi này là gì?",
+      "prompt": "Câu 1.10: Biến đổi cửa sổ di chuyển hay còn gọi là biến đổi cuộn là biến đổi sử dụng toán tử gì? Ý tưởng cơ bản căn biến đổi này là gì?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-11",
+      "code": "1.11",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.11: Mô hình nhiễu là gì? Tại sao phải sử dụng mô hình nhiễu. Viết công thức giải\nthích mô hình nhiễu rời rạc",
+      "prompt": "Câu 1.11: Mô hình nhiễu là gì? Tại sao phải sử dụng mô hình nhiễu. Viết công thức giải thích mô hình nhiễu rời rạc",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-1-12",
+      "code": "1.12",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 1.12: Biên là gì? Phát hiện trực tiếp là gì? Nêu một vài ví dụ về cách phát hiện biên\ntrực tiếp?",
+      "prompt": "Câu 1.12: Biên là gì? Phát hiện trực tiếp là gì? Nêu một vài ví dụ về cách phát hiện biên trực tiếp?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-1",
+      "code": "2.1",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.1: Phối màu cộng là gì? Phối màu trừ là gì? Trong trường hợp nào thì sử dụng phối\nmàu cộng trong trường hợp nào thì sử dụng phối màu trừ?",
+      "prompt": "Câu 2.1: Phối màu cộng là gì? Phối màu trừ là gì? Trong trường hợp nào thì sử dụng phối màu cộng trong trường hợp nào thì sử dụng phối màu trừ?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-2",
+      "code": "2.2",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.2: Mô hình màu CMY là gì? Tại sao sử dụng hệ màu CMY? Làm thế nào để\nchuyển từ hệ màu RGB sang hệ màu CMY?",
+      "prompt": "Câu 2.2: Mô hình màu CMY là gì? Tại sao sử dụng hệ màu CMY? Làm thế nào để chuyển từ hệ màu RGB sang hệ màu CMY?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-3",
+      "code": "2.3",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.3: Mô hình lưu trữ vector là gì? Mô hình vector khác mô hình cơ bản ở điểm nào?\nNếu ảnh vector có nhiều ưu điểm tại sao không sử dụng vector mà vẫn phải sử dụng ảnh\nraster?",
+      "prompt": "Câu 2.3: Mô hình lưu trữ vector là gì? Mô hình vector khác mô hình cơ bản ở điểm nào? Nếu ảnh vector có nhiều ưu điểm tại sao không sử dụng vector mà vẫn phải sử dụng ảnh raster?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-4",
+      "code": "2.4",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.4: Lọc trung vị khác với lọc trung bình khác với lọc trung bình k giá trị gần nhất\nnhư thế nào? Nên chọn từng phép lọc trong từng trường hợp như thế nào?",
+      "prompt": "Câu 2.4: Lọc trung vị khác với lọc trung bình khác với lọc trung bình k giá trị gần nhất như thế nào? Nên chọn từng phép lọc trong từng trường hợp như thế nào?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-5",
+      "code": "2.5",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.5; Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Ma trận (-1 1) có ý nghĩa\ngì?",
+      "prompt": "Câu 2.5; Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Ma trận (-1 1) có ý nghĩa gì?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-6",
+      "code": "2.6",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.6: Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Nêu ba loại ma trận nhân\nchập có thể tìm biên. Với mỗi ma trận hãy nêu nguyên lý và các bước tiếp theo nếu có để\ncó biên rõ ràng",
+      "prompt": "Câu 2.6: Phát hiện biên bằng đạo hàm dựa trên nguyên lý gì? Nêu ba loại ma trận nhân chập có thể tìm biên. Với mỗi ma trận hãy nêu nguyên lý và các bước tiếp theo nếu có để có biên rõ ràng",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-7",
+      "code": "2.7",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.7: Canny có mấy bước, là những bước gì? Bước nào trong Canny là quan trọng\nnhất, tại sao?",
+      "prompt": "Câu 2.7: Canny có mấy bước, là những bước gì? Bước nào trong Canny là quan trọng nhất, tại sao?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-8",
+      "code": "2.8",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.8: Phân vùng dùng thuật toán đối xứng nền là kỹ thuật gì? Dựa vào điều gì trong\ncác bức ảnh đầu vào cho phép thuật toán trả về kết quả đúng nhất?",
+      "prompt": "Câu 2.8: Phân vùng dùng thuật toán đối xứng nền là kỹ thuật gì? Dựa vào điều gì trong các bức ảnh đầu vào cho phép thuật toán trả về kết quả đúng nhất?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-9",
+      "code": "2.9",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.9: Phân vùng sử dụng thuật toán tam giác là gì? Ý tưởng cơ bản của thuật toán này\nlà gì? Trong trường hợp nào thì thuật toán này không nên sử dụng?",
+      "prompt": "Câu 2.9: Phân vùng sử dụng thuật toán tam giác là gì? Ý tưởng cơ bản của thuật toán này là gì? Trong trường hợp nào thì thuật toán này không nên sử dụng?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-10",
+      "code": "2.10",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.10: Kỹ thuật tách cây tứ phân và hợp cũng như tách- hợp trong phân vùng dựa vào\ný tưởng gì? Yếu tố gì đánh giá tính chính xác cũng như tính thống nhất của thuật toán?",
+      "prompt": "Câu 2.10: Kỹ thuật tách cây tứ phân và hợp cũng như tách- hợp trong phân vùng dựa vào ý tưởng gì? Yếu tố gì đánh giá tính chính xác cũng như tính thống nhất của thuật toán?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-11",
+      "code": "2.11",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.11: Kỹ thuật K mean là kỹ thuật gì, ý tưởng cơ bản là gì? Yếu tố gì có ảnh hưởng\nrất lớn tới hiệu quả của k trung bình?",
+      "prompt": "Câu 2.11: Kỹ thuật K mean là kỹ thuật gì, ý tưởng cơ bản là gì? Yếu tố gì có ảnh hưởng rất lớn tới hiệu quả của k trung bình?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-12",
+      "code": "2.12",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.12: Kỹ thuật K láng giềng là gì? K láng giềng thường được sử dụng để làm gì? Ý\ntưởng căn bản nhất của K láng giềng là gì?",
+      "prompt": "Câu 2.12: Kỹ thuật K láng giềng là gì? K láng giềng thường được sử dụng để làm gì? Ý tưởng căn bản nhất của K láng giềng là gì?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-13",
+      "code": "2.13",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.13: Mạng Hopfield là gì? Mạng Hopfield có cấu tạo như thế nào? Mô tả sơ bộ hoạt\nđộng của mạng Hopfield",
+      "prompt": "Câu 2.13: Mạng Hopfield là gì? Mạng Hopfield có cấu tạo như thế nào? Mô tả sơ bộ hoạt động của mạng Hopfield",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-14",
+      "code": "2.14",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.14: Mạng Kohonen có tên gọi khác là gì? Tại sao chúng ta gọi mạng Kohonen như\nvậy? Ý tưởng cơ bản của mạng Kohonen là gì? Ở khía cạnh nào mạng Kohonen mô\nphỏng não người?",
+      "prompt": "Câu 2.14: Mạng Kohonen có tên gọi khác là gì? Tại sao chúng ta gọi mạng Kohonen như vậy? Ý tưởng cơ bản của mạng Kohonen là gì? Ở khía cạnh nào mạng Kohonen mô phỏng não người?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-15",
+      "code": "2.15",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.15: Mã hóa loạt dài RLC là gì? Trong trường hợp nào mã hóa loạt dài sẽ tăng kích\nthước dữ liệu được mã hóa?",
+      "prompt": "Câu 2.15: Mã hóa loạt dài RLC là gì? Trong trường hợp nào mã hóa loạt dài sẽ tăng kích thước dữ liệu được mã hóa?",
+      "images": []
+    },
+    {
+      "id": "uyen-lt-2-16",
+      "code": "2.16",
+      "area": "uyen",
+      "sourceId": "uyen-theory",
+      "sourcePages": [
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": null,
+      "originalText": "Câu 2.16: Biến đổi Cosin trong nén JPEG nhằm mục đích gì? Và bước không trong nén\nJPEG sẽ làm cho quá trình nén ảnh là không bảo toàn?",
+      "prompt": "Câu 2.16: Biến đổi Cosin trong nén JPEG nhằm mục đích gì? Và bước không trong nén JPEG sẽ làm cho quá trình nén ảnh là không bảo toàn?",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L1",
+      "code": "3.L1",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L1. Với ảnh đa mức xám, muốn tăng hoặc giảm độ sáng của ảnh ta làm như thế nào? Phải\ndùng loại toán tử nào? Kể tên ba hàm biến đổi mức xám cơ bản và nêu tác dụng của từng hàm.",
+      "prompt": "Câu 3.L1. Với ảnh đa mức xám, muốn tăng hoặc giảm độ sáng của ảnh ta làm như thế nào? Phải dùng loại toán tử nào? Kể tên ba hàm biến đổi mức xám cơ bản và nêu tác dụng của từng hàm.",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L2",
+      "code": "3.L2",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L2. Cân bằng tần suất (cân bằng lược đồ xám) là gì? Tại sao phải cân bằng tần suất? Thế nào\nlà ảnh cân bằng lý tưởng và vì sao ảnh số thường không đạt được?",
+      "prompt": "Câu 3.L2. Cân bằng tần suất (cân bằng lược đồ xám) là gì? Tại sao phải cân bằng tần suất? Thế nào là ảnh cân bằng lý tưởng và vì sao ảnh số thường không đạt được?",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L3",
+      "code": "3.L3",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L3. Biến đổi cửa sổ di chuyển (hay còn gọi là biến đổi cuộn) là biến đổi sử dụng toán tử gì? Ý\ntưởng cơ bản của nó là gì? Nêu các cách xử lý điểm ảnh ở biên ảnh.",
+      "prompt": "Câu 3.L3. Biến đổi cửa sổ di chuyển (hay còn gọi là biến đổi cuộn) là biến đổi sử dụng toán tử gì? Ý tưởng cơ bản của nó là gì? Nêu các cách xử lý điểm ảnh ở biên ảnh.",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L4",
+      "code": "3.L4",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L4. Mô hình nhiễu là gì? Tại sao phải dùng mô hình nhiễu? Viết công thức mô hình nhiễu\n(liên tục và rời rạc) và kể tên các loại nhiễu thường gặp.",
+      "prompt": "Câu 3.L4. Mô hình nhiễu là gì? Tại sao phải dùng mô hình nhiễu? Viết công thức mô hình nhiễu (liên tục và rời rạc) và kể tên các loại nhiễu thường gặp.",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L5",
+      "code": "3.L5",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L5. So sánh lọc trung vị, lọc trung bình và lọc trung bình k giá trị gần nhất. Nên chọn bộ lọc\nnào trong từng trường hợp?",
+      "prompt": "Câu 3.L5. So sánh lọc trung vị, lọc trung bình và lọc trung bình k giá trị gần nhất. Nên chọn bộ lọc nào trong từng trường hợp?",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L6",
+      "code": "3.L6",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L6. Thuật toán tách ngưỡng đối xứng nền dựa trên giả thiết gì? Trình bày các bước. Khi nào\nkết quả đúng nhất? Vì sao không được lấy a% quá lớn?",
+      "prompt": "Câu 3.L6. Thuật toán tách ngưỡng đối xứng nền dựa trên giả thiết gì? Trình bày các bước. Khi nào kết quả đúng nhất? Vì sao không được lấy a% quá lớn?",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L7",
+      "code": "3.L7",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L7. Thuật toán tam giác tìm ngưỡng dựa trên ý tưởng gì? Trong trường hợp nào thuật toán này\nkhông nên sử dụng?",
+      "prompt": "Câu 3.L7. Thuật toán tam giác tìm ngưỡng dựa trên ý tưởng gì? Trong trường hợp nào thuật toán này không nên sử dụng?",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L8",
+      "code": "3.L8",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L8. Tổng hợp các thuật toán tách ngưỡng tự động đã học (cực đại phương sai giữa hai lớp,\nđẳng điệu, đối xứng nền, tam giác): với mỗi thuật toán nêu dạng biểu đồ phù hợp, tham số cần cho\ntrước và kết quả có thể gặp (nhiều ngưỡng).",
+      "prompt": "Câu 3.L8. Tổng hợp các thuật toán tách ngưỡng tự động đã học (cực đại phương sai giữa hai lớp, đẳng điệu, đối xứng nền, tam giác): với mỗi thuật toán nêu dạng biểu đồ phù hợp, tham số cần cho trước và kết quả có thể gặp (nhiều ngưỡng).",
+      "images": []
+    },
+    {
+      "id": "uyen-3-L9",
+      "code": "3.L9",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Câu 3.L9. Phân biệt tăng cường ảnh và khôi phục ảnh; kỹ thuật miền không gian và miền tần số.\nTrình bày các bộ lọc loại bỏ nhiễu trong miền không gian và loại nhiễu mà chúng phù hợp.\n\nPHẦN B. BÀI TẬP TÍNH TOÁN",
+      "prompt": "Câu 3.L9. Phân biệt tăng cường ảnh và khôi phục ảnh; kỹ thuật miền không gian và miền tần số. Trình bày các bộ lọc loại bỏ nhiễu trong miền không gian và loại nhiễu mà chúng phù hợp. PHẦN B. BÀI TẬP TÍNH TOÁN",
+      "images": []
+    },
+    {
+      "id": "uyen-3-T1",
+      "code": "3.T1",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T1. Cho ảnh I (6×6, mức xám 0-9):\n                                       Ảnh I\n                               3    9    9    3    3    2\n                               3    2    8    7    8    2\n                               3    8    3    7    0    4\n                               1    4    1    9    4    7\n                               0    1    7    7    6    4\n                               3    9    4    2    0    4\n\n\n    a) Tính biểu đồ tần suất h(g) của ảnh I.\n    b) Gọi h′(g) là biểu đồ tần suất của ảnh I′ biến đổi từ I bằng hàm f(g). Tính h′(g) với f(g) = |g − 5|\n   và với f(g) = |2g − 7|. Nhận xét tổng các giá trị h′.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T1-p1.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T2",
+      "code": "3.T2",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T2. Ảnh có 10 mức xám (0–9) và biểu đồ tần suất: h(0) = 3, h(1) = 7, h(2) = 2, h(3) = 9, h(4) =\n12, h(5) = 6, h(6) = 4, h(7) = 0, h(8) = 5, h(9) = 8. Thực hiện làm trơn biểu đồ tần suất với cửa sổ W\n= 3 và W = 5 (ngoài khoảng mức xám coi h = 0). So sánh hai kết quả.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T2-p1.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T3",
+      "code": "3.T3",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T3. Thực hiện cân bằng tần suất cho ảnh I (6×6), biết ảnh gốc và ảnh kết quả đều là ảnh 6 mức\nxám (0–5):\nẢnh I\n                            2    5    1    5    2    2\n                            4    2    2    0    3    2\n                            2    3    2    2    1    2\n                            1    2    3    2    2    5\n                            5    3    2    2    1    5\n                            2    1    3    3    3    4\n\n\na) Tính hàm biến đổi f(g) theo công thức f(g) = max{0, round(t(g)/TB) − 1}, với TB là số điểm\nảnh trung bình mỗi mức xám khi cân bằng và t(g) là số điểm ảnh có mức xám ≤ g. Viết ảnh kết\nquả I′ và biểu đồ tần suất của nó.\nb) Thế nào là ảnh cân bằng lý tưởng? Ảnh I′ có phải cân bằng lý tưởng không?\nc) Tính lại với công thức s_k = round((L − 1)·t(g)/n) trong bài giảng và so sánh hai cách.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T3-p1.webp",
+        "subjects/xu-ly-anh/prompts/uyen-3-T3-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T4",
+      "code": "3.T4",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T4. Ảnh 32×32 có 8 mức xám (0–7) với số điểm ảnh từng mức: n(0) = 190, n(1) = 261, n(2) =\n305, n(3) = 138, n(4) = 70, n(5) = 36, n(6) = 16, n(7) = 8. Lập bảng 𝑝(𝑟𝑘), tổng tích lũy và mức xám\nmới 𝑠𝑘= 𝑟𝑜𝑢𝑛𝑑(7 · 𝛴𝑝). Cho biết các mức nào bị gộp và vẽ/viết lại biểu đồ sau cân bằng.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T4-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T5",
+      "code": "3.T5",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T5. (Dạng câu 1.8) Cho ảnh 3×3, 256 mức xám:\n                                       Ảnh I\n                                    20    45    90\n                                    130   180   230\n                                    10    100   250\n\n\n   Tính ảnh kết quả khi áp dụng lần lượt các toán tử điểm:\n    (a) tăng độ sáng thêm 60;\n    (b) giảm độ sáng 60;\n    (c) âm bản;\n    (d) biến đổi 𝑙𝑜𝑔𝑠= 𝑐· 𝑙𝑛(1 + 𝑟) với 𝑐= 255/𝑙𝑛256;\n    (e) hàm mũ 𝑠= 255 · (𝑟/255)γ với γ = 2 và γ = 0,5;\n     (f) kéo giãn tương phản tuyến tính đoạn [50, 200] lên [0, 255] (giá trị ngoài đoạn cắt về 0 hoặc\n    255). Nhận xét ảnh hưởng của từng toán tử.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T5-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T6",
+      "code": "3.T6",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T6. Cho ảnh I (5×5):\n                                       Ảnh I\n                                 10   12   11   13   12\n                                 11   40   42   41   12\n                                 10   43   60   45   11\n                                 12   44   46   47   13\n                                 11   10   12   11   12\n\n\n    a) Tính giá trị mới của điểm ảnh tại hàng 2, cột 2 (đếm từ 0) khi lọc bằng bộ lọc trung bình 3×3\n   (mọi hệ số 1/9) và bộ lọc trọng số (1 2 1; 2 4 2; 1 2 1)/16.\n    b) Tính ảnh kết quả của hai bộ lọc tại 9 điểm trong (hàng 1-3, cột 1-3).\n    c) Tính giá trị mới tại góc (0, 0) bằng bộ lọc trung bình 3×3 theo hai cách xử lý biên: thêm điểm\n   ảnh 0 và lặp lại điểm ảnh rìa. Nhận xét.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T6-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T7",
+      "code": "3.T7",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T7. Ảnh I (5×5) bị nhiễu muối tiêu (các điểm 255, 0, 255 so với ảnh gốc):\n                                    Ảnh nhiễu I\n                                 50   50   52   51   50\n                                 50   51  255  52   51\n                                 52   0   53   53   52\n                                 51   52   53  255  53\n                                 50   51   52   53   53\n\n\n   Dùng cửa sổ 3×3 (chỉ tính 9 điểm trong, hàng và cột 1-3).\n    a) Lọc trung vị.\n    b) Lọc trung bình.\n    c) So sánh với ảnh gốc (cho: các điểm trong của ảnh gốc là 51 52 52 / 52 53 53 / 52 53 54) và giải\n    thích vì sao nên chọn bộ lọc nào cho nhiễu muối tiêu.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T7-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T8",
+      "code": "3.T8",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T8. Cho ảnh I (5×5):\n                                       Ảnh I\n                                  5    5    5    4    8\n                                  4   15   4    5    8\n                                  3    6    1    6    7\n                                  4    6    6    5    2\n                                  6    2    8    7    7\n\n\n  Áp dụng bộ lọc trung bình k giá trị gần nhất với cửa sổ 3×3, k = 3, ngưỡng θ = 2 cho 9 điểm trong.\n   Lập bảng tính từng điểm và viết ảnh kết quả. Điểm nào bị thay đổi, vì sao?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T8-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T9",
+      "code": "3.T9",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T9. Một cửa sổ 3×3 của ảnh nhiễu có các giá trị: 24 26 25 / 200 27 26 / 25 3 24 (điểm ảnh tâm\nlà 27).\n    a) Tính đầu ra của các bộ lọc: trung bình số học, trung bình hình học, trung vị, max, min, điểm\n   giữa và alpha-trimmed (d = 2).\n    b) Nhiễu trong cửa sổ thuộc loại nào? Bộ lọc nào phù hợp, bộ lọc nào không phù hợp? Giải thích.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T9-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T10",
+      "code": "3.T10",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T10. Cho ảnh I (5×6) có 8 mức xám (0-7):\n                                       Ảnh I\n                               6    4    0    3    1    7\n                               4    1    2    0    6    2\n                               1    2    1    6    0    1\n                               1    1    2    6    1    7\n                               3    4    2    7    7    5\n\n\n\n                                                                                                  𝑡(𝑔)\n    a) Dùng thuật toán tìm ngưỡng tự động trong bài giảng (cực đại 𝑓(𝑔) =\n                                                                            (𝑚𝑛−𝑡(𝑔))·[𝑚(𝑔)−𝑚(𝐺−1)]²\n   để tìm ngưỡng θ; lập bảng h(g), t(g), m(g), f(g) và tách ngưỡng ảnh (≤ θ là 0, còn lại là 1).\n    b) Có lúc nào ta có thể tìm được nhiều ngưỡng? Khi đó nên xử lý thế nào?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T10-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T11",
+      "code": "3.T11",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T11. Ảnh có 10 mức xám. Biểu đồ tần suất của ảnh A và ảnh B:\nẢnh A:\n\n    g       0      1      2      3      4      5      6      7      8      9\n   h(g)     30     55     40     12      6      10     35     50     28     10\n\n\nẢnh B:\n\n    g       0      1      2      3      4      5      6      7      8      9\n   h(g)     8      12     20     35     80     160     90     40     15      5\n\n\n    a) Thực hiện tìm ngưỡng tự động bằng thuật toán đẳng điệu cho ảnh A, bắt đầu từ t₀ = 5; mô tả\n   từng bước cho đến khi ngưỡng không đổi.\n    b) Thực hiện tìm ngưỡng bằng thuật toán đối xứng nền cho ảnh B với độ chính xác 92% (T =\n   maxp − (p − maxp); p là mức xám lớn nhất sao cho số điểm ảnh tích lũy từ 0 đến p không vượt\n   quá 92% tổng số điểm ảnh).\n    c) Với hai biểu đồ trên việc chọn phương pháp như vậy đã đúng chưa? Nếu hoán đổi hai phương\n   pháp thì kết quả ra sao?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T11-p3.webp",
+        "subjects/xu-ly-anh/prompts/uyen-3-T11-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-3-T12",
+      "code": "3.T12",
+      "area": "uyen",
+      "sourceId": "uyen-3",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 3,
+      "originalText": "Bài 3.T12. Ảnh có 14 mức xám (0–13), biểu đồ tần suất:\n\n   g     0     1     2     3     4     5     6     7     8     9     10    11    12    13\n  h(g)    3     4     6     18    70    160   120    60    34    20    11     6     3     2\n\n\n   Tìm ngưỡng bằng thuật toán tam giác: xác định đỉnh, điểm cuối đuôi dài, tính khoảng cách từ\n   từng điểm của biểu đồ tới đường thẳng nối hai điểm đó và chọn ngưỡng. Khi nào không nên dùng\n    thuật toán này?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-3-T12-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-4-L1",
+      "code": "4.L1",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.L1. Phối màu cộng là gì? Phối màu trừ là gì? Cho một ví dụ trộn hai màu gốc trong\nmỗi phương pháp. Vì sao màn hình dùng mô hình RGB còn máy in dùng mô hình CMY?",
+      "prompt": "Câu 4.L1. Phối màu cộng là gì? Phối màu trừ là gì? Cho một ví dụ trộn hai màu gốc trong mỗi phương pháp. Vì sao màn hình dùng mô hình RGB còn máy in dùng mô hình CMY?",
+      "images": []
+    },
+    {
+      "id": "uyen-4-L2",
+      "code": "4.L2",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.L2. Mô hình màu là gì? Kể tên ba mô hình màu thông dụng và nêu lĩnh vực sử dụng\nđiển hình của từng mô hình.",
+      "prompt": "Câu 4.L2. Mô hình màu là gì? Kể tên ba mô hình màu thông dụng và nêu lĩnh vực sử dụng điển hình của từng mô hình.",
+      "images": []
+    },
+    {
+      "id": "uyen-4-L3",
+      "code": "4.L3",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.L3. Mô hình màu CMY khác mô hình RGB ở điểm nào? Trên lý thuyết ba mực C, M,\nY trộn đủ phải cho màu đen, nhưng trong in ấn người ta vẫn dùng thêm mực đen (K) trong hệ\nCMYK. Hãy giải thích lý do.",
+      "prompt": "Câu 4.L3. Mô hình màu CMY khác mô hình RGB ở điểm nào? Trên lý thuyết ba mực C, M, Y trộn đủ phải cho màu đen, nhưng trong in ấn người ta vẫn dùng thêm mực đen (K) trong hệ CMYK. Hãy giải thích lý do.",
+      "images": []
+    },
+    {
+      "id": "uyen-4-L4",
+      "code": "4.L4",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.L4. Vì sao người ta phát triển các mô hình màu HSV và HSL? Nêu ý nghĩa của từng\nchữ cái trong mỗi mô hình.",
+      "prompt": "Câu 4.L4. Vì sao người ta phát triển các mô hình màu HSV và HSL? Nêu ý nghĩa của từng chữ cái trong mỗi mô hình.",
+      "images": []
+    },
+    {
+      "id": "uyen-4-L5",
+      "code": "4.L5",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.L5. Mô hình lưu trữ raster là gì? Mô hình raster khác mô hình vector ở điểm nào? Với\nảnh chụp phong cảnh và với logo cần phóng to thu nhỏ tùy ý, nên dùng mô hình nào? Vì sao?",
+      "prompt": "Câu 4.L5. Mô hình lưu trữ raster là gì? Mô hình raster khác mô hình vector ở điểm nào? Với ảnh chụp phong cảnh và với logo cần phóng to thu nhỏ tùy ý, nên dùng mô hình nào? Vì sao?",
+      "images": []
+    },
+    {
+      "id": "uyen-4-L6",
+      "code": "4.L6",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.L6. Tại sao kỹ thuật nửa cường độ (halftone) được dùng trong in ấn? Ý tưởng cơ bản\ncủa kỹ thuật này là gì?",
+      "prompt": "Câu 4.L6. Tại sao kỹ thuật nửa cường độ (halftone) được dùng trong in ấn? Ý tưởng cơ bản của kỹ thuật này là gì?",
+      "images": []
+    },
+    {
+      "id": "uyen-4-L7",
+      "code": "4.L7",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.L7. Khuếch tán lỗi là gì? Khuếch tán lỗi khác tách ngưỡng thông thường ở điểm nào?\nKhuếch tán lỗi một chiều khác hai chiều ở điểm nào và khuếch tán lỗi hai chiều khắc phục\nđược nhược điểm gì của khuếch tán lỗi một chiều?",
+      "prompt": "Câu 4.L7. Khuếch tán lỗi là gì? Khuếch tán lỗi khác tách ngưỡng thông thường ở điểm nào? Khuếch tán lỗi một chiều khác hai chiều ở điểm nào và khuếch tán lỗi hai chiều khắc phục được nhược điểm gì của khuếch tán lỗi một chiều?",
+      "images": []
+    },
+    {
+      "id": "uyen-4-L8",
+      "code": "4.L8",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.L8. Các nhận định sau đúng hay sai? Giải thích ngắn gọn: (a) Mô hình CMY là mô\nhình phối màu cộng. (b) Ảnh vector khi phóng to sẽ bị vỡ hạt giống ảnh raster. (c) Kỹ thuật\nhalftone lợi dụng việc mắt người ở khoảng cách xa chỉ cảm nhận cường độ trung bình của\nmột vùng nhỏ. (d) Khuếch tán lỗi giữ nguyên số mức xám của ảnh gốc.\n\nA.2. Bài tập tính toán",
+      "prompt": "Câu 4.L8. Các nhận định sau đúng hay sai? Giải thích ngắn gọn: (a) Mô hình CMY là mô hình phối màu cộng. (b) Ảnh vector khi phóng to sẽ bị vỡ hạt giống ảnh raster. (c) Kỹ thuật halftone lợi dụng việc mắt người ở khoảng cách xa chỉ cảm nhận cường độ trung bình của một vùng nhỏ. (d) Khuếch tán lỗi giữ nguyên số mức xám của ảnh gốc. A.2. Bài tập tính toán",
+      "images": []
+    },
+    {
+      "id": "uyen-4-T1",
+      "code": "4.T1",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        1
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.T1. Chuyển các màu sau từ hệ RGB sang hệ CMY theo công thức [C M Y]ᵀ = [1 1 1]ᵀ\n− [R G B]ᵀ (với R, G, B, C, M, Y ∈ [0, 1]; khi cho giá trị 0-255 hãy chuẩn hóa bằng cách chia\ncho 255). Cho biết mỗi màu cần những lượng mực nào nhiều nhất.\n\n Màu    R       G        B\n a        200         100         50\n b        0           255         128\n c        255         255         0\n d        34          139         34\n\n\n\n\n\n                                                1",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-4-T1-p1.webp"
+      ]
+    },
+    {
+      "id": "uyen-4-T2",
+      "code": "4.T2",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.T2. a. Thực hiện khuếch tán lỗi một chiều với ảnh I dưới đây, sử dụng ngưỡng θ =\n127. Biết ảnh I là ảnh 256 mức xám (mức nhỏ nhất là 0, lớn nhất là 255) và ảnh kết quả chỉ\ngồm hai mức 0 và 255.\n\nẢnh I\n 20   200  90   140  60\n 250  35   180  70   120\n 15   100  230  45   160\n\n\nb. Khuếch tán lỗi được dùng để làm gì? Ảnh thu được sau khuếch tán lỗi hơn gì ảnh tách\nngưỡng thông thường? So sánh với ảnh thu được khi tách ngưỡng thông thường cùng ngưỡng\nθ: so sánh số điểm ảnh trắng (255) và độ sáng trung bình của hai ảnh nhị phân với độ sáng\ntrung bình của ảnh gốc.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-4-T2-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-4-T3",
+      "code": "4.T3",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.T3. a. Thực hiện khuếch tán lỗi một chiều với ảnh I dưới đây, sử dụng ngưỡng θ =\n127. Biết ảnh I là ảnh 256 mức xám (mức nhỏ nhất là 0, lớn nhất là 255) và ảnh kết quả chỉ\ngồm hai mức 0 và 255.\n\nẢnh I\n 8    64   190  12   99   205\n 143  27   5    251  33   76\n 220  101  60   134  18   240\n\n\nb. Khuếch tán lỗi được dùng để làm gì? Ảnh thu được sau khuếch tán lỗi hơn gì ảnh tách\nngưỡng thông thường? Nhận xét kết quả ở dòng 2 (toàn bộ các điểm ảnh gốc bằng 90): khuếch\ntán lỗi và tách ngưỡng thông thường cho kết quả khác nhau như thế nào?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-4-T3-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-4-T4",
+      "code": "4.T4",
+      "area": "uyen",
+      "sourceId": "uyen-4",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 4,
+      "originalText": "Câu 4.T4. a. Thực hiện khuếch tán lỗi một chiều với ảnh I dưới đây, sử dụng ngưỡng θ =\n100. Biết ảnh I là ảnh 256 mức xám (mức nhỏ nhất là 0, lớn nhất là 255) và ảnh kết quả chỉ\ngồm hai mức 0 và 255.\n\nẢnh I\n 130  125  128  40   200\n 90   90   90   90   90\n 210  15   177  63   142\n\n\nb. Khuếch tán lỗi được dùng để làm gì? Ảnh thu được sau khuếch tán lỗi hơn gì ảnh tách\nngưỡng thông thường? So sánh với ảnh thu được khi tách ngưỡng thông thường cùng ngưỡng\nθ: so sánh số điểm ảnh trắng (255) và độ sáng trung bình của hai ảnh nhị phân với độ sáng\ntrung bình của ảnh gốc.\n\n\n\n                                                2",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-4-T4-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-L1",
+      "code": "7.L1",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.L1. Xử lý ảnh hình thái (morphology) là gì và thường được dùng ở giai đoạn nào trong một\nhệ thống xử lý ảnh? Phần tử cấu trúc (SE – structuring element) là gì? Định nghĩa fit và hit. Nếu SE\nfit ảnh tại một vị trí thì có chắc chắn hit tại vị trí đó không? Điều ngược lại có đúng không?",
+      "prompt": "Câu 7.L1. Xử lý ảnh hình thái (morphology) là gì và thường được dùng ở giai đoạn nào trong một hệ thống xử lý ảnh? Phần tử cấu trúc (SE – structuring element) là gì? Định nghĩa fit và hit. Nếu SE fit ảnh tại một vị trí thì có chắc chắn hit tại vị trí đó không? Điều ngược lại có đúng không?",
+      "images": []
+    },
+    {
+      "id": "uyen-7-L2",
+      "code": "7.L2",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.L2. Viết công thức tính giá trị điểm ảnh mới g(x,y) của phép co (erosion) và phép giãn\n(dilation) ảnh nhị phân f bởi SE s. Nêu tác dụng và ứng dụng của từng phép. Kích thước và hình\ndạng của SE ảnh hưởng thế nào tới kết quả?",
+      "prompt": "Câu 7.L2. Viết công thức tính giá trị điểm ảnh mới g(x,y) của phép co (erosion) và phép giãn (dilation) ảnh nhị phân f bởi SE s. Nêu tác dụng và ứng dụng của từng phép. Kích thước và hình dạng của SE ảnh hưởng thế nào tới kết quả?",
+      "images": []
+    },
+    {
+      "id": "uyen-7-L3",
+      "code": "7.L3",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.L3. Định nghĩa phép mở (opening) và phép đóng (closing). Nêu tác dụng của mỗi phép. Vì\nsao phép mở (co rồi giãn) nói chung không trả lại ảnh ban đầu? Nêu quan hệ bao hàm giữa A ∘ B, A\nvà A • B.",
+      "prompt": "Câu 7.L3. Định nghĩa phép mở (opening) và phép đóng (closing). Nêu tác dụng của mỗi phép. Vì sao phép mở (co rồi giãn) nói chung không trả lại ảnh ban đầu? Nêu quan hệ bao hàm giữa A ∘ B, A và A • B.",
+      "images": []
+    },
+    {
+      "id": "uyen-7-L4",
+      "code": "7.L4",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.L4. Sau khi phân ngưỡng, một ảnh nhị phân vừa có các điểm 1 lẻ loi trên nền (nhiễu\n“muối”), vừa có các lỗ 0 nhỏ bên trong đối tượng (nhiễu “tiêu”). Hãy đề xuất cách dùng phép mở và\nphép đóng để làm sạch ảnh. Nên chọn kích thước SE như thế nào? Thứ tự thực hiện có ảnh hưởng\ntới kết quả không?",
+      "prompt": "Câu 7.L4. Sau khi phân ngưỡng, một ảnh nhị phân vừa có các điểm 1 lẻ loi trên nền (nhiễu “muối”), vừa có các lỗ 0 nhỏ bên trong đối tượng (nhiễu “tiêu”). Hãy đề xuất cách dùng phép mở và phép đóng để làm sạch ảnh. Nên chọn kích thước SE như thế nào? Thứ tự thực hiện có ảnh hưởng tới kết quả không?",
+      "images": []
+    },
+    {
+      "id": "uyen-7-L5",
+      "code": "7.L5",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.L5. Trình bày thuật toán tách biên bằng phép toán hình thái: công thức, giải thích vì sao công\nthức cho ra đường biên, độ dày của biên phụ thuộc vào SE như thế nào. Viết các lệnh MATLAB\ntương ứng và chỉ ra điểm cần chú ý về quy ước giá trị điểm ảnh nằm ngoài ảnh.",
+      "prompt": "Câu 7.L5. Trình bày thuật toán tách biên bằng phép toán hình thái: công thức, giải thích vì sao công thức cho ra đường biên, độ dày của biên phụ thuộc vào SE như thế nào. Viết các lệnh MATLAB tương ứng và chỉ ra điểm cần chú ý về quy ước giá trị điểm ảnh nằm ngoài ảnh.",
+      "images": []
+    },
+    {
+      "id": "uyen-7-L6",
+      "code": "7.L6",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.L6. Trình bày thuật toán làm đầy vùng (region filling): công thức, ý nghĩa của X₀, B, Aᶜ,\nđiều kiện dừng và kết quả cuối cùng. Vì sao phải lấy giao với Aᶜ sau mỗi lần giãn? Vì sao khi\nđường biên là 8-liên thông thì phải dùng SE chữ thập mà không dùng SE vuông 3×3? Nêu một hạn\nchế của thuật toán.",
+      "prompt": "Câu 7.L6. Trình bày thuật toán làm đầy vùng (region filling): công thức, ý nghĩa của X₀, B, Aᶜ, điều kiện dừng và kết quả cuối cùng. Vì sao phải lấy giao với Aᶜ sau mỗi lần giãn? Vì sao khi đường biên là 8-liên thông thì phải dùng SE chữ thập mà không dùng SE vuông 3×3? Nêu một hạn chế của thuật toán.",
+      "images": []
+    },
+    {
+      "id": "uyen-7-L7",
+      "code": "7.L7",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.L7. Viết công thức của thuật toán trích xuất thành phần liên thông. So sánh với thuật toán\nlàm đầy vùng (giống và khác nhau ở đâu). Chọn SE như thế nào để thu được thành phần liên thông\ntheo nghĩa liên thông 4 và liên thông 8? Nêu một ứng dụng.",
+      "prompt": "Câu 7.L7. Viết công thức của thuật toán trích xuất thành phần liên thông. So sánh với thuật toán làm đầy vùng (giống và khác nhau ở đâu). Chọn SE như thế nào để thu được thành phần liên thông theo nghĩa liên thông 4 và liên thông 8? Nêu một ứng dụng.",
+      "images": []
+    },
+    {
+      "id": "uyen-7-L8",
+      "code": "7.L8",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.L8. Các nhận định sau đúng hay sai? Giải thích ngắn gọn:\n    (a) Co ảnh rồi giãn ảnh với cùng một SE luôn thu lại đúng ảnh ban đầu.\n\n    (b) Nếu gốc của SE là một điểm 1 của SE thì A ⊖ B ⊆ A ⊆ A ⊕ B.\n    (c) Thực hiện phép mở hai lần liên tiếp với cùng một SE cho kết quả khác với thực hiện một lần.\n    (d) Phép đóng có thể nối liền hai đối tượng cách nhau một khe hẹp hơn SE.\n    (e) Với SE không đối xứng, quy tắc “đặt gốc SE tại (x,y), nếu SE hit ảnh thì g(x,y) = 1” luôn\n   cho cùng kết quả với định nghĩa A ⊕ B = {z | (B̂)z ∩ A ≠ ∅}.\n\n    (f) Phép co và phép giãn đối ngẫu với nhau: (A ⊖ B)ᶜ = Aᶜ ⊕ B̂.\n    (g) Trong thuật toán làm đầy vùng, nếu bỏ phép giao với Aᶜ thì Xₖ sẽ lan dần ra phủ kín toàn bộ\n   ảnh.\n\n\n\n\n\n                                                1\nPHẦN B. BÀI TẬP TÍNH TOÁN\n\n Quy ước chung cho Phần B\n • Ảnh nhị phân: 1 là điểm đối tượng, 0 là nền. Vị trí điểm ảnh ghi theo (hàng, cột), đánh số từ 1, bắt đầu ở\n góc trên bên trái.\n • Gốc (origin) của SE 3×3 là phần tử trung tâm (in đậm, gạch chân trong các ma trận SE).\n • Các điểm nằm ngoài ảnh được coi là 0.\n • Phép co: g(x,y) = 1 nếu SE đặt gốc tại (x,y) fit ảnh. Phép giãn: g(x,y) = 1 nếu SE đặt gốc tại (x,y) hit ảnh.\n\n\nB.1. Phép co và phép giãn",
+      "prompt": "Câu 7.L8. Các nhận định sau đúng hay sai? Giải thích ngắn gọn: (a) Co ảnh rồi giãn ảnh với cùng một SE luôn thu lại đúng ảnh ban đầu. (b) Nếu gốc của SE là một điểm 1 của SE thì A ⊖ B ⊆ A ⊆ A ⊕ B. (c) Thực hiện phép mở hai lần liên tiếp với cùng một SE cho kết quả khác với thực hiện một lần. (d) Phép đóng có thể nối liền hai đối tượng cách nhau một khe hẹp hơn SE. (e) Với SE không đối xứng, quy tắc “đặt gốc SE tại (x,y), nếu SE hit ảnh thì g(x,y) = 1” luôn cho cùng kết quả với định nghĩa A ⊕ B = {z | (B̂)z ∩ A ≠ ∅}. (f) Phép co và phép giãn đối ngẫu với nhau: (A ⊖ B)ᶜ = Aᶜ ⊕ B̂. (g) Trong thuật toán làm đầy vùng, nếu bỏ phép giao với Aᶜ thì Xₖ sẽ lan dần ra phủ kín toàn bộ ảnh. 1 PHẦN B. BÀI TẬP TÍNH TOÁN Quy ước chung cho Phần B • Ảnh nhị phân: 1 là điểm đối tượng, 0 là nền. Vị trí điểm ảnh ghi theo (hàng, cột), đánh số từ 1, bắt đầu ở góc trên bên trái. • Gốc (origin) của SE 3×3 là phần tử trung tâm (in đậm, gạch chân trong các ma trận SE). • Các điểm nằm ngoài ảnh được coi là 0. • Phép co: g(x,y) = 1 nếu SE đặt gốc tại (x,y) fit ảnh. Phép giãn: g(x,y) = 1 nếu SE đặt gốc tại (x,y) hit ảnh. B.1. Phép co và phép giãn",
+      "images": []
+    },
+    {
+      "id": "uyen-7-T1",
+      "code": "7.T1",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T1. (D) Thực hiện phép co và giãn hình X với phần tử cấu trúc B sau để được hai hình\n\nX₁ = X ⊖ B và X₂ = X ⊕ B.\n\n                                Ảnh X (8 × 8)       B (chữ thập)\n\n                               1  1  0  0  0  0  1  1      0  1  0\n                               1  1  1  0  0  1  1  1      1  1  1\n                               0  1  1  1  0  1  1  0      0  1  0\n                               0  0  1  1  1  1  0  0\n                               0  0  1  1  1  1  1  0\n                               1  0  0  1  1  1  1  0\n                               1  1  0  0  0  1  1  1\n                               1  1  1  0  0  0  1  1\n\n\n\n\n    a. Tính X₁ và X₂.\n    b. Đếm số điểm 1 của X, X₁, X₂ và nhận xét tác dụng của mỗi phép toán đối với kích thước đối\n   tượng.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T1-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T2",
+      "code": "7.T2",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T2. (D) Thực hiện phép co và giãn hình X với phần tử cấu trúc B (không đối xứng) sau để\nđược hai hình X₁ và X₂.\n\n                                Ảnh X (8 × 8)         B (gốc ở\n                               0  0  1  1  0  0  1  0        tâm)\n                               0  1  1  1  0  1  1  0      0  0  1\n                               1  1  0  1  1  1  0  0      1  1  0\n                               1  1  1  1  0  1  1  1      0  0  1\n                               0  1  1  0  1  1  1  1\n                               0  0  1  1  1  0  1  0\n                               1  0  1  1  1  1  1  0\n                               1  0  0  1  0  0  1  1\n\n\n\n\n    a. Tính X₁ = X ⊖ B và X₂ = X ⊕ B theo quy ước chung.\n\n    b. B có đối xứng qua gốc không? Viết B̂ (B lấy đối xứng qua gốc) và tính lại phép giãn theo\n   định nghĩa X ⊕ B = {z | (B̂)z ∩ X ≠ ∅}. Kết quả khác câu a ở những điểm nào? Phép co có bị\n   ảnh hưởng không?\n\n\n                                                2",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T2-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T3",
+      "code": "7.T3",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T3. (C) Cho ảnh X và hai phần tử cấu trúc B₁ (chữ thập), B₂ (vuông 3×3).\n\n                          Ảnh X (8 × 8)            B₁ (chữ     B₂ (vuông 3\n                        0  0  0  0  0  0  0  0        thập)      × 3)\n                        0  1  1  1  1  0  0  0      0  1  0      1  1  1\n                        0  1  1  1  1  1  0  0      1  1  1      1  1  1\n                        0  1  1  1  1  1  1  0      0  1  0      1  1  1\n                        0  0  1  1  1  1  1  0\n                        0  0  0  1  1  1  1  0\n                        0  1  0  0  1  1  0  0\n                        0  0  0  0  0  0  0  0\n\n\n    a. Tính X ⊖ B₁ và X ⊖ B₂.\n\n    b. Tính X ⊕ B₁.\n\n    c. So sánh số điểm 1 của X ⊖ B₁ và X ⊖ B₂. Chứng minh rằng nếu B₁ ⊆ B₂ (cùng gốc) thì X ⊖\n   B₂ ⊆ X ⊖ B₁.\n\nB.2. Phép mở và phép đóng",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T3-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T4",
+      "code": "7.T4",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T4. (D) Ảnh A gồm hai khối được nối với nhau bởi một dải hẹp và một điểm nhiễu. Thực\nhiện phép mở ảnh A bởi phần tử cấu trúc B vuông 3×3.\n\n                               Ảnh A (7 × 11)           B (vuông 3\n                          0  0  0  0  0  0  0  0  0  0  0     × 3)\n                          0  1  1  1  0  0  0  1  1  1  0      1  1  1\n                          0  1  1  1  1  1  1  1  1  1  0      1  1  1\n                          0  1  1  1  0  0  0  1  1  1  0      1  1  1\n                          0  0  0  0  0  0  0  1  1  1  0\n                          0  1  0  0  0  0  0  1  1  0  0\n                          0  0  0  0  0  0  0  0  0  0  0\n\n\n    a. Tính A ⊖ B.\n\n    b. Tính A ∘ B = (A ⊖ B) ⊕ B.\n    c. Những thành phần nào của A bị loại bỏ sau phép mở? Giải thích dựa trên tác dụng của phép\n   mở.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T4-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T5",
+      "code": "7.T5",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T5. (D) Ảnh A gồm hai khối cách nhau một khe rộng 1 điểm ảnh, khối trái có một lỗ nhỏ.\nThực hiện phép đóng ảnh A bởi phần tử cấu trúc B chữ thập.\n\n                               Ảnh A (6 × 11)           B (chữ thập)\n\n                          0  0  0  0  0  0  0  0  0  0  0      0  1  0\n                          0  1  1  1  1  0  1  1  1  0  0      1  1  1\n                          0  1  0  1  1  0  1  1  1  0  0      0  1  0\n                          0  1  1  1  1  0  1  1  1  1  0\n                          0  1  1  1  1  0  1  1  1  1  0\n                          0  0  0  0  0  0  0  0  0  0  0\n\n\n\n\n\n                                                3\na. Tính A ⊕ B.\n\nb. Tính A • B = (A ⊕ B) ⊖ B.\nc. Lỗ trong khối trái và khe ở cột 6 được xử lý thế nào? Vì sao khe ở cột 6 chỉ được lấp ở một số\nhàng?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T5-p3.webp",
+        "subjects/xu-ly-anh/prompts/uyen-7-T5-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T6",
+      "code": "7.T6",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T6. (C) Cho ảnh A và phần tử cấu trúc B vuông 3×3.\n\n                                Ảnh A (7 × 8)        B (vuông 3\n                               0  0  0  0  0  0  0  0     × 3)\n                               0  1  1  1  0  0  1  0      1  1  1\n                               0  1  1  1  1  1  1  0      1  1  1\n                               0  1  1  0  1  1  1  0      1  1  1\n                               0  1  1  1  1  1  1  0\n                               0  0  0  0  1  1  1  0\n                               0  0  0  0  0  0  0  0\n\n\n\n\n    a. Tính A ∘ B và A • B.\n\n    b. Kiểm tra quan hệ A ∘ B ⊆ A ⊆ A • B trên kết quả tính được.\n\n    c. Tính (A ∘ B) ∘ B và (A • B) • B rồi so sánh với câu a. Rút ra tính chất gì?\n    d. Vì sao toàn bộ phần bên trái của đối tượng (cột 2–4) bị xóa sau phép mở dù phần này rộng\n   đúng 3 điểm ảnh?\n\nB.3. Tách biên",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T6-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T7",
+      "code": "7.T7",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T7. (D) Cho bức ảnh A. Thực hiện phép co ảnh A bởi phần tử cấu trúc s có dạng 3×3. Tách\nbiên của đối tượng trong ảnh A.\n\n                               Ảnh A (6 × 10)                s (vuông 3\n                           1  1  1  1  0  0  1  1  1  1     × 3)\n                           1  1  1  1  0  0  1  1  1  1      1  1  1\n                           1  1  1  1  1  1  1  1  1  1      1  1  1\n                           1  1  1  1  1  1  1  1  1  0      1  1  1\n                           1  1  1  1  1  1  1  1  1  0\n                           0  1  1  1  1  1  1  1  0  0\n\n\n\n\n    a. Tính E = A ⊖ s.\n    b. Tính Eᶜ.\n\n    c. Tính β(A) = A − (A ⊖ s) = Eᶜ AND A. Đối tượng có bao nhiêu điểm biên?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T7-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T8",
+      "code": "7.T8",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T8. (C) Tách biên của đối tượng trong ảnh A lần lượt với B₁ vuông 3×3 và B₂ chữ thập.\n\n\n\n\n\n                                                4\nẢnh A (6 × 7)         B₁ (vuông 3     B₂ (chữ\n                          0  0  0  0  0  0  0     × 3)          thập)\n                          0  1  1  1  1  0  0      1  1  1      0  1  0\n                          0  1  1  1  1  1  0      1  1  1      1  1  1\n                          0  1  1  1  1  1  0      1  1  1      0  1  0\n                          0  0  1  1  1  1  0\n                          0  0  0  0  0  0  0\n\n\n\n\n    a. Tính β₁(A) = A − (A ⊖ B₁) và β₂(A) = A − (A ⊖ B₂).\n\n    b. Hai đường biên khác nhau ở những điểm nào? Đường biên nào là 4-liên thông, đường biên\n   nào là 8-liên thông?\n\nB.4. Làm đầy vùng",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T8-p4.webp",
+        "subjects/xu-ly-anh/prompts/uyen-7-T8-p5.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T9",
+      "code": "7.T9",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        5
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T9. (D) Cho bức ảnh A (đường biên khép kín 8-liên thông). Thực hiện các bước làm đầy\nvùng cho đối tượng trong ảnh A bởi phần tử cấu trúc B, với điểm bắt đầu X₀ = (3,3).\n\n                                Ảnh A (7 × 8)       B (chữ thập)\n\n                               0  0  0  0  0  0  0  0      0  1  0\n                               0  0  1  1  1  0  0  0      1  1  1\n                               0  1  0  0  0  1  1  0      0  1  0\n                               0  1  0  0  0  0  1  0\n                               0  1  0  1  0  0  1  0\n                               0  0  1  1  1  1  0  0\n                               0  0  0  0  0  0  0  0\n\n\n\n\n    a. Viết Aᶜ và thực hiện lần lượt Xₖ = (Xₖ₋₁ ⊕ B) ∩ Aᶜ, k = 1, 2, … cho đến khi dừng.\n\n    b. Viết kết quả A′ = Xₖ ∪ A.\n    c. Nếu thay B bằng SE vuông 3×3 thì quá trình lặp diễn ra thế nào? Chỉ ra vị trí “rò rỉ” đầu tiên.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T9-p5.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T10",
+      "code": "7.T10",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T10. (C) Ảnh A có hai đường biên khép kín. Dùng SE chữ thập.\n\n                               Ảnh A (7 × 11)           B (chữ thập)\n\n                          0  0  0  0  0  0  0  0  0  0  0      0  1  0\n                          0  1  1  1  1  0  0  0  0  0  0      1  1  1\n                          0  1  0  0  1  0  0  1  1  1  0      0  1  0\n                          0  1  0  0  1  0  1  0  0  0  1\n                          0  1  1  1  1  0  1  0  0  0  1\n                          0  0  0  0  0  0  0  1  1  1  0\n                          0  0  0  0  0  0  0  0  0  0  0\n\n\n\n\n    a. Làm đầy đồng thời cả hai vùng với X₀ gồm hai điểm (3,3) và (4,9). Ghi các điểm mới ở từng\n   bước và kết quả A′.\n    b. Nếu X₀ chỉ gồm điểm (3,3) thì kết quả thế nào? Rút ra nhận xét về số điểm bắt đầu cần chọn.\n\n\n                                                5\nc. Nếu chọn nhầm X₀ = (1,1) (một điểm nền bên ngoài) thì Xₖ khi dừng là gì? Có thể tận dụng\n   kết quả này để tô đồng thời mọi vùng bên trong không?\n\nB.5. Trích xuất thành phần liên thông",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T10-p5.webp",
+        "subjects/xu-ly-anh/prompts/uyen-7-T10-p6.webp"
+      ]
+    },
+    {
+      "id": "uyen-7-T11",
+      "code": "7.T11",
+      "area": "uyen",
+      "sourceId": "uyen-7",
+      "sourcePages": [
+        6
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 7,
+      "originalText": "Câu 7.T11. (C) Cho ảnh A. Trích xuất thành phần liên thông chứa điểm X₀ bằng công thức Xₖ =\n(Xₖ₋₁ ⊕ B) ∩ A, lặp đến khi Xₖ = Xₖ₋₁.\n\nẢnh A (7 × 9)\n\n                                   0  0  0  0  0  0  0  0  0\n                                   0  1  1  0  0  0  1  1  0\n                                   0  1  0  0  0  0  0  1  0\n                                   0  0  1  1  0  0  1  1  0\n                                   0  0  0  0  0  1  0  0  0\n                                   0  1  1  0  0  1  1  0  0\n                                   0  0  0  0  0  0  0  0  0\n\n    a. Với B vuông 3×3 và X₀ = (2,2): ghi các bước lặp và thành phần thu được.\n    b. Lặp lại câu a với B chữ thập. Giải thích sự khác nhau.\n    c. Với B vuông 3×3 và X₀ = (2,7): tìm thành phần chứa điểm này.\n    d. Ảnh A có bao nhiêu thành phần liên thông theo liên thông 8? Theo liên thông 4?\n\n\n\n\n\n                                                6",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-7-T11-p6.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-L1",
+      "code": "6.L1",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L1. Mã hóa loạt dài (RLC – Run-Length Coding) là gì? Phương pháp này hiệu quả khi dữ liệu\ncó đặc điểm gì? Trong trường hợp nào mã hóa loạt dài làm tăng kích thước dữ liệu được mã hóa?\nCho một ví dụ bằng số.",
+      "prompt": "Câu 6.L1. Mã hóa loạt dài (RLC – Run-Length Coding) là gì? Phương pháp này hiệu quả khi dữ liệu có đặc điểm gì? Trong trường hợp nào mã hóa loạt dài làm tăng kích thước dữ liệu được mã hóa? Cho một ví dụ bằng số.",
+      "images": []
+    },
+    {
+      "id": "uyen-6-L2",
+      "code": "6.L2",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L2. Biến đổi cosin rời rạc (DCT) trong nén JPEG nhằm mục đích gì? Theo lý thuyết, bước\nnào trong JPEG làm cho quá trình nén là không bảo toàn thông tin? Trên thực tế còn bước nào khác\ncũng gây mất thông tin? Vì sao?",
+      "prompt": "Câu 6.L2. Biến đổi cosin rời rạc (DCT) trong nén JPEG nhằm mục đích gì? Theo lý thuyết, bước nào trong JPEG làm cho quá trình nén là không bảo toàn thông tin? Trên thực tế còn bước nào khác cũng gây mất thông tin? Vì sao?",
+      "images": []
+    },
+    {
+      "id": "uyen-6-L3",
+      "code": "6.L3",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L3. Ý tưởng cơ bản của mã hóa LZW là ở đâu? LZW có vấn đề gì và có cách nào để giải quyết\nnó không? So sánh LZW với Huffman ở hai điểm: có cần biết trước tần suất ký hiệu hay không và có\nphải gửi kèm bảng mã (từ điển) hay không.",
+      "prompt": "Câu 6.L3. Ý tưởng cơ bản của mã hóa LZW là ở đâu? LZW có vấn đề gì và có cách nào để giải quyết nó không? So sánh LZW với Huffman ở hai điểm: có cần biết trước tần suất ký hiệu hay không và có phải gửi kèm bảng mã (từ điển) hay không.",
+      "images": []
+    },
+    {
+      "id": "uyen-6-L4",
+      "code": "6.L4",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L4. Phân biệt dữ liệu và thông tin. Viết công thức tỷ lệ nén và dư thừa tương đối. Có những\nkiểu dư thừa dữ liệu nào trong ảnh số? Mỗi kiểu được khai thác bằng kỹ thuật nào trong chương này?",
+      "prompt": "Câu 6.L4. Phân biệt dữ liệu và thông tin. Viết công thức tỷ lệ nén và dư thừa tương đối. Có những kiểu dư thừa dữ liệu nào trong ảnh số? Mỗi kiểu được khai thác bằng kỹ thuật nào trong chương này?",
+      "images": []
+    },
+    {
+      "id": "uyen-6-L5",
+      "code": "6.L5",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L5. Trình bày nguyên lý và các bước của mã hóa Huffman. Vì sao việc giải mã Huffman là\ntức thời? Nếu áp dụng cho ảnh nhị phân thì vì sao phải chia ảnh thành các khối (ví dụ khối 2×2) trước\nkhi mã hóa? Nêu hai nhược điểm của mã Huffman.",
+      "prompt": "Câu 6.L5. Trình bày nguyên lý và các bước của mã hóa Huffman. Vì sao việc giải mã Huffman là tức thời? Nếu áp dụng cho ảnh nhị phân thì vì sao phải chia ảnh thành các khối (ví dụ khối 2×2) trước khi mã hóa? Nêu hai nhược điểm của mã Huffman.",
+      "images": []
+    },
+    {
+      "id": "uyen-6-L6",
+      "code": "6.L6",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L6. Phân biệt nén bảo toàn thông tin (không tổn thất) và nén làm mất thông tin (có tổn thất):\ncho ví dụ thuật toán của từng loại và cho biết tỷ lệ nén thông thường. Có những tiêu chí nào để đánh\ngiá chất lượng ảnh sau giải nén? Viết công thức hai tiêu chí khách quan.",
+      "prompt": "Câu 6.L6. Phân biệt nén bảo toàn thông tin (không tổn thất) và nén làm mất thông tin (có tổn thất): cho ví dụ thuật toán của từng loại và cho biết tỷ lệ nén thông thường. Có những tiêu chí nào để đánh giá chất lượng ảnh sau giải nén? Viết công thức hai tiêu chí khách quan.",
+      "images": []
+    },
+    {
+      "id": "uyen-6-L7",
+      "code": "6.L7",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L7. Mô hình mã hóa ảnh gồm những khối nào? Nêu chức năng của từng khối (mapper,\nquantizer, symbol encoder). Ở phía giải mã, khối nào không thể khôi phục chính xác dữ liệu ban đầu?\nVì sao?",
+      "prompt": "Câu 6.L7. Mô hình mã hóa ảnh gồm những khối nào? Nêu chức năng của từng khối (mapper, quantizer, symbol encoder). Ở phía giải mã, khối nào không thể khôi phục chính xác dữ liệu ban đầu? Vì sao?",
+      "images": []
+    },
+    {
+      "id": "uyen-6-L8",
+      "code": "6.L8",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L8. Trình bày các bước nén ảnh xám bằng chuẩn JPEG. Vì sao ảnh được chia thành khối 8×8?\nVì sao phải quét zig-zag sau lượng tử hóa? Vì sao hệ số DC được mã bằng DPCM còn các hệ số AC\nđược mã bằng RLE?",
+      "prompt": "Câu 6.L8. Trình bày các bước nén ảnh xám bằng chuẩn JPEG. Vì sao ảnh được chia thành khối 8×8? Vì sao phải quét zig-zag sau lượng tử hóa? Vì sao hệ số DC được mã bằng DPCM còn các hệ số AC được mã bằng RLE?",
+      "images": []
+    },
+    {
+      "id": "uyen-6-L9",
+      "code": "6.L9",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "kind": "theory",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.L9. Các nhận định sau đúng hay sai? Giải thích ngắn gọn:\n\n(a) Mã Huffman luôn cho độ dài mã trung bình bằng đúng entropy của nguồn.\n\n(b) Trong LZW, bên nhận phải được gửi trước từ điển do bên gửi xây dựng.\n\n(c) DCT là phép biến đổi làm mất thông tin.\n\n(d) So với DFT, DCT ít gây méo ở mép khối hơn, nhưng JPEG vẫn có hiệu ứng khối (blocking) khi\nnén mạnh.\n\n(e) Hệ số lượng tử Q(u,v) ở tần số cao thường lớn hơn ở tần số thấp.\n\n\n\n\n\n                                                1\nPHẦN B. BÀI TẬP TÍNH TOÁN\n\nB.1. Mã hóa Huffman theo khối ảnh",
+      "prompt": "Câu 6.L9. Các nhận định sau đúng hay sai? Giải thích ngắn gọn: (a) Mã Huffman luôn cho độ dài mã trung bình bằng đúng entropy của nguồn. (b) Trong LZW, bên nhận phải được gửi trước từ điển do bên gửi xây dựng. (c) DCT là phép biến đổi làm mất thông tin. (d) So với DFT, DCT ít gây méo ở mép khối hơn, nhưng JPEG vẫn có hiệu ứng khối (blocking) khi nén mạnh. (e) Hệ số lượng tử Q(u,v) ở tần số cao thường lớn hơn ở tần số thấp. 1 PHẦN B. BÀI TẬP TÍNH TOÁN B.1. Mã hóa Huffman theo khối ảnh",
+      "images": []
+    },
+    {
+      "id": "uyen-6-T1",
+      "code": "6.T1",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T1. (D) Thực hiện mã hóa sau bằng thuật toán Huffman. Biết ảnh được chia làm các khối kích\nthước 2×2 để làm đơn vị mã hóa (mỗi khối sẽ như là một chữ cái của bức ảnh).\n\nẢnh I (6 × 20, ảnh nhị phân)\n\n 0    0    1    1    0    0    1    1    1    0    0    0    0    0    0    1    0    0    1    1\n\n 0    0    1    1    0    0    1    1    0    1    0    0    0    0    0    1    0    0    0    0\n\n 0    0    0    0    0    1    0    0    1    1    0    1    0    0    1    0    1    1    1    1\n\n 0    0    0    0    1    0    0    0    0    0    0    1    0    0    0    1    1    1    1    1\n\n 0    1    1    0    0    1    1    1    0    0    0    1    1    1    0    0    1    1    1    1\n\n 0    1    0    1    0    1    1    1    1    1    0    1    1    1    0    0    1    1    1    1\n\n\na. Lập bảng tần suất các khối.\n\nb. Xây dựng cây Huffman và bảng mã.\n\nc. Viết ma trận mã hóa 𝐼𝑘𝑞.\n\nd. Tính số bit trước khi mã hóa 𝑛₁, số bit sau khi mã hóa 𝑛₂, tỷ lệ nén 𝐶𝑅 và dư thừa tương đối 𝑅𝐷.\n\ne. Tính entropy H, độ dài mã trung bình L và hiệu suất 𝜂= 𝐻/𝐿 của bộ mã.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T1-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T2",
+      "code": "6.T2",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        2
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T2. (D) Thực hiện mã hóa sau bằng thuật toán Huffman. Biết ảnh được chia làm các khối kích\nthước 2×2 để làm đơn vị mã hóa.\n\nẢnh I (6 × 16, ảnh nhị phân)\n\n 1     0     1     1     1     1     1     1     0     1     1     0     0     1     0     1\n\n 0     1     1     1     1     1     1     1     0     1     1     0     0     1     0     1\n\n 1     1     0     1     0     0     0     0     1     1     1     1     1     0     1     0\n\n 1     1     0     1     0     0     0     0     1     1     0     0     1     0     0     1\n\n 1     0     1     1     1     0     0     0     1     1     1     0     0     0     1     0\n\n 1     0     0     0     1     0     0     0     1     1     0     1     0     0     1     0\n\n\na. Thực hiện mã hóa Huffman cho ảnh và tính tỷ lệ nén 𝐶𝑅.\n\nb. Có những ký hiệu cùng tần suất (C và D cùng 4 khối). Nếu đổi vai trò của hai ký hiệu này (hoặc\nđổi vai trò hai nhánh 0/1 ở một nút) thì bộ mã và số bit 𝑛₂ có thay đổi hay không? Giải thích.\n\nc. Nếu thay Huffman bằng mã có độ dài cố định cho từng khối thì mỗi khối cần ít nhất bao nhiêu bit?\nTính 𝑛₂ và 𝐶𝑅 trong trường hợp này rồi so sánh với kết quả câu a.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T2-p2.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T3",
+      "code": "6.T3",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T3. (C) Một bức ảnh nhị phân được chia thành các khối 2×2 và mã hóa bằng mã Huffman với\nbảng ký hiệu và bảng mã sau:\n\n\n\n\n\n                                                2\nKý hiệu            A      B      C      D      E\n Khối 2×2 (hàng trên/hàng\n                           11/11      00/00      10/10      01/10      11/00\n dưới)\n Từ mã                  0         10        110       1110      1111\n\n\nChuỗi bit nhận được (các khối theo thứ tự quét từ trái sang phải, từ trên xuống dưới; ảnh gồm 2 hàng\nkhối, mỗi hàng 6 khối): 0100110001011111101001110\n\na. Chứng minh bảng mã trên là mã tiền tố (không từ mã nào là phần đầu của từ mã khác) và nêu vì\nsao điều đó cho phép giải mã tức thời.\n\nb. Giải mã chuỗi bit trên và dựng lại ảnh I (4 × 12).\n\nc. Tính 𝑛₁, 𝑛₂ và 𝐶𝑅.\n\nd. Giả sử do nhiễu trên đường truyền, bit thứ 5 của chuỗi bị đảo (0 thành 1 hoặc ngược lại). Hãy giải\nmã lại chuỗi bị lỗi và nhận xét ảnh hưởng của một bit lỗi tới việc giải mã.\n\nB.2. Mã hóa LZW",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T3-p2.webp",
+        "subjects/xu-ly-anh/prompts/uyen-6-T3-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T4",
+      "code": "6.T4",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        3
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T4. (D) Thực hiện mã hóa ảnh sau bằng kỹ thuật LZW. Biết ảnh được chia làm các khối kích\nthước 1×2 để làm đơn vị mã hóa, và từ điển gốc gồm 4 đơn vị mã hóa sau: 00, 01, 10, 11 tương ứng\nvới giá trị từ 0 đến 3; từ điển sẽ được xây dựng tiếp theo từ giá trị 4. Bức ảnh được đọc từ trái qua\nphải và từ trên xuống dưới.\n\nẢnh I (4 × 8)\n\n 0    0    1    0    1    0    1    0\n 1    1    1    1    0    1    1    0\n 1    1    0    1    1    0    1    1\n 1    0    1    0    1    1    0    1\n\n\na. Thực hiện mã hóa và giải mã ảnh trên với LZW. Coi từ điển là đủ lớn để không thiếu chỗ.\n\nb. Giả sử mỗi từ mã được biểu diễn bằng 4 bit. Tính 𝑛₁, 𝑛₂ và 𝐶𝑅. Nhận xét kết quả và giải thích vì\nsao LZW chỉ thực sự hiệu quả khi dữ liệu đủ dài và có nhiều chuỗi lặp.\n\nc. Nêu ý tưởng cơ bản của LZW; LZW có vấn đề gì và có cách nào giải quyết?",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T4-p3.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T5",
+      "code": "6.T5",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T5. (C) Mã hóa bức ảnh 8 bit/điểm ảnh sau bằng mã LZW. Từ điển gốc gồm 256 mức xám\n(mã 0–255), mã mới bắt đầu từ 256; ảnh được đọc từ trái qua phải và từ trên xuống dưới.\n\nẢnh I (4 × 4)\n\n 25     25     25     25\n 80     80     25     25\n 80     80     25     25\n 25     25     80     80\n\n\n\n\n\n                                                3\nLập bảng mã hóa gồm các cột: chuỗi đang xét, điểm ảnh đang đọc, mã xuất, vị trí và nội dung mục\ntừ điển mới. Tính 𝑛₁, 𝑛₂ (mỗi từ mã dùng 9 bit) và 𝐶𝑅.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T5-p3.webp",
+        "subjects/xu-ly-anh/prompts/uyen-6-T5-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T6",
+      "code": "6.T6",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T6. (D) Mã hóa và giải mã bức ảnh sau bằng thuật toán LZW với bộ từ điển gốc gồm các khối\nảnh kích thước 1×3 tương ứng với các giá trị từ 0 đến 7 (khối 000 là 0, khối 001 là 1, …, khối 111 là\n7), từ điển sẽ được xây dựng tiếp theo từ giá trị 8 và coi từ điển là đủ lớn. Ảnh được đọc từ trái qua\nphải và từ trên xuống dưới.\n\nẢnh I (4 × 9)\n\n 0    0    1    0    0    1    0    0    1\n 1    0    1    1    0    1    1    0    1\n 0    1    0    0    0    0    0    1    1\n 1    0    1    1    0    1    0    1    0\n\n\nLập bảng mã hóa và bảng giải mã. Khi giải mã, có mã nào bên nhận gặp mà chưa có trong từ điển\ncủa mình không? Xử lý trường hợp đó như thế nào? Tính 𝑛₁, 𝑛₂ (mỗi từ mã 4 bit) và 𝐶𝑅.\n\nB.3. Mã hóa loạt dài (RLC)",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T6-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T7",
+      "code": "6.T7",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        4
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T7. (D) a. Cho dữ liệu nhị phân sau (một hàng ảnh):\n\n00000000010001100000000000001000001100100000000000\n\nMã hóa RLC theo quy ước: mỗi số nguyên được biểu diễn bằng 4 bit, là số bit 0 liên tiếp đứng trước\nmột bit 1 (phần các bit 0 ở cuối chuỗi cũng được mã hóa thành một số). Viết chuỗi mã nhị phân thu\nđược và tính C_R. Sau đó giải mã chuỗi mã 0110 0000 1100 0011 0001 1001 theo cùng quy ước.\n\nb. Cho chuỗi ký tự KKKKKKKKKKKUEEEEEEEEEEEEEEEEEENNNNNNNDDDD. Mã hóa\nRLC theo dạng “ký tự + số lần lặp viết bằng hai chữ số” (ví dụ BBBAA được mã thành B03A02).\nTính tỷ lệ nén theo số ký tự và chỉ ra mục mã hóa nào làm tăng chiều dài. Với chuỗi ABABABAB\nthì kết quả mã hóa như thế nào?\n\nc. Một hàng ảnh nhị phân gồm 16 điểm ảnh: 1011001010110100. Mã hóa theo cặp (giá trị, độ dài\nchạy), mỗi cặp dùng 4 bit (1 bit giá trị + 3 bit độ dài chạy). Tính 𝑛₁, 𝑛₂ và 𝐶𝑅; mã hóa này làm giảm\nhay làm tăng kích thước dữ liệu? Vì sao?\n\nB.4. Biến đổi DCT, lượng tử hóa và mã hóa entropy trong JPEG",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T7-p4.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T8",
+      "code": "6.T8",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T8. (C) Cho khối ảnh 8×8 gồm hai phần có độ sáng khác nhau (mỗi hàng đều giống nhau):\n\n\n\n\n\n                                                4\nKhối P(x,y)\n\n 30    30    30    30    110   110   110   110\n 30    30    30    30    110   110   110   110\n 30    30    30    30    110   110   110   110\n 30    30    30    30    110   110   110   110\n 30    30    30    30    110   110   110   110\n 30    30    30    30    110   110   110   110\n 30    30    30    30    110   110   110   110\n 30    30    30    30    110   110   110   110\n\n\na. Tính T(0,0).\n\nb. Tính T(0,1), T(0,2), T(0,3).\n\nc. Giải thích vì sao T(u,v) = 0 với mọi u ≥ 1 và T(0,v) = 0 với v chẵn khác 0.\n\nd. Chỉ giữ lại hệ số T(0,0) rồi khôi phục khối ảnh: mỗi điểm ảnh bằng bao nhiêu? Tính sai số 𝑒𝑟ms.\nNhận xét về việc DCT tập trung năng lượng vào các hệ số tần số thấp.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T8-p4.webp",
+        "subjects/xu-ly-anh/prompts/uyen-6-T8-p5.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T9",
+      "code": "6.T9",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T9. (D) Kết quả biến đổi DCT của một khối ảnh 8×8 và bảng lượng tử Q như sau:\n\nMa trận hệ số DCT T(u,v)\n\n 425   51    33    -42    -25   14    -17    -6\n 85    -58   37    11    12    14    14     -7\n 38    29    -12   11    -14   10    10    9\n 29    16    -25    -12    -18    -15   13    5\n 15    16    7     17    -16    -7     -12    -6\n -16    -15   17    13    -11    -8     -12   9\n -15   14    -10   7     9     -10    -10   9\n 7     15    -14    -8     -8     -11    -10    -9\n\n\nBảng lượng tử Q(u,v)\n\n 16    11    10    16    24    40    51    61\n 12    12    14    19    26    58    60    55\n 14    13    16    24    40    57    69    56\n 14    17    22    29    51    87    80    62\n 18    22    37    56    68    109   103   77\n 24    35    55    64    81    104   113   92\n 49    64    78    87    103   121   120   101\n 72    92    95    98    112   100   103   99\n\n\na. Thực hiện lượng tử hóa 𝑇′(𝑢, 𝑣) = 𝑟𝑜𝑢𝑛𝑑(𝑇(𝑢, 𝑣)/𝑄(𝑢, 𝑣)).\n\nb. Có bao nhiêu hệ số khác 0 sau lượng tử hóa?\n\n\n                                                5\nc. Quét zig-zag ma trận T′ thành vector 1×64.\n\nd. Mã hóa các hệ số AC theo RLE thành các cặp (skip, value).\n\ne. Giải lượng tử hóa 𝑇″ = 𝑇′ ⊙𝑄 cho hệ số DC và hệ số T(0,1); so sánh với giá trị trước khi lượng\ntử hóa. Tính sai số bình phương tổng 𝛴(𝑇−𝑇″)² trên cả khối và suy ra 𝑒𝑟ms của khối ảnh khôi phục\n(DCT chuẩn trực giao bảo toàn năng lượng nên tổng bình phương sai số trong miền tần số bằng tổng\nbình phương sai số trong miền ảnh, bỏ qua sai số làm tròn điểm ảnh).",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T9-p5.webp",
+        "subjects/xu-ly-anh/prompts/uyen-6-T9-p6.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T10",
+      "code": "6.T10",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        6
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T10. (C) Trong JPEG, các hệ số DC của 8 khối 8×8 liên tiếp (sau lượng tử hóa) là:\n\nDC = 58, 61, 67, 64, 72, 72, 69, 53\n\na. Tính dãy các giá trị mã hóa DPCM.\n\nb. Với mỗi giá trị DPCM hãy xác định category CAT và tổng số bit (từ mã Huffman của CAT cộng\ncác bit biên độ) theo bảng dưới; tính tổng số bit cho cả 8 khối.\n\nc. Phía giải mã nhận được dãy DPCM 40, -3, 5, 0, -12, 6, -1, 2; hãy khôi phục các giá trị DC.\n\nd. Vì sao DPCM giúp giảm số bit so với mã hóa trực tiếp từng giá trị DC?\n\nBảng mã Huffman cho category của hệ số DC (rút gọn):\n\n CAT        0      1      2      3      4      5      6      7      8\n Mã Huffman  00     010    011    100    101    110    1110   11110  111110\n\n\ne. Cho vector 1×63 gồm các hệ số AC (đã quét zig-zag):\n\nVector AC (viết thành 7 hàng, mỗi hàng 9 phần tử, đọc từ trái sang phải, từ trên xuống dưới)\n\n 0    0    -2   0    0    0    0    1    3\n 0    0    0    0    0    0    -1   0    2\n 0    0    0    0    0    0    0    0    0\n 0    0    0    0    0    0    0    0    0\n 0    0    0    0    0    0    0    0    0\n 0    0    0    0    0    0    0    0    0\n 0    0    0    0    0    0    0    0    0\n\n\nHãy mã hóa RLE thành các cặp (skip, value). Ngược lại, hãy khôi phục vector AC (63 phần tử) từ\ndãy cặp (0,5) (1,-3) (3,2) (0,-1) (0,0), cho biết vị trí (chỉ số trong vector 1×64, đánh số từ 0) của các\nhệ số khác 0.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T10-p6.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T11",
+      "code": "6.T11",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T11. (D) Mô phỏng một vòng nén JPEG cho khối ảnh xám cỡ 2×2 (để tính tay). Cho khối ảnh\nI, bảng lượng tử Q và hệ số DC của khối ngay trước đó 𝐷𝐶𝑖−1:\n\n𝐼= [[11,5], [15,13]], 𝑄= [[2,10], [3,2]], 𝐷𝐶𝑖−1 = 13.\n\nMa trận DCT 2 điểm 𝑇= [[1/√2,1/√2], [𝑐𝑜𝑠(𝜋/4), 𝑐𝑜𝑠(3𝜋/4)]] = (1/√2) · [[1,1], [1, −1]]; biến\n\nđổi thuận 𝐼𝐷CT = 𝑇· 𝐼· 𝑇ᵀ. Bỏ qua bước dịch mức xám. Bảng mã Huffman (rút gọn):\n\n\n\n                                                6\nCAT        0      1      2      3      4      5      6      7      8\n Mã Huffman  00     010    011    100    101    110    1110   11110  111110\n\n\nBảng mã Huffman cho cặp (RUN/CAT) của hệ số AC (rút gọn)\n\n Run/CAT     Mã                Run/CAT     Mã\n EOB           1010                      1/1             1100\n 0/1             00                        1/2             11011\n 0/2             01                        1/3             1111001\n 0/3             100                       1/4             111110110\n\n 0/4             1011\n\n 0/5             11010\n\n\na. Tính 𝐼𝐷CT.\n\nb. Lượng tử hóa 𝐼𝑄= 𝑟𝑜𝑢𝑛𝑑(𝐼𝐷CT/𝑄).\n\nc. Quét zig-zag thành vector 1×4.\n\nd. Mã hóa hệ số DC bằng DPCM + category + bit biên độ.\n\ne. Mã hóa các hệ số AC thành các cặp (RUN, giá trị), tra bảng và viết chuỗi bit; cho biết có cần gửi\nEOB không.\n\nf. Viết toàn bộ chuỗi bit của khối.\n\ng. Phía giải mã: giải lượng tử hóa, biến đổi DCT ngược 𝐼′ = 𝑇ᵀ· (𝐼𝑄⊙𝑄) · 𝑇 và tính sai số 𝑒𝑟ms so\nvới khối ảnh gốc.",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T11-p6.webp",
+        "subjects/xu-ly-anh/prompts/uyen-6-T11-p7.webp"
+      ]
+    },
+    {
+      "id": "uyen-6-T12",
+      "code": "6.T12",
+      "area": "uyen",
+      "sourceId": "uyen-6",
+      "sourcePages": [
+        7
+      ],
+      "kind": "exercise",
+      "points": null,
+      "chapter": 6,
+      "originalText": "Câu 6.T12. (B) Một ảnh xám f có kích thước 4×4 được nén có tổn thất rồi giải nén, thu được ảnh f̂:\n\nẢnh gốc f\n\n 52    85    128   160\n 97    78    107   86\n 61    175   115   80\n 42    135   127   99\n\nẢnh khôi phục  f̂\n\n 54    82    128   161\n 96    82    105   86\n 64    175   111   82\n 42    134   128   94\na. Tính sai số căn quân phương 𝑒𝑟𝑚𝑠.\n\nb. Tính tỷ số tín hiệu trên nhiễu bình phương trung bình 𝑆𝑁𝑅𝑚𝑠(tỷ số và dB).\n\nc. Ảnh nén có tỷ lệ nén 𝐶𝑅= 12 với chất lượng như trên có phải lúc nào cũng tốt hơn ảnh nén có\n𝐶𝑅= 6? Vì sao cần kết hợp đánh giá chủ quan?\n\n\n\n                                                7",
+      "prompt": "",
+      "images": [
+        "subjects/xu-ly-anh/prompts/uyen-6-T12-p7.webp"
+      ]
+    }
+  ]
+}

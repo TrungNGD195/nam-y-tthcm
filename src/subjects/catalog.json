@@ -45,12 +45,15 @@
     "id": "xu-ly-anh",
     "name": "Xử lý ảnh",
     "shortName": "Xử lý ảnh",
-    "description": "Chương và câu hỏi sẽ được tổ chức theo giáo trình bạn bổ sung.",
+    "description": "Giải ngân hàng theo mức điểm và giải bài cô Uyên theo chương. Công thức rõ, keyword dễ nhớ.",
     "icon": "image",
     "accent": "#286a65",
     "accentLight": "#eaf3ef",
-    "status": "awaiting-materials",
-    "collections": []
+    "status": "ready",
+    "collections": [],
+    "learningMode": "solutions",
+    "questionCount": 168,
+    "chapterCount": 7
   },
   {
     "id": "khoa-hoc-du-lieu",

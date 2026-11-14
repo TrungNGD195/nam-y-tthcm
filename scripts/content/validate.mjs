@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
 import katex from 'katex';
+import { validateSolutions } from './xu-ly-anh/validate.mjs';
 
 export function validateBank(bank, subject, assetExists = () => true) {
   assert.equal(bank.subjectId,subject.id,'Bank belongs to another subject');
@@ -61,6 +62,13 @@ if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   assert.equal(new Set(subjects.map(s=>s.id)).size,subjects.length);
   for(const subject of subjects){
     assert(/^[a-z0-9-]+$/.test(subject.id)&&subject.name&&/^#[0-9a-f]{6}$/i.test(subject.accent));
+    if(subject.learningMode==='solutions'){
+      assert.equal(subject.status,'ready');
+      const data=JSON.parse(readFileSync(new URL(`src/subjects/${subject.id}/solutions.json`,root),'utf8'));
+      validateSolutions(data,subject,asset=>existsSync(new URL('public/'+asset,root)));
+      console.log(`${subject.name}: ${data.items.length} solved items, ${data.chapters.length} chapter groups.`);
+      continue;
+    }
     const file=new URL(`src/subjects/${subject.id}/bank.json`,root);
     if(subject.status==='ready'){
       assert(existsSync(file));const bank=JSON.parse(readFileSync(file,'utf8'));

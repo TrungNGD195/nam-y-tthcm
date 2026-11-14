@@ -10,7 +10,7 @@ test('entry page makes the available learning action visible without loading que
   const start=page.locator('[data-subject=tthcm]').getByRole('link',{name:'Vào học',exact:false});
   await expect(start).toBeVisible();const box=await start.boundingBox();expect(box!.y+box!.height).toBeLessThan(768);
   expect(requests.some(url=>/\/assets\/bank-/.test(url))).toBe(false);
-  await expect(page.locator('.awaiting-button')).toHaveCount(2);
+  await expect(page.locator('.awaiting-button')).toHaveCount(1);
   await page.screenshot({path:'test-results/subjects-desktop.png',fullPage:true});
   await start.click();await expect(page.locator('.chapter-card')).toHaveCount(6);
   await expect(page.locator('.chapter-cta').first()).toHaveText(/Học chương này/);
@@ -22,7 +22,7 @@ test('switching subjects keeps progress and cannot mix the subject contexts',asy
   await page.locator('[data-action=skip]').click();
   const original=await page.evaluate(key=>localStorage.getItem(key),currentKey);
   await page.selectOption('#subject-switch','xu-ly-anh');
-  await expect(page.locator('.awaiting-panel h1')).toHaveText('Xử lý ảnh');
+  await expect(page.locator('.solution-areas')).toBeVisible();
   await expect(page.locator('.question-card')).toHaveCount(0);
   expect(await page.evaluate(key=>localStorage.getItem(key),currentKey)).toBe(original);
   expect(await page.evaluate(()=>localStorage.getItem('nam-y:progress:v2:xu-ly-anh'))).toBeNull();

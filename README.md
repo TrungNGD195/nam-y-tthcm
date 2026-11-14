@@ -7,7 +7,7 @@ Chọn môn → chọn chương → học ý cốt lõi → luyện câu hỏi �
 | Môn | Trạng thái |
 | --- | --- |
 | Tư tưởng Hồ Chí Minh | 623 câu, 6 chương, 110 câu số liệu; đề mẫu 20 câu |
-| Xử lý ảnh | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
+| Xử lý ảnh | 168 câu/bài tự luận có lời giải, chia ngân hàng theo 4 mức điểm và bộ cô Uyên theo chương |
 | Khoa học dữ liệu | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
 
 ## Chạy và kiểm tra
@@ -50,10 +50,12 @@ src/
   core/                 engine, kiểu dữ liệu, tiến độ, migration
   features/subjects/    trang chọn môn, trang chờ tài liệu
   features/study/       luồng học chung, không nhân bản theo môn
+  features/solutions/   đọc đề tự luận, công thức, lời giải và tự đánh giá
   shared/               UI, blocks, công thức, styles
   subjects/
     catalog.json        thông tin và cấu hình từng môn
     tthcm/bank.json     câu hỏi, concept, chương và nguồn đã biên tập
+    xu-ly-anh/solutions.json  168 đề và lời giải từng bước
 materials/<id>/         tài liệu gốc riêng từng môn, không public file gốc
 content/<id>/           trích xuất, audit và quyết định biên tập theo môn
 public/subjects/<id>/   ảnh, sơ đồ dùng trong câu hỏi đã kiểm duyệt
@@ -78,7 +80,31 @@ Sau khi có tài liệu: đọc phạm vi, xác định chương và ngân hàng
 
 Không sao chép khung 6 chương hoặc chuyên đề Đại hội của TTHCM sang môn khác. Engine chọn đề lấy chương từ dữ liệu thực, mỗi môn có thể có độ dài đề mẫu/đề trộn khác nhau. Trang chọn môn chỉ tải metadata; mở môn nào mới tải ngân hàng môn đó.
 
-Mô hình câu chuẩn bị block ảnh, ma trận, bảng, code và công thức TeX cho đề, lựa chọn, giải thích. Công thức dùng KaTeX tải khi cần; code chỉ hiển thị, không chạy. Ảnh phải nằm trong `public/subjects/<id>/`, có alt và tham chiếu từ đúng môn. Chưa có tài liệu thì không xuất bản câu minh họa giả. Bản hiện tại chấm trắc nghiệm một đáp án đúng với 2–4 lựa chọn.
+Mô hình câu có block ảnh, ma trận, bảng, code và công thức TeX. Công thức dùng KaTeX tải khi cần; code chỉ hiển thị, không chạy. Ảnh thuộc `public/subjects/<id>/`. Catalog dùng `learningMode: "solutions"` và `solutions.json` cho bộ bài tự luận; mặc định `quiz` và `bank.json` cho trắc nghiệm. Không chuyển bài tự luận thành câu chọn đáp án giả.
+
+## Nội dung Xử lý ảnh
+
+[Vào môn Xử lý ảnh](https://trungngd195.github.io/nam-y-tthcm/#/mon/xu-ly-anh).
+
+- **giải ngân hàng**: 51 mục — 1 điểm 14, 2 điểm 16, 3 điểm 11, 4 điểm 10 (có một bài bổ sung không đánh số sau 4.8).
+- **giải bài cô Uyên**: 117 mục, gộp hai bản lý thuyết Việt–Anh trùng 28 câu; chia theo chương của slide/bộ Ôn tập, ưu tiên chương 3–7.
+- Đọc đề → tự làm → mở lời giải → đánh dấu Cần ôn/Đã nắm. Bài tính giữ ảnh đề, có câu dẫn, công thức rồi thay số và kết quả. Lý thuyết có keyword nổi bật.
+- Cấu trúc đề theo người học: đạo đức, lý thuyết, hai bài tập chương 3–7. Chưa có bộ câu đạo đức riêng nên chưa biên soạn lời giải phần đó.
+- [Kiểm kê và các quy ước/sai sót nguồn](content/xu-ly-anh/KIEM_KE_VA_QUY_UOC.md).
+
+Tái tạo nội dung (ZIP gốc cần có trong `materials/xu-ly-anh` khi chạy ingest):
+
+```sh
+pip install -r scripts/content/requirements.txt
+pip install Pillow
+python scripts/content/xu-ly-anh/ingest.py
+python scripts/content/xu-ly-anh/build.py
+pip install -r scripts/content/xu-ly-anh/requirements-review.txt
+python scripts/content/xu-ly-anh/verify.py
+npm run check
+```
+
+CI chạy kiểm tra toán độc lập bằng NumPy/SciPy; khi học chỉ cần file web tĩnh, không cần Python, tài khoản hoặc máy chủ API.
 
 ## Nội dung TTHCM
 
@@ -111,7 +137,7 @@ python scripts/content/tthcm/curate_content.py
 npm run check
 ```
 
-CI và việc học trên web không cần Python hay các PDF gốc. Importer gốc không lấy lại Azota; các snapshot Azota đã kiểm duyệt được lưu tại `content/tthcm/azota/`. Không sửa snapshot rồi tái dùng key vị trí: curator sẽ từ chối khi băm không khớp. Không tăng revision câu nếu chỉ đổi nơi lưu trữ; khi sửa ý nghĩa hoặc đáp án của câu đã phát hành thì tăng revision và phiên bản ngân hàng.
+Việc học trên web không cần Python hay các PDF gốc. Importer gốc không lấy lại Azota; các snapshot Azota đã kiểm duyệt được lưu tại `content/tthcm/azota/`. Không sửa snapshot rồi tái dùng key vị trí: curator sẽ từ chối khi băm không khớp. Không tăng revision câu nếu chỉ đổi nơi lưu trữ; khi sửa ý nghĩa hoặc đáp án của câu đã phát hành thì tăng revision và phiên bản ngân hàng.
 
 ## Tiến độ và tương thích bản cũ
 
@@ -119,6 +145,7 @@ CI và việc học trên web không cần Python hay các PDF gốc. Importer g
 - TTHCM tự đọc tiến độ v1 khi chưa có bản v2, giữ records, bài dang dở và thứ tự đáp án đã đảo. Bản v1 vẫn được giữ làm dự phòng.
 - Nhập tệp sai môn bị từ chối dù có ID câu giống nhau. Không tự đồng bộ giữa các trình duyệt/thiết bị; dùng xuất/nhập JSON để chuyển máy.
 - URL cũ như `#/chuong/2` và `#/lam-bai` chuyển về môn TTHCM. Giữ nguyên URL GitHub Pages và repository hiện có để không làm hỏng liên kết đã chia sẻ.
+- Tự đánh giá bài tự luận lưu riêng tại `nam-y:solutions:v1:<id>`, không ghi vào kết quả trắc nghiệm và không tự chấm điểm.
 
 ## Public
 

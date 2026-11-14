@@ -1,5 +1,6 @@
 import registry from '../subjects/catalog.json';
 import type { Bank, Subject } from '../core/types.ts';
+import type { Solutions } from '../features/solutions/types.ts';
 export const subjects = registry as Subject[];
 export const getSubject = (id: string): Subject | undefined => subjects.find(s => s.id === id);
 const loaders = import.meta.glob<{ default: Bank }>('../subjects/*/bank.json');
@@ -15,4 +16,18 @@ export function loadBank(subject: Subject): Promise<Bank> {
     }).catch(error => { cache.delete(subject.id); throw error; }));
   }
   return cache.get(subject.id)!;
+}
+const solutionLoaders = import.meta.glob<{ default: Solutions }>('../subjects/*/solutions.json');
+const solutionCache = new Map<string, Promise<Solutions>>();
+export function loadSolutions(subject: Subject): Promise<Solutions> {
+  if (subject.status !== 'ready' || subject.learningMode !== 'solutions') return Promise.reject(new Error('Môn không dùng bộ lời giải.'));
+  if (!solutionCache.has(subject.id)) {
+    const loader=solutionLoaders[`../subjects/${subject.id}/solutions.json`];
+    if (!loader) return Promise.reject(new Error('Chưa có bộ lời giải.'));
+    solutionCache.set(subject.id,loader().then(module=>{
+      if(module.default.subjectId!==subject.id)throw new Error('Bộ lời giải không khớp môn.');
+      return module.default;
+    }).catch(error=>{solutionCache.delete(subject.id);throw error;}));
+  }
+  return solutionCache.get(subject.id)!;
 }
