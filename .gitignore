@@ -13,3 +13,6 @@ release/
 !.env.example
 *.log
 .DS_Store
+TTHCM_AZOTA_522_CAU_HOI_VA_DAP_AN.docx
+__pycache__/
+*.py[cod]

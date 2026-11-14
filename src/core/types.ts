@@ -14,7 +14,7 @@ export type ContentBlock =
   | { type: 'code'; code: string; language?: string }
   | { type: 'formula'; tex: string; display?: boolean };
 export type Reference = { sourceId: string; pdfPage: number; section: string; evidence: string };
-export type Source = { id: string; title: string; shortTitle: string; kind: 'bank' | 'theory' | 'supplement'; pages: number };
+export type Source = { id: string; title: string; shortTitle: string; kind: 'bank' | 'theory' | 'supplement'; pages: number; url?: string; locatorLabel?: 'câu' | 'mục' };
 export type Concept = {
   id: string; chapter: ChapterNumber; title: string; summary: string;
   keywords: string[]; confusionNote: string; references: Reference[]; core: boolean;

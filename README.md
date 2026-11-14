@@ -6,7 +6,7 @@ Chọn môn → chọn chương → học ý cốt lõi → luyện câu hỏi �
 
 | Môn | Trạng thái |
 | --- | --- |
-| Tư tưởng Hồ Chí Minh | 215 câu, 6 chương, 59 câu số liệu; đề mẫu 20 câu |
+| Tư tưởng Hồ Chí Minh | 623 câu, 6 chương, 110 câu số liệu; đề mẫu 20 câu |
 | Xử lý ảnh | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
 | Khoa học dữ liệu | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
 
@@ -82,7 +82,25 @@ Mô hình câu chuẩn bị block ảnh, ma trận, bảng, code và công thứ
 
 ## Nội dung TTHCM
 
-Giữ nguyên 215 câu chuẩn từ 233 mục LMS, quiz cô Khánh, đề mẫu; 11 mục mơ hồ/mâu thuẫn chưa dùng để chấm. Mỗi câu có keyword, lời giải ngắn, nguồn, trang và ghi nhận biên tập. [Báo cáo nội dung](content/tthcm/BAO_CAO_NOI_DUNG.md) nêu phạm vi đầy đủ, gồm phần Tổng hợp/Bonus chưa nhập toàn bộ.
+623 câu chuẩn từ 755 mục nguồn: 233 mục LMS/quiz/đề mẫu và 522 mục tại 6 link Azota. Thêm 408 câu, gộp 110 lượt trùng; 4 câu Azota và 11 mục cũ còn mơ hồ chưa dùng để chấm. Đã đọc lại 215 câu cũ, sửa câu mơ hồ và mốc chống thuế theo nguồn Bảo tàng; 23 câu tăng revision. Mỗi câu có keyword, lời giải ngắn và căn cứ đối chiếu. [Báo cáo nội dung](content/tthcm/BAO_CAO_NOI_DUNG.md) và [quyết định từng mục](content/tthcm/azota/reviewed.json) ghi đầy đủ thay đổi.
+
+| Chương theo giáo trình | Câu kiến thức | Câu số liệu | Tổng |
+| --- | ---: | ---: | ---: |
+| 1 | 21 | 12 | 33 |
+| 2 | 95 | 68 | 163 |
+| 3 | 128 | 11 | 139 |
+| 4 | 121 | 4 | 125 |
+| 5 | 58 | 8 | 66 |
+| 6 | 90 | 7 | 97 |
+
+Phân chương theo nội dung giáo trình; tên chương của đề Azota vẫn lưu trong nguồn gốc. Câu số liệu nằm trong chuyên đề riêng, tùy chọn đưa vào lượt luyện chương. Các snapshot giữ nguyên câu hỏi/thứ tự lựa chọn trong lần lấy, có băm chống thay nhầm thứ tự đáp án. Đáp án do đối chiếu tài liệu, không dùng key chấm Azota. Khi hai lựa chọn cùng đúng hoặc câu nguồn sai, bản trên web được sửa có ghi chú hoặc giữ ngoài bài chấm.
+
+File Word đầy đủ đặt tại `TTHCM_AZOTA_522_CAU_HOI_VA_DAP_AN.docx` trong workspace (không đẩy bản Word lên GitHub). Tái tạo sau khi biên tập:
+
+```sh
+python scripts/content/tthcm/curate_content.py
+python scripts/content/tthcm/export_azota_docx.py
+```
 
 Tài liệu cũ đã chuyển từ `Theory_and_questionbank/` vào `materials/tthcm/`. Để tái tạo tại máy:
 
@@ -93,7 +111,7 @@ python scripts/content/tthcm/curate_content.py
 npm run check
 ```
 
-CI và việc học trên web không cần Python hay các PDF gốc. Không tăng revision câu nếu chỉ đổi nơi lưu trữ; khi sửa ý nghĩa hoặc đáp án của câu đã phát hành thì tăng revision và phiên bản ngân hàng.
+CI và việc học trên web không cần Python hay các PDF gốc. Importer gốc không lấy lại Azota; các snapshot Azota đã kiểm duyệt được lưu tại `content/tthcm/azota/`. Không sửa snapshot rồi tái dùng key vị trí: curator sẽ từ chối khi băm không khớp. Không tăng revision câu nếu chỉ đổi nơi lưu trữ; khi sửa ý nghĩa hoặc đáp án của câu đã phát hành thì tăng revision và phiên bản ngân hàng.
 
 ## Tiến độ và tương thích bản cũ
 

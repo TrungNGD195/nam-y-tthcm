@@ -1,35 +1,46 @@
 # Báo cáo nội dung
 
-Ngân hàng chính gồm 233 mục nguồn; số câu xuất bản chỉ tính các câu chuẩn duy nhất.
+**623 câu chuẩn** trên web; 110 câu thuộc chuyên đề con số. Đề mẫu vẫn đủ 20 câu.
 
-| Nguồn | Tổng mục | Xuất bản | Gộp | Chờ kiểm tra / mâu thuẫn |
+## Sáu đề Azota
+
+| Đề | Mục gốc | Thêm câu | Gộp trùng | Chờ xác minh |
 | --- | ---: | ---: | ---: | ---: |
-| lms | 95 | 94 | 0 | 1 |
-| quiz | 118 | 103 | 5 | 10 |
-| sample | 20 | 18 | 2 | 0 |
+| [e9lwce](https://azota.vn/de-thi/e9lwce) | 71 | 70 | 1 | 0 |
+| [rnaeqk](https://azota.vn/de-thi/rnaeqk) | 148 | 140 | 7 | 1 |
+| [ela4jq](https://azota.vn/de-thi/ela4jq) | 88 | 78 | 7 | 3 |
+| [ijqzcg](https://azota.vn/de-thi/ijqzcg) | 44 | 41 | 3 | 0 |
+| [3eggrt](https://azota.vn/de-thi/3eggrt) | 76 | 71 | 5 | 0 |
+| [n6fnzo](https://azota.vn/de-thi/n6fnzo) | 95 | 8 | 87 | 0 |
 
-**215 câu chuẩn**, 59 câu số liệu; đề mẫu 20 câu.
+Tổng cộng **522 mục gốc**: 408 câu thêm, 110 lượt gộp, 4 câu chờ. 233 mục nguồn ban đầu vẫn có đủ audit; 11 mục cũ còn giữ ngoài bài chấm.
 
-## Những mục chưa dùng để chấm
+## Quy tắc đáp án
 
-- **lms-g6-07**, trang PDF 19: Đánh dấu A trong nguồn mâu thuẫn với giáo trình trang in 115 (PDF 117) và slide chương 6 trang 12: văn hóa là mục tiêu, động lực là một vai trò. Chưa dùng câu này để chấm.
-- **quiz-g3-02**, trang PDF 3: Câu dùng 'nguyên nhân' nhưng cần phân biệt với cái cớ cấm đạo; chưa có đáp án nguồn đủ rõ để chấm.
-- **quiz-g3-04**, trang PDF 3: Hai phương án A và C có cùng nội dung dân tộc Việt Nam với thực dân Pháp; chưa có đáp án duy nhất.
-- **quiz-g3-07**, trang PDF 3: Cần làm rõ phân biệt nguyên nhân sâu xa giữa giai cấp tư sản non yếu và thiếu đường lối đúng; nguồn không đánh dấu đáp án.
-- **quiz-g3-11**, trang PDF 4: Cả bốn lựa chọn đều nêu nguồn thuộc cơ sở lý luận hoặc lặp ý; câu phủ định không có đáp án loại trừ rõ.
-- **quiz-g3-19**, trang PDF 4: Các lựa chọn đều có thể mô tả phẩm chất Hồ Chí Minh; chưa xác lập được một phương án sai rõ ràng theo câu nguồn.
-- **quiz-g3-20**, trang PDF 4: Bài giảng dùng 'khoảng 30 nước', trong khi phương án phân biệt gần/hơn 30; cần xác minh trước khi chấm.
-- **quiz-g6-07**, trang PDF 10: Phương án A đúng và D ('A đúng, B sai') cũng đúng về cùng sự kiện; giữ lại để biên tập lựa chọn.
-- **quiz-g6-14**, trang PDF 11: Cả bốn phương án đều thuộc yêu cầu cán bộ, đảng viên; câu hỏi phủ định chưa có đáp án hợp lệ.
-- **quiz-g8-05**, trang PDF 15: Câu trích 'sông có nguồn, cây có gốc' thuộc Sửa đổi lối làm việc, nhưng tác phẩm này không có trong lựa chọn nguồn; không ép chọn một đáp án sai.
-- **quiz-g8-10**, trang PDF 16: Cùng cấu trúc với câu LMS đang có đáp án mâu thuẫn; cần làm rõ lựa chọn 'sự nghiệp của quần chúng' trước khi đưa vào chấm.
+- Ưu tiên giáo trình 2019 và bài giảng PTIT được cung cấp; không sao chép đáp án Azota.
+- Giáo trình Bộ GDĐT bản cũ chỉ đối chiếu phần mở rộng, không thay khung giai đoạn hiện hành.
+- Số liệu thiếu/mâu thuẫn đối chiếu Bảo tàng Hồ Chí Minh, tác phẩm gốc, Văn phòng Chủ tịch nước, Tư liệu Văn kiện Đảng và Báo Nhân Dân. Mỗi câu có vị trí/căn cứ đối chiếu.
+- Bản chụp câu hỏi, thứ tự lựa chọn gốc tách khỏi bản biên tập. Chữ A–D chỉ đúng với đúng snapshot; không dùng chữ cái để suy đáp án giữa các lượt Azota.
+- Sửa mốc chống thuế thành 4/1908; mốc Hội nghị TW8 thành 5/1941; giai đoạn hình thành nội dung cơ bản theo giáo trình là 1920–1930.
+- Không coi lựa chọn “có vẻ đúng nhất” là đủ khi có hai phương án cùng đúng: sửa có ghi chú hoặc giữ ngoài bài chấm.
+- Đã đọc lại 215 câu cũ; tăng revision cho câu thay ý nghĩa để kết quả cũ không tiếp tục chứng nhận một câu đã sửa.
 
-## Phạm vi nguồn bổ sung
+## Các câu chờ xác minh
+
+- **azota-rnaeqk-018**: Câu hỏi đánh giá “thành tựu nổi bật nhất” nhưng không nêu giai đoạn, văn kiện hay tiêu chí. Không áp một lựa chọn thành kết luận của giáo trình.
+- **azota-ela4jq-027**: “Nguy cơ lớn nhất” không có phạm vi, thời điểm và trích dẫn đủ rõ; các lựa chọn chồng lấn. Không ép chọn khi chưa xác định được luận điểm nguồn.
+- **azota-ela4jq-039**: Việc xếp luận điểm vào “vị thế/phương thức/năng lực cầm quyền” không có căn cứ phân loại đủ rõ trong giáo trình; chưa dùng để chấm.
+- **azota-ela4jq-085**: Câu hỏi về hệ tư tưởng và phương thức sản xuất của giai cấp nông dân thuộc nội dung lý luận rộng hơn; chưa có đoạn giáo trình môn này đối chiếu trực tiếp để chấm.
+
+## Dữ liệu kiểm tra
+
+- `azota/<code>.json`: bản gốc 522 câu và lựa chọn.
+- `azota/reviewed.json`: quyết định từng mục, đáp án nội dung, keyword, bản biên tập, nguồn đối chiếu và băm snapshot.
+- `azota/official-sources.json`: URL nguồn chính thống và tài liệu bổ sung.
+- `scripts/content/tthcm/azota_editorial.py`: lựa chọn thủ công và lý do sửa.
+
+## Nguồn bổ sung cũ
 
 - combined: Đã khảo sát; chưa nhập toàn bộ vì cần đối chiếu phiên bản kiến thức và bảng đáp án.
 - bonus: Dùng chọn lọc để đối chiếu câu trong đề mẫu; chưa nhập toàn bộ các câu tiểu sử và phần bổ sung.
 - timeline: Đã khảo sát, dùng hỗ trợ rà mốc; chưa chuyển thành bộ câu hỏi mới.
-
-## Quy tắc biên tập
-
-Giữ nguyên đề và phương án, trừ ghi chú biên tập. Phương án tổng hợp được làm độc lập vị trí; câu tham chiếu A/B giữ thứ tự. Căn cứ đối chiếu ghi trong mỗi câu là diễn giải ngắn, không phải trích dẫn nguyên văn. Dữ liệu OCR chỉ hỗ trợ tìm kiếm, không tự dùng làm lời giải.

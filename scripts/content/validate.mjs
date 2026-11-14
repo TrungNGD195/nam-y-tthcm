@@ -13,6 +13,11 @@ export function validateBank(bank, subject, assetExists = () => true) {
   const questions=new Map(bank.questions.map(q=>[q.id,q]));
   const concepts=new Map(bank.concepts.map(c=>[c.id,c]));
   const sources=new Map(bank.sources.map(s=>[s.id,s]));
+  assert.equal(sources.size,bank.sources.length,'Duplicate source IDs');
+  for(const source of sources.values()){
+    if(source.url)assert(/^https:\/\/[^\s"<>]+$/.test(source.url),'Unsafe source URL');
+    if(source.locatorLabel)assert(['câu','mục'].includes(source.locatorLabel),'Unknown source locator');
+  }
   assert.equal(questions.size,bank.questions.length);assert.equal(concepts.size,bank.concepts.length);
   for(const c of bank.concepts)assert(chapters.has(c.chapter));
   function blocks(items=[]) {
@@ -41,7 +46,7 @@ export function validateBank(bank, subject, assetExists = () => true) {
     assert(q.options.every(o=>typeof o.text==='string'&&o.text.trim()));assert(q.options.some(o=>o.id===q.correctOptionId));
     assert(q.explanation.length>20&&q.keywords.length>0&&q.keywords.length<=3);assert(q.sources.length>0&&q.theoryReferences.length>0);
     assert(q.tags.every(tag=>typeof tag==='string'&&/^[a-z0-9-]+$/.test(tag)));
-    if(q.shufflePolicy==='safe')assert(!q.options.some(o=>/\b[ABCD]\s*(đúng|sai)|đáp án trên|ý trên/i.test(o.text)));
+    if(q.shufflePolicy==='safe')assert(!q.options.some(o=>/(?<![\p{L}\p{N}_])[ABCD]\s*(đúng|sai)|đáp án trên|ý trên/iu.test(o.text)),`${q.id}: unsafe letter reference`);
     for(const ref of [...q.sources,...q.theoryReferences])assert(sources.has(ref.sourceId)&&Number.isInteger(ref.pdfPage)&&ref.pdfPage>0&&ref.pdfPage<=sources.get(ref.sourceId).pages);
     blocks(q.blocks);blocks(q.explanationBlocks);for(const o of q.options)blocks(o.blocks);
   }

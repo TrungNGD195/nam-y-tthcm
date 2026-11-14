@@ -1,0 +1,1985 @@
+{
+  "code": "3eggrt",
+  "url": "https://azota.vn/de-thi/3eggrt",
+  "title": "Bắt đầu thi: TTHCM_PTIT chương 6",
+  "retrievedAt": "2026-11-14T03:46:56.937Z",
+  "expected": null,
+  "questions": [
+    {
+      "id": "azota-3eggrt-001",
+      "code": "3eggrt",
+      "originalNumber": 1,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, nội dung của nền giáo dục mới là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo dục toàn diện cả đức, trí, thể, mỹ"
+        },
+        {
+          "id": "b",
+          "text": "Giáo dục thái độ lao động"
+        },
+        {
+          "id": "c",
+          "text": "Giáo dục tri thức văn hoá"
+        },
+        {
+          "id": "d",
+          "text": "Giáo dục tư tưởng chính trị"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-002",
+      "code": "3eggrt",
+      "originalNumber": 2,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Khái niệm con người theo tư tưởng Hồ Chí Minh là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con người trừu tượng, chung chung"
+        },
+        {
+          "id": "b",
+          "text": "Con người cụ thể gắn với hoàn cảnh cụ thể"
+        },
+        {
+          "id": "c",
+          "text": "Một cộng đồng người"
+        },
+        {
+          "id": "d",
+          "text": "Một con người cụ thể"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-003",
+      "code": "3eggrt",
+      "originalNumber": 3,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, tính đại chúng của văn hóa thể hiện:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Văn hóa phải phục vụ nhân dân và do nhân dân xây dựng nên"
+        },
+        {
+          "id": "b",
+          "text": "Văn hóa dành cho quần chúng nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Văn hóa phải hướng về đa số, phục tùng đa số"
+        },
+        {
+          "id": "d",
+          "text": "Văn hóa từ quần chúng nhân dân mà ra"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-004",
+      "code": "3eggrt",
+      "originalNumber": 4,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, phẩm chất đạo đức quan trọng nhất, bao trùm nhất của con người Việt Nam mới là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cần, kiệm, liêm, chính, chí công vô tư"
+        },
+        {
+          "id": "b",
+          "text": "Trung với nước, hiếu với dân"
+        },
+        {
+          "id": "c",
+          "text": "Tinh thần quốc tế trong sáng"
+        },
+        {
+          "id": "d",
+          "text": "Yêu thương con người"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-005",
+      "code": "3eggrt",
+      "originalNumber": 5,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Để xây dựng những phẩm chất đạo đức tốt đẹp và chống lại những cái vô đạo đức có kết quả, theo quan điểm của Hồ Chí Minh phải:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chống chủ nghĩa cá nhân"
+        },
+        {
+          "id": "b",
+          "text": "Tạo thành phong trào quần chúng rộng rãi"
+        },
+        {
+          "id": "c",
+          "text": "Bắt buộc từng cá nhân thực hiện"
+        },
+        {
+          "id": "d",
+          "text": "Động viên từng cá nhân thực hiện"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-006",
+      "code": "3eggrt",
+      "originalNumber": 6,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, đời sống mới gồm nhưng lĩnh vực nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đạo đức mới và lối sống mới"
+        },
+        {
+          "id": "b",
+          "text": "Đạo đức mới, nếp sống mới và cách sống mới"
+        },
+        {
+          "id": "c",
+          "text": "Nếp song mới, lối song mới và tư tưởng mới"
+        },
+        {
+          "id": "d",
+          "text": "Đạo đức mới, lối sống mới, nếp sống mới"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-007",
+      "code": "3eggrt",
+      "originalNumber": 7,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, chức năng cơ bản của văn hóa là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bồi dưỡng tư tưởng đúng đắn và tinh cảm cao đẹp của con người"
+        },
+        {
+          "id": "b",
+          "text": "Bồi dưỡng những phẩm chất, phong cách và lối sống tốt đẹp, lành mạnh, hướng con người hoàn thiện bản thân"
+        },
+        {
+          "id": "c",
+          "text": "Mở rộng hiểu biết, nâng cao dân trí"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-008",
+      "code": "3eggrt",
+      "originalNumber": 8,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "“Cũng như ngọc càng mài càng sáng, vàng càng luyện càng trong”. Câu trên được trích trong tác phẩm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nâng cao đạo đức cách mạng, quét sạch chủ nghĩa cá nhân"
+        },
+        {
+          "id": "b",
+          "text": "Đời sống mới"
+        },
+        {
+          "id": "c",
+          "text": "Đường Kách mệnh"
+        },
+        {
+          "id": "d",
+          "text": "Đạo đức cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-009",
+      "code": "3eggrt",
+      "originalNumber": 9,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Chọn phương án trả lời đúng nhất: Khái niệm con người trong Tư tưởng Hồ Chí Minh để chỉ...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con người cụ thể gắn với hoàn cảnh lịch sử cụ thể"
+        },
+        {
+          "id": "b",
+          "text": "Một cộng đồng người"
+        },
+        {
+          "id": "c",
+          "text": "Con người nói chung"
+        },
+        {
+          "id": "d",
+          "text": "Một con người cụ thể"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-010",
+      "code": "3eggrt",
+      "originalNumber": 10,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Ba thứ giặc nội xâm theo tư tưởng Hồ Chí Minh là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tay sai, bù nhìn, bọn ăn bám"
+        },
+        {
+          "id": "b",
+          "text": "Bè phái, a dua, nịnh hót"
+        },
+        {
+          "id": "c",
+          "text": "Tham ô, lãng phí, quan liêu"
+        },
+        {
+          "id": "d",
+          "text": "Giặc đói, giặc dốt, giặc ngoại xâm"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-011",
+      "code": "3eggrt",
+      "originalNumber": 11,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hãy cho biết động lực bao trùm của chủ nghĩa xã hội theo tư tưởng Hồ Chí Minh là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con người"
+        },
+        {
+          "id": "b",
+          "text": "Tiến bộ, công bằng"
+        },
+        {
+          "id": "c",
+          "text": "Dân chủ"
+        },
+        {
+          "id": "d",
+          "text": "Kinh tế"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-012",
+      "code": "3eggrt",
+      "originalNumber": 12,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Con người theo quan điểm Hồ Chí Minh là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vốn quý của cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Vốn quý nhất, nhân tố quyết định thành công của cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Động lực của cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Vốn quý nhất, nhân tố quan trọng của cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-013",
+      "code": "3eggrt",
+      "originalNumber": 13,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hồ Chí Minh đặt văn hóa ngang hàng với các lĩnh vực nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xã hội"
+        },
+        {
+          "id": "b",
+          "text": "Chính trị"
+        },
+        {
+          "id": "c",
+          "text": "Kinh tế, chính trị, xã hội"
+        },
+        {
+          "id": "d",
+          "text": "Kinh tế"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-014",
+      "code": "3eggrt",
+      "originalNumber": 14,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo tư tưởng Hồ Chí Minh về đạo đức, tinh thần quốc tế trong sáng được hiểu là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tinh thần đoàn kết quốc tế vô sản"
+        },
+        {
+          "id": "b",
+          "text": "Tinh thần đoàn kết với các dân tộc bị áp bức, với nhân dân lao động các nước"
+        },
+        {
+          "id": "c",
+          "text": "Tinh thần đoàn kết với tất cả những người tiến bộ trên thế giới"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-015",
+      "code": "3eggrt",
+      "originalNumber": 15,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Nguyên tắc cơ bản để xây dựng nền đạo đức mới theo tư tưởng Hồ Chí Minh là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xây đi đôi với chống"
+        },
+        {
+          "id": "b",
+          "text": "A, B và C"
+        },
+        {
+          "id": "c",
+          "text": "Nói đi đôi với làm, nêu gương về đạo đức"
+        },
+        {
+          "id": "d",
+          "text": "Tu dưỡng đạo đức suốt đời"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-016",
+      "code": "3eggrt",
+      "originalNumber": 16,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, đấu tranh chống chủ nghĩa cá nhân là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không dày xéo lên lợi ích cá nhân"
+        },
+        {
+          "id": "b",
+          "text": "Loại bỏ lợi ích cá nhân"
+        },
+        {
+          "id": "c",
+          "text": "Bảo vệ lợi ích cá nhân"
+        },
+        {
+          "id": "d",
+          "text": "Chỉ bảo vệ lợi ích của tập thể"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-017",
+      "code": "3eggrt",
+      "originalNumber": 17,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Khi viết tác phẩm “Nâng cao đạo đức cách mạng, quét sạch chủ nghĩa cá nhân”, Hồ Chí Minh lấy bút danh là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "X.Y.Z"
+        },
+        {
+          "id": "b",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "c",
+          "text": "Già Thu"
+        },
+        {
+          "id": "d",
+          "text": "Trần Lực"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-018",
+      "code": "3eggrt",
+      "originalNumber": 18,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Cho biết vai trò của tác phẩm văn nghệ trong lĩnh vực văn hoá văn nghệ theo tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là vũ khí sắc bén trong đấu tranh cách mạng, xây dựng xã hội mới, con người mới"
+        },
+        {
+          "id": "b",
+          "text": "Kết tinh trí tuệ, tâm hồn của văn nghệ sĩ"
+        },
+        {
+          "id": "c",
+          "text": "Là món ăn tinh thần của mọi người trong cuộc sống"
+        },
+        {
+          "id": "d",
+          "text": "Là cơ sở để đánh giá tài năng của người nghệ sỹ"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-019",
+      "code": "3eggrt",
+      "originalNumber": 19,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hãy cho biết vai trò của người nghệ sỹ trong lĩnh vực văn hoá, văn nghệ theo tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là tác giả"
+        },
+        {
+          "id": "b",
+          "text": "Là người chiến sĩ"
+        },
+        {
+          "id": "c",
+          "text": "Là người định hướng"
+        },
+        {
+          "id": "d",
+          "text": "Vừa là người sáng tác, vừa là người phê bình"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-020",
+      "code": "3eggrt",
+      "originalNumber": 20,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Luận điểm: “Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh, rèn luyện bền bỉ hàng ngày mà phát triển và củng cố, cũng như ngọc càng mài càng sáng, vàng càng luyện càng trong” là của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lê Duẩn"
+        },
+        {
+          "id": "b",
+          "text": "C. Mác"
+        },
+        {
+          "id": "c",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "d",
+          "text": "V.I.Lênin"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-021",
+      "code": "3eggrt",
+      "originalNumber": 21,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Quan điểm của Hồ Chí Minh về tính chất của nền văn hóa luôn bao hàm...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tính dân tộc và tính quần chúng"
+        },
+        {
+          "id": "b",
+          "text": "Tính dân tộc, tính khoa học, tính cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Tính dân tộc và tính khoa học"
+        },
+        {
+          "id": "d",
+          "text": "Tính dân tộc, tính khoa học, tính đại chúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-022",
+      "code": "3eggrt",
+      "originalNumber": 22,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Vấn đề xây dựng đời sống mới được Hồ Chí Minh đặt ra từ khi nào ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sau khi hoàn thành cuộc kháng chiến chống Mỹ cứu nước"
+        },
+        {
+          "id": "b",
+          "text": "Trong cải tạo XHCN nền kinh tế miền Bắc"
+        },
+        {
+          "id": "c",
+          "text": "Sau khi miền Bắc được hoàn toàn giải phóng"
+        },
+        {
+          "id": "d",
+          "text": "Sau Cách mạng Tháng Tám năm 1945"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-023",
+      "code": "3eggrt",
+      "originalNumber": 23,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh: “... là gốc của người cách mạng”",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tài năng"
+        },
+        {
+          "id": "b",
+          "text": "Phẩm chất chính trị"
+        },
+        {
+          "id": "c",
+          "text": "Đạo đức"
+        },
+        {
+          "id": "d",
+          "text": "Bản lĩnh chính trị"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-024",
+      "code": "3eggrt",
+      "originalNumber": 24,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Chuẩn mực đạo đức của người cách mạng theo Tư tưởng Hồ Chí Minh là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trung với nước hiếu với dân; yêu thương con người"
+        },
+        {
+          "id": "b",
+          "text": "Cần, kiệm, liêm, chính, chí công vô tư"
+        },
+        {
+          "id": "c",
+          "text": "Có tinh thần quốc tế trong sáng"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-025",
+      "code": "3eggrt",
+      "originalNumber": 25,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Vấn đề xây dựng đời sống mới được Hồ Chí Minh đặt ra từ khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sau khi miền Bắc được hoàn toàn giải phóng"
+        },
+        {
+          "id": "b",
+          "text": "Sau khi hoàn thành cuộc kháng chiến chống Mỹ cứu nước"
+        },
+        {
+          "id": "c",
+          "text": "Trong cải tạo XHCN nền kinh tế miền Bắc"
+        },
+        {
+          "id": "d",
+          "text": "Sau Cách mạng Tháng Tám năm 1945"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-026",
+      "code": "3eggrt",
+      "originalNumber": 26,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, trong mỗi con người bao giờ cũng có:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tốt – xấu, thiện – ác"
+        },
+        {
+          "id": "b",
+          "text": "Không tốt, không xấu"
+        },
+        {
+          "id": "c",
+          "text": "Phần lớn là mặt xấu"
+        },
+        {
+          "id": "d",
+          "text": "Phần lớn là mặt tốt"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-027",
+      "code": "3eggrt",
+      "originalNumber": 27,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Trong Di chúc, Hồ Chí Minh xác định công việc đầu tiên là công việc gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phát triển khoa học – kỹ thuật"
+        },
+        {
+          "id": "b",
+          "text": "Tiếp tục phát triển kinh tế"
+        },
+        {
+          "id": "c",
+          "text": "Ra sức phát triển văn hóa"
+        },
+        {
+          "id": "d",
+          "text": "Công việc đối với con người"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-028",
+      "code": "3eggrt",
+      "originalNumber": 28,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, ai làm chủ chế độ xã hội chủ nghĩa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng, nhà nước, chính phủ"
+        },
+        {
+          "id": "b",
+          "text": "Người lao động"
+        },
+        {
+          "id": "c",
+          "text": "Cả 3 phương án"
+        },
+        {
+          "id": "d",
+          "text": "Nhân dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-029",
+      "code": "3eggrt",
+      "originalNumber": 29,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "“Phê bình mình cũng như phê bình người phải ráo riết, triệt để, thật thà, không nể nang, không thêm bớt, phải vạch rõ ưu điểm và khuyết điểm. Đồng thời chớ dùng những lời mỉa mai, chua cay, đâm chọc. Phê bình việc làm, chứ không phê bình người”. Câu nói trên của Hồ Chí Minh chỉ cho chúng ta biết điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mục đích tự phê bình và phê bình"
+        },
+        {
+          "id": "b",
+          "text": "Cách thức tự phê bình và phê bình"
+        },
+        {
+          "id": "c",
+          "text": "A, B và C"
+        },
+        {
+          "id": "d",
+          "text": "Điều kiện để đoàn kết thống nhất"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-030",
+      "code": "3eggrt",
+      "originalNumber": 30,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Con người theo quan điểm Hồ Chí Minh là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vốn quý nhất, nhân tố quyết định thành công của cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Động lực của cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Vốn quý của cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Vốn quý nhất, nhân tố quan trọng của cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-031",
+      "code": "3eggrt",
+      "originalNumber": 31,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Nội hàm định nghĩa văn hóa mà Hồ Chí Minh nêu lên là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Văn hóa gồm toàn bộ giá trị vật chất và tinh thần qua quá trình lịch sử con người đã để lại cho loài người"
+        },
+        {
+          "id": "b",
+          "text": "Văn hóa bao gồm toàn bộ những giá trị vật chất mà loài người tạo ra vì sự tồn tại của họ"
+        },
+        {
+          "id": "c",
+          "text": "Văn hóa gồm toàn bộ những giá trị vật chất và tinh thần mà loài người đã sáng tạo ra, nhằm đáp ứng sự sinh tồn và mục đích cuộc sống của mình"
+        },
+        {
+          "id": "d",
+          "text": "Văn hóa bao gồm những giá trị vật chất và phi vật chất mà loài người đã tạo ra để phục vụ nhu cầu sống của mình"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-032",
+      "code": "3eggrt",
+      "originalNumber": 32,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hãy cho biết câu nói dưới đây là của ai? “Việc học không bao giờ cùng, còn sống còn phải học”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "b",
+          "text": "Quản Trọng."
+        },
+        {
+          "id": "c",
+          "text": "V.I. Lênin"
+        },
+        {
+          "id": "d",
+          "text": "Khổng Tử"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-033",
+      "code": "3eggrt",
+      "originalNumber": 33,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Tư tưởng Hồ Chí Minh, đạo đức có vai trò...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là nền tảng lý luận của người cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Là định hướng lý tưởng của người cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Là cái gốc, là nền tảng của người cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Là cơ sở tư tưởng của người cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-034",
+      "code": "3eggrt",
+      "originalNumber": 34,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Chọn cụm từ điền vào chỗ trống đúng với tư tưởng Hồ Chí Minh: “Người cách mạng phải có ... thì mới gánh được nặng và đi được xa”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lập trường cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Trí tuệ"
+        },
+        {
+          "id": "c",
+          "text": "ý chí cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Đạo đức cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-035",
+      "code": "3eggrt",
+      "originalNumber": 35,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh “Chính” được thể hiện qua những mối quan hệ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quan hệ với mình, với người, với việc"
+        },
+        {
+          "id": "b",
+          "text": "Quan hệ với đồng bào, đồng chí, anh em"
+        },
+        {
+          "id": "c",
+          "text": "Quan hệ với mình, với việc"
+        },
+        {
+          "id": "d",
+          "text": "Quan hệ gia đình, làng xã, quốc gia"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-036",
+      "code": "3eggrt",
+      "originalNumber": 36,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hãy cho biết tác phẩm đầu tiên của Hồ Chí Minh đề cập đến đạo đức cách mạng.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bản án chế độ thực dân Pháp"
+        },
+        {
+          "id": "b",
+          "text": "Sửa đổi lối làm việc"
+        },
+        {
+          "id": "c",
+          "text": "Đạo đức cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Đường Kách mệnh"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-037",
+      "code": "3eggrt",
+      "originalNumber": 37,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "“Không sợ thiếu, chỉ sợ không công bằng; Không sợ nghèo, chỉ sợ lòng dân không yên”. Câu nói trên của Hồ Chí Minh được ra đời năm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năm 1966"
+        },
+        {
+          "id": "b",
+          "text": "Năm 1967"
+        },
+        {
+          "id": "c",
+          "text": "Năm 1969"
+        },
+        {
+          "id": "d",
+          "text": "Năm 1944"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-038",
+      "code": "3eggrt",
+      "originalNumber": 38,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, muốn xây dựng đạo đức mới phải...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nói đi đôi với làm"
+        },
+        {
+          "id": "b",
+          "text": "Xây đi đôi với chống"
+        },
+        {
+          "id": "c",
+          "text": "Tu dưỡng đạo đức suốt đời"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-039",
+      "code": "3eggrt",
+      "originalNumber": 39,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, mục tiêu của giáo dục là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đào tạo những con người tốt, có ích cho xã hội"
+        },
+        {
+          "id": "b",
+          "text": "Xoá nạn mù chữ, làm cho mọi người dân biết đọc, biết viết"
+        },
+        {
+          "id": "c",
+          "text": "Hình thành đội ngũ trí thức cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Phát triển khoa học nước nhà"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-040",
+      "code": "3eggrt",
+      "originalNumber": 40,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Tư tưởng Hồ Chí Minh, văn hoá có chức năng...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bồi dưỡng tư tưởng đúng đắn và tình cảm cao đẹp cho con người"
+        },
+        {
+          "id": "b",
+          "text": "Nâng cao dân trí"
+        },
+        {
+          "id": "c",
+          "text": "Bồi dưỡng những phẩm chất tốt đẹp, những phong cách, lối sống lành mạnh, luôn hướng con người vươn tới cái thiện, cái mỹ, không ngừng hoàn thiện bản thân mình"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-041",
+      "code": "3eggrt",
+      "originalNumber": 41,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, tuổi trẻ như mùa nào trong năm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mùa xuân"
+        },
+        {
+          "id": "b",
+          "text": "Mùa đông"
+        },
+        {
+          "id": "c",
+          "text": "Mùa hạ"
+        },
+        {
+          "id": "d",
+          "text": "Mùa thu"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-042",
+      "code": "3eggrt",
+      "originalNumber": 42,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "“Đảng là trí tuệ, lương tâm, danh dự cả dân tộc và thời đại”. Hãy cho biết luận điểm trên là của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "C. Mác"
+        },
+        {
+          "id": "b",
+          "text": "V.I. Lênin"
+        },
+        {
+          "id": "c",
+          "text": "J. Stalin"
+        },
+        {
+          "id": "d",
+          "text": "Hồ Chí Minh"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-043",
+      "code": "3eggrt",
+      "originalNumber": 43,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Chủ tịch Hồ Chí Minh, đạo đức là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phẩm chất của người cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Tính cách của người cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Gốc của người cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Yêu cầu của người cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-044",
+      "code": "3eggrt",
+      "originalNumber": 44,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, kẻ thù hung ác của chủ nghĩa xã hội là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa cá nhân"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa tư bản"
+        },
+        {
+          "id": "c",
+          "text": "Giặc ngoại xâm"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa đế quốc"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-045",
+      "code": "3eggrt",
+      "originalNumber": 45,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Chọn câu trả lời đúng nhất: Con người theo quan niệm của Hồ Chí Minh là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bộ phận quan trọng của cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Vốn quý của cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Vốn quý nhất, nhân tố quyết định đến thành công của cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Động lực của cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-046",
+      "code": "3eggrt",
+      "originalNumber": 46,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "“Đảng ta là một Đảng cầm quyền. Mỗi đảng viên và cán bộ phải thật sự thấm nhuần đạo đức cách mạng, thật sự cần kiệm, liêm, chính, chí công vô tư. Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của nhân dân”. Câu trên được trích trong tác phẩm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đường Kách mệnh"
+        },
+        {
+          "id": "b",
+          "text": "Đạo đức cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Sửa đổi lối làm việc"
+        },
+        {
+          "id": "d",
+          "text": "Di chúc"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-047",
+      "code": "3eggrt",
+      "originalNumber": 47,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "“Người mà không liêm, không bằng súc vật”. Câu nói trên là của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Các Mác"
+        },
+        {
+          "id": "b",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "c",
+          "text": "Mạnh Tử"
+        },
+        {
+          "id": "d",
+          "text": "Khổng Tử"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-048",
+      "code": "3eggrt",
+      "originalNumber": 48,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, văn hóa thuộc bộ phận nào của đời sống xã hội...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ý thức xã hội"
+        },
+        {
+          "id": "b",
+          "text": "Tồn tại xã hội"
+        },
+        {
+          "id": "c",
+          "text": "Kiến trúc thượng tầng"
+        },
+        {
+          "id": "d",
+          "text": "Cơ sở hạ tầng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-049",
+      "code": "3eggrt",
+      "originalNumber": 49,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, nội dung của nền giáo dục mới là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo dục tư tưởng chính trị"
+        },
+        {
+          "id": "b",
+          "text": "Giáo dục thái độ lao động"
+        },
+        {
+          "id": "c",
+          "text": "Giáo dục toàn diện cả đức lẫn tài"
+        },
+        {
+          "id": "d",
+          "text": "Giáo dục toàn diện cả đức, trí, thể, mỹ"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-050",
+      "code": "3eggrt",
+      "originalNumber": 50,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Chọn đáp án trả lời đúng nhất: Theo tư tưởng Hồ Chí Minh về đạo đức, Hiếu với dân được hiểu là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yêu thương dân và phục vụ dân hết lòng"
+        },
+        {
+          "id": "b",
+          "text": "Phục vụ dân hết lòng"
+        },
+        {
+          "id": "c",
+          "text": "Trung thành với dân"
+        },
+        {
+          "id": "d",
+          "text": "Yêu thương dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-051",
+      "code": "3eggrt",
+      "originalNumber": 51,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Biểu hiện của “Hiếu với dân” theo tư tưởng Hồ Chí Minh là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trước tiên phải phụng dưỡng tốt cho cha mẹ"
+        },
+        {
+          "id": "b",
+          "text": "Thương dân, tin dân, phục vụ nhân dân hết lòng"
+        },
+        {
+          "id": "c",
+          "text": "Phải làm theo tất cả những điều dạy bảo của dân"
+        },
+        {
+          "id": "d",
+          "text": "Hiểu dân, lấy dân làm gốc, làm theo dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-052",
+      "code": "3eggrt",
+      "originalNumber": 52,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Bản chất con người theo Hồ Chí Minh là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sự thống nhất cả hai mặt tự nhiên và xã hội"
+        },
+        {
+          "id": "b",
+          "text": "Mang bản chất giai cấp công nhân"
+        },
+        {
+          "id": "c",
+          "text": "Tổng hợp các quan hệ xã hội từ rộng đến hẹp"
+        },
+        {
+          "id": "d",
+          "text": "Sản phẩm của sự tiến hóa tự nhiên"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-053",
+      "code": "3eggrt",
+      "originalNumber": 53,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Tác phẩm “Đạo đức cách mạng” của Hồ Chí Minh được in lần đầu tiên trên tạp chí nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tạp chí Học tập"
+        },
+        {
+          "id": "b",
+          "text": "Tạp chí Quân đội nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Tạp chí Những vấn đề hòa bình và chủ nghĩa xã hội"
+        },
+        {
+          "id": "d",
+          "text": "Tạp chí Xây dựng Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-054",
+      "code": "3eggrt",
+      "originalNumber": 54,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Phẩm chất đạo đức cơ bản của con người Việt Nam trong thời đại mới theo tư tưởng Hồ Chí Minh là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trung với nước, hiếu với dân; Yêu thương con người"
+        },
+        {
+          "id": "b",
+          "text": "Cần, kiệm, liêm, chính, chí công vô tư"
+        },
+        {
+          "id": "c",
+          "text": "Có tinh thần quốc tế trong sáng"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-055",
+      "code": "3eggrt",
+      "originalNumber": 55,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, muốn thức tỉnh một dân tộc, trước hết phải thức tỉnh bộ phận dân cư nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thanh niên"
+        },
+        {
+          "id": "b",
+          "text": "Công nhân và nông dân"
+        },
+        {
+          "id": "c",
+          "text": "Trí thức"
+        },
+        {
+          "id": "d",
+          "text": "Thiếu niên, nhi đồng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-056",
+      "code": "3eggrt",
+      "originalNumber": 56,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh, muốn xây dựng đạo đức mới phải:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nói trước, làm sau; xây đi đôi với chống; phải tu dưỡng đạo đức suốt đời"
+        },
+        {
+          "id": "b",
+          "text": "Nói đi đôi với làm; chống chủ nghĩa cá nhân; tu dưỡng đạo đức cá nhân"
+        },
+        {
+          "id": "c",
+          "text": "Nói đi đôi với làm; xây đi đôi với chống; phải tu dưỡng đạo đức suốt đời"
+        },
+        {
+          "id": "d",
+          "text": "Nói đi đôi với làm; xây đi đôi với chống; rèn luyện phẩm chất đạo đức"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-057",
+      "code": "3eggrt",
+      "originalNumber": 57,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, chữ Người là?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gia đình, anh em, họ hàng, bầu bạn."
+        },
+        {
+          "id": "b",
+          "text": "Loài người"
+        },
+        {
+          "id": "c",
+          "text": "Đồng bào cả nước"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-058",
+      "code": "3eggrt",
+      "originalNumber": 58,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hãy cho biết vai trò của người nghệ sỹ trong lĩnh vực văn hoá văn nghệ theo tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là tác giả"
+        },
+        {
+          "id": "b",
+          "text": "Là người chiến sĩ"
+        },
+        {
+          "id": "c",
+          "text": "Vừa là người sáng tác, vừa là người phê bình"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-059",
+      "code": "3eggrt",
+      "originalNumber": 59,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hồ Chí Minh xác định yếu tố nào là gốc của người cách mạng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tài năng"
+        },
+        {
+          "id": "b",
+          "text": "Đạo đức"
+        },
+        {
+          "id": "c",
+          "text": "Chuyên môn"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-060",
+      "code": "3eggrt",
+      "originalNumber": 60,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Thế nào là “Trung với nước” theo tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A, B và C"
+        },
+        {
+          "id": "b",
+          "text": "Trung thành với con đường đi lên chủ nghĩa xã hội của đất nước"
+        },
+        {
+          "id": "c",
+          "text": "Tuyệt đối trung thành với sự nghiệp dựng nước và giữ nước"
+        },
+        {
+          "id": "d",
+          "text": "Suốt đời phấn đấu cho Đảng, cho cách mạng."
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-061",
+      "code": "3eggrt",
+      "originalNumber": 61,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Chọn đáp án trả lời đúng nhất: Việc tu dưỡng đạo đức ở mỗi người phải được thực hiện trong:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi hoạt động thực tiễn"
+        },
+        {
+          "id": "b",
+          "text": "Trong đời tư và đời công"
+        },
+        {
+          "id": "c",
+          "text": "Mọi mối quan hệ xã hội"
+        },
+        {
+          "id": "d",
+          "text": "Mọi hoạt động thực tiễn, mọi mối quan hệ xã hội"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-062",
+      "code": "3eggrt",
+      "originalNumber": 62,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Trong các phẩm chất đạo đức cơ bản của con người Việt Nam trong thời đại mới, phẩm chất đạo đức nào quan trọng nhất, bao trùm nhất?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yêu thương con người"
+        },
+        {
+          "id": "b",
+          "text": "Trung với nước, hiếu với dân"
+        },
+        {
+          "id": "c",
+          "text": "Cần, kiệm, liêm, chính, chí công vô tư"
+        },
+        {
+          "id": "d",
+          "text": "Tinh thần quốc tế trong sáng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-063",
+      "code": "3eggrt",
+      "originalNumber": 63,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hồ Chí Minh đã kết hợp một cách nhuần nhuyễn giữa quản lý xã hội bằng pháp luật với phát huy những truyền thống tốt đẹp của dân tộc qua hàng nghìn năm lịch sử, thể hiện:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kết hợp lý trí và tình cảm"
+        },
+        {
+          "id": "b",
+          "text": "Kết hợp tư tưởng phương Đông và phương Tây"
+        },
+        {
+          "id": "c",
+          "text": "Kết hợp nhuần nhuyễn pháp trị và đức trị"
+        },
+        {
+          "id": "d",
+          "text": "Kết hợp truyền thống và hiện đại"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-064",
+      "code": "3eggrt",
+      "originalNumber": 64,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh phẩm chất đạo đức cách mạng nào gắn với hoạt động hàng ngày của mọi người và là thước đo sự giàu có về mặt vật chất, vững mạnh về tinh thần và là nền tảng của đời sống mới, của phong trào thi đua yêu nước?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trung với nước, hiếu với dân"
+        },
+        {
+          "id": "b",
+          "text": "Tinh thần quốc tế trong sáng"
+        },
+        {
+          "id": "c",
+          "text": "Yêu thương con người"
+        },
+        {
+          "id": "d",
+          "text": "Cần, kiệm, liêm, chính"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-065",
+      "code": "3eggrt",
+      "originalNumber": 65,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Luận điểm: “Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh rèn luyện bền bỉ hằng ngày mà phát triển và củng cố. Cũng như ngọc càng mài càng sáng, vàng càng luyện càng trong” là của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "b",
+          "text": "Mạnh Tử"
+        },
+        {
+          "id": "c",
+          "text": "Khổng Tử"
+        },
+        {
+          "id": "d",
+          "text": "C. Mác"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-066",
+      "code": "3eggrt",
+      "originalNumber": 66,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Vấn đề đạo đức được Hồ Chí Minh xem xét như thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trên mọi lĩnh vực, mọi phạm vi"
+        },
+        {
+          "id": "b",
+          "text": "A, B và C"
+        },
+        {
+          "id": "c",
+          "text": "Trong cả ba mối quan hệ chủ yếu của mỗi người - đối với mình, đối với người, đối với việc"
+        },
+        {
+          "id": "d",
+          "text": "Đối với mọi đối tượng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-067",
+      "code": "3eggrt",
+      "originalNumber": 67,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo tư tưởng Hồ Chí Minh đạo đức có vai trò như thế nào trong đời sống xã hội?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A, B và C"
+        },
+        {
+          "id": "b",
+          "text": "Đạo đức là gốc, là nền tảng của người cách mạng, vũ khí sắc bén trong cuộc đấu tranh cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Đạo đức là nhân tố tạo nên sức hấp dẫn của chủ nghĩa xã hội"
+        },
+        {
+          "id": "d",
+          "text": "Đạo đức là thước đo lòng cao thượng của con người"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-068",
+      "code": "3eggrt",
+      "originalNumber": 68,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Lựa chọn đáp án trả lời đúng nhất về vai trò của văn hoá:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phục vụ nhiệm vụ chính trị"
+        },
+        {
+          "id": "b",
+          "text": "Không có ảnh hưởng gì đến kinh tế và chính trị"
+        },
+        {
+          "id": "c",
+          "text": "Phục vụ nhiệm vụ chính trị, thúc đẩy xây dựng và phát triển kinh tế"
+        },
+        {
+          "id": "d",
+          "text": "Thúc đẩy xây dựng và phát triển kinh tế"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-069",
+      "code": "3eggrt",
+      "originalNumber": 69,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Hãy cho biết ý nghĩa của việc thực hiện phương châm của Hồ Chí Minh về giáo dục: Học đi đôi với hành, lý luận liên hệ với thực tế; học tập kết hợp với lao động; kết hợp gia đình – nhà trường – xã hội.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Để tạo ra phong trào rộng rãi trong cả nước"
+        },
+        {
+          "id": "b",
+          "text": "Tận dụng tất cả các điều kiện cho học tập"
+        },
+        {
+          "id": "c",
+          "text": "Để mọi người đều có cơ hội học tập"
+        },
+        {
+          "id": "d",
+          "text": "Để có chất lượng và hiệu quả cao trong học tập"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-070",
+      "code": "3eggrt",
+      "originalNumber": 70,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Tác phẩm “Đời sống mới” do Chủ tịch Hồ Chí Minh viết vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tháng 5/1954"
+        },
+        {
+          "id": "b",
+          "text": "Tháng 8/1945"
+        },
+        {
+          "id": "c",
+          "text": "Tháng 3/1947"
+        },
+        {
+          "id": "d",
+          "text": "Tháng 10/1965"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-071",
+      "code": "3eggrt",
+      "originalNumber": 71,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Chọn luận điểm đúng với tư tưởng Hồ Chí Minh:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muốn tiến lên chủ nghĩa xã hội thì phải phát triển văn hóa và kinh tế"
+        },
+        {
+          "id": "b",
+          "text": "Muốn tiến lên chủ nghĩa xã hội thì phải phát triển văn hóa"
+        },
+        {
+          "id": "c",
+          "text": "Muốn tiến lên chủ nghĩa xã hội thì phải phát triển kinh tế và văn hóa"
+        },
+        {
+          "id": "d",
+          "text": "Muốn tiến lên chủ nghĩa xã hội thì chỉ cần phát triển kinh tế"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-072",
+      "code": "3eggrt",
+      "originalNumber": 72,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, đạo đức có vai trò như thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là nền tảng lý luận của người cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Là cơ sở tư tưởng của người cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Là cái gốc, nền tảng của người cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Là định hướng lý tưởng của người cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-073",
+      "code": "3eggrt",
+      "originalNumber": 73,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Cho biết vai trò của tác phẩm văn nghệ trong lĩnh vực văn hoá văn nghệ theo tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là món ăn tinh thần của mọi người trong cuộc sống"
+        },
+        {
+          "id": "b",
+          "text": "Là cơ sở để đánh giá tài năng của người nghệ sỹ"
+        },
+        {
+          "id": "c",
+          "text": "Kết tinh trí tuệ, tâm hồn của văn nghệ sĩ"
+        },
+        {
+          "id": "d",
+          "text": "Là vũ khí sắc bén trong đấu tranh cách mạng, xây dựng xã hội mới, con người mới"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-074",
+      "code": "3eggrt",
+      "originalNumber": 74,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Theo Hồ Chí Minh để xây dựng nền tảng đạo đức mới cần phải dựa trên những nguyên tắc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lập trường dân chủ tư sản"
+        },
+        {
+          "id": "b",
+          "text": "Lập trường yêu nước"
+        },
+        {
+          "id": "c",
+          "text": "Lập trường giai cấp công nhân"
+        },
+        {
+          "id": "d",
+          "text": "Lập trường dân tộc chủ nghĩa"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-075",
+      "code": "3eggrt",
+      "originalNumber": 75,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "“Cũng như sông có nguồn thì mới có nước, không có nguồn thì sông cạn. Cây phải có gốc, không có gốc thì cây héo. Người cách mạng phải có đạo đức, không có đạo đức thì dù tài giỏi mấy cũng không lãnh đạo được nhân dân”. Câu nói trên được trích trong tác phẩm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đạo đức cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Đường Kách mệnh"
+        },
+        {
+          "id": "c",
+          "text": "Sửa đổi lối làm việc"
+        },
+        {
+          "id": "d",
+          "text": "Nhật ký trong tù"
+        }
+      ]
+    },
+    {
+      "id": "azota-3eggrt-076",
+      "code": "3eggrt",
+      "originalNumber": 76,
+      "sourceTitle": "TTHCM_PTIT chương 6",
+      "chapter": 6,
+      "prompt": "Chọn phương án đúng nhất: Để xây dựng những phẩm chất đạo đức tốt đẹp và chống lại những cái vô đạo đức có kết quả, theo quan điểm của Hồ Chí Minh phải...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Động viên từng cá nhân thực hiện"
+        },
+        {
+          "id": "b",
+          "text": "Chống chủ nghĩa cá nhân"
+        },
+        {
+          "id": "c",
+          "text": "Tạo thành phong trào quần chúng rộng rãi"
+        },
+        {
+          "id": "d",
+          "text": "Bắt buộc từng cá nhân thực hiện"
+        }
+      ]
+    }
+  ]
+}

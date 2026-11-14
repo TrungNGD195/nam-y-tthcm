@@ -1,0 +1,1153 @@
+{
+  "code": "ijqzcg",
+  "url": "https://azota.vn/de-thi/ijqzcg",
+  "title": "Bắt đầu thi: TTHCM_PTIT Chương 5",
+  "retrievedAt": "2026-11-14T03:46:49.361Z",
+  "expected": null,
+  "questions": [
+    {
+      "id": "azota-ijqzcg-001",
+      "code": "ijqzcg",
+      "originalNumber": 1,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Trong các luận điểm sau, luận điểm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vô sản tất cả các nước, đoàn kết lại"
+        },
+        {
+          "id": "b",
+          "text": "Vô sản tất cả các nước liên hiệp lại"
+        },
+        {
+          "id": "c",
+          "text": "Lao động tất cả các nước đoàn kết lại"
+        },
+        {
+          "id": "d",
+          "text": "Vô sản tất cả các nước và các dân tộc bị áp bức đoàn kết lại"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-002",
+      "code": "ijqzcg",
+      "originalNumber": 2,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Trong tư tưởng Hồ Chí Minh, nền tảng của khối đại đoàn kết dân tộc là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liên minh công – nông và các tầng lớp khác"
+        },
+        {
+          "id": "b",
+          "text": "Liên minh công – nông – lao động trí óc"
+        },
+        {
+          "id": "c",
+          "text": "Liên minh công – nông và các lực lượng khác"
+        },
+        {
+          "id": "d",
+          "text": "Liên minh công – nông"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-003",
+      "code": "ijqzcg",
+      "originalNumber": 3,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn cụm từ điền vào chỗ trống theo tư tưởng Hồ Chí Minh: “Việt Nam muốn làm bạn với ...., không gây thù oán với một ai”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Các nước xã hội chủ nghĩa"
+        },
+        {
+          "id": "b",
+          "text": "Mọi nước dân chủ"
+        },
+        {
+          "id": "c",
+          "text": "Các nước phát triển cao"
+        },
+        {
+          "id": "d",
+          "text": "Các dân tộc thuộc địa bị áp bức"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-004",
+      "code": "ijqzcg",
+      "originalNumber": 4,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án đúng nhất đối với tư tưởng Hồ Chí Minh: Để tranh thủ sự giúp đỡ của các nước xã hội chủ nghĩa trong đấu tranh cách mạng, cần coi trọng nhân tố...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tự lực cánh sinh, dựa vào sức mình là chính"
+        },
+        {
+          "id": "b",
+          "text": "Có sự lãnh đạo đúng đắn của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Dựa vào nguồn lực nội sinh"
+        },
+        {
+          "id": "d",
+          "text": "Có đường lối độc lập tự chủ"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-005",
+      "code": "ijqzcg",
+      "originalNumber": 5,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án đúng nhất: Sức mạnh dân tộc trong tư tưởng Hồ Chí Minh bao gồm...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa yêu nước"
+        },
+        {
+          "id": "b",
+          "text": "Văn hóa truyền thống dân tộc Việt Nam"
+        },
+        {
+          "id": "c",
+          "text": "Tinh thần đoàn kết, ý thức đấu tranh cho độc lập dân tộc"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-006",
+      "code": "ijqzcg",
+      "originalNumber": 6,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Luận điểm: “Chủ nghĩa dân tộc là một động lực lớn của đất nước” của Hồ Chí Minh được trích từ tác phẩm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lời kêu gọi toàn quốc kháng chiến"
+        },
+        {
+          "id": "b",
+          "text": "Đường cách mệnh"
+        },
+        {
+          "id": "c",
+          "text": "Báo cáo Bắc kỳ, trung kỳ, Nam kỳ"
+        },
+        {
+          "id": "d",
+          "text": "Tuyên ngôn độc lập"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-007",
+      "code": "ijqzcg",
+      "originalNumber": 7,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn cụm từ đúng nhất điền vào chỗ trống theo tư tưởng Hồ Chí Minh: “Việt Nam muốn làm bạn với ...., không gây thù oán với một ai”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi nước dân chủ"
+        },
+        {
+          "id": "b",
+          "text": "Các dân tộc thuộc địa bị áp bức"
+        },
+        {
+          "id": "c",
+          "text": "Các nước tư bản"
+        },
+        {
+          "id": "d",
+          "text": "Các nước xã hội chủ nghĩa"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-008",
+      "code": "ijqzcg",
+      "originalNumber": 8,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Theo Hồ Chí Minh, Mặt trận dân tộc thống nhất phải dựa trên cơ sở:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảm bảo quyền lợi cơ bản của công – nông"
+        },
+        {
+          "id": "b",
+          "text": "Đảm bảo lợi ích tối cao của giai cấp công nhân"
+        },
+        {
+          "id": "c",
+          "text": "Đảm bảo lợi ích của nhân dân lao động"
+        },
+        {
+          "id": "d",
+          "text": "Đảm bảo lợi ích tối cao của dân tộc, quyền lợi cơ bản của các tầng lớp nhân dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-009",
+      "code": "ijqzcg",
+      "originalNumber": 9,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Trong tư tưởng Hồ Chí Minh, lực lượng chủ yếu trong khối đại đoàn kết dân tộc là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Công nhân – nông dân"
+        },
+        {
+          "id": "b",
+          "text": "Học trò, nhà buôn"
+        },
+        {
+          "id": "c",
+          "text": "Công nhân, nông dân, lao động trí óc"
+        },
+        {
+          "id": "d",
+          "text": "Công nhân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-010",
+      "code": "ijqzcg",
+      "originalNumber": 10,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án đúng nhất: Trong tư tưởng Hồ Chí Minh, nền tảng của khối đại đoàn kết dân tộc là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liên minh công - nông và các lực lượng yêu nước khác"
+        },
+        {
+          "id": "b",
+          "text": "Liên minh công - nông và lao động trí óc"
+        },
+        {
+          "id": "c",
+          "text": "Liên minh công - nông"
+        },
+        {
+          "id": "d",
+          "text": "Liên minh công - nông và các tầng lớp lao động khác"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-011",
+      "code": "ijqzcg",
+      "originalNumber": 11,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Trong kháng chiến chống Mỹ, Hồ Chí Minh đã thành công trong việc xây dựng loại mặt trận nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mặt trận đại đoàn kết dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Mặt trận đại đoàn kết ba nước Đông Dương"
+        },
+        {
+          "id": "c",
+          "text": "Mặt trận nhân dân tiến bộ thế giới đoàn kết với Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-012",
+      "code": "ijqzcg",
+      "originalNumber": 12,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Tìm yếu tố KHÔNG nằm trong Mặt trận Dân tộc thống nhất?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng Cộng sản"
+        },
+        {
+          "id": "b",
+          "text": "Các tổ chức chính trị - xã hội"
+        },
+        {
+          "id": "c",
+          "text": "Tòa án nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Nhà nước xã hội chủ nghĩa"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-013",
+      "code": "ijqzcg",
+      "originalNumber": 13,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Trong các luận điểm sau, luận điểm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vô sản tất cả các nước và các dân tộc bị áp bức đoàn kết lại"
+        },
+        {
+          "id": "b",
+          "text": "Lao động tất cả các nước đoàn kết lại"
+        },
+        {
+          "id": "c",
+          "text": "Vô sản tất cả các nước, đoàn kết lại"
+        },
+        {
+          "id": "d",
+          "text": "Vô sản tất cả các nước liên hiệp lại"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-014",
+      "code": "ijqzcg",
+      "originalNumber": 14,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Trong tư tưởng Hồ Chí Minh, đại đoàn kết dân tộc là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là mục tiêu, nhiệm vụ hàng đầu của cách mạng, của dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Là nhiệm vụ hàng đầu của cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Là mục tiêu của của cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Là nhiệm vụ quan trọng nhất của cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-015",
+      "code": "ijqzcg",
+      "originalNumber": 15,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn câu trả lời đúng với tư tưởng Hồ Chí Minh.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại đoàn kết dân tộc là vấn đề sách lược"
+        },
+        {
+          "id": "b",
+          "text": "Đại đoàn kết dân tộc là vấn đề cấp bách"
+        },
+        {
+          "id": "c",
+          "text": "Đại đoàn kết là vấn đề chiến lược"
+        },
+        {
+          "id": "d",
+          "text": "Đại đoàn kết dân tộc là thủ đoạn chính trị"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-016",
+      "code": "ijqzcg",
+      "originalNumber": 16,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "“Đoàn kết là một truyền thống cực kỳ quý báu của Đảng và của dân ta. Các đồng chí từ Trung ương đến các chi bộ cần phải giữ gìn sự đoàn kết nhất trí của Đảng như giữ gìn con ngươi của mắt mình”. Câu viết trên ở trong tác phẩm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Di chúc"
+        },
+        {
+          "id": "b",
+          "text": "Đạo đức cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Thường thức chính trị"
+        },
+        {
+          "id": "d",
+          "text": "Sửa đổi lối làm việc"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-017",
+      "code": "ijqzcg",
+      "originalNumber": 17,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn cụm từ thích hợp điền vào chỗ trống theo tư tưởng Hồ Chí Minh: “Muốn người ta giúp cho thì trước hết mình phải...”",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tự cố gắng đứng dậy"
+        },
+        {
+          "id": "b",
+          "text": "Tự giúp lấy mình đã"
+        },
+        {
+          "id": "c",
+          "text": "Giúp người ta trước"
+        },
+        {
+          "id": "d",
+          "text": "Kêu gọi sự giúp đỡ"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-018",
+      "code": "ijqzcg",
+      "originalNumber": 18,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Luận điểm: “Lao động tất cả các nước đoàn kết lại” là của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lê Duẩn"
+        },
+        {
+          "id": "b",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "c",
+          "text": "V.I. Lênin"
+        },
+        {
+          "id": "d",
+          "text": "C. Mác"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-019",
+      "code": "ijqzcg",
+      "originalNumber": 19,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án đúng nhất: Luận điểm đoàn kết, đoàn kết, “thành công, thành công, đại thành công” của Hồ Chí Minh được trích từ tác phẩm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bài nói chuyện tại Hội nghị mở rộng Uỷ ban Trung ương mặt trận tổ quốc Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Bài nói chuyện tại Đại hội Đại biểu Mặt trận Tổ quốc Việt Nam lần thứ II"
+        },
+        {
+          "id": "c",
+          "text": "Bài nói chuyện tại Đại hội đại biểu mặt trận Tổ quốc Việt Nam lần thứ III"
+        },
+        {
+          "id": "d",
+          "text": "Bài nói chuyện trong Đại hội thành lập mặt trận Tổ quốc Việt Nam lần IV"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-020",
+      "code": "ijqzcg",
+      "originalNumber": 20,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Sức mạnh đoàn kết quốc tế theo tư tưởng Hồ Chí Minh, bao gồm:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sức mạnh liên minh chiến đấu giữa lao động các nước thuộc địa và lao động thuộc địa với vô sản chính quốc"
+        },
+        {
+          "id": "b",
+          "text": "Sức mạnh của giai cấp vô sản, cách mạng vô sản và Đảng Cộng sản"
+        },
+        {
+          "id": "c",
+          "text": "Tất cả các phương án đều đúng"
+        },
+        {
+          "id": "d",
+          "text": "Sức mạnh của ba dòng thác cách mạng và tiến bộ khoa học kỹ thuật"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-021",
+      "code": "ijqzcg",
+      "originalNumber": 21,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Sức mạnh dân tộc trong tư tưởng Hồ Chí Minh bao gồm:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa yêu nước"
+        },
+        {
+          "id": "b",
+          "text": "Tinh thần đoàn kết, ý thức đấu tranh chô đọc lập dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Tất cả các phương án đều đúng"
+        },
+        {
+          "id": "d",
+          "text": "Văn hóa truyền thống dân tộc Việt Nam"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-022",
+      "code": "ijqzcg",
+      "originalNumber": 22,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Mặt trận Việt Nam độc lập đồng minh độc lập đồng minh (Việt Minh) được thành lập vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "19/5/1942"
+        },
+        {
+          "id": "b",
+          "text": "19/5/1940"
+        },
+        {
+          "id": "c",
+          "text": "19/5/1943"
+        },
+        {
+          "id": "d",
+          "text": "19/5/1941"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-023",
+      "code": "ijqzcg",
+      "originalNumber": 23,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Mối quan hệ giữa nội lực và ngoại lực trong phát triển kinh tế là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nội lực là chính"
+        },
+        {
+          "id": "b",
+          "text": "Nội lực và ngoại lực quan trọng như nhau"
+        },
+        {
+          "id": "c",
+          "text": "Nội lực là chính, ngoại lực là quan trọng"
+        },
+        {
+          "id": "d",
+          "text": "Ngoại lực trong thời kỳ đầu là chính để phá vỡ “cái vòng luẩn quẩn”"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-024",
+      "code": "ijqzcg",
+      "originalNumber": 24,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, một trong những nhân tố nhân tố đóng vai trò quyết định thắng lợi của cách mạng là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đoàn kết quốc tế"
+        },
+        {
+          "id": "b",
+          "text": "Đoàn kết dân tộc kết hợp với đoàn kết quốc tế"
+        },
+        {
+          "id": "c",
+          "text": "Sự giúp đỡ của các nước xã hội chủ nghĩa"
+        },
+        {
+          "id": "d",
+          "text": "Đoàn kết dân tộc"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-025",
+      "code": "ijqzcg",
+      "originalNumber": 25,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Điền từ vào chỗ trống: Hồ Chí Minh đã nêu: “Bây giờ còn một điểm rất quan trọng, cũng là điểm mẹ. Điểm này mà thực hiện tốt thì đẻ ra con cháu đều tốt: Đó là.....”",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đoàn kết"
+        },
+        {
+          "id": "b",
+          "text": "Cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Dân tộc"
+        },
+        {
+          "id": "d",
+          "text": "Khởi nghĩa"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-026",
+      "code": "ijqzcg",
+      "originalNumber": 26,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án trả lời đúng theo tư tưởng Hồ Chí Minh về nguyên tắc ngoại giao:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vừa cứng rắn về nguyên tắc, vừa mềm dẻo về sách lược"
+        },
+        {
+          "id": "b",
+          "text": "Phải mềm dẻo về sách lược"
+        },
+        {
+          "id": "c",
+          "text": "Phải cứng rắn về nguyên tắc"
+        },
+        {
+          "id": "d",
+          "text": "“Dĩ bất biến, ứng vạn biến”"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-027",
+      "code": "ijqzcg",
+      "originalNumber": 27,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Trong tư tưởng Hồ Chí Minh, lực lượng chủ yếu của khối đại đoàn kết là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Công nhân, nông dân, lao động trí óc"
+        },
+        {
+          "id": "b",
+          "text": "Công nhân – nông dân"
+        },
+        {
+          "id": "c",
+          "text": "Công nhân"
+        },
+        {
+          "id": "d",
+          "text": "Học trò, nhà buôn"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-028",
+      "code": "ijqzcg",
+      "originalNumber": 28,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án đúng nhất: Theo tư tưởng Hồ Chí Minh, yếu tố nào được xác định là mục tiêu, nhiệm vụ hàng đầu của Đảng, của dân tộc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giải phóng dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Đoàn kết quốc tế"
+        },
+        {
+          "id": "c",
+          "text": "Đoàn kết dân tộc kết hợp với đoàn kết quốc tế"
+        },
+        {
+          "id": "d",
+          "text": "Đại đoàn kết dân tộc"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-029",
+      "code": "ijqzcg",
+      "originalNumber": 29,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, một trong những nguyên tắc của đoàn kết quốc tế là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Các bên cùng có lợi"
+        },
+        {
+          "id": "b",
+          "text": "Có đi, có lại"
+        },
+        {
+          "id": "c",
+          "text": "Đoàn kết trên cơ sở thống nhất mục tiêu, lợi ích, có lý, có tình"
+        },
+        {
+          "id": "d",
+          "text": "Không dùng vũ lực và đe dọa dùng vũ lực"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-030",
+      "code": "ijqzcg",
+      "originalNumber": 30,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn câu trả lời đúng nhất với tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại đoàn kết là vấn đề chiến lược"
+        },
+        {
+          "id": "b",
+          "text": "Đại đoàn kết dân tộc là vấn đề thời sự"
+        },
+        {
+          "id": "c",
+          "text": "Đại đoàn kết dân tộc là vấn đề sách lược"
+        },
+        {
+          "id": "d",
+          "text": "Đại đoàn kết dân tộc là thủ đoạn chính trị"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-031",
+      "code": "ijqzcg",
+      "originalNumber": 31,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Tư tưởng đại đoàn kết dân tộc của Hồ Chí Minh được hình thành dựa trên cơ sở:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Từ truyền thống đoàn kết nhân ái, tinh thần cố kết cộng đồng dân tộc Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Từ thực tiễn thành công và thất bại của phong trào cách mạng Việt Nam và thế giới"
+        },
+        {
+          "id": "c",
+          "text": "Từ quan điểm của chủ nghĩa Mác – Leenin về vai trò của quần chúng nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Tất cả các phương án đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-032",
+      "code": "ijqzcg",
+      "originalNumber": 32,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn cụm tư điền vào chỗ trống: “Cần phải giữ gìn sự đoàn kết nhất trí của Đảng như giữ gìn...\".",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con ngươi mắt mình"
+        },
+        {
+          "id": "b",
+          "text": "Tài sản của mình"
+        },
+        {
+          "id": "c",
+          "text": "Tính mạng của mình"
+        },
+        {
+          "id": "d",
+          "text": "Nhân cách của mình"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-033",
+      "code": "ijqzcg",
+      "originalNumber": 33,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án trả lời đúng theo tư tưởng Hồ Chí Minh về nguyên tác ngoại giao:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Dĩ bất biến, ứng vạn biến”"
+        },
+        {
+          "id": "b",
+          "text": "Phải cứng rắn về nguyên tắc"
+        },
+        {
+          "id": "c",
+          "text": "Phải mềm dẻo về sách lược"
+        },
+        {
+          "id": "d",
+          "text": "Vừa cứng rắn về nguyên tắc, vừa mềm dẻo về sách lược"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-034",
+      "code": "ijqzcg",
+      "originalNumber": 34,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, yếu tố nào được xác định là mục tiêu, nhiệm vụ hàng đầu của Đảng, của dân tộc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đoàn kết dân tộc kết hợp với đoàn kết quốc tế"
+        },
+        {
+          "id": "b",
+          "text": "Đại đoàn kết dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Đoàn kết quốc tế"
+        },
+        {
+          "id": "d",
+          "text": "Giải phóng dân tộc"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-035",
+      "code": "ijqzcg",
+      "originalNumber": 35,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án đúng nhất: Trong tư tưởng Hồ Chí Minh, đại đoàn kết dân tộc...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là vấn đề quyết định thành công của cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Là vấn đề cơ bản có ý nghĩa chiến lược, quyết định thành công của cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Là vấn đề sách lược"
+        },
+        {
+          "id": "d",
+          "text": "Là vấn đề cơ bản có ý nghĩa chiến lược"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-036",
+      "code": "ijqzcg",
+      "originalNumber": 36,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Trong tư tưởng Hồ Chí Minh, đại đoàn kết dân tộc là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là nhiệm vụ quan trọng nhất của cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Là nhiệm vụ hàng đầu của cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Là mục tiêu, nhiệm vụ hàng đầu của cách mạng, của dân tộc"
+        },
+        {
+          "id": "d",
+          "text": "Là mục tiêu của của cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-037",
+      "code": "ijqzcg",
+      "originalNumber": 37,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Tên khối đoàn kết dân tộc do Hội nghị Trung ương Đảng lần thứ 6 (11/1939) xác định là mặt trận nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mặt trận Việt Minh"
+        },
+        {
+          "id": "b",
+          "text": "Mặt trận dân tộc thống nhất phản đế Đông Dương"
+        },
+        {
+          "id": "c",
+          "text": "Mặt trận dân chủ Đông Dương"
+        },
+        {
+          "id": "d",
+          "text": "Mặt trận dân tộc giải phóng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-038",
+      "code": "ijqzcg",
+      "originalNumber": 38,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Hồ Chí Minh cho rằng những lực lượng cần đoàn kết, gồm:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phong trào cộng sản và công nhân thế giới; Phong trào đấu tranh giải phóng dân tộc; Các lực lượng tiến bộ trên thế giới"
+        },
+        {
+          "id": "b",
+          "text": "Phong trào cộng sản; Phong trào cách mạng giải phóng dân tộc; Những người yêu chuộng hòa bình, dân chủ, tự do, công lý"
+        },
+        {
+          "id": "c",
+          "text": "Phong trào cộng sản và công nhân thế giới; Phong trào đấu tranh giải phóng dân tộc; Các lực lượng tiến bộ, những người yêu chuộng hòa bình, dân chủ, tự do, công lý"
+        },
+        {
+          "id": "d",
+          "text": "Phong trào công nhân thế giới; Phong trào đấu tranh giải phóng dân tộc; Các lực lượng tiến bộ, những người yêu chuộng hòa bình, dân chủ, tự do, công lý"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-039",
+      "code": "ijqzcg",
+      "originalNumber": 39,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Động lực chủ đạo của sự phát triển đất nước ta hiện nay là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sự ủng hộ quốc tế"
+        },
+        {
+          "id": "b",
+          "text": "Đại đoàn kết dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Vốn đầu tư nước ngoài"
+        },
+        {
+          "id": "d",
+          "text": "Khoa học công nghệ"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-040",
+      "code": "ijqzcg",
+      "originalNumber": 40,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn cụm từ điền vào chỗ trống để hoàn thành câu thơ của Hồ Chí Minh “Rằng đây bốn bể một nhà....... đều là anh em”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vàng đen trắng đỏ"
+        },
+        {
+          "id": "b",
+          "text": "Đông tây nam bắc"
+        },
+        {
+          "id": "c",
+          "text": "Bốn phương vô sản"
+        },
+        {
+          "id": "d",
+          "text": "Lao động thế giới"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-041",
+      "code": "ijqzcg",
+      "originalNumber": 41,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Tư tưởng đại đoàn kết dân tộc của Hồ Chí Minh hình thành trên cơ sở...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Từ truyền thống yêu nước, nhân ái, tinh thần cố kết cộng đồng dân tộc Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Từ quan điểm của Chủ nghĩa Mác - Lênin về cách mạng giải phóng dân tộc, về vai trò của quần chúng nhân dân trong cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Từ tổng kết kinh nghiệm thành công và thất bại của các phong trào yêu nước, phong trào cách mạng Việt Nam và thế giới"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-042",
+      "code": "ijqzcg",
+      "originalNumber": 42,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Theo Hồ Chí Minh, đoàn kết quốc tế có vai trò như thế nào đối với thắng lợi của cách mạng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quyết định"
+        },
+        {
+          "id": "b",
+          "text": "Là vấn đề có ý nghĩa chiến lược quyết định sự thắng lợi"
+        },
+        {
+          "id": "c",
+          "text": "Quan trọng"
+        },
+        {
+          "id": "d",
+          "text": "Vừa quan trọng, vừa quyết định"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-043",
+      "code": "ijqzcg",
+      "originalNumber": 43,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Hồ Chí Minh đã nêu lên nguyên tắc đoàn kết quốc tế là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đoàn kết trên cơ sở thống nhất mục tiêu và lợi ích, có lý có tình; Giương cao ngọn cờ độc lập dân tộc gắn liền với chủ nghĩa xã hội"
+        },
+        {
+          "id": "b",
+          "text": "Đoàn kết trên cơ sở thống nhất mục tiêu và lợi ích, có lý có tình; Đoàn kết trên cở sở hòa bình độc lập tự do cho tất cả các dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Đoàn kết trên cơ sở thống nhất mục tiêu và lợi ích, có lý có tình; Đoàn kết trên cở sở độc lập, tự chủ, tự lực tự cường"
+        },
+        {
+          "id": "d",
+          "text": "Đoàn kết trên cơ sở thống nhất mục tiêu và lợi ích, có lý có tình; Đoàn kết trên cơ sở độc lập tự chủ"
+        }
+      ]
+    },
+    {
+      "id": "azota-ijqzcg-044",
+      "code": "ijqzcg",
+      "originalNumber": 44,
+      "sourceTitle": "TTHCM_PTIT Chương 5",
+      "chapter": 5,
+      "prompt": "Chọn phương án đúng nhất đối với tư tưởng Hồ Chí Minh: Để tranh thủ sự giúp đỡ của các nước xã hội chủ nghĩa trong đấu tranh cách mạng, cần coi trọng nhân tố:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có đường lối độc lập tự chủ"
+        },
+        {
+          "id": "b",
+          "text": "Có sự lãnh đạo đúng đắn của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Tự lực cánh sinh, dựa vào sức mình là chính"
+        },
+        {
+          "id": "d",
+          "text": "Dựa vào nguồn lực ngoại sinh"
+        }
+      ]
+    }
+  ]
+}

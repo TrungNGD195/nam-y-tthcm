@@ -1,6 +1,6 @@
 # Đặc tả chung — Nắm ý, ôn tập nhiều môn
 
-Phiên bản 2.0 · 14/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
+Phiên bản 2.1 · 14/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -8,7 +8,7 @@ Một website public, không đăng nhập, ưu tiên máy tính, để ôn nhi�
 
 | Môn | Mã ổn định | Trạng thái |
 | --- | --- | --- |
-| Tư tưởng Hồ Chí Minh | `tthcm` | Sẵn sàng: giữ nguyên 215 câu, 6 chương, 59 câu số liệu, đề mẫu 20 câu |
+| Tư tưởng Hồ Chí Minh | `tthcm` | Sẵn sàng: 623 câu, 6 chương, 110 câu số liệu, đề mẫu 20 câu |
 | Xử lý ảnh | `xu-ly-anh` | Chờ giáo trình/ngân hàng từ người dùng |
 | Khoa học dữ liệu | `khoa-hoc-du-lieu` | Chờ giáo trình/ngân hàng từ người dùng |
 
@@ -48,7 +48,10 @@ Ngân hàng của mỗi môn chứa `subjectId`, phiên bản, chương, concept
 - Câu có ID ổn định trong môn; cùng một ID của hai môn khác nhau không dùng chung tiến độ.
 - Giữ cách hỏi, từ phủ định và đáp án nguồn khi hợp lệ; câu chuyển từ trả lời ngắn có ghi nhận. Mục mâu thuẫn/mơ hồ không vào bài chấm.
 - Giải thích 1–2 câu, keyword 1–3 cụm, điểm dễ nhầm và trang/nguồn đối chiếu. Không thêm kiến thức ngoài phạm vi.
-- TTHCM giữ nguyên quyết định biên tập 233 mục, 11 mục chưa dùng để chấm, độ phủ và dữ liệu cũ.
+- TTHCM có audit đủ 755 mục: 233 mục cũ và 522 mục từ 6 đề Azota. 15 mục chưa dùng để chấm (11 cũ, 4 mới); gộp câu trùng nhưng giữ mọi nguồn. Phân chương theo nội dung giáo trình, không suy ra chương từ thứ tự câu nguồn.
+- Ưu tiên giáo trình 2019 và bài giảng PTIT; số liệu thiếu/mâu thuẫn tra nguồn chính thống, gắn URL hoặc trang cụ thể. Không dùng key Azota để quyết định đáp án.
+- Lưu nguyên câu/lựa chọn gốc tách khỏi bản sửa, có băm khóa thứ tự đã duyệt. Câu có hai đáp án đúng phải sửa có ghi chú hoặc giữ ngoài bài chấm. File Word lưu đủ 522 câu gốc, đáp án đối chiếu và các trường hợp cần sửa/chờ xác minh.
+- Các câu cũ sửa ý nghĩa phải tăng revision, để kết quả ghi nhớ cũ không chứng nhận nội dung đã đổi. Nguồn trực tuyến hiển thị liên kết, số câu/mục đúng loại, không giả làm trang PDF.
 
 ### Nội dung kỹ thuật cho hai môn mới
 

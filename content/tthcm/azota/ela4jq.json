@@ -1,0 +1,2297 @@
+{
+  "code": "ela4jq",
+  "url": "https://azota.vn/de-thi/ela4jq",
+  "title": "Bắt đầu thi: TTHCM_PTIT Chương 4",
+  "retrievedAt": "2026-11-14T03:46:42.227Z",
+  "expected": null,
+  "questions": [
+    {
+      "id": "azota-ela4jq-001",
+      "code": "ela4jq",
+      "originalNumber": 1,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, mục tiêu, lý tưởng của Đảng Cộng sản Việt Nam là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì lợi ích của giai cấp công nhân"
+        },
+        {
+          "id": "b",
+          "text": "Đảng ta không có mục đích, lý tưởng nào"
+        },
+        {
+          "id": "c",
+          "text": "Phụng sự Tổ quốc, phụng sự nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Xây dựng một nước Việt Nam giàu mạnh"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-002",
+      "code": "ela4jq",
+      "originalNumber": 2,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Quan điểm: “Đảng ta là đạo đức, là văn minh” được Hồ Chí Minh trình bày trong tác phẩm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sách lược vắn tắt của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Diễn văn đọc tại lễ kỷ niệm 30 năm ngày thành lập Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ III của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Báo cáo chính trị tại Đại hội đại biểu toàn quốc lần thứ II của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-003",
+      "code": "ela4jq",
+      "originalNumber": 3,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Đảng Cộng sản Việt Nam, do Hồ Chí Minh sáng lập và lãnh đạo, hoạt động vì lợi ích của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì lợi ích của công nhân, nông dân, trí thức"
+        },
+        {
+          "id": "b",
+          "text": "Vì lợi ích của bản thân Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Vì lợi ích của dân tộc Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "Vì lợi ích của giai cấp công nhân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-004",
+      "code": "ela4jq",
+      "originalNumber": 4,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, cán bộ nhà nước là gì của dân?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là chủ"
+        },
+        {
+          "id": "b",
+          "text": "Là công bộc"
+        },
+        {
+          "id": "c",
+          "text": "Là người lãnh đạo"
+        },
+        {
+          "id": "d",
+          "text": "Là người quản lý"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-005",
+      "code": "ela4jq",
+      "originalNumber": 5,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Trong những luận điểm dưới đây của Hồ Chí Minh về xây dựng Đảng Cộng sản, luận điểm nào được Hồ Chí Minh viết lần đầu trong tác phẩm “Đường cách mệnh”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng muốn vững thì phải có chủ nghĩa làm cốt"
+        },
+        {
+          "id": "b",
+          "text": "Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ trung thành của nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Đảng ta là Đảng của giai cấp công nhân, đồng thời là Đảng của dân tộc, không thiên tư, thiên vị"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa Mác - Lênin kết hợp với phong trào công nhân và phong trào yêu nước đã dẫn đến tới việc thành lập Đảng Cộng sản Đông Dương vào đầu năm 1930"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-006",
+      "code": "ela4jq",
+      "originalNumber": 6,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn câu trả lời đúng nhất với tư tưởng Hồ Chí Minh...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng cộng sản Việt Nam là Đảng của nhân dân lao động"
+        },
+        {
+          "id": "b",
+          "text": "Đảng cộng sản Việt Nam là Đảng của giai cấp công nhân"
+        },
+        {
+          "id": "c",
+          "text": "Đảng cộng sản Việt Nam là Đảng của giai cấp công nhân, của nhân dân lao động và của dân tộc Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "Đảng cộng sản Việt Nam là Đảng của giai cấp lao động, mà cũng là Đảng của toàn dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-007",
+      "code": "ela4jq",
+      "originalNumber": 7,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn cụm từ điền vào chỗ trống: Theo tư tưởng Hồ Chí Minh: “Chế độ ta là chế độ dân chủ, nghĩa là .... làm chủ”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nông dân"
+        },
+        {
+          "id": "b",
+          "text": "Nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Công – nông"
+        },
+        {
+          "id": "d",
+          "text": "Công nhân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-008",
+      "code": "ela4jq",
+      "originalNumber": 8,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "“Đảng có vững cách mệnh mới thành công, cũng như người cầm lái có vững thuyền mới chạy”. Câu trên trích từ tác phẩm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lời kêu gọi nhân dịp thành lập Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Đường cách mệnh"
+        },
+        {
+          "id": "c",
+          "text": "Chánh cương vắn tắt của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Bản án chế độ thực dân Pháp"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-009",
+      "code": "ela4jq",
+      "originalNumber": 9,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Trong xây dựng Đảng, Hồ Chí Minh xác định: “Mục đích phê bình cốt để..., giúp nhau tiến bộ”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giúp nhau sửa chữa"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ ra sai lầm"
+        },
+        {
+          "id": "c",
+          "text": "Sửa chữa sai lầm"
+        },
+        {
+          "id": "d",
+          "text": "Tìm ra khuyết điểm"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-010",
+      "code": "ela4jq",
+      "originalNumber": 10,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, “căn bệnh” nào là “căn bệnh mẹ đẻ ra hàng trăm thứ căn bệnh con nguy hiểm khác”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quan liêu"
+        },
+        {
+          "id": "b",
+          "text": "Tham ô"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nghĩa cá nhân"
+        },
+        {
+          "id": "d",
+          "text": "Lãng phí"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-011",
+      "code": "ela4jq",
+      "originalNumber": 11,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn cụm từ đúng nhất để điền vào chỗ trống: Theo tư tưởng Hồ Chí Minh: “Chống ... và bệnh quan liêu cũng quan trọng và cần kíp như việc đánh giặc trên mặt trận. Đây là mặt trận tư tưởng và chính trị”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tham nhũng"
+        },
+        {
+          "id": "b",
+          "text": "Tham ô, lãng phí"
+        },
+        {
+          "id": "c",
+          "text": "Lãng phí"
+        },
+        {
+          "id": "d",
+          "text": "Phá hoại của công"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-012",
+      "code": "ela4jq",
+      "originalNumber": 12,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn cụm từ điền vào chỗ trống: Theo tư tưởng Hồ Chí Minh: “Nước ta là nước ..., nghĩa là nhà nước do nhân dân... ».",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dân chủ, làm chủ"
+        },
+        {
+          "id": "b",
+          "text": "Vì dân, kiểm soát"
+        },
+        {
+          "id": "c",
+          "text": "Dân chủ, quản lý"
+        },
+        {
+          "id": "d",
+          "text": "Cộng hòa, quản lý"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-013",
+      "code": "ela4jq",
+      "originalNumber": 13,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Tư tưởng Hồ Chí Minh có vị trí như thế nào trong hệ thống tư tưởng của Đảng Cộng sản Việt Nam?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng ta"
+        },
+        {
+          "id": "b",
+          "text": "Là một bộ phận trong hệ thống tư tưởng của đảng ta"
+        },
+        {
+          "id": "c",
+          "text": "Là một bộ phận trong hệ thống tư tưởng của Đảng ta"
+        },
+        {
+          "id": "d",
+          "text": "Là một bộ phận quan trọng trong hệ thống tư tưởng của Đảng ta"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-014",
+      "code": "ela4jq",
+      "originalNumber": 14,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, để Đảng trong sạch, vững mạnh thì Đảng phải thường xuyên tự đổi mới, tự chỉnh đốn về mặt...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chính trị"
+        },
+        {
+          "id": "b",
+          "text": "Tổ chức"
+        },
+        {
+          "id": "c",
+          "text": "Cả chính trị, tư tưởng và tổ chức"
+        },
+        {
+          "id": "d",
+          "text": "Tư tưởng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-015",
+      "code": "ela4jq",
+      "originalNumber": 15,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, mục tiêu, lý tưởng của Đảng Cộng sản Việt Nam là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giải phóng giai cấp"
+        },
+        {
+          "id": "b",
+          "text": "Xây dựng một nước Việt Nam giàu mạnh"
+        },
+        {
+          "id": "c",
+          "text": "Phụng sự Tổ quốc, phụng sự nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Vì lợi ích của tất cả mọi người"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-016",
+      "code": "ela4jq",
+      "originalNumber": 16,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, nhà nước vì dân là nhà nước?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chăm lo mọi mặt đời sống nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Phục vụ nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Do nhân dân làm chủ"
+        },
+        {
+          "id": "d",
+          "text": "Tất cả đều vì lợi ích của nhân dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-017",
+      "code": "ela4jq",
+      "originalNumber": 17,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Một nhà nước pháp quyền có hiệu lực pháp lý mạnh mẽ theo tư tưởng Hồ Chí Minh phải là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một nhà nước của dân, do dân, vì dân"
+        },
+        {
+          "id": "b",
+          "text": "Một nhà nước thống nhất, có quyền quốc gia"
+        },
+        {
+          "id": "c",
+          "text": "Một nhà nước hợp Hiến"
+        },
+        {
+          "id": "d",
+          "text": "Một nhà nước đề phòng và khắc phục tiêu cực, không có tiêu cực, không có đặc quyền, đặc lợi"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-018",
+      "code": "ela4jq",
+      "originalNumber": 18,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, Đảng cộng sản Việt Nam ra đời là sản phẩm kết hợp giữa...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tư tưởng Hồ Chí Minh với phong trào công nhân"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa Mác với phong trào công nhân"
+        },
+        {
+          "id": "c",
+          "text": "Phong trào công nhân với phong trào yêu nước"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-019",
+      "code": "ela4jq",
+      "originalNumber": 19,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Theo Hồ Chí Minh, “Đảng có vững, ... mới thành công, cũng như người cầm lái có vững thì ...”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cách mạng; thuyền mới đi"
+        },
+        {
+          "id": "b",
+          "text": "Cách mệnh; thuyền mới chạy"
+        },
+        {
+          "id": "c",
+          "text": "Đất nước; thuyền chạy"
+        },
+        {
+          "id": "d",
+          "text": "Giải phóng; thuyền chạy"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-020",
+      "code": "ela4jq",
+      "originalNumber": 20,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Tư tưởng Hồ Chí Minh, bản chất của giai cấp công nhân của nhà nước ta quyết định ở chỗ...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà nước ta do đảng của giai cấp công nhân lãnh đạo"
+        },
+        {
+          "id": "b",
+          "text": "Nhà nước ta định hướng đi lên xã hội chủ nghĩa"
+        },
+        {
+          "id": "c",
+          "text": "Nguyên tắc tổ chức hoạt động của nhà nước ta là nguyên tắc tập trung dân chủ"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-021",
+      "code": "ela4jq",
+      "originalNumber": 21,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn câu trả lời đúng nhất theo tư tưởng Hồ Chí Minh.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng Cộng sản Việt Nam là Đảng của giai cấp công nhân, nhân dân lao động và của cả dân tộc Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Đảng Cộng sản Việt Nam là Đảng của Nhân dân lao động"
+        },
+        {
+          "id": "c",
+          "text": "Đảng Cộng sản Việt Nam là Đảng của giai cấp công – nông."
+        },
+        {
+          "id": "d",
+          "text": "Đảng Cộng sản Việt Nam là Đảng của giai cấp công nhân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-022",
+      "code": "ela4jq",
+      "originalNumber": 22,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn phương án sai theo tư tưởng Hồ Chí Minh về nguyên tắc xây dựng Đảng Cộng sản Việt Nam...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tự phê bình và phê bình"
+        },
+        {
+          "id": "b",
+          "text": "Đoàn kết thống nhất trong Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Thiểu số phục tùng đa số"
+        },
+        {
+          "id": "d",
+          "text": "Tập trung dân chủ"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-023",
+      "code": "ela4jq",
+      "originalNumber": 23,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Luận điểm nào sau đây là sai? Theo tư tưởng Hồ Chí Minh, nhà nước vì dân là nhà nước?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phục vụ nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Tất cả đều vì lợi ích của nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Do nhân dân làm chủ"
+        },
+        {
+          "id": "d",
+          "text": "Chăm lo mọi mặt đời sống nhân dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-024",
+      "code": "ela4jq",
+      "originalNumber": 24,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Hồ Chí Minh nêu quan điểm nhà nước vì dân là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà nước phải phục vụ nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Mọi chính sách đều làm lợi cho dân"
+        },
+        {
+          "id": "c",
+          "text": "Không có đặc quyền đặc lợi"
+        },
+        {
+          "id": "d",
+          "text": "Đặt lợi ích chính đáng của nhân dân lên hàng đầu"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-025",
+      "code": "ela4jq",
+      "originalNumber": 25,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn phương án đúng nhất: Theo Hồ Chí Minh, Đảng lãnh đạo Nhà nước bằng phương thức nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bằng đường lối, quan điểm, chủ trương, định hướng của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Hoạt động của các tổ chức đảng và đảng viên trong bộ máy nhà nước"
+        },
+        {
+          "id": "c",
+          "text": "Bằng công tác kiểm tra"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-026",
+      "code": "ela4jq",
+      "originalNumber": 26,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Luận điểm “Đảng Cộng sản là Đảng của giai cấp công nhân, của nhân dân lao động và của dân tộc”, là nhằm...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xác định vai trò lãnh đạo của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Xác định bản chất của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Xác định vị thế cầm quyền của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Xác định chức năng, nhiệm vụ của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-027",
+      "code": "ela4jq",
+      "originalNumber": 27,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, nguy cơ lớn nhất của một đảng cầm quyền là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sai lầm về đường lối và suy thoái đạo đức của cán bộ, đảng viên"
+        },
+        {
+          "id": "b",
+          "text": "Chệch hướng"
+        },
+        {
+          "id": "c",
+          "text": "Diễn biến hòa bình"
+        },
+        {
+          "id": "d",
+          "text": "Tụt hậu"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-028",
+      "code": "ela4jq",
+      "originalNumber": 28,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn cụm từ điền vào chỗ trống: Trong Di chúc, Hồ Chí Minh khẳng định: “Đảng ta là một Đảng cầm quyền. Mỗi đảng viên phải thật sự thấm nhuần...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đường lối của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Đạo đức cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Mục tiêu của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Nền tảng tư tưởng của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-029",
+      "code": "ela4jq",
+      "originalNumber": 29,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, Đảng Cộng sản Việt Nam ra đời dựa quy luật nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa Mác – Lênin thâm nhập vào phong trào công nhân và phong trào yêu nước"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa Mác – Lênin"
+        },
+        {
+          "id": "c",
+          "text": "Phong trào công nhân"
+        },
+        {
+          "id": "d",
+          "text": "Phong trào yêu nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-030",
+      "code": "ela4jq",
+      "originalNumber": 30,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Trong những luận điểm về xây dựng Đảng Cộng sản của Hồ Chí Minh dưới đây, luận điểm nào được viết trong Di chúc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng ta là Đảng của giai cấp công nhân, đồng thời là Đảng của dân tộc, không thiên tư, thiên vị"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa Mác - Lênin kết hợp với phong trào công nhân và phong trào yêu nước đã dẫn đến tới việc thành lập Đảng Cộng sản Đông Dương vào đầu năm 1930"
+        },
+        {
+          "id": "c",
+          "text": "Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ trung thành của nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Đảng muốn vững thì phải có chủ nghĩa làm cốt, trong Đảng ai cũng phải hiểu, ai cũng phải theo chủ nghĩa ấy"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-031",
+      "code": "ela4jq",
+      "originalNumber": 31,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Ai là người chủ trì Hội nghị thành lập Đảng Cộng sản Việt Nam?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trần Phú"
+        },
+        {
+          "id": "b",
+          "text": "Nguyễn Ái Quốc"
+        },
+        {
+          "id": "c",
+          "text": "Lê Hồng Phong"
+        },
+        {
+          "id": "d",
+          "text": "Trường Trinh"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-032",
+      "code": "ela4jq",
+      "originalNumber": 32,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Luận điểm: “Đảng muốn vững thì phải có chủ nghĩa làm cốt, trong đảng ai cũng phải hiểu, ai cũng phải theo chủ nghiã ấy. Đảng mà không có chủ nghĩa cũng như người không có trí khôn, tàu không có bàn chỉ nam” được trích từ tác phẩm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thường thức chính trị"
+        },
+        {
+          "id": "b",
+          "text": "Đường Cách mệnh"
+        },
+        {
+          "id": "c",
+          "text": "Bản án chế độ thực dân Pháp"
+        },
+        {
+          "id": "d",
+          "text": "Tuyên ngôn Độc lập"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-033",
+      "code": "ela4jq",
+      "originalNumber": 33,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "“Đảng muốn vững, phải có chủ nghĩa làm cốt, trong Đảng ai cũng phải hiểu, ai cũng phải theo chủ nghĩa ấy. Đảng mà không có chủ nghĩa cũng như người không có trí khôn, tàu không có bàn chỉ nam”. Chủ nghĩa mà Hồ Chí Minh nói ở đây là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa quốc gia – dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa Tam dân của Tôn Trung Sơn"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nghĩa Mác - Lênin"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa quốc tế"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-034",
+      "code": "ela4jq",
+      "originalNumber": 34,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, luận điểm: Đảng Cộng sản Việt Nam là nhân tố quyết định hàng đầu để đưa cách mạng Việt Nam đi đến thắng lợi là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xác định bản chất của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Xác định năng lực của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Xác định vị thế cầm quyền của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Xác định vai trò lãnh đạo của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-035",
+      "code": "ela4jq",
+      "originalNumber": 35,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Khi mới thành lập, Đảng ta có tên gọi là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng Cộng sản Đông Dương"
+        },
+        {
+          "id": "b",
+          "text": "Đảng lao động Việt Nam"
+        },
+        {
+          "id": "c",
+          "text": "An Nam Cộng sản Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Đảng Cộng sản Việt Nam"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-036",
+      "code": "ela4jq",
+      "originalNumber": 36,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, vai trò lãnh đạo của giai cấp công nhân trong cách mạng Việt Nam do yếu tố nào quyết định?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Do số lượng của giai cấp công nhân"
+        },
+        {
+          "id": "b",
+          "text": "Do đặc tính của giai cấp công nhân"
+        },
+        {
+          "id": "c",
+          "text": "Do ý muốn của Đảng Công sản"
+        },
+        {
+          "id": "d",
+          "text": "Do ý muốn của giai cấp công nhân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-037",
+      "code": "ela4jq",
+      "originalNumber": 37,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Một nhà nước pháp quyền có hiệu lực pháp lý mạnh mẽ theo Tư tưởng Hồ Chí Minh phải là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một nhà nước hợp hiến"
+        },
+        {
+          "id": "b",
+          "text": "Một nhà nước quản lý đất nước bằng pháp luật và chú trọng đưa pháp luật vào cuộc sống"
+        },
+        {
+          "id": "c",
+          "text": "Một nhà nước có đội ngũ cán bộ, công chức có đủ sức, đủ tài"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-038",
+      "code": "ela4jq",
+      "originalNumber": 38,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, Đảng Cộng sản Việt Nam ra đời dựa quy luật nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa Mác – Lênin"
+        },
+        {
+          "id": "b",
+          "text": "Phong trào công nhân"
+        },
+        {
+          "id": "c",
+          "text": "Phong trào yêu nước"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa Mác – Lênin thâm nhập vào phong trào công nhân và phong trào yêu nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-039",
+      "code": "ela4jq",
+      "originalNumber": 39,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Tư tưởng Hồ Chí Minh, Đảng Cộng sản Việt Nam vừa là người lãnh đạo, vừa là đầy tớ trung thành của nhân dân, Đảng phải chăm lo mối quan hệ giữa Đảng với dân là nhằm...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xác định vị thế cầm quyền của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Xác định phương thức cầm quyền của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Xác định năng lực cầm quyền của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-040",
+      "code": "ela4jq",
+      "originalNumber": 40,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "“Mục đích của Đảng lao động Việt Nam có thể gồm trong 8 chữ là: đoàn kết toàn dân, phụng sự Tổ quốc”. Hồ Chí Minh nói câu trên nhân sự kiện chính trị nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại hội II"
+        },
+        {
+          "id": "b",
+          "text": "Đại hội I"
+        },
+        {
+          "id": "c",
+          "text": "Hội nghị chính trị đặc biệt 1965"
+        },
+        {
+          "id": "d",
+          "text": "Đại hội III"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-041",
+      "code": "ela4jq",
+      "originalNumber": 41,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, một trong những yêu cầu về xây dựng đội ngũ cán bộ công chức nhà nước là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phải có chí tiến thủ"
+        },
+        {
+          "id": "b",
+          "text": "Tuyệt đối trung thành với cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Phải có tố chất lãnh đạo"
+        },
+        {
+          "id": "d",
+          "text": "Phải sáng tạo"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-042",
+      "code": "ela4jq",
+      "originalNumber": 42,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chủ nghĩa Mác - Lênin kết hợp với phong trào công nhân và phong trào yêu nước dẫn tới sự ra đời của Đảng Cộng sản Việt Nam. Câu trên trích từ tác phẩm nào của chủ tịch Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diễn văn chính trị đọc tại đại hội III"
+        },
+        {
+          "id": "b",
+          "text": "Đường cách mệnh"
+        },
+        {
+          "id": "c",
+          "text": "Thường thức chính trị"
+        },
+        {
+          "id": "d",
+          "text": "Ba mươi năm hoạt động của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-043",
+      "code": "ela4jq",
+      "originalNumber": 43,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh: “Đảng Cộng sản Việt Nam ra đời là sản phẩm của sự kết hợp chủ nghĩa Mác – Lênin, với phong trào công nhân và ... ở nước ta vào những năm cuối thập kỷ của của thế kỷ XX”",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phong trào dân chủ"
+        },
+        {
+          "id": "b",
+          "text": "Phong trào trí thức"
+        },
+        {
+          "id": "c",
+          "text": "Phong trào nông dân"
+        },
+        {
+          "id": "d",
+          "text": "Phong trào yêu nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-044",
+      "code": "ela4jq",
+      "originalNumber": 44,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Hồ Chí Minh nêu quan điểm nhà nước do dân là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà nước vì quyền lợi của nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Nhà nước do dân bầu ra, thực hiện ý chí của dân"
+        },
+        {
+          "id": "c",
+          "text": "Quyền tối cao trong nhà nước thuộc về nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Nhà nước do dân tạo ra và nhân dân tham gia quản lý"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-045",
+      "code": "ela4jq",
+      "originalNumber": 45,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn cụm từ điền vào chỗ trống: Trong Di chúc, Hồ Chí Minh khẳng định: “Đảng ta là một Đảng cầm quyền. Mỗi đảng viên phải thật sự thấm nhuần...”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nền tảng tư tưởng của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Đạo đức cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Đường lối của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Mục tiêu của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-046",
+      "code": "ela4jq",
+      "originalNumber": 46,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Nguyên tắc xây dựng Đảng kiểu mới theo theo Tư tưởng Hồ Chí Minh là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tập trung dân chủ; Tập thể lãnh đạo cá nhân phụ trách"
+        },
+        {
+          "id": "b",
+          "text": "Tự phê bình và phê bình; Kỷ luật nghiêm minh và tự giác"
+        },
+        {
+          "id": "c",
+          "text": "Đoàn kết thống nhất trong Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-047",
+      "code": "ela4jq",
+      "originalNumber": 47,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, việc học phải được tiến hành như thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Học ở mọi lúc, mọi nơi, suốt đời"
+        },
+        {
+          "id": "b",
+          "text": "Học ở mọi người"
+        },
+        {
+          "id": "c",
+          "text": "Tự học, tự đào tạo và đào tạo lại"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-048",
+      "code": "ela4jq",
+      "originalNumber": 48,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Nhà nước do dân theo tư tưởng Hồ Chí Minh....",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại biểu nhà nước do nhân dân lựa chọn"
+        },
+        {
+          "id": "b",
+          "text": "Dân ủng hộ, giúp đỡ, đóng thuế để nhà nước chi tiêu hoạt động"
+        },
+        {
+          "id": "c",
+          "text": "Dân có quyền kiểm soát, giám sát, bãi nhiễm nếu đại biểu không làm tròn sự ủy nhiệm của dân; Nhà nước phải liên hệ chặt chẽ với nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-049",
+      "code": "ela4jq",
+      "originalNumber": 49,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, nhân tố quyết định hàng đầu để đưa cách mạng Việt Nam đi đến thắng lợi là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sự lãnh đạo của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Đại đoàn kết dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Đoàn kết quốc tế"
+        },
+        {
+          "id": "d",
+          "text": "Sự giúp đỡ của Quốc tế Cộng sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-050",
+      "code": "ela4jq",
+      "originalNumber": 50,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Tháng 10/1930, Đảng ta đổi tên là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng Cộng sản Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Đảng Cộng sản Đông Dương"
+        },
+        {
+          "id": "c",
+          "text": "Đảng lao động Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "An Nam Cộng sản Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-051",
+      "code": "ela4jq",
+      "originalNumber": 51,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn phương án đúng nhất: Theo tư tưởng Hồ Chí Minh, việc đổi mới, chỉnh đốn Đảng được hiểu là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Việc làm thường xuyên của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Khi Đảng không còn vững mạnh"
+        },
+        {
+          "id": "c",
+          "text": "Một giải pháp tình thế"
+        },
+        {
+          "id": "d",
+          "text": "Khi cách mạng ở vào thời kỳ khó khăn"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-052",
+      "code": "ela4jq",
+      "originalNumber": 52,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn phương án đúng nhất: Quan điểm xây dựng nhà nước trong sạch, vững mạnh, hoạt động có hiệu quả, Hồ Chí Minh đã nhắc nhở đề phòng và khắc phục...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trịch thượng, tham nhũng; Đặc quyền, đặc lợi; Bè phái"
+        },
+        {
+          "id": "b",
+          "text": "Đặc quyền, đặc lợi; Tham ô, lãng phí, quan liêu; Tư túng, chia rẽ, kiêu ngạo"
+        },
+        {
+          "id": "c",
+          "text": "Tham ô, móc ngoặc, hối lộ; Đặc quyền, đặc lợi; Kết bè kết cánh"
+        },
+        {
+          "id": "d",
+          "text": "Tham ô, hối lộ; Đặc quyền, đặc lợi; Kiêu ngạo"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-053",
+      "code": "ela4jq",
+      "originalNumber": 53,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Trong tác phẩm “Đường Cách mệnh” khi nói về vai trò của Đảng Cộng sản, Hồ Chí Minh đã ví Đảng như là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kim chỉ nam"
+        },
+        {
+          "id": "b",
+          "text": "Người chèo thuyền"
+        },
+        {
+          "id": "c",
+          "text": "La bàn"
+        },
+        {
+          "id": "d",
+          "text": "Người cầm lái"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-054",
+      "code": "ela4jq",
+      "originalNumber": 54,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn câu trả lời đúng nhất: Truyền thống quý báu nhất của dân tộc Việt Nam được Hồ Chí Minh kế thừa và phát triển là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa yêu nước"
+        },
+        {
+          "id": "b",
+          "text": "Cần cù lao động"
+        },
+        {
+          "id": "c",
+          "text": "Lòng nhân ái"
+        },
+        {
+          "id": "d",
+          "text": "Tinh thần hiếu học"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-055",
+      "code": "ela4jq",
+      "originalNumber": 55,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Tháng 2/1930, Nguyễn Ái Quốc đã chủ trì Hội nghị hợp nhất các tổ chức cộng sản trong nước để thành lập tổ chức chính trị nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng cộng sản Đông Dương"
+        },
+        {
+          "id": "b",
+          "text": "An Nam cộng sản Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Đông Dương cộng sản Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Đảng cộng sản Việt Nam"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-056",
+      "code": "ela4jq",
+      "originalNumber": 56,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, luận điểm: Đảng Cộng sản Việt Nam là sản phẩm của sự kết hợp chủ nghĩa Mác – Lênin với phong trào công nhân và phong trào yêu nước là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xác định nhiệm vụ của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Xác định năng lực của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Xác định bản chất của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Xác định nguồn gốc ra đời của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-057",
+      "code": "ela4jq",
+      "originalNumber": 57,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn phương án đúng nhất để điền vào chỗ trống hoàn thiện câu sau của Hồ Chí Minh: “Chống ... và bệnh quan liêu cũng quan trọng và cần kíp như việc đánh giặc trên mặt trận”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vi phạm kỷ luật"
+        },
+        {
+          "id": "b",
+          "text": "Phá hoại của công"
+        },
+        {
+          "id": "c",
+          "text": "Tham ô, lãng phí"
+        },
+        {
+          "id": "d",
+          "text": "Thành tích"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-058",
+      "code": "ela4jq",
+      "originalNumber": 58,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Một nhà nước pháp quyền có hiệu lực pháp lý mạnh mẽ theo Hồ Chí Minh phải là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một nhà nước của dân, do dân, vì dân"
+        },
+        {
+          "id": "b",
+          "text": "Một nhà nước thống nhất, có chủ quyền"
+        },
+        {
+          "id": "c",
+          "text": "Một nhà nước hợp hiến"
+        },
+        {
+          "id": "d",
+          "text": "Một nhà nước không có tiêu cực, không có đặc quyền, đặc lợi"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-059",
+      "code": "ela4jq",
+      "originalNumber": 59,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn phương án SAI theo tư tưởng Hồ Chí Minh về nguyên tắc xây dựng Đảng Cộng sản Việt Nam.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tập trung dân chủ"
+        },
+        {
+          "id": "b",
+          "text": "Đoàn kết thống nhất trong Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Thiểu số phục tùng đa số"
+        },
+        {
+          "id": "d",
+          "text": "Tự phê bình và phê bình"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-060",
+      "code": "ela4jq",
+      "originalNumber": 60,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Nhà nước của Dân theo Tư tưởng Hồ Chí Minh nghĩa là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi quyền lực trong nhà nước và trong xã hội đều thuộc về nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Mọi công việc của nhà nước do dân quyết định"
+        },
+        {
+          "id": "c",
+          "text": "Đại biểu nhà nước do nhân dân bầu ra"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-061",
+      "code": "ela4jq",
+      "originalNumber": 61,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Đảng ta có tên gọi là Đảng Lao động Việt Nam vào năm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1945"
+        },
+        {
+          "id": "b",
+          "text": "1951"
+        },
+        {
+          "id": "c",
+          "text": "1955"
+        },
+        {
+          "id": "d",
+          "text": "1941"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-062",
+      "code": "ela4jq",
+      "originalNumber": 62,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, mọi việc thành công hay thất bại là do...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lãnh đạo"
+        },
+        {
+          "id": "b",
+          "text": "Đường lối lãnh đạo"
+        },
+        {
+          "id": "c",
+          "text": "Cán bộ lãnh đạo"
+        },
+        {
+          "id": "d",
+          "text": "Cán bộ tốt hay kém"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-063",
+      "code": "ela4jq",
+      "originalNumber": 63,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "“Đảng ta là một Đảng cầm quyền. Mỗi đảng viên và cán bộ phải thật sự thấm nhuần đạo đức cách mạng, thật sự cần kiệm liêm chính, chí công vô tư. Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của nhân dân”. Câu viết trên của Hồ Chí Minh ở trong tác phẩm nào của Người?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sửa đổi lối làm việc"
+        },
+        {
+          "id": "b",
+          "text": "Đường cách mệnh"
+        },
+        {
+          "id": "c",
+          "text": "Đạo đức cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Di chúc"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-064",
+      "code": "ela4jq",
+      "originalNumber": 64,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, nhà nước ta mang bản chất của...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toàn dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Giai cấp nông dân"
+        },
+        {
+          "id": "c",
+          "text": "Giai cấp công – nông"
+        },
+        {
+          "id": "d",
+          "text": "Giai cấp công nhân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-065",
+      "code": "ela4jq",
+      "originalNumber": 65,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Bản chất giai cấp công nhân của Đảng cộng sản Việt Nam thể hiện ở...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Số lượng đảng viên trong Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Trình độ đảng viên trong Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Nền tảng lý luận, mục tiêu, đường lối, nguyên tắc tổ chức của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-066",
+      "code": "ela4jq",
+      "originalNumber": 66,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, luận điểm: Đảng Cộng sản Việt Nam là nhân tố quyết định hàng đầu để đưa cách mạng Việt Nam đi đến thắng lợi là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xác định vai trò lãnh đạo của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Xác định năng lực của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Xác định bản chất của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Xác định vị thế cầm quyền của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-067",
+      "code": "ela4jq",
+      "originalNumber": 67,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, một trong những nguyên tắc tổ chức tổ chức và sinh hoạt Đảng cơ bản là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cấp dưới phục tùng cấp trên"
+        },
+        {
+          "id": "b",
+          "text": "Tập trung dân chủ"
+        },
+        {
+          "id": "c",
+          "text": "Thiểu số phục tùng đa số"
+        },
+        {
+          "id": "d",
+          "text": "Biểu quyết hoặc bỏ phiếu kín"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-068",
+      "code": "ela4jq",
+      "originalNumber": 68,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Nhà nước vì dân theo Tư tưởng Hồ Chí Minh là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phục vụ vì lợi ích và nguyện vọng chính đáng của nhân dân; Dân là chủ chính phủ là đầy tớ của nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Mọi chủ trương, chính sách, pháp luật đều xuất phát từ lợi ích của dân"
+        },
+        {
+          "id": "c",
+          "text": "Nhà nước trong sạch, không có bất cứ một đặc quyền đặc lợi nào."
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-069",
+      "code": "ela4jq",
+      "originalNumber": 69,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Hồ Chí Minh nêu lên quan điểm nhà nước của dân là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhân dân có quyền kiểm soát nhà nước"
+        },
+        {
+          "id": "b",
+          "text": "Nhà nước bảo đảm quyền làm chủ của nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Mọi quyền lực trong nhà nước và ngoài xã hội đều thuộc về nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Nhân dân có vai trò quyết định mọi công việc của nhà nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-070",
+      "code": "ela4jq",
+      "originalNumber": 70,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn cụm từ điền vào chỗ trống: Theo tư tưởng Hồ Chí Minh: “Tất cả các cơ quan nhà nước đều phải dựa vào ..., liên hệ chặt chẽ với..., lắng nghe ý kiến và chịu sự kiểm soát của ...”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Công nhân"
+        },
+        {
+          "id": "b",
+          "text": "Nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Quốc hội"
+        },
+        {
+          "id": "d",
+          "text": "Đảng Cộng sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-071",
+      "code": "ela4jq",
+      "originalNumber": 71,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Bản chất giai cấp công nhân của Đảng Cộng sản Việt Nam thể hiện ở...?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mục tiêu của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Số lượng đảng viên trong Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Nền tảng lý luận, mục tiêu, nguyên tắc tổ chức của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Trình độ đảng viên trong Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-072",
+      "code": "ela4jq",
+      "originalNumber": 72,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, luận điểm: Đảng Cộng sản Việt Nam là sản phẩm của sự kết hợp chủ nghĩa Mác – Lênin với phong trào công nhân và phong trào yêu nước là..",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xác định năng lực của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Xác định bản chất của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Xác định nguồn gốc ra đời của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Xác định nhiệm vụ của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-073",
+      "code": "ela4jq",
+      "originalNumber": 73,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, một trong những nguyên tắc tổ chức tổ chức và sinh hoạt Đảng cơ bản là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cấp dưới phục tùng cấp trên"
+        },
+        {
+          "id": "b",
+          "text": "Thiểu số phục tùng đa số"
+        },
+        {
+          "id": "c",
+          "text": "Tập trung dân chủ"
+        },
+        {
+          "id": "d",
+          "text": "Biểu quyết hoặc bỏ phiếu kín"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-074",
+      "code": "ela4jq",
+      "originalNumber": 74,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Đảng ta là một Đảng cầm quyền, các đồng chí từ chi bộ đến TW phải giữ gìn sự đoàn kết nhất trí trong Đảng như giữ gìn con ngươi của mắt mình. Câu trên trích từ tác phẩm nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bài nói chuyện tại trường Nguyễn Ái Quốc trung ương năm 1957"
+        },
+        {
+          "id": "b",
+          "text": "Diễn văn chính trị tại Đại hội III của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Di chúc"
+        },
+        {
+          "id": "d",
+          "text": "Bài nói chuyện với cán bộ cao cấp quân đội nhân dân Việt Nam"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-075",
+      "code": "ela4jq",
+      "originalNumber": 75,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "“Việc gì lợi cho dân, ta phải hết sức làm. Việc gì hại đến dân, ta phải hết sức tránh. Chúng ta phải yêu dân, kính dân thì dân mới yêu ta, kính ta”. Những câu trên trích từ bài viết nào của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thư gửi các đồng chí Bắc Bộ."
+        },
+        {
+          "id": "b",
+          "text": "Thư gửi các đồng chí tỉnh nhà"
+        },
+        {
+          "id": "c",
+          "text": "Thư gửi ủy ban nhân dân các kỳ, tỉnh, huyện và làng"
+        },
+        {
+          "id": "d",
+          "text": "Bài phát biểu tại kỳ họp đầu tiên của Quốc hội khoá I, năm 1946"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-076",
+      "code": "ela4jq",
+      "originalNumber": 76,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, Đảng cộng sản Việt Nam là Đảng của...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giai cấp công nhân, của nhân dân lao động và của dân tộc Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Nhân dân lao động"
+        },
+        {
+          "id": "c",
+          "text": "Đội ngũ trí thức"
+        },
+        {
+          "id": "d",
+          "text": "Giai cấp công nhân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-077",
+      "code": "ela4jq",
+      "originalNumber": 77,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Trong Di chúc, phần nói về Đảng, lời căn dặn nào thể hiện sự mẫn cảm và tầm nhìn xa của Hồ Chí Minh đối với việc ngăn ngừa nguy cơ thoái hoá trong Đảng sau khi đất nước đạt được đỉnh cao thắng lợi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trong Đảng thực hành dân chủ rộng rãi để củng cố và phát triển sự đoàn kết và thống nhất của Đảng. Phải có tình đồng chí yêu thương lẫn nhau"
+        },
+        {
+          "id": "b",
+          "text": "Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ trung thành của nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Ngay sau khi cuộc chống Mỹ, cứu nước hoàn toàn thắng lợi, việc cần làm trước tiên là chỉnh đốn lại Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Đảng ta là một Đảng cầm quyền, mỗi Đảng viên và cán bộ phải thật sự thấm nhuần đạo đức cách mạng, thật sự cần kiệm, liêm chính, chí công vô tư"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-078",
+      "code": "ela4jq",
+      "originalNumber": 78,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Dưới đây là một số luận điểm của Hồ Chí Minh về nhà nước của dân, do dân, vì dân. Luận điểm nào trực tiếp thể hiện tư tưởng nhà nước vì dân?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nước ta là nước dân chủ"
+        },
+        {
+          "id": "b",
+          "text": "Hễ chính phủ nào mà có hại cho dân chúng thì dân chúng phải đạp đổ chính phủ ấy đi và gây nên chính phủ khác"
+        },
+        {
+          "id": "c",
+          "text": "Cách mệnh rồi thì quyền trao cho dân chúng số nhiều, chớ để trong tay một bọn ít người"
+        },
+        {
+          "id": "d",
+          "text": "Việc gì có lợi cho dân ta phải hết sức làm. Việc gì có hại cho dân, ta phải hết sức tránh"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-079",
+      "code": "ela4jq",
+      "originalNumber": 79,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Hồ Chí Minh cho rằng: “Muốn khỏi đi lạc phương hướng, quần chúng phải có Đảng lãnh đạo để nhận rõ.....”. Điền từ còn thiếu vào chỗ trống...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Việc đánh đổ kẻ địch, giành lấy chính quyền"
+        },
+        {
+          "id": "b",
+          "text": "Sự áp bức bóc lột của đế quốc, thực dân"
+        },
+        {
+          "id": "c",
+          "text": "Lực lượng của cách mạng và phương châm tác chiến"
+        },
+        {
+          "id": "d",
+          "text": "Tình hình, đường lối và định phương châm cho đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-080",
+      "code": "ela4jq",
+      "originalNumber": 80,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn phương án đúng nhất: Những căn bệnh nào trong bộ máy nhà nước mà Hồ Chí Minh gọi là “giặc nội xâm”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đặc quyền, đặc lợi"
+        },
+        {
+          "id": "b",
+          "text": "Trái phép, chia rẽ, kiêu ngạo"
+        },
+        {
+          "id": "c",
+          "text": "Tham ô, lãng phí, quan liêu"
+        },
+        {
+          "id": "d",
+          "text": "Cậy thế, hủ hoá, tư túng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-081",
+      "code": "ela4jq",
+      "originalNumber": 81,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, nền tảng tư tưởng của Đảng phải dựa trên:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa Mác – Lênin"
+        },
+        {
+          "id": "b",
+          "text": "Nguyên tắc tự phê bình và phê bình"
+        },
+        {
+          "id": "c",
+          "text": "Đại đoàn kết dân tộc"
+        },
+        {
+          "id": "d",
+          "text": "nguyên tắc tập trung dân chủ"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-082",
+      "code": "ela4jq",
+      "originalNumber": 82,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Trong tư tưởng Hồ Chí Minh, là người lãnh đạo, Đảng phải có những phẩm chất gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tư cách, đạo đức, năng lực cần thiết"
+        },
+        {
+          "id": "b",
+          "text": "Phải có khả năng làm cho dân tin, dân mến, dân phục, dân theo"
+        },
+        {
+          "id": "c",
+          "text": "Đảng phải gắn bó mật thiết với nhân dân, nghe ý kiến của dân, học nhân dân, chịu sự kiểm soát của nhân dân..."
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-083",
+      "code": "ela4jq",
+      "originalNumber": 83,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, một trong những yêu cầu để xây dựng nhà nước pháp quyền có hiệu lực pháp lý mạnh mẽ là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đẩy mạnh quan hệ quốc tế"
+        },
+        {
+          "id": "b",
+          "text": "Nhà nước phải quản lý đất nước bằng hiến pháp và pháp luật"
+        },
+        {
+          "id": "c",
+          "text": "Nhà nước phải chịu sự lãnh đạo của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Nhà nước phải chịu sự giám sát của nhân dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-084",
+      "code": "ela4jq",
+      "originalNumber": 84,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Chọn đáp án đúng nhất: Điều mong muốn cuối cùng của Hồ Chí Minh được nêu trong Di chúc của Người là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đưa cuộc kháng chiến chống Mỹ cứu nước đến thắng lợi hoàn toàn."
+        },
+        {
+          "id": "b",
+          "text": "“... làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, đồng bào ta ai cũng có cơm ăn áo mặc, ai cũng được học hành”"
+        },
+        {
+          "id": "c",
+          "text": "“Toàn Đảng, toàn dân ta đoàn kết phấn đấu xây dựng một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ, giàu mạnh và góp phần xứng đáng vào sự nghiệp cách mạng thế giới”"
+        },
+        {
+          "id": "d",
+          "text": "“Không có gì quý hơn độc lập tự do! Đến ngày thắng lợi, chúng ta sẽ xây dựng lại đất nước ta đàng hoàng hơn, to đẹp hơn”"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-085",
+      "code": "ela4jq",
+      "originalNumber": 85,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Vì sao giai cấp nông dân không thể lãnh đạo được cuộc cách mạng xã hội chủ nghĩa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Họ không có tính Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Họ đông nhưng không mạnh"
+        },
+        {
+          "id": "c",
+          "text": "Họ không có hệ tư tưởng độc lập và không đại diện cho phương thức sản xuất tiên tiến"
+        },
+        {
+          "id": "d",
+          "text": "Họ không đại diện cho phương thức sản xuất tiên tiến"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-086",
+      "code": "ela4jq",
+      "originalNumber": 86,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Luận điểm: “Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của nhân dân” được trích từ tác phẩm nào của Hồ chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Di chúc"
+        },
+        {
+          "id": "b",
+          "text": "Đường Cách mệnh"
+        },
+        {
+          "id": "c",
+          "text": "Thường thức chính trị"
+        },
+        {
+          "id": "d",
+          "text": "Sửa đổi lối làm việc"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-087",
+      "code": "ela4jq",
+      "originalNumber": 87,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, luận điểm Đảng cộng sản là nhân tố quyết định hàng đầu để đưa cách mạng Việt Nam đi đến thắng lợi là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xác định nhiệm vụ của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Xác định vai trò lãnh đạo của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Xác định vị thế cầm quyền của Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Xác định mục đích của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-ela4jq-088",
+      "code": "ela4jq",
+      "originalNumber": 88,
+      "sourceTitle": "TTHCM_PTIT Chương 4",
+      "chapter": 4,
+      "prompt": "Theo Hồ Chí Minh, chế độ chính trị mà chúng ta xây dựng là chế độ...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Do giai cấp công nhân làm chủ"
+        },
+        {
+          "id": "b",
+          "text": "Do nhân dân làm chủ"
+        },
+        {
+          "id": "c",
+          "text": "Do giai cấp nông dân làm chủ"
+        },
+        {
+          "id": "d",
+          "text": "Do nhân dân lao động làm chủ"
+        }
+      ]
+    }
+  ]
+}

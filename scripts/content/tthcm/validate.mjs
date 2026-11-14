@@ -6,6 +6,14 @@ const raw = JSON.parse(readFileSync(new URL('../../../content/tthcm/raw-question
 const questions = new Map(bank.questions.map(q => [q.id, q]));
 const concepts = new Map(bank.concepts.map(c => [c.id, c]));
 const sources = new Map(bank.sources.map(s => [s.id, s]));
+const codes={e9lwce:71,rnaeqk:148,ela4jq:88,ijqzcg:44,'3eggrt':76,n6fnzo:95};
+const azota=Object.keys(codes).flatMap(code=>{
+  const doc=JSON.parse(readFileSync(new URL(`../../../content/tthcm/azota/${code}.json`,import.meta.url),'utf8'));
+  assert.equal(doc.questions.length,codes[code],`Incomplete Azota ${code}`);
+  assert.deepEqual(doc.questions.map(q=>q.originalNumber),Array.from({length:codes[code]},(_,i)=>i+1));
+  return doc.questions.map(q=>({...q,sourceId:'azota-'+code,pdfPage:q.originalNumber}));
+});
+const allRaw=[...raw,...azota];
 assert.equal(questions.size, bank.questions.length, 'Duplicate question IDs');
 assert.equal(concepts.size, bank.concepts.length, 'Duplicate concept IDs');
 assert.deepEqual(bank.chapters.map(c => c.number), [1,2,3,4,5,6]);
@@ -27,20 +35,20 @@ for (const q of bank.questions) {
     assert(source && Number.isInteger(ref.pdfPage) && ref.pdfPage > 0 && ref.pdfPage <= source.pages, label + 'source page');
   }
   if (q.shufflePolicy === 'safe') {
-    assert(!q.options.some(o => /\b[ABCD]\s*(đúng|sai)|đáp án trên|ý trên/i.test(o.text)), label + 'unsafe position dependency');
+    assert(!q.options.some(o => /(?<![\p{L}\p{N}_])[ABCD]\s*(đúng|sai)|đáp án trên|ý trên/iu.test(o.text)), label + 'unsafe position dependency');
   }
   assert(q.tags.every(t => ['date','congress','count'].includes(t)), label + 'unknown tag');
 }
 assert.equal(bank.sampleQuestionIds.length, 20, 'Sample requires 20 questions');
 assert.equal(new Set(bank.sampleQuestionIds).size, 20, 'Sample must be unique');
 assert(bank.sampleQuestionIds.every(id => questions.has(id)), 'Missing sample questions');
-assert.equal(bank.audit.length, raw.length, 'Every raw item needs an editorial decision');
-assert.equal(new Set(bank.audit.map(a => a.id)).size, raw.length, 'Duplicate editorial decisions');
+assert.equal(bank.audit.length, allRaw.length, 'Every raw item needs an editorial decision');
+assert.equal(new Set(bank.audit.map(a => a.id)).size, allRaw.length, 'Duplicate editorial decisions');
 for (const source of ['lms','quiz','sample']) {
   assert.equal(bank.audit.filter(a => a.sourceId === source).length, {lms:95,quiz:118,sample:20}[source]);
 }
 for (const a of bank.audit) {
-  assert(raw.some(r => r.id === a.id), 'Unknown source item');
+  assert(allRaw.some(r => r.id === a.id), 'Unknown source item');
   if (a.status === 'published' || a.status === 'merged') {
     const q = questions.get(a.questionId);
     assert(q, 'Published item missing canonical question');

@@ -1,0 +1,1855 @@
+{
+  "code": "e9lwce",
+  "url": "https://azota.vn/de-thi/e9lwce",
+  "title": "Bắt đầu thi: TTHCM_PTIT Chương 2",
+  "retrievedAt": "2026-11-14T03:41:57.734Z",
+  "expected": null,
+  "questions": [
+    {
+      "id": "azota-e9lwce-001",
+      "code": "e9lwce",
+      "originalNumber": 1,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Tháng 7/1920, Hồ Chí Minh đọc tác phẩm ... của Lênin.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Làm gì”"
+        },
+        {
+          "id": "b",
+          "text": "Sơ thảo lần thứ hai Luận cương về các vấn đề dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Nhà nước và cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Sơ thảo lần thứ nhất về các vấn đề dân tộc và thuộc địa"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-002",
+      "code": "e9lwce",
+      "originalNumber": 2,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Tư tưởng Hồ Chí Minh được hình thành từ những tiền đề tư tưởng - lý luận nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Những giá trị truyền thống tốt đẹp của dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Tất cả phương án trên"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nghĩa Mác – Lênin"
+        },
+        {
+          "id": "d",
+          "text": "Tinh hoa văn hóa nhân loại"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-003",
+      "code": "e9lwce",
+      "originalNumber": 3,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Ái Quốc viết 1 bức thư gửi cho 1 cán bộ của Quốc tế Cộng sản có đoạn viết “đồng chí có thể hình dung nơi tôi đang sống trong một tình trạng tinh thần và vật chất như thế nào không: biết là có nhiều công việc nhưng không thể làm gì được, ăn không ngồi rồi, không có tiến, sống ngày nào hay ngày ấy mà không được phép hoạt động, vv..” bức thư đó Nguyễn Ái Quốc viết khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4-1928"
+        },
+        {
+          "id": "b",
+          "text": "4-1925"
+        },
+        {
+          "id": "c",
+          "text": "4-1937"
+        },
+        {
+          "id": "d",
+          "text": "4-1930"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-004",
+      "code": "e9lwce",
+      "originalNumber": 4,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Trong Cương lĩnh chính trị đầu tiên của Đảng do Nguyễn Ái Quốc soạn thảo đã xác định phương hướng chiến lược là: “làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới....",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xã hội Cộng sản"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa tư bản"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nghĩa xã hội"
+        },
+        {
+          "id": "d",
+          "text": "Thời kỳ quá độ lên chủ nghĩa xã hội"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-005",
+      "code": "e9lwce",
+      "originalNumber": 5,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Hồ Chí Minh tiếp thu tinh hoa văn hóa phương Đông chủ yếu từ:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nho giáo và Phật giáo"
+        },
+        {
+          "id": "b",
+          "text": "Nho Giáo và Thiên chúa giáo"
+        },
+        {
+          "id": "c",
+          "text": "Cả a, b, c đều sai"
+        },
+        {
+          "id": "d",
+          "text": "Nho giáo và Thiên chúa giáo"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-006",
+      "code": "e9lwce",
+      "originalNumber": 6,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Hồ Chí Minh lấy tên Nguyễn Ái Quốc vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khi Bác sang Liên Xô làm việc ở Ban Phương Đông của Quốc tế Cộng sản tháng 6/1923"
+        },
+        {
+          "id": "b",
+          "text": "Tại Hội Nghị Vécxay (Pháp) ngày 18/6/1919"
+        },
+        {
+          "id": "c",
+          "text": "Khi Bác lên tàu từ bến Nhà Rồng 1911"
+        },
+        {
+          "id": "d",
+          "text": "Khi Bác tham gia sáng lập Đảng Cộng Sản Pháp tại Đại Hội Tua tháng 12/1920."
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-007",
+      "code": "e9lwce",
+      "originalNumber": 7,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Tìm một điểm nhầm lẫn trong đoạn viết dưới đây: Một trong những nguồn gốc của tư tưởng Hồ Chí Minh là tiếp văn hóa phương Đông, cụ thể là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Những mặt tích cực của Nho giáo"
+        },
+        {
+          "id": "b",
+          "text": "Tư tưởng Tam dân của Tôn Trung Sơn"
+        },
+        {
+          "id": "c",
+          "text": "Tư tưởng vị tha của Phật giáo"
+        },
+        {
+          "id": "d",
+          "text": "Tư tưởng của các nhà Khai sáng Pháp"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-008",
+      "code": "e9lwce",
+      "originalNumber": 8,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn phương án đúng nhất: “Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch, người anh hùng dân tộc vĩ đại, và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta”. Câu nói trên ở trong văn kiện nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lời kêu gọi Ban chấp hành Trung ương Đảng Lao động Việt Nam ngày 3/9/1969"
+        },
+        {
+          "id": "b",
+          "text": "Diễn văn của Ban Chấp hành Trung ương Đảng LĐVN đọc tại lễ kỷ niệm 80 năm ngày sinh của Hồ Chí Minh"
+        },
+        {
+          "id": "c",
+          "text": "Điếu văn của Ban Chấp hành Trung ương Đảng lao động Việt Nam đọc tại lễ truy điệu Chủ tịch Hồ Chí Minh ngày 9/9/1969"
+        },
+        {
+          "id": "d",
+          "text": "Diễn văn của Ban Chấp hành Trung ương Đảng CSVN đọc tại lễ kỷ niệm 100 năm ngày sinh của Hồ Chí Minh"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-009",
+      "code": "e9lwce",
+      "originalNumber": 9,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Theo Hồ chí Minh, ưu điểm lớn nhất cú tôn giáo Giêsu là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lòng từ bi, bác ái"
+        },
+        {
+          "id": "b",
+          "text": "Đức hy sinh"
+        },
+        {
+          "id": "c",
+          "text": "Lòng nhân ái cao cả"
+        },
+        {
+          "id": "d",
+          "text": "Lòng cao thượng"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-010",
+      "code": "e9lwce",
+      "originalNumber": 10,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Tất Thành ở nước Mỹ vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1912-1913"
+        },
+        {
+          "id": "b",
+          "text": "1912-1914"
+        },
+        {
+          "id": "c",
+          "text": "1911-1912"
+        },
+        {
+          "id": "d",
+          "text": "1913-1914"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-011",
+      "code": "e9lwce",
+      "originalNumber": 11,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Giai đoạn tìm tòi con đường cứu nước, giải phóng dân tộc của Nguyễn Ái Quốc được tính từ:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1890\n→\n1911"
+        },
+        {
+          "id": "b",
+          "text": "1945 \n→\n 1969"
+        },
+        {
+          "id": "c",
+          "text": "1921 \n→\n1930"
+        },
+        {
+          "id": "d",
+          "text": "1911 \n→\n1920"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-012",
+      "code": "e9lwce",
+      "originalNumber": 12,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Hồ Chí Minh viết tác phẩm “Đường Kách Mệnh” vào năm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năm 1927"
+        },
+        {
+          "id": "b",
+          "text": "Năm 1926"
+        },
+        {
+          "id": "c",
+          "text": "Năm 1930"
+        },
+        {
+          "id": "d",
+          "text": "Năm 1928"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-013",
+      "code": "e9lwce",
+      "originalNumber": 13,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa tam dân của Tôn Trung Sơn đối với nước ta là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đem lại độc lập, tự do"
+        },
+        {
+          "id": "b",
+          "text": "Đấu tranh vì tự do, dân chủ"
+        },
+        {
+          "id": "c",
+          "text": "Chống phong kiến"
+        },
+        {
+          "id": "d",
+          "text": "Phù hợp với điều kiện thực tế nước ta"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-014",
+      "code": "e9lwce",
+      "originalNumber": 14,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Tư tưởng Hồ Chí Minh được hình thành từ những nguồn gốc nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Những điều kiện lịch sử - xã hội trong nước và thế giới"
+        },
+        {
+          "id": "b",
+          "text": "Những tiền đề tư tưởng – lý luận"
+        },
+        {
+          "id": "c",
+          "text": "Những phẩm chất chủ quan Hồ Chí Minh"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-015",
+      "code": "e9lwce",
+      "originalNumber": 15,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng nhất: Tư tưởng Hồ Chí Minh là hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam. Những vấn đề đó thuộc phạm vi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trong cách mạng dân tộc dân chủ nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Trong cách mạng xã hội chủ nghĩa"
+        },
+        {
+          "id": "c",
+          "text": "Cả trong cách mạng dân tộc dân chủ nhân dân và cách mạng xã hội chủ nghĩa"
+        },
+        {
+          "id": "d",
+          "text": "Trong thế kỷ XXI"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-016",
+      "code": "e9lwce",
+      "originalNumber": 16,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Điền vào chỗ trống để hoàn thiện định nghĩa Tư tưởng Hồ Chí Minh: “Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của [.....], là kết quả của sự vận dụng và phát triển sáng tạo [.....] vào điều kiện cụ thể của nước ta, đồng thời là kết tinh tinh hoa dân tộc và trí tuệ thời đại, giải phóng dân tộc, giải phóng giai cấp, giải phóng con người”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cách mạng vô sản, chủ nghĩa Mác - Lênin"
+        },
+        {
+          "id": "b",
+          "text": "Cách mạng Việt Nam, chủ nghĩa Mác - Lênin"
+        },
+        {
+          "id": "c",
+          "text": "Chủ Nghĩa Mác - Lênin, cách mạng Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "Cách mạng hội chủ nghĩa, chủ nghĩa Mác – Lênin"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-017",
+      "code": "e9lwce",
+      "originalNumber": 17,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn phương án trả lời đúng nhất:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng phát triển sáng tạo chủ nghĩa Mác – Lênin vào điều kiện thực tế nước ta"
+        },
+        {
+          "id": "b",
+          "text": "Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng phát triển sáng tạo chủ nghĩa Mác – Lênin vào điều kiện thực tế nước ta"
+        },
+        {
+          "id": "c",
+          "text": "Tư tưởng Hồ Chí Minh là kết quả của sự sáng tạo chủ nghĩa Mác – Lênin vào điều kiện thực tế của nước ta"
+        },
+        {
+          "id": "d",
+          "text": "Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác – Lênin vào điều kiện cụ thể của nước ta"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-018",
+      "code": "e9lwce",
+      "originalNumber": 18,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Theo Hồ Chí Minh, ưu điểm lớn nhất của học thuyết Khổng Tử là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tinh thần hiếu học"
+        },
+        {
+          "id": "b",
+          "text": "Sự tu dưỡng đạo đức cá nhân"
+        },
+        {
+          "id": "c",
+          "text": "Đề cao văn hoá, lễ giáo"
+        },
+        {
+          "id": "d",
+          "text": "Quản lý xã hội bằng đạo đức"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-019",
+      "code": "e9lwce",
+      "originalNumber": 19,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Theo Hồ Chí Minh, học chủ nghĩa Mác - Lênin để làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Học thuộc các luận điểm lí luận"
+        },
+        {
+          "id": "b",
+          "text": "Để chứng tỏ trình độ lí luận"
+        },
+        {
+          "id": "c",
+          "text": "Để sống với nhau có nghĩa, có tình"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C đều sai"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-020",
+      "code": "e9lwce",
+      "originalNumber": 20,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Hồ Chí Minh được Đại hội đồng UNESCO ra Nghị quyết công nhận là Anh hùng giải phóng dân tộc và Nhà văn hóa kiệt xuất của Việt Nam vào năm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1990"
+        },
+        {
+          "id": "b",
+          "text": "1975"
+        },
+        {
+          "id": "c",
+          "text": "1987"
+        },
+        {
+          "id": "d",
+          "text": "1969"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-021",
+      "code": "e9lwce",
+      "originalNumber": 21,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Một trong những nội dung cơ bản của bản yêu sách gồm 8 điểm mà Nguyễn Ái Quốc gửi đến Hội nghị Vécxay (Pháp) là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đòi quyền tự trị của dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Đòi quyền độc lập của dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Đòi quyền giải phóng dân tộc"
+        },
+        {
+          "id": "d",
+          "text": "Đòi quyền tự do, dân chủ tối thiểu cho nhân dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-022",
+      "code": "e9lwce",
+      "originalNumber": 22,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của Khổng Tử là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tinh thần lễ nghĩa"
+        },
+        {
+          "id": "b",
+          "text": "Tinh thần hiếu học"
+        },
+        {
+          "id": "c",
+          "text": "Sự tu dưỡng đạo đức cá nhân"
+        },
+        {
+          "id": "d",
+          "text": "Quản lý xã hội bằng đạo đức"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-023",
+      "code": "e9lwce",
+      "originalNumber": 23,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Thuật ngữ Tư tưởng Hồ Chí Minh được Đảng ta chính thức sử dụng bắt đầu từ bao giờ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Từ năm 1969"
+        },
+        {
+          "id": "b",
+          "text": "Từ năm 1990"
+        },
+        {
+          "id": "c",
+          "text": "Từ năm 1986"
+        },
+        {
+          "id": "d",
+          "text": "Từ năm 1991"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-024",
+      "code": "e9lwce",
+      "originalNumber": 24,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn từ điền vào chỗ trống để hoàn thiện câu: Văn kiện Đại hội XI của Đảng chỉ rõ: Tư tưởng Hồ Chí Minh... cho cuộc đấu tranh của nhân dân ta giành thắng lợi, là ...to lớn của Đảng và của dân tộc ta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ đường; tài sản tinh thần"
+        },
+        {
+          "id": "b",
+          "text": "Soi đường; tài sản tinh thần"
+        },
+        {
+          "id": "c",
+          "text": "Mở đường; tài sản tinh thần"
+        },
+        {
+          "id": "d",
+          "text": "Dẫn đường; tài sản tinh thần"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-025",
+      "code": "e9lwce",
+      "originalNumber": 25,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Theo Hồ Chí Minh, “Muốn cứu nước và ... không có con đường nào khác con đường...\"",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giành độc lập, tự do; cách mạng văn hóa"
+        },
+        {
+          "id": "b",
+          "text": "Giành độc lập; cách mạng vô sản"
+        },
+        {
+          "id": "c",
+          "text": "Giải phóng dân tộc; cách mạng vô sản"
+        },
+        {
+          "id": "d",
+          "text": "Giải phóng dân tộc; cách mạng tư sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-026",
+      "code": "e9lwce",
+      "originalNumber": 26,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Hồ Chí Minh đã tiếp thu những yếu tố nào của Phật Giáo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tinh thần cứu khổ, cứu nạn"
+        },
+        {
+          "id": "b",
+          "text": "Lòng thương người"
+        },
+        {
+          "id": "c",
+          "text": "Cả ba phương án trên"
+        },
+        {
+          "id": "d",
+          "text": "Tinh thần từ bi, bác ái"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-027",
+      "code": "e9lwce",
+      "originalNumber": 27,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Hãy lựa chọn câu trả lời đúng nhất:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hồ Chí Minh là anh hùng giải phóng của dân tộc Việt Nam và là danh nhân văn hóa kiệt xuất của thế giới"
+        },
+        {
+          "id": "b",
+          "text": "Hồ Chí Minh là anh hùng giải phóng dân tộc của dân tộc Việt Nam và là nhà văn hoá lỗi lạc"
+        },
+        {
+          "id": "c",
+          "text": "Hồ Chí Minh là anh hùng giải phóng dân tộc và là nhà văn hóa lớn"
+        },
+        {
+          "id": "d",
+          "text": "Hồ Chí Minh là anh hùng giải phóng dân tộc và là nhà văn hóa kiệt xuất của Việt Nam"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-028",
+      "code": "e9lwce",
+      "originalNumber": 28,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Một trong những nguồn gốc mà Hồ Chí Minh tiếp thu là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giá trị truyền thống của dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Triết học Hy Lạp"
+        },
+        {
+          "id": "c",
+          "text": "Lòng nhân ái và đức hy sinh của Hồi giáo"
+        },
+        {
+          "id": "d",
+          "text": "Văn hóa Hy Lạp và La Mã cổ đại"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-029",
+      "code": "e9lwce",
+      "originalNumber": 29,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Các bài giảng của Nguyễn Ái Quốc tại các lớp huấn luyện cán bộ tuyên truyền của hội Liên hiệp các dân tộc bị áp bóc lột tập hợp lại và xuất bản thành tác phẩm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con Rồng tre"
+        },
+        {
+          "id": "b",
+          "text": "Đường cách mệnh"
+        },
+        {
+          "id": "c",
+          "text": "Lênin và Phương Đông"
+        },
+        {
+          "id": "d",
+          "text": "Bản án chế dộ thực dân Pháp"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-030",
+      "code": "e9lwce",
+      "originalNumber": 30,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nhờ tiếp thu yếu tố nào mà Nguyễn Ái Quốc đã từ một nhà yêu nước trở thành một người cộng sản?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa Mác – Lênin"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa Tam dân"
+        },
+        {
+          "id": "c",
+          "text": "Văn hóa Phục hưng"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa yêu nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-031",
+      "code": "e9lwce",
+      "originalNumber": 31,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Truyền thống quý báu nhất của dân tộc Việt Nam được Hồ Chí Minh kế thừa và phát triển là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lòng nhân ái"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa yêu nước"
+        },
+        {
+          "id": "c",
+          "text": "Cần cù lao động"
+        },
+        {
+          "id": "d",
+          "text": "Tinh thần hiếu học"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-032",
+      "code": "e9lwce",
+      "originalNumber": 32,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Giai đoạn hình thành Tư tưởng yêu nước, thương nòi của Nguyễn Ái Quốc được tính từ...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trước năm 1911"
+        },
+        {
+          "id": "b",
+          "text": "Năm 1911\n→\n1920"
+        },
+        {
+          "id": "c",
+          "text": "Năm 1921\n→\n1930"
+        },
+        {
+          "id": "d",
+          "text": "Năm 1945 \n→\n 1969"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-033",
+      "code": "e9lwce",
+      "originalNumber": 33,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Trong những tiền đề tư tưởng – lý luận, tiền đề nào quyết định bản chất cách mạng và khoa học của tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tinh hoa văn hoa nhân loại"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa tam dân của Tôn Trung Sơn"
+        },
+        {
+          "id": "c",
+          "text": "Tinh hoa văn hóa dân tộc"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa Mác – Lênin"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-034",
+      "code": "e9lwce",
+      "originalNumber": 34,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Hồ Chí Minh viết: “Tất cả các dân tộc trên thế giới sinh ra đều bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do”. Câu này được trích trong tác phẩm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đường cách mệnh"
+        },
+        {
+          "id": "b",
+          "text": "Tuyên ngôn đọc lập"
+        },
+        {
+          "id": "c",
+          "text": "Bản án chế độ thực dân Pháp"
+        },
+        {
+          "id": "d",
+          "text": "Tuyên ngôn của Đảng Cộng sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-035",
+      "code": "e9lwce",
+      "originalNumber": 35,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "“Đưa hổ cửa trước, rước beo cửa sau” là câu Nguyễn Ái Quốc nói về chủ trương cứu nước của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phan Bội Châu"
+        },
+        {
+          "id": "b",
+          "text": "Nguyễn Thái học"
+        },
+        {
+          "id": "c",
+          "text": "Phan Chu Trinh"
+        },
+        {
+          "id": "d",
+          "text": "Hoàng Hoa Thám"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-036",
+      "code": "e9lwce",
+      "originalNumber": 36,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng và cách mạng Việt Nam là?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa Mác – Lênin, tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "b",
+          "text": "Tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nghĩa Mác – Lênin"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa yêu nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-037",
+      "code": "e9lwce",
+      "originalNumber": 37,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng: “Đảng lấy chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng và kim chỉ nam cho mọi hành động cách mạng”. Câu nói trên được Đảng ta khẳng định lần đầu tiên tại Đại hội đại biểu toàn quốc lần thứ mấy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại hội lần thứ VI"
+        },
+        {
+          "id": "b",
+          "text": "Đại hội lần thứ V"
+        },
+        {
+          "id": "c",
+          "text": "Đại hội lần thứ VIII"
+        },
+        {
+          "id": "d",
+          "text": "Đại hội lần thứ VII"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-038",
+      "code": "e9lwce",
+      "originalNumber": 38,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Tất Thành ở nước Anh vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1913-1914"
+        },
+        {
+          "id": "b",
+          "text": "1914-1917"
+        },
+        {
+          "id": "c",
+          "text": "1914-1915"
+        },
+        {
+          "id": "d",
+          "text": "1913-1917"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-039",
+      "code": "e9lwce",
+      "originalNumber": 39,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "“Ỷ Pháp cầu tiến bộ chẳng khác nào xin giặc rủ lòng thương” là câu Nguyễn Ái Quốc nói về chủ trương cứu nước của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phan Chu Trinh"
+        },
+        {
+          "id": "b",
+          "text": "Hoàng Hoa Thám"
+        },
+        {
+          "id": "c",
+          "text": "Nguyễn Thái học"
+        },
+        {
+          "id": "d",
+          "text": "Phan Bội Châu"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-040",
+      "code": "e9lwce",
+      "originalNumber": 40,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "“Luận cương của V.I. Lênin làm cho tôi rất cảm động, phấn khởi, sáng tỏ, tin tưởng biết bao. Tôi vui mừng đến phát khóc lên. Ngồi một minh trong buồng tối mà tôi nói to lên nhhư đang nói trước quần chúng đông đảo: hỡi đồng bào bị đọa đày đau khổ? Đây là cái cần thiết cho chung ta, đây là con đường giải phóng của chúng ta”. Câu nói này của Nguyễn Ái Quốc được trích từ tác phẩm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cách mạng Tháng Mười và con đường vĩ đại"
+        },
+        {
+          "id": "b",
+          "text": "Con đường dẫn tôi đến với chủ nghĩa Mác - Lênin"
+        },
+        {
+          "id": "c",
+          "text": "Đời hoạt động của Hồ Chủ tịch"
+        },
+        {
+          "id": "d",
+          "text": "Lênin vĩ đại"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-041",
+      "code": "e9lwce",
+      "originalNumber": 41,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Tác phẩm “Bản án chế độ thực dân Pháp” của Nguyễn Ái Quốc được xuất bản lần đầu tiên vào năm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năm 1926"
+        },
+        {
+          "id": "b",
+          "text": "Năm 1925"
+        },
+        {
+          "id": "c",
+          "text": "Năm 1923"
+        },
+        {
+          "id": "d",
+          "text": "Năm 1924"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-042",
+      "code": "e9lwce",
+      "originalNumber": 42,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Tất Thành dạy học ở trường Dục Thanh vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tháng 1/1910 đến 5/1911"
+        },
+        {
+          "id": "b",
+          "text": "Tháng 9/1910 đến tháng 2/1911"
+        },
+        {
+          "id": "c",
+          "text": "Tháng 9/1910 đến tháng 4/1911"
+        },
+        {
+          "id": "d",
+          "text": "Tháng 9/1908 đến tháng 9/1909"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-043",
+      "code": "e9lwce",
+      "originalNumber": 43,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Tác phẩm Đường kách mệnh của Nguyễn Ái Quốc được xuất bản lần đầu tiên vào năm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1930"
+        },
+        {
+          "id": "b",
+          "text": "1927"
+        },
+        {
+          "id": "c",
+          "text": "1925"
+        },
+        {
+          "id": "d",
+          "text": "1920"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-044",
+      "code": "e9lwce",
+      "originalNumber": 44,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Ái Quốc đọc “Sơ thảo lần thứ nhất về vấn đề dân tộc và thuộc địa của Lênin vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7/1922"
+        },
+        {
+          "id": "b",
+          "text": "7/1920"
+        },
+        {
+          "id": "c",
+          "text": "7/1917"
+        },
+        {
+          "id": "d",
+          "text": "7/1918"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-045",
+      "code": "e9lwce",
+      "originalNumber": 45,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Tìm một điểm nhầm lẫn trong đoạn viết dưới đây: Một trong những nguồn gốc của tư tưởng Hồ Chí Minh là tiếp thu văn hóa phương Đông, cụ thể là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tư tưởng vị tha của Phật giáo"
+        },
+        {
+          "id": "b",
+          "text": "Tư tưởng Tam dân của Tôn Trung Sơn"
+        },
+        {
+          "id": "c",
+          "text": "Triết học Hy Lạp cổ đại"
+        },
+        {
+          "id": "d",
+          "text": "Những mặt tích cực của Nho giáo"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-046",
+      "code": "e9lwce",
+      "originalNumber": 46,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Trong thời gian ở nước ngoài, Nguyễn Tất Thành làm những công việc gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đốt lò, bán báo"
+        },
+        {
+          "id": "b",
+          "text": "Phụ bếp, cào tuyết"
+        },
+        {
+          "id": "c",
+          "text": "Thợ ảnh, làm bánh"
+        },
+        {
+          "id": "d",
+          "text": "Tất cả các công việc trên"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-047",
+      "code": "e9lwce",
+      "originalNumber": 47,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn cụm từ thích hợp điền vào chỗ trống theo tư tưởng Hồ Chí Minh: “Muốn người ta giúp cho thì trước hết mình phải...”",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tự giúp lấy mình đã"
+        },
+        {
+          "id": "b",
+          "text": "Tự cố gắng đứng dậy"
+        },
+        {
+          "id": "c",
+          "text": "Giúp người ta trước"
+        },
+        {
+          "id": "d",
+          "text": "Kêu gọi sự giúp đỡ"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-048",
+      "code": "e9lwce",
+      "originalNumber": 48,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn từ điền vào chỗ trống để hoàn thiện câu: Văn kiện Đại hội XI của Đảng đã chỉ rõ: Tư tưởng Hồ Chí Minh... cho cuộc đấu tranh của nhân dân ta giành thắng lợi, là ... to lớn của Đảng và của dân tộc ta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mở đường; tài sản tinh thần"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ đường; tài sản tinh thần"
+        },
+        {
+          "id": "c",
+          "text": "Dẫn đường; tài sản tinh thần"
+        },
+        {
+          "id": "d",
+          "text": "Soi đường; tài sản tinh thần"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-049",
+      "code": "e9lwce",
+      "originalNumber": 49,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Giai đoạn hình thành cơ bản Tư tưởng về cách mạng Việt Nam của Nguyễn Ái Quốc được tính từ...",
+      "options": [
+        {
+          "id": "a",
+          "text": "1911\n→\n1920"
+        },
+        {
+          "id": "b",
+          "text": "1945 \n→\n 1969"
+        },
+        {
+          "id": "c",
+          "text": "1921\n→\n1930"
+        },
+        {
+          "id": "d",
+          "text": "1930\n→\n1941"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-050",
+      "code": "e9lwce",
+      "originalNumber": 50,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án đúng nhất: Cơ sở hình thành tư tưởng Hồ Chí Minh về đại đoàn kết dân tộc là...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Truyền thống yêu nước, đoàn kết, nhân nghĩa, tương thân, tương ái của dân tộc ta"
+        },
+        {
+          "id": "b",
+          "text": "Tổng kết những kinh nghiệm của phong trào cách mạng Việt Nam và phong trào cách mạng thế giới cuối thế kỉ XIX - đầu thế kỉ XX"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nghĩa Mác - Lênin"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-051",
+      "code": "e9lwce",
+      "originalNumber": 51,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Mác - Lênin là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bản chất khoa học"
+        },
+        {
+          "id": "b",
+          "text": "Bản chất cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nghĩa nhân đạo chiến đấu"
+        },
+        {
+          "id": "d",
+          "text": "Phương pháp làm việc biện chứng"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-052",
+      "code": "e9lwce",
+      "originalNumber": 52,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Tư tưởng Hồ Chí Minh được hình thành từ những nguồn gốc nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Những điều kiện lịch sử - xã hội trong nước và thế giới"
+        },
+        {
+          "id": "b",
+          "text": "Những tiền đề tư tưởng – lý luận"
+        },
+        {
+          "id": "c",
+          "text": "Những phẩm chất chủ quan Hồ Chí Minh"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-053",
+      "code": "e9lwce",
+      "originalNumber": 53,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Hồ Chí Minh đã tiếp thu những yếu tố tích cực nào của Phật giáo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tư tưởng vị tha"
+        },
+        {
+          "id": "b",
+          "text": "Tinh thần từ bi, bác ái"
+        },
+        {
+          "id": "c",
+          "text": "Tinh thần cứu khổ, cứu nạn"
+        },
+        {
+          "id": "d",
+          "text": "Cả ba đáp án còn lại đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-054",
+      "code": "e9lwce",
+      "originalNumber": 54,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Mác là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bản chất cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Bản chất khoa học"
+        },
+        {
+          "id": "c",
+          "text": "Phương pháp làm việc biện chứng"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa nhân đạo cộng sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-055",
+      "code": "e9lwce",
+      "originalNumber": 55,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Ái Quốc được Ban chấp hành Trung ương Quốc tế Cộng sản ra Quyết định đồng ý để Người trở về Đông Dương theo nguyện vọng vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4-1924"
+        },
+        {
+          "id": "b",
+          "text": "4-1929"
+        },
+        {
+          "id": "c",
+          "text": "4-1937"
+        },
+        {
+          "id": "d",
+          "text": "4-1928"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-056",
+      "code": "e9lwce",
+      "originalNumber": 56,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng nhất: Hồ Chí Minh đã từng dạy học ở ngôi trường nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trường tiểu học Pháp – Việt ở Vinh"
+        },
+        {
+          "id": "b",
+          "text": "Trường tiểu học Đông Ba ở Huế"
+        },
+        {
+          "id": "c",
+          "text": "Trường Dục Thanh ở Phan Thiết"
+        },
+        {
+          "id": "d",
+          "text": "Trường Quốc học Huế"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-057",
+      "code": "e9lwce",
+      "originalNumber": 57,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Tất Thành nói: “Tôi muốn đi ra nước ngoài xem nước Pháp và các các nước khác làm như thế nào, tôi sẽ trở về giúp đồng bào chúng ta”. Câu nói trên vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tháng 6/1910"
+        },
+        {
+          "id": "b",
+          "text": "Tháng 6/1912"
+        },
+        {
+          "id": "c",
+          "text": "Tháng 6/1911"
+        },
+        {
+          "id": "d",
+          "text": "Tháng 6/1909"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-058",
+      "code": "e9lwce",
+      "originalNumber": 58,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Theo Hồ Chí Minh, ở đời và làm người thì phải làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yêu nước"
+        },
+        {
+          "id": "b",
+          "text": "Thương dân"
+        },
+        {
+          "id": "c",
+          "text": "Thương nhân loại bị áp bức"
+        },
+        {
+          "id": "d",
+          "text": "Cả A, B, C đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-059",
+      "code": "e9lwce",
+      "originalNumber": 59,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Năm 1941, Nguyễn Ái Quốc viết một tác phẩm có câu mở đầu: “Dân ta phải biết sử ta; Cho tường gốc tích nước nhà Việt Nam”. Đó là tác phẩm...?",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Lịch sử nước ta”"
+        },
+        {
+          "id": "b",
+          "text": "\"Di chúc\""
+        },
+        {
+          "id": "c",
+          "text": "“Đường cách mệnh”"
+        },
+        {
+          "id": "d",
+          "text": "“Bài ca du kích"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-060",
+      "code": "e9lwce",
+      "originalNumber": 60,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Ái Quốc sáng lập “Hội Việt Nam cách mạng Thanh Niên” vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tháng 6/1925"
+        },
+        {
+          "id": "b",
+          "text": "Tháng 5/1927"
+        },
+        {
+          "id": "c",
+          "text": "Tháng 5/11926"
+        },
+        {
+          "id": "d",
+          "text": "Tháng 6/1926"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-061",
+      "code": "e9lwce",
+      "originalNumber": 61,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Ái quốc gửi bản “Yêu sách của nhân dân Việt Nam” tới Hội nghị Vécxay vào ngày, tháng, năm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "18/6/1918"
+        },
+        {
+          "id": "b",
+          "text": "18/6/1919"
+        },
+        {
+          "id": "c",
+          "text": "18/6/1920"
+        },
+        {
+          "id": "d",
+          "text": "18/6/1917"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-062",
+      "code": "e9lwce",
+      "originalNumber": 62,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn câu trả lời đúng nhất: Mục đích tư tưởng Hồ Chí Minh là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giải phóng dân tộc, giải phóng giai cấp và giải phóng con người"
+        },
+        {
+          "id": "b",
+          "text": "Giải phóng dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Giải phóng giai cấp và giải phóng con người"
+        },
+        {
+          "id": "d",
+          "text": "Giải phóng các dân tộc phương Đông"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-063",
+      "code": "e9lwce",
+      "originalNumber": 63,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Tất Thành lên con tàu amiral Latusơ Torovil để tìm đường cứu nước vào thời gian nào và tại đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngày 4/6/1911 tại Bến Nhà Rồng"
+        },
+        {
+          "id": "b",
+          "text": "Ngày 6/5/1911 tại Bến cảng Nhà Rồng"
+        },
+        {
+          "id": "c",
+          "text": "Ngày 2/6/1911 tại Sài Gòn"
+        },
+        {
+          "id": "d",
+          "text": "Ngày 5/6/1911 tại Bến cảng Nhà Rồng"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-064",
+      "code": "e9lwce",
+      "originalNumber": 64,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Tìm 1 câu có nội dung bị nhầm lẫn trong các câu sau: một trong những nguồn gốc của tư tưởng Hồ Chí Minh là tiếp thu tư tưởng và văn hoá phương Tây, cụ thể là:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khi hoạt động ở Pari, thủ đô nước Pháp, Nguyễn Ái Quốc đã hấp thu được tư tưởng dân chủ và hình thành được phong cách dân chủ trong hoạt động chính trị"
+        },
+        {
+          "id": "b",
+          "text": "Ở nước Anh, Nguyễn Ái Quốc đã tiếp nhận được lý tưởng tự do, bình đẳng, bác ái và tư tưởng dân chủ của các nhà khai sáng Anh"
+        },
+        {
+          "id": "c",
+          "text": "Tiếp thu giá trị tư tưởng nhân quyền của cuộc cách mạng Mỹ, được ghi trong tuyên Ngôn Độc Lập năm 1776 của Mỹ"
+        },
+        {
+          "id": "d",
+          "text": "Trong sinh hoạt khoa học, chính trị với Đảng xã hội Pháp, Nguyễn Ái Quốc đã học được cách làm việc dân chủ trong tranh luận, trình bày ý kiến"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-065",
+      "code": "e9lwce",
+      "originalNumber": 65,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Tháng 7/1920, Hồ Chí Minh đọc tác phẩm ... của Lênin",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sơ thảo lần thứ nhất Luận cương về các vấn đề dân tộc và thuộc địa"
+        },
+        {
+          "id": "b",
+          "text": "Sơ thảo lần thứ nhất về các vấn đề dân tộc và thuộc địa"
+        },
+        {
+          "id": "c",
+          "text": "“Làm gì”"
+        },
+        {
+          "id": "d",
+          "text": "Sơ thảo lần thứ nhất Luận cương về các vấn đề dân tộc"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-066",
+      "code": "e9lwce",
+      "originalNumber": 66,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Tất Thành ra đi tìm đường cứu nước lúc bao nhiêu tuổi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "21 tuổi"
+        },
+        {
+          "id": "b",
+          "text": "24 tuổi"
+        },
+        {
+          "id": "c",
+          "text": "20 tuổi"
+        },
+        {
+          "id": "d",
+          "text": "19 tuổi"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-067",
+      "code": "e9lwce",
+      "originalNumber": 67,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Chọn đáp án trả lời đúng nhất:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa Mác - Lênin là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng ta"
+        },
+        {
+          "id": "b",
+          "text": "Tư tưởng Hồ Chí Minh là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng ta"
+        },
+        {
+          "id": "c",
+          "text": "Cùng với chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành động cách mạng của Đảng ta"
+        },
+        {
+          "id": "d",
+          "text": "Cả ba đáp án đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-068",
+      "code": "e9lwce",
+      "originalNumber": 68,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Điều mong muốn cuối cùng của Hồ Chí Minh là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xây dựng một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ, giàu mạnh"
+        },
+        {
+          "id": "b",
+          "text": "Xây dựng một nước Việt Nam phồn vinh và cường thịnh"
+        },
+        {
+          "id": "c",
+          "text": "Xây dựng một nước Việt Nam dân chủ, giàu mạnh, văn minh."
+        },
+        {
+          "id": "d",
+          "text": "Làm cho mọi người hạnh phúc."
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-069",
+      "code": "e9lwce",
+      "originalNumber": 69,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Thay mặt Hội những người Việt Nam yêu nước tại Pháp, Nguyễn Ái Quốc gửi bản “Yêu sách của nhân dân Việt Nam” tới Hội Nghị Vécxay. Bản Yêu sách gồm mấy điểm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12 điểm"
+        },
+        {
+          "id": "b",
+          "text": "8 điểm"
+        },
+        {
+          "id": "c",
+          "text": "9 điểm"
+        },
+        {
+          "id": "d",
+          "text": "6 điểm"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-070",
+      "code": "e9lwce",
+      "originalNumber": 70,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Tất Thành đã tham dự cuộc biểu tình chống thuế của nông dân tỉnh Thừa Thiên Huế vào thời gian nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tháng 5/1908"
+        },
+        {
+          "id": "b",
+          "text": "Tháng 6/1908"
+        },
+        {
+          "id": "c",
+          "text": "Tháng 5/1906"
+        },
+        {
+          "id": "d",
+          "text": "Tháng 5/1905"
+        }
+      ]
+    },
+    {
+      "id": "azota-e9lwce-071",
+      "code": "e9lwce",
+      "originalNumber": 71,
+      "sourceTitle": "TTHCM_PTIT Chương 2",
+      "chapter": 2,
+      "prompt": "Nguyễn Ái Quốc tán thành Quốc tế III, tham gia thành lập Đảng Cộng sản Pháp khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12/1919"
+        },
+        {
+          "id": "b",
+          "text": "12/1923"
+        },
+        {
+          "id": "c",
+          "text": "12/1918"
+        },
+        {
+          "id": "d",
+          "text": "12/1920"
+        }
+      ]
+    }
+  ]
+}

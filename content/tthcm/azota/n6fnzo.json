@@ -1,0 +1,2479 @@
+{
+  "code": "n6fnzo",
+  "url": "https://azota.vn/de-thi/n6fnzo",
+  "title": "Bắt đầu thi: TTHCM LMS_PTIT tổng hợp",
+  "retrievedAt": "2026-11-14T03:47:04.846Z",
+  "expected": null,
+  "questions": [
+    {
+      "id": "azota-n6fnzo-001",
+      "code": "n6fnzo",
+      "originalNumber": 1,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo quan điểm của Hồ Chí Minh, văn hóa có mối quan hệ như thế nào với kinh tế?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Văn hóa tác động tích cực trở lại kinh tế"
+        },
+        {
+          "id": "b",
+          "text": "Văn hóa phát triển sau kinh tế"
+        },
+        {
+          "id": "c",
+          "text": "Văn hóa ở ngoài kinh tế"
+        },
+        {
+          "id": "d",
+          "text": "Văn hóa hoàn toàn phụ thuộc vào sự phát triển của kinh tế"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-002",
+      "code": "n6fnzo",
+      "originalNumber": 2,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo quan điểm của Hồ Chí Minh: cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cách mạng vô sản"
+        },
+        {
+          "id": "b",
+          "text": "Cách mạng XHCN"
+        },
+        {
+          "id": "c",
+          "text": "Cách mạng tư sản"
+        },
+        {
+          "id": "d",
+          "text": "Đấu tranh theo xu hướng dân chủ tư sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-003",
+      "code": "n6fnzo",
+      "originalNumber": 3,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đấu tranh theo khung hướng phong kiến Tài liệu nào sau đây là sự chuẩn bị mọi mặt về chính trị, tư tưởng, tổ chức cho sự ra đời của Đảng cộng sản Việt Nam.:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Đường Kách mệnh”"
+        },
+        {
+          "id": "b",
+          "text": "“Bản án chế độ thực dân Pháp”"
+        },
+        {
+          "id": "c",
+          "text": "“Con rồng tre”"
+        },
+        {
+          "id": "d",
+          "text": "“Báo Thanh niên”"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-004",
+      "code": "n6fnzo",
+      "originalNumber": 4,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo quan điểm của Hồ Chí Minh, Nhà nước hợp hiến, hợp pháp là nhà nước như thế nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là Nhà nước được xây dựng trên cơ sở bản hiến pháp dân chủ thể theo ý nguyện của nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "c",
+          "text": "Là Nhà nước được nhân dân ủng hộ"
+        },
+        {
+          "id": "d",
+          "text": "Là Nhà nước do dân bầu ra"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-005",
+      "code": "n6fnzo",
+      "originalNumber": 5,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Trong khái niệm Tư tưởng Hồ Chí Minh thể hiện những nội dung nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ý nghĩa và giá trị của tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "b",
+          "text": "Bản chất cách mạng, khoa học của tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "c",
+          "text": "Nguồn gốc, cơ sở hình thành tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-006",
+      "code": "n6fnzo",
+      "originalNumber": 6,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, chủ thể của xã hội XHCN là ai?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là công trình tập thể của nhân dân dưới sự lãnh đạo của Đảng cộng sản"
+        },
+        {
+          "id": "b",
+          "text": "Là công trình tập thể của thanh niên dưới sự lãnh đạo của Đảng cộng sản"
+        },
+        {
+          "id": "c",
+          "text": "Là công trình tập thể của giai cấp nông dân dưới sự lãnh đạo của Đảng cộng sản"
+        },
+        {
+          "id": "d",
+          "text": "Là công trình của giai cấp công nhân dưới sự lãnh đạo của Đảng cộng sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-007",
+      "code": "n6fnzo",
+      "originalNumber": 7,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Thời kỳ 1911-1920, đánh dấu bước tiến gì trong quá trình hình thành và phát triển tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hình thành tư tưởng yêu nước và chí hướng tìm đường cứu nước mới"
+        },
+        {
+          "id": "b",
+          "text": "Vượt qua thử thách, giữ vững đường lối, phương pháp cách mạng Việt Nam đúng đắn, sáng tạo"
+        },
+        {
+          "id": "c",
+          "text": "Hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản"
+        },
+        {
+          "id": "d",
+          "text": "Hình thành những nội dung cơ bản về tư tưởng cách mạng Việt Nam"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-008",
+      "code": "n6fnzo",
+      "originalNumber": 8,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Thay mặt những người Việt Nam yêu nước tại Pháp, Nguyễn Ái Quốc đã gửi đến hội nghị Vecxay (1919) văn bản nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Lời kêu gọi”"
+        },
+        {
+          "id": "b",
+          "text": "“Báo cáo gửi Quốc tế cộng sản”"
+        },
+        {
+          "id": "c",
+          "text": "“Bản yêu sách của nhân dân An Nam”"
+        },
+        {
+          "id": "d",
+          "text": "“Lời kêu gọi toàn quốc kháng chiến”"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-009",
+      "code": "n6fnzo",
+      "originalNumber": 9,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Thời kỳ 1920-1930, đánh dấu bước tiến gì trong quá trình hình thành và phát triển tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hình thành những nội dung cơ bản về tư tưởng cách mạng Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Tư tưởng Hồ Chí Minh tiếp tục phát triển, soi đường cho sự nghiệp cách mạng của Đảng và nhân dân ta"
+        },
+        {
+          "id": "c",
+          "text": "Hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản"
+        },
+        {
+          "id": "d",
+          "text": "Vượt qua thử thách, giữ vững đường lối, phương pháp cách mạng Việt Nam đúng đắn, sáng tạo"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-010",
+      "code": "n6fnzo",
+      "originalNumber": 10,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Khẳng định của Đảng Cộng sản Việt Nam: “Đường lối chính trị, nề nếp làm việc và đạo đức của Đảng ta hiện nay là đường lối, tác phong và đạo đức cách mạng của Hồ Chủ tịch…Toàn Đảng hãy ra sức học tập đường lối chinh trị, tác phong, đạo đức cách mạng của Hồ Chủ tịch” xuất hiện vào năm nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năm 1930"
+        },
+        {
+          "id": "b",
+          "text": "Năm 1951"
+        },
+        {
+          "id": "c",
+          "text": "Năm 1941"
+        },
+        {
+          "id": "d",
+          "text": "Năm 1938"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-011",
+      "code": "n6fnzo",
+      "originalNumber": 11,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Quan điểm nào sau đây không phải của Hồ Chí Minh bàn về nhà nước dân chủ?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà nước do nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Nhà nước của nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Nhà nước vì nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Nhà nước bảo vệ lợi ích giai cấp tư sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-012",
+      "code": "n6fnzo",
+      "originalNumber": 12,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung nào sau đây không phải là phương thức xây dựng khối đại đoàn kết dân tộc theo tư tưởng của Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Các đoàn thể, tổ chức quần chúng được tập hợp và đoàn kết trong mặt trận dân tộc thống nhất"
+        },
+        {
+          "id": "b",
+          "text": "Thành lập đoàn thể, tổ chức quần chúng phù hợp với từng đối tượng để tập hợp quần chúng"
+        },
+        {
+          "id": "c",
+          "text": "Thường xuyên tổ chức các hoạt động để tăng cường đoàn kết"
+        },
+        {
+          "id": "d",
+          "text": "Làm tốt công tác vận động quần chúng"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-013",
+      "code": "n6fnzo",
+      "originalNumber": 13,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung nào sau đây không nằm trong nội dung tư tưởng Hồ Chí Minh về cách mạng giải phóng dân tộc?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cách mạng giải phóng dân tộc phải dựa trên lực lượng đại đoàn kết dân tộc, lấy liên minh công - nông làm nền tảng"
+        },
+        {
+          "id": "b",
+          "text": "Cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản."
+        },
+        {
+          "id": "c",
+          "text": "Con đường giải phóng dân tộc phải được tiến hành bằng phương pháp bạo động cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Cách mạng giải phóng dân tộc cần chủ động, sáng tạo, có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-014",
+      "code": "n6fnzo",
+      "originalNumber": 14,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Lấy lợi ích chung làm điểm quy tụ, đồng thời tôn trọng các lợi ích khác biệt chính đáng Đâu là những luận điểm của Hồ Chí Minh về điều kiện để xây dựng khối đại đoàn kết toàn dân tộc?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Phải khoan dung, độ lượng với con người"
+        },
+        {
+          "id": "c",
+          "text": "Phải có niềm tin vào nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-015",
+      "code": "n6fnzo",
+      "originalNumber": 15,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung nào sau đây không nằm trong nội dung tư tưởng Hồ Chí Minh về độc lập dân tộc?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Độc lập dân tộc gắn liền với việc mở rộng quan hệ đối ngoại"
+        },
+        {
+          "id": "c",
+          "text": "Độc lập dân tộc phải gắn liền với tự do, hạnh phúc của nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Độc lập dân tộc phải là nền độc lập thật sự, hoàn toàn và triệt để"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-016",
+      "code": "n6fnzo",
+      "originalNumber": 16,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Khoảng thời gian nào đánh dấu thời kỳ hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản trong quá trình hình thành và phát triển tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1941-1969"
+        },
+        {
+          "id": "b",
+          "text": "1920-1930"
+        },
+        {
+          "id": "c",
+          "text": "1930-1941"
+        },
+        {
+          "id": "d",
+          "text": "1911-1920"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-017",
+      "code": "n6fnzo",
+      "originalNumber": 17,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, đặc trưng cơ bản của xã hội xã hội chủ nghĩa gồm những đặc trưng nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "(1) Về chính trị (2) Về kinh tế (3) Về văn hóa, đạo đức và các quan hệ xã hội (4) Về chủ thể xây dựng CNXH"
+        },
+        {
+          "id": "b",
+          "text": "(1) Về chính trị (2) Về CNH-HĐH (3) Về văn hóa, đạo đức và các quan hệ xã hội (4) Về chủ thể xây dựng CNXH"
+        },
+        {
+          "id": "c",
+          "text": "(1) Về xã hội (2) Về kinh tế (3) Về văn hóa, đạo đức và các quan hệ xã hội (4) Về chủ thể xây dựng CNXH"
+        },
+        {
+          "id": "d",
+          "text": "(1) Về chính trị (2) Về kinh tế (3) Về văn hóa, đạo đức và các quan hệ xã hội (4) Về giáo dục"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-018",
+      "code": "n6fnzo",
+      "originalNumber": 18,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là luận điểm đúng nhất với tư tưởng Hồ Chí Minh về vai trò của con người?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con người là sản phẩm của lịch sử"
+        },
+        {
+          "id": "b",
+          "text": "Con người là tổng hòa các quan hệ xã hội"
+        },
+        {
+          "id": "c",
+          "text": "Con người là người tiêu thụ"
+        },
+        {
+          "id": "d",
+          "text": "Con người là động lực của cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-019",
+      "code": "n6fnzo",
+      "originalNumber": 19,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu không phải là nội dung trong tư tưởng Hồ Chí Minh về những chuẩn mực đạo đức cách mạng?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cần, kiệm, liêm chính, chí công vô tư"
+        },
+        {
+          "id": "b",
+          "text": "Có tinh thần quốc tế trong sáng"
+        },
+        {
+          "id": "c",
+          "text": "Trung với nước, hiếu với dân"
+        },
+        {
+          "id": "d",
+          "text": "Sống hài hòa, đảm bảo lợi ích của nhân dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-020",
+      "code": "n6fnzo",
+      "originalNumber": 20,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Chọn đáp án đúng nhất theo tư tưởng Hồ Chí Minh về vai trò của đại đoàn kết toàn dân tộc?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là vấn đề quyết định hàng đầu thắng lợi của cách mạng"
+        },
+        {
+          "id": "b",
+          "text": "Là vấn đề không thể thiếu trong cuộc cách mạng giải phóng dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Đại đoàn kết toàn dân tộc là vấn đề thường xuyên biến đổi"
+        },
+        {
+          "id": "d",
+          "text": "Là vấn đề có ý nghĩa chiến lược, quyết định thành công của cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-021",
+      "code": "n6fnzo",
+      "originalNumber": 21,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Chọn câu trả lời đúng nhất theo tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng cộng sản không có mối quan hệ với Mặt trận"
+        },
+        {
+          "id": "b",
+          "text": "Đảng Cộng sản Việt Nam là một thành viên của Mặt trận dân tộc thống nhất"
+        },
+        {
+          "id": "c",
+          "text": "Đảng Cộng sản Việt Nam vừa là thành viên, vừa là lực lượng lãnh đaọ Mặt trận"
+        },
+        {
+          "id": "d",
+          "text": "Đảng Cộng sản Việt Nam là lực lượng lãnh đạo Mặt trận"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-022",
+      "code": "n6fnzo",
+      "originalNumber": 22,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hình thức để quy tụ sức mạnh của khối đại đoàn kết toàn dân tộc là tổ chức nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hội Liên hiệp phụ nữ Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Mặt trận dân tộc thống nhất"
+        },
+        {
+          "id": "c",
+          "text": "Đảng cộng sản Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "Đoàn thanh niên cộng sản Hồ Chí Minh"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-023",
+      "code": "n6fnzo",
+      "originalNumber": 23,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Sau khi nghiên cứu “Sơ thảo lần thứ nhất những Luận cương về vấn đề dân tộc và vấn đề thuộc địa”, Nguyễn Ái Quốc đã tìm thấy con đường cách mạng gì cho dân tộc Việt Nam?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đấu tranh theo khung hướng phong kiến"
+        },
+        {
+          "id": "b",
+          "text": "Đấu tranh theo khung hướng dân chủ tư sản"
+        },
+        {
+          "id": "c",
+          "text": "Cách mạng vô sản"
+        },
+        {
+          "id": "d",
+          "text": "Cách mạng tư sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-024",
+      "code": "n6fnzo",
+      "originalNumber": 24,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh đã tiếp thu những yếu tố nào của Phật giáo?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sống giản dị"
+        },
+        {
+          "id": "b",
+          "text": "Tinh thần cứu khổ cứu nạn"
+        },
+        {
+          "id": "c",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "d",
+          "text": "Tinh thần từ bi bác ái"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-025",
+      "code": "n6fnzo",
+      "originalNumber": 25,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là quan điểm của Hồ Chí Minh về phòng chống tiêu cực trong nhà nước?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "b",
+          "text": "Chống tư túng, chia rẽ, kiêu ngạo"
+        },
+        {
+          "id": "c",
+          "text": "Chống tham ô, lãng phí, quan liêu"
+        },
+        {
+          "id": "d",
+          "text": "Chống đặc quyền, đặc lợi"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-026",
+      "code": "n6fnzo",
+      "originalNumber": 26,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của Khổng Tử là gì?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Coi thường xa hoa"
+        },
+        {
+          "id": "b",
+          "text": "Sự tu dưỡng đạo đức cá nhân"
+        },
+        {
+          "id": "c",
+          "text": "Quản lý xã hội bằng đạo đức"
+        },
+        {
+          "id": "d",
+          "text": "Tinh thần hiếu học"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-027",
+      "code": "n6fnzo",
+      "originalNumber": 27,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo Hồ Chí Minh, Đảng cộng sản Việt Nam phải thường xuyên tự chỉnh đốn, đổi mới về mặt nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tổ chức"
+        },
+        {
+          "id": "b",
+          "text": "Tư tưởng"
+        },
+        {
+          "id": "c",
+          "text": "Chính trị"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-028",
+      "code": "n6fnzo",
+      "originalNumber": 28,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là nội dung trong tư tưởng Hồ Chí Minh về những nguyên tắc xây dựng đạo đức cách mạng?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu dưỡng đạo đức suốt đời"
+        },
+        {
+          "id": "b",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "c",
+          "text": "Xây đi đôi với chống"
+        },
+        {
+          "id": "d",
+          "text": "Nói đi đôi với làm, nêu gương đạo đức"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-029",
+      "code": "n6fnzo",
+      "originalNumber": 29,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Ngày 22/12/1944, theo sáng kiến Hồ Chí Minh, Việt Nam thành lập tổ chức nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mặt trận Liên Việt"
+        },
+        {
+          "id": "b",
+          "text": "Đội Việt Nam tuyên truyền giải phóng quân"
+        },
+        {
+          "id": "c",
+          "text": "Mặt trận Việt Minh"
+        },
+        {
+          "id": "d",
+          "text": "Việt Nam giải phóng quân"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-030",
+      "code": "n6fnzo",
+      "originalNumber": 30,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung nào sau đây không được thể hiện trong khái niệm Tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ý nghĩa và giá trị của tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "b",
+          "text": "Bản chất cách mạng, khoa học của tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "c",
+          "text": "Nguồn gốc, cơ sở hình thành tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "d",
+          "text": "Thời gian hình thành tư tưởng Hồ Chí Minh"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-031",
+      "code": "n6fnzo",
+      "originalNumber": 31,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, lực lượng đoàn kết quốc tế không bao gồm những lực lượng nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phong trào không liên kết"
+        },
+        {
+          "id": "b",
+          "text": "Phong trào đấu tranh giành độc lập dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Các lực lượng tiến bộ, những người yêu chuộng hòa bình, dân chủ, tự do và công lý"
+        },
+        {
+          "id": "d",
+          "text": "Phong trào cộng sản và công nhân quốc tế"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-032",
+      "code": "n6fnzo",
+      "originalNumber": 32,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, nhiệm vụ của thời kỳ quá độ lên CNXH là đấu tranh cải tạo, xóa bỏ tàn tích của chế độ cũ, xây dựng các yếu tố mới trên tất cả các lĩnh vực của đời sống. Đó là những lĩnh vực nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "(1) Về chính trị (2) Về kinh tế (3) Về văn hóa (4) Về an ninh quốc phòng"
+        },
+        {
+          "id": "b",
+          "text": "(1) Về chính trị (2) Về kinh tế (3) Về văn hóa (4) Về giáo dục"
+        },
+        {
+          "id": "c",
+          "text": "(1) Về chính trị (2) Về kinh tế (3) Về văn hóa (4) Về đối ngoại"
+        },
+        {
+          "id": "d",
+          "text": "(1) Về chính trị (2) Về kinh tế (3) Về văn hóa (4) Về các quan hệ xã hội"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-033",
+      "code": "n6fnzo",
+      "originalNumber": 33,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Chọn câu trả lời đúng nhất theo tư tưởng Hồ Chí Minh về Mặt trận dân tộc thống nhất.:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mặt trận dân tộc thống nhất là tổ chức của các tầng lớp nhân dân."
+        },
+        {
+          "id": "b",
+          "text": "Mặt trận dân tộc thống nhất là tổ chức của các đảng phái, các đoàn thể, các nhân sĩ"
+        },
+        {
+          "id": "c",
+          "text": "Mặt trận dân tộc thống nhất là nơi quy tụ mọi tổ chức và cá nhân trong và ngoài nước"
+        },
+        {
+          "id": "d",
+          "text": "Mặt trận dân tộc thống nhất là tổ chức của giai cấp công nhân, nông dân và lao động trí óc"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-034",
+      "code": "n6fnzo",
+      "originalNumber": 34,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là những nội dung tư tưởng của Hồ Chí Minh về nhà nước do nhân dân?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà nước do nhân dân hi sinh xương máu để lập ra"
+        },
+        {
+          "id": "b",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "c",
+          "text": "Nhà nước do dân đóng thuế để NN chi tiêu, hoạt động"
+        },
+        {
+          "id": "d",
+          "text": "Nhà nước do nhân dân tạo ra và tham gia quản lý"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-035",
+      "code": "n6fnzo",
+      "originalNumber": 35,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh đã dùng hình tượng nào dưới đây để chủ nghĩa tư bản?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con diều hâu"
+        },
+        {
+          "id": "b",
+          "text": "Con đại bàng"
+        },
+        {
+          "id": "c",
+          "text": "Con bạch tuộc"
+        },
+        {
+          "id": "d",
+          "text": "Con đỉa có hai vòi"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-036",
+      "code": "n6fnzo",
+      "originalNumber": 36,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Mặt trận Việt Minh được thành lập năm nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1945"
+        },
+        {
+          "id": "b",
+          "text": "1976"
+        },
+        {
+          "id": "c",
+          "text": "1955"
+        },
+        {
+          "id": "d",
+          "text": "1941"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-037",
+      "code": "n6fnzo",
+      "originalNumber": 37,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nguyễn Ái Quốc tham gia phong trào chống thuế ở Trung Kỳ năm nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1906"
+        },
+        {
+          "id": "b",
+          "text": "1909"
+        },
+        {
+          "id": "c",
+          "text": "1910"
+        },
+        {
+          "id": "d",
+          "text": "1908"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-038",
+      "code": "n6fnzo",
+      "originalNumber": 38,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu không phải là quan điểm của Hồ Chí Minh về bản chất giai cấp của nhà nước?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nguyên tắc tập trung dân chủ là nguyên tắc tổ chức và hoạt động cơ bản"
+        },
+        {
+          "id": "b",
+          "text": "Thực hiện chế độ tam quyền phân lập"
+        },
+        {
+          "id": "c",
+          "text": "Thể hiện ở định hướng xã hội chủ nghĩa trong sự phát triển của đất nước"
+        },
+        {
+          "id": "d",
+          "text": "Đảng Cộng sản giữ vị trí và vai trò cầm quyền"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-039",
+      "code": "n6fnzo",
+      "originalNumber": 39,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Câu “…Chủ trương làm tư sản dân quyền cách mạnh và thổ địa cách mạng để đi tới xã hội Cộng sản” được trích từ tài liệu nào của Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sách lược vắn tắt"
+        },
+        {
+          "id": "b",
+          "text": "Điều lệ vắn tắt"
+        },
+        {
+          "id": "c",
+          "text": "Chương trình tóm tắt"
+        },
+        {
+          "id": "d",
+          "text": "Chính cương vắn tắt"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-040",
+      "code": "n6fnzo",
+      "originalNumber": 40,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Khẩu hiệu “Không có gì quý hơn độc lập, tự do” được Hồ Chí Minh nêu ra trong thời gian nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "17/7/1966"
+        },
+        {
+          "id": "b",
+          "text": "16/7/1966"
+        },
+        {
+          "id": "c",
+          "text": "14/7/1966"
+        },
+        {
+          "id": "d",
+          "text": "15/7/1966"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-041",
+      "code": "n6fnzo",
+      "originalNumber": 41,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "“Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy”. Đoạn văn trên trích từ tác phẩm nào của Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Tuyên ngôn độc lập”"
+        },
+        {
+          "id": "b",
+          "text": "“Lời kêu gọi toàn quốc kháng chiến”"
+        },
+        {
+          "id": "c",
+          "text": "“Thư gửi đồng bào Nam Bộ”"
+        },
+        {
+          "id": "d",
+          "text": "“Thư kêu gọi Tổng khởi nghĩa”"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-042",
+      "code": "n6fnzo",
+      "originalNumber": 42,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Thời kỳ 1930-1941, đánh dấu bước tiến gì trong quá trình hình thành và phát triển tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vượt qua thử thách, giữ vững đường lối, phương pháp cách mạng Việt Nam đúng đắn, sáng tạo"
+        },
+        {
+          "id": "b",
+          "text": "Tư tưởng Hồ Chí Minh tiếp tục phát triển, soi đường cho sự nghiệp cách mạng của Đảng và nhân dân ta"
+        },
+        {
+          "id": "c",
+          "text": "Hình thành những nội dung cơ bản về tư tưởng cách mạng Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "Hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-043",
+      "code": "n6fnzo",
+      "originalNumber": 43,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nhân tố nào sau đây là cơ sở hình thành tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hồ Chí Minh có hoạt động thực tiễn hết sức phong phú đa dạng"
+        },
+        {
+          "id": "b",
+          "text": "Hồ Chí Minh có lý tưởng cao cả, hoài bão lớn cứu dân cứu nước"
+        },
+        {
+          "id": "c",
+          "text": "Người có khả năng tiếp cận một cách chính xác, đúng đắn giá trị truyền thống của dân tộc, tinh hoa văn hóa nhân loại"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-044",
+      "code": "n6fnzo",
+      "originalNumber": 44,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh nội dung nào không nằm trong các nguyên tắc xây dựng Đảng Cộng sản Việt Nam?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nguyên tắc kỷ luật nghiêm minh, tự giác"
+        },
+        {
+          "id": "b",
+          "text": "Đoàn kết thống nhất trong Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Số lượng Đảng viên đông"
+        },
+        {
+          "id": "d",
+          "text": "Nguyên tắc tự phê bình và phê bình"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-045",
+      "code": "n6fnzo",
+      "originalNumber": 45,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là luận điểm đúng nhất với tư tưởng Hồ Chí Minh về nguyên tắc xây dựng chủ nghĩa xã hội?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tăng cường đoàn kết quốc tế"
+        },
+        {
+          "id": "b",
+          "text": "Nâng cao dân trí"
+        },
+        {
+          "id": "c",
+          "text": "Phát triển kinh tế và văn hóa"
+        },
+        {
+          "id": "d",
+          "text": "Phải đoàn kết, học tập kinh nghiệm của các nước anh em"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-046",
+      "code": "n6fnzo",
+      "originalNumber": 46,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung nào sau đây không thể hiện giá trị tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Góp phần mở ra cho các dân tộc thuộc địa con đường giải phóng dân tộc gắn liền với sự tiến bộ xã hội"
+        },
+        {
+          "id": "b",
+          "text": "Góp phần tích cực vào cuộc đấu tranh vì độc lập dân tộc, dân chủ, hòa bình, hợp tác và phát triển trên thế giới"
+        },
+        {
+          "id": "c",
+          "text": "Là nền tảng tư tưởng và kim chỉ nam cho cách mạng Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "Trực tiếp chỉ đạo cách mạng XHCN ở Việt Nam giành nhiều thành tựu"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-047",
+      "code": "n6fnzo",
+      "originalNumber": 47,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, trong thời kỳ quá độ lên CNXH ở Việt Nam, Việt Nam phải đảm bảo những nguyên tắc nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xây phải đi đôi với chống"
+        },
+        {
+          "id": "b",
+          "text": "Phải giữ vững độc lập dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "d",
+          "text": "Phải đoàn kết, học tập kinh nghiệm của các nước anh em"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-048",
+      "code": "n6fnzo",
+      "originalNumber": 48,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh có nhận định: “Trước hết phải có đảng cách mệnh, để trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp mọi nơi. Đảng có vững, cách mạng mới thành công, cũng như người cầm lái có vững thuyền mới chạy” Nhận định này khẳng định nội dung nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vai trò lãnh đạo của Đảng cộng sản"
+        },
+        {
+          "id": "b",
+          "text": "Vai trò của cách mạng"
+        },
+        {
+          "id": "c",
+          "text": "Ý nghĩa của công tác tuyên truyền"
+        },
+        {
+          "id": "d",
+          "text": "Vai trò của quần chúng nhân dân"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-049",
+      "code": "n6fnzo",
+      "originalNumber": 49,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nhận định sau của Đảng Cộng sản Việt Nam được thông qua tại Đại hội đại biểu toàn quốc lần thứ mấy: “Đảng phải nắm vững bản chất cách mạng và khoa học của Chủ nghĩa Mác-Lênin, di sản quý báu về tư tưởng và lý luận cách mạng của Chủ tịch Hồ Chí Minh”?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại hội IV (1976)"
+        },
+        {
+          "id": "b",
+          "text": "Đại hội V (1982)"
+        },
+        {
+          "id": "c",
+          "text": "Đại hội VII (1991)"
+        },
+        {
+          "id": "d",
+          "text": "Đại hội VI (1986)"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-050",
+      "code": "n6fnzo",
+      "originalNumber": 50,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh đề cập đạo đức trong những mối quan hệ nào của con người?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đối với người"
+        },
+        {
+          "id": "b",
+          "text": "Đối với mình"
+        },
+        {
+          "id": "c",
+          "text": "Đối với việc"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-051",
+      "code": "n6fnzo",
+      "originalNumber": 51,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hình thức của bản sắc văn hóa dân tộc được biểu hiện qua những yếu tố nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "(1) Lòng yêu nước (2) Tinh thần độc lập, tự cường, tự tôn dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "(1) Lòng yêu nước (2) Ngôn ngữ, phong tục, tập quán"
+        },
+        {
+          "id": "c",
+          "text": "(1) Lòng yêu nước (2) Tư duy, lối sống"
+        },
+        {
+          "id": "d",
+          "text": "(1) Ngôn ngữ, phong tục, tập quán (2) Lễ hội truyền thống"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-052",
+      "code": "n6fnzo",
+      "originalNumber": 52,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh coi biểu hiện tiêu cực nào của Nhà nước là “giặc nội xâm” “nguy hiểm hơn giặc ngoại xâm”?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tham ô, lãng phí, quan liêu"
+        },
+        {
+          "id": "b",
+          "text": "Đặc quyền, đặc lợi"
+        },
+        {
+          "id": "c",
+          "text": "Tư túng, chia rẽ, kiêu ngạo"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-053",
+      "code": "n6fnzo",
+      "originalNumber": 53,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Quan điểm: “Đảng ta là đạo đức, là văn minh” được Hồ Chí Minh trình bày trong văn kiện nào sau đây? (Tìm đáp án đúng nhất):",
+      "options": [
+        {
+          "id": "a",
+          "text": "Báo cáo chinh trị tại đại hội toàn quốc lần II của Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ III của Đảng"
+        },
+        {
+          "id": "c",
+          "text": "Bài nói tại lễ kỷ niệm 30 năm ngày thành lập Đảng"
+        },
+        {
+          "id": "d",
+          "text": "Sách lược vắn tắt của Đảng"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-054",
+      "code": "n6fnzo",
+      "originalNumber": 54,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung của bản sắc văn hóa dân tộc được biểu hiện qua những yếu tố nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "(1) Lòng yêu nước (2) Ngôn ngữ, phong tục, tập quán"
+        },
+        {
+          "id": "b",
+          "text": "(1) Lòng yêu nước (2) Tư duy, lối sống"
+        },
+        {
+          "id": "c",
+          "text": "(1) Ngôn ngữ, phong tục, tập quán (2) Lễ hội truyền thống"
+        },
+        {
+          "id": "d",
+          "text": "(1) Lòng yêu nước (2) Tinh thần độc lập, tự cường, tự tôn dân tộc"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-055",
+      "code": "n6fnzo",
+      "originalNumber": 55,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung nào sau đây thể hiện giá trị tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thúc đẩy cuộc kháng chiến ở miền Nam nhanh kết thúc"
+        },
+        {
+          "id": "b",
+          "text": "Trực tiếp chỉ đạo cách mạng XHCN ở Việt Nam giành nhiều thành tựu"
+        },
+        {
+          "id": "c",
+          "text": "Đưa cách mạng giải phóng dân tộc Việt Nam đến thắng lợi và bắt đầu xây dựng một xã hội mới trên đất nước Việt Nam"
+        },
+        {
+          "id": "d",
+          "text": "Trực tiếp chỉ đạo chiến dịch Việt Bắc giành thắng lợi"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-056",
+      "code": "n6fnzo",
+      "originalNumber": 56,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là những nội dung tư tưởng chủ yếu của Hồ Chí Minh về nhà nước của nhân dân?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Luật pháp dân chủ và là công cụ quyền lực của nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Nhân dân có quyền kiểm soát, phê bình nhà nước, có quyền bãi miễn những đại biểu mà họ đã lựa chọn"
+        },
+        {
+          "id": "c",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "d",
+          "text": "Quyền lực của nhà nước là “thừa ủy quyền của nhân dân”"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-057",
+      "code": "n6fnzo",
+      "originalNumber": 57,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Tác phẩm nào sau đây của Nguyễn Ái Quốc đã phân tích sâu sắc bản chất, thủ đoạn của chủ nghĩa thực dân Pháp?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Nhật ký trong tù”"
+        },
+        {
+          "id": "b",
+          "text": "“Sửa đổi lối làm việc”"
+        },
+        {
+          "id": "c",
+          "text": "“Đường Kách mệnh”"
+        },
+        {
+          "id": "d",
+          "text": "“Bản án chế độ thực dân Pháp”"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-058",
+      "code": "n6fnzo",
+      "originalNumber": 58,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo quan điểm Hồ Chí Minh, để phòng chống tiêu cực trong Nhà nước, cần đề phòng và khắc phục những tiêu cực nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đặc quyền, đặc lợi"
+        },
+        {
+          "id": "b",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "c",
+          "text": "Tư túng, chia rẽ, kiêu ngạo"
+        },
+        {
+          "id": "d",
+          "text": "Kéo bè kết cánh"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-059",
+      "code": "n6fnzo",
+      "originalNumber": 59,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu không phải là ý nghĩa học tập môn Tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xây dựng, rèn luyện phương pháp và phong cách công tác"
+        },
+        {
+          "id": "b",
+          "text": "Góp phần học tập tốt các môn Lý luận chính trị"
+        },
+        {
+          "id": "c",
+          "text": "Góp phần nâng cao năng lực tư duy lý luận"
+        },
+        {
+          "id": "d",
+          "text": "Giáo dục và thực hành đạo đức cách mạng, củng cố niềm tin khoa học gắn liền với trau dồi tình cảm cách mạng, bồi dưỡng lòng yêu nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-060",
+      "code": "n6fnzo",
+      "originalNumber": 60,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Chọn phương án đúng với tư tưởng Hồ Chí Minh về nguyên tắc xây dựng Đảng Cộng sản Việt Nam?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kỷ luật nghiêm minh, tự giác"
+        },
+        {
+          "id": "b",
+          "text": "Tập trung dân chủ"
+        },
+        {
+          "id": "c",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "d",
+          "text": "Tự phê bình và phê bình"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-061",
+      "code": "n6fnzo",
+      "originalNumber": 61,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, tính chất của thời kỳ quá độ ở Việt Nam như thế nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là thời kỳ cải biến với nhiều chặng đường liên tiếp, nhiều tác động từ bên ngoài"
+        },
+        {
+          "id": "b",
+          "text": "Là thời kỳ cải biến sâu sắc nhất nhưng phức tạp, lâu dài, khó khăn, gian khổ"
+        },
+        {
+          "id": "c",
+          "text": "Là thời kỳ cải biến sâu sắc nhưng với nhiều thuận lợi, cơ hội"
+        },
+        {
+          "id": "d",
+          "text": "Là thời kỳ cải biến sâu sắc nhưng không quá phức tạp, khó khăn, gian khổ"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-062",
+      "code": "n6fnzo",
+      "originalNumber": 62,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Mác-Lênin là gì?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tình thương người"
+        },
+        {
+          "id": "b",
+          "text": "Giải phóng dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Phương pháp làm việc biện chứng"
+        },
+        {
+          "id": "d",
+          "text": "Chủ nghĩa nhân đạo"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-063",
+      "code": "n6fnzo",
+      "originalNumber": 63,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Ngày 19/5/1941, Hồ Chí Minh sáng lập ra tổ chức nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mặt trận Việt Minh"
+        },
+        {
+          "id": "b",
+          "text": "Mặt trận Liên Việt"
+        },
+        {
+          "id": "c",
+          "text": "Đội Việt Nam tuyên truyền giải phóng quân"
+        },
+        {
+          "id": "d",
+          "text": "Việt Nam giải phóng quân"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-064",
+      "code": "n6fnzo",
+      "originalNumber": 64,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu không phải là điều kiện để xây dựng khối đại đoàn kết toàn dân tộc theo tư tưởng của Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phải có lòng khoan dung, độ lượng với con người."
+        },
+        {
+          "id": "b",
+          "text": "Kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc"
+        },
+        {
+          "id": "c",
+          "text": "Phải quy tụ những người cùng chung trình độ, nhận thức"
+        },
+        {
+          "id": "d",
+          "text": "Lấy lợi ích chung làm điểm quy tụ, đồng thời tôn trọng các lợi ích khác biệt chính đáng"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-065",
+      "code": "n6fnzo",
+      "originalNumber": 65,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Phương pháp luận của việc nghiên cứu Tư tưởng Hồ Chí Minh là gì?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thống nhất lý luận và thực tiễn"
+        },
+        {
+          "id": "b",
+          "text": "Bảo đảm sự thống nhất nguyên tắc tính Đảng và tính khoa học"
+        },
+        {
+          "id": "c",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "d",
+          "text": "Quan điểm lịch sử - cụ thể"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-066",
+      "code": "n6fnzo",
+      "originalNumber": 66,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Lựa chọn quan điểm đúng nhất của Hồ Chí Minh về nhà nước trong sạch, vững mạnh trong các nội dung sau?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quản lý đất nước bằng giáo dục truyền thống"
+        },
+        {
+          "id": "b",
+          "text": "Phòng, chống tiêu cực trong nhà nước"
+        },
+        {
+          "id": "c",
+          "text": "Xây dựng nhà nước hợp hiến, hợp pháp"
+        },
+        {
+          "id": "d",
+          "text": "Pháp luật khuyến thiện"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-067",
+      "code": "n6fnzo",
+      "originalNumber": 67,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, đặc trưng cơ bản của xã hội xã hội chủ nghĩa gồm mấy đặc trưng?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-068",
+      "code": "n6fnzo",
+      "originalNumber": 68,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, xã hội XHCN có nền kinh tế như thế nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có nền kinh tế phát triển, dựa trên lực lượng sản xuất hiện đại"
+        },
+        {
+          "id": "b",
+          "text": "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu"
+        },
+        {
+          "id": "c",
+          "text": "Có nền kinh tế phát triển mạnh, công nghiệp-nông nghiệp là chủ yếu"
+        },
+        {
+          "id": "d",
+          "text": "Có nền kinh tế phát triển hài hòa công nghiệp là chủ yếu"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-069",
+      "code": "n6fnzo",
+      "originalNumber": 69,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Để xây dựng đội ngũ cán bộ, đảng viên, Hồ Chí Minh không đề cập đến yêu cầu nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phải tuyệt đối trung thành với Đảng"
+        },
+        {
+          "id": "b",
+          "text": "Phải luôn chịu trách nhiệm, năng động, sáng tạo"
+        },
+        {
+          "id": "c",
+          "text": "Phải biết cách làm giàu"
+        },
+        {
+          "id": "d",
+          "text": "Phải luôn tu dưỡng, rèn luyện, trau dồi đạo đức cách mạng"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-070",
+      "code": "n6fnzo",
+      "originalNumber": 70,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Chọn đáp án đúng nhất về sự cần thiết của đoàn kết quốc tế theo quan điểm của Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhằm tranh thủ sự ủng hộ của bạn bè thế giới trong cách mạng giải phóng dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Thực hiện chủ trương hội nhập quốc tế"
+        },
+        {
+          "id": "c",
+          "text": "Nhằm kết hợp sức mạnh dân tộc với sức mạnh thời đại, tạo sức mạnh tổng hợp cho cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Cách mạng Việt Nam là một bộ phận của cách mạng thế giới"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-071",
+      "code": "n6fnzo",
+      "originalNumber": 71,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là quan điểm của Hồ Chí Minh về xây dựng nhà nước pháp quyền?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà nước hoạt động riêng, độc lập không nằm trong sự lãnh đạo của Đảng cộng sản"
+        },
+        {
+          "id": "b",
+          "text": "Nhà nước pháp quyền nhân nghĩa"
+        },
+        {
+          "id": "c",
+          "text": "Nhà nước dùng đức trị để quản lý"
+        },
+        {
+          "id": "d",
+          "text": "Nhà nước thực hiện kiểm soát các tổ chức chính trị xã hội"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-072",
+      "code": "n6fnzo",
+      "originalNumber": 72,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Khẳng định của Ban chấp hành Trung ương Đảng Cộng sản Việt Nam: “Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch, người anh hùng dân tộc vĩ đại, và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta”, được đưa ra vào năm nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năm 1965"
+        },
+        {
+          "id": "b",
+          "text": "Năm 1960"
+        },
+        {
+          "id": "c",
+          "text": "Năm 1954"
+        },
+        {
+          "id": "d",
+          "text": "Năm 1969"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-073",
+      "code": "n6fnzo",
+      "originalNumber": 73,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Khẳng định của Đảng Cộng sản Việt Nam: “Thắng lợi to lớn của sự nghiệp chống Mỹ cứu nước, cũng như những trang sử chói lọi của cách mạng Việt Nam ngót nửa thế kỷ nay mãi mãi gắn liền với tên tuổi của Chủ tịch Hồ Chí Minh, người sáng lập và rèn luyện Đảng ta, người khai sinh nền Cộng hòa dân chủ Việt Nam, người vun trồng khối đại đoàn kết dân tộc và xây dựng lực lượng vũ trang cách mạng, vị lãnh tụ thiên tài của giai cấp công nhân và nhân dân ta, người anh hùng dân tộc vĩ đại, người chiến sĩ lỗi lạc của phong trào cộng sản và công nhân quốc tế”, được đưa ra vào năm nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại hội V (1982)"
+        },
+        {
+          "id": "b",
+          "text": "Đại hội IV (1976)"
+        },
+        {
+          "id": "c",
+          "text": "Đại hội III (1960)"
+        },
+        {
+          "id": "d",
+          "text": "Đại hội II (1951)"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-074",
+      "code": "n6fnzo",
+      "originalNumber": 74,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh tìm thấy ở Tôn Trung Sơn những điều thích hợp với Việt Nam, đó là tư tưởng gì?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dân tộc độc lập"
+        },
+        {
+          "id": "b",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "c",
+          "text": "Dân sinh hạnh phúc"
+        },
+        {
+          "id": "d",
+          "text": "Dân quyền tự do"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-075",
+      "code": "n6fnzo",
+      "originalNumber": 75,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh đã tiếp thu trong tinh hoa văn hóa, tư tưởng Phương Đông là 3 học thuyết lớn nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nho giáo, Phật giáo, Lão giáo"
+        },
+        {
+          "id": "b",
+          "text": "Nho giáo, Thiên chúa giáo, Lão giáo"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nghĩa Mác Lênin, Phật giáo, Lão giáo"
+        },
+        {
+          "id": "d",
+          "text": "Nho giáo, Phật giáo, Thiên chúa giáo"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-076",
+      "code": "n6fnzo",
+      "originalNumber": 76,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh đề cao Các Mác ở phương diện nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nghĩa duy vật"
+        },
+        {
+          "id": "b",
+          "text": "Phương pháp làm việc biện chứng"
+        },
+        {
+          "id": "c",
+          "text": "Tinh thần cách mạng"
+        },
+        {
+          "id": "d",
+          "text": "Trí tuệ siêu phàm"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-077",
+      "code": "n6fnzo",
+      "originalNumber": 77,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nhận định sau của Đảng Cộng sản Việt Nam được thông qua tại Đại hội đại biểu toàn quốc lần thứ mấy: “Đảng phải đặc biệt coi trọng việc tổ chức học tập một cách có hệ thống tư tưởng, đạo đức, tác phong của Chủ tịch Hồ Chí Minh trong toàn Đảng”?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại hội IV (1976)"
+        },
+        {
+          "id": "b",
+          "text": "Đại hội II (1951)"
+        },
+        {
+          "id": "c",
+          "text": "Đại hội III (1960)"
+        },
+        {
+          "id": "d",
+          "text": "Đại hội V (1982)"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-078",
+      "code": "n6fnzo",
+      "originalNumber": 78,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo quan điểm của Hồ Chí Minh, văn hóa có mối quan hệ như thế nào với chính trị?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Văn hóa ở trong chính trị"
+        },
+        {
+          "id": "b",
+          "text": "Văn hóa phục vụ nhiệm vụ chính trị"
+        },
+        {
+          "id": "c",
+          "text": "Văn hóa không có quan hệ với chính trị"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án đều sai"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-079",
+      "code": "n6fnzo",
+      "originalNumber": 79,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Lựa chọn quan điểm đúng nhất của Hồ Chí Minh về nguyên tắc đoàn kết quốc tế?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đoàn kết trên cơ sở lợi ích"
+        },
+        {
+          "id": "b",
+          "text": "Đoàn kết trên cơ sở độc lập, tự chủ"
+        },
+        {
+          "id": "c",
+          "text": "Đoàn kết trên cở đấu tranh"
+        },
+        {
+          "id": "d",
+          "text": "Đoàn kết trên cơ sở bảo vệ lẫn nhau"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-080",
+      "code": "n6fnzo",
+      "originalNumber": 80,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh nêu luận điểm: “Đảng muốn vững thì phải có chủ nghĩa làm cốt, trong đảng ai cũng phải hiểu, ai cũng phải tuân theo chủ nghĩa ấy. Đảng mà không có chủ nghĩa cũng như người không có trí khôn, tàu không có bàn chỉ nam” để khẳng định nội dung nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng phải có nền tảng tư tưởng"
+        },
+        {
+          "id": "b",
+          "text": "Đảng phải xây dựng tổ chức"
+        },
+        {
+          "id": "c",
+          "text": "Đảng phải thường xuyên họp tăng cường đoàn kết"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án đều sai"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-081",
+      "code": "n6fnzo",
+      "originalNumber": 81,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "“Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do”. Câu văn này trích trong văn bản nào sau đây của Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Đường Kách mệnh”"
+        },
+        {
+          "id": "b",
+          "text": "“Lời kêu gọi toàn quốc kháng chiến”"
+        },
+        {
+          "id": "c",
+          "text": "“Tuyên ngôn độc lập”"
+        },
+        {
+          "id": "d",
+          "text": "“Bản án chế độ thực dân Pháp”"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-082",
+      "code": "n6fnzo",
+      "originalNumber": 82,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là luận điểm đúng nhất với tư tưởng Hồ Chí Minh về nguyên tắc xây dựng chủ nghĩa xã hội?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giữ vững độc lập dân tộc"
+        },
+        {
+          "id": "b",
+          "text": "Quan tâm đến đời sống nhân dân"
+        },
+        {
+          "id": "c",
+          "text": "Phát triển kinh tế và văn hóa"
+        },
+        {
+          "id": "d",
+          "text": "Giữ vững đường lối"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-083",
+      "code": "n6fnzo",
+      "originalNumber": 83,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Đâu là những nguyên tắc xây dựng Đảng Cộng sản Việt Nam theo tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đảng lấy chủ nghĩa Mác-Lê nin làm nền tảng tư tưởng và kim chỉ nam cho hành động"
+        },
+        {
+          "id": "b",
+          "text": "Tập trung dân chủ"
+        },
+        {
+          "id": "c",
+          "text": "Tự phê bình và phê bình"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-084",
+      "code": "n6fnzo",
+      "originalNumber": 84,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nguyễn Ái Quốc đã thành lập “Hội Việt Nam cách mạng Thanh niên” vào thời gian nào sau đây?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "6/1925"
+        },
+        {
+          "id": "b",
+          "text": "5/1925"
+        },
+        {
+          "id": "c",
+          "text": "4/1925"
+        },
+        {
+          "id": "d",
+          "text": "7/1925"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-085",
+      "code": "n6fnzo",
+      "originalNumber": 85,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo Hồ Chí Minh, động lực quyết định nhất của chủ nghĩa xã hội là gì?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con người"
+        },
+        {
+          "id": "b",
+          "text": "Sự giúp đỡ quốc tế"
+        },
+        {
+          "id": "c",
+          "text": "Khoa học kỹ thuật"
+        },
+        {
+          "id": "d",
+          "text": "Chính trị"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-086",
+      "code": "n6fnzo",
+      "originalNumber": 86,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo quan điểm của Hồ Chí Minh, văn hóa có mối quan hệ như thế nào với xã hội?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xã hội phát triển trước văn hóa"
+        },
+        {
+          "id": "b",
+          "text": "Xã hội thế nào thì văn hóa thế ấy"
+        },
+        {
+          "id": "c",
+          "text": "Văn hóa phát triển trước xã hội"
+        },
+        {
+          "id": "d",
+          "text": "Văn hóa phát triển chậm hơn xã hội"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-087",
+      "code": "n6fnzo",
+      "originalNumber": 87,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nguyễn Ái Quốc kể lại “Tôi vui mừng đến phát khóc lên. Ngồi một mình trong buồng mà tôi nói to lên như đang nói trước quần chúng đông đảo: hỡi đồng bào bị đọa đầy đau khổ? Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng của chúng ta” để nói về sự kiện gì?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khi đọc bản “Sơ thảo Lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa”"
+        },
+        {
+          "id": "b",
+          "text": "Khi tìm hiểu về chủ nghĩa Tam dân của Tôn Trung Sơn"
+        },
+        {
+          "id": "c",
+          "text": "Khi nghe tin cách mạng tháng Mười Nga thắng lợi"
+        },
+        {
+          "id": "d",
+          "text": "Cả 3 đáp án đều sai"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-088",
+      "code": "n6fnzo",
+      "originalNumber": 88,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, đặc điểm lớn nhất của thời kỳ quá độ lên CNXH ở Việt Nam như thế nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Từ một nền kinh tế kế hoạch hóa, tập trung bao cấp, chuyển lên kinh tế thị trường định hướng XHCN"
+        },
+        {
+          "id": "b",
+          "text": "Từ một nước có nền kinh tế nghèo nàn, lạc hậu tiến thẳng lên CNXH, phải trải qua thời kỳ CNH-HĐH"
+        },
+        {
+          "id": "c",
+          "text": "Từ một nước nông nghiệp lạc hậu tiến thẳng lên CNXH, không trải qua giai đoạn phát triển TBCN"
+        },
+        {
+          "id": "d",
+          "text": "Từ một nước có nền kinh tế nông nghiệp lạc hậu chuyển sang nền kinh tế có công nghiệp hiện đại"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-089",
+      "code": "n6fnzo",
+      "originalNumber": 89,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của Tôn giáo Giesu là gì?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lòng nhân ái cao cả"
+        },
+        {
+          "id": "b",
+          "text": "Đức hy sinh"
+        },
+        {
+          "id": "c",
+          "text": "Tư tưởng kiên trì"
+        },
+        {
+          "id": "d",
+          "text": "Lòng cao thượng"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-090",
+      "code": "n6fnzo",
+      "originalNumber": 90,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Hồ Chí Minh đã đưa ra quan niệm về văn hóa trong thời gian nào?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1965"
+        },
+        {
+          "id": "b",
+          "text": "1943"
+        },
+        {
+          "id": "c",
+          "text": "1953"
+        },
+        {
+          "id": "d",
+          "text": "1960"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-091",
+      "code": "n6fnzo",
+      "originalNumber": 91,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung nào sau đây không thuộc cơ sở lý luận hình thành nên tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tinh hoa văn hóa nhân loại"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa Mác Lênin"
+        },
+        {
+          "id": "c",
+          "text": "Thực tiễn thế giới cuối thế kỷ XIX-đầu thế kỷ XX"
+        },
+        {
+          "id": "d",
+          "text": "Giá trị truyền thống tốt đẹp của dân tộc Việt Nam"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-092",
+      "code": "n6fnzo",
+      "originalNumber": 92,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Nội dung nào sau đây thuộc cơ sở thực tiễn hình thành nên tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giá trị truyền thống tốt đẹp của dân tộc Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nghĩa Mác Lênin"
+        },
+        {
+          "id": "c",
+          "text": "Thực tiễn xã hội Việt Nam cuối thế kỷ XIX-đầu thế kỷ XX"
+        },
+        {
+          "id": "d",
+          "text": "Thực tiễn thế giới cuối thế kỷ XX-đầu thế kỷ XXI"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-093",
+      "code": "n6fnzo",
+      "originalNumber": 93,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Khoảng thời gian nào đánh dấu thời kỳ “Vượt qua thử thách, giữ vững đường lối, phương pháp cách mạng Việt Nam đúng đắn, sáng tạo” trong quá trình hình thành và phát triển tư tưởng Hồ Chí Minh?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1941-1969"
+        },
+        {
+          "id": "b",
+          "text": "1920-1930"
+        },
+        {
+          "id": "c",
+          "text": "1911-1920"
+        },
+        {
+          "id": "d",
+          "text": "1930-1941"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-094",
+      "code": "n6fnzo",
+      "originalNumber": 94,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Ý nghĩa học tập môn Tư tưởng Hồ Chí Minh là gì?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Góp phần nâng cao năng lực tư duy lý luận"
+        },
+        {
+          "id": "b",
+          "text": "Cả 3 đáp án"
+        },
+        {
+          "id": "c",
+          "text": "Xây dựng, rèn luyện phương pháp và phong cách công tác"
+        },
+        {
+          "id": "d",
+          "text": "Giáo dục và thực hành đạo đức cách mạng, củng cố niềm tin khoa học gắn liền với trau dồi tình cảm cách mạng, bồi dưỡng lòng yêu nước"
+        }
+      ]
+    },
+    {
+      "id": "azota-n6fnzo-095",
+      "code": "n6fnzo",
+      "originalNumber": 95,
+      "sourceTitle": "TTHCM LMS_PTIT tổng hợp",
+      "chapter": 0,
+      "prompt": "Theo tư tưởng Hồ Chí Minh, nội dung nào sau đây không thể hiện vai trò của văn hóa?:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Văn hóa là sự nghiệp của quần chúng nhân dân"
+        },
+        {
+          "id": "b",
+          "text": "Văn hóa là mục tiêu, động lực của sự nghiệp cách mạng (Theo key của LMS thì là A nhưng theo giáo trình thì chỉ có câu D là sai logic câu)"
+        },
+        {
+          "id": "c",
+          "text": "Văn hóa phục vụ quần chúng nhân dân"
+        },
+        {
+          "id": "d",
+          "text": "Văn hóa là một mặt trận"
+        }
+      ]
+    }
+  ]
+}

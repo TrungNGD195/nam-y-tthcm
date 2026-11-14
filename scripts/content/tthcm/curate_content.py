@@ -317,7 +317,7 @@ bank={"subjectId":"tthcm","version":"2026.11.13.1","updatedAt":"2026-11-13","cha
       "supplements":[{"sourceId":"combined","status":"Đã khảo sát; chưa nhập toàn bộ vì cần đối chiếu phiên bản kiến thức và bảng đáp án."},{"sourceId":"bonus","status":"Dùng chọn lọc để đối chiếu câu trong đề mẫu; chưa nhập toàn bộ các câu tiểu sử và phần bổ sung."},{"sourceId":"timeline","status":"Đã khảo sát, dùng hỗ trợ rà mốc; chưa chuyển thành bộ câu hỏi mới."}]}
 out=ROOT/"src/subjects/tthcm";out.mkdir(parents=True,exist_ok=True)
 (out/"bank.json").write_text(json.dumps(bank,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-(ROOT/"content/tthcm/editorial-decisions.json").write_text(json.dumps(reviews,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+(ROOT/"content/tthcm/editorial-decisions.json").write_text(json.dumps(reviews,ensure_ascii=False,indent=2)+"\n",encoding="utf-8",newline="\n")
 lines=["# Báo cáo nội dung","","Ngân hàng chính gồm 233 mục nguồn; số câu xuất bản chỉ tính các câu chuẩn duy nhất.","","| Nguồn | Tổng mục | Xuất bản | Gộp | Chờ kiểm tra / mâu thuẫn |","| --- | ---: | ---: | ---: | ---: |"]
 for source in ["lms","quiz","sample"]:
     entries=[a for a in audit if a["sourceId"]==source]
@@ -330,3 +330,8 @@ lines += ["","## Quy tắc biên tập","","Giữ nguyên đề và phương án
 (ROOT/"content/tthcm/BAO_CAO_NOI_DUNG.md").write_text("\n".join(lines),encoding="utf-8")
 print(f"Published {len(published)} unique questions, {len(sample_ids)} sample questions, {len(audit)} source dispositions.")
 print("Pending:",len([a for a in audit if a['status'] in ['pending','disputed']]))
+
+# Extend the curriculum only with the separately reviewed, immutable Azota snapshots.
+if (ROOT/"content/tthcm/azota/reviewed.json").exists() or (ROOT/"content/tthcm/azota/e9lwce.json").exists():
+    from augment_azota import augment
+    augment(ROOT,bank)

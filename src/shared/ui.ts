@@ -48,11 +48,18 @@ export function emphasize(text: string, keywords: string[] = []): string {
 }
 export const promptText = (text: string): string => emphasize(text, ['không phải', 'không nằm', 'không thuộc', 'không thể hiện', 'không đúng', 'đúng nhất', 'phương án sai', 'lần đầu tiên']);
 
+export function sourceName(source?: Source, fallback = ''): string {
+  const title = esc(source?.shortTitle ?? fallback);
+  return source?.url && /^https:\/\/[^\s"<>]+$/.test(source.url) ? `<a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${title}</a>` : title;
+}
+export function sourceLocation(source: Source | undefined, position: number): string {
+  return source?.locatorLabel === 'mục' ? 'Nội dung trực tuyến' : `${source?.locatorLabel === 'câu' ? 'Câu' : 'Trang PDF'} ${position}`;
+}
 export function referencesHtml(refs: Reference[], sources: Source[]): string {
-  return refs.map(ref => `<div class="reference"><strong>${esc(sources.find(s => s.id === ref.sourceId)?.shortTitle ?? ref.sourceId)}</strong><span>Trang PDF ${ref.pdfPage} · ${esc(ref.section)}</span><p>${esc(ref.evidence)}</p></div>`).join('');
+  return refs.map(ref => {const source=sources.find(s => s.id === ref.sourceId);return `<div class="reference"><strong>${sourceName(source,ref.sourceId)}</strong><span>${sourceLocation(source,ref.pdfPage)} · ${esc(ref.section)}</span><p>${esc(ref.evidence)}</p></div>`;}).join('');
 }
 export function sourceDetails(q: Question, sources: Source[]): string {
-  return `<details class="sources-detail"><summary>${icon('book')} Xem nguồn đối chiếu</summary><div class="source-content">${q.sources.map(s => `<p class="source-line">${esc(sources.find(x => x.id === s.sourceId)?.shortTitle ?? s.sourceId)} · trang PDF ${s.pdfPage} · ${esc(s.group)} · câu ${s.originalNumber}</p>`).join('')}${referencesHtml(q.theoryReferences, sources)}${q.editorialNote ? `<p class="editorial-note">Biên tập: ${esc(q.editorialNote)}</p>` : ''}</div></details>`;
+  return `<details class="sources-detail"><summary>${icon('book')} Xem nguồn đối chiếu</summary><div class="source-content">${q.sources.map(s => {const source=sources.find(x=>x.id===s.sourceId);return `<p class="source-line">${sourceName(source,s.sourceId)} · ${sourceLocation(source,s.pdfPage)} · ${esc(s.group)}${source?.locatorLabel==='câu'?'':` · câu ${s.originalNumber}`}</p>`;}).join('')}${referencesHtml(q.theoryReferences, sources)}${q.editorialNote ? `<p class="editorial-note">Biên tập: ${esc(q.editorialNote)}</p>` : ''}</div></details>`;
 }
 export const durationText = (milliseconds: number): string => {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
