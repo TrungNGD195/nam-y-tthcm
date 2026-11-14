@@ -35,6 +35,7 @@ export type Bank = {
   version: string; updatedAt: string; chapters: Chapter[]; concepts: Concept[]; questions: Question[];
   sources: Source[]; sampleQuestionIds: string[]; audit: AuditEntry[];
   supplements: { sourceId: string; status: string }[];
+  questionAliases?: {fromId:string;toId:string;revision:number}[];
 };
 export type Outcome = 'correct' | 'incorrect' | 'assisted' | 'skipped';
 export type RecordEntry = {
@@ -45,12 +46,12 @@ export type SessionItem = {
   questionId: string; revision: number; optionOrder: string[];
   selectedOptionId: string | null; checked: boolean; usedHint: boolean; recorded: boolean;
 };
-export type Deck = { kind: 'chapter' | 'numbers' | 'review' | 'mixed' | 'sample' | 'collection' | 'comprehensive'; chapter?: number; tag?: string; tags?: string[]; includeNumbers?: boolean; order?: 'unseen' | 'random'; count: number; title: string; questionIds?: string[] };
+export type Deck = { kind: 'chapter' | 'numbers' | 'review' | 'mixed' | 'sample' | 'collection' | 'comprehensive'; chapter?: number; tag?: string; tags?: string[]; includeNumbers?: boolean; order?: 'unseen' | 'random'; count: number; title: string; questionIds?: string[];paperKey?:string };
 export type Session = {
   id: string; mode: 'practice' | 'exam'; status: 'active' | 'finished'; deck: Deck;
   items: SessionItem[]; cursor: number; startedAt: number; deadline: number | null; finishedAt: number | null;
 };
-export type HistoryEntry = { id: string; title: string; at: number; total: number; correct: number; assisted: number; mode: 'practice' | 'exam' };
+export type HistoryEntry = { id: string; title: string; at: number; total: number; correct: number; assisted: number; mode: 'practice' | 'exam';paperKey?:string };
 export type Progress = {
   schemaVersion: 2; subjectId: string; bankVersion: string; records: Record<string, RecordEntry>;
   activeSession: Session | null; lastResult: Session | null; history: HistoryEntry[];

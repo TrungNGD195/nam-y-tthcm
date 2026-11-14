@@ -1,19 +1,21 @@
 # Báo cáo nội dung
 
-**623 câu chuẩn** trên web; 110 câu thuộc chuyên đề con số. Đề mẫu vẫn đủ 20 câu.
+**506 câu chuẩn** trên web; 92 câu thuộc chuyên đề con số. Đề mẫu vẫn đủ 20 câu.
+
+Đã gộp thêm 117 bản hỏi trùng ý trong 96 nhóm, từ 623 xuống 506 câu. Quyết định có hash đề/lựa chọn tại `duplicate-decisions.json`; giữ nguyên snapshot và đáp án đối chiếu từng mục nguồn.
 
 ## Sáu đề Azota
 
 | Đề | Mục gốc | Thêm câu | Gộp trùng | Chờ xác minh |
 | --- | ---: | ---: | ---: | ---: |
-| [e9lwce](https://azota.vn/de-thi/e9lwce) | 71 | 70 | 1 | 0 |
-| [rnaeqk](https://azota.vn/de-thi/rnaeqk) | 148 | 140 | 7 | 1 |
-| [ela4jq](https://azota.vn/de-thi/ela4jq) | 88 | 78 | 7 | 3 |
-| [ijqzcg](https://azota.vn/de-thi/ijqzcg) | 44 | 41 | 3 | 0 |
-| [3eggrt](https://azota.vn/de-thi/3eggrt) | 76 | 71 | 5 | 0 |
-| [n6fnzo](https://azota.vn/de-thi/n6fnzo) | 95 | 8 | 87 | 0 |
+| [e9lwce](https://azota.vn/de-thi/e9lwce) | 71 | 54 | 17 | 0 |
+| [rnaeqk](https://azota.vn/de-thi/rnaeqk) | 148 | 109 | 38 | 1 |
+| [ela4jq](https://azota.vn/de-thi/ela4jq) | 88 | 63 | 22 | 3 |
+| [ijqzcg](https://azota.vn/de-thi/ijqzcg) | 44 | 32 | 12 | 0 |
+| [3eggrt](https://azota.vn/de-thi/3eggrt) | 76 | 56 | 20 | 0 |
+| [n6fnzo](https://azota.vn/de-thi/n6fnzo) | 95 | 2 | 93 | 0 |
 
-Tổng cộng **522 mục gốc**: 408 câu thêm, 110 lượt gộp, 4 câu chờ. 233 mục nguồn ban đầu vẫn có đủ audit; 11 mục cũ còn giữ ngoài bài chấm.
+Tổng cộng **522 mục gốc**: 316 câu thêm, 202 lượt gộp, 4 câu chờ. 233 mục nguồn ban đầu vẫn có đủ audit; 11 mục cũ còn giữ ngoài bài chấm.
 
 ## Quy tắc đáp án
 

@@ -1,4 +1,4 @@
-import type { Progress, Question, RecordEntry, Session, SessionItem } from './types.ts';
+import type { Bank, Progress, Question, RecordEntry, Session, SessionItem } from './types.ts';
 
 export const LEGACY_STORAGE_KEY = 'nam-y:progress:v1';
 export const storageKey = (subjectId: string): string => `nam-y:progress:v2:${subjectId}`;
@@ -37,42 +37,46 @@ function sanitizeSession(value: unknown, questions: Map<string, Question>, statu
     deck: { kind: deck.kind as Session['deck']['kind'], title: deck.title, count: deck.count,
       ...(integer(deck.chapter) ? { chapter: deck.chapter } : {}),
       ...(typeof deck.tag === 'string' && deck.tag.length < 80 ? { tag: deck.tag } : {}),
+      ...(typeof deck.paperKey === 'string' && deck.paperKey.length < 120 ? { paperKey: deck.paperKey } : {}),
       ...(Array.isArray(deck.tags) && deck.tags.every(t => typeof t === 'string' && t.length < 80) ? { tags: [...deck.tags] as string[] } : {}),
       ...(Array.isArray(deck.questionIds) && deck.questionIds.length <= questions.size && deck.questionIds.every(id => typeof id === 'string' && questions.has(id)) ? { questionIds: [...new Set(deck.questionIds)] as string[] } : {}),
       includeNumbers: deck.includeNumbers === true, order: deck.order === 'random' ? 'random' : 'unseen' },
   };
 }
 
-export function parseProgress(input: unknown, questions: Map<string, Question>, bankVersion: string, subjectId = 'tthcm'): Progress {
+export function parseProgress(input: unknown, questions: Map<string, Question>, bankVersion: string, subjectId = 'tthcm', aliases:Bank['questionAliases']=[]): Progress {
   if (!object(input) || ![1,2].includes(Number(input.schemaVersion)) || !object(input.records) || !Array.isArray(input.history)) throw new Error('Tệp không đúng định dạng tiến độ Nắm ý.');
   if (input.schemaVersion === 1 ? subjectId !== 'tthcm' : input.subjectId !== subjectId) throw new Error('Tệp tiến độ thuộc môn khác. Hãy mở đúng môn trước khi nhập.');
   const next = emptyProgress(bankVersion, subjectId);
+  const remap=new Map(aliases.map(a=>[a.fromId,a]));
   for (const [id, raw] of Object.entries(input.records)) {
-    const q = questions.get(id);
-    if (!q || !object(raw) || raw.revision !== q.revision) continue;
+    const alias=questions.has(id)?undefined:remap.get(id),q=questions.get(alias?.toId??id);
+    if (!q || !object(raw) || raw.revision !== (alias?.revision??q.revision)) continue;
     if (![raw.seen, raw.correct, raw.incorrect].every(integer) || (raw.correct as number) + (raw.incorrect as number) > (raw.seen as number) || typeof raw.bookmarked !== 'boolean') continue;
     if (raw.lastOutcome !== null && !['correct','incorrect','skipped','assisted'].includes(String(raw.lastOutcome))) continue;
     if (raw.lastAt !== null && !time(raw.lastAt)) continue;
-    next.records[id] = { revision: q.revision, seen: raw.seen as number, correct: raw.correct as number, incorrect: raw.incorrect as number, lastOutcome: raw.lastOutcome as RecordEntry['lastOutcome'], lastAt: raw.lastAt as number | null, bookmarked: raw.bookmarked };
+    const candidate:RecordEntry = { revision: q.revision, seen: raw.seen as number, correct: raw.correct as number, incorrect: raw.incorrect as number, lastOutcome: raw.lastOutcome as RecordEntry['lastOutcome'], lastAt: raw.lastAt as number | null, bookmarked: raw.bookmarked };
+    const previous=next.records[q.id];
+    next.records[q.id]=previous?{...((candidate.lastAt??0)>(previous.lastAt??0)?candidate:previous),bookmarked:candidate.bookmarked||previous.bookmarked}:candidate;
   }
   next.activeSession = sanitizeSession(input.activeSession, questions, 'active');
   next.lastResult = sanitizeSession(input.lastResult, questions, 'finished');
-  next.history = input.history.filter(object).filter(h => typeof h.id === 'string' && typeof h.title === 'string' && h.title.length <= 200 && time(h.at) && integer(h.total) && integer(h.correct) && integer(h.assisted) && h.correct <= h.total && h.assisted <= h.correct && ['practice','exam'].includes(String(h.mode))).slice(0, 50).map(h => ({ id: String(h.id).slice(0,120), title: String(h.title), at: h.at as number, total: h.total as number, correct: h.correct as number, assisted: h.assisted as number, mode: h.mode as 'practice' | 'exam' }));
+  next.history = input.history.filter(object).filter(h => typeof h.id === 'string' && typeof h.title === 'string' && h.title.length <= 200 && time(h.at) && integer(h.total) && integer(h.correct) && integer(h.assisted) && h.correct <= h.total && h.assisted <= h.correct && ['practice','exam'].includes(String(h.mode))).slice(0, 50).map(h => ({ id: String(h.id).slice(0,120), title: String(h.title), at: h.at as number, total: h.total as number, correct: h.correct as number, assisted: h.assisted as number, mode: h.mode as 'practice' | 'exam',...(typeof h.paperKey==='string'&&h.paperKey.length<120?{paperKey:h.paperKey}:{}) }));
   return next;
 }
 
-export function loadProgress(questions: Map<string, Question>, bankVersion: string, subjectId = 'tthcm'): { progress: Progress; warning: string } {
+export function loadProgress(questions: Map<string, Question>, bankVersion: string, subjectId = 'tthcm', aliases:Bank['questionAliases']=[]): { progress: Progress; warning: string } {
   try {
     const text = localStorage.getItem(storageKey(subjectId));
     if (!text) {
       const legacy = subjectId === 'tthcm' ? localStorage.getItem(LEGACY_STORAGE_KEY) : null;
       if (!legacy) return { progress: emptyProgress(bankVersion, subjectId), warning: '' };
-      const migrated = parseProgress(JSON.parse(legacy), questions, bankVersion, subjectId);
+      const migrated = parseProgress(JSON.parse(legacy), questions, bankVersion, subjectId,aliases);
       const saved = saveProgress(migrated);
       return { progress: migrated, warning: saved ? '' : 'Đã đọc tiến độ cũ, nhưng chưa lưu được bản nâng cấp. Dữ liệu cũ vẫn được giữ.' };
     }
     const raw = JSON.parse(text);
-    const progress = parseProgress(raw, questions, bankVersion, subjectId);
+    const progress = parseProgress(raw, questions, bankVersion, subjectId,aliases);
     const changedSession = raw.activeSession && !progress.activeSession;
     return { progress, warning: changedSession ? 'Bài đang làm không còn phù hợp với ngân hàng hiện tại. Các kết quả còn hợp lệ vẫn được giữ.' : '' };
   } catch {

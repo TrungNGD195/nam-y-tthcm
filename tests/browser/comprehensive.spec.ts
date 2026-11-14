@@ -9,9 +9,9 @@ test('comprehensive papers are discoverable, complete, balanced and support full
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto('/#/mon/tthcm');
   await page.locator('.comprehensive-start').getByRole('link',{name:'Chọn đề để làm',exact:false}).click();
-  await expect(page.locator('.comprehensive-card')).toHaveCount(19);
-  await expect(page.locator('.comprehensive-overview')).toContainText('623');
-  await expect(page.locator('.comprehensive-note')).toContainText('lặp giữa các đề');
+  await expect(page.locator('.comprehensive-card')).toHaveCount(11);
+  await expect(page.locator('.comprehensive-overview')).toContainText('506');
+  await expect(page.locator('.comprehensive-note')).toContainText('Mỗi câu chỉ xuất hiện một lần');
   for(const card of await page.locator('.comprehensive-card').all())await expect(card.locator('.paper-chapters span')).toHaveCount(6);
   await page.screenshot({path:'test-results/comprehensive-desktop.png',fullPage:true});
   await page.selectOption('#exam-minutes','60');
@@ -37,21 +37,23 @@ test('comprehensive papers are discoverable, complete, balanced and support full
 });
 
 test('unfinished paper can resume or be retained when another paper is selected',async({page})=>{
-  await page.goto('/#/mon/tthcm/de-tong-hop');await page.locator('[data-action=start-paper][data-paper="19"]').click();
+  await page.goto('/#/mon/tthcm/de-tong-hop');await page.locator('[data-action=start-paper][data-paper="10"]').click();
   await expect(page.locator('.question-num')).toHaveCount(50);const original=await progress(page);
   await page.locator('[data-action=save-exit]').click();await page.locator('.sidebar').getByRole('link',{name:'Luyện đề tổng hợp',exact:false}).click();
-  await expect(page.locator('.continue-banner')).toContainText('Đề tổng hợp 19');
+  await expect(page.locator('.continue-banner')).toContainText('Đề tổng hợp 10');
   await page.locator('[data-action=start-paper][data-paper="02"]').click();await expect(page.getByRole('dialog')).toBeVisible();
   await page.locator('[data-action=close-dialog]').click();expect((await progress(page)).activeSession.id).toBe(original.activeSession.id);
   await page.locator('[data-action=start-paper][data-paper="02"]').click();await page.locator('[data-action=replace-session]').click();
-  await expect(page.locator('.question-num')).toHaveCount(50);expect((await progress(page)).activeSession.deck.title).toContain('02');
+  await expect(page.locator('.question-num')).toHaveCount(50);const next=(await progress(page)).activeSession;expect(next.deck.title).toContain('02');
+  expect(next.items.some((item:any)=>original.activeSession.items.some((old:any)=>old.questionId===item.questionId))).toBe(false);
 });
 
-test('mobile can choose any fifty-question paper and navigate the question grid',async({page})=>{
+test('mobile can study the short final paper without repeated padding',async({page})=>{
   await page.setViewportSize({width:390,height:844});await page.goto('/#/mon/tthcm/de-tong-hop');
-  await expect(page.locator('.comprehensive-card')).toHaveCount(19);
+  await expect(page.locator('.comprehensive-card')).toHaveCount(11);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-  await page.locator('[data-action=start-paper][data-paper="03"]').click();await expect(page.locator('.question-num')).toHaveCount(50);
-  await page.locator('[data-action=jump][data-index="49"]').click();await expect(page.locator('.question-num.current')).toHaveText('50');
+  await expect(page.locator('.comprehensive-card[data-paper="11"]')).toContainText('6 CÂU');
+  await page.locator('[data-action=start-paper][data-paper="11"]').click();await expect(page.locator('.question-num')).toHaveCount(6);
+  await page.locator('[data-action=jump][data-index="5"]').click();await expect(page.locator('.question-num.current')).toHaveText('6');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });

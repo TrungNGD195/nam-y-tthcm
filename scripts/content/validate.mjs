@@ -20,6 +20,11 @@ export function validateBank(bank, subject, assetExists = () => true) {
     if(source.locatorLabel)assert(['câu','mục'].includes(source.locatorLabel),'Unknown source locator');
   }
   assert.equal(questions.size,bank.questions.length);assert.equal(concepts.size,bank.concepts.length);
+  const aliasIds=new Set();
+  for(const alias of bank.questionAliases??[]){
+    assert(!questions.has(alias.fromId)&&questions.has(alias.toId)&&!aliasIds.has(alias.fromId),'Invalid duplicate alias');
+    assert(Number.isSafeInteger(alias.revision)&&alias.revision>0);aliasIds.add(alias.fromId);
+  }
   for(const c of bank.concepts)assert(chapters.has(c.chapter));
   function blocks(items=[]) {
     assert(Array.isArray(items));

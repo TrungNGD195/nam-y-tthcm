@@ -109,7 +109,7 @@ export function finishSession(progress: Progress, questions: Map<string, Questio
   session.status = 'finished';
   session.finishedAt = now;
   const counts = scoreSession(session, questions);
-  next.history = [{ id: session.id, title: session.deck.title, at: now, total: counts.total, correct: counts.correct, assisted: counts.assisted, mode: session.mode }, ...next.history.filter(h => h.id !== session.id)].slice(0, 50);
+  next.history = [{ id: session.id, title: session.deck.title, at: now, total: counts.total, correct: counts.correct, assisted: counts.assisted, mode: session.mode,...(session.deck.paperKey?{paperKey:session.deck.paperKey}:{}) }, ...next.history.filter(h => h.id !== session.id)].slice(0, 50);
   next.lastResult = session;
   next.activeSession = null;
   return next;

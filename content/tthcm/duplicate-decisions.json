@@ -1,0 +1,1958 @@
+{
+  "version": 1,
+  "inputQuestionCount": 623,
+  "reviewedAt": "2026-11-14",
+  "policy": "Chỉ gộp các cặp đã đọc thủ công; không gộp vì cùng đáp án hoặc cùng concept. Giữ riêng câu khác mốc, chủ thể, phủ định, trích dẫn hoặc nội dung hỏi.",
+  "groups": [
+    {
+      "keep": "lms-g1-04",
+      "remove": [
+        "quiz-g1-08"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g1-04": {
+          "hash": "f1f96a85b046bb5204c5441cf3a4a38142c2cdb85e1204abb0d0d92d89961185",
+          "prompt": "Nhận định sau của Đảng Cộng sản Việt Nam được thông qua tại Đại hội đại biểu toàn quốc lần thứ mấy: “Đảng phải đặc biệt coi trọng việc tổ chức học tập một cách có hệ thống tư tưởng, đạo đức, tác phong của Chủ tịch Hồ Chí Minh trong toàn Đảng”?",
+          "answer": "Đại hội V (1982)"
+        },
+        "quiz-g1-08": {
+          "hash": "7ac6ac874d259e0d8c5912e9065a0953967bb42587a21be30a118737bd14e3bb",
+          "prompt": "Đại hội nào, lần đầu tiên khẳng định: \"Đảng phải đặc biệt coi trọng việc tổ chức học tập một cách có hệ thống tư tưởng, đạo đức, tác phong của Chủ tich Hồ Chí Minh trong toàn Đảng\"",
+          "answer": "Đại hội V (1982)"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-04",
+      "remove": [
+        "azota-e9lwce-018",
+        "azota-e9lwce-022"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-04": {
+          "hash": "5e70dcd88a5902b24793084ef2fb8f4db9e6080f384dc9a56f4bf50b738195bb",
+          "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của Khổng Tử là gì?",
+          "answer": "Sự tu dưỡng đạo đức cá nhân"
+        },
+        "azota-e9lwce-018": {
+          "hash": "75fc76b8e856e362217f6caab98313b38999ad5dfdae9f8ee73953143b6f24e9",
+          "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Theo Hồ Chí Minh, ưu điểm lớn nhất của học thuyết Khổng Tử là gì?",
+          "answer": "Sự tu dưỡng đạo đức cá nhân"
+        },
+        "azota-e9lwce-022": {
+          "hash": "1d9d0061f2ab827722d8d8dcbe74e975159c111398eac94acb2f2e2fb7353ff2",
+          "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của Khổng Tử là gì?",
+          "answer": "Sự tu dưỡng đạo đức cá nhân"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-05",
+      "remove": [
+        "quiz-g3-15",
+        "azota-e9lwce-009"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-05": {
+          "hash": "5ab64ce08312ca233a20180294f64af5e270e9f1890666a079f6897d006c6117",
+          "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của Tôn giáo Giesu là gì?",
+          "answer": "Lòng nhân ái cao cả"
+        },
+        "quiz-g3-15": {
+          "hash": "eeed9a00005728cf07e092fdba40bffe2ce1665e9b7eb724394097ef63d38e72",
+          "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của \"Tôn giáo Giê su\" (Kito giáo) là gì?",
+          "answer": "Lòng nhân ái cao cả"
+        },
+        "azota-e9lwce-009": {
+          "hash": "a139ca6e9fb32fd07587cf71b0df87538f422e68173abcdcdf1c4fe3e766886e",
+          "prompt": "Theo Hồ chí Minh, ưu điểm lớn nhất cú tôn giáo Giêsu là gì?",
+          "answer": "Lòng nhân ái cao cả"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-06",
+      "remove": [
+        "azota-e9lwce-026",
+        "azota-e9lwce-053"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-06": {
+          "hash": "f7d4ac1c9206dda9a408ddea34ac6e46d8ed218a795db7ac550aba522811a891",
+          "prompt": "Hồ Chí Minh đã tiếp thu những yếu tố nào của Phật giáo?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-e9lwce-026": {
+          "hash": "9d5bc64f010a4fcd76eace60ef97c507bbc04c11b274fa59806578e55bed73b0",
+          "prompt": "Hồ Chí Minh đã tiếp thu những yếu tố nào của Phật Giáo?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-e9lwce-053": {
+          "hash": "793582d4cc9f23b30f94ae099b55edf3920a445dc2804c0ec6df4fce49908c9d",
+          "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Hồ Chí Minh đã tiếp thu những yếu tố tích cực nào của Phật giáo?",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "sample-g1-12",
+      "remove": [
+        "lms-g2-07",
+        "lms-g2-08",
+        "azota-e9lwce-051",
+        "azota-e9lwce-054"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-07": {
+          "hash": "fdda9ca5b43a6041029cb0b2855a1097858043ce4c81379cef8ae191b5b420c4",
+          "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Mác-Lênin là gì?",
+          "answer": "Phương pháp làm việc biện chứng"
+        },
+        "lms-g2-08": {
+          "hash": "998a68ad54907702d73aef737b3e213ae5f6e702ba3956a92160d25250795acf",
+          "prompt": "Hồ Chí Minh đề cao Các Mác ở phương diện nào?",
+          "answer": "Phương pháp làm việc biện chứng"
+        },
+        "sample-g1-12": {
+          "hash": "ddc56fe80151d17aee5367f2ab83a88adba110f21e127217332499f3b6dca9d6",
+          "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Mác-Lênin là gì?",
+          "answer": "Phương pháp làm việc biện chứng"
+        },
+        "azota-e9lwce-051": {
+          "hash": "77274923a57f0b2c8a52c122b978130954261b7de3b8ea78ca7a5fd440be024d",
+          "prompt": "Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Mác - Lênin là gì?",
+          "answer": "Phương pháp làm việc biện chứng"
+        },
+        "azota-e9lwce-054": {
+          "hash": "d4de79235319dce61a4e53ccd9a405c79d0924219ee87d447f0fd5f04bfc19ae",
+          "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Mác là gì?",
+          "answer": "Phương pháp làm việc biện chứng"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-14",
+      "remove": [
+        "azota-rnaeqk-095",
+        "azota-n6fnzo-035"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-14": {
+          "hash": "9fe6602cc77414e20583e4955a187ad6281731bf0d225e4675e36588d974176c",
+          "prompt": "Hồ Chí Minh đã dùng hình tượng nào dưới đây để chỉ chủ nghĩa tư bản?",
+          "answer": "Con đỉa có hai vòi"
+        },
+        "azota-rnaeqk-095": {
+          "hash": "d6d0a83d927951fe6efec458c794bca5088d17d0816baf7a582411cb8efe9ff2",
+          "prompt": "Hồ Chí Minh dùng hình tượng gì để chỉ chủ nghĩa tư bản?",
+          "answer": "Con đỉa hai vòi"
+        },
+        "azota-n6fnzo-035": {
+          "hash": "3311160481d1e5d5eb56f9e7219b12fb580a0f72c4f1652a93745d2c3e948083",
+          "prompt": "Hồ Chí Minh dùng hình tượng nào để chỉ chủ nghĩa tư bản?",
+          "answer": "Con đỉa có hai vòi"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-15",
+      "remove": [
+        "azota-n6fnzo-008"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-15": {
+          "hash": "b5edcf35838f81b99a20c09341a5ff6260005ec94a6d1c6bde6a58806c637744",
+          "prompt": "Thay mặt những người Việt Nam yêu nước tại Pháp, Nguyễn Ái Quốc đã gửi đến hội nghị Vecxay (1919) văn bản nào sau đây?",
+          "answer": "“Bản yêu sách của nhân dân Việt Nam”"
+        },
+        "azota-n6fnzo-008": {
+          "hash": "8f9261292541977b9d28099a2773ff5d553b882afeefed2a330f3ff4036c97cd",
+          "prompt": "Thay mặt những người Việt Nam yêu nước tại Pháp, Nguyễn Ái Quốc đã gửi đến hội nghị Vecxay (1919) văn bản nào sau đây?:",
+          "answer": "“Bản yêu sách của nhân dân An Nam”"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-18",
+      "remove": [
+        "quiz-g4-04",
+        "azota-e9lwce-011"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-18": {
+          "hash": "6c77a06d3ebf5ecbab677caedb7b9f1b6cc100ece7467afbdd6e89f98ae3e3e5",
+          "prompt": "Khoảng thời gian nào đánh dấu thời kỳ hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản trong quá trình hình thành và phát triển tư tưởng Hồ Chí Minh?",
+          "answer": "1911-1920"
+        },
+        "quiz-g4-04": {
+          "hash": "78709fe970d242dc6115bcc83fbb89257160d5bb96506cc864f599cda8c894ec",
+          "prompt": "Thời kỳ nào hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản?",
+          "answer": "1911-1920"
+        },
+        "azota-e9lwce-011": {
+          "hash": "fd05ab6b1fd0d626c5a99b98e8b1db6d5d70382f448575eab53ada2729c07602",
+          "prompt": "Giai đoạn tìm tòi con đường cứu nước, giải phóng dân tộc của Nguyễn Ái Quốc được tính từ:",
+          "answer": "1911 \n→\n1920"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-19",
+      "remove": [
+        "quiz-g4-06"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-19": {
+          "hash": "cc58cbca3b8606dd4dc85c16bc53ec630010578c4a592c952596caa39a8b9c82",
+          "prompt": "Sau khi nghiên cứu “Sơ thảo lần thứ nhất những Luận cương về vấn đề dân tộc và vấn đề thuộc địa”, Nguyễn Ái Quốc đã tìm thấy con đường cách mạng gì cho dân tộc Việt Nam?",
+          "answer": "Cách mạng vô sản"
+        },
+        "quiz-g4-06": {
+          "hash": "b9ef1c3d39877496a83d98088c4f00a2b1fd05b2697e38a36053b57d18aa4736",
+          "prompt": "Sau khi nghiên cứu “Sơ thảo lần thứ nhất những Luận cương về vấn đề dân tộc và vấn đề thuộc địa”, Nguyễn Ái Quốc đã tìm thấy con đường cách mạng gì cho dân tộc Việt Nam?",
+          "answer": "Cách mạng vô sản"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-20",
+      "remove": [
+        "quiz-g4-07",
+        "azota-n6fnzo-003"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-20": {
+          "hash": "567b1fbbbb25376edd63fc4df9e1df523cbdb0d2fdc206ebd033031358ac6d44",
+          "prompt": "Tài liệu nào sau đây là sự chuẩn bị mọi mặt về chính trị, tư tưởng, tổ chức cho sự ra đời của Đảng cộng sản Việt Nam?",
+          "answer": "“Đường Kách mệnh”"
+        },
+        "quiz-g4-07": {
+          "hash": "6b3b6bae4cc49d41721afe57c3d9407abeb990ab03b52fd91fc29ccbe42e5596",
+          "prompt": "Tác phẩm nào sau đây của Nguyễn Ái Quốc được xem là là sự chuẩn bị mọi mặt về chính trị, tư tưởng, tổ chức cho sự ra đời của Đảng cộng sản Việt Nam?",
+          "answer": "Đường Kách mệnh"
+        },
+        "azota-n6fnzo-003": {
+          "hash": "0f52d99bbae3fd75bb15a30f981e5080d79ccb2ab3dcdf96d6e35f49dcc52a82",
+          "prompt": "Tài liệu nào chuẩn bị mọi mặt về chính trị, tư tưởng và tổ chức cho sự ra đời của Đảng Cộng sản Việt Nam?",
+          "answer": "“Đường Kách mệnh”"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-21",
+      "remove": [
+        "azota-e9lwce-060"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-21": {
+          "hash": "126ff02cdf77b5e702d64ca8f94752fdab4f4ebd2e6960095958deab229f4b31",
+          "prompt": "Nguyễn Ái Quốc đã thành lập “Hội Việt Nam cách mạng Thanh niên” vào thời gian nào sau đây?",
+          "answer": "6/1925"
+        },
+        "azota-e9lwce-060": {
+          "hash": "3e804a4933fff34c7668bf981c38c8e06a3f9a05dac7bd276db0b97b8990d158",
+          "prompt": "Nguyễn Ái Quốc sáng lập “Hội Việt Nam cách mạng Thanh Niên” vào thời gian nào?",
+          "answer": "Tháng 6/1925"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-23",
+      "remove": [
+        "quiz-g4-18"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-23": {
+          "hash": "eec6d9f167b70bf0ae023ce842f7de5588fdf871e02cb320591e1dd6f800958d",
+          "prompt": "Ngày 19/5/1941, Hồ Chí Minh sáng lập ra tổ chức nào sau đây?",
+          "answer": "Mặt trận Việt Minh"
+        },
+        "quiz-g4-18": {
+          "hash": "e6a0147ab3a0c412646e618bf83d772d23310ed577979802cf582ffea9bfe80f",
+          "prompt": "Ngày 19/5/1941, Hồ Chí Minh sáng lập ra tổ chức nào sau đây?",
+          "answer": "Mặt trận Việt Minh"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-25",
+      "remove": [
+        "quiz-g4-20"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-25": {
+          "hash": "a7eceb1b11002b6a11ba1ef7b00dbaa61af52491ec0e7d03e28d4ff1a02a39a2",
+          "prompt": "Khẩu hiệu “Không có gì quý hơn độc lập, tự do” được Hồ Chí Minh nêu ra trong thời gian nào?",
+          "answer": "17/7/1966"
+        },
+        "quiz-g4-20": {
+          "hash": "928f98674689204813d8eb113caa176a850fe12bd631c9611735422ccd2f30c8",
+          "prompt": "Khẩu hiệu “Không có gì quý hơn độc lập, tự do” được Hồ Chí Minh nêu ra trong thời gian nào?",
+          "answer": "17/7/1966"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-28",
+      "remove": [
+        "azota-rnaeqk-055"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-28": {
+          "hash": "fd8e4ae924aef0fdcd855f60b67537359cd5f2a850fe2d680595477356cc2b21",
+          "prompt": "Câu “…Chủ trương làm tư sản dân quyền cách mạnh và thổ địa cách mạng để đi tới xã hội Cộng sản” được trích từ tài liệu nào của Hồ Chí Minh?",
+          "answer": "Chính cương vắn tắt"
+        },
+        "azota-rnaeqk-055": {
+          "hash": "137c7598330131234b7b47601a0b2247da4b685a4fd8e546df5d708c7cfcf6c3",
+          "prompt": "Chọn đáp án trả lời đúng nhất: “... Chủ trương làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản” được trích từ bài viết nào của Hồ Chí Minh?",
+          "answer": "Chính cương vắn tắt của Đảng"
+        }
+      }
+    },
+    {
+      "keep": "lms-g2-29",
+      "remove": [
+        "quiz-g4-19"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-29": {
+          "hash": "5e1706a17996909f0e5b745a63985063e469e672a0376d60b84a1268152e4099",
+          "prompt": "“Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do”. Câu văn này trích trong văn bản nào sau đây của Hồ Chí Minh?",
+          "answer": "“Tuyên ngôn độc lập”"
+        },
+        "quiz-g4-19": {
+          "hash": "98496594e156d29ad8a559cfcf02ff8d80c58febef2bca4aba27b03b2815125e",
+          "prompt": "\"Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do”. Hồ Chí Minh đã thể hiện quan điểm này đó trong văn bản nào?",
+          "answer": "Tuyên ngôn độc lập"
+        }
+      }
+    },
+    {
+      "keep": "sample-g1-04",
+      "remove": [
+        "lms-g2-30"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g2-30": {
+          "hash": "e3bd35ece5d4ee7c05bedfdb72237738de3c3973a25c894569068c6efca59ad6",
+          "prompt": "Nguyễn Ái Quốc tham gia phong trào chống thuế ở Trung Kỳ năm nào?",
+          "answer": "1908"
+        },
+        "sample-g1-04": {
+          "hash": "c65b8f06b855abaeada61cf45b76f2e0cd6a56eff953f424a8738075ab3fc77f",
+          "prompt": "Nguyễn Tất Thành tham gia cuộc biểu tình chống thuế của nông dân Thừa Thiên vào năm nào?",
+          "answer": "1908"
+        }
+      }
+    },
+    {
+      "keep": "lms-g3-03",
+      "remove": [
+        "quiz-g4-09",
+        "quiz-g5-09"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g3-03": {
+          "hash": "809759b2967e1b38c7fa0bb2c60c471baf6fddd8efe86a6462c2007438fb1802",
+          "prompt": "Theo quan điểm của Hồ Chí Minh: cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng nào?",
+          "answer": "Cách mạng vô sản"
+        },
+        "quiz-g4-09": {
+          "hash": "99637e14acbbc850e3aacc270c22a58931a0658823acb2e4bd6578c120d8471a",
+          "prompt": "Theo quan điểm của Hồ Chí Minh: cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng nào?",
+          "answer": "Cách mạng vô sản"
+        },
+        "quiz-g5-09": {
+          "hash": "61501f480200c6b83cd3730afccf86c7cfcdb2605fc162e1470496587099d8b4",
+          "prompt": "Điền cụm từ: Muốn cứu nước và giải phóng dân tộc không có con đường nào khác là con đường...",
+          "answer": "Cách mạng vô sản"
+        }
+      }
+    },
+    {
+      "keep": "lms-g3-04",
+      "remove": [
+        "azota-rnaeqk-014"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g3-04": {
+          "hash": "4fd9fef1aafb37fcc65f14e6fa56c3c87de2b4170f23f8bbfc11730e212202c4",
+          "prompt": "“Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy”. Đoạn văn trên trích từ tác phẩm nào của Hồ Chí Minh?",
+          "answer": "“Tuyên ngôn độc lập”"
+        },
+        "azota-rnaeqk-014": {
+          "hash": "ab10452441db039e633165c640e8c25959eb856896f068bb7c8066443d8a8df8",
+          "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: \"Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy\". Đoạn văn trên trích từ bài viết nào của Hồ Chí Minh?",
+          "answer": "Tuyên ngôn Độc lập."
+        }
+      }
+    },
+    {
+      "keep": "lms-g3-15",
+      "remove": [
+        "azota-rnaeqk-037",
+        "azota-3eggrt-011"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g3-15": {
+          "hash": "47947219edf8af518cd9ad37aff1ee8a25f9a97b0f7dd916fc7b700d9d6f257d",
+          "prompt": "Theo Hồ Chí Minh, động lực quyết định nhất của chủ nghĩa xã hội là gì?",
+          "answer": "Con người"
+        },
+        "azota-rnaeqk-037": {
+          "hash": "d8e2380589408be2608e2c1d3e0010f4b39de1115403fff6e4afff83e8ecf74f",
+          "prompt": "Theo Hồ Chí Minh, động lực quan trọng và bao trùm nhất để xây dựng đất nước là...",
+          "answer": "Con người"
+        },
+        "azota-3eggrt-011": {
+          "hash": "643267caee7bdbf59678b1c04931134895f4a06f1ccf661761b1c75d8cd1f2de",
+          "prompt": "Hãy cho biết động lực bao trùm của chủ nghĩa xã hội theo tư tưởng Hồ Chí Minh là gì?",
+          "answer": "Con người"
+        }
+      }
+    },
+    {
+      "keep": "lms-g4-01",
+      "remove": [
+        "quiz-g6-01"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g4-01": {
+          "hash": "bf107f0ec6676d3d0dce2a04c04fce3b41b81e83d53226bc8ebc55963884eb44",
+          "prompt": "Hồ Chí Minh có nhận định: “Trước hết phải có đảng cách mệnh, để trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp mọi nơi. Đảng có vững, cách mạng mới thành công, cũng như người cầm lái có vững thuyền mới chạy.” Nhận định này khẳng định nội dung nào sau đây?",
+          "answer": "Vai trò lãnh đạo của Đảng cộng sản"
+        },
+        "quiz-g6-01": {
+          "hash": "e8aa7de855736bf3f53c43baccbf4444df16d7a589ccd66923eb0a85f5ffaa37",
+          "prompt": "Hồ Chí Minh có nhận định: “Trước hết phải có đảng cách mệnh, để trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp mọi nơi. Đảng có vững, cách mạng mới thành công, cũng như người cầm lái có vững thuyền mới chạy” Nhận định này khẳng định nội dung nào sau đây?",
+          "answer": "Vai trò lãnh đạo của Đảng cộng sản"
+        }
+      }
+    },
+    {
+      "keep": "lms-g4-05",
+      "remove": [
+        "quiz-g6-06"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g4-05": {
+          "hash": "7399276171953a9d56e090e81c163dfdc663b4bf9fa7b2960ec10f3295f5e5a8",
+          "prompt": "Hồ Chí Minh nêu luận điểm: “Đảng muốn vững thì phải có chủ nghĩa làm cốt, trong đảng ai cũng phải hiểu, ai cũng phải tuân theo chủ nghĩa ấy. Đảng mà không có chủ nghĩa cũng như người không có trí khôn, tàu không có bàn chỉ nam” để khẳng định nội dung nào sau đây?",
+          "answer": "Đảng phải có nền tảng tư tưởng"
+        },
+        "quiz-g6-06": {
+          "hash": "4d0f81e3b638cb492bf0ec0e8cd4101446e341e867ff149c9e892885f52d93d4",
+          "prompt": "Hồ Chí Minh nêu luận điểm: “Đảng muốn vững thì phải có chủ nghĩa làm cốt, trong đảng ai cũng phải hiểu, ai cũng phải tuân theo chủ nghĩa ấy. Đảng mà không có chủ nghĩa cũng như người không có trí khôn, tàu không có bàn chỉ nam” để khẳng định nội dung nào sau đây?",
+          "answer": "Đảng phải có nền tảng tư tưởng"
+        }
+      }
+    },
+    {
+      "keep": "lms-g4-14",
+      "remove": [
+        "azota-ela4jq-048",
+        "azota-n6fnzo-034"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g4-14": {
+          "hash": "d8e287874895e88ac6b6893cbe3b3bc0cc8019740263b42c9b4d59e5711ec7a1",
+          "prompt": "Đâu là những nội dung tư tưởng của Hồ Chí Minh về nhà nước do nhân dân?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-ela4jq-048": {
+          "hash": "c85c1d1152521d867a5908928d6c85e9c1806558574ae24e1e3a4c5c114d6735",
+          "prompt": "Nhà nước do dân theo tư tưởng Hồ Chí Minh....",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-n6fnzo-034": {
+          "hash": "22f047f49cd13bc098d7e904ad6551ead4e3e7948b1b33b2527a2556502a90c4",
+          "prompt": "Đâu là những nội dung tư tưởng của Hồ Chí Minh về nhà nước do nhân dân?:",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "lms-g4-15",
+      "remove": [
+        "quiz-g6-17"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g4-15": {
+          "hash": "ac676bd2e73ca342437d0d585a777a243b263bd7d0ea6b39c2b631d59c86065a",
+          "prompt": "Đâu là quan điểm của Hồ Chí Minh về xây dựng nhà nước pháp quyền?",
+          "answer": "Nhà nước pháp quyền nhân nghĩa"
+        },
+        "quiz-g6-17": {
+          "hash": "4e6375483b222140ed0d2ca3ecea4ffd29baaeb83ed113092fef728e9d257651",
+          "prompt": "Đâu là quan điểm của Hồ Chí Minh về xây dựng nhà nước pháp quyền?",
+          "answer": "Nhà nước pháp quyền nhân nghĩa"
+        }
+      }
+    },
+    {
+      "keep": "lms-g4-18",
+      "remove": [
+        "quiz-g6-21"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g4-18": {
+          "hash": "c0e1326ea4aba65d14dabf68c3a03b7c45717390a37045c39ab921062bcccee1",
+          "prompt": "Lựa chọn quan điểm đúng nhất của Hồ Chí Minh về nhà nước trong sạch, vững mạnh trong các nội dung sau?",
+          "answer": "Phòng, chống tiêu cực trong nhà nước"
+        },
+        "quiz-g6-21": {
+          "hash": "3d9622e442c6cb66296a65dd53e8606ad61305f5236fd5f0cd46e173e3c5ff51",
+          "prompt": "Lựa chọn quan điểm đúng nhất của Hồ Chí Minh về nhà nước trong sạch, vững mạnh trong các nội dung sau?",
+          "answer": "Phòng, chống tiêu cực trong nhà nước"
+        }
+      }
+    },
+    {
+      "keep": "lms-g5-03",
+      "remove": [
+        "azota-n6fnzo-014"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g5-03": {
+          "hash": "e4e23ced80edcf758e70a9a526d8e173e23c992f4116747c309b078e2c259f8e",
+          "prompt": "Đâu là những luận điểm của Hồ Chí Minh về điều kiện để xây dựng khối đại đoàn kết toàn dân tộc?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-n6fnzo-014": {
+          "hash": "82c4c98c0f17baf96c95287c3e75d5ae0ff3b970b472476d84049dc83c27fc2f",
+          "prompt": "Đâu là các điều kiện xây dựng khối đại đoàn kết toàn dân tộc theo Hồ Chí Minh?",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "lms-g5-04",
+      "remove": [
+        "azota-n6fnzo-033"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g5-04": {
+          "hash": "0aad68ac2e0bda7cbcf52b138fabaebb19e14987b6dd86aa730c927ad984ec19",
+          "prompt": "Chọn câu trả lời đúng nhất theo tư tưởng Hồ Chí Minh về Mặt trận dân tộc thống nhất:",
+          "answer": "Mặt trận là nơi quy tụ các tổ chức và cá nhân yêu nước trong và ngoài nước"
+        },
+        "azota-n6fnzo-033": {
+          "hash": "26e607cb398f3bab14f1a63fa88cdd56d7dc19347f7cd5b2da691a5b0dc0a7ad",
+          "prompt": "Chọn câu trả lời đúng nhất theo tư tưởng Hồ Chí Minh về Mặt trận dân tộc thống nhất.:",
+          "answer": "Nơi quy tụ các tổ chức và cá nhân yêu nước trong và ngoài nước"
+        }
+      }
+    },
+    {
+      "keep": "lms-g5-06",
+      "remove": [
+        "quiz-g7-03"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g5-06": {
+          "hash": "7992075b96ef3952b81fe5234a9f2de190bff4fd29db5f872f2b50afc86309fd",
+          "prompt": "Mặt trận Việt Minh được thành lập năm nào?",
+          "answer": "1941"
+        },
+        "quiz-g7-03": {
+          "hash": "8a80c1465101bcf4b725e38257299b8dc0903edb39a749869081aaa5c957d8eb",
+          "prompt": "Mặt trận Việt Minh được thành lập năm nào?",
+          "answer": "1941"
+        }
+      }
+    },
+    {
+      "keep": "lms-g5-08",
+      "remove": [
+        "quiz-g7-05"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g5-08": {
+          "hash": "e8257a55e808dc9fb6af4d583d683ccb21fab4f2ac796c3efec038b56c94a641",
+          "prompt": "Chọn đáp án đúng nhất về sự cần thiết của đoàn kết quốc tế theo quan điểm của Hồ Chí Minh:",
+          "answer": "Nhằm kết hợp sức mạnh dân tộc với sức mạnh thời đại, tạo sức mạnh tổng hợp cho cách mạng"
+        },
+        "quiz-g7-05": {
+          "hash": "3ad1c54d80fdeb005034bf1163deb2bf029804728131d01562fafb80fa891a33",
+          "prompt": "Chọn đáp án đúng nhất về sự cần thiết của đoàn kết quốc tế theo quan điểm của Hồ Chí Minh?",
+          "answer": "Nhằm kết hợp sức mạnh dân tộc với sức mạnh thời đại, tạo sức mạnh tổng hợp cho cách mạng"
+        }
+      }
+    },
+    {
+      "keep": "lms-g5-10",
+      "remove": [
+        "quiz-g7-11"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g5-10": {
+          "hash": "6cbf10d7c870852f7502d6b3e9af9e0093f1b07f942874d681ea7978ae5ae0cb",
+          "prompt": "Lựa chọn quan điểm đúng nhất của Hồ Chí Minh về nguyên tắc đoàn kết quốc tế:",
+          "answer": "Đoàn kết trên cơ sở độc lập, tự chủ"
+        },
+        "quiz-g7-11": {
+          "hash": "17287c5d6d0e3933aecbe2b7a6148b9f2278f4cb098bf7839262d5cf080fab2a",
+          "prompt": "Lựa chọn quan điểm đúng nhất của Hồ Chí Minh về nguyên tắc đoàn kết quốc tế?",
+          "answer": "Đoàn kết trên cơ sở độc lập, tự chủ"
+        }
+      }
+    },
+    {
+      "keep": "lms-g6-01",
+      "remove": [
+        "quiz-g8-01"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g6-01": {
+          "hash": "8f010d7f55e2f1bb1ed0beb0e51325f0067a6bd773f34591c1ade562e5c00e7b",
+          "prompt": "Hồ Chí Minh đã đưa ra quan niệm về văn hóa trong thời gian nào?",
+          "answer": "1943"
+        },
+        "quiz-g8-01": {
+          "hash": "e8b188acaefd020b13bfac876ca2ace259ca32d6fd2afc334af832fd2e4b37d8",
+          "prompt": "Hồ Chí Minh đã đưa ra quan niệm nhấn mạnh về ý nghĩa của văn hóa trong thời gian nào?",
+          "answer": "1943"
+        }
+      }
+    },
+    {
+      "keep": "lms-g6-02",
+      "remove": [
+        "quiz-g8-09"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g6-02": {
+          "hash": "a02fe87a6061aeb53efc47b1b50de30c0ab366dcd63c470263e2ff864462f76f",
+          "prompt": "Theo quan điểm của Hồ Chí Minh, văn hóa có mối quan hệ như thế nào với chính trị?",
+          "answer": "Văn hóa ở trong chính trị"
+        },
+        "quiz-g8-09": {
+          "hash": "b5e149c9d0d04535565306ca1fd185fb329521bd4f16d50a3e52377b9aaf7c5c",
+          "prompt": "Theo quan điểm của Hồ Chí Minh, văn hóa có mối quan hệ như thế nào với chính trị?",
+          "answer": "Văn hóa ở trong chính trị"
+        }
+      }
+    },
+    {
+      "keep": "lms-g6-03",
+      "remove": [
+        "quiz-g8-08"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g6-03": {
+          "hash": "98d7fcaf5e10727b416c2a67718394be301a6d49dc70ae1b70d637fed4cdd766",
+          "prompt": "Theo quan điểm của Hồ Chí Minh, văn hóa có mối quan hệ như thế nào với kinh tế?",
+          "answer": "Văn hóa tác động tích cực trở lại kinh tế"
+        },
+        "quiz-g8-08": {
+          "hash": "da7376f3049f290e1b40cd48b22e78a06de800802904d65854d32304af2e1807",
+          "prompt": "Theo quan điểm của Hồ Chí Minh, văn hóa có mối quan hệ như thế nào với kinh tế?",
+          "answer": "Văn hóa tác động tích cực trở lại kinh tế"
+        }
+      }
+    },
+    {
+      "keep": "lms-g6-09",
+      "remove": [
+        "azota-3eggrt-015",
+        "azota-3eggrt-038",
+        "azota-3eggrt-056"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "lms-g6-09": {
+          "hash": "d31683fb35c11511728313d9baf1e6febccbc3321dd9edce44e90f34a27240d8",
+          "prompt": "Đâu là nội dung trong tư tưởng Hồ Chí Minh về những nguyên tắc xây dựng đạo đức cách mạng?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-3eggrt-015": {
+          "hash": "ae7d05dad4419546cd40bc9b4e2b57efd07f23de91890b2cf2e5b93df5b0507a",
+          "prompt": "Nguyên tắc cơ bản để xây dựng nền đạo đức mới theo tư tưởng Hồ Chí Minh là gì?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-3eggrt-038": {
+          "hash": "1c871d8fdf9564239a870177261453a0aeb334dd0720561fbfc2a53853c3085f",
+          "prompt": "Theo Hồ Chí Minh, muốn xây dựng đạo đức mới phải...",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-3eggrt-056": {
+          "hash": "931256102db4c3f2583b2bf52ee43cd2140405eb35f97d2d7e5d0b73c0253db1",
+          "prompt": "Theo Hồ Chí Minh, muốn xây dựng đạo đức mới phải:",
+          "answer": "Nói đi đôi với làm; xây đi đôi với chống; phải tu dưỡng đạo đức suốt đời"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g2-01",
+      "remove": [
+        "quiz-g3-01"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g2-01": {
+          "hash": "30c2b1ab92e45497807806e3522ff8eb3a8dc0710a9518dfb78b68389243e03b",
+          "prompt": "Thực dân Pháp nổ súng xâm lược nước ta thời gian nào?",
+          "answer": "1/9/1858"
+        },
+        "quiz-g3-01": {
+          "hash": "1870dc1d86b93d7e63514dd711ecbde00cbb14d3f9a80e33bd4034b7c7a697a8",
+          "prompt": "Thực dân Pháp chính thức nổ súng xâm được Việt Nam vào thời gian nào?",
+          "answer": "1-9-1858"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g2-03",
+      "remove": [
+        "quiz-g3-05"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g2-03": {
+          "hash": "66fc736503fcae320f48a5e51586bb5f258b94227d6c11eb67cbaa7347ce17d0",
+          "prompt": "Phong trào Đông Du do ai lãnh đạo?",
+          "answer": "Phan Bội Châu"
+        },
+        "quiz-g3-05": {
+          "hash": "be0500ba08a0a57c04e45780c3e47725233617a04fb02e4222b9350893f8d676",
+          "prompt": "Phong trào Đông Du do ai khởi xướng?",
+          "answer": "Phan Bội Châu"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g3-12",
+      "remove": [
+        "azota-e9lwce-033"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g3-12": {
+          "hash": "eaf75d15f92e5b660f8923ca9c0c1c70f6afaf1267fc70d7c7830f7bbdc566de",
+          "prompt": "Trong các tiền đề lý luận, đâu là tiền đề quan trọng nhất, có vai trò quyết định đối với việc hình thành tư tưởng Hồ Chí Minh?",
+          "answer": "Chủ nghĩa Mác - Lênin"
+        },
+        "azota-e9lwce-033": {
+          "hash": "f7a6d5201f3d5b19cf8e4b88d27d35a2178ef73b4c68482f28eb361341509c1e",
+          "prompt": "Trong những tiền đề tư tưởng – lý luận, tiền đề nào quyết định bản chất cách mạng và khoa học của tư tưởng Hồ Chí Minh?",
+          "answer": "Chủ nghĩa Mác – Lênin"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g4-02",
+      "remove": [
+        "azota-e9lwce-032"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g4-02": {
+          "hash": "7450bbd7a7d006c4748f2d74836fb96c78b16b1ebbb43f8694c3911f586d1178",
+          "prompt": "Thời kỳ hình thành tư tưởng yêu nước và chí hướng tìm đường cứu nước mời, là thời kỳ?",
+          "answer": "Trước năm 1911"
+        },
+        "azota-e9lwce-032": {
+          "hash": "b591513e4fe2b182acf869c86b5dc98867af32e2bb5e0b542432f5a0a4cc3d29",
+          "prompt": "Giai đoạn hình thành Tư tưởng yêu nước, thương nòi của Nguyễn Ái Quốc được tính từ...",
+          "answer": "Trước năm 1911"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g4-05",
+      "remove": [
+        "azota-e9lwce-049"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g4-05": {
+          "hash": "badb61d3d39f237a830a2edd0ff344fd1874481d05ea432200983333c36a9c58",
+          "prompt": "Khoảng thời gian nào đánh dấu thời kỳ hình thành những nội dung cơ bản về tư tưởng cách mạng Việt Nam trong quá trình hình thành và phát triển tư tưởng Hồ Chí Minh?",
+          "answer": "1920-1930"
+        },
+        "azota-e9lwce-049": {
+          "hash": "669b4ca5cef2075a9428914c4cd49ae2580ed702b647b5bc387973cf906f597e",
+          "prompt": "Giai đoạn hình thành cơ bản Tư tưởng về cách mạng Việt Nam của Nguyễn Ái Quốc được tính từ...",
+          "answer": "1920 → 1930"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g4-10",
+      "remove": [
+        "azota-ela4jq-031"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g4-10": {
+          "hash": "724e517a34b24aff09e2884ba03a4a942101916db21a0c57949a4d02f58ee712",
+          "prompt": "Khi chủ trì Hội nghị thành lập Đảng đầu năm 1930, Hồ Chí Minh hoạt động với tên nào?",
+          "answer": "Nguyễn Ái Quốc"
+        },
+        "azota-ela4jq-031": {
+          "hash": "ea87a17d805f4fb925fdaadb354b5adab8a23debd8c15b5699a47e068f508d80",
+          "prompt": "Ai là người chủ trì Hội nghị thành lập Đảng Cộng sản Việt Nam?",
+          "answer": "Nguyễn Ái Quốc"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g4-13",
+      "remove": [
+        "azota-e9lwce-061"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g4-13": {
+          "hash": "ea817b6ce93879784ca1ad2c55eff397a45cc2de60b3b5c580866ac5edfc3211",
+          "prompt": "Nguyễn Ái Quốc đã thay mặt những người Việt Nam yêu nước ở Pháp, gửi bản Yêu sách của nhân dân An Nam tới Hội nghị Vécxây, vào thời gian nào?",
+          "answer": "18-6-1919"
+        },
+        "azota-e9lwce-061": {
+          "hash": "2272b7cf662a20395b229dd2703dd937c303c7a527714be1b5f1e6530297345f",
+          "prompt": "Nguyễn Ái quốc gửi bản “Yêu sách của nhân dân Việt Nam” tới Hội nghị Vécxay vào ngày, tháng, năm nào?",
+          "answer": "18/6/1919"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g4-14",
+      "remove": [
+        "azota-e9lwce-044"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g4-14": {
+          "hash": "e4fc1f52f8d9efb96e1291a6c3844453973f0f23142d5b40dd2311258c6b8cd3",
+          "prompt": "Hồ Chí Minh đã tìm thấy Bản sơ thảo lần thứ nhất những luận cương về vấn đề thuộc địa của Lênin, khi nào?",
+          "answer": "7/1920"
+        },
+        "azota-e9lwce-044": {
+          "hash": "a6158870e6607459c5a382badc0011d044e48abed7047b7fca4bb9379050d051",
+          "prompt": "Nguyễn Ái Quốc đọc “Sơ thảo lần thứ nhất về vấn đề dân tộc và thuộc địa của Lênin vào thời gian nào?",
+          "answer": "7/1920"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g6-03",
+      "remove": [
+        "azota-rnaeqk-111"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g6-03": {
+          "hash": "1585a4fdbddc8a96e326ce3ceed55900ee90a7ba3430461b1dc2b6eeefd5be8a",
+          "prompt": "Theo tư tưởng Hồ Chí Minh, nội dung nào sau đây là vai trò của Đảng Cộng sản trong cách mạng giải phóng dân tộc trong thời đại mới?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-rnaeqk-111": {
+          "hash": "d1ad2201a731565b9ff5ffa61c9822873edc9732c5f55c8e391e366b82dcc6bb",
+          "prompt": "Chọn đáp án trả lời đúng nhất: Cách mạng giải phóng dân tộc trong thời đại mới phải do Đảng Cộng sản lãnh đạo, để...",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "quiz-g6-16",
+      "remove": [
+        "azota-ela4jq-024",
+        "azota-ela4jq-068"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "quiz-g6-16": {
+          "hash": "1f693ce8a583f79eb66a95e55d8dcba87a7772b65a0bc35aadf54c86bfb44e8a",
+          "prompt": "Đâu là những nội dung tư tưởng chủ yếu của Hồ Chí Minh về nhà nước vì nhân dân?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-ela4jq-024": {
+          "hash": "86587a6f9ecdb5dc9a9bf81f835666adedaf3877666f194dfe156e13c97af566",
+          "prompt": "Hồ Chí Minh nêu quan điểm nhà nước vì dân là:",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-ela4jq-068": {
+          "hash": "7661bf0f19d0a158f6be4fb2941dbeb2adf86f09f1557d93a5399ab04462dbd4",
+          "prompt": "Nhà nước vì dân theo Tư tưởng Hồ Chí Minh là...",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "sample-g1-08",
+      "remove": [
+        "azota-rnaeqk-035"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "sample-g1-08": {
+          "hash": "cd1dd9f1d22b4339430acbda3b291322074f2a07899be62d5c0538d7689e39f6",
+          "prompt": "Theo Hồ Chí Minh, ai \"là người đầu tiên đặt cơ sở cho một thời đại mới, thật sự cách mạng trong các nước thuộc địa\"?",
+          "answer": "V.I.Lênin"
+        },
+        "azota-rnaeqk-035": {
+          "hash": "b4146b46d4b5c70d895907b509e7521a966d799ede4b324ded4ba1c8e6e5fe31",
+          "prompt": "Theo Hồ Chí Minh, ai là người đầu tiên đã đặt cơ sở cho một thời đại mới, thật sự cách mạng trong các nước thuộc địa...",
+          "answer": "V.I. Lênin"
+        }
+      }
+    },
+    {
+      "keep": "sample-g1-13",
+      "remove": [
+        "azota-rnaeqk-070"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "sample-g1-13": {
+          "hash": "4aa8cccf90c65508c185a0d05ce018af252b6308bad604f17370d45b84e52fd0",
+          "prompt": "Tìm luận điểm không đúng với tư tưởng Hồ Chí Minh:",
+          "answer": "Công nghiệp hóa phải bắt đầu từ xây dựng và phát triển công nghiệp nặng."
+        },
+        "azota-rnaeqk-070": {
+          "hash": "12785c6a8752d9ee2360b3cb1427fa9c923fa95ae35a5a15b2421de1ee693fc0",
+          "prompt": "Tìm luận điểm KHÔNG đúng với tư tưởng Hồ Chí Minh:",
+          "answer": "Công ngiệp hóa phải bắt đầu từ xây dựng và phát trển công nghiệp nặng"
+        }
+      }
+    },
+    {
+      "keep": "sample-g1-14",
+      "remove": [
+        "azota-rnaeqk-026",
+        "azota-rnaeqk-047"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "sample-g1-14": {
+          "hash": "e506ae3bf630eedae2805864d6f8b437005b26e32a544f6b388c61efe35d3b73",
+          "prompt": "Theo Hồ Chí Minh, biện pháp nào quan trọng nhất trong xây dựng chủ nghĩa xã hội?",
+          "answer": "Huy động các nguồn lực sẵn có trong dân."
+        },
+        "azota-rnaeqk-026": {
+          "hash": "eb7487976a0c7b042ba6a44a45bb2907ebe3a89651acae99c3745c6b251281ac",
+          "prompt": "Theo Hồ Chí Minh, biện pháp nào quan trọng nhất trong xây dựng chủ nghĩa xã hội?",
+          "answer": "Huy động các nguồn lực sẵn có trong dân"
+        },
+        "azota-rnaeqk-047": {
+          "hash": "3442484533aadfd22da01f90c7f14309b4c29b1c2f187d06f936c925d444d555",
+          "prompt": "Theo Hồ Chí Minh, biện pháp quan trọng nhất trong xây dựng chủ nghĩa xã hội là gì?",
+          "answer": "Huy động các nguồn lực sẵn có trong dân"
+        }
+      }
+    },
+    {
+      "keep": "sample-g1-18",
+      "remove": [
+        "azota-3eggrt-036"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "sample-g1-18": {
+          "hash": "590737496cd4b17c8bcc988f6359722585de81de96dd3d361782bbd70b5d13b2",
+          "prompt": "Tác phẩm đầu tiên Hồ Chí Minh đề cập đến đạo đức cách mạng?",
+          "answer": "Đường Kách mệnh."
+        },
+        "azota-3eggrt-036": {
+          "hash": "40196cbcd2ace723ccbd945cc8499381e33d6fd9df0f86fc2a00947ec67070fb",
+          "prompt": "Hãy cho biết tác phẩm đầu tiên của Hồ Chí Minh đề cập đến đạo đức cách mạng.",
+          "answer": "Đường Kách mệnh"
+        }
+      }
+    },
+    {
+      "keep": "azota-e9lwce-001",
+      "remove": [
+        "azota-e9lwce-065"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-e9lwce-001": {
+          "hash": "47d2702f34035709adb3b1c5b99d23e09ab65a5d06167f4e9e304a543a5ff020",
+          "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Tháng 7/1920, Hồ Chí Minh đọc tác phẩm ... của Lênin.",
+          "answer": "Sơ thảo lần thứ nhất về các vấn đề dân tộc và thuộc địa"
+        },
+        "azota-e9lwce-065": {
+          "hash": "2f434cbd6807adab2372032666823d1e4f5b4d3c0306132e19050ecf59da1f3b",
+          "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Tháng 7/1920, Hồ Chí Minh đọc tác phẩm ... của Lênin",
+          "answer": "Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa"
+        }
+      }
+    },
+    {
+      "keep": "azota-e9lwce-024",
+      "remove": [
+        "azota-e9lwce-048"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-e9lwce-024": {
+          "hash": "2c16ca5182dafa2f33203257c352fe15267139b0e1550be80cf6ed9d42257ec4",
+          "prompt": "Chọn từ điền vào chỗ trống để hoàn thiện câu: Văn kiện Đại hội XI của Đảng chỉ rõ: Tư tưởng Hồ Chí Minh... cho cuộc đấu tranh của nhân dân ta giành thắng lợi, là ...to lớn của Đảng và của dân tộc ta.",
+          "answer": "Soi đường; tài sản tinh thần"
+        },
+        "azota-e9lwce-048": {
+          "hash": "ea3efda457b826eb84107d3269a4581c526bdd6337bc435060dc4a1a00b84370",
+          "prompt": "Chọn từ điền vào chỗ trống để hoàn thiện câu: Văn kiện Đại hội XI của Đảng đã chỉ rõ: Tư tưởng Hồ Chí Minh... cho cuộc đấu tranh của nhân dân ta giành thắng lợi, là ... to lớn của Đảng và của dân tộc ta.",
+          "answer": "Soi đường; tài sản tinh thần"
+        }
+      }
+    },
+    {
+      "keep": "azota-e9lwce-025",
+      "remove": [
+        "azota-rnaeqk-117"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-e9lwce-025": {
+          "hash": "fa181e755b01e196dd65c5de3998e507d1fa2e7d63d83d98c61c3301e43e0f80",
+          "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Theo Hồ Chí Minh, “Muốn cứu nước và ... không có con đường nào khác con đường...\"",
+          "answer": "Giải phóng dân tộc; cách mạng vô sản"
+        },
+        "azota-rnaeqk-117": {
+          "hash": "9ba3f3720114cf57bc9568fcac14b651b3bc3f7439cfec612f38f9646dcdfa27",
+          "prompt": "Chọn cụm từ đúng điền vào chỗ trống: Theo Hồ Chí Minh, “Muốn cứu nước và ... không có con đường nào khác con đường...\"",
+          "answer": "Giải phóng dân tộc; cách mạng vô sản"
+        }
+      }
+    },
+    {
+      "keep": "azota-e9lwce-031",
+      "remove": [
+        "azota-ela4jq-054"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-e9lwce-031": {
+          "hash": "f40b390c0ed7e320d5bae7b17962d5127ac3246d85da3501ec87a04086c1c265",
+          "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Truyền thống quý báu nhất của dân tộc Việt Nam được Hồ Chí Minh kế thừa và phát triển là gì?",
+          "answer": "Chủ nghĩa yêu nước"
+        },
+        "azota-ela4jq-054": {
+          "hash": "4aa92f1121b35f1c43898b25da3b4bde030afca3cac71b8a57afac4a89779666",
+          "prompt": "Chọn câu trả lời đúng nhất: Truyền thống quý báu nhất của dân tộc Việt Nam được Hồ Chí Minh kế thừa và phát triển là gì?",
+          "answer": "Chủ nghĩa yêu nước"
+        }
+      }
+    },
+    {
+      "keep": "azota-e9lwce-034",
+      "remove": [
+        "azota-rnaeqk-137"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-e9lwce-034": {
+          "hash": "435abe772519d58be213257b49c498582354a8fe0bb02459adae6b1b9206d324",
+          "prompt": "Hồ Chí Minh viết: “Tất cả các dân tộc trên thế giới sinh ra đều bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do”. Câu này được trích trong tác phẩm nào?",
+          "answer": "Tuyên ngôn đọc lập"
+        },
+        "azota-rnaeqk-137": {
+          "hash": "d2d100a9b326a23789ab443c59f88439b576d1b9a0345841d45af8153d09bad7",
+          "prompt": "“Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do”. Câu nói được trích từ tác phẩm nào của Hồ Chí Minh?",
+          "answer": "Tuyên ngôn độc lập"
+        }
+      }
+    },
+    {
+      "keep": "azota-e9lwce-050",
+      "remove": [
+        "azota-ijqzcg-031",
+        "azota-ijqzcg-041"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-e9lwce-050": {
+          "hash": "53fbb713aace1f7744470d096926717c88c37e2931461102ab22e97bb28960dd",
+          "prompt": "Chọn đáp án đúng nhất: Cơ sở hình thành tư tưởng Hồ Chí Minh về đại đoàn kết dân tộc là...",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-ijqzcg-031": {
+          "hash": "f6a30555b7078d48acf40085d6dd5a8f3987dab8a4160885e41b87f39862c1b2",
+          "prompt": "Tư tưởng đại đoàn kết dân tộc của Hồ Chí Minh được hình thành dựa trên cơ sở:",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-ijqzcg-041": {
+          "hash": "90a56dc9de2ec1c82cdc5c5cf2502cd941ccc54f4febc55c9ee4483f83ae9f08",
+          "prompt": "Tư tưởng đại đoàn kết dân tộc của Hồ Chí Minh hình thành trên cơ sở...",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "azota-e9lwce-062",
+      "remove": [
+        "azota-rnaeqk-101"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-e9lwce-062": {
+          "hash": "2f08d240e834bf5de7e5c8abd5c8edadb3b9a44a77c40a3232ec8e133433609c",
+          "prompt": "Chọn câu trả lời đúng nhất: Mục đích tư tưởng Hồ Chí Minh là gì?",
+          "answer": "Giải phóng dân tộc, giải phóng giai cấp và giải phóng con người"
+        },
+        "azota-rnaeqk-101": {
+          "hash": "5ed77b450acef1dd5ba37acfc4aa9668985d5d94376a81eef2fdbab227d4586a",
+          "prompt": "Mục đích của Tư tưởng Hồ Chí Minh là...",
+          "answer": "Giải phóng dân tộc, giải phóng giai cấp và giải phóng con người"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-007",
+      "remove": [
+        "azota-rnaeqk-121"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-007": {
+          "hash": "431fa53516dad91e0803e162c7aedfff2dba6de63dcef124032693fb589aee9d",
+          "prompt": "Trong chế độ xã hội chủ nghĩa, theo Hồ Chí Minh: “Chủ nghĩa xã hội là lấy nhà máy, xe lửa, ngân hàng làm ... ».",
+          "answer": "Của chung"
+        },
+        "azota-rnaeqk-121": {
+          "hash": "1ad29b8b54bf1573a93dad4ca51d4b54125f6c6ac6a30455fb1a30aa320217f0",
+          "prompt": "Trong chế độ xã hội chủ nghĩa, theo Hồ Chí Minh: “Chủ nghĩa xã hội là lấy nhà máy, xe lửa, ngân hàng làm...",
+          "answer": "Của chung"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-008",
+      "remove": [
+        "azota-rnaeqk-066"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-008": {
+          "hash": "322e8bf9fe282d4ca90a7eee21cf700ed407d9e3ffb2ce63801e0b92af0e5bc1",
+          "prompt": "Trong Tư tưởng Hồ Chí Minh, nhiệm vụ hàng đầu, trên hết, trước hết của cách mạng Việt Nam là:",
+          "answer": "Giải phóng dân tộc"
+        },
+        "azota-rnaeqk-066": {
+          "hash": "a7360944053918b0993e60ae32b3c851b4255648c58f4399e714d82003fa9a15",
+          "prompt": "Trong tư tưởng Hồ Chí Minh về giải phóng dân tộc, giải phóng giai cấp, giải phóng con người. Hồ Chí Minh đặt lên hàng đầu nhiệm vụ gì?",
+          "answer": "Giải phóng dân tộc"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-010",
+      "remove": [
+        "azota-rnaeqk-109"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-010": {
+          "hash": "739df525e1b2d1ee7cda47f562b4d4ad643840fc1836692a0331f75c83e3f8cc",
+          "prompt": "Chọn phương án đúng nhất: Nội dung cốt lõi của Tư tưởng Hồ Chí Minh là...",
+          "answer": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội"
+        },
+        "azota-rnaeqk-109": {
+          "hash": "76ba4276b0a62d962799d151e9a58a28bec037fecf75c9fe96657f527a010b65",
+          "prompt": "Chọn phương án đúng nhất: Nội dung cốt lõi của Tư tưởng Hồ Chí Minh là...",
+          "answer": "Độc lập dân tộc gắn liền với CNXH"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-011",
+      "remove": [
+        "azota-rnaeqk-041"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-011": {
+          "hash": "c42cc5f040a72c7aed6e81dd45196297c67a3f3503b254c419283f15bae0ed76",
+          "prompt": "Kiên trì con đường Hồ Chí Minh đã lựa chọn nghĩa là...",
+          "answer": "Thực hiện mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội"
+        },
+        "azota-rnaeqk-041": {
+          "hash": "d6f0d653e22ae6d4482e0e5f7ac80d129f8386c8fde08becc386bc655cb05657",
+          "prompt": "Chọn đáp án đúng nhất: Kiên trì con đường Hồ Chí Minh đã lựa chọn nghĩa là:",
+          "answer": "Thực hiện mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-016",
+      "remove": [
+        "azota-rnaeqk-049"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-016": {
+          "hash": "3b95894f216661d24795165bab4c962027d35839e7f8b08a84f2c0859992b3fc",
+          "prompt": "Chọn đáp án đúng nhất: Những câu sau đây, câu nào là của Hồ Chí Minh?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-rnaeqk-049": {
+          "hash": "6d1e41073ae23ecab6bbc8f108efdf2cf34275903d5f991d59189c01789dba75",
+          "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Những câu sau đây, câu nào là của Hồ Chí Minh?",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-017",
+      "remove": [
+        "azota-rnaeqk-034",
+        "azota-rnaeqk-052"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-017": {
+          "hash": "58867c5878fc7982ec87f78e7db1e75007fc51f57a1a33b847ab72938c24d9a0",
+          "prompt": "Chọn đáp án đúng nhất: Những trở lực kìm hãm sự phát triển của CNXH là...",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-rnaeqk-034": {
+          "hash": "db069219e825d23a3416962ceddcd8635aea84262158327cf9ba22d1b525653d",
+          "prompt": "Muốn phát huy động lực của chủ nghĩa xã hội, theo Hồ Chí Minh cần phải chống?",
+          "answer": "Chủ nghĩa cá nhân; tham ô, lãng phí, quan liêu; chia rẽ, bè phái, vô kỷ luật"
+        },
+        "azota-rnaeqk-052": {
+          "hash": "afaaa94a1c8f89380437b4848d30adb41e57f1074804cb7cb20fbcb149de3c6a",
+          "prompt": "Muốn phát huy động lực của chủ nghĩa xã hội, theo Hồ Chí Minh cần phải chống...",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-021",
+      "remove": [
+        "azota-rnaeqk-131"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-021": {
+          "hash": "d0e4f3e2ebf8f7a61946a6a71b7d8439109bcb33607d0b107d5f64961d2d6072",
+          "prompt": "Chọn đáp án đúng nhất: Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 được khai mạc ngày 10 – 5 – 1941 do ai làm chủ tọa?",
+          "answer": "Nguyễn Ái Quốc"
+        },
+        "azota-rnaeqk-131": {
+          "hash": "afbf08c469d8ff17ecfe6f83b28bda7765caf082450b0c338834c107371870fa",
+          "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 được khai mạc ngày 10 – 5 – 1941 do ai làm chủ tọa?",
+          "answer": "Nguyễn Ái Quốc"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-027",
+      "remove": [
+        "azota-rnaeqk-124"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-027": {
+          "hash": "9f8a2a7757529c5b493e46144c594efb78d2400c4f0faeccdbde48bf1fddacb5",
+          "prompt": "Hồ Chí Minh nói: “Chủ nghĩa xã hội cộng với khoa học sẽ đưa loài người đến ....”. Hãy điền vào chỗ trống để hoàn thiện câu trên.",
+          "answer": "Hạnh phúc vô tận"
+        },
+        "azota-rnaeqk-124": {
+          "hash": "9731bda0c3919556a42b31e740460ecdf5a0c7d855d788e00c47406a3658d964",
+          "prompt": "Hồ Chí Minh đã khẳng định: “Chủ nghĩa xã hội cộng với khoa học sẽ đưa loài người đến ....”. Hãy điền vào chỗ trống để hoàn thiện câu trên.",
+          "answer": "Hạnh phúc vô tận"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-031",
+      "remove": [
+        "azota-3eggrt-028"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-031": {
+          "hash": "3b055f11417f574129f58067f89d23cf37cb625a24e76651a6825d9bf5118384",
+          "prompt": "Theo Hồ Chí Minh, ai làm chủ chế độ xã hội chủ nghĩa?",
+          "answer": "Nhân dân"
+        },
+        "azota-3eggrt-028": {
+          "hash": "06a9fac5d745690715027e55bf6b625adb9dc446485bcb38e06d612c237138a8",
+          "prompt": "Theo Hồ Chí Minh, ai làm chủ chế độ xã hội chủ nghĩa?",
+          "answer": "Nhân dân"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-042",
+      "remove": [
+        "azota-rnaeqk-127"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-042": {
+          "hash": "1c8497a748806c4dd0c6e027a10e17c6a446bae55c04add2a0f8c842883975ae",
+          "prompt": "Theo Hồ Chí Minh, chủ nghĩa cộng sản dễ thích ứng ở đâu hơn?",
+          "answer": "Ở các nước châu Á, phương Đông"
+        },
+        "azota-rnaeqk-127": {
+          "hash": "1bdc320a493e7e6f843d30e78d793f44ba8adbade8e208ef7f88ea38a16c206a",
+          "prompt": "Chọn đáp án trả lời đúng cho câu hỏi: Theo Hồ Chí Minh, chủ nghĩa cộng sản thích ứng ở đâu dễ hơn?",
+          "answer": "Ở các nước châu Á, phương Đông"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-051",
+      "remove": [
+        "azota-ela4jq-008"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-051": {
+          "hash": "a5536d305c8236047156ff92fd2adac8cbb4d24882f6a4c41fc2100685b9ed20",
+          "prompt": "Luận điểm: “Cách mệnh trước hết phải có cái gì? Trước hết phải có đảng cách mệnh, để trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp mọi nơi. Đảng có vững cách mệnh mới thành công, cũng như người cầm lái có vững thuyền mới chạy” được trích từ tác phẩm nào của Hồ Chí Minh?",
+          "answer": "Đường Cách mệnh"
+        },
+        "azota-ela4jq-008": {
+          "hash": "22b0bee88bb867d0793c3e2e92d360610bef152ebefd312f1f3aa0daecd3db4d",
+          "prompt": "“Đảng có vững cách mệnh mới thành công, cũng như người cầm lái có vững thuyền mới chạy”. Câu trên trích từ tác phẩm nào của Hồ Chí Minh?",
+          "answer": "Đường cách mệnh"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-054",
+      "remove": [
+        "azota-rnaeqk-084"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-054": {
+          "hash": "5081b93983c148660b75d7f86368ddee10eab8718dedf898c213d5908621202d",
+          "prompt": "Hồ Chí Minh là người đấu tranh đòi quyền độc lập cho:",
+          "answer": "Dân tộc Việt Nam và tất cả các dân tộc bị áp bức trên thế giới"
+        },
+        "azota-rnaeqk-084": {
+          "hash": "11f5a0a92b69e015f4323d373e6f8aa5be22226bf84f5264052d1ab0f798d222",
+          "prompt": "Hồ Chí Minh là người đấu tranh đòi quyền độc lập cho:",
+          "answer": "Dân tộc Việt Nam và tất cả các dân tộc bị áp bức trên thế giới"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-139",
+      "remove": [
+        "azota-rnaeqk-056",
+        "azota-rnaeqk-076",
+        "azota-rnaeqk-142"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-056": {
+          "hash": "211bf17af853eae1a5d78bc684414495deaed33e5650a516ccc13a94a6efcdee",
+          "prompt": "Thực chất của vấn đề dân tộc thuộc địa trong tư tưởng Hồ Chí Minh là...",
+          "answer": "Đấu tranh giải phóng dân tộc, thành lập nhà nước dân tộc đọc lập, trong đó nhân dân là chủ thể tối cao của quyền lực nhà nước"
+        },
+        "azota-rnaeqk-076": {
+          "hash": "74d6d0bee4dcf97c579efcb14e59b901a9d4c6725e372f45425cf4a1da155cd3",
+          "prompt": "Thực chất vấn đề dân tộc trong tư tưởng Hồ Chí Minh?",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-rnaeqk-139": {
+          "hash": "e3da8f1d89cbba40c3ace66c8a3fcfb8763d4df87486691a178a6b0a4b7e1746",
+          "prompt": "Thực chất vấn đề dân tộc thuộc địa trong Tư tưởng Hồ Chí Minh là:",
+          "answer": "Đấu tranh giải phóng dân tộc khỏi sự áp bức, thống trị của nước ngoài, giành độc lập dân tộc, thành lập nhà nước dân tộc độc lập, và đưa đất nước phát triển theo xu thế thời đại"
+        },
+        "azota-rnaeqk-142": {
+          "hash": "abfa477e51ef3a9a86891508c3632330de51fccd61f7268d5c097700f25996e2",
+          "prompt": "Thực chất của vấn đề dân tộc thuộc địa trong tư tưởng Hồ Chí Minh là gì?",
+          "answer": "Đấu tranh giải phóng dân tộc, thành lập nhà nước dân tộc độc lập, trong đó nhân dân là chủ thể tối cao của quyền lực nhà nước"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-058",
+      "remove": [
+        "azota-rnaeqk-089"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-058": {
+          "hash": "4c7589875ee7c48f46d9d3555c3acf443b8617b3fc4d3833a3ca668260994bdc",
+          "prompt": "Theo Tư tưởng Hồ Chí Minh, chế độ chính trị mà chúng ta xây dựng là chế độ...",
+          "answer": "Do nhân dân làm chủ"
+        },
+        "azota-rnaeqk-089": {
+          "hash": "81812c417c2f6bb922124efb23b6aa1234ce24301b4e9ff028501589e30d6aea",
+          "prompt": "Theo Hồ Chí Minh, chế độ chính trị mà chúng ta xây dựng là chế độ...",
+          "answer": "Do nhân dân làm chủ"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-059",
+      "remove": [
+        "azota-rnaeqk-074"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-059": {
+          "hash": "f59d7497f7bf5c686e9026253a38bdeabc830c305f50162b5f1ff89667396a32",
+          "prompt": "Theo Hồ Chí Minh, nền kinh tế mà chúng ta xây dựng phải được tạo lập trên cơ sở:",
+          "answer": "Chế độ công hữu về tư liệu sản xuất"
+        },
+        "azota-rnaeqk-074": {
+          "hash": "2e85e261f55d2c82621e93933850a0b9d16429d79a3fd654dc42e0f8d5599820",
+          "prompt": "Theo Hồ Chí Minh, nền kinh tế mà chúng ta xây dựng phải được tạo lập trên cơ sở:",
+          "answer": "Chế độ công hữu về tư liệu sản xuất"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-061",
+      "remove": [
+        "azota-rnaeqk-085"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-061": {
+          "hash": "d8b342d38365a23ac75635b4746d85332af2adb99207c104fd3194e825ee0dc8",
+          "prompt": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc muốn thắng lợi phải:",
+          "answer": "Có Đảng của giai cấp công nhân lãnh đạo"
+        },
+        "azota-rnaeqk-085": {
+          "hash": "9190630b646578e4280d0f99fc9a7efafc62d175caff0f25576d84508212d27b",
+          "prompt": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc muốn thắng lợi phải:",
+          "answer": "Có Đảng của giai cấp công nhân lãnh đạo"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-079",
+      "remove": [
+        "azota-ela4jq-049"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-079": {
+          "hash": "180a8c4b89395e47e8a460c9984107f9a5247b04270dcff6e120470e0f71e342",
+          "prompt": "Theo Hồ Chí Minh, nhân tố chủ quan quyết định hàng đầu để đưa cách mạng Việt Nam đến thắng lợi là:",
+          "answer": "Phải có Đảng cộng sản"
+        },
+        "azota-ela4jq-049": {
+          "hash": "1d9c3509071da1bf31019ada87492bc8559ad13e54c8a046a1f697e2f363b148",
+          "prompt": "Theo Hồ Chí Minh, nhân tố quyết định hàng đầu để đưa cách mạng Việt Nam đi đến thắng lợi là:",
+          "answer": "Sự lãnh đạo của Đảng"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-108",
+      "remove": [
+        "azota-ela4jq-055"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-108": {
+          "hash": "e6a1a81d075c6947814a113ba7806c0f4ad7b183d28786a6c5365b5b014310cc",
+          "prompt": "Tháng 2/1930, Bác chủ trì Hội nghị hợp nhất các tổ chức cộng sản trong nước để thành lập tổ chức chính trị nào?",
+          "answer": "Đảng cộng sản Việt Nam"
+        },
+        "azota-ela4jq-055": {
+          "hash": "e46591f8dedcfc28bbb899129d5e9134bac3cd312dd219fc9f5bd37f0bba99a7",
+          "prompt": "Tháng 2/1930, Nguyễn Ái Quốc đã chủ trì Hội nghị hợp nhất các tổ chức cộng sản trong nước để thành lập tổ chức chính trị nào?",
+          "answer": "Đảng cộng sản Việt Nam"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-112",
+      "remove": [
+        "azota-rnaeqk-113"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-112": {
+          "hash": "eb35e728883f54f80bc6a83f11ad9b9e2612cf7c5d77de374c240460e5841544",
+          "prompt": "Chọn phương án đúng nhất: Theo Hồ chí Minh, độc lập, tự do là:",
+          "answer": "Quyền thiêng liêng và bất khả xâm phạm của tất cả các dân tộc"
+        },
+        "azota-rnaeqk-113": {
+          "hash": "fbc3ea70aec84cd95d39ac9c707c0dfa75929c965645b1e60700557b0388de27",
+          "prompt": "Chọn phương án đúng nhất: Theo tư tưởng Hồ Chí Minh độc lập tự do là...",
+          "answer": "Quyền thiêng liêng và bất khả xâm phạm của tất cả các dân tộc"
+        }
+      }
+    },
+    {
+      "keep": "azota-rnaeqk-114",
+      "remove": [
+        "azota-rnaeqk-118"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-rnaeqk-114": {
+          "hash": "2fe119cd44e72856160c40c09953347200f0da5622ae3a6936af5dd1e93f7430",
+          "prompt": "Theo Hồ Chí Minh, muốn xây dựng chủ nghĩa xã hội, trước hết cần có cái gì?",
+          "answer": "Con người xã hội chủ nghĩa"
+        },
+        "azota-rnaeqk-118": {
+          "hash": "078edf4c01748b6d6fd0549b80607e04991c0b6131ed9f0079dfc65974bcd48d",
+          "prompt": "Theo Hồ Chí Minh, muốn xây dựng chủ nghĩa xã hội, trước hết cần có...",
+          "answer": "Con người xã hội chủ nghĩa"
+        }
+      }
+    },
+    {
+      "keep": "azota-ela4jq-001",
+      "remove": [
+        "azota-ela4jq-015"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ela4jq-001": {
+          "hash": "14a2c383bbfeeaae4706c7d31aa38e432ffca9f3e002a548740653b2899ea15a",
+          "prompt": "Theo Hồ Chí Minh, mục tiêu, lý tưởng của Đảng Cộng sản Việt Nam là...",
+          "answer": "Phụng sự Tổ quốc, phụng sự nhân dân"
+        },
+        "azota-ela4jq-015": {
+          "hash": "534c3b83c4b1173cfc857a0a8cb89294a54b5f075f01bd2fcf6207188b2fd20b",
+          "prompt": "Theo Hồ Chí Minh, mục tiêu, lý tưởng của Đảng Cộng sản Việt Nam là...",
+          "answer": "Phụng sự Tổ quốc, phụng sự nhân dân"
+        }
+      }
+    },
+    {
+      "keep": "azota-ela4jq-006",
+      "remove": [
+        "azota-ela4jq-021"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ela4jq-006": {
+          "hash": "2e5ae22d919040ef90f133bc8631fc87faf55923a2b0755e89f6fc60a90850c5",
+          "prompt": "Chọn câu trả lời đúng nhất với tư tưởng Hồ Chí Minh...",
+          "answer": "Đảng cộng sản Việt Nam là Đảng của giai cấp công nhân, của nhân dân lao động và của dân tộc Việt Nam"
+        },
+        "azota-ela4jq-021": {
+          "hash": "68833281056cfb80685ef37173754db01834019e7dd75147c7c37372396d3f3d",
+          "prompt": "Chọn câu trả lời đúng nhất theo tư tưởng Hồ Chí Minh.",
+          "answer": "Đảng Cộng sản Việt Nam là Đảng của giai cấp công nhân, nhân dân lao động và của cả dân tộc Việt Nam"
+        }
+      }
+    },
+    {
+      "keep": "azota-ela4jq-011",
+      "remove": [
+        "azota-ela4jq-057"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ela4jq-011": {
+          "hash": "5d46e28140e189fd280bf1baf57f2faa7160d65b01b0d1c0939e211f23e4f9a6",
+          "prompt": "Chọn cụm từ đúng nhất để điền vào chỗ trống: Theo tư tưởng Hồ Chí Minh: “Chống ... và bệnh quan liêu cũng quan trọng và cần kíp như việc đánh giặc trên mặt trận. Đây là mặt trận tư tưởng và chính trị”.",
+          "answer": "Tham ô, lãng phí"
+        },
+        "azota-ela4jq-057": {
+          "hash": "b2d6b193fa351f4be764597453771cc1f6aeda792b8c2f2cc4f8772ea514d565",
+          "prompt": "Chọn phương án đúng nhất để điền vào chỗ trống hoàn thiện câu sau của Hồ Chí Minh: “Chống ... và bệnh quan liêu cũng quan trọng và cần kíp như việc đánh giặc trên mặt trận”.",
+          "answer": "Tham ô, lãng phí"
+        }
+      }
+    },
+    {
+      "keep": "azota-ela4jq-017",
+      "remove": [
+        "azota-ela4jq-058"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ela4jq-017": {
+          "hash": "2f3b09aa7ea7925787403f524fbac2667684aabe1393e7488290f4869a4a5910",
+          "prompt": "Yêu cầu đầu tiên về nền tảng pháp lý để xây dựng nhà nước có hiệu lực pháp lý mạnh mẽ là gì?",
+          "answer": "Một nhà nước hợp Hiến"
+        },
+        "azota-ela4jq-058": {
+          "hash": "ff6f4239e366287a207d6e7e07b33b6357df94cebe9558be7ea2c632d96787d4",
+          "prompt": "Yêu cầu đầu tiên về nền tảng pháp lý để xây dựng nhà nước có hiệu lực pháp lý mạnh mẽ là gì?",
+          "answer": "Một nhà nước hợp hiến"
+        }
+      }
+    },
+    {
+      "keep": "azota-ela4jq-034",
+      "remove": [
+        "azota-ela4jq-087"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ela4jq-034": {
+          "hash": "fce1753c2dede113a966ec0803e0f5c720cb91518edba74cbfd2e43c7b884268",
+          "prompt": "Theo tư tưởng Hồ Chí Minh, luận điểm: Đảng Cộng sản Việt Nam là nhân tố quyết định hàng đầu để đưa cách mạng Việt Nam đi đến thắng lợi là:",
+          "answer": "Xác định vai trò lãnh đạo của Đảng"
+        },
+        "azota-ela4jq-087": {
+          "hash": "f028cec414ad8eb89bfbdd77e56b13c0b96ec40e01f7086e1be7754577dbdde6",
+          "prompt": "Theo tư tưởng Hồ Chí Minh, luận điểm Đảng cộng sản là nhân tố quyết định hàng đầu để đưa cách mạng Việt Nam đi đến thắng lợi là...",
+          "answer": "Xác định vai trò lãnh đạo của Đảng"
+        }
+      }
+    },
+    {
+      "keep": "azota-ela4jq-063",
+      "remove": [
+        "azota-ela4jq-086",
+        "azota-3eggrt-046"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ela4jq-063": {
+          "hash": "f44fa1dcb965caf7ee83e8dbd34fb54076e10204f8b7245d1f9bb5901457149b",
+          "prompt": "“Đảng ta là một Đảng cầm quyền. Mỗi đảng viên và cán bộ phải thật sự thấm nhuần đạo đức cách mạng, thật sự cần kiệm liêm chính, chí công vô tư. Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của nhân dân”. Câu viết trên của Hồ Chí Minh ở trong tác phẩm nào của Người?",
+          "answer": "Di chúc"
+        },
+        "azota-ela4jq-086": {
+          "hash": "23c67c05112a002734036e60d76eb65cfcf5983a424cc581b50f3df301e3fd70",
+          "prompt": "Luận điểm: “Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của nhân dân” được trích từ tác phẩm nào của Hồ chí Minh?",
+          "answer": "Di chúc"
+        },
+        "azota-3eggrt-046": {
+          "hash": "7b51b944dc116f0092000cf26534ba91098b7d56033b0ece039ebac4a10b70b2",
+          "prompt": "“Đảng ta là một Đảng cầm quyền. Mỗi đảng viên và cán bộ phải thật sự thấm nhuần đạo đức cách mạng, thật sự cần kiệm, liêm, chính, chí công vô tư. Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của nhân dân”. Câu trên được trích trong tác phẩm nào của Hồ Chí Minh?",
+          "answer": "Di chúc"
+        }
+      }
+    },
+    {
+      "keep": "azota-ela4jq-065",
+      "remove": [
+        "azota-ela4jq-071"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ela4jq-065": {
+          "hash": "8a0d000425a57ff422cce6937fe41ce0b50ab2c75e2fe12b3d8967839ebb4d5e",
+          "prompt": "Bản chất giai cấp công nhân của Đảng cộng sản Việt Nam thể hiện ở...",
+          "answer": "Nền tảng lý luận, mục tiêu, đường lối, nguyên tắc tổ chức của Đảng"
+        },
+        "azota-ela4jq-071": {
+          "hash": "7281cdeff09f3b015446c2ac513572ce4a9d196dfa15d50aa6de2d0d9786d893",
+          "prompt": "Bản chất giai cấp công nhân của Đảng Cộng sản Việt Nam thể hiện ở...?",
+          "answer": "Nền tảng lý luận, mục tiêu, nguyên tắc tổ chức của Đảng"
+        }
+      }
+    },
+    {
+      "keep": "azota-ijqzcg-003",
+      "remove": [
+        "azota-ijqzcg-007"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ijqzcg-003": {
+          "hash": "6088b0f76ebc82f67f602d243c1c3067a1ff5548eb483f652f814ad9de258d55",
+          "prompt": "Chọn cụm từ điền vào chỗ trống theo tư tưởng Hồ Chí Minh: “Việt Nam muốn làm bạn với ...., không gây thù oán với một ai”.",
+          "answer": "Mọi nước dân chủ"
+        },
+        "azota-ijqzcg-007": {
+          "hash": "9d150d9ae756013c8c798a57a5eae843972300e7ce59da141ec99d88972dc9b2",
+          "prompt": "Chọn cụm từ đúng nhất điền vào chỗ trống theo tư tưởng Hồ Chí Minh: “Việt Nam muốn làm bạn với ...., không gây thù oán với một ai”.",
+          "answer": "Mọi nước dân chủ"
+        }
+      }
+    },
+    {
+      "keep": "azota-ijqzcg-004",
+      "remove": [
+        "azota-ijqzcg-044"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ijqzcg-004": {
+          "hash": "ecf6933941af563fe5444feb94f78f279eac8cb6d210e910c35ac4b3471b89db",
+          "prompt": "Chọn phương án đúng nhất đối với tư tưởng Hồ Chí Minh: Để tranh thủ sự giúp đỡ của các nước xã hội chủ nghĩa trong đấu tranh cách mạng, cần coi trọng nhân tố...",
+          "answer": "Tự lực cánh sinh, dựa vào sức mình là chính"
+        },
+        "azota-ijqzcg-044": {
+          "hash": "2e57b2218277ade126c240dfd5a469c27692888175fa84fc413e2f7ecd5473c7",
+          "prompt": "Chọn phương án đúng nhất đối với tư tưởng Hồ Chí Minh: Để tranh thủ sự giúp đỡ của các nước xã hội chủ nghĩa trong đấu tranh cách mạng, cần coi trọng nhân tố:",
+          "answer": "Tự lực cánh sinh, dựa vào sức mình là chính"
+        }
+      }
+    },
+    {
+      "keep": "azota-ijqzcg-005",
+      "remove": [
+        "azota-ijqzcg-021"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ijqzcg-005": {
+          "hash": "f5c817d255b1a4f7ce84155ec0c916e82ed01d0aaca7e9e89560115f7b370767",
+          "prompt": "Chọn phương án đúng nhất: Sức mạnh dân tộc trong tư tưởng Hồ Chí Minh bao gồm...",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-ijqzcg-021": {
+          "hash": "5cf45a9548f56eb6eb0cf1f33b51463487f22269bc9cf15ef512c6a9db435fa1",
+          "prompt": "Sức mạnh dân tộc trong tư tưởng Hồ Chí Minh bao gồm:",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "azota-ijqzcg-009",
+      "remove": [
+        "azota-ijqzcg-027"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ijqzcg-009": {
+          "hash": "4a56619dd56092560caaa56818abf397b02394f2ffaf9b339d37abfb49dcd305",
+          "prompt": "Trong tư tưởng Hồ Chí Minh, lực lượng chủ yếu trong khối đại đoàn kết dân tộc là...",
+          "answer": "Công nhân, nông dân, lao động trí óc"
+        },
+        "azota-ijqzcg-027": {
+          "hash": "e6e40064125b144f5f85c61ea1c15c2bd6e3e0415a0f910c81546f5a2e866ecd",
+          "prompt": "Trong tư tưởng Hồ Chí Minh, lực lượng chủ yếu của khối đại đoàn kết là:",
+          "answer": "Công nhân, nông dân, lao động trí óc"
+        }
+      }
+    },
+    {
+      "keep": "azota-ijqzcg-015",
+      "remove": [
+        "azota-ijqzcg-030"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ijqzcg-015": {
+          "hash": "d665015c479f38d0adfe7b82824ac2bfe7ade010a4696bb764399e02af231eb4",
+          "prompt": "Chọn câu trả lời đúng với tư tưởng Hồ Chí Minh.",
+          "answer": "Đại đoàn kết là vấn đề chiến lược"
+        },
+        "azota-ijqzcg-030": {
+          "hash": "c3e093703b50066fc9cafbb88febd0ffa58f199e81cc3524a721509dc8653cff",
+          "prompt": "Chọn câu trả lời đúng nhất với tư tưởng Hồ Chí Minh?",
+          "answer": "Đại đoàn kết là vấn đề chiến lược"
+        }
+      }
+    },
+    {
+      "keep": "azota-ijqzcg-026",
+      "remove": [
+        "azota-ijqzcg-033"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ijqzcg-026": {
+          "hash": "ac1fb171acf3b4833240020d01b43211a5c97330fa2c1a95336316b85151d2e2",
+          "prompt": "Chọn cách kết hợp đầy đủ nhất giữa nguyên tắc và sách lược ngoại giao theo tư tưởng Hồ Chí Minh.",
+          "answer": "Vừa cứng rắn về nguyên tắc, vừa mềm dẻo về sách lược"
+        },
+        "azota-ijqzcg-033": {
+          "hash": "ccdeba1d1cc2d99e1baf59dded7dd343393dfe5047228da39b49a6717fbaeb0a",
+          "prompt": "Chọn cách kết hợp đầy đủ nhất giữa nguyên tắc và sách lược ngoại giao theo tư tưởng Hồ Chí Minh.",
+          "answer": "Vừa cứng rắn về nguyên tắc, vừa mềm dẻo về sách lược"
+        }
+      }
+    },
+    {
+      "keep": "azota-ijqzcg-028",
+      "remove": [
+        "azota-ijqzcg-034"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-ijqzcg-028": {
+          "hash": "76fac993f7191c8628d08ee8a1ff33a06ef0d2184456672a51f71e75cb4acb32",
+          "prompt": "Chọn phương án đúng nhất: Theo tư tưởng Hồ Chí Minh, yếu tố nào được xác định là mục tiêu, nhiệm vụ hàng đầu của Đảng, của dân tộc?",
+          "answer": "Đại đoàn kết dân tộc"
+        },
+        "azota-ijqzcg-034": {
+          "hash": "5138f6fa628a57aecdf5f61a52211dafa60cfa0ce6272cb209dd430cda92b8a6",
+          "prompt": "Theo tư tưởng Hồ Chí Minh, yếu tố nào được xác định là mục tiêu, nhiệm vụ hàng đầu của Đảng, của dân tộc?",
+          "answer": "Đại đoàn kết dân tộc"
+        }
+      }
+    },
+    {
+      "keep": "azota-3eggrt-001",
+      "remove": [
+        "azota-3eggrt-049"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-3eggrt-001": {
+          "hash": "9dddd531477d65790afc2c3f2d6752e1e6da4cbb8df94a23814f7f43ba5bc0ab",
+          "prompt": "Theo Hồ Chí Minh, nội dung của nền giáo dục mới là gì?",
+          "answer": "Giáo dục toàn diện cả đức, trí, thể, mỹ"
+        },
+        "azota-3eggrt-049": {
+          "hash": "fc3cff8f197712c8e0d7ffe67b7933598693112967c8be9a63d281bcad6ff01b",
+          "prompt": "Theo Hồ Chí Minh, nội dung của nền giáo dục mới là:",
+          "answer": "Giáo dục toàn diện cả đức, trí, thể, mỹ"
+        }
+      }
+    },
+    {
+      "keep": "azota-3eggrt-004",
+      "remove": [
+        "azota-3eggrt-062"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-3eggrt-004": {
+          "hash": "9318631176d433d37ffaccaa1902a4cb6a201eac0f5ee3d6b5c37e3346764093",
+          "prompt": "Theo tư tưởng Hồ Chí Minh, phẩm chất đạo đức quan trọng nhất, bao trùm nhất của con người Việt Nam mới là gì?",
+          "answer": "Trung với nước, hiếu với dân"
+        },
+        "azota-3eggrt-062": {
+          "hash": "e237a5fd6ba71f910e92b004d6bed461227857aeeab07586120c9d596f8651d4",
+          "prompt": "Trong các phẩm chất đạo đức cơ bản của con người Việt Nam trong thời đại mới, phẩm chất đạo đức nào quan trọng nhất, bao trùm nhất?",
+          "answer": "Trung với nước, hiếu với dân"
+        }
+      }
+    },
+    {
+      "keep": "azota-3eggrt-005",
+      "remove": [
+        "azota-3eggrt-076"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-3eggrt-005": {
+          "hash": "2e1fe7d524559bc66cedab30c2783368ba0d543aa43d260a01888b05cc37cf6a",
+          "prompt": "Để xây dựng những phẩm chất đạo đức tốt đẹp và chống lại những cái vô đạo đức có kết quả, theo quan điểm của Hồ Chí Minh phải:",
+          "answer": "Tạo thành phong trào quần chúng rộng rãi"
+        },
+        "azota-3eggrt-076": {
+          "hash": "ff54da61e9efa18bb9be70d505def5eb0a19679b9611e33eaec0a1d8a196a245",
+          "prompt": "Chọn phương án đúng nhất: Để xây dựng những phẩm chất đạo đức tốt đẹp và chống lại những cái vô đạo đức có kết quả, theo quan điểm của Hồ Chí Minh phải...",
+          "answer": "Tạo thành phong trào quần chúng rộng rãi"
+        }
+      }
+    },
+    {
+      "keep": "azota-3eggrt-007",
+      "remove": [
+        "azota-3eggrt-040"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-3eggrt-007": {
+          "hash": "6be17015dbc6c50f10ce286b15cf91847d968c0739a155c45cab61741098d09d",
+          "prompt": "Theo Hồ Chí Minh, chức năng cơ bản của văn hóa là:",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-3eggrt-040": {
+          "hash": "28aa6850e46f977b37ca022c7a4f14639ffc8823f9b6afaec190611ad8a93466",
+          "prompt": "Theo Tư tưởng Hồ Chí Minh, văn hoá có chức năng...",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    },
+    {
+      "keep": "azota-3eggrt-019",
+      "remove": [
+        "azota-3eggrt-058"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-3eggrt-019": {
+          "hash": "92c8ce81c991f783c347eac24536273ab6b2abdb50a8a6806ad6c62606ab40d7",
+          "prompt": "Hãy cho biết vai trò của người nghệ sỹ trong lĩnh vực văn hoá, văn nghệ theo tư tưởng Hồ Chí Minh?",
+          "answer": "Là người chiến sĩ"
+        },
+        "azota-3eggrt-058": {
+          "hash": "8db2b43f82a6c0aed9acf8e3af9c9e208ad5a81c875e4d168b6332520c2b683b",
+          "prompt": "Trong quan điểm văn nghệ là một mặt trận, vai trò cách mạng của người nghệ sĩ là gì?",
+          "answer": "Là người chiến sĩ"
+        }
+      }
+    },
+    {
+      "keep": "azota-3eggrt-020",
+      "remove": [
+        "azota-3eggrt-065"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-3eggrt-020": {
+          "hash": "eac1c4663f158f500213b69e6c0acc7243e80d980fd73af701a0e8012153bceb",
+          "prompt": "Luận điểm: “Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh, rèn luyện bền bỉ hàng ngày mà phát triển và củng cố, cũng như ngọc càng mài càng sáng, vàng càng luyện càng trong” là của ai?",
+          "answer": "Hồ Chí Minh"
+        },
+        "azota-3eggrt-065": {
+          "hash": "ce325905a8374c6c30fd9ddc69228895af80920ee0ceb10bc1b7f1f2aab11420",
+          "prompt": "Luận điểm: “Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh rèn luyện bền bỉ hằng ngày mà phát triển và củng cố. Cũng như ngọc càng mài càng sáng, vàng càng luyện càng trong” là của ai?",
+          "answer": "Hồ Chí Minh"
+        }
+      }
+    },
+    {
+      "keep": "azota-3eggrt-023",
+      "remove": [
+        "azota-3eggrt-059"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-3eggrt-023": {
+          "hash": "a629fac9724e75557202c69a7f680a847457c1fc778cc375d9cb75652187b2bf",
+          "prompt": "Theo Hồ Chí Minh: “... là gốc của người cách mạng”",
+          "answer": "Đạo đức"
+        },
+        "azota-3eggrt-059": {
+          "hash": "dba21ad37fcd5fb64c0df82ef8fd00748ed046733f66ecbd43848741931cbf37",
+          "prompt": "Hồ Chí Minh xác định yếu tố nào là gốc của người cách mạng?",
+          "answer": "Đạo đức"
+        }
+      }
+    },
+    {
+      "keep": "azota-3eggrt-024",
+      "remove": [
+        "azota-3eggrt-054"
+      ],
+      "reason": "Cùng ý hỏi và cùng kiến thức/đáp án theo tài liệu; khác cách diễn đạt, dấu câu hoặc tập phương án. Đã đọc đề, các lựa chọn và lời giải, giữ một bản cùng toàn bộ nguồn.",
+      "evidence": {
+        "azota-3eggrt-024": {
+          "hash": "5fdde0376f6c2f64548e02b74c0184f66e17cd4cb6452d8a5ec4e87aac308ad8",
+          "prompt": "Chuẩn mực đạo đức của người cách mạng theo Tư tưởng Hồ Chí Minh là...",
+          "answer": "Cả ba phương án còn lại"
+        },
+        "azota-3eggrt-054": {
+          "hash": "0ade347ad82e14110f33bd250f9ac96aff6fac350dd62599d4f711f23adaf2b9",
+          "prompt": "Phẩm chất đạo đức cơ bản của con người Việt Nam trong thời đại mới theo tư tưởng Hồ Chí Minh là:",
+          "answer": "Cả ba phương án còn lại"
+        }
+      }
+    }
+  ]
+}

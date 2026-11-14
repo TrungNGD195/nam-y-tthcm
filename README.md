@@ -6,7 +6,7 @@ Chọn môn → chọn chương → học ý cốt lõi → luyện câu hỏi �
 
 | Môn | Trạng thái |
 | --- | --- |
-| Tư tưởng Hồ Chí Minh | 623 câu, 6 chương, 110 câu số liệu; 19 đề tổng hợp × 50 câu và đề mẫu 20 câu |
+| Tư tưởng Hồ Chí Minh | 506 câu, 6 chương, 92 câu số liệu; 10 đề × 50 + 1 đề cuối 6 câu, không lặp giữa các đề |
 | Xử lý ảnh | 168 câu/bài tự luận có lời giải, chia ngân hàng theo 4 mức điểm và bộ cô Uyên theo chương |
 | Khoa học dữ liệu | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
 
@@ -108,18 +108,18 @@ CI chạy kiểm tra toán độc lập bằng NumPy/SciPy; khi học chỉ cầ
 
 ## Nội dung TTHCM
 
-[Luyện đề tổng hợp 50 câu](https://trungngd195.github.io/nam-y-tthcm/#/mon/tthcm/de-tong-hop): 19 đề, mỗi đề 8–9 câu/chương, bao phủ đủ 623 câu hiện có, gồm cả câu số liệu. Không trùng câu trong một đề; chương ít câu có lặp giữa các đề để giữ phân bố đều. Thành phần đề cố định theo bản ngân hàng; có thể làm lại, lưu bài dang dở và xem lời giải sau nộp. Đề mẫu/đề trộn 20 câu vẫn nằm trong khu Thi thử.
+[Luyện đề tổng hợp](https://trungngd195.github.io/nam-y-tthcm/#/mon/tthcm/de-tong-hop): 10 đề 50 câu và 1 đề cuối 6 câu. Cả bộ dùng đúng 506 câu, mỗi câu chỉ thuộc một đề. Rải đều số câu của từng chương giữa các đề chính theo lượng câu thực có, không lặp để ép mỗi chương 8–9 câu. Có thể làm lại, lưu bài dang dở và xem lời giải sau nộp. Đề mẫu/đề trộn 20 câu vẫn nằm trong khu Thi thử.
 
-623 câu chuẩn từ 755 mục nguồn: 233 mục LMS/quiz/đề mẫu và 522 mục tại 6 link Azota. Thêm 408 câu, gộp 110 lượt trùng; 4 câu Azota và 11 mục cũ còn mơ hồ chưa dùng để chấm. Đã đọc lại 215 câu cũ, sửa câu mơ hồ và mốc chống thuế theo nguồn Bảo tàng; 23 câu tăng revision. Mỗi câu có keyword, lời giải ngắn và căn cứ đối chiếu. [Báo cáo nội dung](content/tthcm/BAO_CAO_NOI_DUNG.md) và [quyết định từng mục](content/tthcm/azota/reviewed.json) ghi đầy đủ thay đổi.
+506 câu chuẩn từ 755 mục nguồn: 233 mục LMS/quiz/đề mẫu và 522 mục tại 6 link Azota. Sau đợt gộp ban đầu còn 623 câu; đợt rà trùng ý gộp thêm 117 bản trong 96 nhóm, còn 506. [Quyết định gộp](content/tthcm/duplicate-decisions.json) giữ hash đề/lựa chọn/đáp án trước gộp; mọi nguồn và bản chụp gốc vẫn giữ. 4 câu Azota và 11 mục cũ còn mơ hồ chưa dùng để chấm. Mỗi câu có keyword, lời giải ngắn và căn cứ đối chiếu. [Báo cáo nội dung](content/tthcm/BAO_CAO_NOI_DUNG.md) và [quyết định từng mục](content/tthcm/azota/reviewed.json) ghi đầy đủ thay đổi.
 
 | Chương theo giáo trình | Câu kiến thức | Câu số liệu | Tổng |
 | --- | ---: | ---: | ---: |
-| 1 | 21 | 12 | 33 |
-| 2 | 95 | 68 | 163 |
-| 3 | 128 | 11 | 139 |
-| 4 | 121 | 4 | 125 |
-| 5 | 58 | 8 | 66 |
-| 6 | 90 | 7 | 97 |
+| 1 | 19 | 11 | 30 |
+| 2 | 70 | 53 | 123 |
+| 3 | 104 | 11 | 115 |
+| 4 | 101 | 4 | 105 |
+| 5 | 45 | 7 | 52 |
+| 6 | 75 | 6 | 81 |
 
 Phân chương theo nội dung giáo trình; tên chương của đề Azota vẫn lưu trong nguồn gốc. Câu số liệu nằm trong chuyên đề riêng, tùy chọn đưa vào lượt luyện chương. Các snapshot giữ nguyên câu hỏi/thứ tự lựa chọn trong lần lấy, có băm chống thay nhầm thứ tự đáp án. Đáp án do đối chiếu tài liệu, không dùng key chấm Azota. Khi hai lựa chọn cùng đúng hoặc câu nguồn sai, bản trên web được sửa có ghi chú hoặc giữ ngoài bài chấm.
 

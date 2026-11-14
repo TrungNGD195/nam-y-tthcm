@@ -29,7 +29,7 @@ test('all 522 captured items have one auditable decision and correct content sur
       assert(!qmap.has(original.id));assert(!review.answerText);assert(review.reason.length>30);continue;
     }
     const q=qmap.get(review.questionId)!;assert(q);
-    assert.equal(norm(q.options.find(o=>o.id===q.correctOptionId)!.text),norm(review.answerText),original.id);
+    assert.equal(norm(q.options.find(o=>o.id===q.correctOptionId)!.text),norm(review.canonicalAnswerText??review.answerText),original.id);
     assert(q.sources.some(s=>s.sourceId==='azota-'+original.code&&s.originalNumber===original.originalNumber));
     assert(review.theoryReferences.length>0);
   }

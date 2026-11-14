@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.14.azota.1",
+  "version": "2026.11.14.dedup.1",
   "reviewedAt": "2026-11-14",
   "policy": "Giáo trình 2019 và bài giảng PTIT ưu tiên; số liệu thiếu/mâu thuẫn đối chiếu nguồn chính thống. Không dùng key Azota. Câu thiếu căn cứ không xuất bản.",
   "sourceCounts": {
@@ -3261,6 +3261,12 @@
           "pdfPage": 26,
           "section": "Đối chiếu câu 364",
           "evidence": "Huy động các nguồn lực sẵn có trong dân."
+        },
+        {
+          "sourceId": "giao-trinh-2009",
+          "pdfPage": 40,
+          "section": "Của dân, tài dân, sức dân",
+          "evidence": "Biện pháp cơ bản, quyết định, lâu dài là huy động của dân, tài dân, sức dân để làm lợi cho dân, dưới sự lãnh đạo của Đảng."
         }
       ],
       "note": "Đọc lại đề, lựa chọn và đối chiếu luận điểm tương ứng; giữ đáp án."
@@ -3383,6 +3389,12 @@
       "note": "Đọc lại đề, lựa chọn và đối chiếu luận điểm tương ứng; giữ đáp án."
     }
   ],
+  "duplicateReview": {
+    "before": 623,
+    "groups": 96,
+    "merged": 117,
+    "after": 506
+  },
   "questions": [
     {
       "id": "azota-e9lwce-001",
@@ -3765,8 +3777,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "2aa11f63de6a449b8c753c397d7d17970f60b1d7ade0f2bad754043830ce54e6",
-      "status": "published",
-      "questionId": "azota-e9lwce-009",
+      "status": "merged",
+      "questionId": "lms-g2-05",
       "chapter": 2,
       "answerOptionId": "c",
       "answerText": "Lòng nhân ái cao cả",
@@ -3802,7 +3814,10 @@
           "id": "d",
           "text": "Lòng cao thượng"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Lòng nhân ái cao cả",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-010",
@@ -3857,8 +3872,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "9cf60e7054f974d58da2484c4766ce31c5c1270011ef5492a65ef0c4ac935ed2",
-      "status": "published",
-      "questionId": "azota-e9lwce-011",
+      "status": "merged",
+      "questionId": "lms-g2-18",
       "chapter": 2,
       "answerOptionId": "d",
       "answerText": "1911 \n→\n1920",
@@ -3894,7 +3909,10 @@
           "id": "d",
           "text": "1911 \n→\n1920"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "1911-1920",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-012",
@@ -4184,8 +4202,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "274ca891c280dcf9407be069eef1220450c6505793282811afc63ef17224b838",
-      "status": "published",
-      "questionId": "azota-e9lwce-018",
+      "status": "merged",
+      "questionId": "lms-g2-04",
       "chapter": 2,
       "answerOptionId": "b",
       "answerText": "Sự tu dưỡng đạo đức cá nhân",
@@ -4222,7 +4240,10 @@
           "id": "d",
           "text": "Quản lý xã hội bằng đạo đức"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Sự tu dưỡng đạo đức cá nhân",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-019",
@@ -4371,8 +4392,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "2752d2d04cfb65feddc49c6286befb4663e657a0d21737b51655bedd30085d27",
-      "status": "published",
-      "questionId": "azota-e9lwce-022",
+      "status": "merged",
+      "questionId": "lms-g2-04",
       "chapter": 2,
       "answerOptionId": "c",
       "answerText": "Sự tu dưỡng đạo đức cá nhân",
@@ -4409,7 +4430,10 @@
           "id": "d",
           "text": "Quản lý xã hội bằng đạo đức"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Sự tu dưỡng đạo đức cá nhân",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-023",
@@ -4557,8 +4581,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "d8de7295d72dc73b3f29d0bcdd43a61ea959a34da7bcc3156a85f10870901e6e",
-      "status": "published",
-      "questionId": "azota-e9lwce-026",
+      "status": "merged",
+      "questionId": "lms-g2-06",
       "chapter": 2,
       "answerOptionId": "c",
       "answerText": "Cả ba phương án còn lại",
@@ -4595,7 +4619,10 @@
           "id": "d",
           "text": "Tinh thần từ bi, bác ái"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-027",
@@ -4836,8 +4863,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "553b374f5b0305c79d079fcb71c03ec9679ef070e99e193b70e4f794a829a24a",
-      "status": "published",
-      "questionId": "azota-e9lwce-032",
+      "status": "merged",
+      "questionId": "quiz-g4-02",
       "chapter": 2,
       "answerOptionId": "a",
       "answerText": "Trước năm 1911",
@@ -4874,7 +4901,10 @@
           "id": "d",
           "text": "Năm 1945 \n→\n 1969"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Trước năm 1911",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-033",
@@ -4883,8 +4913,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "50030e8d1d77f48626aca96d7461cd22dd7553fde692c7af579b4ea0a7126bd6",
-      "status": "published",
-      "questionId": "azota-e9lwce-033",
+      "status": "merged",
+      "questionId": "quiz-g3-12",
       "chapter": 2,
       "answerOptionId": "d",
       "answerText": "Chủ nghĩa Mác – Lênin",
@@ -4921,7 +4951,10 @@
           "id": "d",
           "text": "Chủ nghĩa Mác – Lênin"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Chủ nghĩa Mác - Lênin",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-034",
@@ -5395,8 +5428,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "fb120a67ea85fba7328ec877e98b58d82d66c223ecffeacef0565257c2402b90",
-      "status": "published",
-      "questionId": "azota-e9lwce-044",
+      "status": "merged",
+      "questionId": "quiz-g4-14",
       "chapter": 2,
       "answerOptionId": "b",
       "answerText": "7/1920",
@@ -5433,7 +5466,10 @@
           "id": "d",
           "text": "7/1918"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "7/1920",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-045",
@@ -5583,8 +5619,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "c99657659047931597fce28ab3dba26c17affeb396fa4eb0c76e82cca6a62c0e",
-      "status": "published",
-      "questionId": "azota-e9lwce-048",
+      "status": "merged",
+      "questionId": "azota-e9lwce-024",
       "chapter": 1,
       "answerOptionId": "d",
       "answerText": "Soi đường; tài sản tinh thần",
@@ -5620,7 +5656,10 @@
           "id": "d",
           "text": "Soi đường; tài sản tinh thần"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Soi đường; tài sản tinh thần",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-049",
@@ -5629,8 +5668,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "a9518e1a786b7d30258a8f8aff073f2cef285677689ed4b902475d7bf970f187",
-      "status": "published",
-      "questionId": "azota-e9lwce-049",
+      "status": "merged",
+      "questionId": "quiz-g4-05",
       "chapter": 2,
       "answerOptionId": "c",
       "answerText": "1920 → 1930",
@@ -5666,7 +5705,10 @@
           "id": "d",
           "text": "1930\n→\n1941"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "1920-1930",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-050",
@@ -5722,8 +5764,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "eabebcaa00ffc3bf30fed8f74c7e9ca4578f2b73debf8bb6d02ff581c9ebbb18",
-      "status": "published",
-      "questionId": "azota-e9lwce-051",
+      "status": "merged",
+      "questionId": "sample-g1-12",
       "chapter": 2,
       "answerOptionId": "d",
       "answerText": "Phương pháp làm việc biện chứng",
@@ -5759,7 +5801,10 @@
           "id": "d",
           "text": "Phương pháp làm việc biện chứng"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Phương pháp làm việc biện chứng",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-052",
@@ -5815,8 +5860,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "c6a5efd0bed299abbd738d4bb30ceb0a7b186546cd067667ed5cc8d40693fa5f",
-      "status": "published",
-      "questionId": "azota-e9lwce-053",
+      "status": "merged",
+      "questionId": "lms-g2-06",
       "chapter": 2,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -5853,7 +5898,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-054",
@@ -5862,8 +5910,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "99c510eba36aec66e08e0a05a5cc5efb2c530ad155c976ccd6bbcfc4ab73b008",
-      "status": "published",
-      "questionId": "azota-e9lwce-054",
+      "status": "merged",
+      "questionId": "sample-g1-12",
       "chapter": 2,
       "answerOptionId": "c",
       "answerText": "Phương pháp làm việc biện chứng",
@@ -5899,7 +5947,10 @@
           "id": "d",
           "text": "Chủ nghĩa nhân đạo cộng sản"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Phương pháp làm việc biện chứng",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-055",
@@ -6141,8 +6192,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "b82ae09bca13715c0a2a75e575a7f275f9e8b626d9941c505b96b0da958b6ac3",
-      "status": "published",
-      "questionId": "azota-e9lwce-060",
+      "status": "merged",
+      "questionId": "lms-g2-21",
       "chapter": 2,
       "answerOptionId": "a",
       "answerText": "Tháng 6/1925",
@@ -6178,7 +6229,10 @@
           "id": "d",
           "text": "Tháng 6/1926"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "6/1925",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-061",
@@ -6187,8 +6241,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "1406fe6617ccfc239457ea672a90ec67ac91e4d9fb0e74f23a68b8210dab1790",
-      "status": "published",
-      "questionId": "azota-e9lwce-061",
+      "status": "merged",
+      "questionId": "quiz-g4-13",
       "chapter": 2,
       "answerOptionId": "b",
       "answerText": "18/6/1919",
@@ -6225,7 +6279,10 @@
           "id": "d",
           "text": "18/6/1917"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "18-6-1919",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-062",
@@ -6374,8 +6431,8 @@
       "sourceChapter": 2,
       "retrievedAt": "2026-11-14T03:41:57.734Z",
       "sourceHash": "be4e9fa8e7dad02246da46ddd78759fce2780e8ff08af54372a74261f4ebd5fc",
-      "status": "published",
-      "questionId": "azota-e9lwce-065",
+      "status": "merged",
+      "questionId": "azota-e9lwce-001",
       "chapter": 2,
       "answerOptionId": "a",
       "answerText": "Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa",
@@ -6412,7 +6469,10 @@
           "id": "d",
           "text": "Sơ thảo lần thứ nhất Luận cương về các vấn đề dân tộc"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Sơ thảo lần thứ nhất về các vấn đề dân tộc và thuộc địa",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-e9lwce-066",
@@ -7309,8 +7369,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "0f9a3765ba59bb3165e6dca939c44a206b05a2540dd87c2c7afe7aebd6f5b866",
-      "status": "published",
-      "questionId": "azota-rnaeqk-014",
+      "status": "merged",
+      "questionId": "lms-g3-04",
       "chapter": 3,
       "answerOptionId": "b",
       "answerText": "Tuyên ngôn Độc lập.",
@@ -7347,7 +7407,10 @@
           "id": "d",
           "text": "Lời kêu gọi Toàn quốc kháng chiến."
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "“Tuyên ngôn độc lập”",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-015",
@@ -7841,8 +7904,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "a86ba7c01e16ae51f1b05b4c19dc93b6b4f014132f657f8cdb4c7a3e14394f6e",
-      "status": "published",
-      "questionId": "azota-rnaeqk-026",
+      "status": "merged",
+      "questionId": "sample-g1-14",
       "chapter": 3,
       "answerOptionId": "d",
       "answerText": "Huy động các nguồn lực sẵn có trong dân",
@@ -7878,7 +7941,10 @@
           "id": "d",
           "text": "Huy động các nguồn lực sẵn có trong dân"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Huy động các nguồn lực sẵn có trong dân.",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-027",
@@ -8214,8 +8280,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "14ce1e5990c11090c25bc2285f212a7c572b4bead40f26d8ef3c3b93bb6bef5d",
-      "status": "published",
-      "questionId": "azota-rnaeqk-034",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-017",
       "chapter": 3,
       "answerOptionId": "a",
       "answerText": "Chủ nghĩa cá nhân; tham ô, lãng phí, quan liêu; chia rẽ, bè phái, vô kỷ luật",
@@ -8252,7 +8318,10 @@
           "id": "d",
           "text": "Chia rẽ, bè phái, mất đoàn kết, vô kỷ luật"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-035",
@@ -8261,8 +8330,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "ece2f1f7996973d54bcb93206e7beafb900724136ee199c9707d2486482ff772",
-      "status": "published",
-      "questionId": "azota-rnaeqk-035",
+      "status": "merged",
+      "questionId": "sample-g1-08",
       "chapter": 2,
       "answerOptionId": "a",
       "answerText": "V.I. Lênin",
@@ -8299,7 +8368,10 @@
           "id": "d",
           "text": "Stalin"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "V.I.Lênin",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-036",
@@ -8355,8 +8427,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "8197d82523d20fdd38694e7f8b38d8dd17fa2c9fb5e5d8f7f70596ecc7465b68",
-      "status": "published",
-      "questionId": "azota-rnaeqk-037",
+      "status": "merged",
+      "questionId": "lms-g3-15",
       "chapter": 3,
       "answerOptionId": "c",
       "answerText": "Con người",
@@ -8393,7 +8465,10 @@
           "id": "d",
           "text": "Tài nguyên thiên nhiên"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Con người",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-038",
@@ -8543,8 +8618,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "336dfac5604c2cd003bbc26fa2d85cf3e22f107f79c84924df653a672e7b8740",
-      "status": "published",
-      "questionId": "azota-rnaeqk-041",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-011",
       "chapter": 3,
       "answerOptionId": "c",
       "answerText": "Thực hiện mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội",
@@ -8581,7 +8656,10 @@
           "id": "d",
           "text": "Hội nhập với nền kinh tế thế giới"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Thực hiện mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-042",
@@ -8825,8 +8903,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "0fe8f49e06b17692ed82961afbceb56751b17d9837581bf8a97202810897e720",
-      "status": "published",
-      "questionId": "azota-rnaeqk-047",
+      "status": "merged",
+      "questionId": "sample-g1-14",
       "chapter": 3,
       "answerOptionId": "d",
       "answerText": "Huy động các nguồn lực sẵn có trong dân",
@@ -8862,7 +8940,10 @@
           "id": "d",
           "text": "Huy động các nguồn lực sẵn có trong dân"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Huy động các nguồn lực sẵn có trong dân.",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-048",
@@ -8918,8 +8999,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "2edbad9cca21750627a13a916b8ea36f026e3fdb8c265036939dce60fef8faaf",
-      "status": "published",
-      "questionId": "azota-rnaeqk-049",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-016",
       "chapter": 2,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -8956,7 +9037,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-050",
@@ -9059,8 +9143,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "d5785e480b24ce6d3cd16397dcfcde8ad5d39fbb9f084baf3aa2423b3da3e6f9",
-      "status": "published",
-      "questionId": "azota-rnaeqk-052",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-017",
       "chapter": 3,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -9097,7 +9181,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-053",
@@ -9200,8 +9287,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "ee5584cd33b4978f8c754189400e1015f72d750c3f05f33d45dae48177c9b474",
-      "status": "published",
-      "questionId": "azota-rnaeqk-055",
+      "status": "merged",
+      "questionId": "lms-g2-28",
       "chapter": 2,
       "answerOptionId": "b",
       "answerText": "Chính cương vắn tắt của Đảng",
@@ -9238,7 +9325,10 @@
           "id": "d",
           "text": "Sách lược vắn tắt của Đảng"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Chính cương vắn tắt",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-056",
@@ -9247,8 +9337,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "b1f8d3a482642f141fe87eacbbc6805c15a459db29bab4bb94879acdf7f0cdf8",
-      "status": "published",
-      "questionId": "azota-rnaeqk-056",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-139",
       "chapter": 3,
       "answerOptionId": "b",
       "answerText": "Đấu tranh giải phóng dân tộc, thành lập nhà nước dân tộc đọc lập, trong đó nhân dân là chủ thể tối cao của quyền lực nhà nước",
@@ -9285,7 +9375,10 @@
           "id": "d",
           "text": "Đòi quyền tự do dân chủ cho nhân dân"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Đấu tranh giải phóng dân tộc khỏi sự áp bức, thống trị của nước ngoài, giành độc lập dân tộc, thành lập nhà nước dân tộc độc lập, và đưa đất nước phát triển theo xu thế thời đại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-057",
@@ -9715,8 +9808,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "bcbe9d508333a36569b8420f8b3283e5bccac2dcd6dbd9872b330bd84dd6e85c",
-      "status": "published",
-      "questionId": "azota-rnaeqk-066",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-008",
       "chapter": 3,
       "answerOptionId": "a",
       "answerText": "Giải phóng dân tộc",
@@ -9753,7 +9846,10 @@
           "id": "d",
           "text": "Giải phóng cá nhân"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Giải phóng dân tộc",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-067",
@@ -9902,8 +9998,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "ef2db84101c91e7d6d4dffe62d77eff0a905b8aa69f1609d5bef7a77b47429ad",
-      "status": "published",
-      "questionId": "azota-rnaeqk-070",
+      "status": "merged",
+      "questionId": "sample-g1-13",
       "chapter": 3,
       "answerOptionId": "c",
       "answerText": "Công ngiệp hóa phải bắt đầu từ xây dựng và phát trển công nghiệp nặng",
@@ -9946,7 +10042,10 @@
           "id": "d",
           "text": "Công nghiệp hóa phải trên cơ sở phát triển công nghiệp nhẹ, tiểu thủ công nghiệp"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Công nghiệp hóa phải bắt đầu từ xây dựng và phát triển công nghiệp nặng.",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-071",
@@ -10095,8 +10194,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "b5ae27ad882c3ad7c503e50f0eec2208c8ea72dd231e10cefe022d31928685fa",
-      "status": "published",
-      "questionId": "azota-rnaeqk-074",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-059",
       "chapter": 3,
       "answerOptionId": "c",
       "answerText": "Chế độ công hữu về tư liệu sản xuất",
@@ -10133,7 +10232,10 @@
           "id": "d",
           "text": "Nền nông nghiệp hiện đại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Chế độ công hữu về tư liệu sản xuất",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-075",
@@ -10188,8 +10290,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "78e15f2628fd4a9b74d25abb6667da448ea17a5f64ef9d1c88f7a6eb5019d8e8",
-      "status": "published",
-      "questionId": "azota-rnaeqk-076",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-139",
       "chapter": 3,
       "answerOptionId": "b",
       "answerText": "Cả ba phương án còn lại",
@@ -10226,7 +10328,10 @@
           "id": "d",
           "text": "Thành lập Nhà nước dân tộc độc lập"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Đấu tranh giải phóng dân tộc khỏi sự áp bức, thống trị của nước ngoài, giành độc lập dân tộc, thành lập nhà nước dân tộc độc lập, và đưa đất nước phát triển theo xu thế thời đại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-077",
@@ -10564,8 +10669,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "7b6ac7c7a59f994a3575979b3b088143d1e30e5d583c5898a3751adc9474f7db",
-      "status": "published",
-      "questionId": "azota-rnaeqk-084",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-054",
       "chapter": 3,
       "answerOptionId": "b",
       "answerText": "Dân tộc Việt Nam và tất cả các dân tộc bị áp bức trên thế giới",
@@ -10602,7 +10707,10 @@
           "id": "d",
           "text": "Các dân tộc thuộc địa ở Đông Dương"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Dân tộc Việt Nam và tất cả các dân tộc bị áp bức trên thế giới",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-085",
@@ -10611,8 +10719,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "e9063b70aafc11f2a33b1d0e11f72b6ca83e056af9c781d8cf43244eacecf80c",
-      "status": "published",
-      "questionId": "azota-rnaeqk-085",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-061",
       "chapter": 4,
       "answerOptionId": "c",
       "answerText": "Có Đảng của giai cấp công nhân lãnh đạo",
@@ -10649,7 +10757,10 @@
           "id": "d",
           "text": "Có một cá nhân xuất sắc lãnh đạo"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Có Đảng của giai cấp công nhân lãnh đạo",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-086",
@@ -10799,8 +10910,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "a7581b5acdde27daee500c3f63b8cf8125bdd464bc1c6e581ba1594e75775529",
-      "status": "published",
-      "questionId": "azota-rnaeqk-089",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-058",
       "chapter": 3,
       "answerOptionId": "c",
       "answerText": "Do nhân dân làm chủ",
@@ -10836,7 +10947,10 @@
           "id": "d",
           "text": "Do một nhóm có đặc quyền làm chủ"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Do nhân dân làm chủ",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-090",
@@ -11080,8 +11194,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "bea9f8e7317654fa7cdf6bffcc7854396bff373a631cd02c6b36f32bc30236ad",
-      "status": "published",
-      "questionId": "azota-rnaeqk-095",
+      "status": "merged",
+      "questionId": "lms-g2-14",
       "chapter": 2,
       "answerOptionId": "a",
       "answerText": "Con đỉa hai vòi",
@@ -11117,7 +11231,10 @@
           "id": "d",
           "text": "Hai con chim đại bàng"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Con đỉa có hai vòi",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-096",
@@ -11360,8 +11477,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "ec784d0db7ce0cec6ca0c70a09afb4b6226fa77646a6869b87d8ac92ab98faed",
-      "status": "published",
-      "questionId": "azota-rnaeqk-101",
+      "status": "merged",
+      "questionId": "azota-e9lwce-062",
       "chapter": 1,
       "answerOptionId": "d",
       "answerText": "Giải phóng dân tộc, giải phóng giai cấp và giải phóng con người",
@@ -11398,7 +11515,10 @@
           "id": "d",
           "text": "Giải phóng dân tộc, giải phóng giai cấp và giải phóng con người"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Giải phóng dân tộc, giải phóng giai cấp và giải phóng con người",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-102",
@@ -11742,8 +11862,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "ce825b0177d294c3c442cb51d9347d74e21c46cd56441e71aa0be54be17178ad",
-      "status": "published",
-      "questionId": "azota-rnaeqk-109",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-010",
       "chapter": 3,
       "answerOptionId": "c",
       "answerText": "Độc lập dân tộc gắn liền với CNXH",
@@ -11780,7 +11900,10 @@
           "id": "d",
           "text": "Giải phóng dân tộc"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-110",
@@ -11836,8 +11959,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "71c434956e5fd00858cd8d3fa94bc3b5790523d6ac34f99211c754b79e0caf29",
-      "status": "published",
-      "questionId": "azota-rnaeqk-111",
+      "status": "merged",
+      "questionId": "quiz-g6-03",
       "chapter": 4,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -11874,7 +11997,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-112",
@@ -11930,8 +12056,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "4c65231c164d5e92405300a674adffb72810bb88f0a56137a778695f03e08d73",
-      "status": "published",
-      "questionId": "azota-rnaeqk-113",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-112",
       "chapter": 3,
       "answerOptionId": "a",
       "answerText": "Quyền thiêng liêng và bất khả xâm phạm của tất cả các dân tộc",
@@ -11968,7 +12094,10 @@
           "id": "d",
           "text": "Quyền thiêng liêng của tất cả các dân tộc"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Quyền thiêng liêng và bất khả xâm phạm của tất cả các dân tộc",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-114",
@@ -12117,8 +12246,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "6fee8be1888c8e87186a265de88e7efee775ff73a72bc812881307326019cb35",
-      "status": "published",
-      "questionId": "azota-rnaeqk-117",
+      "status": "merged",
+      "questionId": "azota-e9lwce-025",
       "chapter": 3,
       "answerOptionId": "d",
       "answerText": "Giải phóng dân tộc; cách mạng vô sản",
@@ -12154,7 +12283,10 @@
           "id": "d",
           "text": "Giải phóng dân tộc; cách mạng vô sản"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Giải phóng dân tộc; cách mạng vô sản",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-118",
@@ -12163,8 +12295,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "45c7a69f88529a4d58d44792677aa93ab4daa99cb6631e209ce4f8a145974570",
-      "status": "published",
-      "questionId": "azota-rnaeqk-118",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-114",
       "chapter": 6,
       "answerOptionId": "d",
       "answerText": "Con người xã hội chủ nghĩa",
@@ -12200,7 +12332,10 @@
           "id": "d",
           "text": "Con người xã hội chủ nghĩa"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Con người xã hội chủ nghĩa",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-119",
@@ -12303,8 +12438,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "add6e48c12eb5e7fdb786bdc4f9e2a710b4f12bbd0c6371b1741b8b19bb158e5",
-      "status": "published",
-      "questionId": "azota-rnaeqk-121",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-007",
       "chapter": 3,
       "answerOptionId": "d",
       "answerText": "Của chung",
@@ -12341,7 +12476,10 @@
           "id": "d",
           "text": "Của chung"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Của chung",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-122",
@@ -12351,7 +12489,7 @@
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "4c5269fc3c4914b05c7a47b71ccd5dc607e952b92e6d2f888f5b92700953c27f",
       "status": "merged",
-      "questionId": "azota-rnaeqk-089",
+      "questionId": "azota-rnaeqk-058",
       "chapter": 3,
       "answerOptionId": "a",
       "answerText": "Do nhân dân làm chủ",
@@ -12387,7 +12525,10 @@
           "id": "d",
           "text": "Do giai cấp công nhân làm chủ"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Do nhân dân làm chủ",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-123",
@@ -12443,8 +12584,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "ab6dbe7abee2034cf3e7bd16a41eac8d4eae8fe1284047e3cc35845c8ed1a3fd",
-      "status": "published",
-      "questionId": "azota-rnaeqk-124",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-027",
       "chapter": 3,
       "answerOptionId": "c",
       "answerText": "Hạnh phúc vô tận",
@@ -12481,7 +12622,10 @@
           "id": "d",
           "text": "Sự phát triển toàn diện"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Hạnh phúc vô tận",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-125",
@@ -12584,8 +12728,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "559d80e1b62158c721f928ac9d3c766af163b84e6fd4be999c372e23adc6e27e",
-      "status": "published",
-      "questionId": "azota-rnaeqk-127",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-042",
       "chapter": 2,
       "answerOptionId": "b",
       "answerText": "Ở các nước châu Á, phương Đông",
@@ -12622,7 +12766,10 @@
           "id": "d",
           "text": "Ở châu Phi"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Ở các nước châu Á, phương Đông",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-128",
@@ -12771,8 +12918,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "32082c0bac968ef0d114551164797719cd64e9e7e444472bee8de8d7fcb6a29e",
-      "status": "published",
-      "questionId": "azota-rnaeqk-131",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-021",
       "chapter": 2,
       "answerOptionId": "c",
       "answerText": "Nguyễn Ái Quốc",
@@ -12808,7 +12955,10 @@
           "id": "d",
           "text": "Hoàng Quốc Việt"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Nguyễn Ái Quốc",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-132",
@@ -12865,7 +13015,7 @@
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "aef9a85ff190663f0f4ea7bc76b7937d1ce60847c61116599f41279ddffe9aa6",
       "status": "merged",
-      "questionId": "azota-rnaeqk-070",
+      "questionId": "sample-g1-13",
       "chapter": 3,
       "answerOptionId": "c",
       "answerText": "Công ngiệp hóa phải bắt đầu từ xây dựng và phát trển công nghiệp nặng",
@@ -12908,7 +13058,10 @@
           "id": "d",
           "text": "Công nghiệp hóa phải trên cơ sở phát triển công nghiệp nhẹ, tiểu thủ công nghiệp"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Công nghiệp hóa phải bắt đầu từ xây dựng và phát triển công nghiệp nặng.",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-134",
@@ -13058,8 +13211,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "ab66e888052c640eba65feb0fd36db5eb8f5310016d41c7ae15edbdc264f8829",
-      "status": "published",
-      "questionId": "azota-rnaeqk-137",
+      "status": "merged",
+      "questionId": "azota-e9lwce-034",
       "chapter": 3,
       "answerOptionId": "a",
       "answerText": "Tuyên ngôn độc lập",
@@ -13096,7 +13249,10 @@
           "id": "d",
           "text": "Chính cương sách lược vắn tắt"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Tuyên ngôn đọc lập",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-138",
@@ -13292,8 +13448,8 @@
       "sourceChapter": 3,
       "retrievedAt": "2026-11-14T03:42:07.499Z",
       "sourceHash": "933c8c0b1f19fce67a064ee66c07fa480436b6f26dadf6e230c6f72686fb847e",
-      "status": "published",
-      "questionId": "azota-rnaeqk-142",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-139",
       "chapter": 3,
       "answerOptionId": "b",
       "answerText": "Đấu tranh giải phóng dân tộc, thành lập nhà nước dân tộc độc lập, trong đó nhân dân là chủ thể tối cao của quyền lực nhà nước",
@@ -13330,7 +13486,10 @@
           "id": "d",
           "text": "Đòi quyền tự trị dân tộc dưới sự bảo hộ của ngoại bang"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Đấu tranh giải phóng dân tộc khỏi sự áp bức, thống trị của nước ngoài, giành độc lập dân tộc, thành lập nhà nước dân tộc độc lập, và đưa đất nước phát triển theo xu thế thời đại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-rnaeqk-143",
@@ -13948,8 +14107,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "33dd85ddec48d95d76dc97bec6cf10cf009f18e97fcd0ebb6d22b2bbd514f24e",
-      "status": "published",
-      "questionId": "azota-ela4jq-008",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-051",
       "chapter": 4,
       "answerOptionId": "b",
       "answerText": "Đường cách mệnh",
@@ -13986,7 +14145,10 @@
           "id": "d",
           "text": "Bản án chế độ thực dân Pháp"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Đường Cách mệnh",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-009",
@@ -14276,8 +14438,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "0955fdcb9bbbbd05de49ee77795cf9f1fa4135a06388248c3a84c8f66a7a17db",
-      "status": "published",
-      "questionId": "azota-ela4jq-015",
+      "status": "merged",
+      "questionId": "azota-ela4jq-001",
       "chapter": 4,
       "answerOptionId": "c",
       "answerText": "Phụng sự Tổ quốc, phụng sự nhân dân",
@@ -14313,7 +14475,10 @@
           "id": "d",
           "text": "Vì lợi ích của tất cả mọi người"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Phụng sự Tổ quốc, phụng sự nhân dân",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-016",
@@ -14557,8 +14722,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "69cedd56c76e03c14d566495db45855a3b29589d7c21165c9c2ed3a96b617a09",
-      "status": "published",
-      "questionId": "azota-ela4jq-021",
+      "status": "merged",
+      "questionId": "azota-ela4jq-006",
       "chapter": 4,
       "answerOptionId": "a",
       "answerText": "Đảng Cộng sản Việt Nam là Đảng của giai cấp công nhân, nhân dân lao động và của cả dân tộc Việt Nam",
@@ -14595,7 +14760,10 @@
           "id": "d",
           "text": "Đảng Cộng sản Việt Nam là Đảng của giai cấp công nhân"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Đảng cộng sản Việt Nam là Đảng của giai cấp công nhân, của nhân dân lao động và của dân tộc Việt Nam",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-022",
@@ -14697,8 +14865,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "d2a1e0b9190ae446424a5448ceb03b22bee388b459688873298c75f8ecec1a92",
-      "status": "published",
-      "questionId": "azota-ela4jq-024",
+      "status": "merged",
+      "questionId": "quiz-g6-16",
       "chapter": 4,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -14735,7 +14903,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-025",
@@ -14989,8 +15160,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "9a97048bcbe2f73533659cd5d5669bbe86a9b3aaf73b468a23d32edff56052d7",
-      "status": "published",
-      "questionId": "azota-ela4jq-031",
+      "status": "merged",
+      "questionId": "quiz-g4-10",
       "chapter": 2,
       "answerOptionId": "b",
       "answerText": "Nguyễn Ái Quốc",
@@ -15027,7 +15198,10 @@
           "id": "d",
           "text": "Trường Trinh"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Nguyễn Ái Quốc",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-032",
@@ -15757,8 +15931,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "e5a16936d289e9c589e8d244ff0647ce7a0acac882fc46b2c52ab4c9ac21bf53",
-      "status": "published",
-      "questionId": "azota-ela4jq-048",
+      "status": "merged",
+      "questionId": "lms-g4-14",
       "chapter": 4,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -15795,7 +15969,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-049",
@@ -15804,8 +15981,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "b3e196587336d371a0af521f6ca02f2276f7525afa97227680a199ba18152f0b",
-      "status": "published",
-      "questionId": "azota-ela4jq-049",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-079",
       "chapter": 4,
       "answerOptionId": "a",
       "answerText": "Sự lãnh đạo của Đảng",
@@ -15842,7 +16019,10 @@
           "id": "d",
           "text": "Sự giúp đỡ của Quốc tế Cộng sản"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Phải có Đảng cộng sản",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-050",
@@ -16039,8 +16219,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "d6627249245fb082e3fbbbae6195bf6ba4ba3fbffa81cd00b398ab6666ae1d3f",
-      "status": "published",
-      "questionId": "azota-ela4jq-054",
+      "status": "merged",
+      "questionId": "azota-e9lwce-031",
       "chapter": 2,
       "answerOptionId": "a",
       "answerText": "Chủ nghĩa yêu nước",
@@ -16076,7 +16256,10 @@
           "id": "d",
           "text": "Tinh thần hiếu học"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Chủ nghĩa yêu nước",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-055",
@@ -16085,8 +16268,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "4f775b84cd069c603d6da8834a460600888c840f81643cf0e35bea7d2857d34e",
-      "status": "published",
-      "questionId": "azota-ela4jq-055",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-108",
       "chapter": 2,
       "answerOptionId": "d",
       "answerText": "Đảng cộng sản Việt Nam",
@@ -16123,7 +16306,10 @@
           "id": "d",
           "text": "Đảng cộng sản Việt Nam"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Đảng cộng sản Việt Nam",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-056",
@@ -16179,8 +16365,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "03b3e72195970bc19ba14c8091a95f26e30997d77654b29667f2a50ad0e358da",
-      "status": "published",
-      "questionId": "azota-ela4jq-057",
+      "status": "merged",
+      "questionId": "azota-ela4jq-011",
       "chapter": 4,
       "answerOptionId": "c",
       "answerText": "Tham ô, lãng phí",
@@ -16216,7 +16402,10 @@
           "id": "d",
           "text": "Thành tích"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Tham ô, lãng phí",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-058",
@@ -16225,8 +16414,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "d6a3def2363607004df684dfb812a7cdb0d9c5925ba8686fc38807c93dc8d4e5",
-      "status": "published",
-      "questionId": "azota-ela4jq-058",
+      "status": "merged",
+      "questionId": "azota-ela4jq-017",
       "chapter": 4,
       "answerOptionId": "c",
       "answerText": "Một nhà nước hợp hiến",
@@ -16263,7 +16452,10 @@
           "id": "d",
           "text": "Một nhà nước không có tiêu cực, không có đặc quyền, đặc lợi"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Một nhà nước hợp Hiến",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-059",
@@ -16693,8 +16885,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "135384847ae4e45d52db7ffe6a1fcfb97a878fc439cba87d5c861112ce7f9c51",
-      "status": "published",
-      "questionId": "azota-ela4jq-068",
+      "status": "merged",
+      "questionId": "quiz-g6-16",
       "chapter": 4,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -16731,7 +16923,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-069",
@@ -16834,8 +17029,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "eba66a6bb5c3c0b3afbf747fafdcf43753528cf59fe353ff414d04a60f63a0ee",
-      "status": "published",
-      "questionId": "azota-ela4jq-071",
+      "status": "merged",
+      "questionId": "azota-ela4jq-065",
       "chapter": 4,
       "answerOptionId": "c",
       "answerText": "Nền tảng lý luận, mục tiêu, nguyên tắc tổ chức của Đảng",
@@ -16872,7 +17067,10 @@
           "id": "d",
           "text": "Trình độ đảng viên trong Đảng"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Nền tảng lý luận, mục tiêu, đường lối, nguyên tắc tổ chức của Đảng",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-072",
@@ -17499,8 +17697,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "b1f81ba8f664c078458b13ef4ad03e93a8268c3ce81e2dcb0d49c8d9999472ac",
-      "status": "published",
-      "questionId": "azota-ela4jq-086",
+      "status": "merged",
+      "questionId": "azota-ela4jq-063",
       "chapter": 4,
       "answerOptionId": "a",
       "answerText": "Di chúc",
@@ -17537,7 +17735,10 @@
           "id": "d",
           "text": "Sửa đổi lối làm việc"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Di chúc",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-087",
@@ -17546,8 +17747,8 @@
       "sourceChapter": 4,
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "289f923a646f9c6eba5a5f1d8667009a2a5dcbf65e9298aa2a1903eb5a596816",
-      "status": "published",
-      "questionId": "azota-ela4jq-087",
+      "status": "merged",
+      "questionId": "azota-ela4jq-034",
       "chapter": 4,
       "answerOptionId": "b",
       "answerText": "Xác định vai trò lãnh đạo của Đảng",
@@ -17584,7 +17785,10 @@
           "id": "d",
           "text": "Xác định mục đích của Đảng"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Xác định vai trò lãnh đạo của Đảng",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ela4jq-088",
@@ -17594,7 +17798,7 @@
       "retrievedAt": "2026-11-14T03:46:42.227Z",
       "sourceHash": "1241f1d545cc5cf8576d363e17089a82c19b1fdd6a69115cadf609b6ee35832f",
       "status": "merged",
-      "questionId": "azota-rnaeqk-089",
+      "questionId": "azota-rnaeqk-058",
       "chapter": 3,
       "answerOptionId": "b",
       "answerText": "Do nhân dân làm chủ",
@@ -17630,7 +17834,10 @@
           "id": "d",
           "text": "Do một nhóm có đặc quyền làm chủ"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Do nhân dân làm chủ",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-001",
@@ -17919,8 +18126,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "f23c0ab7be636204ef8e893bfbeea613df86b6f18095c75b1083b6e172c77e8c",
-      "status": "published",
-      "questionId": "azota-ijqzcg-007",
+      "status": "merged",
+      "questionId": "azota-ijqzcg-003",
       "chapter": 5,
       "answerOptionId": "a",
       "answerText": "Mọi nước dân chủ",
@@ -17956,7 +18163,10 @@
           "id": "d",
           "text": "Các nước xã hội chủ nghĩa"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Mọi nước dân chủ",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-008",
@@ -18573,8 +18783,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "f7fb5875ed7bdc6561aba48b974590b7c7c4c8c94218b09fb297dec972668649",
-      "status": "published",
-      "questionId": "azota-ijqzcg-021",
+      "status": "merged",
+      "questionId": "azota-ijqzcg-005",
       "chapter": 5,
       "answerOptionId": "c",
       "answerText": "Cả ba phương án còn lại",
@@ -18611,7 +18821,10 @@
           "id": "d",
           "text": "Văn hóa truyền thống dân tộc Việt Nam"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-022",
@@ -18852,8 +19065,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "517f2335f567ce8f79179271fa4a64739022491bb1743866f861c2f2838f6b58",
-      "status": "published",
-      "questionId": "azota-ijqzcg-027",
+      "status": "merged",
+      "questionId": "azota-ijqzcg-009",
       "chapter": 5,
       "answerOptionId": "a",
       "answerText": "Công nhân, nông dân, lao động trí óc",
@@ -18890,7 +19103,10 @@
           "id": "d",
           "text": "Học trò, nhà buôn"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Công nhân, nông dân, lao động trí óc",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-028",
@@ -18993,8 +19209,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "4abf079693ea1740a9f59ccc14cb95430c4b07fb2b95c41a8bf6e0541de277ae",
-      "status": "published",
-      "questionId": "azota-ijqzcg-030",
+      "status": "merged",
+      "questionId": "azota-ijqzcg-015",
       "chapter": 5,
       "answerOptionId": "a",
       "answerText": "Đại đoàn kết là vấn đề chiến lược",
@@ -19030,7 +19246,10 @@
           "id": "d",
           "text": "Đại đoàn kết dân tộc là thủ đoạn chính trị"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Đại đoàn kết là vấn đề chiến lược",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-031",
@@ -19039,8 +19258,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "cf1218e34b43b73d89892cfa77cabc04307ae698c86d83f9b37158fe39c30878",
-      "status": "published",
-      "questionId": "azota-ijqzcg-031",
+      "status": "merged",
+      "questionId": "azota-e9lwce-050",
       "chapter": 5,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -19077,7 +19296,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-032",
@@ -19133,8 +19355,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "3b3c7ee052e928298420bdd2daacf1f2613000340d1ef557eded004ffe7e40b6",
-      "status": "published",
-      "questionId": "azota-ijqzcg-033",
+      "status": "merged",
+      "questionId": "azota-ijqzcg-026",
       "chapter": 5,
       "answerOptionId": "d",
       "answerText": "Vừa cứng rắn về nguyên tắc, vừa mềm dẻo về sách lược",
@@ -19171,7 +19393,10 @@
           "id": "d",
           "text": "Vừa cứng rắn về nguyên tắc, vừa mềm dẻo về sách lược"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Vừa cứng rắn về nguyên tắc, vừa mềm dẻo về sách lược",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-034",
@@ -19180,8 +19405,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "7513d46143c0b1a8927ef39c975d6aff3b860cd1e7b325a0743706981a53e71f",
-      "status": "published",
-      "questionId": "azota-ijqzcg-034",
+      "status": "merged",
+      "questionId": "azota-ijqzcg-028",
       "chapter": 5,
       "answerOptionId": "b",
       "answerText": "Đại đoàn kết dân tộc",
@@ -19218,7 +19443,10 @@
           "id": "d",
           "text": "Giải phóng dân tộc"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Đại đoàn kết dân tộc",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-035",
@@ -19507,8 +19735,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "d2dbad4bfd07d19778fee47f932286f92daba7b06756e84324ae881e76b290da",
-      "status": "published",
-      "questionId": "azota-ijqzcg-041",
+      "status": "merged",
+      "questionId": "azota-e9lwce-050",
       "chapter": 5,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -19545,7 +19773,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-ijqzcg-042",
@@ -19648,8 +19879,8 @@
       "sourceChapter": 5,
       "retrievedAt": "2026-11-14T03:46:49.361Z",
       "sourceHash": "2246e79fe1b06b33bb2718d7660a57f9ee06bd3989be1a69f9d45017e8e314c8",
-      "status": "published",
-      "questionId": "azota-ijqzcg-044",
+      "status": "merged",
+      "questionId": "azota-ijqzcg-004",
       "chapter": 5,
       "answerOptionId": "c",
       "answerText": "Tự lực cánh sinh, dựa vào sức mình là chính",
@@ -19686,7 +19917,10 @@
           "id": "d",
           "text": "Dựa vào nguồn lực ngoại sinh"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Tự lực cánh sinh, dựa vào sức mình là chính",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-001",
@@ -20164,8 +20398,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "2a791513d8ef23d24acad42ee0d60dd216b55f01840f6cb1caa584a122fcce33",
-      "status": "published",
-      "questionId": "azota-3eggrt-011",
+      "status": "merged",
+      "questionId": "lms-g3-15",
       "chapter": 3,
       "answerOptionId": "a",
       "answerText": "Con người",
@@ -20202,7 +20436,10 @@
           "id": "d",
           "text": "Kinh tế"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Con người",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-012",
@@ -20352,8 +20589,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "b069ba44eba3ab5199cb40b9bb3e266963355ca3a2364f9653e1f4502b897439",
-      "status": "published",
-      "questionId": "azota-3eggrt-015",
+      "status": "merged",
+      "questionId": "lms-g6-09",
       "chapter": 6,
       "answerOptionId": "b",
       "answerText": "Cả ba phương án còn lại",
@@ -20390,7 +20627,10 @@
           "id": "d",
           "text": "Tu dưỡng đạo đức suốt đời"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-016",
@@ -20963,8 +21203,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "b50aab2ba89195187a6cc9a97e27ecf6ce06fa7fe02335187ee4d4ffbcf764d7",
-      "status": "published",
-      "questionId": "azota-3eggrt-028",
+      "status": "merged",
+      "questionId": "azota-rnaeqk-031",
       "chapter": 3,
       "answerOptionId": "d",
       "answerText": "Nhân dân",
@@ -21000,7 +21240,10 @@
           "id": "d",
           "text": "Nhân dân"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Nhân dân",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-029",
@@ -21338,8 +21581,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "8dbee0f10e0ad98249845881db8ebcc5154e16c9c0c55a19e3478201051c5328",
-      "status": "published",
-      "questionId": "azota-3eggrt-036",
+      "status": "merged",
+      "questionId": "sample-g1-18",
       "chapter": 6,
       "answerOptionId": "d",
       "answerText": "Đường Kách mệnh",
@@ -21382,7 +21625,10 @@
           "id": "d",
           "text": "Đường Kách mệnh"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Đường Kách mệnh.",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-037",
@@ -21437,8 +21683,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "3a89d36924764ff93b2d011abd72a5d856935e3a7a3349a61d012bc511e03500",
-      "status": "published",
-      "questionId": "azota-3eggrt-038",
+      "status": "merged",
+      "questionId": "lms-g6-09",
       "chapter": 6,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -21475,7 +21721,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-039",
@@ -21531,8 +21780,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "ef7e5349b4aba1b499e5c261fed9bf54c4ad026aaade5707823c5c0993b9de8a",
-      "status": "published",
-      "questionId": "azota-3eggrt-040",
+      "status": "merged",
+      "questionId": "azota-3eggrt-007",
       "chapter": 6,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -21569,7 +21818,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-041",
@@ -21813,8 +22065,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "c1202d9648a74b98454a053ac1da41d73f2dcaec5c1ee1b16e1b569587b6301c",
-      "status": "published",
-      "questionId": "azota-3eggrt-046",
+      "status": "merged",
+      "questionId": "azota-ela4jq-063",
       "chapter": 4,
       "answerOptionId": "d",
       "answerText": "Di chúc",
@@ -21851,7 +22103,10 @@
           "id": "d",
           "text": "Di chúc"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Di chúc",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-047",
@@ -21954,8 +22209,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "5063b471138f05d179da98d990f8f1fec27d17bb47ca83de4f65a39282938a88",
-      "status": "published",
-      "questionId": "azota-3eggrt-049",
+      "status": "merged",
+      "questionId": "azota-3eggrt-001",
       "chapter": 6,
       "answerOptionId": "d",
       "answerText": "Giáo dục toàn diện cả đức, trí, thể, mỹ",
@@ -21992,7 +22247,10 @@
           "id": "d",
           "text": "Giáo dục toàn diện cả đức, trí, thể, mỹ"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Giáo dục toàn diện cả đức, trí, thể, mỹ",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-050",
@@ -22189,8 +22447,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "288d5590c4a5096c5382fda2e68a149279961ff4cfe0805e4a6ae5f0db8425ff",
-      "status": "published",
-      "questionId": "azota-3eggrt-054",
+      "status": "merged",
+      "questionId": "azota-3eggrt-024",
       "chapter": 6,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -22227,7 +22485,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-055",
@@ -22282,8 +22543,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "4e49e5abc174c4c9f5ea52e8df72820c0634d4420a673d56664bffa97e0e20e8",
-      "status": "published",
-      "questionId": "azota-3eggrt-056",
+      "status": "merged",
+      "questionId": "lms-g6-09",
       "chapter": 6,
       "answerOptionId": "c",
       "answerText": "Nói đi đôi với làm; xây đi đôi với chống; phải tu dưỡng đạo đức suốt đời",
@@ -22320,7 +22581,10 @@
           "id": "d",
           "text": "Nói đi đôi với làm; xây đi đôi với chống; rèn luyện phẩm chất đạo đức"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-057",
@@ -22376,8 +22640,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "009c6ced9b17ee46859aa481bea90241d435436bbb4a7de59f0c4eadef1a1837",
-      "status": "published",
-      "questionId": "azota-3eggrt-058",
+      "status": "merged",
+      "questionId": "azota-3eggrt-019",
       "chapter": 6,
       "answerOptionId": "b",
       "answerText": "Là người chiến sĩ",
@@ -22414,7 +22678,10 @@
           "id": "d",
           "text": "Đứng ngoài cuộc đấu tranh của nhân dân"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Là người chiến sĩ",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-059",
@@ -22423,8 +22690,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "fcac6772766cc54b7a977d5ec25d3ed6ad7c3c22023e4f359a6ad39e3899acc2",
-      "status": "published",
-      "questionId": "azota-3eggrt-059",
+      "status": "merged",
+      "questionId": "azota-3eggrt-023",
       "chapter": 6,
       "answerOptionId": "b",
       "answerText": "Đạo đức",
@@ -22461,7 +22728,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Đạo đức",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-060",
@@ -22564,8 +22834,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "28e7cc3e95ec5162c59a05064a259df1991726894d59af007e87ad3a80a159eb",
-      "status": "published",
-      "questionId": "azota-3eggrt-062",
+      "status": "merged",
+      "questionId": "azota-3eggrt-004",
       "chapter": 6,
       "answerOptionId": "b",
       "answerText": "Trung với nước, hiếu với dân",
@@ -22602,7 +22872,10 @@
           "id": "d",
           "text": "Tinh thần quốc tế trong sáng"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Trung với nước, hiếu với dân",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-063",
@@ -22705,8 +22978,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "2b4f0fc62612779f6acc965c003b65ea5ad5bd2be0de584748e874d95d2538c8",
-      "status": "published",
-      "questionId": "azota-3eggrt-065",
+      "status": "merged",
+      "questionId": "azota-3eggrt-020",
       "chapter": 6,
       "answerOptionId": "a",
       "answerText": "Hồ Chí Minh",
@@ -22743,7 +23016,10 @@
           "id": "d",
           "text": "C. Mác"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "Hồ Chí Minh",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-3eggrt-066",
@@ -23228,8 +23504,8 @@
       "sourceChapter": 6,
       "retrievedAt": "2026-11-14T03:46:56.937Z",
       "sourceHash": "c1b8318b951e843c9363175f7f8f506dd570ee5e2371f6e3a58696e6462c3748",
-      "status": "published",
-      "questionId": "azota-3eggrt-076",
+      "status": "merged",
+      "questionId": "azota-3eggrt-005",
       "chapter": 6,
       "answerOptionId": "c",
       "answerText": "Tạo thành phong trào quần chúng rộng rãi",
@@ -23266,7 +23542,10 @@
           "id": "d",
           "text": "Bắt buộc từng cá nhân thực hiện"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "b",
+      "canonicalAnswerText": "Tạo thành phong trào quần chúng rộng rãi",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-001",
@@ -23367,8 +23646,8 @@
       "sourceChapter": 0,
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "01791df73b1de38661e9a5aa5159fdcba6f6ae51f8d3a702d28fd71106cf7584",
-      "status": "published",
-      "questionId": "azota-n6fnzo-003",
+      "status": "merged",
+      "questionId": "lms-g2-20",
       "chapter": 2,
       "answerOptionId": "a",
       "answerText": "“Đường Kách mệnh”",
@@ -23404,7 +23683,10 @@
           "id": "d",
           "text": "“Báo Thanh niên”"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "“Đường Kách mệnh”",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-004",
@@ -23600,8 +23882,8 @@
       "sourceChapter": 0,
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "b25ce099e1c426d00f47c5fa0bd2845805623a7d5adfab61c90cade9e90123b6",
-      "status": "published",
-      "questionId": "azota-n6fnzo-008",
+      "status": "merged",
+      "questionId": "lms-g2-15",
       "chapter": 2,
       "answerOptionId": "c",
       "answerText": "“Bản yêu sách của nhân dân An Nam”",
@@ -23638,7 +23920,10 @@
           "id": "d",
           "text": "“Lời kêu gọi toàn quốc kháng chiến”"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "“Bản yêu sách của nhân dân Việt Nam”",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-009",
@@ -23881,8 +24166,8 @@
       "sourceChapter": 0,
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "b0f2f32bdb9aec78a5092bf8144076b0810d347cf10ce14db168c5788197bc78",
-      "status": "published",
-      "questionId": "azota-n6fnzo-014",
+      "status": "merged",
+      "questionId": "lms-g5-03",
       "chapter": 5,
       "answerOptionId": "d",
       "answerText": "Cả ba phương án còn lại",
@@ -23919,7 +24204,10 @@
           "id": "d",
           "text": "Cả ba phương án còn lại"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-015",
@@ -24777,8 +25065,8 @@
       "sourceChapter": 0,
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "e9935fcb47ca514acf93e188aaf4444144c0c0fcfc2651ab001ba87e012e1c35",
-      "status": "published",
-      "questionId": "azota-n6fnzo-033",
+      "status": "merged",
+      "questionId": "lms-g5-04",
       "chapter": 5,
       "answerOptionId": "c",
       "answerText": "Nơi quy tụ các tổ chức và cá nhân yêu nước trong và ngoài nước",
@@ -24815,7 +25103,10 @@
           "id": "d",
           "text": "Mặt trận dân tộc thống nhất là tổ chức của giai cấp công nhân, nông dân và lao động trí óc"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Mặt trận là nơi quy tụ các tổ chức và cá nhân yêu nước trong và ngoài nước",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-034",
@@ -24824,8 +25115,8 @@
       "sourceChapter": 0,
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "a9634c9905c7a05035e4c780b757c9ddd8815d8126e6e34ae01e71a7f3164015",
-      "status": "published",
-      "questionId": "azota-n6fnzo-034",
+      "status": "merged",
+      "questionId": "lms-g4-14",
       "chapter": 4,
       "answerOptionId": "b",
       "answerText": "Cả ba phương án còn lại",
@@ -24862,7 +25153,10 @@
           "id": "d",
           "text": "Nhà nước do nhân dân tạo ra và tham gia quản lý"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Cả ba phương án còn lại",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-035",
@@ -24871,8 +25165,8 @@
       "sourceChapter": 0,
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "ac52098af997bf3c1e7c9953c6831a17722929a7ba8390cc85b1861cb07bcc4a",
-      "status": "published",
-      "questionId": "azota-n6fnzo-035",
+      "status": "merged",
+      "questionId": "lms-g2-14",
       "chapter": 2,
       "answerOptionId": "d",
       "answerText": "Con đỉa có hai vòi",
@@ -24908,7 +25202,10 @@
           "id": "d",
           "text": "Con đỉa có hai vòi"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Con đỉa có hai vòi",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-036",
@@ -24964,7 +25261,7 @@
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "23e859c840e4ad9657097e5a5e15263b806c32a4510367ae26fac328efb204d6",
       "status": "merged",
-      "questionId": "lms-g2-30",
+      "questionId": "sample-g1-04",
       "chapter": 2,
       "answerOptionId": "d",
       "answerText": "1908",
@@ -25000,7 +25297,10 @@
           "id": "d",
           "text": "1908"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "c",
+      "canonicalAnswerText": "1908",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-038",
@@ -26166,7 +26466,7 @@
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "27763829f803667a583b80a7ab5ec76e77f269296b32cf9bd0086297664069c3",
       "status": "merged",
-      "questionId": "lms-g2-07",
+      "questionId": "sample-g1-12",
       "chapter": 2,
       "answerOptionId": "c",
       "answerText": "Phương pháp làm việc biện chứng",
@@ -26202,7 +26502,10 @@
           "id": "d",
           "text": "Chủ nghĩa nhân đạo"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Phương pháp làm việc biện chứng",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-063",
@@ -26821,7 +27124,7 @@
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "8b5ecb729167cdef2d365c426c2d8866c98c28e6b8713ef7242736bd49e21fac",
       "status": "merged",
-      "questionId": "lms-g2-08",
+      "questionId": "sample-g1-12",
       "chapter": 2,
       "answerOptionId": "b",
       "answerText": "Phương pháp làm việc biện chứng",
@@ -26857,7 +27160,10 @@
           "id": "d",
           "text": "Trí tuệ siêu phàm"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "d",
+      "canonicalAnswerText": "Phương pháp làm việc biện chứng",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-077",
@@ -26959,7 +27265,7 @@
       "retrievedAt": "2026-11-14T03:47:04.846Z",
       "sourceHash": "7494a137b6511d6cb1bea8f6bfae7e8cc1100b3205ec85590e61d61628e5c73b",
       "status": "merged",
-      "questionId": "quiz-g7-11",
+      "questionId": "lms-g5-10",
       "chapter": 5,
       "answerOptionId": "b",
       "answerText": "Đoàn kết trên cơ sở độc lập, tự chủ",
@@ -26996,7 +27302,10 @@
           "id": "d",
           "text": "Đoàn kết trên cơ sở bảo vệ lẫn nhau"
         }
-      ]
+      ],
+      "canonicalAnswerOptionId": "a",
+      "canonicalAnswerText": "Đoàn kết trên cơ sở độc lập, tự chủ",
+      "mergeReason": "Gộp trùng ý; answerText và studyOptions vẫn là bản đối chiếu riêng của mục nguồn."
     },
     {
       "id": "azota-n6fnzo-080",

@@ -136,8 +136,10 @@ def augment(root, bank):
             bank['audit'].append(dict(**audit,status=status,questionId=final,reason=reason))
             manifest.append(dict(**entry,status=status,questionId=final,chapter=q['chapter'],answerOptionId=q['correctOptionId'],answerText=answer,explanation=q['explanation'],keywords=q['keywords'],theoryReferences=q['theoryReferences'],editorialNote=q['editorialNote'],studyPrompt=q['prompt'],studyOptions=q['options']))
     # Historical passages already cover their topical fact; references remain traceable.
-    bank.update(version='2026.11.14.azota.1',updatedAt='2026-11-14')
-    report=dict(version=bank['version'],reviewedAt='2026-11-14',policy='Giáo trình 2019 và bài giảng PTIT ưu tiên; số liệu thiếu/mâu thuẫn đối chiếu nguồn chính thống. Không dùng key Azota. Câu thiếu căn cứ không xuất bản.',sourceCounts=CODES,sourceHashes=SNAPSHOT_HASHES,baseReview=base_review,questions=manifest)
+    from deduplicate import deduplicate
+    duplicate_review=deduplicate(root,bank,manifest)
+    bank.update(version='2026.11.14.dedup.1',updatedAt='2026-11-14')
+    report=dict(version=bank['version'],reviewedAt='2026-11-14',policy='Giáo trình 2019 và bài giảng PTIT ưu tiên; số liệu thiếu/mâu thuẫn đối chiếu nguồn chính thống. Không dùng key Azota. Câu thiếu căn cứ không xuất bản.',sourceCounts=CODES,sourceHashes=SNAPSHOT_HASHES,baseReview=base_review,duplicateReview=duplicate_review,questions=manifest)
     (folder/'reviewed.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
     (root/'src/subjects/tthcm/bank.json').write_text(json.dumps(bank,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
     catalog_path=root/'src/subjects/catalog.json'
@@ -146,7 +148,7 @@ def augment(root, bank):
         if subject['id']=='tthcm':subject['questionCount']=len(bank['questions']);subject['sourceDescription']='Theo giáo trình 2019, ngân hàng môn học và 6 đề Azota đã đối chiếu'
     catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
     counts=Counter(e['status'] for e in manifest)
-    lines=['# Báo cáo nội dung','',f"**{len(bank['questions'])} câu chuẩn** trên web; {sum(bool(q['tags']) for q in bank['questions'])} câu thuộc chuyên đề con số. Đề mẫu vẫn đủ 20 câu.",'','## Sáu đề Azota','', '| Đề | Mục gốc | Thêm câu | Gộp trùng | Chờ xác minh |','| --- | ---: | ---: | ---: | ---: |']
+    lines=['# Báo cáo nội dung','',f"**{len(bank['questions'])} câu chuẩn** trên web; {sum(bool(q['tags']) for q in bank['questions'])} câu thuộc chuyên đề con số. Đề mẫu vẫn đủ 20 câu.",'',f"Đã gộp thêm {duplicate_review['merged']} bản hỏi trùng ý trong {duplicate_review['groups']} nhóm, từ {duplicate_review['before']} xuống {duplicate_review['after']} câu. Quyết định có hash đề/lựa chọn tại `duplicate-decisions.json`; giữ nguyên snapshot và đáp án đối chiếu từng mục nguồn.",'','## Sáu đề Azota','', '| Đề | Mục gốc | Thêm câu | Gộp trùng | Chờ xác minh |','| --- | ---: | ---: | ---: | ---: |']
     for code in CODES:
         entries=[e for e in manifest if e['sourceCode']==code];c=Counter(e['status'] for e in entries)
         lines.append(f"| [{code}](https://azota.vn/de-thi/{code}) | {len(entries)} | {c['published']} | {c['merged']} | {c['pending']} |")
