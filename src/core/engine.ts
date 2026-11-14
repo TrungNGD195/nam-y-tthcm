@@ -17,6 +17,10 @@ export function needsReview(record?: RecordEntry): boolean {
 
 export function selectQuestions(questions: Question[], deck: Deck, records: Progress['records'], sampleIds: string[] = [], random: () => number = Math.random): Question[] {
   let pool = questions;
+  if (deck.kind === 'comprehensive') {
+    const map=new Map(questions.map(q=>[q.id,q]));
+    return (deck.questionIds??[]).map(id=>map.get(id)).filter((q):q is Question=>!!q);
+  }
   if (deck.kind === 'sample') return sampleIds.map(id => questions.find(q => q.id === id)).filter((q): q is Question => !!q);
   if (deck.kind === 'chapter') pool = pool.filter(q => q.chapter === deck.chapter && (deck.includeNumbers || !q.tags.some(tag => (deck.tags ?? q.tags).includes(tag))));
   if (deck.kind === 'numbers') pool = pool.filter(q => q.tags.length && (!deck.tag || deck.tag === 'all' || q.tags.includes(deck.tag as Question['tags'][number])));

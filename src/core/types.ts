@@ -5,7 +5,7 @@ export type Subject = {
   id: string; name: string; shortName: string; description: string; icon: string;
   accent: string; accentLight: string; status: 'ready' | 'awaiting-materials';
   learningMode?: 'quiz' | 'solutions';
-  questionCount?: number; chapterCount?: number; examSize?: number; sampleTitle?: string;
+  questionCount?: number; chapterCount?: number; examSize?: number; sampleTitle?: string; comprehensiveExamSize?: number;
   sourceDescription?: string; collections: Collection[];
 };
 export type ContentBlock =
@@ -45,7 +45,7 @@ export type SessionItem = {
   questionId: string; revision: number; optionOrder: string[];
   selectedOptionId: string | null; checked: boolean; usedHint: boolean; recorded: boolean;
 };
-export type Deck = { kind: 'chapter' | 'numbers' | 'review' | 'mixed' | 'sample' | 'collection'; chapter?: number; tag?: string; tags?: string[]; includeNumbers?: boolean; order?: 'unseen' | 'random'; count: number; title: string; questionIds?: string[] };
+export type Deck = { kind: 'chapter' | 'numbers' | 'review' | 'mixed' | 'sample' | 'collection' | 'comprehensive'; chapter?: number; tag?: string; tags?: string[]; includeNumbers?: boolean; order?: 'unseen' | 'random'; count: number; title: string; questionIds?: string[] };
 export type Session = {
   id: string; mode: 'practice' | 'exam'; status: 'active' | 'finished'; deck: Deck;
   items: SessionItem[]; cursor: number; startedAt: number; deadline: number | null; finishedAt: number | null;

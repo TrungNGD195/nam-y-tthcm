@@ -12,7 +12,8 @@ function sanitizeSession(value: unknown, questions: Map<string, Question>, statu
   if (!object(value) || value.status !== status || !['practice', 'exam'].includes(String(value.mode)) || typeof value.id !== 'string' || value.id.length > 120 || !object(value.deck)) return null;
   if (!Array.isArray(value.items) || value.items.length < 1 || value.items.length > questions.size || !integer(value.cursor) || value.cursor >= value.items.length || !time(value.startedAt)) return null;
   const deck = value.deck;
-  if (!['chapter', 'numbers', 'review', 'mixed', 'sample', 'collection'].includes(String(deck.kind)) || typeof deck.title !== 'string' || deck.title.length > 200 || !integer(deck.count) || !deck.count) return null;
+  if (!['chapter', 'numbers', 'review', 'mixed', 'sample', 'collection', 'comprehensive'].includes(String(deck.kind)) || typeof deck.title !== 'string' || deck.title.length > 200 || !integer(deck.count) || !deck.count) return null;
+  if(deck.kind==='comprehensive'&&(!Array.isArray(deck.questionIds)||deck.questionIds.length!==deck.count||value.items.length!==deck.count||new Set(deck.questionIds).size!==deck.count))return null;
   if (deck.kind === 'chapter' && (!integer(deck.chapter) || ![...questions.values()].some(q => q.chapter === deck.chapter))) return null;
   const ids = new Set<string>();
   const items: SessionItem[] = [];
@@ -28,6 +29,7 @@ function sanitizeSession(value: unknown, questions: Map<string, Question>, statu
     items.push({ questionId: q.id, revision: q.revision, optionOrder: [...raw.optionOrder] as string[], selectedOptionId: raw.selectedOptionId as string | null, checked: raw.checked, usedHint: raw.usedHint, recorded: raw.recorded });
   }
   if (value.deadline !== null && (!time(value.deadline) || value.deadline < value.startedAt || value.deadline > value.startedAt + 180 * 60_000)) return null;
+  if(deck.kind==='comprehensive'&&(deck.questionIds as unknown[]).some((id,index)=>typeof id!=='string'||id!==items[index].questionId))return null;
   if (status === 'finished' && !time(value.finishedAt)) return null;
   return {
     id: value.id, mode: value.mode as Session['mode'], status, items, cursor: value.cursor, startedAt: value.startedAt,

@@ -6,7 +6,7 @@ Chọn môn → chọn chương → học ý cốt lõi → luyện câu hỏi �
 
 | Môn | Trạng thái |
 | --- | --- |
-| Tư tưởng Hồ Chí Minh | 623 câu, 6 chương, 110 câu số liệu; đề mẫu 20 câu |
+| Tư tưởng Hồ Chí Minh | 623 câu, 6 chương, 110 câu số liệu; 19 đề tổng hợp × 50 câu và đề mẫu 20 câu |
 | Xử lý ảnh | 168 câu/bài tự luận có lời giải, chia ngân hàng theo 4 mức điểm và bộ cô Uyên theo chương |
 | Khoa học dữ liệu | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
 
@@ -107,6 +107,8 @@ npm run check
 CI chạy kiểm tra toán độc lập bằng NumPy/SciPy; khi học chỉ cần file web tĩnh, không cần Python, tài khoản hoặc máy chủ API.
 
 ## Nội dung TTHCM
+
+[Luyện đề tổng hợp 50 câu](https://trungngd195.github.io/nam-y-tthcm/#/mon/tthcm/de-tong-hop): 19 đề, mỗi đề 8–9 câu/chương, bao phủ đủ 623 câu hiện có, gồm cả câu số liệu. Không trùng câu trong một đề; chương ít câu có lặp giữa các đề để giữ phân bố đều. Thành phần đề cố định theo bản ngân hàng; có thể làm lại, lưu bài dang dở và xem lời giải sau nộp. Đề mẫu/đề trộn 20 câu vẫn nằm trong khu Thi thử.
 
 623 câu chuẩn từ 755 mục nguồn: 233 mục LMS/quiz/đề mẫu và 522 mục tại 6 link Azota. Thêm 408 câu, gộp 110 lượt trùng; 4 câu Azota và 11 mục cũ còn mơ hồ chưa dùng để chấm. Đã đọc lại 215 câu cũ, sửa câu mơ hồ và mốc chống thuế theo nguồn Bảo tàng; 23 câu tăng revision. Mỗi câu có keyword, lời giải ngắn và căn cứ đối chiếu. [Báo cáo nội dung](content/tthcm/BAO_CAO_NOI_DUNG.md) và [quyết định từng mục](content/tthcm/azota/reviewed.json) ghi đầy đủ thay đổi.
 

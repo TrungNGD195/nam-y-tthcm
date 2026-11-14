@@ -5,6 +5,8 @@ import { button, durationText, emphasize, esc, icon, link, pill, progressBar, pr
 
 import { resolveRoute, scopeSubjectLinks, subjectHref } from '../../app/router.ts';
 import { subjects } from '../../app/subjects.ts';
+import { buildComprehensivePapers } from '../../core/comprehensive.ts';
+import '../../shared/styles/comprehensive.css';
 
 export type StudyController = { render: () => void; dispose: () => void };
 export function mountStudy(subject: Subject, bank: Bank): StudyController {
@@ -12,6 +14,8 @@ const events = new AbortController();
 const routeHash = (): string => { const route=resolveRoute(location.hash); return route.kind==='subject' && route.subjectId===subject.id ? route.localHash : '#/'; };
 const collection = () => subject.collections.find(c => routeHash() === '#/' + c.id) ?? subject.collections[0];
 const examSize = Math.min(subject.examSize ?? 20, bank.questions.length);
+const comprehensiveSize=subject.comprehensiveExamSize;
+const papers=comprehensiveSize?buildComprehensivePapers(bank.questions,comprehensiveSize,`${subject.id}:${bank.version}`):[];
 const specialTags=new Set(subject.collections.flatMap(c=>c.tags));
 const isSpecial=(q:Question)=>q.tags.some(tag=>specialTags.has(tag));
 
@@ -75,7 +79,7 @@ function breadcrumb(): string {
   const chapterMatch = hash.match(/^#\/chuong\/(\d+)$/);
   if (chapterMatch) return `Chương ${chapterMatch[1]}`;
   const currentCollection=subject.collections.find(c=>hash==='#/'+c.id);if(currentCollection)return currentCollection.title;
-  return ({ '#/': 'Tổng quan', '#/thi-thu': 'Thi thử', '#/can-on': 'Cần ôn', '#/keyword': 'Sổ keyword', '#/lam-bai': 'Đang làm bài', '#/ket-qua': 'Kết quả', '#/nguon': 'Nguồn & tiến độ' } as Record<string,string>)[hash] ?? 'Trang không tìm thấy';
+  return ({ '#/': 'Tổng quan', '#/de-tong-hop': 'Luyện đề tổng hợp', '#/thi-thu': 'Thi thử', '#/can-on': 'Cần ôn', '#/keyword': 'Sổ keyword', '#/lam-bai': 'Đang làm bài', '#/ket-qua': 'Kết quả', '#/nguon': 'Nguồn & tiến độ' } as Record<string,string>)[hash] ?? 'Trang không tìm thấy';
 }
 function navItem(hash: string, name: string, symbol: string, badge = ''): string {
   const active = routeHash() === hash;
@@ -89,7 +93,7 @@ function shell(content: string): string {
       <p class="nav-label">Nội dung ôn tập</p>
       ${bank.chapters.map(c => `<a href="#/chuong/${c.number}" class="nav-link ${(routeHash() === `#/chuong/${c.number}`) ? 'active' : ''}" ${routeHash() === `#/chuong/${c.number}` ? 'aria-current="page"' : ''}><span class="chapter-index">${String(c.number).padStart(2,'0')}</span><span>${esc(c.shortTitle)}</span></a>`).join('')}
       <p class="nav-label">Luyện & ghi nhớ</p>
-      ${subject.collections.map(c=>navItem('#/'+c.id,c.title,c.icon)).join('')}${navItem('#/thi-thu',`Thi thử ${examSize} câu`,'target')}${navItem('#/can-on','Câu cần ôn','flag',String(reviewQuestions().length))}${navItem('#/keyword','Sổ keyword','layers')}
+      ${papers.length?navItem('#/de-tong-hop','Luyện đề tổng hợp','target',String(comprehensiveSize)):''}${subject.collections.map(c=>navItem('#/'+c.id,c.title,c.icon)).join('')}${navItem('#/thi-thu',`Thi thử ${examSize} câu`,'target')}${navItem('#/can-on','Câu cần ôn','flag',String(reviewQuestions().length))}${navItem('#/keyword','Sổ keyword','layers')}
       </nav><div class="sidebar-footer">${navItem('#/nguon','Nguồn & tiến độ','info')}<div class="local-note"><span class="local-dot"></span>Miễn phí · Không cần đăng nhập</div></div>
     </aside>
     <div class="shell"><header class="topbar"><button class="icon-button menu-toggle" data-action="menu" aria-label="Mở menu" aria-expanded="${menuOpen}">${icon('menu')}</button><div class="breadcrumbs"><span class="bread-root">${esc(subject.name)}</span>${icon('chevron')}<strong>${esc(breadcrumb())}</strong></div><div class="topbar-right"><span class="status-label">${icon(storageWarning?'info':'check')}${storageWarning?'Kiểm tra trạng thái lưu':'Lưu trên trình duyệt'}</span><label class="subject-switch-label"><span class="sr-only">Đổi môn học</span><select id="subject-switch" aria-label="Đổi môn học">${subjects.map(s=>`<option value="${s.id}" ${s.id===subject.id?'selected':''}>${esc(s.shortName)}${s.status==='ready'?'':' (chờ tài liệu)'}</option>`).join('')}</select></label></div></header>
@@ -104,6 +108,7 @@ function home(): string {
   return `<div class="page-intro"><div class="intro-label">${icon('leaf')} Mỗi ngày một chút, vững hơn từng chương</div><div class="title-line"><h1>${esc(subject.name)}</h1>${pill('ÔN TẬP THEO CHƯƠNG')}</div><p>Chọn một chương bên dưới để bắt đầu học. Mọi chương đều mở sẵn.</p></div>
     ${active ? `<div class="continue-banner">${icon('clock')}<div class="grow"><strong>Bạn còn một bài đang làm</strong><p>${esc(active.deck.title)} · ${active.items.filter(i => i.checked || i.selectedOptionId).length}/${active.items.length} câu đã trả lời</p></div>${link('#/lam-bai','Tiếp tục '+icon('arrow'),'btn small')}</div>` : ''}
     <section class="quick-start"><div><span class="eyebrow">MỚI BẮT ĐẦU?</span><h2>Học từ chương đầu tiên</h2><p>Đọc ý chính → làm câu hỏi → nhớ keyword.</p></div>${link('#/chuong/'+bank.chapters[0].number,'Bắt đầu học '+icon('arrow'))}</section>
+    ${papers.length?`<section class="quick-start comprehensive-start"><div><span class="eyebrow">ÔN CẢ MÔN</span><h2>Luyện đề tổng hợp ${comprehensiveSize} câu</h2><p>${papers.length} đề · Chia đều chương · Dùng đủ ${bank.questions.length} câu, có cả câu số liệu.</p></div>${link('#/de-tong-hop','Chọn đề để làm '+icon('arrow'))}</section>`:''}
     <div class="stats"><div class="stat"><div class="stat-icon">${icon('book')}</div><div><div class="stat-number">${bank.questions.length}</div><div class="stat-label">câu sẵn sàng để luyện</div></div></div><div class="stat"><div class="stat-icon">${icon('check')}</div><div><div class="stat-number">${countSeen()}<span style="font-size:13px;color:#a0a493;font-weight:400"> / ${bank.questions.length}</span></div><div class="stat-label">câu bạn đã gặp</div></div></div><a class="stat" href="#/can-on"><div class="stat-icon">${icon('flag')}</div><div><div class="stat-number">${reviewQuestions().length}</div><div class="stat-label">câu cần ôn lại</div></div></a></div>
     <div class="section-head"><h2>Ôn tập theo chương</h2><p>${bank.chapters.length} chương · Mở tự do · Không giới hạn lượt</p></div>
     <div class="chapter-grid">${bank.chapters.map(c => {
@@ -150,6 +155,21 @@ function examPage(): string {
     <article class="panel exam-card"><div class="large-icon" style="background:#edf1e8;color:#71815c">${icon('target')}</div><div class="row wrap" style="margin-bottom:12px">${pill('ĐỀ TRỘN','green')}${pill(`${examSize} CÂU`)}</div><h2>Mỗi lượt một bộ câu mới</h2><p>Trộn câu từ ${bank.chapters.length} chương và các chuyên đề của môn. Phân bổ giữa các chương, ưu tiên các ý khác nhau để kiểm tra rộng hơn.</p>${button('start',`Tạo đề trộn ${icon('arrow')}`,'btn full','data-kind="mixed"')}</article></div>
     <div class="exam-info">${icon('info')} Đáp án và lời giải chỉ hiện sau khi nộp bài. Đề trộn phục vụ luyện tập, chưa phải ma trận hoặc thời lượng thi chính thức của trường. Bạn có thể thi lại không giới hạn.</div>
     ${progress.history.length?`<div class="section-head"><h2>Những lượt gần đây</h2><p>Lưu riêng trên trình duyệt này</p></div><div class="panel"><ul class="history-list">${progress.history.slice(0,5).map(h=>`<li><span>${esc(h.title)}<br><small>${new Date(h.at).toLocaleString('vi-VN')}</small></span><span><strong>${h.correct}/${h.total}</strong>${h.assisted?` · ${h.assisted} gợi ý`:''}</span></li>`).join('')}</ul></div>`:''}`;
+}
+function comprehensivePage(): string {
+  if(!papers.length)return `<div class="empty-state"><h1>Môn này chưa có bộ đề tổng hợp</h1>${link('#/','Về tổng quan')}</div>`;
+  const active=progress.activeSession;
+  return `${pageIntro('ÔN TẬP TOÀN MÔN',`Luyện đề tổng hợp ${comprehensiveSize} câu`,`${papers.length} đề cố định, bao phủ toàn bộ ${bank.questions.length} câu hỏi đang có, gồm cả câu số liệu. Bạn có thể chọn bất kỳ đề nào và làm lại không giới hạn.`)}
+    ${active?.deck.kind==='comprehensive'?`<div class="continue-banner">${icon('clock')}<div class="grow"><strong>${esc(active.deck.title)}</strong><p>${active.items.filter(i=>i.selectedOptionId!==null).length}/${active.items.length} câu đã chọn · Bài đang làm được tự lưu.</p></div>${link('#/lam-bai','Tiếp tục đề này '+icon('arrow'),'btn small')}</div>`:''}
+    <section class="comprehensive-overview"><div><strong>${papers.length}</strong><span>đề để luyện</span></div><div><strong>${comprehensiveSize}</strong><span>câu mỗi đề</span></div><div><strong>${Math.floor(comprehensiveSize!/bank.chapters.length)}–${Math.ceil(comprehensiveSize!/bank.chapters.length)}</strong><span>câu / chương / đề</span></div><div><strong>${countSeen()}/${bank.questions.length}</strong><span>câu đã gặp trên web</span></div></section>
+    <div class="comprehensive-note">${icon('info')}<p>Số câu của các chương không bằng nhau, nên một số câu sẽ lặp giữa các đề để chia đều chương và dùng hết ngân hàng. <strong>Trong mỗi đề, 50 câu đều khác nhau.</strong> Đáp án, lời giải và keyword hiện sau khi nộp bài.</p></div>
+    <div class="filter-bar"><label for="exam-minutes" class="small muted">Thời gian làm mỗi đề</label><select id="exam-minutes" class="filter-select">${[[0,'Không giới hạn'],[15,'15 phút'],[20,'20 phút'],[30,'30 phút'],[45,'45 phút'],[60,'60 phút'],[90,'90 phút']].map(([v,t])=>`<option value="${v}" ${minutes===v?'selected':''}>${t}</option>`).join('')}</select></div>
+    <section class="comprehensive-grid" aria-label="Danh sách đề tổng hợp">${papers.map(paper=>{
+      const seen=paper.questionIds.filter(id=>(progress.records[id]?.seen??0)>0).length;
+      const last=progress.history.find(h=>h.title===paper.title&&h.mode==='exam');
+      const continuing=active?.deck.kind==='comprehensive'&&active.deck.title===paper.title;
+      return `<article class="comprehensive-card" data-paper="${paper.id}"><div class="row between"><span class="eyebrow">ĐỀ ${paper.id}</span>${pill(continuing?'ĐANG LÀM':last?'ĐÃ NỘP':'50 CÂU',last?'green':'')}</div><h2>Đề tổng hợp ${paper.id}</h2><div class="paper-chapters" aria-label="Số câu từng chương">${paper.chapterCounts.map(c=>`<span>Ch${c.chapter}: <strong>${c.count}</strong></span>`).join('')}</div><p class="small muted">Đã gặp ${seen}/50 câu${last?` · Lần nộp gần nhất: ${last.correct}/${last.total}`:''}</p>${continuing?link('#/lam-bai','Tiếp tục đề này '+icon('arrow'),'btn primary full'):button('start-paper','Làm đề này '+icon('arrow'),'btn primary full',`data-paper="${paper.id}"`)}</article>`;
+    }).join('')}</section>`;
 }
 function reviewPage(): string {
   const qs = reviewQuestions();
@@ -206,7 +226,7 @@ function resultPage(): string {
   const todo=s.items.filter(i=>i.selectedOptionId!==qmap.get(i.questionId)?.correctOptionId||i.usedHint||progress.records[i.questionId]?.bookmarked);
   const items=s.items.filter(i=>resultFilter==='all'||resultFilter==='wrong'&&i.selectedOptionId!==qmap.get(i.questionId)?.correctOptionId||resultFilter==='hint'&&i.usedHint);
   return `<div class="eyebrow">KẾT QUẢ · ${esc(s.deck.title)}</div><section class="panel result-hero"><div class="score-ring" style="--score:${score.correct/score.total*100}%"><div class="score-ring-inner"><strong>${(score.correct/score.total*10).toLocaleString('vi-VN',{maximumFractionDigits:1})}</strong><span>trên 10 điểm</span></div></div><div class="result-copy"><h1>${score.correct===score.total?'Một lượt làm rất vững!':'Bạn đã biết mình cần ôn gì.'}</h1><p>${score.correct===score.total?'Tiếp tục thử bộ khác và tự nhớ lại ở lượt sau.':'Xem lại keyword ở những câu chưa chắc, rồi thử thêm một lần.'}</p><div class="result-bits"><span><strong>${score.correct}/${score.total}</strong> câu đúng</span><span><strong>${score.incorrect}</strong> sai</span><span><strong>${score.skipped}</strong> bỏ qua</span><span><strong>${score.assisted}</strong> đúng có gợi ý</span><span>${icon('clock')} ${durationText((s.finishedAt??Date.now())-s.startedAt)}</span></div></div></section>
-    <div class="result-actions">${todo.length?button('retry-review',`${icon('refresh')} Luyện ${todo.length} câu cần ôn`):pill('Không có câu cần ôn trong lượt này','green')}${button('retry',`${icon('refresh')} Luyện lại bộ này`,'btn')}${link('#/','Về tổng quan','btn ghost')}</div>
+    <div class="result-actions">${todo.length?button('retry-review',`${icon('refresh')} Luyện ${todo.length} câu cần ôn`):pill('Không có câu cần ôn trong lượt này','green')}${button('retry',`${icon('refresh')} Luyện lại bộ này`,'btn')}${s.deck.kind==='comprehensive'?link('#/de-tong-hop','Chọn đề tổng hợp khác','btn'):''}${link('#/','Về tổng quan','btn ghost')}</div>
     <div class="filter-bar"><div class="tabs" role="tablist" aria-label="Lọc kết quả">${[['all','Tất cả'],['wrong','Sai & bỏ qua'],['hint','Dùng gợi ý']].map(([value,label])=>`<button class="tab" role="tab" aria-selected="${resultFilter===value}" data-action="result-filter" data-value="${value}">${label}</button>`).join('')}</div></div>
     ${items.length?items.map((i)=>{const q=qmap.get(i.questionId)!,correct=i.selectedOptionId===q.correctOptionId;const sourceIndex=s.items.indexOf(i)+1;return `<details class="result-item ${correct?'':'failed'}"><summary>${icon(correct?'check':'info')}<span class="grow"><span class="small muted">CÂU ${sourceIndex} · CHƯƠNG ${q.chapter}</span><br>${promptText(q.prompt)}</span>${icon('chevron')}</summary><div class="result-item-content">${!correct?`<p class="chosen-answer">Bạn chọn: ${i.selectedOptionId?esc(q.options.find(o=>o.id===i.selectedOptionId)?.text):'Chưa trả lời'}</p>`:''}${feedback(q,i)}</div></details>`}).join(''):`<div class="empty-state">${icon('check')}<h2>Không có câu trong nhóm này</h2><p>Chọn bộ lọc khác để xem lại các ý đã học.</p></div>`}`;
 }
@@ -233,6 +253,7 @@ function render(): void {
   else switch(hash){
     case '#/':content=home();break;
     case '#/thi-thu':content=examPage();break;
+    case '#/de-tong-hop':content=comprehensivePage();break;
     case '#/can-on':content=reviewPage();break;
     case '#/keyword':content=keywordsPage();break;
     case '#/lam-bai':content=quizPage();break;
@@ -254,7 +275,7 @@ function begin(deck: Deck, mode: Session['mode'], timeLimit = minutes, specific?
     return;
   }
   const qs=specific??selectQuestions(bank.questions,deck,progress.records,bank.sampleQuestionIds);
-  if(!qs.length){toast('Chưa có câu phù hợp. Hãy thử lựa chọn khác.');return;}
+  if(!qs.length||(deck.kind==='comprehensive'&&qs.length!==deck.count)){toast('Chưa có đủ câu phù hợp. Hãy thử lựa chọn khác.');return;}
   progress.activeSession=createSession(qs,deck,mode,timeLimit);
   persist();go('#/lam-bai');window.scrollTo(0,0);
 }
@@ -289,6 +310,10 @@ document.addEventListener('click',event=>{
     case 'skip-content':event.preventDefault();document.querySelector<HTMLElement>('#main')?.focus();break;
     case 'menu':menuOpen=!menuOpen;render();break;
     case 'count':count=Number(target.dataset.value);render();break;
+    case 'start-paper':{
+      const paper=papers.find(p=>p.id===target.dataset.paper);if(!paper)break;
+      begin({kind:'comprehensive',count:paper.questionIds.length,title:paper.title,questionIds:[...paper.questionIds]},'exam');break;
+    }
     case 'start':{
       const kind=target.dataset.kind as Deck['kind'];const chapter=target.dataset.chapter?Number(target.dataset.chapter):undefined;
       const title=kind==='chapter'?`Chương ${chapter}`:kind==='numbers'?(collection()?.title??'Chuyên đề'):kind==='sample'?(subject.sampleTitle??'Đề mẫu'):kind==='mixed'?`Đề trộn ${examSize} câu`:'Câu cần ôn';

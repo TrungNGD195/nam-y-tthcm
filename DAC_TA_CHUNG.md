@@ -1,6 +1,6 @@
 # Đặc tả chung — Nắm ý, ôn tập nhiều môn
 
-Phiên bản 2.2 · 14/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
+Phiên bản 2.3 · 14/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -8,7 +8,7 @@ Một website public, không đăng nhập, ưu tiên máy tính, để ôn nhi�
 
 | Môn | Mã ổn định | Trạng thái |
 | --- | --- | --- |
-| Tư tưởng Hồ Chí Minh | `tthcm` | Sẵn sàng: 623 câu, 6 chương, 110 câu số liệu, đề mẫu 20 câu |
+| Tư tưởng Hồ Chí Minh | `tthcm` | 623 câu, 6 chương, 110 câu số liệu, đề mẫu 20 câu và 19 đề tổng hợp × 50 câu |
 | Xử lý ảnh | `xu-ly-anh` | 168 câu/bài có lời giải: 51 ngân hàng, 117 bộ cô Uyên |
 | Khoa học dữ liệu | `khoa-hoc-du-lieu` | Chờ giáo trình/ngân hàng từ người dùng |
 
@@ -86,6 +86,7 @@ Các block này chỉ đưa vào khi có tài liệu đối chiếu. Chế độ
 | `#/mon/<id>/chuong/<n>` | Chương của môn |
 | `#/mon/<id>/<chuyen-de>` | Chuyên đề được cấu hình cho môn |
 | `#/mon/<id>/thi-thu` | Thi thử trong đúng môn |
+| `#/mon/tthcm/de-tong-hop` | 19 đề tổng hợp 50 câu, phân bố đều chương |
 | `#/mon/<id>/can-on` | Câu cần ôn của môn |
 | `#/mon/<id>/keyword` | Sổ keyword của môn |
 | `#/mon/<id>/lam-bai` | Bài đang làm của môn |
@@ -98,6 +99,17 @@ Các block này chỉ đưa vào khi có tài liệu đối chiếu. Chế độ
 URL cũ như `#/chuong/2`, `#/lam-bai` tự chuyển về route tương ứng của TTHCM bằng replace, không tạo vòng Back. Giữ nguyên địa chỉ GitHub Pages hiện tại để các liên kết đã chia sẻ vẫn dùng được.
 
 ## 5. Luồng làm bài
+
+### Luyện đề tổng hợp TTHCM
+
+- Khu riêng **Luyện đề tổng hợp**, có nút vào từ tổng quan môn và sidebar. Trang chọn đề hiển thị toàn bộ 19 đề, không khóa thứ tự.
+- Mỗi đề đúng 50 câu khác nhau, mỗi chương 8 hoặc 9 câu. Dùng toàn bộ 623 câu đã công bố, có đủ 110 câu số liệu trong bộ đề; không đưa các mục còn chờ kiểm chứng vào chấm.
+- Số câu mỗi chương là 33/163/139/125/66/97. Để bao phủ chương lớn nhất cần ít nhất 19 đề vì 18×9 < 163. Bộ 19 đề có 950 vị trí câu, bao phủ 623 câu duy nhất; câu ở chương nhỏ lặp giữa các đề, giao diện nói rõ lý do.
+- Phân bổ thêm 2 vị trí trên nền 8 câu/chương cho từng đề; đủ sức chứa toàn bộ mỗi chương. Lấy câu luân phiên theo danh sách trộn ổn định của chương, phân tán số lần lặp, không trùng trong một đề. Thứ tự câu và thành phần đề tái lập được theo phiên bản ngân hàng, không phụ thuộc tiến độ người học.
+- Thẻ đề ghi phân bố từng chương, số câu đã gặp và kết quả nộp gần nhất còn trong lịch sử. Thời gian tùy chọn, mặc định không giới hạn. Làm theo chế độ thi, đáp án/keyword/lời giải hiện sau nộp.
+- Lưu lựa chọn, thứ tự đáp án và deadline trong bài dang dở. Tải lại, chuyển môn, làm lại cùng đề và ôn riêng câu sai dùng luồng sẵn có; không mất bài cũ nếu hủy thao tác chọn đề khác.
+- Dữ liệu lượt dùng `Deck.kind = comprehensive`, `questionIds`, số câu và tên đề. Nhập/lưu lại phải giữ đủ bộ ID đúng thứ tự, không chấp nhận ID trùng hoặc bộ đề không khớp lượt.
+- Giữ đề mẫu và đề trộn 20 câu trong khu Thi thử hiện có.
 
 Với chế độ trắc nghiệm, giữ luồng v1: chọn đáp án → Kiểm tra → lời giải → Câu tiếp. Phím 1–4 và Enter có thao tác tách riêng; giữ phím không chuyển liên tiếp. Đáp án lưu theo mã, thứ tự đã đảo lưu theo lượt. Câu tham chiếu A/B giữ thứ tự.
 
