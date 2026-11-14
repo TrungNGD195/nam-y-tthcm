@@ -10,3 +10,5 @@ Luồng kiểm tra: trang chọn môn → TTHCM / đề tổng hợp / làm tr�
 - `npm run build` đạt; 25 browser tests đạt, gồm desktop 1366/1920, mobile 390 và màn hình 683×384. Đã xem ảnh chụp thật của trang chọn môn, chọn đề và làm bài.
 
 Ảnh và số đo tại `.analysis/readability-*.png` và `.analysis/readability-metrics.json` trong workspace; tệp kiểm tra tạm không đưa vào Git.
+
+Sau phát hành: bản `1f166ba` qua [GitHub Actions](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/43598747305). Đã đo trực tiếp trên Pages: body/mô tả 18px, câu hỏi 25px, phương án 18px, lời giải 18px; nền `rgb(238,237,231)`, màu nhấn Xử lý ảnh `#35635e`. Không có pageerror hoặc tràn ngang trong luồng public đã kiểm tra.
