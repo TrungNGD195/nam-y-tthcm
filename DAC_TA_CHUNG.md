@@ -1,6 +1,6 @@
 # Đặc tả chung — Nắm ý, ôn tập nhiều môn
 
-Phiên bản 2.3 · 14/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
+Phiên bản 2.4 · 14/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -34,6 +34,8 @@ Không tự đoán số chương, tạo câu từ kiến thức chung hoặc dù
 - Dùng khoảng trắng, viền, màu nền nhẹ và cỡ chữ để phân cấp; không dùng nhiều màu đậm cho các nút cạnh tranh trên cùng thẻ.
 - Desktop: sidebar khoảng 248px, vùng nội dung có giới hạn rộng, trang chọn môn 3 cột; màn hình hẹp chuyển một cột, sidebar thu thành menu.
 - Màu môn: TTHCM đỏ trầm, Xử lý ảnh xanh lục lam, Khoa học dữ liệu xanh dương. Trạng thái đúng/sai vẫn có chữ và biểu tượng.
+- Chữ dùng đơn vị `rem`, nền cỡ 16px: nội dung chính 18–20px, câu hỏi trắc nghiệm desktop 25px, đáp án 18px, menu/nút 16px, nhãn phụ 13–15px. Trên mobile đáp án tối thiểu 16px. Giãn dòng và khoảng cách khối theo cỡ chữ, bảng/công thức tự cuộn trong khối.
+- Bảng màu dịu: nền kem xám `#eeede7`, thẻ kem nhạt `#faf9f5`, chữ chính `#29352f`, chữ phụ `#56625b`. Nhấn TTHCM `#764950`, Xử lý ảnh `#35635e`, Khoa học dữ liệu `#4d6181`; dùng nền nhạt đồng tông cho mục đang chọn. Keyword, đúng/sai và gợi ý dùng màu nền trầm nhẹ, chữ đậm đủ rõ.
 
 Luồng chính: **Chọn môn → Chọn chương → Đọc ý chính / bắt đầu luyện → Xem lời giải → Ôn phần chưa chắc**. Không khóa chương, không giới hạn lượt.
 

@@ -17,8 +17,8 @@ async function renderApp(): Promise<void> {
   if(route.kind==='subject'&&active?.id===route.subjectId){active.controller.render();return;}
   active?.controller.dispose();active=null;
   const subject=route.kind==='subject'?getSubject(route.subjectId):undefined;
-  document.documentElement.style.setProperty('--accent',subject?.accent??'#853e44');
-  document.documentElement.style.setProperty('--accent-light',subject?.accentLight??'#f6edeb');
+  document.documentElement.style.setProperty('--accent',subject?.accent??'#764950');
+  document.documentElement.style.setProperty('--accent-light',subject?.accentLight??'#eee3e2');
   if(route.kind==='catalog'){
     document.title='Nắm ý — Chọn môn để bắt đầu ôn tập';
     app.innerHTML=catalogShell(catalogPage(subjects),subjects);return;
