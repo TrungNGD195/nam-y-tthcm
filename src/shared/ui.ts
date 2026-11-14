@@ -1,8 +1,10 @@
-import type { Question, Reference, Source } from './types.ts';
+import type { ContentBlock, Question, Reference, Source } from '../core/types.ts';
 
 export const esc = (value: unknown): string => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]!);
 
 const paths: Record<string, string> = {
+  image: '<rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 5-5 4 4 4-6 5 7"/>',
+  chart: '<path d="M4 3v17h17M8 15V9m5 6V5m5 10v-4"/>',
   book: '<path d="M12 7c-2-2-5-3-9-2v15c4-1 7 0 9 2m0-15c2-2 5-3 9-2v15c-4-1-7 0-9 2V7Z"/>',
   home: '<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>',
   arrow: '<path d="M5 12h14m-5-5 5 5-5 5"/>',
@@ -56,3 +58,16 @@ export const durationText = (milliseconds: number): string => {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
   return `${Math.floor(seconds / 60).toString().padStart(2,'0')}:${(seconds % 60).toString().padStart(2,'0')}`;
 };
+
+export function renderBlocks(blocks: ContentBlock[] = []): string {
+  return blocks.map(block => {
+    if (block.type === 'image') {
+      if (!/^subjects\/[a-z0-9-]+\/[a-zA-Z0-9_./-]+$/.test(block.src) || block.src.split('/').includes('..')) return '';
+      return `<figure class="question-figure"><img src="${esc(block.src)}" alt="${esc(block.alt)}" loading="lazy">${block.caption ? `<figcaption>${esc(block.caption)}</figcaption>` : ''}</figure>`;
+    }
+    if (block.type === 'code') return `<div class="code-block"><span>${esc(block.language ?? 'Mã minh họa')}</span><pre><code>${esc(block.code)}</code></pre></div>`;
+    if (block.type === 'formula') return `<div class="formula-block" data-math-display="${block.display !== false}" data-math="${esc(block.tex)}">${esc(block.tex)}</div>`;
+    const headers = block.type === 'table' ? `<thead><tr>${block.headers.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead>` : '';
+    return `<figure class="data-block ${block.type}"><div class="data-scroll"><table>${headers}<tbody>${block.rows.map(row => `<tr>${row.map(cell => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>${block.caption ? `<figcaption>${esc(block.caption)}</figcaption>` : ''}</figure>`;
+  }).join('');
+}

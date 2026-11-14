@@ -1,8 +1,8 @@
 import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 
-const bank = JSON.parse(readFileSync(new URL('../src/data/bank.json', import.meta.url), 'utf8'));
-const raw = JSON.parse(readFileSync(new URL('../content/raw-questions.json', import.meta.url), 'utf8'));
+const bank = JSON.parse(readFileSync(new URL('../../../src/subjects/tthcm/bank.json', import.meta.url), 'utf8'));
+const raw = JSON.parse(readFileSync(new URL('../../../content/tthcm/raw-questions.json', import.meta.url), 'utf8'));
 const questions = new Map(bank.questions.map(q => [q.id, q]));
 const concepts = new Map(bank.concepts.map(c => [c.id, c]));
 const sources = new Map(bank.sources.map(s => [s.id, s]));

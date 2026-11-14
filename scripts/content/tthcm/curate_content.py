@@ -7,8 +7,8 @@ import sys
 import unicodedata
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(__file__).resolve().parents[1]
-RAW = json.loads((ROOT / "content/raw-questions.json").read_text(encoding="utf-8"))
+ROOT = Path(__file__).resolve().parents[3]
+RAW = json.loads((ROOT / "content/tthcm/raw-questions.json").read_text(encoding="utf-8"))
 BY_ID = {q["id"]: q for q in RAW}
 concepts = {}
 reviews = {}
@@ -313,11 +313,11 @@ sources=[
  {"id":"bonus","title":"Trắc nghiệm mốc TG + Bonus .docx.pdf","shortTitle":"Mốc thời gian + Bonus","kind":"supplement","pages":34},
  {"id":"timeline","title":"Mốc Thời gian + Đại hội.pdf","shortTitle":"Mốc thời gian + Đại hội","kind":"supplement","pages":2},
 ]
-bank={"version":"2026.11.13.1","updatedAt":"2026-11-13","chapters":chapters,"concepts":list(concepts.values()),"questions":published,"sources":sources,"sampleQuestionIds":sample_ids,"audit":audit,
+bank={"subjectId":"tthcm","version":"2026.11.13.1","updatedAt":"2026-11-13","chapters":chapters,"concepts":list(concepts.values()),"questions":published,"sources":sources,"sampleQuestionIds":sample_ids,"audit":audit,
       "supplements":[{"sourceId":"combined","status":"Đã khảo sát; chưa nhập toàn bộ vì cần đối chiếu phiên bản kiến thức và bảng đáp án."},{"sourceId":"bonus","status":"Dùng chọn lọc để đối chiếu câu trong đề mẫu; chưa nhập toàn bộ các câu tiểu sử và phần bổ sung."},{"sourceId":"timeline","status":"Đã khảo sát, dùng hỗ trợ rà mốc; chưa chuyển thành bộ câu hỏi mới."}]}
-out=ROOT/"src/data";out.mkdir(parents=True,exist_ok=True)
+out=ROOT/"src/subjects/tthcm";out.mkdir(parents=True,exist_ok=True)
 (out/"bank.json").write_text(json.dumps(bank,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-(ROOT/"content/editorial-decisions.json").write_text(json.dumps(reviews,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+(ROOT/"content/tthcm/editorial-decisions.json").write_text(json.dumps(reviews,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 lines=["# Báo cáo nội dung","","Ngân hàng chính gồm 233 mục nguồn; số câu xuất bản chỉ tính các câu chuẩn duy nhất.","","| Nguồn | Tổng mục | Xuất bản | Gộp | Chờ kiểm tra / mâu thuẫn |","| --- | ---: | ---: | ---: | ---: |"]
 for source in ["lms","quiz","sample"]:
     entries=[a for a in audit if a["sourceId"]==source]
@@ -327,6 +327,6 @@ for a in audit:
     if a["status"] in ["pending","disputed"]:lines.append(f"- **{a['id']}**, trang PDF {a['pdfPage']}: {a['reason']}")
 lines += ["","## Phạm vi nguồn bổ sung",""]+[f"- {s['sourceId']}: {s['status']}" for s in bank["supplements"]]
 lines += ["","## Quy tắc biên tập","","Giữ nguyên đề và phương án, trừ ghi chú biên tập. Phương án tổng hợp được làm độc lập vị trí; câu tham chiếu A/B giữ thứ tự. Căn cứ đối chiếu ghi trong mỗi câu là diễn giải ngắn, không phải trích dẫn nguyên văn. Dữ liệu OCR chỉ hỗ trợ tìm kiếm, không tự dùng làm lời giải.",""]
-(ROOT/"content/BAO_CAO_NOI_DUNG.md").write_text("\n".join(lines),encoding="utf-8")
+(ROOT/"content/tthcm/BAO_CAO_NOI_DUNG.md").write_text("\n".join(lines),encoding="utf-8")
 print(f"Published {len(published)} unique questions, {len(sample_ids)} sample questions, {len(audit)} source dispositions.")
 print("Pending:",len([a for a in audit if a['status'] in ['pending','disputed']]))

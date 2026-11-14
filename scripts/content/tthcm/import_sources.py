@@ -6,9 +6,9 @@ import sys
 import pymupdf
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "Theory_and_questionbank"
-OUTPUT = ROOT / "content"
+ROOT = Path(__file__).resolve().parents[3]
+SOURCE = ROOT / "materials/tthcm"
+OUTPUT = ROOT / "content/tthcm"
 OUTPUT.mkdir(exist_ok=True)
 
 def clean(text):

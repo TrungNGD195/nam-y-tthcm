@@ -1,84 +1,109 @@
-# Nắm ý — Ôn thi Tư tưởng Hồ Chí Minh
+# Nắm ý — Ôn tập nhiều môn
 
-Web ôn trắc nghiệm ưu tiên laptop và desktop, không cần đăng nhập. Học ý cốt lõi, luyện câu ngân hàng, ghi nhớ keyword và ôn lại câu còn yếu.
+**[Vào học trên web](https://trungngd195.github.io/nam-y-tthcm/)** · [Đặc tả chung](DAC_TA_CHUNG.md)
 
-**Vào học:** [trungngd195.github.io/nam-y-tthcm](https://trungngd195.github.io/nam-y-tthcm/)
+Chọn môn → chọn chương → học ý cốt lõi → luyện câu hỏi → nhớ keyword và ôn sai. Ưu tiên máy tính, nút học rõ ràng, không đăng nhập, không khóa chương hoặc giới hạn lượt.
 
-## Chạy tại máy
+| Môn | Trạng thái |
+| --- | --- |
+| Tư tưởng Hồ Chí Minh | 215 câu, 6 chương, 59 câu số liệu; đề mẫu 20 câu |
+| Xử lý ảnh | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
+| Khoa học dữ liệu | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
 
-Cần Node.js 22.18 trở lên (bản 22 LTS hoặc bản LTS mới hơn tương thích).
+## Chạy và kiểm tra
+
+Cần Node.js 22.18 trở lên hoặc bản LTS tương thích.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Mở địa chỉ Local mà Vite in ra, thường là `http://127.0.0.1:5173`.
+Mở URL Local mà Vite in ra, thường là `http://127.0.0.1:5173`.
 
 ```sh
-npm run check     # TypeScript và cấu trúc/nội dung ngân hàng
-npm test          # Engine chấm bài, chọn đề, tiến độ
-npm run build    # Tạo website tĩnh trong dist/
-npm run preview  # Xem bản đã build
+npm run check    # TypeScript, catalog, ngân hàng của từng môn
+npm test         # Engine, lưu tiến độ, migration, routing, scientific blocks
+npm run build    # Build tĩnh ra dist/
+npm run preview  # Xem bản build
 ```
 
-Kiểm thử bằng trình duyệt:
+Kiểm tra trình duyệt sau khi build:
 
 ```sh
 npx playwright install chromium
-npm run build
 npm run test:e2e
 ```
 
-Có thể dùng Chrome đã cài thay cho trình duyệt tải về. Trong PowerShell:
+Hoặc dùng Chrome đã cài, trong PowerShell:
 
 ```powershell
 $env:PLAYWRIGHT_CHROME_PATH = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
 npm run test:e2e
 ```
 
-## Luồng học
+## Cấu trúc dự án
 
-- **6 chương:** đọc kiến thức cốt lõi, luyện 10/20/tất cả câu; tùy chọn kèm số liệu.
-- **Con số cần nhớ:** lọc mốc thời gian, Đại hội/hội nghị, số lượng nội dung.
-- **Luyện từng câu:** chọn rồi kiểm tra, hiện giải thích ngắn, keyword và nguồn. Phím 1–4 chọn đáp án, Enter kiểm tra rồi đi tiếp bằng lần nhấn riêng.
-- **Thi thử:** đề mẫu thầy Cường đủ 20 câu và đề trộn 20 câu. Không hiện đáp án trước khi nộp; thời gian tùy chọn, tải lại không làm tăng thời gian.
-- **Cần ôn:** câu sai, bỏ qua, dùng gợi ý hoặc tự đánh dấu. Đúng nhờ gợi ý không tính là trả lời đúng độc lập.
-- **Sổ keyword:** tìm có dấu/không dấu, tự nhớ rồi mở ý chính.
-- **Tiến độ:** tự lưu trong trình duyệt; có xuất/nhập JSON để chuyển máy. Không có máy chủ thu thập tiến độ.
+```text
+src/
+  app/                  router, đăng ký và tải môn, vòng đời ứng dụng
+  core/                 engine, kiểu dữ liệu, tiến độ, migration
+  features/subjects/    trang chọn môn, trang chờ tài liệu
+  features/study/       luồng học chung, không nhân bản theo môn
+  shared/               UI, blocks, công thức, styles
+  subjects/
+    catalog.json        thông tin và cấu hình từng môn
+    tthcm/bank.json     câu hỏi, concept, chương và nguồn đã biên tập
+materials/<id>/         tài liệu gốc riêng từng môn, không public file gốc
+content/<id>/           trích xuất, audit và quyết định biên tập theo môn
+public/subjects/<id>/   ảnh, sơ đồ dùng trong câu hỏi đã kiểm duyệt
+scripts/content/       validator chung và importer/curator riêng từng môn
+scripts/deploy/        công cụ GitHub Pages
+tests/core/            kiểm thử logic
+tests/browser/         kiểm thử thao tác và bố cục
+docs/archive/          tài liệu TTHCM v1
+docs/verification/     kết quả kiểm tra
+```
 
-## Phạm vi nội dung
+Các thư mục mã môn dùng thống nhất: `tthcm`, `xu-ly-anh`, `khoa-hoc-du-lieu`.
 
-Hiện có **215 câu chuẩn**, từ **233 mục** của LMS, quiz cô Khánh và đề mẫu. **11 mục** chưa dùng để chấm vì thiếu lựa chọn hợp lệ, mơ hồ hoặc mâu thuẫn. Đề mẫu giữ đủ 20 mục theo thứ tự câu gốc 3–22; những câu trùng dùng chung ID và giữ đủ nguồn.
+## Bổ sung hai môn mới
 
-Mỗi câu có đáp án theo mã phương án, keyword, giải thích ngắn, trang và số câu nguồn, căn cứ đối chiếu. Căn cứ là diễn giải tài liệu, không phải trích nguyên văn. Việc đảo đáp án có kiểm soát: câu phụ thuộc A/B giữ thứ tự. Các câu trả lời ngắn được chuyển đổi có ghi chú riêng.
+Đặt tài liệu vào:
 
-Xem [báo cáo nội dung](content/BAO_CAO_NOI_DUNG.md) để biết từng mục chưa dùng và tình trạng nguồn bổ sung. Bộ Tổng hợp và Bonus chưa được nhập toàn bộ; không tính các mục chưa nhập vào số câu sẵn sàng. Đây là tài liệu ôn tập theo nguồn trong môn, không phải đề thi chính thức hay dự đoán đề.
+- `materials/xu-ly-anh/`
+- `materials/khoa-hoc-du-lieu/`
 
-## Đặc tả và cấu trúc
+Sau khi có tài liệu: đọc phạm vi, xác định chương và ngân hàng, lưu dữ liệu biên tập trong `content/<id>/`; chỉ xuất câu đủ căn cứ sang `src/subjects/<id>/bank.json`. Đăng ký metadata, số câu/chương thực tế và chuyên đề trong catalog, rồi chuyển trạng thái sang `ready` sau khi kiểm tra.
 
-- [Đặc tả chung](DAC_TA_CHUNG.md): chuẩn triển khai, trạng thái, hành vi và nghiệm thu.
-- [Bản đề xuất ban đầu](DE_XUAT_WEB_ON_THI.md): kết quả khảo sát và lựa chọn thiết kế.
-- `src/data/bank.json`: dữ liệu công khai đã biên tập.
-- `content/raw-questions.json`: các mục gốc được trích từ ba ngân hàng chính.
-- `content/editorial-decisions.json`: quyết định biên tập của từng mục.
-- `scripts/curate_content.py`: quy tắc và nội dung biên tập có thể tái tạo dữ liệu.
-- `src/engine.ts`: chọn câu, đảo phương án, chấm bài và ôn lại.
-- `src/storage.ts`: kiểm tra dữ liệu và lưu/khôi phục tiến độ.
-- `src/main.ts`, `src/ui.ts`, `src/style.css`: giao diện, điều hướng và thao tác.
-- `tests/`: kiểm thử engine và trình duyệt.
+Không sao chép khung 6 chương hoặc chuyên đề Đại hội của TTHCM sang môn khác. Engine chọn đề lấy chương từ dữ liệu thực, mỗi môn có thể có độ dài đề mẫu/đề trộn khác nhau. Trang chọn môn chỉ tải metadata; mở môn nào mới tải ngân hàng môn đó.
 
-Muốn trích xuất lại nguồn tại máy: đặt các tài liệu gốc vào `Theory_and_questionbank/`, cài `pip install -r scripts/requirements.txt`, chạy `python scripts/import_sources.py` rồi `python scripts/curate_content.py`. Kiểm tra lại nội dung trước khi công khai. CI và việc chạy web bình thường không cần Python hoặc các PDF gốc.
+Mô hình câu chuẩn bị block ảnh, ma trận, bảng, code và công thức TeX cho đề, lựa chọn, giải thích. Công thức dùng KaTeX tải khi cần; code chỉ hiển thị, không chạy. Ảnh phải nằm trong `public/subjects/<id>/`, có alt và tham chiếu từ đúng môn. Chưa có tài liệu thì không xuất bản câu minh họa giả. Bản hiện tại chấm trắc nghiệm một đáp án đúng với 2–4 lựa chọn.
 
-Khi sửa đáp án hoặc ý nghĩa câu đã phát hành, tăng `revision` của câu và phiên bản ngân hàng. Tiến độ từ revision cũ không tính là bằng chứng đã nắm đúng kiến thức mới.
+## Nội dung TTHCM
 
-## Public trên GitHub Pages
+Giữ nguyên 215 câu chuẩn từ 233 mục LMS, quiz cô Khánh, đề mẫu; 11 mục mơ hồ/mâu thuẫn chưa dùng để chấm. Mỗi câu có keyword, lời giải ngắn, nguồn, trang và ghi nhận biên tập. [Báo cáo nội dung](content/tthcm/BAO_CAO_NOI_DUNG.md) nêu phạm vi đầy đủ, gồm phần Tổng hợp/Bonus chưa nhập toàn bộ.
 
-1. Tạo repository **public**, đưa mã nguồn lên nhánh `main`.
-2. Vào **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-3. Workflow `.github/workflows/pages.yml` kiểm tra dữ liệu, chạy test, build và kiểm tra trình duyệt trước khi triển khai.
-4. Mở URL được workflow trả về. Hash route và tài nguyên tương đối hỗ trợ đường dẫn dạng `https://<tài-khoản>.github.io/<repository>/`.
+Tài liệu cũ đã chuyển từ `Theory_and_questionbank/` vào `materials/tthcm/`. Để tái tạo tại máy:
 
-Chỉ thư mục `dist/` được xuất bản. PDF/ZIP gốc, `.analysis/`, `node_modules/`, dữ liệu tiến độ và tệp môi trường được loại khỏi Git/bản triển khai.
+```sh
+pip install -r scripts/content/requirements.txt
+python scripts/content/tthcm/import_sources.py
+python scripts/content/tthcm/curate_content.py
+npm run check
+```
 
-Tham khảo: [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), [workflow Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [Vite static deployment](https://vite.dev/guide/static-deploy.html#github-pages).
+CI và việc học trên web không cần Python hay các PDF gốc. Không tăng revision câu nếu chỉ đổi nơi lưu trữ; khi sửa ý nghĩa hoặc đáp án của câu đã phát hành thì tăng revision và phiên bản ngân hàng.
+
+## Tiến độ và tương thích bản cũ
+
+- Mỗi môn lưu riêng tại `nam-y:progress:v2:<id>`; xuất/nhập/xóa chỉ ảnh hưởng môn đang mở.
+- TTHCM tự đọc tiến độ v1 khi chưa có bản v2, giữ records, bài dang dở và thứ tự đáp án đã đảo. Bản v1 vẫn được giữ làm dự phòng.
+- Nhập tệp sai môn bị từ chối dù có ID câu giống nhau. Không tự đồng bộ giữa các trình duyệt/thiết bị; dùng xuất/nhập JSON để chuyển máy.
+- URL cũ như `#/chuong/2` và `#/lam-bai` chuyển về môn TTHCM. Giữ nguyên URL GitHub Pages và repository hiện có để không làm hỏng liên kết đã chia sẻ.
+
+## Public
+
+Website tĩnh, deploy bằng `.github/workflows/pages.yml`; các bước check, test, build và browser test phải qua trước khi triển khai. Repository public; Settings → Pages dùng GitHub Actions. Chỉ `dist/` được xuất bản; tài liệu gốc và tệp phân tích không đẩy lên GitHub.
+
+Tham khảo: [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), [Vite import theo yêu cầu](https://vite.dev/guide/features.html#glob-import), [KaTeX API](https://katex.org/docs/api.html).

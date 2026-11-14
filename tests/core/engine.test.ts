@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { checkCurrent, createSession, finishSession, needsReview, normalize, scoreSession, selectQuestions, toggleBookmark } from '../src/engine.ts';
-import { emptyProgress, parseProgress } from '../src/storage.ts';
-import type { Bank, Deck, Question } from '../src/types.ts';
+import { checkCurrent, createSession, finishSession, needsReview, normalize, scoreSession, selectQuestions, toggleBookmark } from '../../src/core/engine.ts';
+import { emptyProgress, parseProgress } from '../../src/core/storage.ts';
+import type { Bank, Deck, Question } from '../../src/core/types.ts';
 
-const bank = JSON.parse(readFileSync(new URL('../src/data/bank.json', import.meta.url), 'utf8')) as Bank;
+const bank = JSON.parse(readFileSync(new URL('../../src/subjects/tthcm/bank.json', import.meta.url), 'utf8')) as Bank;
 const qmap = new Map(bank.questions.map(q => [q.id, q]));
 const deck: Deck = { kind:'chapter', chapter:2, count:10, title:'Chương 2', order:'unseen' };
 const q = bank.questions.find(q => q.chapter === 2 && q.shufflePolicy === 'safe')!;

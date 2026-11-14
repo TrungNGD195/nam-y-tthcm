@@ -18,8 +18,9 @@ export function needsReview(record?: RecordEntry): boolean {
 export function selectQuestions(questions: Question[], deck: Deck, records: Progress['records'], sampleIds: string[] = [], random: () => number = Math.random): Question[] {
   let pool = questions;
   if (deck.kind === 'sample') return sampleIds.map(id => questions.find(q => q.id === id)).filter((q): q is Question => !!q);
-  if (deck.kind === 'chapter') pool = pool.filter(q => q.chapter === deck.chapter && (deck.includeNumbers || !q.tags.length));
+  if (deck.kind === 'chapter') pool = pool.filter(q => q.chapter === deck.chapter && (deck.includeNumbers || !q.tags.some(tag => (deck.tags ?? q.tags).includes(tag))));
   if (deck.kind === 'numbers') pool = pool.filter(q => q.tags.length && (!deck.tag || deck.tag === 'all' || q.tags.includes(deck.tag as Question['tags'][number])));
+  if (deck.kind === 'collection') pool = pool.filter(q => q.tags.some(tag => deck.tags?.includes(tag)) && (!deck.tag || deck.tag === 'all' || q.tags.includes(deck.tag)));
   if (deck.kind === 'review') pool = pool.filter(q => deck.questionIds ? deck.questionIds.includes(q.id) : needsReview(records[q.id]));
   let ordered = shuffle(pool, random);
   if (deck.order === 'unseen') ordered.sort((a, b) => (records[a.id]?.seen ?? 0) - (records[b.id]?.seen ?? 0));
@@ -27,7 +28,8 @@ export function selectQuestions(questions: Question[], deck: Deck, records: Prog
   if (deck.kind !== 'mixed') return ordered.slice(0, deck.count);
 
   // Round-robin chapters; prefer another concept before repeating one.
-  const buckets = Array.from({ length: 6 }, (_, i) => ordered.filter(q => q.chapter === i + 1));
+  const chapters = [...new Set(ordered.map(q => q.chapter))].sort((a,b) => a-b);
+  const buckets = chapters.map(chapter => ordered.filter(q => q.chapter === chapter));
   const selected: Question[] = [];
   const concepts = new Set<string>();
   while (selected.length < deck.count && buckets.some(bucket => bucket.length)) {
