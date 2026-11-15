@@ -18,3 +18,9 @@ Luồng cần kiểm tra: chọn chương → đọc mục kiến thức/keyword
 - 29 kiểm tra trình duyệt đạt: các chương hiển thị toàn bộ câu đúng chương; mục lục bằng bàn phím, mở/thu gọn, giữ trạng thái mở khi đổi số câu, luyện theo mục, chọn đáp án và chấm sau reload, luyện một câu liên hệ, màn hình điện thoại không tràn ngang.
 - Browser QA tại local: 6 chương có đúng 45 mục, 506 ID không lặp; luyện mục Nhà nước với đúng 18 câu, lưu/chấm/nộp đạt. Không lỗi JavaScript hoặc phản hồi tài nguyên lỗi.
 - Đã xem ảnh tại 1366×768: mục lục, khung luyện và chữ nội dung rõ, keyword nổi bật; chưa coi việc mở một mục hoặc trả lời đúng một câu là đã nắm hết mọi câu trong mục.
+
+## Xác nhận bản public
+
+- Commit `7ed64b2` được xuất bản thành công sau [GitHub Actions](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/43721807116). Tái chạy curator trước phát hành tạo cùng SHA256 của ngân hàng.
+- Kiểm tra trình duyệt trên `https://trungngd195.github.io/nam-y-tthcm/`: phiên bản bài học `2026.11.15.1`, đủ 6 chương/45 mục/506 câu đúng chương, không ID trùng trong danh sách bài học của cả bộ.
+- Mục Nhà nước luyện đúng 18 câu, chọn đáp án → reload → chấm → nộp hiển thị đủ kết quả; không lỗi JavaScript hoặc tài nguyên lỗi.
