@@ -37,4 +37,8 @@ Luồng cần kiểm tra: chọn bộ/chương → đọc đề gốc → mở l
 
 - Browser QA trên bản local: mở đủ 67 bài, có đúng 122 ảnh lời giải, không còn các khối HTML/KaTeX lời giải bài tính. Tải và đối chiếu SHA256 tất cả 122 PNG cùng PDF; tự đánh dấu rồi reload vẫn giữ đúng trạng thái. Không có lỗi JavaScript.
 
-Kết quả kiểm tra bản public được bổ sung sau khi xuất bản.
+## Xác nhận phát hành
+
+- Commit `9e8b325` được triển khai GitHub Pages thành công qua [GitHub Actions](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/43726838733): check, 37 core tests, kiểm tra số học, kiểm tra PDF/PNG và toàn bộ 30 browser tests đều đạt.
+- Lượt browser local đầu có hai ca vượt giới hạn 30 giây khi chạy song song với QA toàn bộ tài liệu; 28 ca còn lại đạt. Chạy riêng lại đúng hai ca đó đều đạt, không thay mã để che lỗi hay tăng timeout.
+- Trên bản public, browser QA mở đủ 67 bài, đối chiếu đúng 122 ảnh và tải/kiểm tra SHA256 toàn bộ ảnh cùng PDF 192 trang. Giữ đánh dấu sau reload, không lỗi JavaScript. PDF public: `subjects/xu-ly-anh/answer-pages/xu-ly-anh-67-bai-giai-4dc7c820fd81.pdf`.
