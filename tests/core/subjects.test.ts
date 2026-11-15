@@ -61,6 +61,6 @@ test('scientific blocks escape code, preserve matrices and reject foreign image 
   assert(renderBlocks([{type:'matrix',rows:[[0,1],[2,3]],caption:'Ma trận'}]).includes('<td>3</td>'));
   assert.equal(renderBlocks([{type:'image',src:'https://example.com/a.png',alt:'Ảnh'}]),'');
   const q={...bank.questions[0],chapter:7,blocks:[{type:'image',src:'subjects/tthcm/a.png',alt:'Ảnh'}]};
-  const fixture={...bank,subjectId:'fixture',chapters:[{...bank.chapters[0],number:7}],questions:[q],concepts:[{...bank.concepts.find(c=>c.id===q.conceptId)!,chapter:7}],sampleQuestionIds:[],audit:[]};
+  const fixture={...bank,subjectId:'fixture',chapters:[{...bank.chapters[0],number:7}],questions:[q],concepts:[{...bank.concepts.find(c=>c.id===q.conceptId)!,chapter:7}],sampleQuestionIds:[],audit:[],questionAliases:[]};
   assert.throws(()=>validateBank(fixture,{id:'fixture',questionCount:1,chapterCount:1}),/current subject/);
 });
