@@ -1,0 +1,17 @@
+Bài 3.T12. Tìm ngưỡng tam giác
+
+1. Nối đỉnh với điểm cuối đuôi dài, tìm khoảng cách lớn nhất.
+formula: d(g)=\frac{|Ax_g+By_g+C|}{\sqrt{A^2+B^2}}
+substitution: Đỉnh (5,160), cuối (13,2); đường Δ: 158g + 8h + (-2070) = 0.
+result: Khoảng cách lớn nhất tại g=8 ⇒ T=8. Không dùng tốt khi histogram nhiều đỉnh mạnh hoặc không có đuôi rõ.
+
+g	h(g)	d(g)
+5	160	0
+6	120	1.024
+7	60	3.05937
+8	34	3.37542
+9	20	3.08466
+10	11	2.54105
+11	6	1.79517
+12	3	0.94815
+13	2	0

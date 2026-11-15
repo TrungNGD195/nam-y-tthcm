@@ -1,0 +1,30 @@
+Bài 7.T6. Mở/đóng, bao hàm và lũy đẳng
+
+1. Tính hai phép ghép và lặp lại trên kết quả.
+formula: O=(A\ominus B)\oplus B,\quad C=(A\oplus B)\ominus B
+substitution: Số điểm 1: A=24, O=12, C=27; O lần 2=12, C lần 2=27.
+result: Kiểm tra từng pixel cho O⊆A⊆C; O∘B=O và C•B=C (lũy đẳng). Phần bên trái có bề rộng 3 nhưng lỗ ở (4,4) và chiều cao/biên làm không có cửa sổ vuông 3×3 fit đầy đủ, nên mở xóa phần đó.
+Ảnh co trung gian
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	1	0	0
+0	0	0	0	0	1	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+Mở (lần 1 = lần 2)
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0
+Đóng (lần 1 = lần 2)
+0	0	0	0	0	0	0	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0

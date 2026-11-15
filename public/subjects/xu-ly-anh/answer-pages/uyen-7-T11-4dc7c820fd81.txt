@@ -1,0 +1,57 @@
+Bài 7.T11. Trích thành phần liên thông 4 và 8
+
+1. Lan hạt giống trong đối tượng.
+formula: X_k=(X_{k-1}\oplus B)\cap A
+substitution: X₀ = (2, 2); sau lần giãn đầu có 3 điểm.
+result: Dừng ở k=4 vì Xk=Xk−1. SE vuông (8 hướng).
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(2,3), (3,2)	3
+2	(4,3)	4
+3	(4,4)	5
+4	Không có điểm mới — dừng	5
+Xk khi dừng
+0	0	0	0	0	0	0	0	0
+0	1	1	0	0	0	0	0	0
+0	1	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+2. Lan hạt giống trong đối tượng.
+formula: X_k=(X_{k-1}\oplus B)\cap A
+substitution: X₀ = (2, 2); sau lần giãn đầu có 3 điểm.
+result: Dừng ở k=2 vì Xk=Xk−1. SE chữ thập (4 hướng).
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(2,3), (3,2)	3
+2	Không có điểm mới — dừng	3
+Xk khi dừng
+0	0	0	0	0	0	0	0	0
+0	1	1	0	0	0	0	0	0
+0	1	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+3. Lan hạt giống trong đối tượng.
+formula: X_k=(X_{k-1}\oplus B)\cap A
+substitution: X₀ = (2, 7); sau lần giãn đầu có 3 điểm.
+result: Dừng ở k=5 vì Xk=Xk−1. SE vuông (8 hướng).
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(2,8), (3,8)	3
+2	(4,7), (4,8)	5
+3	(5,6)	6
+4	(6,6), (6,7)	8
+5	Không có điểm mới — dừng	8
+Xk khi dừng
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	1	1	0
+0	0	0	0	0	0	0	1	0
+0	0	0	0	0	0	1	1	0
+0	0	0	0	0	1	0	0	0
+0	0	0	0	0	1	1	0	0
+0	0	0	0	0	0	0	0	0
+4. Đếm toàn bộ thành phần, không chỉ thành phần có hạt đã chọn.
+text: Liên thông 8: 3 thành phần; liên thông 4: 5 thành phần. Các tiếp xúc chéo nối được với SE vuông nhưng không nối với chữ thập.

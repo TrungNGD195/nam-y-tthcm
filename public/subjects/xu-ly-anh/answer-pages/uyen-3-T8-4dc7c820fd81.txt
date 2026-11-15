@@ -1,0 +1,21 @@
+Bài 3.T8. Trung bình k=3 gần nhất, θ=2
+
+1. Chọn k giá trị gần tâm, rồi chỉ thay khi chênh lệch vượt θ.
+formula: AV_k=\frac1k\sum_{q\in K}I(q),\quad g(p)=\begin{cases}I(p)&|I(p)-AV_k|\le\theta\\AV_k&|I(p)-AV_k|>\theta\end{cases}
+substitution: Tâm 15: chọn [15, 6, 5], AV₃=8.66667; |15−AV₃|=6.33333>2 nên thay.
+result: Kể cả tâm trong k giá trị; hòa khoảng cách chọn giá trị nhỏ trước. Các cửa sổ tính từ ảnh gốc, không cập nhật dây chuyền.
+
+vị trí (từ 1)	tâm	3 giá trị	AV₃	độ lệch	kết quả
+(2,2)	15	[15, 6, 5]	8.66667	6.33333	8.66667
+(2,3)	4	[4, 4, 5]	4.33333	0.33333	4
+(2,4)	5	[5, 5, 4]	4.66667	0.33333	5
+(3,2)	6	[6, 6, 6]	6	0	6
+(3,3)	1	[1, 4, 5]	3.33333	2.33333	3.33333
+(3,4)	6	[6, 6, 5]	5.66667	0.33333	6
+(4,2)	6	[6, 6, 6]	6	0	6
+(4,3)	6	[6, 6, 6]	6	0	6
+(4,4)	5	[5, 6, 6]	5.66667	0.66667	5
+9 điểm trong
+8.66667	4	5
+6	3.33333	6
+6	6	5

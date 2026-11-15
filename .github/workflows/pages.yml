@@ -28,6 +28,7 @@ jobs:
           cache-dependency-path: scripts/content/xu-ly-anh/requirements-review.txt
       - run: pip install -r scripts/content/xu-ly-anh/requirements-review.txt
       - run: python scripts/content/xu-ly-anh/verify.py
+      - run: python scripts/content/xu-ly-anh/verify_documents.py
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e

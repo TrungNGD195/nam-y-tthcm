@@ -1,0 +1,27 @@
+Bài 7.T7. Tách biên bằng ảnh co và phần bù
+
+1. Co ảnh rồi lấy phần đối tượng bị loại.
+formula: E=A\ominus s,\quad\beta(A)=A\cap E^c
+substitution: A có 51 điểm, E có 19 điểm ⇒ biên có 51−19=32 điểm.
+result: Eᶜ chỉ tính trong khung ảnh 6×10; ngoài ảnh đệm 0 khi co.
+E
+0	0	0	0	0	0	0	0	0	0
+0	1	1	0	0	0	0	1	1	0
+0	1	1	0	0	0	0	1	0	0
+0	1	1	1	1	1	1	1	0	0
+0	0	1	1	1	1	1	0	0	0
+0	0	0	0	0	0	0	0	0	0
+Eᶜ
+1	1	1	1	1	1	1	1	1	1
+1	0	0	1	1	1	1	0	0	1
+1	0	0	1	1	1	1	0	1	1
+1	0	0	0	0	0	0	0	1	1
+1	1	0	0	0	0	0	1	1	1
+1	1	1	1	1	1	1	1	1	1
+β(A)
+1	1	1	1	0	0	1	1	1	1
+1	0	0	1	0	0	1	0	0	1
+1	0	0	1	1	1	1	0	1	1
+1	0	0	0	0	0	0	0	1	0
+1	1	0	0	0	0	0	1	1	0
+0	1	1	1	1	1	1	1	0	0

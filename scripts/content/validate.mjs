@@ -94,6 +94,7 @@ if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
     if(subject.learningMode==='solutions'){
       assert.equal(subject.status,'ready');
       const data=JSON.parse(readFileSync(new URL(`src/subjects/${subject.id}/solutions.json`,root),'utf8'));
+      if(subject.solutionPresentation==='documents')data.documents=JSON.parse(readFileSync(new URL(`src/subjects/${subject.id}/documents.json`,root),'utf8'));
       validateSolutions(data,subject,asset=>existsSync(new URL('public/'+asset,root)));
       console.log(`${subject.name}: ${data.items.length} solved items, ${data.chapters.length} chapter groups.`);
       continue;

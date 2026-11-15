@@ -7,3 +7,13 @@
 .solution-step .formula-block{background:#edf0e8;border-color:#dce3d5}
 .solution-step .solution-result{background:#f0f2ea;border-color:#a7b79a}
 .source-correction{background:#f3ecdd;border-color:#a18853}
+.document-answer .answer-heading>p{color:var(--muted);font-size:1rem;line-height:1.7}
+.document-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0 24px}
+.document-toolbar .btn{font-size:1rem}
+.answer-document-pages{background:#e4e6e1;border:1px solid #d2d8d0;border-radius:10px;padding:18px;min-width:0}
+.answer-document-page{margin:0 0 24px;min-width:0}
+.answer-document-page:last-child{margin-bottom:0}
+.answer-document-page>a{display:block;background:#fff;border:1px solid #d3d7d0;cursor:zoom-in}
+.answer-document-page img{display:block;width:100%;height:auto;background:white}
+.answer-document-page figcaption{text-align:center;font-size:.9375rem;color:var(--muted);line-height:1.6;padding-top:9px}
+@media(max-width:700px){.answer-document-pages{padding:6px;border-radius:6px}.document-toolbar{gap:8px}.document-toolbar .btn{width:100%}.answer-document-page figcaption{font-size:.8125rem}.document-answer .answer-heading h2{font-size:1.375rem}}

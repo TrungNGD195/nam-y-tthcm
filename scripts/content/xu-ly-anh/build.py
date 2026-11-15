@@ -118,7 +118,7 @@ target.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='ut
 catalog_file=ROOT/'src/subjects/catalog.json';catalog=json.loads(catalog_file.read_text(encoding='utf-8'))
 for s in catalog:
     if s['id']=='xu-ly-anh':
-        s.update(status='ready',learningMode='solutions',questionCount=len(records),chapterCount=len(CHAPTERS),
+        s.update(status='ready',learningMode='solutions',solutionPresentation='documents',questionCount=len(records),chapterCount=len(CHAPTERS),
                  description='Giải ngân hàng theo mức điểm và giải bài cô Uyên theo chương. Công thức rõ, keyword dễ nhớ.')
 catalog_file.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 report=['# Kiểm kê nội dung Xử lý ảnh','',f'- Tổng: {len(records)} câu/bài; 101 lý thuyết, 67 bài tính.',

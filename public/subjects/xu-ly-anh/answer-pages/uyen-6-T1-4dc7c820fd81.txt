@@ -1,0 +1,35 @@
+Bài 6.T1. Huffman: mã, tỷ lệ nén và entropy
+
+1. Chia ảnh thành khối 2×2 không chồng lấn; quét theo hàng khối.
+formula: p_i=n_i/N_b,\quad H=-\sum_i p_i\log_2p_i
+substitution: N_b=120/4=30; khối đầu 00/00 có tần suất 10.
+result: Ký hiệu viết theo thứ tự trái→phải, trên→dưới trong mỗi khối.
+
+khối (2 hàng viết liền)	số lần	xác suất	mã
+0000	10	0.33333	11
+0011	1	0.03333	01110
+0101	5	0.16667	00
+0110	1	0.03333	01111
+1001	3	0.1	010
+1100	2	0.06667	0110
+1111	8	0.26667	10
+2. Ghép hai trọng số nhỏ nhất liên tiếp để tạo cây Huffman.
+formula: w_{\mathrm{cha}}=w_{\mathrm{trai}}+w_{\mathrm{phai}}
+substitution: Lần ghép đầu: 1 + 1 = 2.
+result: Bảng ghép mô tả cây: nhánh trái 0, phải 1; hòa tần suất dùng thứ tự khối nhị phân tăng dần rồi thứ tự tạo nút. Đổi các nhánh/hòa tần suất có thể đổi chuỗi mã nhưng không đổi độ dài tối ưu.
+
+cây con trái	n trái	cây con phải	n phải	n cha
+0011	1	0110	1	2
+1100	2	('0011', '0110')	2	4
+1001	3	('1100', ('0011', '0110'))	4	7
+0101	5	('1001', ('1100', ('0011', '0110')))	7	12
+1111	8	0000	10	18
+('0101', ('1001', ('1100', ('0011', '0110'))))	12	('1111', '0000')	18	30
+Ma trận mã theo hàng khối
+11	10	11	10	010	11	11	00	11	0110
+11	11	01111	11	0110	00	11	010	10	10
+00	010	00	10	01110	00	10	11	10	10
+3. Tính độ dài mã, tỷ lệ nén và hiệu suất.
+formula: n_2=\sum_i n_i\ell_i,\quad L=n_2/N_b,\quad C_R=n_1/n_2,\quad R_D=1-n_2/n_1,\quad\eta=H/L
+substitution: n₁=120 bit; n₂=10·2+1·5+5·2+1·5+3·3+2·4+8·2=73 bit.
+result: CR=1.64384; RD=0.39167; H=2.38743 bit/khối; L=2.43333; η=0.98114. Chưa tính header/bảng mã. Mã cố định cho 7 khối khác nhau cần ceil(log₂7)=3 bit/khối, tổng 90 bit. Một ảnh nhỏ có thể nở nếu cộng chi phí bảng mã.

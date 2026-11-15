@@ -1,0 +1,1470 @@
+{
+  "subjectId": "xu-ly-anh",
+  "version": "2026.11.15.1",
+  "dataVersion": "2026.11.14.1",
+  "renderFingerprint": "4dc7c820fd81",
+  "book": {
+    "src": "subjects/xu-ly-anh/answer-pages/xu-ly-anh-67-bai-giai-4dc7c820fd81.pdf",
+    "pages": 192,
+    "sha256": "4a538269a3f6c805cd49b2468297b0446c42437e106736fc838ebd62fa08378b"
+  },
+  "items": {
+    "bank-3-1": {
+      "contentHash": "4aac629fb458b4b4392accd718be98e3d2d2365298b9699800ceee92de8ed53b",
+      "pdfStartPage": 2,
+      "pdfEndPage": 3,
+      "answerStartPage": 3,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-1-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-1-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 3,
+          "sha256": "bcbcde8e86767a2122e514b3368804e5d866f5ad9c3bc3ba1593e38c6ce88e05"
+        }
+      ]
+    },
+    "bank-3-2": {
+      "contentHash": "7f76a3540d377dddaddb269e4eb3233b5960de451582a28a4401c7040699e170",
+      "pdfStartPage": 4,
+      "pdfEndPage": 5,
+      "answerStartPage": 5,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-2-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-2-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 5,
+          "sha256": "96c911c8403288726aa7e569d8c5516babbe3bfc6eecdc4e8c2a073cb0a078b3"
+        }
+      ]
+    },
+    "bank-3-3": {
+      "contentHash": "3f8e09a0fe366e7e3bdcce9759de46d5f32c616c7537a69d3e913931bd49103a",
+      "pdfStartPage": 6,
+      "pdfEndPage": 8,
+      "answerStartPage": 7,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-3-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-3-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 7,
+          "sha256": "e9a3cabc42da2a11d4d52da10d6cbac32cda1c096e812d95c93a54a37c9cf643"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-3-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 8,
+          "sha256": "574f663a9aac502d4e1b590e84034fecb3b50977d4b1951647c1086c64e15705"
+        }
+      ]
+    },
+    "bank-3-4": {
+      "contentHash": "6459a271feb09f73362f69c3b1e555737c93151bd422d3cb1395b9a6f61a75fb",
+      "pdfStartPage": 9,
+      "pdfEndPage": 10,
+      "answerStartPage": 10,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-4-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-4-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 10,
+          "sha256": "0316de9a4908d4155313108f91541438a2ad0491a14b3d6412a0059a50532f24"
+        }
+      ]
+    },
+    "bank-3-5": {
+      "contentHash": "335a310419eed84e501b087f29a1830c5cdb1460842d607eac4442c446e8a78d",
+      "pdfStartPage": 11,
+      "pdfEndPage": 12,
+      "answerStartPage": 12,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-5-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-5-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 12,
+          "sha256": "76d598157983dec3576542bb77b763aa8b4c35585daf851eb7d55ca49d90d146"
+        }
+      ]
+    },
+    "bank-3-6": {
+      "contentHash": "a2379049a7d74391bd7ac6d12388d853e7f2f53a8bffdbfed249da1e2606d441",
+      "pdfStartPage": 13,
+      "pdfEndPage": 15,
+      "answerStartPage": 14,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-6-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-6-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 14,
+          "sha256": "45efdb0ba677ae7432b35600277bf8ee761bfca737feba8207b043d4eb4d13f5"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-6-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 15,
+          "sha256": "c68efb09172c437b6e3d17077df6e09b23e255ba55c084a87c532e19516a26ad"
+        }
+      ]
+    },
+    "bank-3-7": {
+      "contentHash": "ad106600352dfc0db0b77bcecb77e95a0a05d73718bd6adc7dacf055ed771be8",
+      "pdfStartPage": 16,
+      "pdfEndPage": 18,
+      "answerStartPage": 17,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-7-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-7-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 17,
+          "sha256": "dd60cd369a83d13a866428b34e0d453c30e497055906f5f436f8c218a585fa5e"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-7-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 18,
+          "sha256": "efabe37c49e97173636cadbdc7dd3a161e07e83863f440aecf69a808bb6fa8b1"
+        }
+      ]
+    },
+    "bank-3-8": {
+      "contentHash": "f7fa8227c1105b400672c794a369397b15a04c85aa7acd114c97305764ef7366",
+      "pdfStartPage": 19,
+      "pdfEndPage": 21,
+      "answerStartPage": 20,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-8-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-8-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 20,
+          "sha256": "3cf37a2d1ee4ca5ec82b215652d6638d68c29cf526b30be922c1a02498580ea4"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-8-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 21,
+          "sha256": "e37c8970c08d6d4998326fa8e489f4275f73b7a75aa41f3a2708e18165116ec2"
+        }
+      ]
+    },
+    "bank-3-9": {
+      "contentHash": "a9fd3689295107632c4e677a2a466a25ee520c246cb64a038a667dbed393b8f5",
+      "pdfStartPage": 22,
+      "pdfEndPage": 24,
+      "answerStartPage": 23,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-9-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-9-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 23,
+          "sha256": "b1778aa8e9d5cb3f848996ed4c3921b1c068682690edce379d5bd7983de54d6b"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-9-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 24,
+          "sha256": "84a441834e386967da24bfd91f9a3ef75730e39ccae4c99ce405b3882fe814a8"
+        }
+      ]
+    },
+    "bank-3-10": {
+      "contentHash": "83ce99e88c50f38daeeae90c08295a8f3f1406fb66d8ee02d42ee689e0576dbd",
+      "pdfStartPage": 25,
+      "pdfEndPage": 26,
+      "answerStartPage": 26,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-10-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-10-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 26,
+          "sha256": "f4c2fc7bf22b6861290f868bca0688e0864103254bf273031b3209a2afc666bd"
+        }
+      ]
+    },
+    "bank-3-11": {
+      "contentHash": "f53dddefaa5465fc35feb310c2bcbf47d64595a02cb72bc96eb9f5971c1ba4ef",
+      "pdfStartPage": 27,
+      "pdfEndPage": 29,
+      "answerStartPage": 28,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-11-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-11-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 28,
+          "sha256": "691f9439ab09980cf03b25098969c4c0ff65693bfbfffd49ea28987c0f6f32fb"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-11-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 29,
+          "sha256": "87ab9207cbb4dcdcb37328d9124c6e26b5757c1cc3d6a6a788b03aabbe9f9b20"
+        }
+      ]
+    },
+    "bank-4-1": {
+      "contentHash": "92ee9a96cdf6763856b3998ec01a08bd5935796639c944bc5e5ab8a9bf08b77e",
+      "pdfStartPage": 30,
+      "pdfEndPage": 32,
+      "answerStartPage": 31,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-1-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-1-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 31,
+          "sha256": "a41546fea27ce5b363e54e86a374466c40f6c6c2410c9f37899f4e9bc9e371d0"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-1-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 32,
+          "sha256": "c5fc52513b529890c5fe6dc33818cda3627140a0bb49be3f8298872a55c8695e"
+        }
+      ]
+    },
+    "bank-4-2": {
+      "contentHash": "da647a159d70feaa572f5938259e8b8320e03ce94d11e9bd24d4a9798aee8339",
+      "pdfStartPage": 33,
+      "pdfEndPage": 35,
+      "answerStartPage": 34,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-2-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-2-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 34,
+          "sha256": "4bce5f0688e112b6da23c45a2165ae66f03886e2d0d0891d09c93bb7daeaafd5"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-2-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 35,
+          "sha256": "e0826da445f7fba30ca255f3bae5b5f3a0f072e14d8b9b0d7a8a44f1b0aab8d5"
+        }
+      ]
+    },
+    "bank-4-3": {
+      "contentHash": "9d51ebe2814fa1957cead3e93b501cdfa23701a06dc3303af0e540724d00e9a5",
+      "pdfStartPage": 36,
+      "pdfEndPage": 39,
+      "answerStartPage": 37,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-3-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 37,
+          "sha256": "0ec319823b73918c8d289a0e515d5eab4ac54731fc7a29aa610c0dcbdec1b570"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 38,
+          "sha256": "804200cff43d22a7ca9551de28fa88c7df59e7266d7a44c1cb171c2eb019f25a"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 39,
+          "sha256": "6bf2acc6ce3e6cd8a05d5d92185b9c8fcb8fb6538646758565cf138d3089be9b"
+        }
+      ]
+    },
+    "bank-4-4": {
+      "contentHash": "878a2f161b73af09f1bbc197f217ab43637863d65fc727780c8068c623b60c07",
+      "pdfStartPage": 40,
+      "pdfEndPage": 43,
+      "answerStartPage": 41,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-4-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 41,
+          "sha256": "3e74e7da12079fd2e065c94d96d8fe6678e7474566120aef4377992e763a1d53"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 42,
+          "sha256": "57187e12600341c96321910ee8fb18cb4ef1342e90f40168965ddce1f1f3aa89"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 43,
+          "sha256": "96816a64e458e5cb0f92474bd151bb0f5aefaf7dfaacc623a76f8ee98eba9edd"
+        }
+      ]
+    },
+    "bank-4-5": {
+      "contentHash": "24b66f27fc6027ef005c2eed48386b0b310f1485fad2da72979d929b50c28c9d",
+      "pdfStartPage": 44,
+      "pdfEndPage": 46,
+      "answerStartPage": 45,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-5-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-5-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 45,
+          "sha256": "56b8d0a93f6c3a98259b389888b3285715e853ba6ca9fcd054393648c7aaee9f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-5-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 46,
+          "sha256": "a88e22d30faa3554dbbc4b85a9102ccb9bc1d476b96c2e6ad1927a7908218d71"
+        }
+      ]
+    },
+    "bank-4-6": {
+      "contentHash": "396f90822f0e276c5ac66a765238060bd40934adfc85ad4fe737025062070465",
+      "pdfStartPage": 47,
+      "pdfEndPage": 49,
+      "answerStartPage": 48,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-6-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-6-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 48,
+          "sha256": "97962ce0099f1db7957ab38edc850ee9e3390f50d7c9b2730b6c4d899f7658d7"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-6-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 49,
+          "sha256": "4dd878ab0a8a2a4d0e54fea50adbd1a4451d93e33afcedb7e3a054ecbce43f26"
+        }
+      ]
+    },
+    "bank-4-7": {
+      "contentHash": "2520013e94118600e1e15bec273265aa62144f1ce1656afc1ac788c7376d8d21",
+      "pdfStartPage": 50,
+      "pdfEndPage": 52,
+      "answerStartPage": 51,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-7-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-7-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 51,
+          "sha256": "3eefe31db3f4b32966df6e1484e6b2bd7fcff577eb2e22c13bb58310a4312c1d"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-7-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 52,
+          "sha256": "775ccd8641e615d50195168877c5fc043b3910db8c668a6a373820b512321d32"
+        }
+      ]
+    },
+    "bank-4-8": {
+      "contentHash": "af4950eb34a5ad33dba01f1af25e56f64c79893793d7fd505a20b18d2b1af458",
+      "pdfStartPage": 53,
+      "pdfEndPage": 55,
+      "answerStartPage": 54,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-8-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 54,
+          "sha256": "58978d6868feb3424f34b51348d44c34b6cce00e862eea6a537a0ac68c6eaf8e"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 55,
+          "sha256": "c708d0b4c0bcdc96be98809e18b72361ea8a80dc7434b15bb7f0957e4390dd3e"
+        }
+      ]
+    },
+    "bank-4-8-bs": {
+      "contentHash": "c60f80de0248d90e214801c912b341cd0908722c6b8643e370398f60e99c9367",
+      "pdfStartPage": 56,
+      "pdfEndPage": 59,
+      "answerStartPage": 57,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 57,
+          "sha256": "a86bf6f20115595cad3201079763a218a8767a76ad3578ca047e77ad842beb0d"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 58,
+          "sha256": "288c5805c5b6637aa6c4eb2ec843b30239ab4ce06e25a5604f5b523fb357d899"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 59,
+          "sha256": "f82d213b4064a6da86f49bc009b71460f1e0810526d4c61dfebf61b157378491"
+        }
+      ]
+    },
+    "bank-4-9": {
+      "contentHash": "9bae546019e74add5d17f481933387f28f68f35faaf0d131affbd7a8039e18c1",
+      "pdfStartPage": 60,
+      "pdfEndPage": 63,
+      "answerStartPage": 62,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-9-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-9-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 62,
+          "sha256": "3f584bc8a3e2d0dbd9828b88df880f7339f3fc157eeaff3a65b6459663dfabdb"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-9-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 63,
+          "sha256": "b797682fc7ac94d235227b00f43bc85fdd071a041b44566be9d237e357f8f432"
+        }
+      ]
+    },
+    "uyen-3-T1": {
+      "contentHash": "f915a283c16bec5d47091baff0d011f0df3aee691e445200b33780f83b2042c0",
+      "pdfStartPage": 64,
+      "pdfEndPage": 66,
+      "answerStartPage": 65,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 65,
+          "sha256": "cd7f93cdb6a2aa5afb8c990a6086aed7bcb6cb605438dc11917929bfc9a5418e"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 66,
+          "sha256": "463d9d482ac92a9fb1dabfa4c4199d5d761154f1ed2e2642db467d4dc7852dbd"
+        }
+      ]
+    },
+    "uyen-3-T2": {
+      "contentHash": "a2810b7b58d68e469423f983b50610edfec8f01e53d70c51aa60db96458e18f9",
+      "pdfStartPage": 67,
+      "pdfEndPage": 68,
+      "answerStartPage": 68,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T2-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T2-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 68,
+          "sha256": "a761afb791d218be3c4854a13e5a9a238a904e58b06cb4c98bd6a3be879f2383"
+        }
+      ]
+    },
+    "uyen-3-T3": {
+      "contentHash": "564f904fde062bfb539359327ac40da3898473e8f372d7c5b068af16528db241",
+      "pdfStartPage": 69,
+      "pdfEndPage": 71,
+      "answerStartPage": 70,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 70,
+          "sha256": "348932a948117e1ba777dab71a1cc57ee79e7f7baa606d8d69f699bcda5ceea2"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 71,
+          "sha256": "91d499f40d3d6a69126e0482d5ba8a7714e37103257462c983f306dd8cfabf36"
+        }
+      ]
+    },
+    "uyen-3-T4": {
+      "contentHash": "9f3f79441549d619fd616dbec2fbf11d53aabfd10b81d5c828e686bb3ac84bfc",
+      "pdfStartPage": 72,
+      "pdfEndPage": 73,
+      "answerStartPage": 73,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T4-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T4-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 73,
+          "sha256": "5a0ba11b7e03367874f81c076354e05d183be6fa834e366af83ad742f1a37803"
+        }
+      ]
+    },
+    "uyen-3-T5": {
+      "contentHash": "b47fe3073099ede99d435b2ca01ecfa7f8eb6609c06fe90eec83756e954f8f46",
+      "pdfStartPage": 74,
+      "pdfEndPage": 77,
+      "answerStartPage": 75,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 75,
+          "sha256": "aa9107dc0751d2dd624750b5999dea1a38dcea4f11ddc21b88387d8a99f54e9f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 76,
+          "sha256": "b968283623cbe1ea2211f24bab7b1bae6b3e0ca94e5c70a398ef942902e23e5f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 77,
+          "sha256": "88a68854d9aa58141520650b88cfe9253f651e3e10004adf6009d11accdcaa66"
+        }
+      ]
+    },
+    "uyen-3-T6": {
+      "contentHash": "50e259c89b1ee5e67df5086377bcef39b0a2b409e5c1d360d4674168d4507ff1",
+      "pdfStartPage": 78,
+      "pdfEndPage": 79,
+      "answerStartPage": 79,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T6-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T6-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 79,
+          "sha256": "c358498d419a13606c79b3f05bb982823c17ce71ac24875784110f40ca61e31d"
+        }
+      ]
+    },
+    "uyen-3-T7": {
+      "contentHash": "fab8376e4929c9991a81b2ae11840f4c6342dab6c0ab10db9a4e7362b281beec",
+      "pdfStartPage": 80,
+      "pdfEndPage": 81,
+      "answerStartPage": 81,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T7-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T7-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 81,
+          "sha256": "4872af1d99e65674639ee57710b892493dbd18f1bbd7d8d5b0a1503834a4aa88"
+        }
+      ]
+    },
+    "uyen-3-T8": {
+      "contentHash": "e946a097e209d5d256a18cf4137d72e5453cc499b9d01c0e8a728c2fc7e30fb8",
+      "pdfStartPage": 82,
+      "pdfEndPage": 83,
+      "answerStartPage": 83,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T8-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T8-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 83,
+          "sha256": "eca871b38b84e6580534acf29ddf2ec6d371f094499723aa5a084ac77c42dd6a"
+        }
+      ]
+    },
+    "uyen-3-T9": {
+      "contentHash": "4caa841166f2892d7f5794cb23e743e7a5c26fd3f19c3cd4cd3bead61809d018",
+      "pdfStartPage": 84,
+      "pdfEndPage": 85,
+      "answerStartPage": 85,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T9-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T9-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 85,
+          "sha256": "d03b688494ba1a9a20f14d4d478afd4fc4215611351869e60dbfe4f1b88e934f"
+        }
+      ]
+    },
+    "uyen-3-T10": {
+      "contentHash": "da1efb8843fc7a48316593aa9b15ecf1ac61b47a5a80feeca558064352362021",
+      "pdfStartPage": 86,
+      "pdfEndPage": 88,
+      "answerStartPage": 87,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 87,
+          "sha256": "fb0f981a992861afce04ef0ef051776275550e200e68090730cc1de0793de3a1"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 88,
+          "sha256": "f328274253989e22cf4bbdf080f72e8701530af08efc3d5e32c7516d1ebe680a"
+        }
+      ]
+    },
+    "uyen-3-T11": {
+      "contentHash": "712c2eb61b62334f2bff8667000d78598e53d8a14cbf6ba93ab84cab454c8770",
+      "pdfStartPage": 89,
+      "pdfEndPage": 91,
+      "answerStartPage": 90,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 90,
+          "sha256": "5eeca46e70814c27db1db860c24e3fac631123d5992188f34ab8c708163184aa"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 91,
+          "sha256": "516333af8929b9a7d3f19f39366874e7d2a1857e4d1242ed31d08dd729dba9d9"
+        }
+      ]
+    },
+    "uyen-3-T12": {
+      "contentHash": "4f024cf86a5d09ce5074e7c1fa79671acdb838e896a1038ea6c2c48649881aca",
+      "pdfStartPage": 92,
+      "pdfEndPage": 93,
+      "answerStartPage": 93,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T12-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T12-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 93,
+          "sha256": "9b254c7e0bcae3021a543ec6179b148ebbf6bd61460fd9f55ff68d7a4d2e2f32"
+        }
+      ]
+    },
+    "uyen-4-T1": {
+      "contentHash": "0ad2a33e6ebb6dfdf5a765335793ceb80720dd4f2ecef0678dcc382a5d34f9d4",
+      "pdfStartPage": 94,
+      "pdfEndPage": 95,
+      "answerStartPage": 95,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T1-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T1-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 95,
+          "sha256": "271e22c9dfe8b7ef973dbb35e53204f7fb76ded80754812de358d7d4be0b205e"
+        }
+      ]
+    },
+    "uyen-4-T2": {
+      "contentHash": "15c1c0051e695cceac6f97e148b5c673614e4e3c6c6a2720098bd82534adf76d",
+      "pdfStartPage": 96,
+      "pdfEndPage": 98,
+      "answerStartPage": 97,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 97,
+          "sha256": "dd24f6ee949585212e2253a42b9856a32ca116409b88ec374b2bed0cdd5c4f31"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 98,
+          "sha256": "f59188a5523315cc802f02cc6913130b066989e8d7caf1110c2174ca59389d0e"
+        }
+      ]
+    },
+    "uyen-4-T3": {
+      "contentHash": "6d5423e8644996d0ec4223276f50e6483b5fd61a71d6b145f29e2e399aef3a1d",
+      "pdfStartPage": 99,
+      "pdfEndPage": 101,
+      "answerStartPage": 100,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 100,
+          "sha256": "0622a1fa19d50f0000ba3a7e5e8dc54d5193194df120355826919338a7a4192f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 101,
+          "sha256": "a34cb772f3fd7e5c03fcc55223cf255089d61c1ca642fb620dfbadf2138a5190"
+        }
+      ]
+    },
+    "uyen-4-T4": {
+      "contentHash": "95825917f69509e6118be1d6aca66589328f0c820e1872c71875246805a95d7e",
+      "pdfStartPage": 102,
+      "pdfEndPage": 104,
+      "answerStartPage": 103,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 103,
+          "sha256": "cdb2fd6fc51f1f5d21dc762195756d06cbca24039b9078da4984800dca297f59"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 104,
+          "sha256": "3e2a6dc0cb8d99173c6768bcd7f1589fc37222445605153f58ead8711bb39111"
+        }
+      ]
+    },
+    "uyen-5-T1": {
+      "contentHash": "0296541a5ac4c9f576ae77808a89d2476a2ca2cd328fe05a12691d9bcbd33f66",
+      "pdfStartPage": 105,
+      "pdfEndPage": 107,
+      "answerStartPage": 106,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 106,
+          "sha256": "1c6317090c9cf6ef2334981ff7812d3575497ff8ebe9252d95f8817f33e10b60"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 107,
+          "sha256": "33d79d383a5a21df1f7d6012c2775a8f8211fd3c21210b3e4b921535de7b5d15"
+        }
+      ]
+    },
+    "uyen-5-T2": {
+      "contentHash": "9e9a670bba3b5ce14ff6472ceae846af3af285bf7c441bd7e029b2ee476f08be",
+      "pdfStartPage": 108,
+      "pdfEndPage": 110,
+      "answerStartPage": 109,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 109,
+          "sha256": "0f411998ed10605aed12884faec84f9ecd1accf66438486ec2dddc610149486f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 110,
+          "sha256": "a8b0a8af357c16dcbfbb1f2128d232fe78aed19c532f9c8f29fe903185742e0d"
+        }
+      ]
+    },
+    "uyen-5-T3": {
+      "contentHash": "7efce57b094ee67f197928d81c2c27b21148b031d311e19f2cf06afff85cee1e",
+      "pdfStartPage": 111,
+      "pdfEndPage": 114,
+      "answerStartPage": 112,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 112,
+          "sha256": "4a9b7d5eec50e6ee5826be876363eb5e6a92860559aa6cc77928c340941d7761"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 113,
+          "sha256": "8e2009e3891adca4d8ccb4fd9f0381bc396dbb627871c1006ef4053f083fb9a6"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 114,
+          "sha256": "7f6e25ab531fcb9e3405afca1063bd1c02be0e152d0a9011d4bd8d835c68c0be"
+        }
+      ]
+    },
+    "uyen-5-T4": {
+      "contentHash": "cde4b13da4c37a5a851c441db4e3aa925bf77be9ac022401b69aa263bc23b71d",
+      "pdfStartPage": 115,
+      "pdfEndPage": 117,
+      "answerStartPage": 116,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 116,
+          "sha256": "74db80727eaadefae92b1118896107ca50acb2150cf24b6776ac8d9eef57188f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 117,
+          "sha256": "47265212babd9e0901823833c1415253bb14d9b4860ef7cceda8d08505a17b83"
+        }
+      ]
+    },
+    "uyen-5-T5": {
+      "contentHash": "ea04ca1a691da6c127499d584048254315a6d7d0cdf701d1d3d0611f1ad813fa",
+      "pdfStartPage": 118,
+      "pdfEndPage": 120,
+      "answerStartPage": 119,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 119,
+          "sha256": "75c60fe8d7f33fbd62d6d4a4a141b934f50982c8a3ad7bcfc2e5b59c0b5346a7"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 120,
+          "sha256": "6a3af8dc5b8bee7b5520b8f190681d47f01eed94a2f542f476ff9e09779a2477"
+        }
+      ]
+    },
+    "uyen-5-T6": {
+      "contentHash": "d206a483d071b09d0fcaaa9ca0d792890e2417830713a7bb113e52412f3e6b33",
+      "pdfStartPage": 121,
+      "pdfEndPage": 123,
+      "answerStartPage": 122,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 122,
+          "sha256": "c3f9b75c5f0eadb4639a99f74df54d71303bf1b80ea2bc78e09543512cef2762"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 123,
+          "sha256": "7f07b49610d9d582109fd599c1f91da8960f79ea918cfac1275475c7bd7cadf2"
+        }
+      ]
+    },
+    "uyen-5-T7": {
+      "contentHash": "5c4d1a9e8db7162199edc66541e1df09369d82839ec9df61319850442b7632dc",
+      "pdfStartPage": 124,
+      "pdfEndPage": 125,
+      "answerStartPage": 125,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T7-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T7-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 125,
+          "sha256": "a70d72d3a3121cf54769cf61ce1a7c2e2d74c1853a93820470eb9b2cbda06dc9"
+        }
+      ]
+    },
+    "uyen-6-T1": {
+      "contentHash": "3b37579d24e35e56e779f11c99f5872b1aa65ad9bdd2653c8a820914221c6851",
+      "pdfStartPage": 126,
+      "pdfEndPage": 128,
+      "answerStartPage": 127,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 127,
+          "sha256": "e600e9e8dc5a474380b046e62fac143ca8712dd5966dee0e776281d61c610986"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 128,
+          "sha256": "00e7a07044e49ba03763f3bf1d43aff3782af7e30a395034814322f4d4760fe0"
+        }
+      ]
+    },
+    "uyen-6-T2": {
+      "contentHash": "2721962580834667da74b6a2be9ec03c897d5794447d848453ebf421c048eb59",
+      "pdfStartPage": 129,
+      "pdfEndPage": 131,
+      "answerStartPage": 130,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 130,
+          "sha256": "b9891122511f0f547ef72701cfa6699f3a671a8e064bda9cd0d2a0396742b368"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 131,
+          "sha256": "84084d1bdfa32f66f51151b11f38446f88c1a85b159ef2cbd349ad767ef1ea1d"
+        }
+      ]
+    },
+    "uyen-6-T3": {
+      "contentHash": "1f8a36b5df9000a4aab331b09168d7a68024962d5582f3e1d2bd157880d1c1fa",
+      "pdfStartPage": 132,
+      "pdfEndPage": 133,
+      "answerStartPage": 133,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T3-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T3-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 133,
+          "sha256": "b61995b7dc52dc1cfafb63c210233066240a2369a60576b249aae58c5394826d"
+        }
+      ]
+    },
+    "uyen-6-T4": {
+      "contentHash": "86f796ee097ffb7a71062987fbe4b881fe04130f51378169ea918f92ffab6334",
+      "pdfStartPage": 134,
+      "pdfEndPage": 137,
+      "answerStartPage": 135,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 135,
+          "sha256": "99a9aaa22bf1b5834deb76fd6a1c20622e5c7173cae5745ab2056e4fdd7d758c"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 136,
+          "sha256": "7b48d3335a45df5d7c4bc8d942051ee39e36b2c14e5d6265a1e6e679c9f21aed"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 137,
+          "sha256": "68ba6efb8850a1999e28814353508862beb9fb746cd95982d36508deaa36c207"
+        }
+      ]
+    },
+    "uyen-6-T5": {
+      "contentHash": "90f557e1dfce85da292407da40b3e3baca426adc65e46ca5793526e6825ae2a4",
+      "pdfStartPage": 138,
+      "pdfEndPage": 141,
+      "answerStartPage": 139,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 139,
+          "sha256": "b717f624fa048db3854c87bebf499d24b00b0d00701553a474fab7f6a1ebdc02"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 140,
+          "sha256": "ad3b4cab342c7cd4ea895eebaa2a7dcb5c5f6ac151a8b240f9a270bb0f96ddd1"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 141,
+          "sha256": "fd5be31b17aaed254bdc33bd1d65f9e20167e2db6926503819685e0d7d53a06c"
+        }
+      ]
+    },
+    "uyen-6-T6": {
+      "contentHash": "3726a70caadb8861a02d35bdfd165d05a78bb9147c86db6b61257c3f64aac0bf",
+      "pdfStartPage": 142,
+      "pdfEndPage": 144,
+      "answerStartPage": 143,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 143,
+          "sha256": "70eeaec463aaa6906656837ea74bdad70c94c378a3b43514ef28a558f6a1850e"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 144,
+          "sha256": "dd88995af784a6eb438496e3a10d3fc484945f58aa5304cb06279d9d7f662da5"
+        }
+      ]
+    },
+    "uyen-6-T7": {
+      "contentHash": "1c2d16084a0b373d93ee33f6f13cfb9cc62306258ef833c9b8be8a6d415cc3fe",
+      "pdfStartPage": 145,
+      "pdfEndPage": 147,
+      "answerStartPage": 146,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 146,
+          "sha256": "4e860e5ecad89c68966b0baefa44d47d70f2f7c895d8fbbf1d28f4542193373e"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 147,
+          "sha256": "8a2a873314ab133dc9552043d5e0a140756f6181b8c1b7609bf69e6509ab9617"
+        }
+      ]
+    },
+    "uyen-6-T8": {
+      "contentHash": "cd1e285734649c42ad314674544dc51ee2bdef154b8c8bdd9c742c998c2224f8",
+      "pdfStartPage": 148,
+      "pdfEndPage": 149,
+      "answerStartPage": 149,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T8-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T8-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 149,
+          "sha256": "50b4c96d4011ba49b8851c1c59a23bd2149d4e53352311b428c1ee450dabf03b"
+        }
+      ]
+    },
+    "uyen-6-T9": {
+      "contentHash": "2245cee440ea974985f356e17ddeb2a076c9e3dc9fe9f0ce762d0006c42cb8c3",
+      "pdfStartPage": 150,
+      "pdfEndPage": 152,
+      "answerStartPage": 151,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 151,
+          "sha256": "d16477f7aa02c5cf31e99aad5e24570913d82bae74ddda4ec5de76db67c071b3"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 152,
+          "sha256": "0205e06b02d805c8a17f4cc03e144636691e9c576c1c9435cb1d261334a320c8"
+        }
+      ]
+    },
+    "uyen-6-T10": {
+      "contentHash": "5b98e733a5d3fa8fbd4d4aaf302b5ec2616bd5b1c580c9b9ae7303faf69c6ccd",
+      "pdfStartPage": 153,
+      "pdfEndPage": 155,
+      "answerStartPage": 154,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 154,
+          "sha256": "181c6bcc843a2cffe3daaa0ee34ff1336df078999a23f0bcac4e79f2d1b5f628"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 155,
+          "sha256": "388ee26c2b8d2fa41e4e1ab9ff2ce4b256516af403b9bf5c5209bff191f8bcac"
+        }
+      ]
+    },
+    "uyen-6-T11": {
+      "contentHash": "30c7f4bc3bc243292cce49ee4825879dd66e16a5486f63fdb3b80fe9dfefc266",
+      "pdfStartPage": 156,
+      "pdfEndPage": 158,
+      "answerStartPage": 157,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 157,
+          "sha256": "5a8d59c2f3c1ecbfaada00cc0d2fe3919d791e8f121534d7509fe473740e19ce"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 158,
+          "sha256": "e0f018c17c5abeb8f846682698329f09dad57e3061efdb4c11e3d923b1d9be9b"
+        }
+      ]
+    },
+    "uyen-6-T12": {
+      "contentHash": "c490d9003c29ab60df102e0198a95e55eea96a2652d5a296510bfad72786d540",
+      "pdfStartPage": 159,
+      "pdfEndPage": 160,
+      "answerStartPage": 160,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T12-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T12-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 160,
+          "sha256": "64248a6037cd466435e19f1983ca1acc434f5b72caf1d8143eeac8afca7cae94"
+        }
+      ]
+    },
+    "uyen-7-T1": {
+      "contentHash": "d307e1f3f6b3f44f408594faa8eb5693e088823e9b327ffc7c34a7829a7e3f88",
+      "pdfStartPage": 161,
+      "pdfEndPage": 162,
+      "answerStartPage": 162,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T1-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T1-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 162,
+          "sha256": "c637ba76ab9610fbeda657d463b2774373c1aae7019f661f0e071a08d76a8d57"
+        }
+      ]
+    },
+    "uyen-7-T2": {
+      "contentHash": "8a9afa676aef0ccc05f085e7d5a03be6d947baf1954d184e2257d5b5a05c51a5",
+      "pdfStartPage": 163,
+      "pdfEndPage": 165,
+      "answerStartPage": 164,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 164,
+          "sha256": "c03a67df7a2ef5ffb03f2e4a5d396c7e0f93b4db69a40a73d920025fd9dac8f9"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 165,
+          "sha256": "74734e9df61cc3300b46c00d9b27f95fbca625fc15dfc3910d097ca7cf07582f"
+        }
+      ]
+    },
+    "uyen-7-T3": {
+      "contentHash": "9083913ce81d3cd10ee847111b4c2b7565ff83447086332f3b19b6e1d8664865",
+      "pdfStartPage": 166,
+      "pdfEndPage": 168,
+      "answerStartPage": 167,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 167,
+          "sha256": "4be070b1305419f8f83babb99dfc5b54bf36f79272808c217a81cf30064232be"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 168,
+          "sha256": "031bdf579c9baab4751ebd9a2473ec9dff6a74f986c4a0b3c363c9337635271b"
+        }
+      ]
+    },
+    "uyen-7-T4": {
+      "contentHash": "baddc3cef3f8492798587d2f8ec7ae43d9d991f6bbb0a857dfb9a014a2963e2b",
+      "pdfStartPage": 169,
+      "pdfEndPage": 170,
+      "answerStartPage": 170,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T4-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T4-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 170,
+          "sha256": "7fb365a907f084a5961c8b9b023e797ddf6d172fce26d63e552c1c2225ce1936"
+        }
+      ]
+    },
+    "uyen-7-T5": {
+      "contentHash": "e62221b5f6326b02d8e2fb6c8779dcc74cae80ed6f19b3bc548078d5f7cefd97",
+      "pdfStartPage": 171,
+      "pdfEndPage": 172,
+      "answerStartPage": 172,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T5-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T5-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 172,
+          "sha256": "1ca9395b3fac03d256ebc71bcbdcd0cd6843cc0077977dce6eb21b51d9d9380e"
+        }
+      ]
+    },
+    "uyen-7-T6": {
+      "contentHash": "16b8b63ee32d043ad0ff54803989b1a46b3ec78318763bf1ab9ed710eb4e3149",
+      "pdfStartPage": 173,
+      "pdfEndPage": 174,
+      "answerStartPage": 174,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T6-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T6-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 174,
+          "sha256": "c9b0e9f66e0c520b3b914bf44d74caa370cdeecfcbadfea953e47992727aed18"
+        }
+      ]
+    },
+    "uyen-7-T7": {
+      "contentHash": "8e4e792ce0a9b0b9c6f3a98a1af5f2cd4e2908d3a3ac690207ea934f3c23915c",
+      "pdfStartPage": 175,
+      "pdfEndPage": 176,
+      "answerStartPage": 176,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T7-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T7-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 176,
+          "sha256": "1f4397768b3e1d13d42aa4df101ef72b585321fbf5471e2cbbc1682c19790167"
+        }
+      ]
+    },
+    "uyen-7-T8": {
+      "contentHash": "939dfe33e37d9eefd06c30a9523accfdfd2db76f8d24a64ef4e634e61f1d19bd",
+      "pdfStartPage": 177,
+      "pdfEndPage": 178,
+      "answerStartPage": 178,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T8-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T8-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 178,
+          "sha256": "3b7280513431d3bc97eac2ae83c303bb8aaf45e36877a56cd669a8f7beb6f863"
+        }
+      ]
+    },
+    "uyen-7-T9": {
+      "contentHash": "d50ccbcb5c9bd6002a6b8d3fafbdf504c62ac8ee0a1ea67a0a97c97ec3806903",
+      "pdfStartPage": 179,
+      "pdfEndPage": 182,
+      "answerStartPage": 180,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 180,
+          "sha256": "e152ad551972aede14939a01d7f9c53f3ca0645db1d49e8d19e419650e9a81e0"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 181,
+          "sha256": "e7db33af08f2f4ab6bb948b28ccca68f2dda541799f983a11ad030c533d49074"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 182,
+          "sha256": "0ed46f1a6dcf04ce6109879b52180dca15b9e4623b798a9f679b9b95429ed4b1"
+        }
+      ]
+    },
+    "uyen-7-T10": {
+      "contentHash": "c1faabafba97f50af7259d8c7331f46ec05730acb4b63e5eb8ab2c525c72dad7",
+      "pdfStartPage": 183,
+      "pdfEndPage": 187,
+      "answerStartPage": 184,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 184,
+          "sha256": "5b2e53836a430e3d0ed6a9107f4c4f26691117582069486219beceee2b376452"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 185,
+          "sha256": "e9b1f2d78e612222ff7344bfee3117deeb5ab6e6f308ba90391e4c0851a0f8a6"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 186,
+          "sha256": "33c4f7ef39c52d9d1ba69c523db6f9876d6d3faaa49df5b0c06b6305a0209227"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 187,
+          "sha256": "720a4e2c8bafce79378279463429298f13dc7b159f163adcd1c13e4552ec0ffe"
+        }
+      ]
+    },
+    "uyen-7-T11": {
+      "contentHash": "eca4b2bbe8971bc215da57cec6a4bd46d6f597d3cc456a09060dca5d00a6151b",
+      "pdfStartPage": 188,
+      "pdfEndPage": 192,
+      "answerStartPage": 190,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-4dc7c820fd81.txt",
+      "pages": [
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-4dc7c820fd81-p1.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 190,
+          "sha256": "b31929ec59855e2dd66362b829a151c4fb79d4a02806393b1c9072db2a3c2ef6"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-4dc7c820fd81-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 191,
+          "sha256": "d3b3aea93f92867005c28f74768e146d2f42b90f6cc0599dc4339a992b702d3b"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-4dc7c820fd81-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 192,
+          "sha256": "1803903fd65efde719b37479bb69f815fc19d91967cdb099f1817a1db3bee71e"
+        }
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Đặc tả chung — Nắm ý, ôn tập nhiều môn
 
-Phiên bản 2.6 · 15/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
+Phiên bản 2.7 · 15/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -84,7 +84,10 @@ Các block này chỉ đưa vào khi có tài liệu đối chiếu. Chế độ
 - **giải bài cô Uyên** dùng ZIP Ôn tập: 117 mục, gộp 28 câu lý thuyết Việt–Anh trùng nhau. Theo chương: 2 có 2, 3 có 28, 4 có 20, 5 có 21, 6 có 23, 7 có 19, 8 có 4. Chương 3–7 hiển thị trước; 2 và 8 là lý thuyết bổ sung có thật trong bộ này.
 - Mẫu đề người dùng cung cấp: câu 1 đạo đức, câu 2 lý thuyết, câu 3–4 bài tập chương 3–7. Không coi bốn mức điểm của ngân hàng cũ là bốn vị trí của đề hiện tại. Chưa có bộ câu đạo đức riêng: báo rõ, không tự viết câu giả định.
 - Luồng: chọn khu → chọn phần/chương → danh sách có tìm kiếm keyword và lọc lý thuyết/bài tính → đọc đề → tự làm → mở/ẩn lời giải → tự đánh dấu **Cần ôn** hoặc **Đã nắm**. Bấm lại để bỏ đánh dấu. Không chấm điểm tự động phần tự luận, không khóa chương, không giới hạn lượt.
-- Lý thuyết: dàn ý ngắn, đúng các ý hỏi, highlight keyword. Bài tính: **câu dẫn ngắn → công thức tổng quát → thay số/thực hiện → kết quả**, kèm ma trận/bảng cần thiết. Bảng dài mở thêm theo nhu cầu, không giấu kết quả chính.
+- Lý thuyết: dàn ý ngắn, đúng các ý hỏi, highlight keyword. 67 bài tính được dàn thành PDF trước rồi raster ảnh trang để hiển thị trên web; không dựng lại lời giải bài tính thành các khối HTML/công thức ở trang học. Nội dung vẫn theo **câu dẫn ngắn → công thức tổng quát → thay số/thực hiện → kết quả**.
+- PDF theo cách trình bày đáp án ngân hàng: chữ serif đen trên giấy trắng, bảng histogram ngang, ma trận có ngoặc và chú thích, đặt cạnh nhau khi so sánh. Đánh số bước, không tự gán chữ a/b/c cho bước làm khi một bước trả lời nhiều ý của đề.
+- Có một PDF tổng hợp đủ đề và lời giải 67 bài, dấu trang theo bộ/chương/bài. Trang học giữ đề gốc riêng, chỉ hiển thị ảnh những trang lời giải; liên kết mở PDF tại đúng trang, tải cả bộ, mở ảnh lớn và bản văn bản hỗ trợ đọc/tìm kiếm. Ảnh tải dần, có kích thước và alt; không làm trang tràn ngang.
+- Manifest `documents.json` ghi hash nội dung từng bài, trang PDF tương ứng, kích thước và SHA256 từng ảnh/PDF. Không phát hành khi bài đã sửa mà ảnh chưa tạo lại hoặc thiếu trang. Kiểm tra ảnh bằng render lại đúng trang PDF và so pixel; kiểm tra tính toán riêng với NumPy/SciPy, không coi ảnh đẹp là bằng chứng đáp án đúng.
 - Giữ hình đề gốc và bản chép văn bản cho 67 bài tính. Mỗi mục có nguồn đề, trang PDF và nguồn lý thuyết/đáp án tham khảo.
 - Công bố quy ước: đệm 0, đặt tâm và không lật mặt nạ theo bộ bài; sai số đầu dòng bằng 0; hai công thức cân bằng histogram; hai cách lấy phân vị ở chương 3/5; SE phản xạ khi phân biệt giãn chuẩn và hit B. Sai dữ kiện/đáp án có ghi chú tại đúng bài.
 - Kiểm tra phép tính độc lập bằng NumPy/SciPy và giải mã ngược Huffman/LZW. Kiểm kê đủ 168 mục và kiểm tra công thức KaTeX trước phát hành.

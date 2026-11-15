@@ -1,0 +1,21 @@
+Bài 3.4. Cân bằng ảnh 6 mức xám
+
+1. Cân bằng theo công thức giáo trình/đề bài.
+formula: t(g)=\sum_{i=0}^g h(i),\quad TB=N/L,\quad f(g)=\max\{0,\operatorname{round}(t(g)/TB)-1\}
+substitution: N = 36, L = 6, TB = 6; tại g=0: t(0)=5, mức mới=0.
+result: Histogram mới = [5, 0, 11, 7, 7, 6]; chưa cân bằng lý tưởng vì các cột không bằng nhau.
+
+g	h(g)	t(g)	mức mới
+0	5	5	0
+1	11	16	2
+2	7	23	3
+3	7	30	4
+4	5	35	5
+5	1	36	5
+Ảnh sau cân bằng
+4	2	5	5	3	4
+4	3	3	0	5	2
+2	3	4	2	0	2
+5	2	0	3	5	5
+4	2	0	2	0	2
+3	2	4	3	2	4

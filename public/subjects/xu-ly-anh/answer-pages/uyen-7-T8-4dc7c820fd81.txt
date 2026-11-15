@@ -1,0 +1,20 @@
+Bài 7.T8. Biên theo SE vuông và chữ thập
+
+1. Tách biên lần lượt với từng SE.
+formula: \beta_i=A\setminus(A\ominus B_i)
+substitution: Số điểm biên vuông=14, chữ thập=12.
+result: Khác tại (3,5), (4,3). Kiểm tra lân cận trên ma trận: biên vuông liên thông 4 (nên cũng liên thông 8); biên chữ thập chỉ liên thông 8, không liên thông 4. Không gọi hai khái niệm là loại trừ nhau.
+β₁ — SE vuông
+0	0	0	0	0	0	0
+0	1	1	1	1	0	0
+0	1	0	0	1	1	0
+0	1	1	0	0	1	0
+0	0	1	1	1	1	0
+0	0	0	0	0	0	0
+β₂ — SE chữ thập
+0	0	0	0	0	0	0
+0	1	1	1	1	0	0
+0	1	0	0	0	1	0
+0	1	0	0	0	1	0
+0	0	1	1	1	1	0
+0	0	0	0	0	0	0

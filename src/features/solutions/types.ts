@@ -13,5 +13,12 @@ export type Solutions = {
   sources: { id: string; title: string; path: string; pages: number; sha256: string }[];
   coverage: { bank: number; uyen: number; theory: number; exercises: number; bankPoints: Record<string, number>; englishTheory: string };
   exam: { ethics: string; theory: string; exercises: string; note: string };
+  documents?: SolutionDocuments;
 };
 export type ReadingMark = { revision: number; state: 'known' | 'review' };
+export type SolutionDocuments = {
+  subjectId:string; version:string; dataVersion:string; renderFingerprint:string;
+  book:{src:string;pages:number;sha256:string};
+  items:Record<string,{contentHash:string;pdfStartPage:number;pdfEndPage:number;answerStartPage:number;textSrc:string;
+    pages:{src:string;width:number;height:number;pdfPage:number;sha256:string}[]}>;
+};

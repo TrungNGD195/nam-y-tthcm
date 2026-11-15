@@ -1,0 +1,51 @@
+Bài 3.T11. Đẳng điệu và đối xứng nền 92%
+Chương 3 quy định phân vị cuối không vượt p%; khác quy ước đầu tiên đạt p% của chương 5. Kết quả được tính theo từng đề, không trộn quy ước.
+1. Lặp ngưỡng đẳng liệu/đẳng điệu theo trung bình hai lớp.
+formula: \mu_1(t)=\frac{\sum_{g\le t}gh(g)}{\sum_{g\le t}h(g)},\quad \mu_2(t)=\frac{\sum_{g>t}gh(g)}{\sum_{g>t}h(g)},\quad t_{n+1}=\frac{\mu_1+\mu_2}{2}
+substitution: t₀ = 5; t₁ trước làm tròn = (1.60131 + 7.10569)/2 = 4.3535.
+result: Ngưỡng cuối = 4; phân nhóm g ≤ t và g > t. Làm tròn nửa lên ở mỗi vòng theo bộ cô Uyên.
+
+t hiện tại	μ₁	μ₂	t kế tiếp
+5	1.60131	7.10569	4
+4	1.36364	6.94737	4
+2. Tìm đỉnh nền, mức phân vị rồi lấy đối xứng.
+formula: T=2\mathrm{maxp}-a,\quad P(a)=\frac{\sum_{g=0}^a h(g)}{N}
+substitution: N=465; 92%N=427.8; maxp=5; a=6; T=2·5−6=4.
+result: Theo quy ước riêng của đề này, lấy a lớn nhất có tích lũy ≤ p%N. Histogram này không có nền sáng trội rõ; kết quả chỉ là áp dụng cơ học, cần xem lại giả thiết.
+
+g	h(g)	tích lũy
+0	8	8
+1	12	20
+2	20	40
+3	35	75
+4	80	155
+5	160	315
+6	90	405
+7	40	445
+8	15	460
+9	5	465
+3. Tìm đỉnh nền, mức phân vị rồi lấy đối xứng.
+formula: T=2\mathrm{maxp}-a,\quad P(a)=\frac{\sum_{g=0}^a h(g)}{N}
+substitution: N=276; 92%N=253.92; maxp=1; a=7; T=2·1−7=-5.
+result: Theo quy ước riêng của đề này, lấy a lớn nhất có tích lũy ≤ p%N. Histogram này không có nền sáng trội rõ; kết quả chỉ là áp dụng cơ học, cần xem lại giả thiết.
+
+g	h(g)	tích lũy
+0	30	30
+1	55	85
+2	40	125
+3	12	137
+4	6	143
+5	10	153
+6	35	188
+7	50	238
+8	28	266
+9	10	276
+4. Lặp ngưỡng đẳng liệu/đẳng điệu theo trung bình hai lớp.
+formula: \mu_1(t)=\frac{\sum_{g\le t}gh(g)}{\sum_{g\le t}h(g)},\quad \mu_2(t)=\frac{\sum_{g>t}gh(g)}{\sum_{g>t}h(g)},\quad t_{n+1}=\frac{\mu_1+\mu_2}{2}
+substitution: t₀ = 5; t₁ trước làm tròn = (4.05397 + 6.56667)/2 = 5.31032.
+result: Ngưỡng cuối = 5; phân nhóm g ≤ t và g > t. Làm tròn nửa lên ở mỗi vòng theo bộ cô Uyên.
+
+t hiện tại	μ₁	μ₂	t kế tiếp
+5	4.05397	6.56667	5
+5. So sánh việc chọn phương pháp.
+text: A có hai cụm mức xám tách nhau, thích hợp đẳng điệu; B có nền trội gần đỉnh 5 nên có thể thử đối xứng nền. Khi hoán đổi, thuật toán vẫn ra số nhưng không bảo đảm ngưỡng phân vùng đúng: A thiếu nền trội, B không có hai lớp cân đối rõ.

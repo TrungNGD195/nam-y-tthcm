@@ -5,6 +5,7 @@ export type Subject = {
   id: string; name: string; shortName: string; description: string; icon: string;
   accent: string; accentLight: string; status: 'ready' | 'awaiting-materials';
   learningMode?: 'quiz' | 'solutions';
+  solutionPresentation?: 'documents';
   questionCount?: number; chapterCount?: number; examSize?: number; sampleTitle?: string; comprehensiveExamSize?: number;
   sourceDescription?: string; collections: Collection[];
 };

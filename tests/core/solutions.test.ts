@@ -6,6 +6,7 @@ import type { Solutions } from '../../src/features/solutions/types.ts';
 import { validateSolutions } from '../../scripts/content/xu-ly-anh/validate.mjs';
 
 const data=JSON.parse(readFileSync(new URL('../../src/subjects/xu-ly-anh/solutions.json',import.meta.url),'utf8')) as Solutions;
+data.documents=JSON.parse(readFileSync(new URL('../../src/subjects/xu-ly-anh/documents.json',import.meta.url),'utf8'));
 const catalog=JSON.parse(readFileSync(new URL('../../src/subjects/catalog.json',import.meta.url),'utf8'));
 test('every source item has a solution; original bilingual theory is counted once',()=>{
   const raw=JSON.parse(readFileSync(new URL('../../content/xu-ly-anh/source-prompts.json',import.meta.url),'utf8'));
@@ -40,4 +41,20 @@ test('validation rejects missing formulas, foreign assets and nonexistent source
   assert.throws(()=>validateSolutions(badAsset,subject));
   const badRef=clone();badRef.items[0].references[0].pdfPage=9999;
   assert.throws(()=>validateSolutions(badRef,subject));
+});
+
+test('document presentation refuses stale answers, missing pages and reused images',()=>{
+  const subject=catalog.find((s:{id:string})=>s.id==='xu-ly-anh');
+  const exercise=data.items.find(i=>i.kind==='exercise')!;
+  const stale=structuredClone(data);stale.items.find(i=>i.id===exercise.id)!.steps[0].substitution+=' 123';
+  assert.throws(()=>validateSolutions(stale,subject),/PDF solution is stale/);
+  const missing=structuredClone(data);missing.documents!.items[exercise.id].pages.pop();
+  assert.throws(()=>validateSolutions(missing,subject),/Missing screenshot page/);
+  const absent=structuredClone(data);delete absent.documents!.items[exercise.id];
+  assert.throws(()=>validateSolutions(absent,subject),/Every exercise/);
+  const reused=structuredClone(data),other=data.items.filter(i=>i.kind==='exercise')[1];
+  reused.documents!.items[other.id].pages[0].src=reused.documents!.items[exercise.id].pages[0].src;
+  assert.throws(()=>validateSolutions(reused,subject),/Reused exercise screenshot/);
+  const wrongPage=structuredClone(data);wrongPage.documents!.items[exercise.id].pages[0].pdfPage++;
+  assert.throws(()=>validateSolutions(wrongPage,subject),/pages out of order/);
 });

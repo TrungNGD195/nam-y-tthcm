@@ -1,0 +1,37 @@
+Bài 7.T3. So sánh SE chữ thập và vuông
+
+1. Đặt gốc SE lên từng điểm, kiểm tra các vị trí SE bằng 1.
+formula: E(p)=\bigwedge_{b\in B}X(p+b),\quad D_{hit}(p)=\bigvee_{b\in B}X(p+b)
+substitution: Ví dụ tại (1,1): co=0, giãn hit=0; xét đủ 5 vị trí hoạt động, ngoài ảnh bằng 0.
+result: Số điểm 1: X=27, co=12, giãn=49. Co giữ vị trí fit; giãn giữ vị trí hit; gốc SE ở giữa, ngoài ảnh là 0.
+X₁ — phép co
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	1	1	1	0	0	0
+0	0	1	1	1	1	0	0
+0	0	0	1	1	1	0	0
+0	0	0	0	1	1	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+X₂ — giãn theo hit B của slide
+0	1	1	1	1	0	0	0
+1	1	1	1	1	1	0	0
+1	1	1	1	1	1	1	0
+1	1	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	0
+0	1	0	0	1	1	0	0
+2. Co bằng SE vuông có nhiều điều kiện hơn.
+formula: B_1\subseteq B_2\Rightarrow A\ominus B_2\subseteq A\ominus B_1
+substitution: Co chữ thập có 12 điểm 1, co vuông có 6.
+result: Nếu toàn bộ B₂ fit thì tập con B₁ cũng fit; chiều ngược không bảo đảm.
+X ⊖ B₂ (vuông)
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	0
+0	0	0	1	1	0	0	0
+0	0	0	0	1	1	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0

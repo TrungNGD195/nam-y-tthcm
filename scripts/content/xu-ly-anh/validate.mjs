@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
 import katex from 'katex';
+import {createHash} from 'node:crypto';
+import {canonical} from './document-layout.mjs';
 
 export function validateSolutions(data, subject, assetExists=()=>true) {
   assert.equal(data.subjectId,subject.id);
@@ -38,4 +40,31 @@ export function validateSolutions(data, subject, assetExists=()=>true) {
   assert.equal(data.coverage.exercises,data.items.filter(i=>i.kind==='exercise').length);
   assert.equal(data.coverage.theory,data.items.filter(i=>i.kind==='theory').length);
   for(const p of [1,2,3,4])assert.equal(data.coverage.bankPoints[p],data.items.filter(i=>i.area==='bank'&&i.points===p).length);
+  if(subject.solutionPresentation==='documents')validateDocuments(data,assetExists);
+}
+
+export function validateDocuments(data,assetExists=()=>true){
+  const docs=data.documents;
+  assert(docs&&docs.subjectId===data.subjectId&&docs.dataVersion===data.version,'Missing or stale exercise documents');
+  const asset=(src,extension)=>assert(typeof src==='string'&&new RegExp(`^subjects/${data.subjectId}/answer-pages/[a-zA-Z0-9.-]+\\.${extension}$`).test(src)&&assetExists(src),`Missing or unsafe document asset: ${src}`);
+  asset(docs.book.src,'pdf');assert(Number.isInteger(docs.book.pages)&&docs.book.pages>0);
+  assert(/^[a-f0-9]{64}$/.test(docs.book.sha256));
+  const exercises=data.items.filter(i=>i.kind==='exercise');
+  assert.deepEqual(Object.keys(docs.items).sort(),exercises.map(i=>i.id).sort(),'Every exercise needs a rendered PDF solution');
+  const seenPages=new Set(),seenImages=new Set();
+  for(const item of exercises){
+    const doc=docs.items[item.id];
+    assert.equal(doc.contentHash,createHash('sha256').update(JSON.stringify(canonical(item))).digest('hex'),`${item.id}: PDF solution is stale; rerender after changing content`);
+    assert([doc.pdfStartPage,doc.pdfEndPage,doc.answerStartPage].every(n=>Number.isInteger(n)&&n>0&&n<=docs.book.pages));
+    assert(doc.pdfStartPage<doc.answerStartPage&&doc.answerStartPage<=doc.pdfEndPage);
+    assert.equal(doc.pages.length,doc.pdfEndPage-doc.answerStartPage+1,'Missing screenshot page');
+    asset(doc.textSrc,'txt');
+    for(const [index,page] of doc.pages.entries()){
+      asset(page.src,'png');assert(!seenImages.has(page.src),'Reused exercise screenshot');seenImages.add(page.src);
+      assert.equal(page.pdfPage,doc.answerStartPage+index,'PDF screenshot pages out of order');
+      assert(!seenPages.has(page.pdfPage),'PDF screenshot belongs to two exercises');seenPages.add(page.pdfPage);
+      assert(Number.isInteger(page.width)&&page.width>=1200&&Number.isInteger(page.height)&&page.height>page.width);
+      assert(/^[a-f0-9]{64}$/.test(page.sha256));
+    }
+  }
 }

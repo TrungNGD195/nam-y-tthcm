@@ -33,8 +33,11 @@ def histstep(h):
 def transformed(h, func, tex):
     c=Counter()
     for g,n in enumerate(h): c[func(g)] += n
+    sample=func(0)
+    origins=[g for g in range(len(h)) if func(g)==sample]
+    substitution=f"h′({sample}) = "+' + '.join(f'h({g})' for g in origins)+' = '+' + '.join(str(h[g]) for g in origins)+f' = {c[sample]}.'
     return step('Gộp các mức xám có cùng giá trị sau biến đổi.',r"h'(s)=\sum_{g:f(g)=s}h(g),\quad f(g)="+tex,
-                f'Ví dụ s = {func(0)} nhận h(0) = {h[0]} và mọi h(g) khác có cùng f(g).',
+                substitution,
                 f'Tổng h′ = {sum(c.values())} = N; không mất pixel.',blocks=[table(['s','h′(s)'],sorted(c.items()))])
 
 def smooth(h,w):

@@ -1,0 +1,22 @@
+Bài 7.T4. Mở ảnh: bỏ cầu hẹp và nhiễu
+
+1. Co bằng SE vuông rồi giãn kết quả co.
+formula: A\circ B=(A\ominus B)\oplus B
+substitution: Số điểm 1: A=27, co=3, mở=21.
+result: Điểm nhiễu đơn lẻ và dải nối một pixel bị loại vì không chứa được SE 3×3; một số mép nhô nhỏ cũng mất.
+A ⊖ B
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	1	0	0	0	0	0	1	0	0
+0	0	0	0	0	0	0	0	1	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+A ∘ B
+0	0	0	0	0	0	0	0	0	0	0
+0	1	1	1	0	0	0	1	1	1	0
+0	1	1	1	0	0	0	1	1	1	0
+0	1	1	1	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0

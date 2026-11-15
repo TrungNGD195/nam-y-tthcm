@@ -1,0 +1,17 @@
+Bài 6.T3. Giải mã Huffman và ảnh hưởng lỗi bit
+
+1. Đọc bit đến khi khớp trọn một từ mã.
+formula: \text{Tu ma hop le}\Rightarrow\text{xuat ky hieu va quay ve goc cay}
+substitution: Chuỗi gốc: 0100110001011111101001110; các ký hiệu: A, B, A, C, A, A, B, E, C, B, A, D; phần bit dư: không.
+result: Bảng mã là tiền tố vì mỗi từ kết thúc ở một lá riêng, không từ nào mở đầu từ khác.
+Ảnh I khôi phục
+1	1	0	0	1	1	1	0	1	1	1	1
+1	1	0	0	1	1	1	0	1	1	1	1
+0	0	1	1	1	0	0	0	1	1	0	1
+0	0	0	0	1	0	0	0	1	1	1	0
+2. Tính tỷ lệ nén từ kích thước ảnh đã giải.
+formula: n_1=4\cdot12,\quad n_2=\text{so bit nhan},\quad C_R=n_1/n_2
+substitution: n₁=48, n₂=25, CR=48/25=1.92.
+result: Không tính bảng mã.
+3. Đảo bit thứ 5 rồi giải lại theo cùng cây.
+text: Chuỗi lỗi: 0100010001011111101001110; giải được: A, B, A, A, B, A, A, B, E, C, B, A, D. Phần dư: không. Số khối từ 12 thành 13: một bit sai có thể đổi ranh giới nhiều từ mã và mất đồng bộ. Không tự thêm/bớt bit để ép đủ kích thước.

@@ -1,0 +1,42 @@
+Bài 3.T3. So sánh hai công thức cân bằng
+
+1. Cân bằng theo công thức giáo trình/đề bài.
+formula: t(g)=\sum_{i=0}^g h(i),\quad TB=N/L,\quad f(g)=\max\{0,\operatorname{round}(t(g)/TB)-1\}
+substitution: N = 36, L = 6, TB = 6; tại g=0: t(0)=1, mức mới=0.
+result: Histogram mới = [6, 0, 0, 16, 9, 5]; chưa cân bằng lý tưởng vì các cột không bằng nhau.
+
+g	h(g)	t(g)	mức mới
+0	1	1	0
+1	5	6	0
+2	16	22	3
+3	7	29	4
+4	2	31	4
+5	5	36	5
+Ảnh sau cân bằng
+3	5	0	5	3	3
+4	3	3	0	4	3
+3	4	3	3	0	3
+0	3	4	3	3	5
+5	4	3	3	0	5
+3	0	4	4	4	4
+2. Cân bằng theo công thức slide.
+formula: t(g)=\sum_{i=0}^g h(i),\quad s(g)=\operatorname{round}((L-1)t(g)/N)
+substitution: N = 36, L = 6, TB = 6; tại g=0: t(0)=1, mức mới=0.
+result: Histogram mới = [1, 5, 0, 16, 9, 5]; chưa cân bằng lý tưởng vì các cột không bằng nhau.
+
+g	h(g)	t(g)	mức mới
+0	1	1	0
+1	5	6	1
+2	16	22	3
+3	7	29	4
+4	2	31	4
+5	5	36	5
+Ảnh sau cân bằng
+3	5	1	5	3	3
+4	3	3	0	4	3
+3	4	3	3	1	3
+1	3	4	3	3	5
+5	4	3	3	1	5
+3	1	4	4	4	4
+3. Giải thích sự khác nhau.
+text: Hai công thức rời rạc hóa khác nhau nên có thể cho ánh xạ khác. Cả hai gộp nguyên nhóm pixel cùng mức xám, vì vậy không bảo đảm histogram lý tưởng.

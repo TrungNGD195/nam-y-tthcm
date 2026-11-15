@@ -1,0 +1,37 @@
+Bài 3.11. Co, giãn với SE bất đối xứng
+Dùng quy ước fit/hit của slide cho kết quả chính; bổ sung riêng kết quả giãn tập hợp chuẩn vì SE không đối xứng, không tráo hai kết quả.
+1. Đặt gốc SE lên từng điểm, kiểm tra các vị trí SE bằng 1.
+formula: E(p)=\bigwedge_{b\in B}X(p+b),\quad D_{hit}(p)=\bigvee_{b\in B}X(p+b),\quad D_{std}(p)=\bigvee_{b\in B}X(p-b)
+substitution: Ví dụ tại (1,1): co=0, giãn hit=1; xét đủ 4 vị trí hoạt động, ngoài ảnh bằng 0.
+result: Số điểm 1: X=40, co=7, giãn=62. Co giữ vị trí fit; giãn giữ vị trí hit; gốc SE ở giữa, ngoài ảnh là 0. B không đối xứng; giãn chuẩn khác hit B tại (1,4), (1,8), (5,8), (8,3). Phép co vẫn dùng fit B, không đổi.
+X₁ — phép co
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	1	0	0	0	0	1	0
+0	0	0	1	0	1	1	0
+0	0	0	0	1	0	0	0
+0	0	0	0	0	1	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+X₂ — giãn theo hit B của slide
+1	1	1	0	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	0	1	1	1	1	1
+B̂ — phản xạ SE qua gốc
+0	0	1
+1	1	0
+0	0	1
+Giãn chuẩn theo B̂ khi dò hit
+1	1	1	1	1	1	1	0
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	0
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1

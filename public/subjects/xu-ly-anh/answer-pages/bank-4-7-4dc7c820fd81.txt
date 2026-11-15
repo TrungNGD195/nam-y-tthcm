@@ -1,0 +1,31 @@
+Bài 4.7. Đẳng liệu và đối xứng nền
+Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
+1. Lặp ngưỡng đẳng liệu/đẳng điệu theo trung bình hai lớp.
+formula: \mu_1(t)=\frac{\sum_{g\le t}gh(g)}{\sum_{g\le t}h(g)},\quad \mu_2(t)=\frac{\sum_{g>t}gh(g)}{\sum_{g>t}h(g)},\quad t_{n+1}=\frac{\mu_1+\mu_2}{2}
+substitution: t₀ = 5; t₁ trước làm tròn = (2.40541 + 7.03478)/2 = 4.72009.
+result: Ngưỡng cuối = 4.1641; phân nhóm g ≤ t và g > t. Giữ số thực trong khi lặp theo giáo trình; ngưỡng thực xác định cùng phân hoạch như phần nguyên của nó, không làm tròn mỗi vòng.
+
+t hiện tại	μ₁	μ₂	t kế tiếp
+5	2.40541	7.03478	4.72009
+4.72009	1.77852	6.54967	4.1641
+4.1641	1.77852	6.54967	4.1641
+2. Tìm đỉnh nền, mức phân vị rồi lấy đối xứng.
+formula: T=2\mathrm{maxp}-a,\quad P(a)=\frac{\sum_{g=0}^a h(g)}{N}
+substitution: N=100; 88%N=88; maxp=7; a=7; T=2·7−7=7.
+result: Theo quy ước riêng của đề này, lấy a lớn nhất có tích lũy ≤ p%N. Đỉnh nền rõ, chọn cách này hợp lý hơn khi nền trội gần đối xứng.
+
+g	h(g)	tích lũy
+0	2	2
+1	3	5
+2	4	9
+3	5	14
+4	7	21
+5	8	29
+6	12	41
+7	47	88
+8	10	98
+9	2	100
+3. Đánh giá giả thiết trước khi đổi phương pháp.
+text: Đẳng liệu phù hợp khi hai lớp có trung bình khác nhau; đối xứng nền phù hợp nền trội gần đối xứng, không mặc nhiên đúng chỉ vì có một đỉnh lớn. Với mỗi biểu đồ cần nhìn hình dạng: nếu nền không trội hoặc nhiều đỉnh, ưu tiên thử Otsu/đẳng liệu và kiểm tra ảnh nhị phân; không thể chứng minh ngưỡng đúng về ngữ nghĩa chỉ từ histogram.
+4. Chốt cách chọn cho đúng cặp histogram này.
+text: Giữ đẳng liệu cho ảnh A vì có hai cụm mức xám; giữ đối xứng nền cho ảnh B vì có đỉnh nền trội ở phía sáng. Không cần hoán đổi chỉ vì hai phương pháp cho ngưỡng khác nhau.

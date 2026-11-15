@@ -1,0 +1,49 @@
+Bài 6.T5. LZW ảnh xám, từ mã 9 bit
+
+1. Đổi khối ảnh thành ký hiệu rồi xây từ điển thích nghi.
+formula: \text{Neu }wc\notin D:\ \text{xuat }D[w],\ D[wc]=\text{ma moi},\ w=c
+substitution: Từ điển ban đầu: 0…255; mã mới bắt đầu 256. Chuỗi ký hiệu: 25, 25, 25, 25, 80, 80, 25, 25, 80, 80, 25, 25, 25, 25, 80, 80.
+result: Dãy mã xuất: 25, 256, 25, 80, 80, 256, 259, 257, 258, 80.
+
+w đang xét	ký hiệu c đọc	mã xuất	mục mới
+(25,)	25	25	256: (25, 25)
+(25,)	25	—	—
+(25, 25)	25	256	257: (25, 25, 25)
+(25,)	80	25	258: (25, 80)
+(80,)	80	80	259: (80, 80)
+(80,)	25	80	260: (80, 25)
+(25,)	25	—	—
+(25, 25)	80	256	261: (25, 25, 80)
+(80,)	80	—	—
+(80, 80)	25	259	262: (80, 80, 25)
+(25,)	25	—	—
+(25, 25)	25	—	—
+(25, 25, 25)	25	257	263: (25, 25, 25, 25)
+(25,)	80	—	—
+(25, 80)	80	258	264: (25, 80, 80)
+(80,)	Kết thúc	80	—
+2. Giải mã và tái tạo cùng từ điển ở phía nhận.
+formula: D[\mathrm{next}]=w+\operatorname{first}(\mathrm{entry})
+substitution: Mã đầu 25 giải thành 25; mỗi mã sau bổ sung chuỗi trước + ký hiệu đầu chuỗi hiện tại.
+result: Chuỗi sau giải mã trùng chuỗi ký hiệu ban đầu, ghép lại thu được đúng ảnh đề bài. Trường hợp mã bằng vị trí từ điển kế tiếp chưa có: entry = w + first(w).
+
+mã đọc	chuỗi giải	mục mới
+25	(25,)	—
+256	(25, 25)	256: (25, 25) (mã chưa có: w + ký hiệu đầu của w)
+25	(25,)	257: (25, 25, 25)
+80	(80,)	258: (25, 80)
+80	(80,)	259: (80, 80)
+256	(25, 25)	260: (80, 25)
+259	(80, 80)	261: (25, 25, 80)
+257	(25, 25, 25)	262: (80, 80, 25)
+258	(25, 80)	263: (25, 25, 25, 25)
+80	(80,)	264: (25, 80, 80)
+Ảnh khôi phục
+25	25	25	25
+80	80	25	25
+80	80	25	25
+25	25	80	80
+3. Tính số bit theo độ dài từ mã mà đề cho.
+formula: n_1=MN\,b_{pixel},\quad n_2=N_{ma}\,b_{ma},\quad C_R=n_1/n_2
+substitution: n₁=128; n₂=10·9=90.
+result: CR=1.42222. LZW có lợi khi chuỗi đủ dài và nhiều lặp; từ điển đầy cần ngừng thêm hoặc reset đồng bộ.

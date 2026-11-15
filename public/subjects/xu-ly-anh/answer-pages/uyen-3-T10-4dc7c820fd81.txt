@@ -1,0 +1,22 @@
+Bài 3.T10. Tìm ngưỡng tự động và tách ảnh
+Công thức f(g) trong PDF bị dàn trang dễ đọc nhầm. Dùng công thức giáo trình trang PDF 32: t/(N−t) nhân bình phương chênh trung bình, không chia cho bình phương đó.
+1. Lập histogram và tìm cực đại tiêu chuẩn tách hai lớp.
+formula: t(g)=\sum_{i=0}^{g}h(i),\quad m(g)=\frac{\sum_{i=0}^{g}ih(i)}{t(g)},\quad f(g)=\frac{t(g)}{N-t(g)}[m(g)-\mu]^2
+substitution: N = 30; μ = 3.1; tại g=3: f = 4.68167.
+result: Các ngưỡng cực đại: [3]; lấy trung bình khi có nhiều nghiệm ⇒ θ = 3. Chỉ xét ngưỡng có hai lớp không rỗng. Có thể có nhiều cực đại bằng nhau; không chọn ngẫu nhiên mà nêu quy ước.
+m(g) là trung bình lớp ≤g; f(g) tương đương phương sai giữa hai lớp
+g	h(g)	t(g)	m(g)	f(g)
+0	3	3	0	1.06778
+1	8	11	0.72727	3.25938
+2	5	16	1.125	4.45786
+3	2	18	1.33333	4.68167
+4	3	21	1.71429	4.48048
+5	1	22	1.86364	4.20364
+6	4	26	2.5	2.34
+7	4	30	3.1	Không xét: lớp >g rỗng
+Ảnh nhị phân (≤ θ là 0)
+1	1	0	0	0	1
+1	0	0	0	1	0
+0	0	0	1	0	0
+0	0	0	1	0	1
+0	1	0	1	1	1

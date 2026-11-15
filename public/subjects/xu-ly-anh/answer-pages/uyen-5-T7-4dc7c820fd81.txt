@@ -1,0 +1,16 @@
+Bài 5.T7. Ngưỡng tam giác từ đỉnh g=2
+
+1. Nối đỉnh với điểm cuối đuôi dài, tìm khoảng cách lớn nhất.
+formula: d(g)=\frac{|Ax_g+By_g+C|}{\sqrt{A^2+B^2}}
+substitution: Đỉnh (2,52), cuối (9,1); đường Δ: 51g + 7h + (-466) = 0.
+result: Khoảng cách lớn nhất tại g=4 ⇒ T=4. Không dùng tốt khi histogram nhiều đỉnh mạnh hoặc không có đuôi rõ.
+
+g	h(g)	d(g)
+2	52	0
+3	24	2.81673
+4	9	3.86572
+5	5	3.41893
+6	3	2.70017
+7	2	1.84544
+8	1	0.99071
+9	1	0

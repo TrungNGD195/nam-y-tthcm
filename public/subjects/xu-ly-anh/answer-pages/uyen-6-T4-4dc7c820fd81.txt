@@ -1,0 +1,50 @@
+Bài 6.T4. LZW khối 1×2, từ mã 4 bit
+
+1. Đổi khối ảnh thành ký hiệu rồi xây từ điển thích nghi.
+formula: \text{Neu }wc\notin D:\ \text{xuat }D[w],\ D[wc]=\text{ma moi},\ w=c
+substitution: Từ điển ban đầu: 0…3; mã mới bắt đầu 4. Chuỗi ký hiệu: 0, 2, 2, 2, 3, 3, 1, 2, 3, 1, 2, 3, 2, 2, 3, 1.
+result: Dãy mã xuất: 0, 2, 5, 3, 3, 1, 2, 8, 10, 6, 1.
+
+w đang xét	ký hiệu c đọc	mã xuất	mục mới
+(0,)	2	0	4: (0, 2)
+(2,)	2	2	5: (2, 2)
+(2,)	2	—	—
+(2, 2)	3	5	6: (2, 2, 3)
+(3,)	3	3	7: (3, 3)
+(3,)	1	3	8: (3, 1)
+(1,)	2	1	9: (1, 2)
+(2,)	3	2	10: (2, 3)
+(3,)	1	—	—
+(3, 1)	2	8	11: (3, 1, 2)
+(2,)	3	—	—
+(2, 3)	2	10	12: (2, 3, 2)
+(2,)	2	—	—
+(2, 2)	3	—	—
+(2, 2, 3)	1	6	13: (2, 2, 3, 1)
+(1,)	Kết thúc	1	—
+2. Giải mã và tái tạo cùng từ điển ở phía nhận.
+formula: D[\mathrm{next}]=w+\operatorname{first}(\mathrm{entry})
+substitution: Mã đầu 0 giải thành 0; mỗi mã sau bổ sung chuỗi trước + ký hiệu đầu chuỗi hiện tại.
+result: Chuỗi sau giải mã trùng chuỗi ký hiệu ban đầu, ghép lại thu được đúng ảnh đề bài. Trường hợp mã bằng vị trí từ điển kế tiếp chưa có: entry = w + first(w).
+
+mã đọc	chuỗi giải	mục mới
+0	(0,)	—
+2	(2,)	4: (0, 2)
+5	(2, 2)	5: (2, 2) (mã chưa có: w + ký hiệu đầu của w)
+3	(3,)	6: (2, 2, 3)
+3	(3,)	7: (3, 3)
+1	(1,)	8: (3, 1)
+2	(2,)	9: (1, 2)
+8	(3, 1)	10: (2, 3)
+10	(2, 3)	11: (3, 1, 2)
+6	(2, 2, 3)	12: (2, 3, 2)
+1	(1,)	13: (2, 2, 3, 1)
+Ảnh khôi phục
+0	0	1	0	1	0	1	0
+1	1	1	1	0	1	1	0
+1	1	0	1	1	0	1	1
+1	0	1	0	1	1	0	1
+3. Tính số bit theo độ dài từ mã mà đề cho.
+formula: n_1=MN\,b_{pixel},\quad n_2=N_{ma}\,b_{ma},\quad C_R=n_1/n_2
+substitution: n₁=32; n₂=11·4=44.
+result: CR=0.72727. Dữ liệu nhỏ này nở sau mã hóa; LZW có lợi khi chuỗi đủ dài và nhiều lặp; từ điển đầy cần ngừng thêm hoặc reset đồng bộ.
