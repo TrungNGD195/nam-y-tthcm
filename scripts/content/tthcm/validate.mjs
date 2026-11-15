@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 
 const bank = JSON.parse(readFileSync(new URL('../../../src/subjects/tthcm/bank.json', import.meta.url), 'utf8'));
 const raw = JSON.parse(readFileSync(new URL('../../../content/tthcm/raw-questions.json', import.meta.url), 'utf8'));
@@ -63,4 +64,21 @@ for (let chapter = 1; chapter <= 6; chapter++) {
   assert(bank.questions.some(q => q.chapter === chapter && !q.tags.length));
   assert(bank.concepts.filter(c => c.chapter === chapter && c.core).length >= 5);
 }
+const lessonReport=JSON.parse(readFileSync(new URL('../../../content/tthcm/lesson-coverage.json',import.meta.url),'utf8'));
+const sortKeys=v=>Array.isArray(v)?v.map(sortKeys):v!==null&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sortKeys(v[k])])):v;
+const digest=v=>createHash('sha256').update(JSON.stringify(sortKeys(v))).digest('hex');
+assert.equal(lessonReport.version,bank.lessons.version,'Stale lesson version');
+assert.equal(lessonReport.questionBankVersion,bank.version,'Stale lesson bank version');
+assert.equal(lessonReport.questionsHash,digest(bank.questions),'Questions changed: review and regenerate chapter lessons');
+const lessonRows=new Map(lessonReport.questions.map(r=>[r.questionId,r]));
+assert.equal(lessonRows.size,bank.questions.length,'Lesson audit must account for every question once');
+assert.equal(lessonReport.questions.length,lessonRows.size,'Duplicate lesson audit rows');
+for(const q of bank.questions){
+  const row=lessonRows.get(q.id);
+  assert(row&&row.chapter===q.chapter&&row.conceptId===q.conceptId&&row.questionHash===digest(q),`Stale lesson audit: ${q.id}`);
+  const section=bank.lessons.chapters.find(c=>c.chapter===q.chapter)?.sections.find(s=>s.id===row.sectionId);
+  assert(section?.conceptIds.includes(q.conceptId),`Wrong chapter lesson: ${q.id}`);
+  assert.equal(row.answerText,q.options.find(o=>o.id===q.correctOptionId).text,'Lesson audit answer mismatch');
+}
+console.log(`Chapter lessons OK: ${bank.lessons.chapters.flatMap(c=>c.sections).length} sections; ${lessonRows.size}/${bank.questions.length} questions linked.`);
 console.log(`Content OK: ${bank.questions.length} canonical questions; ${bank.audit.length} source items accounted for; 20-question sample; ${bank.audit.filter(a => ['pending','disputed'].includes(a.status)).length} held for review.`);

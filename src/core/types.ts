@@ -19,7 +19,13 @@ export type Source = { id: string; title: string; shortTitle: string; kind: 'ban
 export type Concept = {
   id: string; chapter: ChapterNumber; title: string; summary: string;
   keywords: string[]; confusionNote: string; references: Reference[]; core: boolean;
+  learningPoints?: {title: string; text: string; keywords: string[]}[];
 };
+export type LessonSection = {
+  id: string; title: string; summary: string; conceptIds: string[];
+  kind: 'knowledge' | 'milestones'; references: Reference[];
+};
+export type ChapterLesson = {chapter: ChapterNumber; sections: LessonSection[]};
 export type Question = {
   id: string; revision: number; chapter: ChapterNumber; topic: string; conceptId: string;
   tags: NumberTag[]; prompt: string; blocks?: ContentBlock[]; explanationBlocks?: ContentBlock[]; options: { id: string; text: string; blocks?: ContentBlock[] }[];
@@ -36,6 +42,7 @@ export type Bank = {
   sources: Source[]; sampleQuestionIds: string[]; audit: AuditEntry[];
   supplements: { sourceId: string; status: string }[];
   questionAliases?: {fromId:string;toId:string;revision:number}[];
+  lessons?: {version: string; chapters: ChapterLesson[]};
 };
 export type Outcome = 'correct' | 'incorrect' | 'assisted' | 'skipped';
 export type RecordEntry = {

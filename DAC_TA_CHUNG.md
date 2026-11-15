@@ -1,6 +1,6 @@
 # Đặc tả chung — Nắm ý, ôn tập nhiều môn
 
-Phiên bản 2.5 · 14/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
+Phiên bản 2.6 · 15/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -55,6 +55,15 @@ Ngân hàng của mỗi môn chứa `subjectId`, phiên bản, chương, concept
 - Lưu nguyên câu/lựa chọn gốc tách khỏi bản sửa, có băm khóa thứ tự đã duyệt. Câu có hai đáp án đúng phải sửa có ghi chú hoặc giữ ngoài bài chấm. File Word lưu đủ 522 câu gốc, đáp án đối chiếu và các trường hợp cần sửa/chờ xác minh.
 - Các câu cũ sửa ý nghĩa phải tăng revision, để kết quả ghi nhớ cũ không chứng nhận nội dung đã đổi. Nguồn trực tuyến hiển thị liên kết, số câu/mục đúng loại, không giả làm trang PDF.
 - Đã rà thêm câu trùng ý: gộp 117 bản trong 96 nhóm, từ 623 xuống 506 câu. Chỉ gộp các cặp đã đọc đề/lựa chọn/đáp án, có quyết định và hash tại `content/tthcm/duplicate-decisions.json`; giữ toàn bộ nguồn, không gộp chỉ vì cùng concept/đáp án. Giữ riêng câu khác giai đoạn, chủ thể, phủ định hoặc đoạn trích.
+
+### Ý cốt lõi TTHCM được đối chiếu từ toàn bộ ngân hàng
+
+- Xét đủ 506 câu chuẩn và các lựa chọn/đáp án; gom theo ý kiến thức, đối chiếu giáo trình 2019, bài giảng PTIT và nguồn bổ sung đã xác minh. Không chỉ lấy những concept từng được gắn `core`.
+- Bài học có 45 mục trong 6 chương, bao phủ 213 concept khác nhau. Một concept được nhắc tại hai chương khi ngân hàng có câu liên hệ; giữ nguyên chương và ID của từng câu, không chuyển câu để làm đẹp mục lục.
+- Mỗi mục có tổng quan; mỗi ý có diễn giải, keyword, điểm dễ nhầm, căn cứ và danh sách câu liên quan. Nội dung nhiều thành phần như đặc trưng CNXH, ba kiểu nhà nước và chuẩn mực đạo đức được giải thích từng ý, không chỉ liệt kê tên.
+- Có mục lục bấm mở đúng mục, mở tất cả/thu gọn, luyện từng ý/từng mục/từng câu. Nút luyện mục lấy đúng các câu trong chương, gồm cả câu số liệu. Thiết lập luyện toàn chương vẫn cho chọn kèm chuyên đề riêng.
+- Bảng `content/tthcm/lesson-coverage.json` lưu mỗi câu, chương, concept, mục học, nội dung đáp án và hash. Validator từ chối câu thiếu bài học tương ứng, gán trùng trong một chương hoặc nguồn không hợp lệ.
+- Nội dung bài học có phiên bản riêng; không đổi phiên bản ngân hàng, ID, lựa chọn, revision hay đáp án chỉ vì mở rộng bài học. Bộ đề tổng hợp và tiến độ cũ giữ nguyên.
 
 ### Nội dung kỹ thuật cho hai môn mới
 

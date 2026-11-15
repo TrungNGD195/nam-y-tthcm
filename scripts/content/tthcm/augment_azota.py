@@ -139,6 +139,8 @@ def augment(root, bank):
     from deduplicate import deduplicate
     duplicate_review=deduplicate(root,bank,manifest)
     bank.update(version='2026.11.14.dedup.1',updatedAt='2026-11-14')
+    from build_lessons import enrich_lessons
+    enrich_lessons(root,bank)
     report=dict(version=bank['version'],reviewedAt='2026-11-14',policy='Giáo trình 2019 và bài giảng PTIT ưu tiên; số liệu thiếu/mâu thuẫn đối chiếu nguồn chính thống. Không dùng key Azota. Câu thiếu căn cứ không xuất bản.',sourceCounts=CODES,sourceHashes=SNAPSHOT_HASHES,baseReview=base_review,duplicateReview=duplicate_review,questions=manifest)
     (folder/'reviewed.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
     (root/'src/subjects/tthcm/bank.json').write_text(json.dumps(bank,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
@@ -156,6 +158,12 @@ def augment(root, bank):
     for entry in manifest:
         if entry['status']=='pending':lines.append(f"- **{entry['id']}**: {entry['reason']}")
     lines+=['','## Dữ liệu kiểm tra','', '- `azota/<code>.json`: bản gốc 522 câu và lựa chọn.','- `azota/reviewed.json`: quyết định từng mục, đáp án nội dung, keyword, bản biên tập, nguồn đối chiếu và băm snapshot.','- `azota/official-sources.json`: URL nguồn chính thống và tài liệu bổ sung.','- `scripts/content/tthcm/azota_editorial.py`: lựa chọn thủ công và lý do sửa.','','## Nguồn bổ sung cũ','']+[f"- {s['sourceId']}: {s['status']}" for s in bank['supplements']]
+    lines+=['','## Ý cốt lõi theo toàn bộ ngân hàng','',
+        '- 45 mục học theo 6 chương, bao phủ 213 concept và đủ 506 câu chuẩn, gồm cả câu số liệu.',
+        '- `lesson-coverage.json`: mỗi câu có chương, concept, mục học, nội dung đáp án và hash để phát hiện thay đổi cần rà lại.',
+        '- `scripts/content/tthcm/lesson_editorial.py`: cách gom ý và nội dung giải thích theo giáo trình; `build_lessons.py` biên dịch và kiểm tra độ phủ.',
+        '- Giữ nguyên chương của từng câu; kiến thức liên hệ được nhắc tại chương ngân hàng đặt câu. Không đổi đáp án hoặc dữ liệu câu hỏi để khớp bài học.',
+        '- Bài học có mục lục, mở/thu gọn, nguồn, keyword, điểm dễ nhầm và nút luyện đúng nhóm câu của chương.']
     (root/'content/tthcm/BAO_CAO_NOI_DUNG.md').write_text('\n'.join(lines)+'\n',encoding='utf8',newline='\n')
     print(f'Azota: 522 captured; {dict(counts)}. Website: {len(bank["questions"])} canonical questions.')
     return bank

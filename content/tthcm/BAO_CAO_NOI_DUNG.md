@@ -46,3 +46,11 @@ Tổng cộng **522 mục gốc**: 316 câu thêm, 202 lượt gộp, 4 câu ch�
 - combined: Đã khảo sát; chưa nhập toàn bộ vì cần đối chiếu phiên bản kiến thức và bảng đáp án.
 - bonus: Dùng chọn lọc để đối chiếu câu trong đề mẫu; chưa nhập toàn bộ các câu tiểu sử và phần bổ sung.
 - timeline: Đã khảo sát, dùng hỗ trợ rà mốc; chưa chuyển thành bộ câu hỏi mới.
+
+## Ý cốt lõi theo toàn bộ ngân hàng
+
+- 45 mục học theo 6 chương, bao phủ 213 concept và đủ 506 câu chuẩn, gồm cả câu số liệu.
+- `lesson-coverage.json`: mỗi câu có chương, concept, mục học, nội dung đáp án và hash để phát hiện thay đổi cần rà lại.
+- `scripts/content/tthcm/lesson_editorial.py`: cách gom ý và nội dung giải thích theo giáo trình; `build_lessons.py` biên dịch và kiểm tra độ phủ.
+- Giữ nguyên chương của từng câu; kiến thức liên hệ được nhắc tại chương ngân hàng đặt câu. Không đổi đáp án hoặc dữ liệu câu hỏi để khớp bài học.
+- Bài học có mục lục, mở/thu gọn, nguồn, keyword, điểm dễ nhầm và nút luyện đúng nhóm câu của chương.

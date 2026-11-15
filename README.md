@@ -4,6 +4,8 @@
 
 Chọn môn → chọn chương → học ý cốt lõi → luyện câu hỏi → nhớ keyword và ôn sai. Ưu tiên máy tính, nút học rõ ràng, không đăng nhập, không khóa chương hoặc giới hạn lượt.
 
+TTHCM có **45 mục học theo 6 chương, gồm 213 nhóm kiến thức** được đối chiếu từ toàn bộ 506 câu. Mỗi mục có ý cần hiểu, keyword, điểm dễ nhầm, nguồn và danh sách câu liên quan; luyện riêng một ý, một mục hoặc cả chương. [Bảng liên kết từng câu với bài học](content/tthcm/lesson-coverage.json) được tái tạo cùng ngân hàng; thêm câu mà chưa có bài học tương ứng sẽ bị validator chặn.
+
 | Môn | Trạng thái |
 | --- | --- |
 | Tư tưởng Hồ Chí Minh | 506 câu, 6 chương, 92 câu số liệu; 10 đề × 50 + 1 đề cuối 6 câu, không lặp giữa các đề |

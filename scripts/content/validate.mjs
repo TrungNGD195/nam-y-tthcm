@@ -56,6 +56,30 @@ export function validateBank(bank, subject, assetExists = () => true) {
     for(const ref of [...q.sources,...q.theoryReferences])assert(sources.has(ref.sourceId)&&Number.isInteger(ref.pdfPage)&&ref.pdfPage>0&&ref.pdfPage<=sources.get(ref.sourceId).pages);
     blocks(q.blocks);blocks(q.explanationBlocks);for(const o of q.options)blocks(o.blocks);
   }
+  if(bank.lessons){
+    assert(typeof bank.lessons.version==='string'&&bank.lessons.version);
+    assert.equal(bank.lessons.chapters.length,chapters.size,'Lessons must cover all chapters');
+    const lessonChapters=new Set(),sectionIds=new Set(),assignments=new Set();
+    const refsValid=refs=>Array.isArray(refs)&&refs.length>0&&refs.every(r=>sources.has(r.sourceId)&&Number.isInteger(r.pdfPage)&&r.pdfPage>0&&r.pdfPage<=sources.get(r.sourceId).pages&&r.section&&r.evidence);
+    for(const lesson of bank.lessons.chapters){
+      assert(chapters.has(lesson.chapter)&&!lessonChapters.has(lesson.chapter),'Invalid lesson chapter');lessonChapters.add(lesson.chapter);
+      assert(lesson.sections.length>0);
+      for(const section of lesson.sections){
+        assert(/^[a-z0-9-]+$/.test(section.id)&&!sectionIds.has(section.id),'Invalid lesson section ID');sectionIds.add(section.id);
+        assert(section.title&&section.summary.length>30&&['knowledge','milestones'].includes(section.kind));
+        assert(refsValid(section.references),'Lesson overview needs valid evidence');
+        assert(section.conceptIds.length>0);
+        for(const id of section.conceptIds){
+          const c=concepts.get(id),assignment=`${lesson.chapter}:${id}`;
+          assert(c&&!assignments.has(assignment),'Duplicate or unknown lesson concept');assignments.add(assignment);
+          assert(bank.questions.some(q=>q.chapter===lesson.chapter&&q.conceptId===id),'Lesson concept must correspond to questions in this chapter');
+          assert(c.summary.length>20&&c.keywords.length&&refsValid(c.references),'Lesson concept needs content and evidence');
+          for(const p of c.learningPoints??[])assert(p.title&&p.text.length>15&&p.keywords.length&&p.keywords.every(k=>typeof k==='string'&&k),'Invalid learning point');
+        }
+      }
+    }
+    for(const q of bank.questions)assert(assignments.has(`${q.chapter}:${q.conceptId}`),`Question missing chapter lesson: ${q.id}`);
+  }
   assert.equal(new Set(bank.sampleQuestionIds).size,bank.sampleQuestionIds.length);assert(bank.sampleQuestionIds.every(id=>questions.has(id)));
   assert.equal(subject.questionCount,bank.questions.length);assert.equal(subject.chapterCount,bank.chapters.length);
   for(const a of bank.audit){if(['published','merged'].includes(a.status))assert(questions.has(a.questionId));else assert(!questions.has(a.id));}

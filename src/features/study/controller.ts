@@ -1,4 +1,4 @@
-import type { Bank, Concept, Deck, Progress, Question, Session, Subject } from '../../core/types.ts';
+import type { Bank, Concept, Deck, LessonSection, Progress, Question, Session, Subject } from '../../core/types.ts';
 import { checkCurrent, createSession, finishSession, needsReview, normalize, scoreSession, selectQuestions, toggleBookmark } from '../../core/engine.ts';
 import { emptyProgress, loadProgress, parseProgress, saveProgress, storageKey } from '../../core/storage.ts';
 import { button, durationText, emphasize, esc, icon, link, pill, progressBar, promptText, referencesHtml, sourceDetails, sourceName, sourceLocation, renderBlocks } from '../../shared/ui.ts';
@@ -7,6 +7,7 @@ import { resolveRoute, scopeSubjectLinks, subjectHref } from '../../app/router.t
 import { subjects } from '../../app/subjects.ts';
 import { buildComprehensivePapers } from '../../core/comprehensive.ts';
 import '../../shared/styles/comprehensive.css';
+import '../../shared/styles/lessons.css';
 
 export type StudyController = { render: () => void; dispose: () => void };
 export function mountStudy(subject: Subject, bank: Bank): StudyController {
@@ -36,6 +37,11 @@ let keywordFilter = 'all';
 let keywordHidden = true;
 let resultFilter = 'all';
 const revealed = new Set<string>();
+const openLessons = new Set<string>();
+const visitedLessons = new Set<number>();
+const cmap = new Map(bank.concepts.map(c => [c.id,c]));
+const chapterLesson = (n:number) => bank.lessons?.chapters.find(c=>c.chapter===n);
+const lessonQuestions = (n:number,s:LessonSection) => chapterQuestions(n).filter(q=>s.conceptIds.includes(q.conceptId));
 let pendingStart: { deck: Deck; mode: Session['mode']; minutes: number; specific?: Question[] } | null = null;
 let returnFocus: HTMLElement | null = null;
 
@@ -67,12 +73,17 @@ const countSeen = () => Object.values(progress.records).filter(r => r.seen > 0).
 const reviewQuestions = () => bank.questions.filter(q => needsReview(progress.records[q.id]));
 const chapterQuestions = (n: number, numbers = true) => bank.questions.filter(q => q.chapter === n && (numbers || !isSpecial(q)));
 const conceptQuestions = (c: Concept) => bank.questions.filter(q => q.conceptId === c.id);
-function conceptDone(c: Concept): boolean {
-  return conceptQuestions(c).some(q => progress.records[q.id]?.lastOutcome === 'correct');
+function conceptDone(c: Concept, chapter?:number): boolean {
+  return conceptQuestions(c).some(q => (chapter===undefined||q.chapter===chapter)&&progress.records[q.id]?.lastOutcome === 'correct');
 }
 function coverage(chapter: number): { done: number; total: number } {
+  const lesson=chapterLesson(chapter);
+  if(lesson){
+    const concepts=[...new Set(lesson.sections.flatMap(s=>s.conceptIds))].map(id=>cmap.get(id)!);
+    return {done:concepts.filter(c=>conceptDone(c,chapter)).length,total:concepts.length};
+  }
   const concepts = bank.concepts.filter(c => c.core && c.chapter === chapter && conceptQuestions(c).length);
-  return { done: concepts.filter(conceptDone).length, total: concepts.length };
+  return { done: concepts.filter(c=>conceptDone(c)).length, total: concepts.length };
 }
 function breadcrumb(): string {
   const hash = routeHash();
@@ -135,11 +146,37 @@ function setupPanel(kind: 'chapter' | 'numbers' | 'review', chapter?: number): s
 function conceptCard(c: Concept, index: number): string {
   return `<article class="concept-card"><span class="concept-number">Ý CỐT LÕI ${String(index+1).padStart(2,'0')}</span><h3>${esc(c.title)}</h3><p>${emphasize(c.summary,c.keywords)}</p><div class="keywords">${c.keywords.map(k=>`<span class="keyword-chip">${esc(k)}</span>`).join('')}</div>${c.confusionNote?`<div class="confusion"><strong>Dễ nhầm:</strong> ${esc(c.confusionNote)}</div>`:''}<details class="sources-detail"><summary>${icon('book')} Căn cứ kiến thức</summary>${referencesHtml(c.references,bank.sources)}</details></article>`;
 }
+function lessonConcept(c:Concept,chapter:number):string {
+  const qs=chapterQuestions(chapter).filter(q=>q.conceptId===c.id);
+  return `<article class="lesson-concept" data-lesson-concept="${esc(c.id)}"><h3>${esc(c.title)}</h3><p>${emphasize(c.summary,c.keywords)}</p>
+    ${c.learningPoints?.length?`<ul class="learning-points">${c.learningPoints.map(p=>`<li><strong>${esc(p.title)}:</strong> ${emphasize(p.text,p.keywords)}</li>`).join('')}</ul>`:''}
+    <div class="keywords" aria-label="Keyword cần nhớ">${c.keywords.map(k=>`<span class="keyword-chip">${esc(k)}</span>`).join('')}</div>
+    ${c.confusionNote?`<div class="confusion"><strong>Dễ nhầm:</strong> ${esc(c.confusionNote)}</div>`:''}
+    <div class="lesson-concept-actions">${button('practice-concept',`Luyện ${qs.length} câu về ý này`,'btn small',`data-concept="${esc(c.id)}" data-chapter="${chapter}"`)}</div>
+    <details class="lesson-questions"><summary>${qs.length} câu hỏi liên quan ${icon('chevron')}</summary><ol>${qs.map(q=>`<li data-lesson-question="${esc(q.id)}"><p>${promptText(q.prompt)}</p>${button('practice-question','Luyện câu này','btn small ghost',`data-id="${esc(q.id)}"`)}</li>`).join('')}</ol></details>
+    <details class="sources-detail"><summary>${icon('book')} Căn cứ kiến thức</summary>${referencesHtml(c.references,bank.sources)}</details></article>`;
+}
+function lessonSection(s:LessonSection,chapter:number,index:number):string {
+  const qs=lessonQuestions(chapter,s);
+  return `<details class="lesson-section" id="${esc(s.id)}" data-lesson-section="${esc(s.id)}" ${openLessons.has(s.id)?'open':''}>
+    <summary class="lesson-heading"><span class="lesson-index">${String(index+1).padStart(2,'0')}</span><span class="grow"><h2>${esc(s.title)}</h2><span>${s.conceptIds.length} ý cần nhớ · ${qs.length} câu liên quan${s.kind==='milestones'?' · Mốc & văn bản':''}</span></span>${icon('chevron')}</summary>
+    <div class="lesson-body"><p class="lesson-overview">${esc(s.summary)}</p>
+    ${s.conceptIds.map(id=>lessonConcept(cmap.get(id)!,chapter)).join('')}
+    <div class="lesson-section-footer">${button('practice-section',`Luyện ${qs.length} câu trong mục này ${icon('arrow')}`,'btn',`data-section="${esc(s.id)}" data-chapter="${chapter}"`)}<details class="sources-detail"><summary>${icon('book')} Căn cứ tổng quan</summary>${referencesHtml(s.references,bank.sources)}</details></div></div></details>`;
+}
+function chapterLessons(n:number):string {
+  const lesson=chapterLesson(n)!;
+  if(!visitedLessons.has(n)){visitedLessons.add(n);openLessons.add(lesson.sections[0].id);}
+  return `<div class="lesson-guide"><span class="eyebrow">Ý CỐT LÕI THEO NGÂN HÀNG</span><h2>Học gì để làm được câu hỏi chương này?</h2><p>${lesson.sections.length} mục · ${coverage(n).total} ý cần nhớ · Có nội dung tương ứng với đủ ${chapterQuestions(n).length} câu của chương, gồm cả câu số liệu.</p>
+    <nav class="lesson-toc" aria-label="Các mục kiến thức chương ${n}">${lesson.sections.map((s,i)=>`<button data-action="lesson-jump" data-section="${esc(s.id)}"><span>${String(i+1).padStart(2,'0')}</span>${esc(s.title)}</button>`).join('')}</nav>
+    <div class="lesson-toolbar"><span>Chọn mục để đọc, rồi luyện các câu liên quan.</span><div>${button('expand-lessons','Mở tất cả','btn small ghost',`data-chapter="${n}"`)}${button('collapse-lessons','Thu gọn','btn small ghost',`data-chapter="${n}"`)}</div></div></div>
+    ${lesson.sections.map((s,i)=>lessonSection(s,n,i)).join('')}`;
+}
 function chapterPage(n: number): string {
   const c = bank.chapters.find(c=>c.number===n)!, cover=coverage(n);
   const concepts=bank.concepts.filter(x=>x.chapter===n&&x.core);
   return `${pageIntro(`CHƯƠNG ${String(n).padStart(2,'0')}`,c.title,c.description,pill(`${cover.done}/${cover.total} ý đã luyện đúng`,'green'))}
-    <div class="chapter-layout"><section><div class="lesson-note">${icon('spark')} <strong>Trước khi làm bài:</strong> nắm những ý dưới đây, rồi thử một lượt ngắn. Bạn có thể bắt đầu luyện ngay nếu đã học qua.</div>${concepts.map(conceptCard).join('')}<p class="inline-note">${subject.collections.length?`Một số câu được tập hợp vào <a href="#/${subject.collections[0].id}" style="text-decoration:underline">chuyên đề riêng</a>. Bật lựa chọn kèm câu chuyên đề nếu muốn ôn đủ chương.`:'Các câu hỏi được tổ chức theo nội dung chương trong tài liệu.'}</p></section>${setupPanel('chapter',n)}</div>`;
+    <div class="chapter-layout"><section><div class="lesson-note">${icon('spark')} <strong>Trước khi làm bài:</strong> đọc ý chính và điểm dễ nhầm, rồi thử các câu liên quan. Bạn có thể luyện ngay nếu đã học qua.</div>${chapterLesson(n)?chapterLessons(n):concepts.map(conceptCard).join('')}<p class="inline-note">${subject.collections.length?`Câu số liệu vẫn được tập hợp tại <a href="#/${subject.collections[0].id}" style="text-decoration:underline">chuyên đề riêng</a>. Bật lựa chọn kèm câu chuyên đề nếu muốn luyện đủ chương; nút luyện từng ý hoặc từng mục luôn gồm tất cả câu liên quan.`:'Các câu hỏi được tổ chức theo nội dung chương trong tài liệu.'}</p></section>${setupPanel('chapter',n)}</div>`;
 }
 function numbersPage(): string {
   const group=collection();
@@ -308,6 +345,24 @@ document.addEventListener('click',event=>{
   if(!target){if((event.target as Element).closest('a[href^="#/"]'))menuOpen=false;return;}
   const action=target.dataset.action;
   switch(action){
+    case 'lesson-jump':{
+      const section=document.getElementById(target.dataset.section!) as HTMLDetailsElement|null;
+      if(section){section.open=true;openLessons.add(section.id);section.scrollIntoView({block:'start'});section.querySelector<HTMLElement>('summary')?.focus({preventScroll:true});}break;
+    }
+    case 'expand-lessons':case 'collapse-lessons':{
+      const open=action==='expand-lessons';
+      app.querySelectorAll<HTMLDetailsElement>('[data-lesson-section]').forEach(el=>{el.open=open;if(open)openLessons.add(el.id);else openLessons.delete(el.id);});break;
+    }
+    case 'practice-section':case 'practice-concept':case 'practice-question':{
+      const chapter=Number(target.dataset.chapter);
+      const section=chapterLesson(chapter)?.sections.find(s=>s.id===target.dataset.section);
+      const concept=cmap.get(target.dataset.concept??'');
+      const q=qmap.get(target.dataset.id??'');
+      const qs=action==='practice-section'&&section?lessonQuestions(chapter,section):action==='practice-concept'&&concept?chapterQuestions(chapter).filter(q=>q.conceptId===concept.id):action==='practice-question'&&q?[q]:[];
+      if(!qs.length)break;
+      const title=action==='practice-question'?'Luyện một câu':`Chương ${chapter} · ${section?.title??concept?.title}`;
+      begin({kind:'review',count:qs.length,title,questionIds:qs.map(q=>q.id)},'practice',0,qs);break;
+    }
     case 'skip-content':event.preventDefault();document.querySelector<HTMLElement>('#main')?.focus();break;
     case 'menu':menuOpen=!menuOpen;render();break;
     case 'count':count=Number(target.dataset.value);render();break;
@@ -359,6 +414,12 @@ document.addEventListener('click',event=>{
   }
 }, { signal: events.signal });
 let importCandidate: Progress | null = null;
+document.addEventListener('toggle',event=>{
+  const el=event.target;
+  if(el instanceof HTMLDetailsElement&&el.isConnected&&el.dataset.lessonSection){
+    if(el.open)openLessons.add(el.id);else openLessons.delete(el.id);
+  }
+}, {capture:true,signal:events.signal});
 document.addEventListener('change',async event=>{
   const el=event.target as HTMLInputElement|HTMLSelectElement;
   switch(el.id){

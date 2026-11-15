@@ -66,6 +66,34 @@
           "section": "Khái niệm và ba nội hàm",
           "evidence": "Khái niệm nêu bản chất khoa học, cách mạng và nội dung; cơ sở hình thành; ý nghĩa, giá trị. Quá trình hoặc thời gian hình thành không phải một nội hàm của khái niệm."
         }
+      ],
+      "learningPoints": [
+        {
+          "title": "Bản chất và nội dung",
+          "text": "Một hệ thống quan điểm toàn diện, sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam; thể hiện bản chất khoa học và cách mạng.",
+          "keywords": [
+            "hệ thống quan điểm",
+            "toàn diện",
+            "cách mạng Việt Nam"
+          ]
+        },
+        {
+          "title": "Nguồn gốc",
+          "text": "Vận dụng, phát triển sáng tạo chủ nghĩa Mác–Lênin vào Việt Nam; kế thừa truyền thống tốt đẹp dân tộc và tiếp thu tinh hoa văn hóa nhân loại.",
+          "keywords": [
+            "vận dụng",
+            "phát triển sáng tạo",
+            "truyền thống"
+          ]
+        },
+        {
+          "title": "Giá trị",
+          "text": "Là tài sản tinh thần to lớn, quý giá của Đảng và dân tộc, soi đường cho sự nghiệp cách mạng. Quá trình hoặc thời gian hình thành được học riêng, không phải một nội hàm của định nghĩa.",
+          "keywords": [
+            "tài sản tinh thần",
+            "soi đường"
+          ]
+        }
       ]
     },
     {
@@ -127,6 +155,58 @@
           "pdfPage": 12,
           "section": "Phương pháp luận",
           "evidence": "Nghiên cứu phải thống nhất tính Đảng và tính khoa học, lý luận và thực tiễn; có quan điểm lịch sử cụ thể, toàn diện và hệ thống, kế thừa và phát triển."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 13,
+          "section": "Phương pháp luận",
+          "evidence": "Diễn giải phần Phương pháp luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 14,
+          "section": "Phương pháp luận",
+          "evidence": "Diễn giải phần Phương pháp luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 15,
+          "section": "Phương pháp luận",
+          "evidence": "Diễn giải phần Phương pháp luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 16,
+          "section": "Phương pháp luận",
+          "evidence": "Diễn giải phần Phương pháp luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Tính Đảng và tính khoa học",
+          "text": "Giữ lập trường, mục tiêu cách mạng đồng thời phân tích khách quan, có căn cứ; không tách tính Đảng khỏi tính khoa học.",
+          "keywords": [
+            "tính Đảng",
+            "tính khoa học",
+            "khách quan"
+          ]
+        },
+        {
+          "title": "Lý luận và thực tiễn",
+          "text": "Xuất phát từ thực tiễn, dùng lý luận soi sáng thực tiễn và kiểm nghiệm trong thực tiễn; chống học thuộc máy móc.",
+          "keywords": [
+            "lý luận",
+            "thực tiễn"
+          ]
+        },
+        {
+          "title": "Lịch sử cụ thể, toàn diện và phát triển",
+          "text": "Đặt quan điểm vào đúng hoàn cảnh lịch sử; xem trong hệ thống và các mối liên hệ; kế thừa, phát triển sáng tạo. Kết hợp phương pháp lịch sử với phương pháp lôgíc.",
+          "keywords": [
+            "lịch sử cụ thể",
+            "toàn diện",
+            "lôgíc"
+          ]
         }
       ]
     },
@@ -315,6 +395,49 @@
           "pdfPage": 18,
           "section": "Phân biệt thực tiễn và lý luận",
           "evidence": "Thực tiễn gồm xã hội Việt Nam và thế giới cuối thế kỷ XIX, đầu thế kỷ XX. Lý luận gồm truyền thống tốt đẹp của dân tộc, tinh hoa văn hóa nhân loại và chủ nghĩa Mác–Lênin."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 19,
+          "section": "Phân biệt thực tiễn và lý luận",
+          "evidence": "Diễn giải phần Phân biệt thực tiễn và lý luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 20,
+          "section": "Phân biệt thực tiễn và lý luận",
+          "evidence": "Diễn giải phần Phân biệt thực tiễn và lý luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 21,
+          "section": "Phân biệt thực tiễn và lý luận",
+          "evidence": "Diễn giải phần Phân biệt thực tiễn và lý luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 22,
+          "section": "Phân biệt thực tiễn và lý luận",
+          "evidence": "Diễn giải phần Phân biệt thực tiễn và lý luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Việt Nam",
+          "text": "Pháp xâm lược làm xã hội chuyển thành thuộc địa nửa phong kiến. Các phong trào cứu nước theo khuynh hướng cũ thất bại, đặt ra yêu cầu tìm con đường mới.",
+          "keywords": [
+            "thuộc địa nửa phong kiến",
+            "con đường mới"
+          ]
+        },
+        {
+          "title": "Thế giới",
+          "text": "Chủ nghĩa tư bản chuyển sang đế quốc chủ nghĩa; Cách mạng Tháng Mười Nga và Quốc tế Cộng sản mở ra điều kiện mới cho phong trào giải phóng dân tộc.",
+          "keywords": [
+            "đế quốc chủ nghĩa",
+            "Tháng Mười",
+            "Quốc tế Cộng sản"
+          ]
         }
       ]
     },
@@ -336,6 +459,50 @@
           "pdfPage": 22,
           "section": "Ba nguồn lý luận",
           "evidence": "Ba nguồn lý luận là giá trị truyền thống tốt đẹp của dân tộc, tinh hoa văn hóa nhân loại và chủ nghĩa Mác–Lênin. Trong đó chủ nghĩa Mác–Lênin có vai trò quyết định."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 23,
+          "section": "Ba nguồn lý luận",
+          "evidence": "Diễn giải phần Ba nguồn lý luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 24,
+          "section": "Ba nguồn lý luận",
+          "evidence": "Diễn giải phần Ba nguồn lý luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 25,
+          "section": "Ba nguồn lý luận",
+          "evidence": "Diễn giải phần Ba nguồn lý luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 26,
+          "section": "Ba nguồn lý luận",
+          "evidence": "Diễn giải phần Ba nguồn lý luận; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Ba nguồn",
+          "text": "Giá trị truyền thống tốt đẹp dân tộc; tinh hoa văn hóa nhân loại, gồm phương Đông và phương Tây; chủ nghĩa Mác–Lênin.",
+          "keywords": [
+            "truyền thống",
+            "tinh hoa văn hóa",
+            "Mác–Lênin"
+          ]
+        },
+        {
+          "title": "Vai trò quyết định",
+          "text": "Chủ nghĩa Mác–Lênin cung cấp thế giới quan và phương pháp luận khoa học, cách mạng; giúp chuyển từ người yêu nước thành người cộng sản. Không xếp bối cảnh xã hội vào nguồn lý luận.",
+          "keywords": [
+            "quyết định",
+            "thế giới quan",
+            "phương pháp luận"
+          ]
         }
       ]
     },
@@ -481,6 +648,32 @@
           "pdfPage": 27,
           "section": "Nhân tố chủ quan",
           "evidence": "Nhân tố chủ quan gồm lý tưởng, hoài bão cứu nước; tư duy độc lập, sáng tạo, khả năng tiếp thu tinh hoa; phẩm chất và hoạt động thực tiễn phong phú của Hồ Chí Minh."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 28,
+          "section": "Nhân tố chủ quan",
+          "evidence": "Diễn giải phần Nhân tố chủ quan; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Phẩm chất và tư duy",
+          "text": "Hoài bão cứu nước, thương dân; ý chí, nghị lực; tư duy độc lập, tự chủ, sáng tạo và khả năng tiếp thu có phê phán.",
+          "keywords": [
+            "cứu nước",
+            "độc lập",
+            "sáng tạo"
+          ]
+        },
+        {
+          "title": "Thực tiễn và tri thức",
+          "text": "Vốn sống, hoạt động thực tiễn trong nước và quốc tế phong phú giúp tổng kết thực tiễn, tiếp thu và phát triển lý luận.",
+          "keywords": [
+            "thực tiễn",
+            "tổng kết",
+            "phát triển"
+          ]
         }
       ]
     },
@@ -494,7 +687,7 @@
         "1920–1930",
         "1941–1969"
       ],
-      "confusionNote": "",
+      "confusionNote": "1911–1920 là tìm con đường vô sản; 1920–1930 mới là hình thành nội dung cơ bản. Không dùng khung 1921–1930 của tài liệu cũ thay khung đang học.",
       "core": false,
       "references": [
         {
@@ -502,6 +695,79 @@
           "pdfPage": 30,
           "section": "Năm giai đoạn hình thành",
           "evidence": "Theo khung đang học: trước 1911 — yêu nước; 1911–1920 — tìm con đường vô sản; 1920–1930 — nội dung cơ bản; 1930–1941 — vượt thử thách; 1941–1969 — tiếp tục phát triển."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 30,
+          "section": "Năm giai đoạn hình thành",
+          "evidence": "Diễn giải phần Năm giai đoạn hình thành; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 31,
+          "section": "Năm giai đoạn hình thành",
+          "evidence": "Diễn giải phần Năm giai đoạn hình thành; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 33,
+          "section": "Năm giai đoạn hình thành",
+          "evidence": "Diễn giải phần Năm giai đoạn hình thành; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 34,
+          "section": "Năm giai đoạn hình thành",
+          "evidence": "Diễn giải phần Năm giai đoạn hình thành; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 35,
+          "section": "Năm giai đoạn hình thành",
+          "evidence": "Diễn giải phần Năm giai đoạn hình thành; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Trước 1911",
+          "text": "Hình thành tư tưởng yêu nước và chí hướng tìm đường cứu nước mới.",
+          "keywords": [
+            "trước 1911",
+            "yêu nước"
+          ]
+        },
+        {
+          "title": "1911–1920",
+          "text": "Hình thành tư tưởng cứu nước, giải phóng dân tộc theo con đường cách mạng vô sản.",
+          "keywords": [
+            "1911–1920",
+            "con đường vô sản"
+          ]
+        },
+        {
+          "title": "1920–1930",
+          "text": "Hình thành những nội dung cơ bản của tư tưởng về cách mạng Việt Nam.",
+          "keywords": [
+            "1920–1930",
+            "nội dung cơ bản"
+          ]
+        },
+        {
+          "title": "1930–1941",
+          "text": "Vượt qua thử thách, giữ vững đường lối và phương pháp cách mạng đúng đắn, sáng tạo.",
+          "keywords": [
+            "1930–1941",
+            "vượt qua thử thách"
+          ]
+        },
+        {
+          "title": "1941–1969",
+          "text": "Tiếp tục phát triển, hoàn thiện tư tưởng, soi đường cho sự nghiệp cách mạng của Đảng và nhân dân.",
+          "keywords": [
+            "1941–1969",
+            "phát triển",
+            "hoàn thiện"
+          ]
         }
       ]
     },
@@ -604,6 +870,30 @@
           "pdfPage": 51,
           "section": "Con đỉa hai vòi",
           "evidence": "Hồ Chí Minh dùng hình tượng con đỉa có hai vòi để chỉ chủ nghĩa tư bản bóc lột ở chính quốc và thuộc địa."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 31,
+          "section": "Con đỉa hai vòi",
+          "evidence": "Diễn giải phần Con đỉa hai vòi; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Tác phẩm và hình ảnh",
+          "text": "Trong Bản án chế độ thực dân Pháp, hình ảnh con đỉa hai vòi chỉ chủ nghĩa tư bản bóc lột ở cả chính quốc và thuộc địa. Muốn đánh đổ phải chống sự bóc lột ở cả hai nơi.",
+          "keywords": [
+            "Bản án chế độ thực dân Pháp",
+            "con đỉa hai vòi"
+          ]
+        },
+        {
+          "title": "Phân biệt",
+          "text": "Hai cánh của một con chim nói về quan hệ hai phong trào cách mạng; con đỉa hai vòi nói về chủ nghĩa tư bản.",
+          "keywords": [
+            "hai cánh",
+            "chủ nghĩa tư bản"
+          ]
         }
       ]
     },
@@ -617,7 +907,7 @@
         "Vécxây",
         "Yêu sách"
       ],
-      "confusionNote": "",
+      "confusionNote": "1919: Yêu sách và tên Nguyễn Ái Quốc; tháng 7/1920: đọc Luận cương; tháng 12/1920: Đại hội Tua.",
       "core": false,
       "references": [
         {
@@ -814,6 +1104,43 @@
           "pdfPage": 38,
           "section": "Giá trị tư tưởng",
           "evidence": "Tư tưởng Hồ Chí Minh đưa cách mạng giải phóng dân tộc đến thắng lợi, là nền tảng và kim chỉ nam; góp phần mở con đường giải phóng thuộc địa, đấu tranh vì độc lập, hòa bình và tiến bộ."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 39,
+          "section": "Giá trị tư tưởng",
+          "evidence": "Diễn giải phần Giá trị tư tưởng; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 40,
+          "section": "Giá trị tư tưởng",
+          "evidence": "Diễn giải phần Giá trị tư tưởng; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 41,
+          "section": "Giá trị tư tưởng",
+          "evidence": "Diễn giải phần Giá trị tư tưởng; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Đối với Việt Nam",
+          "text": "Đưa sự nghiệp giải phóng dân tộc đến thắng lợi; là nền tảng tư tưởng, kim chỉ nam và tiếp tục soi đường cho công cuộc xây dựng đất nước.",
+          "keywords": [
+            "giải phóng dân tộc",
+            "soi đường"
+          ]
+        },
+        {
+          "title": "Đối với thế giới",
+          "text": "Góp phần mở con đường giải phóng cho các dân tộc thuộc địa và đóng góp vào đấu tranh vì độc lập, dân chủ, hòa bình, tiến bộ xã hội.",
+          "keywords": [
+            "thuộc địa",
+            "hòa bình",
+            "tiến bộ"
+          ]
         }
       ]
     },
@@ -821,7 +1148,7 @@
       "id": "chinh-cuong",
       "chapter": 2,
       "title": "Chánh cương vắn tắt",
-      "summary": "Chánh cương vắn tắt nêu chủ trương làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản.",
+      "summary": "Chánh cương vắn tắt năm 1930 nêu phương hướng làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản; đánh đổ đế quốc Pháp và phong kiến, làm Việt Nam hoàn toàn độc lập.",
       "keywords": [
         "Chánh cương vắn tắt",
         "tư sản dân quyền",
@@ -1007,6 +1334,27 @@
           "section": "Giai cấp và mâu thuẫn",
           "evidence": "Xã hội thuộc địa có năm giai cấp: địa chủ, nông dân, công nhân, tư sản, tiểu tư sản. Có hai mâu thuẫn cơ bản: dân tộc với thực dân Pháp và nông dân với địa chủ phong kiến."
         }
+      ],
+      "learningPoints": [
+        {
+          "title": "Năm giai cấp",
+          "text": "Địa chủ, nông dân và ba giai cấp mới là công nhân, tư sản, tiểu tư sản.",
+          "keywords": [
+            "5",
+            "công nhân",
+            "tư sản",
+            "tiểu tư sản"
+          ]
+        },
+        {
+          "title": "Hai mâu thuẫn",
+          "text": "Mâu thuẫn toàn thể dân tộc Việt Nam với thực dân Pháp và tay sai là chủ yếu; mâu thuẫn nông dân với địa chủ phong kiến.",
+          "keywords": [
+            "2",
+            "dân tộc",
+            "chủ yếu"
+          ]
+        }
       ]
     },
     {
@@ -1115,7 +1463,7 @@
       "id": "departure",
       "chapter": 2,
       "title": "Ra đi — 5/6/1911",
-      "summary": "Ngày 5/6/1911, Nguyễn Tất Thành ra đi tìm đường cứu nước từ bến Nhà Rồng; đây là mốc mở đầu hành trình tìm con đường mới.",
+      "summary": "Ngày 5/6/1911, Nguyễn Tất Thành, 21 tuổi, rời bến Nhà Rồng trên tàu Amiral Latouche-Tréville để tìm đường cứu nước.",
       "keywords": [
         "5/6/1911",
         "Nhà Rồng"
@@ -1332,6 +1680,72 @@
           "pdfPage": 42,
           "section": "Bốn nội dung độc lập dân tộc",
           "evidence": "Độc lập là quyền thiêng liêng; phải gắn với tự do, hạnh phúc nhân dân; phải thật sự, hoàn toàn, triệt để; gắn với thống nhất và toàn vẹn lãnh thổ."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 43,
+          "section": "Bốn nội dung độc lập dân tộc",
+          "evidence": "Diễn giải phần Bốn nội dung độc lập dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 44,
+          "section": "Bốn nội dung độc lập dân tộc",
+          "evidence": "Diễn giải phần Bốn nội dung độc lập dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 45,
+          "section": "Bốn nội dung độc lập dân tộc",
+          "evidence": "Diễn giải phần Bốn nội dung độc lập dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 46,
+          "section": "Bốn nội dung độc lập dân tộc",
+          "evidence": "Diễn giải phần Bốn nội dung độc lập dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 47,
+          "section": "Bốn nội dung độc lập dân tộc",
+          "evidence": "Diễn giải phần Bốn nội dung độc lập dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Quyền thiêng liêng",
+          "text": "Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của mọi dân tộc, không riêng Việt Nam.",
+          "keywords": [
+            "thiêng liêng",
+            "bất khả xâm phạm"
+          ]
+        },
+        {
+          "title": "Gắn hạnh phúc nhân dân",
+          "text": "Độc lập phải đem lại tự do, cơm no, áo ấm và hạnh phúc cho nhân dân, không chỉ có tên gọi độc lập.",
+          "keywords": [
+            "tự do",
+            "hạnh phúc",
+            "nhân dân"
+          ]
+        },
+        {
+          "title": "Độc lập thực chất",
+          "text": "Độc lập phải thật sự, hoàn toàn, triệt để trên các phương diện, không lệ thuộc về thực chất.",
+          "keywords": [
+            "thật sự",
+            "hoàn toàn",
+            "triệt để"
+          ]
+        },
+        {
+          "title": "Thống nhất lãnh thổ",
+          "text": "Độc lập gắn liền thống nhất đất nước và toàn vẹn lãnh thổ.",
+          "keywords": [
+            "thống nhất",
+            "toàn vẹn lãnh thổ"
+          ]
         }
       ]
     },
@@ -1353,6 +1767,84 @@
           "pdfPage": 46,
           "section": "Năm luận điểm giải phóng dân tộc",
           "evidence": "Giải phóng dân tộc đi theo con đường vô sản, do Đảng lãnh đạo, dựa vào đại đoàn kết lấy công–nông làm nền tảng; chủ động sáng tạo và có thể thắng trước chính quốc; dùng bạo lực cách mạng."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 48,
+          "section": "Năm luận điểm giải phóng dân tộc",
+          "evidence": "Diễn giải phần Năm luận điểm giải phóng dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 49,
+          "section": "Năm luận điểm giải phóng dân tộc",
+          "evidence": "Diễn giải phần Năm luận điểm giải phóng dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 50,
+          "section": "Năm luận điểm giải phóng dân tộc",
+          "evidence": "Diễn giải phần Năm luận điểm giải phóng dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 51,
+          "section": "Năm luận điểm giải phóng dân tộc",
+          "evidence": "Diễn giải phần Năm luận điểm giải phóng dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 52,
+          "section": "Năm luận điểm giải phóng dân tộc",
+          "evidence": "Diễn giải phần Năm luận điểm giải phóng dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 53,
+          "section": "Năm luận điểm giải phóng dân tộc",
+          "evidence": "Diễn giải phần Năm luận điểm giải phóng dân tộc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Con đường",
+          "text": "Muốn thắng lợi phải đi theo con đường cách mạng vô sản, hướng tới giải phóng dân tộc gắn với CNXH.",
+          "keywords": [
+            "cách mạng vô sản"
+          ]
+        },
+        {
+          "title": "Lãnh đạo",
+          "text": "Trong thời đại mới phải do Đảng Cộng sản lãnh đạo.",
+          "keywords": [
+            "Đảng Cộng sản"
+          ]
+        },
+        {
+          "title": "Lực lượng",
+          "text": "Là sự nghiệp đại đoàn kết toàn dân; công–nông là gốc, mở rộng tập hợp các lực lượng yêu nước.",
+          "keywords": [
+            "toàn dân",
+            "công–nông"
+          ]
+        },
+        {
+          "title": "Tính chủ động",
+          "text": "Cách mạng thuộc địa phải chủ động, sáng tạo, có thể thắng trước cách mạng vô sản ở chính quốc.",
+          "keywords": [
+            "chủ động",
+            "sáng tạo",
+            "thắng trước"
+          ]
+        },
+        {
+          "title": "Phương pháp",
+          "text": "Tiến hành bằng bạo lực cách mạng, kết hợp đấu tranh chính trị và đấu tranh vũ trang.",
+          "keywords": [
+            "bạo lực cách mạng",
+            "chính trị",
+            "vũ trang"
+          ]
         }
       ]
     },
@@ -1366,7 +1858,7 @@
         "chính trị",
         "chủ thể xây dựng"
       ],
-      "confusionNote": "",
+      "confusionNote": "Bốn đặc trưng CNXH khác bốn nội dung độc lập dân tộc; phải nhớ tên các ý, không chỉ nhớ số 4.",
       "core": true,
       "references": [
         {
@@ -1374,6 +1866,51 @@
           "pdfPage": 57,
           "section": "Bốn đặc trưng CNXH",
           "evidence": "Bốn đặc trưng được trình bày theo chính trị; kinh tế; văn hóa, đạo đức và các quan hệ xã hội; chủ thể xây dựng CNXH. Nhân dân là chủ thể dưới sự lãnh đạo của Đảng."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 58,
+          "section": "Bốn đặc trưng CNXH",
+          "evidence": "Diễn giải phần Bốn đặc trưng CNXH; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 59,
+          "section": "Bốn đặc trưng CNXH",
+          "evidence": "Diễn giải phần Bốn đặc trưng CNXH; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Chính trị",
+          "text": "Chế độ dân chủ, do nhân dân làm chủ; quyền lực thuộc về nhân dân.",
+          "keywords": [
+            "nhân dân làm chủ"
+          ]
+        },
+        {
+          "title": "Kinh tế",
+          "text": "Kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và công hữu về tư liệu sản xuất chủ yếu.",
+          "keywords": [
+            "hiện đại",
+            "công hữu"
+          ]
+        },
+        {
+          "title": "Văn hóa, đạo đức và quan hệ xã hội",
+          "text": "Trình độ văn hóa, đạo đức phát triển; xã hội công bằng, hợp lý, không còn áp bức bóc lột, con người có điều kiện phát triển.",
+          "keywords": [
+            "công bằng",
+            "không còn áp bức bóc lột"
+          ]
+        },
+        {
+          "title": "Chủ thể xây dựng",
+          "text": "Là công trình tập thể của nhân dân dưới sự lãnh đạo của Đảng Cộng sản.",
+          "keywords": [
+            "tập thể nhân dân",
+            "Đảng Cộng sản"
+          ]
         }
       ]
     },
@@ -1417,6 +1954,25 @@
           "section": "Tính chất và đặc điểm quá độ",
           "evidence": "Quá độ là quá trình cải biến sâu sắc, phức tạp, lâu dài, khó khăn. Đặc điểm lớn nhất ở Việt Nam là từ nước nông nghiệp lạc hậu tiến lên CNXH, không trải qua giai đoạn phát triển tư bản chủ nghĩa."
         }
+      ],
+      "learningPoints": [
+        {
+          "title": "Tính chất",
+          "text": "Cải biến sâu sắc nhưng phức tạp, lâu dài, khó khăn, gian khổ; không thể nóng vội.",
+          "keywords": [
+            "sâu sắc",
+            "phức tạp",
+            "lâu dài"
+          ]
+        },
+        {
+          "title": "Đặc điểm lớn nhất",
+          "text": "Từ nước nông nghiệp lạc hậu tiến lên CNXH, không trải qua giai đoạn phát triển tư bản chủ nghĩa. Đây là quá độ gián tiếp.",
+          "keywords": [
+            "nông nghiệp lạc hậu",
+            "quá độ gián tiếp"
+          ]
+        }
       ]
     },
     {
@@ -1443,6 +1999,38 @@
           "pdfPage": 69,
           "section": "Nhiệm vụ và nguyên tắc quá độ",
           "evidence": "Nhiệm vụ cải tạo, xây dựng trên các lĩnh vực chính trị, kinh tế, văn hóa và quan hệ xã hội. Nguyên tắc gồm nền tảng Mác–Lênin, giữ độc lập dân tộc, học tập kinh nghiệm và xây đi đôi với chống."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 67,
+          "section": "Nhiệm vụ và nguyên tắc quá độ",
+          "evidence": "Diễn giải phần Nhiệm vụ và nguyên tắc quá độ; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 68,
+          "section": "Nhiệm vụ và nguyên tắc quá độ",
+          "evidence": "Diễn giải phần Nhiệm vụ và nguyên tắc quá độ; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Nhiệm vụ",
+          "text": "Cải tạo tàn tích xã hội cũ và xây dựng xã hội mới trên chính trị, kinh tế, văn hóa, quan hệ xã hội; xây dựng cơ sở vật chất–kỹ thuật, trong đó xây dựng là trọng tâm lâu dài.",
+          "keywords": [
+            "cải tạo",
+            "xây dựng",
+            "cơ sở vật chất–kỹ thuật"
+          ]
+        },
+        {
+          "title": "Nguyên tắc",
+          "text": "Lấy Mác–Lênin làm nền tảng; giữ độc lập dân tộc; đoàn kết, học kinh nghiệm các nước anh em; xây đi đôi với chống.",
+          "keywords": [
+            "Mác–Lênin",
+            "độc lập dân tộc",
+            "xây đi đôi với chống"
+          ]
         }
       ]
     },
@@ -1464,6 +2052,54 @@
           "pdfPage": 61,
           "section": "Động lực quyết định — con người",
           "evidence": "Con người là động lực quyết định nhất của CNXH; xây dựng phải phát huy sức dân và các nguồn lực sẵn có trong nhân dân."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 62,
+          "section": "Động lực quyết định — con người",
+          "evidence": "Diễn giải phần Động lực quyết định — con người; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 63,
+          "section": "Động lực quyết định — con người",
+          "evidence": "Diễn giải phần Động lực quyết định — con người; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 64,
+          "section": "Động lực quyết định — con người",
+          "evidence": "Diễn giải phần Động lực quyết định — con người; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "bonus",
+          "pdfPage": 26,
+          "section": "Đối chiếu câu 364",
+          "evidence": "Huy động các nguồn lực sẵn có trong dân."
+        },
+        {
+          "sourceId": "giao-trinh-2009",
+          "pdfPage": 40,
+          "section": "Của dân, tài dân, sức dân",
+          "evidence": "Biện pháp cơ bản, quyết định, lâu dài là huy động của dân, tài dân, sức dân để làm lợi cho dân, dưới sự lãnh đạo của Đảng."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Động lực quyết định",
+          "text": "Con người, bao gồm cá nhân và cộng đồng. Phát huy sức dân, quyền làm chủ, đoàn kết và các nguồn lực sẵn có trong nhân dân.",
+          "keywords": [
+            "con người",
+            "sức dân"
+          ]
+        },
+        {
+          "title": "Cách phát huy",
+          "text": "Kết hợp lợi ích vật chất với động lực chính trị–tinh thần; khuyến khích đóng góp, không chỉ dùng một phía vật chất hoặc tinh thần.",
+          "keywords": [
+            "lợi ích vật chất",
+            "chính trị–tinh thần"
+          ]
         }
       ]
     },
@@ -1477,7 +2113,7 @@
         "đấu tranh vũ trang",
         "phản cách mạng"
       ],
-      "confusionNote": "Bạo lực cách mạng không đồng nghĩa chỉ dùng bạo động hoặc chỉ đấu tranh quân sự.",
+      "confusionNote": "Bạo lực cách mạng gồm cả chính trị và vũ trang. Bạo động chỉ nói một cách thức, không thay thế được toàn bộ quan điểm này.",
       "core": false,
       "references": [
         {
@@ -1618,6 +2254,25 @@
           "section": "Vai trò lãnh đạo của Đảng",
           "evidence": "Đảng giác ngộ, tổ chức, tập hợp dân chúng và liên lạc với các dân tộc bị áp bức, vô sản thế giới; Đảng có vững thì cách mạng mới thành công."
         }
+      ],
+      "learningPoints": [
+        {
+          "title": "Nhân tố quyết định hàng đầu",
+          "text": "Đảng xác định đường lối, giác ngộ, tập hợp và tổ chức quần chúng; liên hệ các lực lượng cách mạng quốc tế.",
+          "keywords": [
+            "đường lối",
+            "tổ chức",
+            "quần chúng"
+          ]
+        },
+        {
+          "title": "Hình ảnh nhận diện",
+          "text": "Trong Đường Kách mệnh, Đảng được ví như người cầm lái; Đảng có vững thì cách mạng mới thành công.",
+          "keywords": [
+            "Đường Kách mệnh",
+            "người cầm lái"
+          ]
+        }
       ]
     },
     {
@@ -1630,7 +2285,7 @@
         "phong trào công nhân",
         "phong trào yêu nước"
       ],
-      "confusionNote": "",
+      "confusionNote": "Nguồn gốc ra đời có ba yếu tố; vai trò lãnh đạo là nhân tố quyết định; bản chất là giai cấp công nhân. Đây là ba nhóm câu khác nhau.",
       "core": true,
       "references": [
         {
@@ -1638,6 +2293,24 @@
           "pdfPage": 78,
           "section": "Ba yếu tố ra đời Đảng",
           "evidence": "Đảng Cộng sản Việt Nam ra đời từ sự kết hợp chủ nghĩa Mác–Lênin với phong trào công nhân và phong trào yêu nước."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Ba yếu tố kết hợp",
+          "text": "Chủ nghĩa Mác–Lênin, phong trào công nhân và phong trào yêu nước. Phong trào yêu nước là yếu tố Hồ Chí Minh nêu thêm khi giải thích quy luật ra đời của Đảng ở Việt Nam.",
+          "keywords": [
+            "Mác–Lênin",
+            "công nhân",
+            "yêu nước"
+          ]
+        },
+        {
+          "title": "Nhận diện văn bản",
+          "text": "Luận điểm về ba yếu tố được nêu trong Ba mươi năm hoạt động của Đảng, gắn với tổng kết quá trình thành lập và phát triển của Đảng.",
+          "keywords": [
+            "Ba mươi năm hoạt động của Đảng"
+          ]
         }
       ]
     },
@@ -1672,7 +2345,7 @@
         "tự phê bình",
         "kỷ luật nghiêm minh"
       ],
-      "confusionNote": "",
+      "confusionNote": "Nêu gương có vai trò trong xây dựng Đảng, nhưng câu hỏi phủ định về tên danh mục phải đọc đúng phạm vi bài học, không suy thành nêu gương là sai.",
       "core": true,
       "references": [
         {
@@ -1686,6 +2359,58 @@
           "pdfPage": 85,
           "section": "Nguyên tắc xây dựng Đảng",
           "evidence": "Các nguyên tắc nhấn mạnh nền tảng Mác–Lênin, tập trung dân chủ, tự phê bình và phê bình, kỷ luật nghiêm minh tự giác, đoàn kết thống nhất và gắn bó với nhân dân."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 83,
+          "section": "Nguyên tắc xây dựng Đảng",
+          "evidence": "Diễn giải phần Nguyên tắc xây dựng Đảng; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 86,
+          "section": "Nguyên tắc xây dựng Đảng",
+          "evidence": "Diễn giải phần Nguyên tắc xây dựng Đảng; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 87,
+          "section": "Nguyên tắc xây dựng Đảng",
+          "evidence": "Diễn giải phần Nguyên tắc xây dựng Đảng; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 88,
+          "section": "Nguyên tắc xây dựng Đảng",
+          "evidence": "Diễn giải phần Nguyên tắc xây dựng Đảng; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Nền tảng và tổ chức",
+          "text": "Mác–Lênin làm nền tảng, kim chỉ nam; tập trung dân chủ; tập thể lãnh đạo, cá nhân phụ trách.",
+          "keywords": [
+            "Mác–Lênin",
+            "tập trung dân chủ",
+            "cá nhân phụ trách"
+          ]
+        },
+        {
+          "title": "Rèn luyện trong Đảng",
+          "text": "Tự phê bình và phê bình; kỷ luật nghiêm minh, tự giác; thường xuyên tự chỉnh đốn; đoàn kết, thống nhất.",
+          "keywords": [
+            "tự phê bình",
+            "kỷ luật",
+            "đoàn kết"
+          ]
+        },
+        {
+          "title": "Quan hệ",
+          "text": "Liên hệ mật thiết với nhân dân và đoàn kết quốc tế. Số lượng đảng viên đông hoặc lãnh đạo chính phủ không phải tên nguyên tắc trong danh mục này.",
+          "keywords": [
+            "nhân dân",
+            "đoàn kết quốc tế"
+          ]
         }
       ]
     },
@@ -1749,6 +2474,37 @@
           "pdfPage": 80,
           "section": "Đảng là đạo đức, là văn minh",
           "evidence": "Quan điểm Đảng ta là đạo đức, là văn minh được nêu trong bài nói kỷ niệm 30 năm thành lập Đảng, năm 1960."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 79,
+          "section": "Đảng là đạo đức, là văn minh",
+          "evidence": "Diễn giải phần Đảng là đạo đức, là văn minh; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 81,
+          "section": "Đảng là đạo đức, là văn minh",
+          "evidence": "Diễn giải phần Đảng là đạo đức, là văn minh; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Nội dung",
+          "text": "Đảng đạo đức, văn minh ở mục tiêu giải phóng dân tộc, xã hội, giai cấp và con người; tổ chức trong sạch, đường lối đúng và cán bộ gương mẫu, phục vụ nhân dân.",
+          "keywords": [
+            "giải phóng",
+            "trong sạch",
+            "phục vụ nhân dân"
+          ]
+        },
+        {
+          "title": "Sự kiện",
+          "text": "Câu Đảng ta là đạo đức, là văn minh được nêu tại lễ kỷ niệm 30 năm thành lập Đảng, năm 1960.",
+          "keywords": [
+            "30 năm",
+            "1960"
+          ]
         }
       ]
     },
@@ -1756,7 +2512,7 @@
       "id": "three-relations",
       "chapter": 4,
       "title": "Ba quan hệ đạo đức",
-      "summary": "Đạo đức được xem xét trong ba quan hệ: đối với mình, đối với người và đối với việc.",
+      "summary": "Đạo đức được xem xét trên mọi lĩnh vực, phạm vi, đối tượng; tập trung trong ba quan hệ đối với mình, đối với người và đối với việc.",
       "keywords": [
         "đối với mình",
         "đối với người",
@@ -1810,7 +2566,7 @@
         "do dân",
         "vì dân"
       ],
-      "confusionNote": "Quyền lực → của dân; tạo lập, quản lý → do dân; phục vụ lợi ích → vì dân.",
+      "confusionNote": "Của → quyền lực; do → tạo lập và tham gia quản lý; vì → mục đích phục vụ. Từ nhân dân trong cả ba ý không làm chúng đồng nghĩa.",
       "core": true,
       "references": [
         {
@@ -1818,6 +2574,47 @@
           "pdfPage": 93,
           "section": "Nhà nước của dân, do dân, vì dân",
           "evidence": "Của dân nói về quyền lực thuộc nhân dân; do dân nói về nhân dân tạo lập, tham gia quản lý và đóng góp; vì dân nói về phục vụ lợi ích, nguyện vọng nhân dân, không đặc quyền đặc lợi."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 92,
+          "section": "Nhà nước của dân, do dân, vì dân",
+          "evidence": "Diễn giải phần Nhà nước của dân, do dân, vì dân; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 94,
+          "section": "Nhà nước của dân, do dân, vì dân",
+          "evidence": "Diễn giải phần Nhà nước của dân, do dân, vì dân; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Của dân — quyền lực thuộc ai?",
+          "text": "Mọi quyền lực nhà nước và xã hội thuộc về nhân dân. Nhân dân có quyền kiểm soát, phê bình, bãi miễn người đại diện không còn xứng đáng.",
+          "keywords": [
+            "của dân",
+            "quyền lực",
+            "kiểm soát"
+          ]
+        },
+        {
+          "title": "Do dân — ai tạo lập, tham gia?",
+          "text": "Nhân dân bầu ra, đóng góp, tham gia xây dựng và quản lý Nhà nước. Quyền làm chủ gắn với trách nhiệm, nghĩa vụ công dân.",
+          "keywords": [
+            "do dân",
+            "bầu ra",
+            "tham gia quản lý"
+          ]
+        },
+        {
+          "title": "Vì dân — phục vụ ai?",
+          "text": "Mọi hoạt động phục vụ lợi ích chính đáng của nhân dân; cán bộ vừa lãnh đạo vừa là công bộc, tránh đặc quyền. Việc lợi cho dân hết sức làm, việc hại dân hết sức tránh.",
+          "keywords": [
+            "vì dân",
+            "lợi ích",
+            "công bộc"
+          ]
         }
       ]
     },
@@ -1839,6 +2636,44 @@
           "pdfPage": 91,
           "section": "Bản chất giai cấp công nhân",
           "evidence": "Bản chất giai cấp công nhân thể hiện ở sự lãnh đạo của Đảng, định hướng xã hội chủ nghĩa và nguyên tắc tập trung dân chủ; không chọn tam quyền phân lập trong câu hỏi này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 94,
+          "section": "Bản chất giai cấp công nhân",
+          "evidence": "Diễn giải phần Bản chất giai cấp công nhân; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 95,
+          "section": "Bản chất giai cấp công nhân",
+          "evidence": "Diễn giải phần Bản chất giai cấp công nhân; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 96,
+          "section": "Bản chất giai cấp công nhân",
+          "evidence": "Diễn giải phần Bản chất giai cấp công nhân; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Ba biểu hiện",
+          "text": "Đảng Cộng sản lãnh đạo; định hướng phát triển lên CNXH; tổ chức và hoạt động theo tập trung dân chủ.",
+          "keywords": [
+            "Đảng Cộng sản",
+            "CNXH",
+            "tập trung dân chủ"
+          ]
+        },
+        {
+          "title": "Tính thống nhất",
+          "text": "Bản chất giai cấp công nhân gắn với tính nhân dân, tính dân tộc; trong danh mục này không chọn chế độ tam quyền phân lập.",
+          "keywords": [
+            "giai cấp công nhân",
+            "nhân dân",
+            "dân tộc"
+          ]
         }
       ]
     },
@@ -1860,6 +2695,50 @@
           "pdfPage": 99,
           "section": "Pháp quyền nhân nghĩa",
           "evidence": "Nhà nước pháp quyền nhân nghĩa thượng tôn pháp luật, đồng thời tôn trọng và bảo vệ quyền con người; pháp luật mang tính nhân văn, khuyến thiện."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 96,
+          "section": "Pháp quyền nhân nghĩa",
+          "evidence": "Diễn giải phần Pháp quyền nhân nghĩa; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 97,
+          "section": "Pháp quyền nhân nghĩa",
+          "evidence": "Diễn giải phần Pháp quyền nhân nghĩa; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 98,
+          "section": "Pháp quyền nhân nghĩa",
+          "evidence": "Diễn giải phần Pháp quyền nhân nghĩa; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 100,
+          "section": "Pháp quyền nhân nghĩa",
+          "evidence": "Diễn giải phần Pháp quyền nhân nghĩa; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Hiệu lực pháp lý",
+          "text": "Nhà nước hợp hiến; quản lý bằng hiến pháp, pháp luật và chú trọng thực thi nghiêm minh; có đội ngũ cán bộ, công chức đủ đức, đủ tài.",
+          "keywords": [
+            "hợp hiến",
+            "pháp luật",
+            "đủ đức, đủ tài"
+          ]
+        },
+        {
+          "title": "Pháp quyền nhân nghĩa",
+          "text": "Pháp luật vì con người, bảo vệ quyền con người; khoan hồng người cải tà quy chính nhưng nghiêm trị hành vi hại dân, hại nước. Kết hợp pháp trị với đức trị.",
+          "keywords": [
+            "con người",
+            "pháp trị",
+            "đức trị"
+          ]
         }
       ]
     },
@@ -1873,7 +2752,7 @@
         "hiến pháp dân chủ",
         "hợp hiến, hợp pháp"
       ],
-      "confusionNote": "",
+      "confusionNote": "Tổng tuyển cử, hiến pháp dân chủ → hợp hiến, hợp pháp; quản lý nghiêm minh bằng pháp luật → thượng tôn pháp luật.",
       "core": false,
       "references": [
         {
@@ -1943,6 +2822,25 @@
           "section": "Tập trung dân chủ xuyên suốt",
           "evidence": "Tập trung dân chủ là nguyên tắc cơ bản, xuyên suốt, bao trùm quá trình tồn tại và phát triển của Đảng; tập trung trên nền dân chủ, dân chủ dưới sự chỉ đạo tập trung."
         }
+      ],
+      "learningPoints": [
+        {
+          "title": "Hai mặt gắn bó",
+          "text": "Tập trung trên nền tảng dân chủ; dân chủ dưới sự chỉ đạo tập trung. Cá nhân phục tùng tổ chức, thiểu số phục tùng đa số, cấp dưới phục tùng cấp trên.",
+          "keywords": [
+            "thiểu số phục tùng đa số",
+            "tập trung",
+            "dân chủ"
+          ]
+        },
+        {
+          "title": "Điểm dễ đảo",
+          "text": "Đa số phục tùng thiểu số là phát biểu sai. Không biến tập trung thành độc đoán hoặc dân chủ thành vô tổ chức.",
+          "keywords": [
+            "đa số phục tùng thiểu số",
+            "sai"
+          ]
+        }
       ]
     },
     {
@@ -1975,7 +2873,7 @@
         "ý nghĩa chiến lược",
         "quyết định thành công"
       ],
-      "confusionNote": "",
+      "confusionNote": "Chiến lược nói vai trò lâu dài, quyết định thành công; mục tiêu, nhiệm vụ hàng đầu nói yêu cầu hoạt động. Cả hai đều đúng khi hỏi đúng khía cạnh.",
       "core": true,
       "references": [
         {
@@ -2025,6 +2923,59 @@
           "pdfPage": 116,
           "section": "Mặt trận dân tộc thống nhất",
           "evidence": "Mặt trận dân tộc thống nhất quy tụ các tổ chức và cá nhân yêu nước trong và ngoài nước, là hình thức tổ chức khối đại đoàn kết; Đảng vừa là thành viên vừa lãnh đạo Mặt trận."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 117,
+          "section": "Mặt trận dân tộc thống nhất",
+          "evidence": "Diễn giải phần Mặt trận dân tộc thống nhất; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 118,
+          "section": "Mặt trận dân tộc thống nhất",
+          "evidence": "Diễn giải phần Mặt trận dân tộc thống nhất; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 119,
+          "section": "Mặt trận dân tộc thống nhất",
+          "evidence": "Diễn giải phần Mặt trận dân tộc thống nhất; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 120,
+          "section": "Mặt trận dân tộc thống nhất",
+          "evidence": "Diễn giải phần Mặt trận dân tộc thống nhất; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Hình thức tổ chức",
+          "text": "Quy tụ tổ chức và cá nhân yêu nước trong, ngoài nước; không đồng nhất Mặt trận với cơ quan quyền lực như tòa án.",
+          "keywords": [
+            "tổ chức",
+            "cá nhân yêu nước",
+            "Mặt trận"
+          ]
+        },
+        {
+          "title": "Nguyên tắc hoạt động",
+          "text": "Nền tảng công–nông–trí thức, Đảng lãnh đạo; hiệp thương dân chủ; đoàn kết chân thành, lâu dài, giúp nhau tiến bộ, lấy lợi ích dân tộc và quyền lợi nhân dân làm cơ sở.",
+          "keywords": [
+            "công–nông–trí thức",
+            "hiệp thương dân chủ",
+            "lâu dài"
+          ]
+        },
+        {
+          "title": "Vai trò của Đảng",
+          "text": "Đảng vừa là thành viên, vừa là lực lượng lãnh đạo; thuyết phục, bàn bạc và thống nhất hành động, tránh áp đặt.",
+          "keywords": [
+            "thành viên",
+            "lãnh đạo",
+            "thuyết phục"
+          ]
         }
       ]
     },
@@ -2080,7 +3031,7 @@
         "giải phóng dân tộc",
         "lực lượng tiến bộ"
       ],
-      "confusionNote": "",
+      "confusionNote": "Câu hỏi tên ba nhóm lực lượng phải chọn đúng danh mục; không đồng nhất một tên gọi rộng như chống chủ nghĩa tư bản với tên nhóm trong giáo trình.",
       "core": false,
       "references": [
         {
@@ -2109,6 +3060,44 @@
           "pdfPage": 130,
           "section": "Hai nguyên tắc đoàn kết quốc tế",
           "evidence": "Đoàn kết trên cơ sở thống nhất mục tiêu, lợi ích, có lý có tình; đồng thời giữ độc lập, tự chủ."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 131,
+          "section": "Hai nguyên tắc đoàn kết quốc tế",
+          "evidence": "Diễn giải phần Hai nguyên tắc đoàn kết quốc tế; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 132,
+          "section": "Hai nguyên tắc đoàn kết quốc tế",
+          "evidence": "Diễn giải phần Hai nguyên tắc đoàn kết quốc tế; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 133,
+          "section": "Hai nguyên tắc đoàn kết quốc tế",
+          "evidence": "Diễn giải phần Hai nguyên tắc đoàn kết quốc tế; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Thống nhất và có lý, có tình",
+          "text": "Đoàn kết trên mục tiêu, lợi ích chung; giữ nguyên tắc, tôn trọng nhau, giúp đỡ chân thành.",
+          "keywords": [
+            "mục tiêu",
+            "lợi ích",
+            "có lý, có tình"
+          ]
+        },
+        {
+          "title": "Độc lập, tự chủ",
+          "text": "Tự lực, tự cường, dựa vào sức mình là chính; giúp đỡ quốc tế rất quan trọng nhưng không thay cho nội lực.",
+          "keywords": [
+            "độc lập",
+            "tự chủ",
+            "sức mình"
+          ]
         }
       ]
     },
@@ -2264,7 +3253,7 @@
         "một mặt trận",
         "phục vụ quần chúng"
       ],
-      "confusionNote": "",
+      "confusionNote": "Vai trò khác chức năng. Với câu hỏi tên ba vai trò, sự nghiệp của quần chúng không thay tên phục vụ quần chúng; không suy ra quần chúng không sáng tạo văn hóa.",
       "core": true,
       "references": [
         {
@@ -2272,6 +3261,44 @@
           "pdfPage": 144,
           "section": "Ba vai trò văn hóa",
           "evidence": "Văn hóa là mục tiêu, động lực của cách mạng; là một mặt trận; phục vụ quần chúng nhân dân."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 145,
+          "section": "Ba vai trò văn hóa",
+          "evidence": "Diễn giải phần Ba vai trò văn hóa; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 146,
+          "section": "Ba vai trò văn hóa",
+          "evidence": "Diễn giải phần Ba vai trò văn hóa; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Mục tiêu và động lực",
+          "text": "Văn hóa là thành quả cần xây dựng, đồng thời bồi dưỡng tinh thần, ý chí và sức sáng tạo thúc đẩy cách mạng.",
+          "keywords": [
+            "mục tiêu",
+            "động lực"
+          ]
+        },
+        {
+          "title": "Một mặt trận",
+          "text": "Đấu tranh chống lạc hậu, phản động; xây dựng giá trị và con người mới. Văn nghệ sĩ là chiến sĩ trên mặt trận đó.",
+          "keywords": [
+            "mặt trận",
+            "chiến sĩ"
+          ]
+        },
+        {
+          "title": "Phục vụ quần chúng",
+          "text": "Đời sống nhân dân là nguồn chất liệu; sáng tạo văn hóa phải đáp ứng nhu cầu và nâng cao đời sống tinh thần của nhân dân.",
+          "keywords": [
+            "quần chúng",
+            "chất liệu"
+          ]
         }
       ]
     },
@@ -2279,13 +3306,13 @@
       "id": "ethics-standards",
       "chapter": 6,
       "title": "Bốn chuẩn mực đạo đức",
-      "summary": "Chuẩn mực gồm trung với nước, hiếu với dân; cần, kiệm, liêm, chính, chí công vô tư; thương yêu con người, sống có tình nghĩa; tinh thần quốc tế trong sáng.",
+      "summary": "Bốn nhóm chuẩn mực đạo đức cách mạng gồm trung với nước, hiếu với dân; cần, kiệm, liêm, chính, chí công vô tư; thương yêu con người, sống có tình nghĩa; tinh thần quốc tế trong sáng. Xây dựng đạo đức cách mạng trên lập trường giai cấp công nhân.",
       "keywords": [
         "trung với nước, hiếu với dân",
         "cần, kiệm, liêm, chính",
         "tinh thần quốc tế"
       ],
-      "confusionNote": "Chuẩn mực là phẩm chất cần có; nguyên tắc là cách xây dựng và rèn luyện đạo đức.",
+      "confusionNote": "Chuẩn mực → phẩm chất cần có; nguyên tắc → cách xây dựng. Trung với nước, hiếu với dân là chuẩn mực, tu dưỡng suốt đời là nguyên tắc.",
       "core": true,
       "references": [
         {
@@ -2293,6 +3320,70 @@
           "pdfPage": 151,
           "section": "Bốn chuẩn mực đạo đức",
           "evidence": "Chuẩn mực gồm trung với nước, hiếu với dân; cần, kiệm, liêm, chính, chí công vô tư; thương yêu con người, sống có tình nghĩa; tinh thần quốc tế trong sáng."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 150,
+          "section": "Bốn chuẩn mực đạo đức",
+          "evidence": "Diễn giải phần Bốn chuẩn mực đạo đức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 152,
+          "section": "Bốn chuẩn mực đạo đức",
+          "evidence": "Diễn giải phần Bốn chuẩn mực đạo đức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 153,
+          "section": "Bốn chuẩn mực đạo đức",
+          "evidence": "Diễn giải phần Bốn chuẩn mực đạo đức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 154,
+          "section": "Bốn chuẩn mực đạo đức",
+          "evidence": "Diễn giải phần Bốn chuẩn mực đạo đức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Trung với nước, hiếu với dân",
+          "text": "Trung thành với sự nghiệp dựng nước, giữ nước; thương dân, tin dân và hết lòng phục vụ dân. Đây là phẩm chất quan trọng, bao trùm.",
+          "keywords": [
+            "trung với nước",
+            "hiếu với dân",
+            "bao trùm"
+          ]
+        },
+        {
+          "title": "Cần, kiệm, liêm, chính, chí công vô tư",
+          "text": "Lao động siêng năng; tiết kiệm; trong sạch; ngay thẳng; đặt lợi ích chung lên trước lợi ích riêng, công bằng, không tư lợi.",
+          "keywords": [
+            "cần",
+            "kiệm",
+            "liêm",
+            "chính",
+            "chí công vô tư"
+          ]
+        },
+        {
+          "title": "Thương yêu con người",
+          "text": "Sống có tình nghĩa, nhất là với người lao động, người bị áp bức; nghiêm với mình, rộng lượng với người, giúp nhau tiến bộ.",
+          "keywords": [
+            "thương yêu",
+            "tình nghĩa",
+            "tiến bộ"
+          ]
+        },
+        {
+          "title": "Quốc tế trong sáng",
+          "text": "Đoàn kết với nhân dân lao động, các dân tộc bị áp bức và lực lượng tiến bộ; chống phân biệt, hẹp hòi, hướng tới hòa bình, công lý.",
+          "keywords": [
+            "quốc tế",
+            "đoàn kết",
+            "hòa bình"
+          ]
         }
       ]
     },
@@ -2314,6 +3405,52 @@
           "pdfPage": 155,
           "section": "Ba nguyên tắc xây dựng đạo đức",
           "evidence": "Ba nguyên tắc là nói đi đôi với làm, nêu gương đạo đức; xây đi đôi với chống; tu dưỡng đạo đức suốt đời."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 154,
+          "section": "Ba nguyên tắc xây dựng đạo đức",
+          "evidence": "Diễn giải phần Ba nguyên tắc xây dựng đạo đức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 156,
+          "section": "Ba nguyên tắc xây dựng đạo đức",
+          "evidence": "Diễn giải phần Ba nguyên tắc xây dựng đạo đức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 157,
+          "section": "Ba nguyên tắc xây dựng đạo đức",
+          "evidence": "Diễn giải phần Ba nguyên tắc xây dựng đạo đức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Nói đi đôi với làm, nêu gương",
+          "text": "Lời nói thống nhất hành động; người có trách nhiệm phải tự mình làm gương, tránh nói một đằng làm một nẻo.",
+          "keywords": [
+            "nói đi đôi với làm",
+            "nêu gương"
+          ]
+        },
+        {
+          "title": "Xây đi đôi với chống",
+          "text": "Bồi dưỡng phẩm chất tốt đồng thời đấu tranh với thói xấu; kết hợp thành phong trào quần chúng rộng rãi.",
+          "keywords": [
+            "xây",
+            "chống",
+            "phong trào quần chúng"
+          ]
+        },
+        {
+          "title": "Tu dưỡng suốt đời",
+          "text": "Rèn luyện bền bỉ hằng ngày trong hoạt động thực tiễn và các quan hệ xã hội; đạo đức không tự có sẵn hay rèn một lần là đủ.",
+          "keywords": [
+            "suốt đời",
+            "thực tiễn",
+            "quan hệ xã hội"
+          ]
         }
       ]
     },
@@ -2356,6 +3493,46 @@
           "pdfPage": 159,
           "section": "Con người vừa mục tiêu vừa động lực",
           "evidence": "Con người vừa là mục tiêu vừa là động lực của cách mạng; khi ngân hàng chỉ đưa một vế đúng thì chọn vế đó, khi hỏi đầy đủ phải nhớ cả hai."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 160,
+          "section": "Con người vừa mục tiêu vừa động lực",
+          "evidence": "Diễn giải phần Con người vừa mục tiêu vừa động lực; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 161,
+          "section": "Con người vừa mục tiêu vừa động lực",
+          "evidence": "Diễn giải phần Con người vừa mục tiêu vừa động lực; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Mục tiêu",
+          "text": "Cách mạng nhằm độc lập cho đất nước, tự do cho đồng bào, ai cũng có cơm ăn, áo mặc, được học hành; giải phóng và phát triển con người.",
+          "keywords": [
+            "mục tiêu",
+            "cơm ăn",
+            "áo mặc",
+            "học hành"
+          ]
+        },
+        {
+          "title": "Động lực",
+          "text": "Nhân dân là chủ thể tạo nên thắng lợi; con người là vốn quý nhất, nhân tố quyết định, cần phát huy quyền làm chủ và sức sáng tạo.",
+          "keywords": [
+            "động lực",
+            "vốn quý nhất",
+            "quyết định"
+          ]
+        },
+        {
+          "title": "Di chúc",
+          "text": "Đầu tiên là công việc đối với con người: chăm lo con người, bồi dưỡng thế hệ cách mạng kế tiếp và khắc phục hậu quả chiến tranh.",
+          "keywords": [
+            "công việc đối với con người"
+          ]
         }
       ]
     },
@@ -2436,7 +3613,7 @@
         "vận dụng và phát triển sáng tạo",
         "điều kiện cụ thể"
       ],
-      "confusionNote": "",
+      "confusionNote": "Toàn diện, sâu sắc nói về hệ thống quan điểm; vận dụng, phát triển sáng tạo nói về cách tiếp thu Mác–Lênin. Không học thành sao chép nguyên xi.",
       "core": false,
       "references": [
         {
@@ -2527,6 +3704,26 @@
           "pdfPage": 25,
           "section": "Văn hóa phương Tây",
           "evidence": "Tự do, bình đẳng, bác ái gắn với Cách mạng Pháp; các nhà Khai sáng Pháp thuộc văn hóa phương Tây. Không xếp các giá trị này vào văn hóa phương Đông."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Nhận diện phương Tây",
+          "text": "Tự do, bình đẳng, bác ái gắn với Cách mạng Pháp; tư tưởng Khai sáng Pháp, triết học Hy Lạp và lòng nhân ái Kitô giáo thuộc các nguồn văn hóa phương Tây được xét trong ngân hàng.",
+          "keywords": [
+            "tự do, bình đẳng, bác ái",
+            "Pháp",
+            "phương Tây"
+          ]
+        },
+        {
+          "title": "Tránh ghép sai",
+          "text": "Không chuyển tư tưởng các nhà Khai sáng Pháp thành các nhà Khai sáng Anh; không xếp triết học Hy Lạp vào phương Đông. Với câu hỏi danh mục phương Đông, bám các học thuyết được giáo trình nêu.",
+          "keywords": [
+            "Pháp",
+            "Anh",
+            "phương Đông"
+          ]
         }
       ]
     },
@@ -2705,7 +3902,7 @@
         "gắn liền",
         "chủ nghĩa xã hội"
       ],
-      "confusionNote": "",
+      "confusionNote": "Độc lập là tiền đề; CNXH bảo đảm độc lập vững chắc. Không bỏ một trong hai mục tiêu.",
       "core": false,
       "references": [
         {
@@ -2713,6 +3910,46 @@
           "pdfPage": 70,
           "section": "Độc lập gắn với CNXH",
           "evidence": "Nội dung cốt lõi là độc lập dân tộc gắn liền với chủ nghĩa xã hội. Kiên trì con đường Hồ Chí Minh lựa chọn là kiên định cả hai mục tiêu."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 71,
+          "section": "Độc lập gắn với CNXH",
+          "evidence": "Diễn giải phần Độc lập gắn với CNXH; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 72,
+          "section": "Độc lập gắn với CNXH",
+          "evidence": "Diễn giải phần Độc lập gắn với CNXH; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Độc lập là tiền đề",
+          "text": "Giành độc lập để nhân dân làm chủ, có điều kiện xây dựng xã hội mới và đi lên CNXH.",
+          "keywords": [
+            "độc lập",
+            "tiền đề"
+          ]
+        },
+        {
+          "title": "CNXH bảo đảm độc lập",
+          "text": "Xây dựng CNXH tạo cơ sở bảo vệ độc lập vững chắc, đồng thời giải phóng giai cấp và con người, đem lại đời sống tự do, hạnh phúc.",
+          "keywords": [
+            "CNXH",
+            "vững chắc",
+            "hạnh phúc"
+          ]
+        },
+        {
+          "title": "Giữ cả hai mục tiêu",
+          "text": "Cách mạng giải phóng dân tộc tiến lên cách mạng xã hội chủ nghĩa; thống nhất lập trường giai cấp, độc lập dân tộc và đoàn kết quốc tế.",
+          "keywords": [
+            "giải phóng dân tộc",
+            "xã hội chủ nghĩa",
+            "đoàn kết quốc tế"
+          ]
         }
       ]
     },
@@ -2865,7 +4102,7 @@
       "id": "nationalism",
       "chapter": 3,
       "title": "Chủ nghĩa dân tộc chân chính",
-      "summary": "Chủ nghĩa dân tộc được đánh giá là động lực lớn là chủ nghĩa yêu nước, dân tộc chân chính của người dân mất nước, không phải dân tộc hẹp hòi hay sôvanh.",
+      "summary": "Chủ nghĩa dân tộc chân chính, tức chủ nghĩa yêu nước của dân tộc bị áp bức, là động lực lớn; luận điểm này gắn với Báo cáo về Bắc Kỳ, Trung Kỳ và Nam Kỳ. Phân biệt với dân tộc hẹp hòi, sôvanh.",
       "keywords": [
         "động lực lớn",
         "chân chính",
@@ -2900,6 +4137,32 @@
           "pdfPage": 36,
           "section": "Những trở lực cần chống",
           "evidence": "Phải chống chủ nghĩa cá nhân, tham ô, lãng phí, quan liêu và chia rẽ, mất đoàn kết; đây là những trở lực làm suy yếu công cuộc xây dựng CNXH."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 63,
+          "section": "Những trở lực cần chống",
+          "evidence": "Diễn giải phần Những trở lực cần chống; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Các trở lực",
+          "text": "Chủ nghĩa cá nhân, tham ô, lãng phí, quan liêu, chia rẽ, bảo thủ và lười biếng làm suy yếu xây dựng CNXH. Chủ nghĩa cá nhân là nguồn gây nhiều căn bệnh khác.",
+          "keywords": [
+            "chủ nghĩa cá nhân",
+            "tham ô",
+            "quan liêu"
+          ]
+        },
+        {
+          "title": "Phân biệt đối tượng đấu tranh",
+          "text": "Giải phóng phải chống áp bức, đế quốc, thực dân, tay sai và nghèo nàn, lạc hậu. Không hiểu giải phóng giai cấp là đánh đổ mọi cá nhân thuộc tầng lớp địa chủ, tư sản.",
+          "keywords": [
+            "áp bức",
+            "nghèo nàn, lạc hậu",
+            "không"
+          ]
         }
       ]
     },
@@ -3052,7 +4315,7 @@
       "id": "state-economy",
       "chapter": 3,
       "title": "Kinh tế quốc doanh và hợp tác xã",
-      "summary": "Trong thời kỳ quá độ, ưu tiên phát triển kinh tế quốc doanh; hợp tác xã phải tự nguyện, cùng có lợi, từ thấp đến cao, tránh gò ép.",
+      "summary": "Trong quá độ còn nhiều hình thức sở hữu, thành phần kinh tế; ưu tiên phát triển kinh tế quốc doanh. Cải tạo tư sản dân tộc thành người lao động mới; hợp tác xã tự nguyện, cùng có lợi, từ thấp đến cao, không gò ép.",
       "keywords": [
         "quốc doanh",
         "tự nguyện",
@@ -3128,6 +4391,37 @@
           "pdfPage": 79,
           "section": "Phụng sự Tổ quốc, nhân dân",
           "evidence": "Đảng hoạt động để phụng sự Tổ quốc, phục vụ nhân dân; không có lợi ích riêng ngoài lợi ích của giai cấp, nhân dân và dân tộc."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 86,
+          "section": "Phụng sự Tổ quốc, nhân dân",
+          "evidence": "Diễn giải phần Phụng sự Tổ quốc, nhân dân; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 87,
+          "section": "Phụng sự Tổ quốc, nhân dân",
+          "evidence": "Diễn giải phần Phụng sự Tổ quốc, nhân dân; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Mục tiêu và lợi ích",
+          "text": "Phụng sự Tổ quốc, phục vụ nhân dân; không có lợi ích riêng ngoài lợi ích của giai cấp công nhân, nhân dân và dân tộc.",
+          "keywords": [
+            "Tổ quốc",
+            "nhân dân"
+          ]
+        },
+        {
+          "title": "Tư cách người lãnh đạo",
+          "text": "Có đạo đức và năng lực để dân tin, dân mến, dân phục, dân theo; gắn bó với dân, lắng nghe, học hỏi và chịu sự kiểm soát của nhân dân.",
+          "keywords": [
+            "đạo đức",
+            "năng lực",
+            "kiểm soát"
+          ]
         }
       ]
     },
@@ -3149,6 +4443,34 @@
           "pdfPage": 79,
           "section": "Bản chất và lợi ích của Đảng",
           "evidence": "Đảng mang bản chất giai cấp công nhân, đồng thời là Đảng của nhân dân lao động và dân tộc; bản chất thể hiện ở nền tảng lý luận, mục tiêu, đường lối, tổ chức."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Bản chất",
+          "text": "Đảng của giai cấp công nhân, đồng thời của nhân dân lao động và dân tộc Việt Nam; lợi ích giai cấp công nhân thống nhất với lợi ích nhân dân, dân tộc.",
+          "keywords": [
+            "giai cấp công nhân",
+            "nhân dân lao động",
+            "dân tộc"
+          ]
+        },
+        {
+          "title": "Biểu hiện",
+          "text": "Bản chất thể hiện ở nền tảng lý luận Mác–Lênin, mục tiêu, đường lối và nguyên tắc tổ chức; không căn cứ đơn thuần vào số lượng hay thành phần xuất thân.",
+          "keywords": [
+            "nền tảng lý luận",
+            "đường lối",
+            "tổ chức"
+          ]
+        },
+        {
+          "title": "Vai trò giai cấp công nhân",
+          "text": "Xuất phát từ đặc tính, vị trí kinh tế–xã hội của giai cấp công nhân, không phải số lượng đông hoặc ý muốn chủ quan.",
+          "keywords": [
+            "đặc tính",
+            "vị trí kinh tế–xã hội"
+          ]
         }
       ]
     },
@@ -3191,6 +4513,43 @@
           "pdfPage": 1,
           "section": "Lời căn dặn về Đảng trong Di chúc",
           "evidence": "Di chúc yêu cầu giữ Đảng trong sạch, cán bộ thấm nhuần đạo đức cách mạng, giữ đoàn kết như con ngươi của mắt mình; Đảng vừa lãnh đạo vừa phục vụ nhân dân."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 81,
+          "section": "Lời căn dặn về Đảng trong Di chúc",
+          "evidence": "Diễn giải phần Lời căn dặn về Đảng trong Di chúc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 86,
+          "section": "Lời căn dặn về Đảng trong Di chúc",
+          "evidence": "Diễn giải phần Lời căn dặn về Đảng trong Di chúc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 87,
+          "section": "Lời căn dặn về Đảng trong Di chúc",
+          "evidence": "Diễn giải phần Lời căn dặn về Đảng trong Di chúc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Đảng cầm quyền",
+          "text": "Cán bộ, đảng viên phải thấm nhuần đạo đức cách mạng, cần kiệm liêm chính, chí công vô tư; Đảng vừa là người lãnh đạo vừa là người đầy tớ trung thành của nhân dân.",
+          "keywords": [
+            "đạo đức cách mạng",
+            "lãnh đạo",
+            "đầy tớ"
+          ]
+        },
+        {
+          "title": "Đoàn kết và chỉnh đốn",
+          "text": "Giữ đoàn kết như con ngươi của mắt mình; sau thắng lợi phải tiếp tục chỉnh đốn Đảng, ngăn ngừa thoái hóa.",
+          "keywords": [
+            "con ngươi",
+            "chỉnh đốn Đảng"
+          ]
         }
       ]
     },
@@ -3296,6 +4655,37 @@
           "pdfPage": 112,
           "section": "Nền tảng công–nông–trí thức",
           "evidence": "Nền tảng khối đại đoàn kết là liên minh giai cấp công nhân, nông dân và đội ngũ trí thức; đoàn kết phải dựa trên lợi ích dân tộc và quyền lợi chính đáng của nhân dân."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 111,
+          "section": "Nền tảng công–nông–trí thức",
+          "evidence": "Diễn giải phần Nền tảng công–nông–trí thức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 113,
+          "section": "Nền tảng công–nông–trí thức",
+          "evidence": "Diễn giải phần Nền tảng công–nông–trí thức; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Lực lượng rộng rãi",
+          "text": "Đoàn kết mọi người Việt Nam yêu nước, không phân biệt giai cấp, dân tộc, tôn giáo, quá khứ; ai có tài, có đức, có lòng phụng sự đều cần được tập hợp.",
+          "keywords": [
+            "mọi người Việt Nam",
+            "yêu nước"
+          ]
+        },
+        {
+          "title": "Nền tảng và điểm chung",
+          "text": "Công nhân, nông dân, lao động trí óc là nền tảng. Lấy lợi ích tối cao dân tộc và quyền lợi chính đáng nhân dân làm điểm tương đồng.",
+          "keywords": [
+            "công nhân",
+            "nông dân",
+            "trí óc"
+          ]
         }
       ]
     },
@@ -3464,6 +4854,38 @@
           "pdfPage": 101,
           "section": "Ba chức năng văn hóa",
           "evidence": "Ba chức năng: bồi dưỡng tư tưởng, tình cảm; nâng cao dân trí; bồi dưỡng phẩm chất, phong cách, lối sống tốt đẹp."
+        },
+        {
+          "sourceId": "giao-trinh-2009",
+          "pdfPage": 102,
+          "section": "Ba chức năng văn hóa",
+          "evidence": "Diễn giải phần Ba chức năng văn hóa; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Tư tưởng và tình cảm",
+          "text": "Bồi dưỡng tư tưởng đúng đắn và tình cảm cao đẹp, hướng con người tới chân, thiện, mỹ.",
+          "keywords": [
+            "tư tưởng",
+            "tình cảm"
+          ]
+        },
+        {
+          "title": "Dân trí",
+          "text": "Mở rộng hiểu biết, nâng cao trình độ dân trí để nhân dân tham gia xây dựng đất nước.",
+          "keywords": [
+            "nâng cao dân trí"
+          ]
+        },
+        {
+          "title": "Phẩm chất và lối sống",
+          "text": "Bồi dưỡng phẩm chất, phong cách và lối sống tốt đẹp, lành mạnh; hướng con người tới những giá trị tốt.",
+          "keywords": [
+            "phẩm chất",
+            "phong cách",
+            "lối sống"
+          ]
         }
       ]
     },
@@ -3485,6 +4907,47 @@
           "pdfPage": 148,
           "section": "Đạo đức là gốc",
           "evidence": "Đạo đức là gốc, nền tảng của người cách mạng; đức và tài phải gắn bó. Tài giỏi mà thiếu đạo đức thì không lãnh đạo được nhân dân."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 147,
+          "section": "Đạo đức là gốc",
+          "evidence": "Diễn giải phần Đạo đức là gốc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 149,
+          "section": "Đạo đức là gốc",
+          "evidence": "Diễn giải phần Đạo đức là gốc; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Gốc và sức mạnh tinh thần",
+          "text": "Đạo đức giúp người cách mạng gánh việc nặng, đi đường dài, giữ vững phẩm chất trong khó khăn; góp phần tạo sức mạnh tinh thần xã hội.",
+          "keywords": [
+            "đạo đức",
+            "gốc",
+            "sức mạnh tinh thần"
+          ]
+        },
+        {
+          "title": "Đức và tài",
+          "text": "Đức là gốc nhưng phải gắn với tài, năng lực làm việc. Có tài mà thiếu đạo đức không đủ để lãnh đạo nhân dân; có đức cần rèn tài để hoàn thành nhiệm vụ.",
+          "keywords": [
+            "đức",
+            "tài",
+            "năng lực"
+          ]
+        },
+        {
+          "title": "Đối với xã hội",
+          "text": "Đạo đức là thước đo lòng cao thượng, vũ khí tinh thần trong đấu tranh cách mạng và nhân tố tạo sức hấp dẫn của CNXH.",
+          "keywords": [
+            "thước đo",
+            "vũ khí",
+            "sức hấp dẫn"
+          ]
         }
       ]
     },
@@ -3534,7 +4997,7 @@
       "id": "human-specific",
       "chapter": 6,
       "title": "Con người cụ thể, lịch sử",
-      "summary": "Hồ Chí Minh xem xét con người cụ thể trong hoàn cảnh lịch sử, quan hệ xã hội cụ thể, không phải con người trừu tượng, phi lịch sử.",
+      "summary": "Con người luôn cụ thể, gắn với hoàn cảnh lịch sử và quan hệ xã hội: hẹp là gia đình, anh em, họ hàng, bạn bè; rộng là đồng bào cả nước, rộng hơn là cả loài người.",
       "keywords": [
         "con người cụ thể",
         "lịch sử",
@@ -3611,6 +5074,38 @@
           "pdfPage": 103,
           "section": "Giáo dục toàn diện",
           "evidence": "Giáo dục phải toàn diện về đức, trí, thể, mỹ, đào tạo người tốt và có ích; học gắn với hành, lý luận gắn với thực tiễn để đạt hiệu quả."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 149,
+          "section": "Giáo dục toàn diện",
+          "evidence": "Diễn giải phần Giáo dục toàn diện; xem cùng các trang liên tiếp được dẫn cho mục này."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 164,
+          "section": "Giáo dục toàn diện",
+          "evidence": "Diễn giải phần Giáo dục toàn diện; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Nội dung và mục tiêu",
+          "text": "Giáo dục toàn diện đức, trí, thể, mỹ; đào tạo người tốt, có ích, kết hợp đạo đức với năng lực.",
+          "keywords": [
+            "đức, trí, thể, mỹ",
+            "có ích"
+          ]
+        },
+        {
+          "title": "Phương châm",
+          "text": "Học đi đôi với hành, lý luận liên hệ thực tiễn, học tập gắn lao động; kết hợp gia đình, nhà trường, xã hội để nâng chất lượng, hiệu quả.",
+          "keywords": [
+            "học đi đôi với hành",
+            "gia đình",
+            "nhà trường",
+            "xã hội"
+          ]
         }
       ]
     },
@@ -3639,7 +5134,7 @@
       "id": "culture-position",
       "chapter": 6,
       "title": "Văn hóa trong đời sống",
-      "summary": "Văn hóa thuộc đời sống tinh thần, kiến trúc thượng tầng; phải gắn với kinh tế, chính trị và xã hội, phục vụ nhiệm vụ chính trị và thúc đẩy kinh tế.",
+      "summary": "Văn hóa thuộc đời sống tinh thần, kiến trúc thượng tầng, được đặt ngang hàng kinh tế, chính trị và xã hội; phải phục vụ nhiệm vụ chính trị, thúc đẩy kinh tế và cùng kinh tế được phát triển để tiến lên CNXH.",
       "keywords": [
         "kiến trúc thượng tầng",
         "kinh tế",
@@ -3674,6 +5169,42 @@
           "pdfPage": 152,
           "section": "Cần, kiệm, liêm, chính",
           "evidence": "Cần, kiệm, liêm, chính là các đức tính gắn với công việc hằng ngày, nền tảng đời sống mới, làm dân tộc giàu về vật chất và mạnh về tinh thần."
+        },
+        {
+          "sourceId": "ptit",
+          "pdfPage": 151,
+          "section": "Cần, kiệm, liêm, chính",
+          "evidence": "Diễn giải phần Cần, kiệm, liêm, chính; xem cùng các trang liên tiếp được dẫn cho mục này."
+        }
+      ],
+      "learningPoints": [
+        {
+          "title": "Cần và kiệm",
+          "text": "Cần là siêng năng, có kế hoạch, sáng tạo, năng suất; kiệm là tiết kiệm thời gian, công sức, của cải, không xa xỉ, không hoang phí.",
+          "keywords": [
+            "cần",
+            "siêng năng",
+            "kiệm",
+            "tiết kiệm"
+          ]
+        },
+        {
+          "title": "Liêm và chính",
+          "text": "Liêm là trong sạch, không tham địa vị, tiền tài; chính là thẳng thắn, đứng đắn trong quan hệ với mình, người và việc.",
+          "keywords": [
+            "liêm",
+            "trong sạch",
+            "chính",
+            "thẳng thắn"
+          ]
+        },
+        {
+          "title": "Chí công vô tư",
+          "text": "Công bằng, đặt việc công và lợi ích chung lên trước, không vì tư lợi. Các phẩm chất gắn bó, không thể coi từng phẩm chất tách rời.",
+          "keywords": [
+            "chí công vô tư",
+            "lợi ích chung"
+          ]
         }
       ]
     },
@@ -3686,7 +5217,7 @@
         "12/4/1928",
         "không được hoạt động"
       ],
-      "confusionNote": "",
+      "confusionNote": "Thư ngày 12/4/1928 nói thiếu tiền, không được hoạt động; thư 1938 xin thoát tình trạng đứng bên ngoài Đảng. Hai câu trích khác nhau.",
       "core": false,
       "references": [
         {
@@ -3968,7 +5499,7 @@
       "id": "illiteracy",
       "chapter": 6,
       "title": "Chống nạn thất học",
-      "summary": "Chống nạn thất học yêu cầu nâng cao dân trí, đặc biệt khuyến khích phụ nữ học tập để tiến kịp nam giới.",
+      "summary": "Bài Chống nạn thất học nhấn mạnh việc cấp tốc nâng cao dân trí sau khi giành độc lập, đặc biệt khuyến khích phụ nữ học tập để tiến kịp nam giới.",
       "keywords": [
         "Chống nạn thất học",
         "dân trí",
@@ -4369,7 +5900,7 @@
         "Tạp chí Học tập",
         "12/1958"
       ],
-      "confusionNote": "",
+      "confusionNote": "Ngọc, vàng → Đạo đức cách mạng (1958); sông, cây → Sửa đổi lối làm việc (1947); T.L. và quét sạch chủ nghĩa cá nhân → bài năm 1969.",
       "core": false,
       "references": [
         {
@@ -42461,5 +43992,983 @@
       "toId": "azota-3eggrt-024",
       "revision": 1
     }
-  ]
+  ],
+  "lessons": {
+    "version": "2026.11.15.1",
+    "chapters": [
+      {
+        "chapter": 1,
+        "sections": [
+          {
+            "id": "c1-khai-niem",
+            "title": "Khái niệm: hiểu đủ các thành phần",
+            "summary": "Nhớ cả bản chất, nguồn gốc và giá trị của tư tưởng Hồ Chí Minh. Khái niệm bàn những vấn đề cơ bản của cách mạng Việt Nam, bao gồm cách mạng dân tộc dân chủ nhân dân và cách mạng xã hội chủ nghĩa.",
+            "conceptIds": [
+              "definition-full",
+              "definition",
+              "purpose"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 9,
+                "section": "Khái niệm: hiểu đủ các thành phần",
+                "evidence": "Nhớ cả bản chất, nguồn gốc và giá trị của tư tưởng Hồ Chí Minh. Khái niệm bàn những vấn đề cơ bản của cách mạng Việt Nam, bao gồm cách mạng dân tộc dân chủ nhân dân và cách mạng xã hội chủ nghĩa."
+              }
+            ]
+          },
+          {
+            "id": "c1-gia-tri",
+            "title": "Vị trí, giá trị và nền tảng tư tưởng",
+            "summary": "Tư tưởng Hồ Chí Minh là tài sản tinh thần của Đảng và dân tộc, soi đường cho cách mạng; cùng chủ nghĩa Mác–Lênin tạo thành nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng.",
+            "conceptIds": [
+              "value-definition",
+              "soi-duong",
+              "foundation"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 9,
+                "section": "Vị trí, giá trị và nền tảng tư tưởng",
+                "evidence": "Tư tưởng Hồ Chí Minh là tài sản tinh thần của Đảng và dân tộc, soi đường cho cách mạng; cùng chủ nghĩa Mác–Lênin tạo thành nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng."
+              }
+            ]
+          },
+          {
+            "id": "c1-nghien-cuu",
+            "title": "Đối tượng, phương pháp và ý nghĩa học tập",
+            "summary": "Đối tượng nghiên cứu gồm hệ thống quan điểm của Hồ Chí Minh và quá trình hiện thực hóa những quan điểm ấy trong cách mạng Việt Nam. Phương pháp trả lời cách nghiên cứu; ý nghĩa học tập trả lời việc học giúp rèn luyện điều gì.",
+            "conceptIds": [
+              "method",
+              "meaning",
+              "theoretical"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 11,
+                "section": "Đối tượng, phương pháp và ý nghĩa học tập",
+                "evidence": "Đối tượng nghiên cứu gồm hệ thống quan điểm của Hồ Chí Minh và quá trình hiện thực hóa những quan điểm ấy trong cách mạng Việt Nam. Phương pháp trả lời cách nghiên cứu; ý nghĩa học tập trả lời việc học giúp rèn luyện điều gì."
+              }
+            ]
+          },
+          {
+            "id": "c1-dai-hoi",
+            "title": "Nhận diện Đại hội qua cụm từ đặc trưng",
+            "summary": "Ghép đúng số Đại hội, năm và nội dung khẳng định. Phân biệt lần khẳng định nền tảng tư tưởng ở Đại hội VII với cách trình bày khái niệm đầy đủ ở Đại hội XI.",
+            "conceptIds": [
+              "congress2",
+              "congress4",
+              "congress5",
+              "congress6",
+              "congress7",
+              "congress11"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 6,
+                "section": "Nhận diện Đại hội qua cụm từ đặc trưng",
+                "evidence": "Ghép đúng số Đại hội, năm và nội dung khẳng định. Phân biệt lần khẳng định nền tảng tư tưởng ở Đại hội VII với cách trình bày khái niệm đầy đủ ở Đại hội XI."
+              }
+            ]
+          },
+          {
+            "id": "c1-ghi-nhan",
+            "title": "Điếu văn và ghi nhận của UNESCO",
+            "summary": "Phân biệt văn kiện trong nước với nghị quyết UNESCO; phân biệt năm thông qua nghị quyết với năm kỷ niệm 100 năm ngày sinh.",
+            "conceptIds": [
+              "eulogy",
+              "unesco"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 7,
+                "section": "Điếu văn và ghi nhận của UNESCO",
+                "evidence": "Phân biệt văn kiện trong nước với nghị quyết UNESCO; phân biệt năm thông qua nghị quyết với năm kỷ niệm 100 năm ngày sinh."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": 2,
+        "sections": [
+          {
+            "id": "c2-thuc-tien",
+            "title": "Bối cảnh Việt Nam và thế giới",
+            "summary": "Cơ sở thực tiễn là hoàn cảnh xã hội và yêu cầu giải phóng dân tộc. Cần phân biệt bối cảnh này với các nguồn tư tưởng–lý luận và phẩm chất chủ quan của Hồ Chí Minh.",
+            "conceptIds": [
+              "origins-all",
+              "practical",
+              "invasion",
+              "patenotre",
+              "colonial",
+              "classes",
+              "dong-du",
+              "nghia-thuc",
+              "predecessors",
+              "world-contradictions",
+              "october",
+              "comintern"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 18,
+                "section": "Bối cảnh Việt Nam và thế giới",
+                "evidence": "Cơ sở thực tiễn là hoàn cảnh xã hội và yêu cầu giải phóng dân tộc. Cần phân biệt bối cảnh này với các nguồn tư tưởng–lý luận và phẩm chất chủ quan của Hồ Chí Minh."
+              }
+            ]
+          },
+          {
+            "id": "c2-truyen-thong",
+            "title": "Truyền thống dân tộc và tinh hoa phương Đông",
+            "summary": "Chủ nghĩa yêu nước là dòng chảy chính của truyền thống dân tộc. Các học thuyết được tiếp thu có chọn lọc: không đồng nhất toàn bộ Nho giáo, Phật giáo, Lão giáo hay Tam dân với tư tưởng Hồ Chí Minh.",
+            "conceptIds": [
+              "patriotism",
+              "eastern",
+              "confucius",
+              "buddhism",
+              "lao-tu",
+              "tam-dan",
+              "tam-dan-fit"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 22,
+                "section": "Truyền thống dân tộc và tinh hoa phương Đông",
+                "evidence": "Chủ nghĩa yêu nước là dòng chảy chính của truyền thống dân tộc. Các học thuyết được tiếp thu có chọn lọc: không đồng nhất toàn bộ Nho giáo, Phật giáo, Lão giáo hay Tam dân với tư tưởng Hồ Chí Minh."
+              }
+            ]
+          },
+          {
+            "id": "c2-mac-lenin",
+            "title": "Phương Tây và vai trò quyết định của Mác–Lênin",
+            "summary": "Phân biệt các giá trị nhân văn phương Tây với chủ nghĩa Mác–Lênin: nguồn sau cung cấp thế giới quan, phương pháp luận và có vai trò quyết định trong bước chuyển sang lập trường cộng sản.",
+            "conceptIds": [
+              "west",
+              "jesus",
+              "theoretical",
+              "marx-method",
+              "lenin-core",
+              "lenin-colonies",
+              "lenin-path",
+              "marx-humanity",
+              "oriental-marx"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 25,
+                "section": "Phương Tây và vai trò quyết định của Mác–Lênin",
+                "evidence": "Phân biệt các giá trị nhân văn phương Tây với chủ nghĩa Mác–Lênin: nguồn sau cung cấp thế giới quan, phương pháp luận và có vai trò quyết định trong bước chuyển sang lập trường cộng sản."
+              }
+            ]
+          },
+          {
+            "id": "c2-chu-quan",
+            "title": "Nhân tố chủ quan của Hồ Chí Minh",
+            "summary": "Các điều kiện khách quan không tự chuyển thành tư tưởng: phẩm chất, tư duy độc lập và hoạt động thực tiễn của Hồ Chí Minh quyết định cách tiếp thu, vận dụng sáng tạo.",
+            "conceptIds": [
+              "subjective"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 27,
+                "section": "Nhân tố chủ quan của Hồ Chí Minh",
+                "evidence": "Các điều kiện khách quan không tự chuyển thành tư tưởng: phẩm chất, tư duy độc lập và hoạt động thực tiễn của Hồ Chí Minh quyết định cách tiếp thu, vận dụng sáng tạo."
+              }
+            ]
+          },
+          {
+            "id": "c2-giai-doan",
+            "title": "Năm giai đoạn: nhớ mốc kèm nội dung",
+            "summary": "Học theo khung giai đoạn của giáo trình đang dùng. Nhớ đặc điểm tư tưởng của từng giai đoạn, không chỉ thuộc năm; đặc biệt phân biệt tìm đường với hình thành nội dung cơ bản và vượt thử thách.",
+            "conceptIds": [
+              "phases",
+              "phase1",
+              "phase2",
+              "phase3",
+              "phase4"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 28,
+                "section": "Năm giai đoạn: nhớ mốc kèm nội dung",
+                "evidence": "Học theo khung giai đoạn của giáo trình đang dùng. Nhớ đặc điểm tư tưởng của từng giai đoạn, không chỉ thuộc năm; đặc biệt phân biệt tìm đường với hình thành nội dung cơ bản và vượt thử thách."
+              }
+            ]
+          },
+          {
+            "id": "c2-1911-1920",
+            "title": "Trước 1920: từ chí hướng cứu nước đến con đường vô sản",
+            "summary": "Các dấu mốc cần nối thành quá trình: trải nghiệm trước khi ra đi, khảo sát các nước, hoạt động ở Pháp, gửi Yêu sách, đọc Luận cương và lựa chọn con đường cách mạng vô sản.",
+            "conceptIds": [
+              "tax1908",
+              "duc-thanh-years",
+              "departure",
+              "usa-years",
+              "uk-years",
+              "jobs",
+              "versailles",
+              "demands1919",
+              "socialist-party",
+              "lenin-theses",
+              "tours",
+              "vo-san"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 30,
+                "section": "Trước 1920: từ chí hướng cứu nước đến con đường vô sản",
+                "evidence": "Các dấu mốc cần nối thành quá trình: trải nghiệm trước khi ra đi, khảo sát các nước, hoạt động ở Pháp, gửi Yêu sách, đọc Luận cương và lựa chọn con đường cách mạng vô sản."
+              }
+            ]
+          },
+          {
+            "id": "c2-1920-1930",
+            "title": "1920–1930: chuẩn bị tư tưởng, chính trị và tổ chức",
+            "summary": "Gắn tác phẩm, tổ chức và hoạt động với quá trình chuẩn bị thành lập Đảng. Với câu hỏi tác phẩm, cần nhớ cả nội dung đặc trưng và năm xuất bản.",
+            "conceptIds": [
+              "le-paria",
+              "youth1925",
+              "ban-an",
+              "book1925",
+              "leech",
+              "duong-kach-menh",
+              "book1927",
+              "letter1928",
+              "return1928",
+              "death-sentence",
+              "party-founder",
+              "chinh-cuong"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 31,
+                "section": "1920–1930: chuẩn bị tư tưởng, chính trị và tổ chức",
+                "evidence": "Gắn tác phẩm, tổ chức và hoạt động với quá trình chuẩn bị thành lập Đảng. Với câu hỏi tác phẩm, cần nhớ cả nội dung đặc trưng và năm xuất bản."
+              }
+            ]
+          },
+          {
+            "id": "c2-1930-1969",
+            "title": "Vượt thử thách, trở về lãnh đạo và tiếp tục phát triển",
+            "summary": "Từ giai đoạn vượt thử thách đến lãnh đạo cách mạng trong nước, tư tưởng tiếp tục được bổ sung và phát triển. Các câu liên hệ Tuyên ngôn và độc lập năm 1966 vẫn giữ ở chương này theo ngân hàng.",
+            "conceptIds": [
+              "loseby",
+              "letter1938",
+              "return1941",
+              "pac-bo",
+              "vietminh",
+              "history-poem",
+              "army1944",
+              "truong-son",
+              "declaration",
+              "independence1966"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 33,
+                "section": "Vượt thử thách, trở về lãnh đạo và tiếp tục phát triển",
+                "evidence": "Từ giai đoạn vượt thử thách đến lãnh đạo cách mạng trong nước, tư tưởng tiếp tục được bổ sung và phát triển. Các câu liên hệ Tuyên ngôn và độc lập năm 1966 vẫn giữ ở chương này theo ngân hàng."
+              }
+            ]
+          },
+          {
+            "id": "c2-gia-tri",
+            "title": "Giá trị đối với Việt Nam và thế giới",
+            "summary": "Giá trị tư tưởng không kết thúc ở một thời kỳ lịch sử: vừa soi đường cho cách mạng Việt Nam, vừa đóng góp vào tư tưởng và phong trào giải phóng các dân tộc trên thế giới.",
+            "conceptIds": [
+              "value"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 38,
+                "section": "Giá trị đối với Việt Nam và thế giới",
+                "evidence": "Giá trị tư tưởng không kết thúc ở một thời kỳ lịch sử: vừa soi đường cho cách mạng Việt Nam, vừa đóng góp vào tư tưởng và phong trào giải phóng các dân tộc trên thế giới."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": 3,
+        "sections": [
+          {
+            "id": "c3-doc-lap",
+            "title": "Độc lập dân tộc: quyền, nội dung và mục tiêu",
+            "summary": "Độc lập phải thực chất, gắn với quyền sống tự do, hạnh phúc của nhân dân và toàn vẹn lãnh thổ. Trong hoàn cảnh thuộc địa, giải phóng dân tộc là nhiệm vụ trước hết, tạo tiền đề giải phóng giai cấp.",
+            "conceptIds": [
+              "national-liberation",
+              "independence",
+              "declaration",
+              "national-before-class",
+              "national-first",
+              "nationalism",
+              "class-liberation",
+              "tam-dan"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 42,
+                "section": "Độc lập dân tộc: quyền, nội dung và mục tiêu",
+                "evidence": "Độc lập phải thực chất, gắn với quyền sống tự do, hạnh phúc của nhân dân và toàn vẹn lãnh thổ. Trong hoàn cảnh thuộc địa, giải phóng dân tộc là nhiệm vụ trước hết, tạo tiền đề giải phóng giai cấp."
+              }
+            ]
+          },
+          {
+            "id": "c3-giai-phong",
+            "title": "Con đường, lãnh đạo và lực lượng giải phóng dân tộc",
+            "summary": "Nắm trọn năm luận điểm giải phóng dân tộc. Phân biệt con đường vô sản, vai trò lãnh đạo của Đảng, lực lượng toàn dân và tính chủ động của cách mạng thuộc địa.",
+            "conceptIds": [
+              "liberation",
+              "vo-san",
+              "forces-all",
+              "forces-combined",
+              "active-colonies",
+              "bird-wings",
+              "revolution-not-through"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 48,
+                "section": "Con đường, lãnh đạo và lực lượng giải phóng dân tộc",
+                "evidence": "Nắm trọn năm luận điểm giải phóng dân tộc. Phân biệt con đường vô sản, vai trò lãnh đạo của Đảng, lực lượng toàn dân và tính chủ động của cách mạng thuộc địa."
+              }
+            ]
+          },
+          {
+            "id": "c3-bao-luc",
+            "title": "Phương pháp cách mạng và tinh thần hòa bình",
+            "summary": "Bạo lực cách mạng kết hợp đấu tranh chính trị và đấu tranh vũ trang, gắn với nhân đạo, hòa bình. Đường lối kháng chiến dựa vào toàn dân và sức mình là chính.",
+            "conceptIds": [
+              "violence",
+              "peace-violence",
+              "marx-violence",
+              "resistance-line",
+              "chess-strategy"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 52,
+                "section": "Phương pháp cách mạng và tinh thần hòa bình",
+                "evidence": "Bạo lực cách mạng kết hợp đấu tranh chính trị và đấu tranh vũ trang, gắn với nhân đạo, hòa bình. Đường lối kháng chiến dựa vào toàn dân và sức mình là chính."
+              }
+            ]
+          },
+          {
+            "id": "c3-cnxh",
+            "title": "CNXH: cách tiếp cận, mục tiêu và đặc trưng",
+            "summary": "Đích đến là nâng cao đời sống nhân dân. Bốn đặc trưng cần hiểu theo chính trị, kinh tế, văn hóa–xã hội và chủ thể xây dựng; không chỉ nhớ con số bốn.",
+            "conceptIds": [
+              "socialism-approach",
+              "socialism-goal",
+              "socialism",
+              "political-owner",
+              "economy",
+              "distribution",
+              "happiness-science"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 54,
+                "section": "CNXH: cách tiếp cận, mục tiêu và đặc trưng",
+                "evidence": "Đích đến là nâng cao đời sống nhân dân. Bốn đặc trưng cần hiểu theo chính trị, kinh tế, văn hóa–xã hội và chủ thể xây dựng; không chỉ nhớ con số bốn."
+              }
+            ]
+          },
+          {
+            "id": "c3-dong-luc",
+            "title": "Động lực, lợi ích và trở lực",
+            "summary": "Con người là động lực quyết định. Phát huy lợi ích vật chất đi đôi với động lực tinh thần, đồng thời chống chủ nghĩa cá nhân và các biểu hiện làm suy yếu công cuộc xây dựng CNXH.",
+            "conceptIds": [
+              "human-motivation",
+              "khoan",
+              "obstacles"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 62,
+                "section": "Động lực, lợi ích và trở lực",
+                "evidence": "Con người là động lực quyết định. Phát huy lợi ích vật chất đi đôi với động lực tinh thần, đồng thời chống chủ nghĩa cá nhân và các biểu hiện làm suy yếu công cuộc xây dựng CNXH."
+              }
+            ]
+          },
+          {
+            "id": "c3-qua-do",
+            "title": "Thời kỳ quá độ: đặc điểm, nhiệm vụ và bước đi",
+            "summary": "Việt Nam quá độ gián tiếp từ nền nông nghiệp lạc hậu, không trải qua giai đoạn phát triển tư bản chủ nghĩa. Vì vậy phải cải tạo và xây dựng lâu dài, có bước đi phù hợp thực tế.",
+            "conceptIds": [
+              "transition",
+              "progress-need",
+              "transition-tasks",
+              "transition-steps",
+              "industrialization",
+              "agriculture",
+              "state-economy",
+              "foreign-capital"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 64,
+                "section": "Thời kỳ quá độ: đặc điểm, nhiệm vụ và bước đi",
+                "evidence": "Việt Nam quá độ gián tiếp từ nền nông nghiệp lạc hậu, không trải qua giai đoạn phát triển tư bản chủ nghĩa. Vì vậy phải cải tạo và xây dựng lâu dài, có bước đi phù hợp thực tế."
+              }
+            ]
+          },
+          {
+            "id": "c3-quan-he",
+            "title": "Độc lập dân tộc gắn liền với CNXH",
+            "summary": "Độc lập dân tộc là cơ sở, tiền đề đi lên CNXH; CNXH bảo đảm độc lập dân tộc vững chắc. Kiên trì con đường đã lựa chọn phải giữ cả hai mục tiêu trong mối quan hệ gắn bó.",
+            "conceptIds": [
+              "national-socialism"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 70,
+                "section": "Độc lập dân tộc gắn liền với CNXH",
+                "evidence": "Độc lập dân tộc là cơ sở, tiền đề đi lên CNXH; CNXH bảo đảm độc lập dân tộc vững chắc. Kiên trì con đường đã lựa chọn phải giữ cả hai mục tiêu trong mối quan hệ gắn bó."
+              }
+            ]
+          },
+          {
+            "id": "c3-su-kien",
+            "title": "Sự kiện, văn bản và câu nói cần nhận diện",
+            "summary": "Các mốc trong ngân hàng chương này nối tư tưởng độc lập với hoạt động thực tiễn. Ghép đúng sự kiện, thời điểm và văn bản; đọc chính xác từ ngữ của câu trích.",
+            "conceptIds": [
+              "versailles",
+              "lenin-theses",
+              "return1941",
+              "france1946",
+              "van-phuc",
+              "august-call",
+              "independence1966"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 43,
+                "section": "Sự kiện, văn bản và câu nói cần nhận diện",
+                "evidence": "Các mốc trong ngân hàng chương này nối tư tưởng độc lập với hoạt động thực tiễn. Ghép đúng sự kiện, thời điểm và văn bản; đọc chính xác từ ngữ của câu trích."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": 4,
+        "sections": [
+          {
+            "id": "c4-dang-ra-doi",
+            "title": "Sự ra đời, bản chất và vai trò của Đảng",
+            "summary": "Phân biệt ba câu hỏi: Đảng ra đời từ yếu tố nào, mang bản chất gì và có vai trò gì. Cùng nói về Đảng nhưng các cụm từ nguồn gốc, bản chất và nhân tố quyết định không thay thế nhau.",
+            "conceptIds": [
+              "party-birth",
+              "party-class",
+              "party-role",
+              "party-purpose"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 76,
+                "section": "Sự ra đời, bản chất và vai trò của Đảng",
+                "evidence": "Phân biệt ba câu hỏi: Đảng ra đời từ yếu tố nào, mang bản chất gì và có vai trò gì. Cùng nói về Đảng nhưng các cụm từ nguồn gốc, bản chất và nhân tố quyết định không thay thế nhau."
+              }
+            ]
+          },
+          {
+            "id": "c4-nguyen-tac",
+            "title": "Nền tảng và nguyên tắc xây dựng Đảng",
+            "summary": "Đảng phải có chủ nghĩa làm cốt; tổ chức, sinh hoạt theo nguyên tắc, coi trọng chất lượng. Tập trung dân chủ và tự phê bình phải hiểu đúng nội dung, tránh học tên mà đảo ngược cách thực hiện.",
+            "conceptIds": [
+              "party-foundation",
+              "party-principles",
+              "centralism",
+              "criticism",
+              "party-leads-state",
+              "front"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 84,
+                "section": "Nền tảng và nguyên tắc xây dựng Đảng",
+                "evidence": "Đảng phải có chủ nghĩa làm cốt; tổ chức, sinh hoạt theo nguyên tắc, coi trọng chất lượng. Tập trung dân chủ và tự phê bình phải hiểu đúng nội dung, tránh học tên mà đảo ngược cách thực hiện."
+              }
+            ]
+          },
+          {
+            "id": "c4-dao-duc",
+            "title": "Đảng là đạo đức, là văn minh; tự đổi mới, chỉnh đốn",
+            "summary": "Đảng lãnh đạo để phụng sự Tổ quốc, phục vụ nhân dân, phải thường xuyên tự chỉnh đốn. Rèn đạo đức của tổ chức gắn với cán bộ và từng quan hệ cụ thể.",
+            "conceptIds": [
+              "party-civilized",
+              "four-liberations",
+              "party-renewal",
+              "party-dichuc",
+              "three-relations",
+              "lenin-party"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 79,
+                "section": "Đảng là đạo đức, là văn minh; tự đổi mới, chỉnh đốn",
+                "evidence": "Đảng lãnh đạo để phụng sự Tổ quốc, phục vụ nhân dân, phải thường xuyên tự chỉnh đốn. Rèn đạo đức của tổ chức gắn với cán bộ và từng quan hệ cụ thể."
+              }
+            ]
+          },
+          {
+            "id": "c4-can-bo",
+            "title": "Vai trò và yêu cầu đối với cán bộ",
+            "summary": "Cán bộ là gốc của công việc; phải có đạo đức, năng lực và trách nhiệm. Yêu cầu đối với cán bộ phục vụ cách mạng không đồng nhất với việc làm giàu cá nhân.",
+            "conceptIds": [
+              "cadre-role",
+              "cadres"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 88,
+                "section": "Vai trò và yêu cầu đối với cán bộ",
+                "evidence": "Cán bộ là gốc của công việc; phải có đạo đức, năng lực và trách nhiệm. Yêu cầu đối với cán bộ phục vụ cách mạng không đồng nhất với việc làm giàu cá nhân."
+              }
+            ]
+          },
+          {
+            "id": "c4-dan-chu",
+            "title": "Nhà nước của dân, do dân, vì dân và bản chất giai cấp",
+            "summary": "Của dân nói về chủ thể quyền lực; do dân nói về sự tạo lập, tham gia và kiểm soát; vì dân nói về mục đích phục vụ. Bản chất giai cấp công nhân thống nhất với tính nhân dân và tính dân tộc.",
+            "conceptIds": [
+              "democracy",
+              "state-class"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 91,
+                "section": "Nhà nước của dân, do dân, vì dân và bản chất giai cấp",
+                "evidence": "Của dân nói về chủ thể quyền lực; do dân nói về sự tạo lập, tham gia và kiểm soát; vì dân nói về mục đích phục vụ. Bản chất giai cấp công nhân thống nhất với tính nhân dân và tính dân tộc."
+              }
+            ]
+          },
+          {
+            "id": "c4-phap-quyen",
+            "title": "Nhà nước hợp hiến, hợp pháp và pháp quyền nhân nghĩa",
+            "summary": "Phân biệt nền tảng pháp lý của nhà nước với cách quản lý bằng hiến pháp, pháp luật. Pháp quyền phải nghiêm minh và bảo vệ con người, gắn pháp luật với đạo đức.",
+            "conceptIds": [
+              "constitutional",
+              "law"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 96,
+                "section": "Nhà nước hợp hiến, hợp pháp và pháp quyền nhân nghĩa",
+                "evidence": "Phân biệt nền tảng pháp lý của nhà nước với cách quản lý bằng hiến pháp, pháp luật. Pháp quyền phải nghiêm minh và bảo vệ con người, gắn pháp luật với đạo đức."
+              }
+            ]
+          },
+          {
+            "id": "c4-trong-sach",
+            "title": "Nhà nước trong sạch, vững mạnh",
+            "summary": "Kiểm soát quyền lực, xây dựng đội ngũ cán bộ và phòng chống tiêu cực là yêu cầu thiết thực. Nhớ đúng ba biểu hiện được gọi là giặc nội xâm.",
+            "conceptIds": [
+              "clean-state",
+              "internal-enemy"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 100,
+                "section": "Nhà nước trong sạch, vững mạnh",
+                "evidence": "Kiểm soát quyền lực, xây dựng đội ngũ cán bộ và phòng chống tiêu cực là yêu cầu thiết thực. Nhớ đúng ba biểu hiện được gọi là giặc nội xâm."
+              }
+            ]
+          },
+          {
+            "id": "c4-van-kien",
+            "title": "Tên Đảng, sự kiện và văn bản liên quan",
+            "summary": "Gắn tên gọi với đúng thời điểm; phân biệt lễ ra mắt Đảng Lao động với lễ kỷ niệm 30 năm thành lập Đảng và các lời căn dặn trong Di chúc.",
+            "conceptIds": [
+              "party-names",
+              "party-launch1951",
+              "letter-committees"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 78,
+                "section": "Tên Đảng, sự kiện và văn bản liên quan",
+                "evidence": "Gắn tên gọi với đúng thời điểm; phân biệt lễ ra mắt Đảng Lao động với lễ kỷ niệm 30 năm thành lập Đảng và các lời căn dặn trong Di chúc."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": 5,
+        "sections": [
+          {
+            "id": "c5-vai-tro",
+            "title": "Cơ sở, vai trò và mục tiêu đại đoàn kết",
+            "summary": "Đại đoàn kết vừa là chiến lược quyết định thành công, vừa là mục tiêu, nhiệm vụ hàng đầu. Đây là chính sách lâu dài, xuất phát từ truyền thống và thực tiễn cách mạng.",
+            "conceptIds": [
+              "unity-origins",
+              "unity-role",
+              "unity-goal"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 108,
+                "section": "Cơ sở, vai trò và mục tiêu đại đoàn kết",
+                "evidence": "Đại đoàn kết vừa là chiến lược quyết định thành công, vừa là mục tiêu, nhiệm vụ hàng đầu. Đây là chính sách lâu dài, xuất phát từ truyền thống và thực tiễn cách mạng."
+              }
+            ]
+          },
+          {
+            "id": "c5-luc-luong",
+            "title": "Lực lượng, nền tảng và điều kiện đoàn kết",
+            "summary": "Đoàn kết toàn dân rộng rãi trên nền tảng công nhân–nông dân–trí thức, lấy lợi ích chung làm điểm quy tụ. Không yêu cầu mọi người cùng trình độ hay xóa bỏ các khác biệt.",
+            "conceptIds": [
+              "unity-foundation",
+              "unity-conditions"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 111,
+                "section": "Lực lượng, nền tảng và điều kiện đoàn kết",
+                "evidence": "Đoàn kết toàn dân rộng rãi trên nền tảng công nhân–nông dân–trí thức, lấy lợi ích chung làm điểm quy tụ. Không yêu cầu mọi người cùng trình độ hay xóa bỏ các khác biệt."
+              }
+            ]
+          },
+          {
+            "id": "c5-mat-tran",
+            "title": "Tổ chức Mặt trận và phương thức xây dựng đoàn kết",
+            "summary": "Mặt trận dân tộc thống nhất là hình thức tổ chức khối đại đoàn kết, đặt dưới sự lãnh đạo của Đảng trên nền tảng công–nông–trí thức. Hoạt động theo hiệp thương dân chủ, đoàn kết lâu dài, chân thành, cùng giúp nhau tiến bộ; kết hợp dân vận và xây dựng đoàn thể.",
+            "conceptIds": [
+              "front",
+              "unity-methods",
+              "three-fronts"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 116,
+                "section": "Tổ chức Mặt trận và phương thức xây dựng đoàn kết",
+                "evidence": "Mặt trận dân tộc thống nhất là hình thức tổ chức khối đại đoàn kết, đặt dưới sự lãnh đạo của Đảng trên nền tảng công–nông–trí thức. Hoạt động theo hiệp thương dân chủ, đoàn kết lâu dài, chân thành, cùng giúp nhau tiến bộ; kết hợp dân vận và xây dựng đoàn thể."
+              }
+            ]
+          },
+          {
+            "id": "c5-suc-manh",
+            "title": "Sức mạnh dân tộc kết hợp sức mạnh thời đại",
+            "summary": "Hai nguồn sức mạnh cần kết hợp để tạo sức mạnh tổng hợp; nội lực là chính, ngoại lực quan trọng. Tranh thủ quốc tế luôn gắn với tự lực, tự chủ.",
+            "conceptIds": [
+              "international-role",
+              "nation-strength",
+              "international-strength",
+              "self-reliance"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 122,
+                "section": "Sức mạnh dân tộc kết hợp sức mạnh thời đại",
+                "evidence": "Hai nguồn sức mạnh cần kết hợp để tạo sức mạnh tổng hợp; nội lực là chính, ngoại lực quan trọng. Tranh thủ quốc tế luôn gắn với tự lực, tự chủ."
+              }
+            ]
+          },
+          {
+            "id": "c5-quoc-te",
+            "title": "Lực lượng và nguyên tắc đoàn kết quốc tế",
+            "summary": "Nhớ ba nhóm lực lượng và hai nguyên tắc. Kiên định độc lập, tự chủ nhưng linh hoạt sách lược; đoàn kết trên mục tiêu, lợi ích chung và có lý, có tình.",
+            "conceptIds": [
+              "international-forces",
+              "international-principles",
+              "diplomacy",
+              "democratic-friends",
+              "four-seas"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 126,
+                "section": "Lực lượng và nguyên tắc đoàn kết quốc tế",
+                "evidence": "Nhớ ba nhóm lực lượng và hai nguyên tắc. Kiên định độc lập, tự chủ nhưng linh hoạt sách lược; đoàn kết trên mục tiêu, lợi ích chung và có lý, có tình."
+              }
+            ]
+          },
+          {
+            "id": "c5-moc",
+            "title": "Các mặt trận và sự kiện cần nhớ",
+            "summary": "Tên mặt trận thay đổi theo nhiệm vụ cách mạng. Ghép từng tên gọi với đúng mốc, tránh nhầm Việt Minh với Mặt trận Tổ quốc.",
+            "conceptIds": [
+              "front1939",
+              "vietminh",
+              "front1955",
+              "unity-success"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 117,
+                "section": "Các mặt trận và sự kiện cần nhớ",
+                "evidence": "Tên mặt trận thay đổi theo nhiệm vụ cách mạng. Ghép từng tên gọi với đúng mốc, tránh nhầm Việt Minh với Mặt trận Tổ quốc."
+              }
+            ]
+          },
+          {
+            "id": "c5-khau-hieu",
+            "title": "Phân biệt tác giả khẩu hiệu đoàn kết",
+            "summary": "Cụm từ trong khẩu hiệu giúp nhận diện tác giả: có các dân tộc bị áp bức gắn với Lênin; khẩu hiệu lao động tất cả các nước trong ngân hàng gắn với Hồ Chí Minh.",
+            "conceptIds": [
+              "lenin-slogan",
+              "ho-slogan"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 123,
+                "section": "Phân biệt tác giả khẩu hiệu đoàn kết",
+                "evidence": "Cụm từ trong khẩu hiệu giúp nhận diện tác giả: có các dân tộc bị áp bức gắn với Lênin; khẩu hiệu lao động tất cả các nước trong ngân hàng gắn với Hồ Chí Minh."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": 6,
+        "sections": [
+          {
+            "id": "c6-van-hoa",
+            "title": "Văn hóa: khái niệm, vị trí và các mối quan hệ",
+            "summary": "Phân biệt nghĩa rộng của văn hóa với vị trí văn hóa trong đời sống tinh thần. Quan hệ với chính trị, kinh tế và xã hội là ba cách hỏi khác nhau.",
+            "conceptIds": [
+              "culture-definition",
+              "culture-position",
+              "culture-politics",
+              "culture-economy",
+              "culture-society",
+              "identity"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 139,
+                "section": "Văn hóa: khái niệm, vị trí và các mối quan hệ",
+                "evidence": "Phân biệt nghĩa rộng của văn hóa với vị trí văn hóa trong đời sống tinh thần. Quan hệ với chính trị, kinh tế và xã hội là ba cách hỏi khác nhau."
+              }
+            ]
+          },
+          {
+            "id": "c6-vai-tro",
+            "title": "Tính chất, chức năng và vai trò của văn hóa",
+            "summary": "Tính chất trả lời nền văn hóa mới như thế nào; chức năng trả lời văn hóa bồi dưỡng điều gì; vai trò trả lời văn hóa đóng góp gì cho cách mạng. Văn nghệ là một mặt trận phục vụ nhân dân.",
+            "conceptIds": [
+              "culture-nature",
+              "culture-functions",
+              "culture-role",
+              "artist",
+              "new-life"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 144,
+                "section": "Tính chất, chức năng và vai trò của văn hóa",
+                "evidence": "Tính chất trả lời nền văn hóa mới như thế nào; chức năng trả lời văn hóa bồi dưỡng điều gì; vai trò trả lời văn hóa đóng góp gì cho cách mạng. Văn nghệ là một mặt trận phục vụ nhân dân."
+              }
+            ]
+          },
+          {
+            "id": "c6-dao-duc",
+            "title": "Đạo đức là gốc và quan hệ đức–tài",
+            "summary": "Đạo đức là nền tảng của người cách mạng và sức mạnh tinh thần của xã hội. Chống chủ nghĩa cá nhân nhưng tôn trọng lợi ích cá nhân chính đáng.",
+            "conceptIds": [
+              "ethics-root",
+              "individual-interest",
+              "human-love"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 146,
+                "section": "Đạo đức là gốc và quan hệ đức–tài",
+                "evidence": "Đạo đức là nền tảng của người cách mạng và sức mạnh tinh thần của xã hội. Chống chủ nghĩa cá nhân nhưng tôn trọng lợi ích cá nhân chính đáng."
+              }
+            ]
+          },
+          {
+            "id": "c6-chuan-muc",
+            "title": "Bốn chuẩn mực đạo đức: hiểu từng phẩm chất",
+            "summary": "Chuẩn mực là các phẩm chất cần có. Trung với nước, hiếu với dân giữ vị trí bao trùm; cần, kiệm, liêm, chính, chí công vô tư gắn chặt với hoạt động hằng ngày.",
+            "conceptIds": [
+              "ethics-standards",
+              "highest-ethics",
+              "ethics-life",
+              "chinh-relations",
+              "confucius-liem"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 151,
+                "section": "Bốn chuẩn mực đạo đức: hiểu từng phẩm chất",
+                "evidence": "Chuẩn mực là các phẩm chất cần có. Trung với nước, hiếu với dân giữ vị trí bao trùm; cần, kiệm, liêm, chính, chí công vô tư gắn chặt với hoạt động hằng ngày."
+              }
+            ]
+          },
+          {
+            "id": "c6-nguyen-tac",
+            "title": "Ba nguyên tắc xây dựng đạo đức",
+            "summary": "Nguyên tắc là cách xây dựng, rèn luyện đạo đức: nói đi đôi với làm và nêu gương; xây đi đôi với chống; tu dưỡng suốt đời. Không lẫn chúng với tên chuẩn mực.",
+            "conceptIds": [
+              "ethics-principles",
+              "lifelong"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 155,
+                "section": "Ba nguyên tắc xây dựng đạo đức",
+                "evidence": "Nguyên tắc là cách xây dựng, rèn luyện đạo đức: nói đi đôi với làm và nêu gương; xây đi đôi với chống; tu dưỡng suốt đời. Không lẫn chúng với tên chuẩn mực."
+              }
+            ]
+          },
+          {
+            "id": "c6-con-nguoi",
+            "title": "Quan niệm, vai trò và giải phóng con người",
+            "summary": "Xem con người cụ thể trong hoàn cảnh lịch sử, thống nhất mặt tự nhiên và xã hội. Con người vừa là mục tiêu, vừa là động lực; giải phóng con người hướng tới cá nhân và cả nhân loại.",
+            "conceptIds": [
+              "human-specific",
+              "human-nature",
+              "human-role",
+              "human-liberation",
+              "human-socialist",
+              "final-wish"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 156,
+                "section": "Quan niệm, vai trò và giải phóng con người",
+                "evidence": "Xem con người cụ thể trong hoàn cảnh lịch sử, thống nhất mặt tự nhiên và xã hội. Con người vừa là mục tiêu, vừa là động lực; giải phóng con người hướng tới cá nhân và cả nhân loại."
+              }
+            ]
+          },
+          {
+            "id": "c6-giao-duc",
+            "title": "Giáo dục, xây dựng con người và bồi dưỡng thanh niên",
+            "summary": "Giáo dục toàn diện, học gắn thực hành và học suốt đời nhằm đào tạo người tốt, có ích. Bồi dưỡng thế hệ sau phải kết hợp đạo đức và năng lực, vừa hồng vừa chuyên.",
+            "conceptIds": [
+              "education",
+              "education-all",
+              "education-lifelong",
+              "illiteracy",
+              "young-generation",
+              "youth-spring",
+              "youth-awaken"
+            ],
+            "kind": "knowledge",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 163,
+                "section": "Giáo dục, xây dựng con người và bồi dưỡng thanh niên",
+                "evidence": "Giáo dục toàn diện, học gắn thực hành và học suốt đời nhằm đào tạo người tốt, có ích. Bồi dưỡng thế hệ sau phải kết hợp đạo đức và năng lực, vừa hồng vừa chuyên."
+              }
+            ]
+          },
+          {
+            "id": "c6-tac-pham",
+            "title": "Tác phẩm, bút danh và mốc thời gian",
+            "summary": "Ghép hình ảnh đặc trưng với đúng tác phẩm; phân biệt Sửa đổi lối làm việc, Đạo đức cách mạng và Nâng cao đạo đức cách mạng, quét sạch chủ nghĩa cá nhân.",
+            "conceptIds": [
+              "culture1943",
+              "early-ethics",
+              "ethics1947",
+              "ethics1958",
+              "ethics1969",
+              "new-life1947",
+              "fairness1966"
+            ],
+            "kind": "milestones",
+            "references": [
+              {
+                "sourceId": "ptit",
+                "pdfPage": 148,
+                "section": "Tác phẩm, bút danh và mốc thời gian",
+                "evidence": "Ghép hình ảnh đặc trưng với đúng tác phẩm; phân biệt Sửa đổi lối làm việc, Đạo đức cách mạng và Nâng cao đạo đức cách mạng, quét sạch chủ nghĩa cá nhân."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

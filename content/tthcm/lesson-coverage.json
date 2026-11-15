@@ -1,0 +1,4067 @@
+{
+  "version": "2026.11.15.1",
+  "questionBankVersion": "2026.11.14.dedup.1",
+  "policy": "Xét toàn bộ câu chuẩn; gom ý theo chương của ngân hàng, đối chiếu giáo trình và nguồn đã xác minh. Không đổi chương hoặc đáp án để khớp bài học.",
+  "questionsHash": "eddb39513c368a5b0085ca32f9893c4feefa3c819fdae929ea92502968cbfeb1",
+  "questionCount": 506,
+  "conceptCount": 213,
+  "sectionCount": 45,
+  "chapterCounts": {
+    "1": 30,
+    "2": 123,
+    "3": 115,
+    "4": 105,
+    "5": 52,
+    "6": 81
+  },
+  "questions": [
+    {
+      "questionId": "lms-g1-01",
+      "chapter": 1,
+      "conceptId": "congress2",
+      "sectionId": "c1-dai-hoi",
+      "questionHash": "e829b8c55972509a355cd6efef7d7e33959664999fe274312efc3b5ef6f955c5",
+      "answerText": "Năm 1951"
+    },
+    {
+      "questionId": "lms-g1-02",
+      "chapter": 1,
+      "conceptId": "eulogy",
+      "sectionId": "c1-ghi-nhan",
+      "questionHash": "a50fed11cf284ddc7a19ddfa99766373a7e3834788634475a0a89156942dc904",
+      "answerText": "Năm 1969"
+    },
+    {
+      "questionId": "lms-g1-03",
+      "chapter": 1,
+      "conceptId": "congress4",
+      "sectionId": "c1-dai-hoi",
+      "questionHash": "9ede76418a0f673c09bba61ab2bfa2062d15f53e6d54fae2d6929619f51d500f",
+      "answerText": "Đại hội IV (1976)"
+    },
+    {
+      "questionId": "lms-g1-04",
+      "chapter": 1,
+      "conceptId": "congress5",
+      "sectionId": "c1-dai-hoi",
+      "questionHash": "74e53ceb11bb42cf2301fc2f866075b9df9dcfbdc8c2c9edf1f8a24836c3e43f",
+      "answerText": "Đại hội V (1982)"
+    },
+    {
+      "questionId": "lms-g1-05",
+      "chapter": 1,
+      "conceptId": "congress6",
+      "sectionId": "c1-dai-hoi",
+      "questionHash": "d23bc054a6e09edd4225d0dac145b1dea690f25c8269ead0d558bee50fd56288",
+      "answerText": "Đại hội VI (1986)"
+    },
+    {
+      "questionId": "lms-g1-06",
+      "chapter": 1,
+      "conceptId": "definition",
+      "sectionId": "c1-khai-niem",
+      "questionHash": "da7b9c88673f961d648207f30aa91b6560b0aa996eaf93e566a184eee5e0dee0",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g1-07",
+      "chapter": 1,
+      "conceptId": "meaning",
+      "sectionId": "c1-nghien-cuu",
+      "questionHash": "03c104cda54914e7094fe1a079311ec8d1cafd448b62750eb073a54a7527c1c0",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g1-08",
+      "chapter": 1,
+      "conceptId": "definition",
+      "sectionId": "c1-khai-niem",
+      "questionHash": "45db40815221492ab7e58019d5d134947a48270895bf4129ccd696351dd47a5b",
+      "answerText": "Thời gian hình thành tư tưởng Hồ Chí Minh"
+    },
+    {
+      "questionId": "lms-g1-09",
+      "chapter": 1,
+      "conceptId": "meaning",
+      "sectionId": "c1-nghien-cuu",
+      "questionHash": "27b4e92545bcc1e213f9cc043bec385079af3f894756bcd9603087891fd4378c",
+      "answerText": "Góp phần học tập tốt các môn Lý luận chính trị"
+    },
+    {
+      "questionId": "lms-g1-10",
+      "chapter": 1,
+      "conceptId": "method",
+      "sectionId": "c1-nghien-cuu",
+      "questionHash": "472d334630026f2672ccbe0124a7490339915dce8fe958e09a99af4d0bb90ac1",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g2-01",
+      "chapter": 2,
+      "conceptId": "practical",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "c3556df710a773cbece8fe107e4c76435721910b581297363c0b64eacc786ebe",
+      "answerText": "Thực tiễn xã hội Việt Nam cuối thế kỷ XIX-đầu thế kỷ XX"
+    },
+    {
+      "questionId": "lms-g2-02",
+      "chapter": 2,
+      "conceptId": "theoretical",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "f76969540f8995b85b1e1b87e5b0a2512b1d85211066430448756649a31e2a66",
+      "answerText": "Thực tiễn thế giới cuối thế kỷ XIX-đầu thế kỷ XX"
+    },
+    {
+      "questionId": "lms-g2-03",
+      "chapter": 2,
+      "conceptId": "eastern",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "2e489b7500ef358e419e3ca49edbbf566ca1658690f62abcb7064a505f31c96e",
+      "answerText": "Nho giáo, Phật giáo, Lão giáo"
+    },
+    {
+      "questionId": "lms-g2-04",
+      "chapter": 2,
+      "conceptId": "confucius",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "7311446e6a7382028158ea8c4a39dfed840209403aa195924661fe8c0ea07d35",
+      "answerText": "Sự tu dưỡng đạo đức cá nhân"
+    },
+    {
+      "questionId": "lms-g2-05",
+      "chapter": 2,
+      "conceptId": "jesus",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "09795652960b0586d73b78de791a552c7135014f0af53c67edabf3aa154e85ef",
+      "answerText": "Lòng nhân ái cao cả"
+    },
+    {
+      "questionId": "lms-g2-06",
+      "chapter": 2,
+      "conceptId": "buddhism",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "5836fd504a0a369d7054efc3bf317a128084fdb125408081093ef84770820098",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g2-09",
+      "chapter": 2,
+      "conceptId": "tam-dan",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "068636ef9b16eb44c15e72503dcb1e319944ac6b7019c5abae56d2b1d9d26eb5",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g2-10",
+      "chapter": 2,
+      "conceptId": "subjective",
+      "sectionId": "c2-chu-quan",
+      "questionHash": "327ff0efd9f6b19f04b848c01c19625dc5da5151e4a64e943eed93d1eb2fee27",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g2-11",
+      "chapter": 2,
+      "conceptId": "phase2",
+      "sectionId": "c2-giai-doan",
+      "questionHash": "e1ea2e153b56e53a99d33bdbcb38d4d5a1b3ce16f45d9c8be7f13e279a881788",
+      "answerText": "Hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản"
+    },
+    {
+      "questionId": "lms-g2-12",
+      "chapter": 2,
+      "conceptId": "phase3",
+      "sectionId": "c2-giai-doan",
+      "questionHash": "633cae4d37140cde54bd4456f41b9aad881719a916cc1ce789edafcf87beb4ed",
+      "answerText": "Hình thành những nội dung cơ bản về tư tưởng cách mạng Việt Nam"
+    },
+    {
+      "questionId": "lms-g2-13",
+      "chapter": 2,
+      "conceptId": "phase4",
+      "sectionId": "c2-giai-doan",
+      "questionHash": "8c5feb31e7ff7607c9f00b31aec5540fe03c8a50fe8609925d89c68465cc074d",
+      "answerText": "Vượt qua thử thách, giữ vững đường lối, phương pháp cách mạng Việt Nam đúng đắn, sáng tạo"
+    },
+    {
+      "questionId": "lms-g2-14",
+      "chapter": 2,
+      "conceptId": "leech",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "75ad97c40c5f91cc41602ce95ee19f23e74902955d04b6d168e8ab91938d7e70",
+      "answerText": "Con đỉa có hai vòi"
+    },
+    {
+      "questionId": "lms-g2-15",
+      "chapter": 2,
+      "conceptId": "versailles",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "83aa6bf17ccfabd32dad2a4b244f5bf7f03086bd3c38fb19b9ebbedc92a67b06",
+      "answerText": "“Bản yêu sách của nhân dân Việt Nam”"
+    },
+    {
+      "questionId": "lms-g2-16",
+      "chapter": 2,
+      "conceptId": "lenin-theses",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "4f86fc06badbf6c52fafb68774f7d0ba02f7b4b6be2ffd3bc7da620f580e5a3b",
+      "answerText": "Khi đọc bản “Sơ thảo Lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa”"
+    },
+    {
+      "questionId": "lms-g2-17",
+      "chapter": 2,
+      "conceptId": "phase4",
+      "sectionId": "c2-giai-doan",
+      "questionHash": "24b0ba24487477fbc8a2a6991525ecdcc48394cebdb4b11ed0b5ec760d85d2ea",
+      "answerText": "1930-1941"
+    },
+    {
+      "questionId": "lms-g2-18",
+      "chapter": 2,
+      "conceptId": "phase2",
+      "sectionId": "c2-giai-doan",
+      "questionHash": "09977e353cc2a9589ddf4b6d6305dbadb67a81fc75ce2bb6f30f5acc1a31d631",
+      "answerText": "1911-1920"
+    },
+    {
+      "questionId": "lms-g2-19",
+      "chapter": 2,
+      "conceptId": "vo-san",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "02b0b17a93f0cce5d9c625cd13b689ccaedf7179f8030c20c92fe72b6a1cd1ee",
+      "answerText": "Cách mạng vô sản"
+    },
+    {
+      "questionId": "lms-g2-20",
+      "chapter": 2,
+      "conceptId": "duong-kach-menh",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "f4f42f2eed65b38bdf1f8f3db3f6d4d981513543a621a6ccfbc34034c6e94aca",
+      "answerText": "“Đường Kách mệnh”"
+    },
+    {
+      "questionId": "lms-g2-21",
+      "chapter": 2,
+      "conceptId": "youth1925",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "98e2c4867736dc2a64d0e5cc64340b72d87b01cbe1ffd0c8e6dc1b67c38eb8bc",
+      "answerText": "6/1925"
+    },
+    {
+      "questionId": "lms-g2-22",
+      "chapter": 2,
+      "conceptId": "ban-an",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "417d9a09ad5d86536b7759adf6d96f6b5ee43e0abb491377f43980b1112cfff7",
+      "answerText": "“Bản án chế độ thực dân Pháp”"
+    },
+    {
+      "questionId": "lms-g2-23",
+      "chapter": 2,
+      "conceptId": "vietminh",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "f540e4bab9e25e287d00feea63ed9ef9736d29d0006af359b1a447dc86584bf4",
+      "answerText": "Mặt trận Việt Minh"
+    },
+    {
+      "questionId": "lms-g2-24",
+      "chapter": 2,
+      "conceptId": "army1944",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "f85954fd5afaa599e78f76498b45b9abd9f1cfe88b7f340f1cfb03ec3d87b9b3",
+      "answerText": "Đội Việt Nam tuyên truyền giải phóng quân"
+    },
+    {
+      "questionId": "lms-g2-25",
+      "chapter": 2,
+      "conceptId": "independence1966",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "e364ffbc342e4d2a058afc30ad665bcd5df2a9d60cb482589385888dd9bb6b95",
+      "answerText": "17/7/1966"
+    },
+    {
+      "questionId": "lms-g2-26",
+      "chapter": 2,
+      "conceptId": "value",
+      "sectionId": "c2-gia-tri",
+      "questionHash": "4d3e5ef140f34efed8a3fefce1b5538bf3deb84a1efb10065633217adf8fbf70",
+      "answerText": "Đưa cách mạng giải phóng dân tộc Việt Nam đến thắng lợi và bắt đầu xây dựng một xã hội mới trên đất nước Việt Nam"
+    },
+    {
+      "questionId": "lms-g2-27",
+      "chapter": 2,
+      "conceptId": "value",
+      "sectionId": "c2-gia-tri",
+      "questionHash": "cab42e7ede7d6c1b58ca2cfb3da545d55fedd328e3688c981679d2496d337d1c",
+      "answerText": "Chỉ có giá trị trong một thời kỳ đã qua, không còn ý nghĩa hiện nay"
+    },
+    {
+      "questionId": "lms-g2-28",
+      "chapter": 2,
+      "conceptId": "chinh-cuong",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "abb42d7b697809fb5df3e1edb9a83f86ba360323042359fb1f6b4887392ccd17",
+      "answerText": "Chính cương vắn tắt"
+    },
+    {
+      "questionId": "lms-g2-29",
+      "chapter": 2,
+      "conceptId": "declaration",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "2af76acc4f9101b9f207eeea8c40b528342e913f6708625cc15df40641b14b03",
+      "answerText": "“Tuyên ngôn độc lập”"
+    },
+    {
+      "questionId": "lms-g3-01",
+      "chapter": 3,
+      "conceptId": "independence",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "8fd2f723ef263262f53a334333b31eb5d6f5514d7caf360d8c84d3e2b36c7cec",
+      "answerText": "Độc lập dân tộc gắn liền với việc mở rộng quan hệ đối ngoại"
+    },
+    {
+      "questionId": "lms-g3-02",
+      "chapter": 3,
+      "conceptId": "socialism",
+      "sectionId": "c3-cnxh",
+      "questionHash": "b824b53d495b41767343b15a6ebb68d864f385396efb7bf3635fb47042c5af4c",
+      "answerText": "4"
+    },
+    {
+      "questionId": "lms-g3-03",
+      "chapter": 3,
+      "conceptId": "vo-san",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "ac38782bf22bbaf8ebd6541422168bd88bc3a06acc83b31ab234f4443f979396",
+      "answerText": "Cách mạng vô sản"
+    },
+    {
+      "questionId": "lms-g3-04",
+      "chapter": 3,
+      "conceptId": "declaration",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "2bb86bb34cf32f4d00f511842ea1fe12a206e440e9ea547dda2fe95e4d3b728a",
+      "answerText": "“Tuyên ngôn độc lập”"
+    },
+    {
+      "questionId": "lms-g3-05",
+      "chapter": 3,
+      "conceptId": "violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "f86a39aebf5e4d1a90765525f5676b479ae71bd3dfe0d77e12f210be36814279",
+      "answerText": "Con đường giải phóng dân tộc phải được tiến hành bằng phương pháp bạo động cách mạng"
+    },
+    {
+      "questionId": "lms-g3-06",
+      "chapter": 3,
+      "conceptId": "socialism",
+      "sectionId": "c3-cnxh",
+      "questionHash": "c60127e376a0d7bc3c5a9af50555175daf9d65432364849cd57cf986d8947eea",
+      "answerText": "(1) Về chính trị (2) Về kinh tế (3) Về văn hóa, đạo đức và các quan hệ xã hội (4) Về chủ thể xây dựng CNXH"
+    },
+    {
+      "questionId": "lms-g3-07",
+      "chapter": 3,
+      "conceptId": "economy",
+      "sectionId": "c3-cnxh",
+      "questionHash": "d4c318dcdebfc6dc7f3ca01c7dfce52a42b38edbe63211da5e3f2ef83d7186bd",
+      "answerText": "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu"
+    },
+    {
+      "questionId": "lms-g3-08",
+      "chapter": 3,
+      "conceptId": "socialism",
+      "sectionId": "c3-cnxh",
+      "questionHash": "6f1466f00d68dccba0adf3ce58c1d349716af60b02aa8e4835fdb188b899388a",
+      "answerText": "Là công trình tập thể của nhân dân dưới sự lãnh đạo của Đảng cộng sản"
+    },
+    {
+      "questionId": "lms-g3-09",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "2ec1fdf996d29f214f63667060ef835bfb06662e1313a8ed447b3d4031fa837d",
+      "answerText": "Là thời kỳ cải biến sâu sắc nhất nhưng phức tạp, lâu dài, khó khăn, gian khổ"
+    },
+    {
+      "questionId": "lms-g3-10",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "e26446babac7d7d220d7e4bc0c70a22e1401d4e1879fc28e7db992da933510ff",
+      "answerText": "Từ một nước nông nghiệp lạc hậu tiến thẳng lên CNXH, không trải qua giai đoạn phát triển TBCN"
+    },
+    {
+      "questionId": "lms-g3-11",
+      "chapter": 3,
+      "conceptId": "transition-tasks",
+      "sectionId": "c3-qua-do",
+      "questionHash": "efc25ed2ec1b0ef11ed4ba6d1f1f53d9b01066af44d139ccd63c8ebe9287ab87",
+      "answerText": "(1) Về chính trị (2) Về kinh tế (3) Về văn hóa (4) Về các quan hệ xã hội"
+    },
+    {
+      "questionId": "lms-g3-12",
+      "chapter": 3,
+      "conceptId": "transition-tasks",
+      "sectionId": "c3-qua-do",
+      "questionHash": "f20e13fb29f7830f9f1e77c810caac434014042cfced962b220e5b3f3fabc63c",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g3-13",
+      "chapter": 3,
+      "conceptId": "transition-tasks",
+      "sectionId": "c3-qua-do",
+      "questionHash": "edb451e41edd058c6db264f7ffa7baab16d92cd07cdafef2f0a104b56d85f534",
+      "answerText": "Giữ vững độc lập dân tộc"
+    },
+    {
+      "questionId": "lms-g3-14",
+      "chapter": 3,
+      "conceptId": "transition-tasks",
+      "sectionId": "c3-qua-do",
+      "questionHash": "07e4024babd4be45309f52cb0367597925777f37793b839ff47401eaf38dd82b",
+      "answerText": "Phải đoàn kết, học tập kinh nghiệm của các nước anh em"
+    },
+    {
+      "questionId": "lms-g3-15",
+      "chapter": 3,
+      "conceptId": "human-motivation",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "d4b6ec15c25600f68d71dd7433df2c20ee923752f6b3d2df5b9700e6d3e96166",
+      "answerText": "Con người"
+    },
+    {
+      "questionId": "lms-g4-01",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "d1d2fee754a30972b879d596b7eb1a1771388d026db595e0abcb22b459154929",
+      "answerText": "Vai trò lãnh đạo của Đảng cộng sản"
+    },
+    {
+      "questionId": "lms-g4-02",
+      "chapter": 4,
+      "conceptId": "party-principles",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "1e94b52e09ec1c1970181d78eec824d4201bc7dc75cc03486769fb60c1d2c23f",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-03",
+      "chapter": 4,
+      "conceptId": "front",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "dce96fd655fb3fcc6cd614281ad9dd47ee1e9d8da5d086d2d013b6000d08523b",
+      "answerText": "Đảng Cộng sản Việt Nam vừa là thành viên, vừa là lực lượng lãnh đạo Mặt trận"
+    },
+    {
+      "questionId": "lms-g4-04",
+      "chapter": 4,
+      "conceptId": "party-principles",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "aa9dca2a3f304cf58d409f92d14908c78684a907f67cce55bbdb61c48ea8c3c6",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-05",
+      "chapter": 4,
+      "conceptId": "party-foundation",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "626de7cead211fc61ae8bd6114193f3ce19fa3dc8e604044a90a1da793963047",
+      "answerText": "Đảng phải có nền tảng tư tưởng"
+    },
+    {
+      "questionId": "lms-g4-06",
+      "chapter": 4,
+      "conceptId": "party-renewal",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "d6ea176ad8e7dcc6c0fc378a974b065337208f33e22def105d99b7284015f682",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-07",
+      "chapter": 4,
+      "conceptId": "party-principles",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "becd48f9f792f7d55fd37922ac7731fffcbff39150a4bd07f73af6be2dc7c17a",
+      "answerText": "Số lượng Đảng viên đông"
+    },
+    {
+      "questionId": "lms-g4-08",
+      "chapter": 4,
+      "conceptId": "party-civilized",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "0429499796a9b6d9243899b92b2f437ed1e1d9f5783551f736ecbf29f3dcfecc",
+      "answerText": "Bài nói tại lễ kỷ niệm 30 năm ngày thành lập Đảng"
+    },
+    {
+      "questionId": "lms-g4-09",
+      "chapter": 4,
+      "conceptId": "three-relations",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "05a5b5be437ccf4eaec0f12ccdc4eb113c14dda907a1552114658ddf3526b7e5",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-10",
+      "chapter": 4,
+      "conceptId": "cadres",
+      "sectionId": "c4-can-bo",
+      "questionHash": "327145f7c18b718783518ebfb30eed108c2d967e34dc7f4ceec99c72ad0ff458",
+      "answerText": "Phải biết cách làm giàu"
+    },
+    {
+      "questionId": "lms-g4-11",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "b91ad05f6b10025d1815dcd03397e35a3960cb804d1e3ce967859ad8a11fd9e7",
+      "answerText": "Nhà nước bảo vệ lợi ích giai cấp tư sản"
+    },
+    {
+      "questionId": "lms-g4-12",
+      "chapter": 4,
+      "conceptId": "state-class",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "8ef448c60277ec9c8f85d2c5fee29a8375bd76199b78af8d74a61ee85d6f6d85",
+      "answerText": "Thực hiện chế độ tam quyền phân lập"
+    },
+    {
+      "questionId": "lms-g4-13",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "c27834a4d2ff4464f104eca42636872f06093a23ec582ffcedf3779b0e756da9",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-14",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "bfe3733bbd663b5323c37f97622b3f6a463d2312c15b1ccdf0997dffd59158e1",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-15",
+      "chapter": 4,
+      "conceptId": "law",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "a011af6aef22e1bf5d9699ccb40cc846cccda307782fdc13ed1b3efe3130076c",
+      "answerText": "Nhà nước pháp quyền nhân nghĩa"
+    },
+    {
+      "questionId": "lms-g4-16",
+      "chapter": 4,
+      "conceptId": "clean-state",
+      "sectionId": "c4-trong-sach",
+      "questionHash": "b35e843000cda6f791afc906efcd1ca7e50dca42f48937af7af804bd858f662a",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-17",
+      "chapter": 4,
+      "conceptId": "constitutional",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "c23da0618bdf9e2012a8ed17f23cfa927f17804e69d2cc212936ea35e70a64e2",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-18",
+      "chapter": 4,
+      "conceptId": "clean-state",
+      "sectionId": "c4-trong-sach",
+      "questionHash": "e181d75ae5c4c934e592d98da299edd5d9450fcad3b44aa1b11e6776d06c5b12",
+      "answerText": "Phòng, chống tiêu cực trong nhà nước"
+    },
+    {
+      "questionId": "lms-g4-19",
+      "chapter": 4,
+      "conceptId": "clean-state",
+      "sectionId": "c4-trong-sach",
+      "questionHash": "face8834b67291838ccccb0b48dd0fcf13b491bb98458a962ea2ab5d7f737abc",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g4-20",
+      "chapter": 4,
+      "conceptId": "internal-enemy",
+      "sectionId": "c4-trong-sach",
+      "questionHash": "6915330f1ea830aa79ce4fad3e7771ee0e5c831a8b3e20d89e83b25898c38afc",
+      "answerText": "Tham ô, lãng phí, quan liêu"
+    },
+    {
+      "questionId": "lms-g5-01",
+      "chapter": 5,
+      "conceptId": "unity-role",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "6187fe393681ab77315be12cb736f4493d2eb51c825d61222e6e6f7ceed73893",
+      "answerText": "Là vấn đề có ý nghĩa chiến lược, quyết định thành công của cách mạng"
+    },
+    {
+      "questionId": "lms-g5-02",
+      "chapter": 5,
+      "conceptId": "unity-conditions",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "bffe743a9e5bed9ea817ff7f51c6bd97ef38507958cd503c4dd451f15a8df30b",
+      "answerText": "Phải quy tụ những người cùng chung trình độ, nhận thức"
+    },
+    {
+      "questionId": "lms-g5-03",
+      "chapter": 5,
+      "conceptId": "unity-conditions",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "b89282e250305fa1434123dbb43fdb894bee6bb45dc58f83ee4a32cc216b3b2c",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g5-04",
+      "chapter": 5,
+      "conceptId": "front",
+      "sectionId": "c5-mat-tran",
+      "questionHash": "963dfd99607e94086e6bc425d3a9b280a73d64c5a013baa38c43e254786ae294",
+      "answerText": "Mặt trận là nơi quy tụ các tổ chức và cá nhân yêu nước trong và ngoài nước"
+    },
+    {
+      "questionId": "lms-g5-05",
+      "chapter": 5,
+      "conceptId": "front",
+      "sectionId": "c5-mat-tran",
+      "questionHash": "e3dbe47ccbd9647afda707b20b868228f91919dfb84a64c56094fdb8597552a2",
+      "answerText": "Mặt trận dân tộc thống nhất"
+    },
+    {
+      "questionId": "lms-g5-06",
+      "chapter": 5,
+      "conceptId": "vietminh",
+      "sectionId": "c5-moc",
+      "questionHash": "53c015dc65a262b35202eaad49306a06c413839cd16ab0000190664bb4dbd376",
+      "answerText": "1941"
+    },
+    {
+      "questionId": "lms-g5-07",
+      "chapter": 5,
+      "conceptId": "unity-methods",
+      "sectionId": "c5-mat-tran",
+      "questionHash": "63b626b343300a97b4decfd842bdd073a87b363ea22a85f98adf14251067014c",
+      "answerText": "Thường xuyên tổ chức các hoạt động để tăng cường đoàn kết"
+    },
+    {
+      "questionId": "lms-g5-08",
+      "chapter": 5,
+      "conceptId": "international-role",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "ccdafe5cf882e76a5d2c57bef0463963b92e494c0fdcb24a94e855800ef262ec",
+      "answerText": "Nhằm kết hợp sức mạnh dân tộc với sức mạnh thời đại, tạo sức mạnh tổng hợp cho cách mạng"
+    },
+    {
+      "questionId": "lms-g5-09",
+      "chapter": 5,
+      "conceptId": "international-forces",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "5999e6d24b7ad7a647f06c452d7562e11c4930ae46fef021d51077995d4a77c1",
+      "answerText": "Phong trào không liên kết"
+    },
+    {
+      "questionId": "lms-g5-10",
+      "chapter": 5,
+      "conceptId": "international-principles",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "0a8ba53376818f4e1a5bce28e67c84c9bf84d7f5b335ceee29e13c42d79ffa7f",
+      "answerText": "Đoàn kết trên cơ sở độc lập, tự chủ"
+    },
+    {
+      "questionId": "lms-g6-01",
+      "chapter": 6,
+      "conceptId": "culture1943",
+      "sectionId": "c6-tac-pham",
+      "questionHash": "ca173cec3807f4472e9b8ec22dfeba25c318a5e0a679d6af37d8210b0b63265f",
+      "answerText": "1943"
+    },
+    {
+      "questionId": "lms-g6-02",
+      "chapter": 6,
+      "conceptId": "culture-politics",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "1b4395300b04ad3fb1e31c41d98b44a1a79383c8d1ebaf13142d598eb75c944e",
+      "answerText": "Văn hóa ở trong chính trị"
+    },
+    {
+      "questionId": "lms-g6-03",
+      "chapter": 6,
+      "conceptId": "culture-economy",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "be31f9cb63b7111c1b1c45a783f73f0d3372062b48d6ac4a7c0a786c13d4d209",
+      "answerText": "Văn hóa tác động tích cực trở lại kinh tế"
+    },
+    {
+      "questionId": "lms-g6-04",
+      "chapter": 6,
+      "conceptId": "culture-society",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "54bfccef43258043dd43d243dd36383236d188624a91cf02ff715037f0a3625d",
+      "answerText": "Xã hội thế nào thì văn hóa thế ấy"
+    },
+    {
+      "questionId": "lms-g6-05",
+      "chapter": 6,
+      "conceptId": "identity",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "458cb9e08be0cc2ac09e6b4ae7c320e57d833688f51229940812312a0fe3134a",
+      "answerText": "(1) Lòng yêu nước (2) Tinh thần độc lập, tự cường, tự tôn dân tộc"
+    },
+    {
+      "questionId": "lms-g6-06",
+      "chapter": 6,
+      "conceptId": "identity",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "536851c96e35c85bf685ac0023405b1b5872e7d64eb3734016ecb6dccbe5c296",
+      "answerText": "(1) Ngôn ngữ, phong tục, tập quán (2) Lễ hội truyền thống"
+    },
+    {
+      "questionId": "lms-g6-08",
+      "chapter": 6,
+      "conceptId": "ethics-standards",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "f07b3c0d7aa156db3ed6ce169255e62bcb1b862225cc853d3509de4459552e5d",
+      "answerText": "Sống hài hòa, đảm bảo lợi ích của nhân dân"
+    },
+    {
+      "questionId": "lms-g6-09",
+      "chapter": 6,
+      "conceptId": "ethics-principles",
+      "sectionId": "c6-nguyen-tac",
+      "questionHash": "8bfee92c5ad25e6c9ffa1bccbbef7aff29491adfe012335f3479d10b56016863",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "lms-g6-10",
+      "chapter": 6,
+      "conceptId": "human-role",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "ed8e9124780a960d66725382e50f845a572a67361f260a01715ef1143c45ba7f",
+      "answerText": "Con người là động lực của cách mạng"
+    },
+    {
+      "questionId": "quiz-g1-06",
+      "chapter": 1,
+      "conceptId": "value-definition",
+      "sectionId": "c1-gia-tri",
+      "questionHash": "2a3802dec9f00a9cbe94687c9bde1730a341e1dd4f7bcb2e7d729756add95cdf",
+      "answerText": "Tinh thần"
+    },
+    {
+      "questionId": "quiz-g1-07",
+      "chapter": 1,
+      "conceptId": "theoretical",
+      "sectionId": "c1-nghien-cuu",
+      "questionHash": "6785be4415926da88f6fb97aab14ae5aa75453426b6e0b75b71aa1695a706f83",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "quiz-g1-09",
+      "chapter": 1,
+      "conceptId": "definition",
+      "sectionId": "c1-khai-niem",
+      "questionHash": "b0184beb0dc81351d86bd4efcb9c8c7b1d7808999a5f5f5745eee451b2756e85",
+      "answerText": "Nêu lên quá trình hình thành tư tưởng Hồ Chí Minh"
+    },
+    {
+      "questionId": "quiz-g1-10",
+      "chapter": 1,
+      "conceptId": "meaning",
+      "sectionId": "c1-nghien-cuu",
+      "questionHash": "f377a530deb0c1f8a9ee78cf62d3035506cb98c7382e0ab01c12c07f25112962",
+      "answerText": "Hiểu rõ hơn về con người Hồ Chí Minh"
+    },
+    {
+      "questionId": "quiz-g1-11",
+      "chapter": 1,
+      "conceptId": "congress11",
+      "sectionId": "c1-dai-hoi",
+      "questionHash": "90cad0764e96a522180126654bb1421fc02a2ae38e368d23fd5c98aff3dc13e4",
+      "answerText": "ĐH XI"
+    },
+    {
+      "questionId": "quiz-g2-01",
+      "chapter": 2,
+      "conceptId": "invasion",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "6d4e5efd0749773aa3e256b069abb6cbf98ead5dc430b4a5786d9ee9963aafbe",
+      "answerText": "1/9/1858"
+    },
+    {
+      "questionId": "quiz-g2-02",
+      "chapter": 2,
+      "conceptId": "patenotre",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "8e82f3d0b8b5906ecbb1a8c48d6ea4451d9e7543dae2e68d4dae8b958e242458",
+      "answerText": "Pa - tơ - nốt"
+    },
+    {
+      "questionId": "quiz-g2-03",
+      "chapter": 2,
+      "conceptId": "dong-du",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "910f21b22030d2a6db9f6387ddbb95c9338c144d06aebba89a0f221c03117e9d",
+      "answerText": "Phan Bội Châu"
+    },
+    {
+      "questionId": "quiz-g2-04",
+      "chapter": 2,
+      "conceptId": "nghia-thuc",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "cde21e16986878629c0dd20ee83c8dc2c712b9179707591f347971a1ec130584",
+      "answerText": "Lương Văn Can và Nguyễn Quyền"
+    },
+    {
+      "questionId": "quiz-g2-05",
+      "chapter": 2,
+      "conceptId": "dong-du",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "edc21bc5de7541633d3117f79d0be27e9428c0c0e4246cc79d1e30139e48de1e",
+      "answerText": "Nhật Bản"
+    },
+    {
+      "questionId": "quiz-g2-06",
+      "chapter": 2,
+      "conceptId": "colonial",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "6d9f2ee051ca5b0058318a5a35c766b5e5bec969eb384d5440ce8c81a45786e9",
+      "answerText": "Rượu và thuốc phiện"
+    },
+    {
+      "questionId": "quiz-g2-07",
+      "chapter": 2,
+      "conceptId": "colonial",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "8a2c16e15996434078421f64d5f52c8b4ba0b75fcfb4bdc48cb357132fa4f709",
+      "answerText": "Chính trị"
+    },
+    {
+      "questionId": "quiz-g2-08",
+      "chapter": 2,
+      "conceptId": "classes",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "3bc0d5f2f66676e3d6efb32496f849cc48a9a166151d9e21267b69a2be4ec2d9",
+      "answerText": "5"
+    },
+    {
+      "questionId": "quiz-g2-09",
+      "chapter": 2,
+      "conceptId": "classes",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "1faf32715ae0a47b7641c5491f01b37dea5f93005b9948a1f6e09a10951c9a9e",
+      "answerText": "2"
+    },
+    {
+      "questionId": "quiz-g2-10",
+      "chapter": 2,
+      "conceptId": "dong-du",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "25ce037e8674b79fa59031ad123b25b5e5876b535d6126594a6e7507610bd193",
+      "answerText": "Phong kiến"
+    },
+    {
+      "questionId": "quiz-g3-03",
+      "chapter": 2,
+      "conceptId": "classes",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "97b6e47a274142070cc2004d0b617bc3c0528d9aadccb42509ce198f12a88b51",
+      "answerText": "Xuất hiện 3 giai cấp mới: Công nhân, Tư sản, tiểu tư sản"
+    },
+    {
+      "questionId": "quiz-g3-06",
+      "chapter": 2,
+      "conceptId": "dong-du",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "78099f3298ea741a94bf65c0ba21555d0c24e84beabe22519b4e1ba29a458268",
+      "answerText": "Các sĩ phu, văn thân"
+    },
+    {
+      "questionId": "quiz-g3-08",
+      "chapter": 2,
+      "conceptId": "world-contradictions",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "b2e1de35bc15e7d7a55bdbe3c402a7476582fb9ce2a5c8ccd690ab42dd2d061d",
+      "answerText": "Giữa các dân tộc thuộc địa với nhau"
+    },
+    {
+      "questionId": "quiz-g3-09",
+      "chapter": 2,
+      "conceptId": "comintern",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "84c0e678cdf5d192110e0ca9a46df1ddff9c4cb3372ed357e494ae11abdafc90",
+      "answerText": "1919"
+    },
+    {
+      "questionId": "quiz-g3-10",
+      "chapter": 2,
+      "conceptId": "october",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "0efa19c3f213ac744209257adcd7ae00dbbfe1b8bd091e10a957942769c989d5",
+      "answerText": "1917"
+    },
+    {
+      "questionId": "quiz-g3-12",
+      "chapter": 2,
+      "conceptId": "theoretical",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "b15cc5de14262d922abf26567a949f8cdfa70c9f6e061400d86b9fa79fd6c331",
+      "answerText": "Chủ nghĩa Mác - Lênin"
+    },
+    {
+      "questionId": "quiz-g3-13",
+      "chapter": 2,
+      "conceptId": "buddhism",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "e821e7f390291af74591c999ab1479943337716df11ed665c5817f0dd270c18b",
+      "answerText": "Phật giáo"
+    },
+    {
+      "questionId": "quiz-g3-14",
+      "chapter": 2,
+      "conceptId": "confucius",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "cdb1e8267756b638abb8d6712418fcca85677c965019b3ffa1c638795c0e8099",
+      "answerText": "Nho giáo"
+    },
+    {
+      "questionId": "quiz-g3-16",
+      "chapter": 2,
+      "conceptId": "lao-tu",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "6f5042b4f1e5eb6a7cb7c8681cee065f7de3fb441c858de6983536f22995eea0",
+      "answerText": "Lão Tử"
+    },
+    {
+      "questionId": "quiz-g3-17",
+      "chapter": 2,
+      "conceptId": "buddhism",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "1e0285d96b3ec92cd365ead521d30a4d2335a74ede15d8ee8d49054be9112489",
+      "answerText": "Bình đẳng"
+    },
+    {
+      "questionId": "quiz-g3-18",
+      "chapter": 2,
+      "conceptId": "lenin-core",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "6ba77dcabdc047cb08041216af3c2c64ebdab0b62476d7851dd424450679b0f2",
+      "answerText": "Chủ nghĩa Lênin"
+    },
+    {
+      "questionId": "quiz-g4-01",
+      "chapter": 2,
+      "conceptId": "phases",
+      "sectionId": "c2-giai-doan",
+      "questionHash": "c37fb9d0587ab6ae9b4371c030eb6416a09d6b54ee4e9638280cf7a271ef6af1",
+      "answerText": "5"
+    },
+    {
+      "questionId": "quiz-g4-02",
+      "chapter": 2,
+      "conceptId": "phase1",
+      "sectionId": "c2-giai-doan",
+      "questionHash": "b6ace2ae122ee3f5949ad9affc2dbdf60a0645fd66a8d81f9b3cdf02e57fa040",
+      "answerText": "Trước năm 1911"
+    },
+    {
+      "questionId": "quiz-g4-03",
+      "chapter": 2,
+      "conceptId": "departure",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "cc5265ee5968484e1b1da68eaf8d3ddeec66e22f51199aba7509f1b992596710",
+      "answerText": "5-6-1911"
+    },
+    {
+      "questionId": "quiz-g4-05",
+      "chapter": 2,
+      "conceptId": "phase3",
+      "sectionId": "c2-giai-doan",
+      "questionHash": "092e3d1bc4a52b9ef8f1a19a85643984111ef33df406d91fc90faad617f081fb",
+      "answerText": "1920-1930"
+    },
+    {
+      "questionId": "quiz-g4-08",
+      "chapter": 2,
+      "conceptId": "youth1925",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "74f0a75de680df5aec7522f3b7190d65f0d7008c44046744eedc4ca7ec4682df",
+      "answerText": "Hội Việt Nam cách mạng Thanh niên"
+    },
+    {
+      "questionId": "quiz-g4-10",
+      "chapter": 2,
+      "conceptId": "party-founder",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "8eb3bc105f8583e7c8c8cd85f8ca76c8947884701a9ca886c7532cef3e770a5a",
+      "answerText": "Nguyễn Ái Quốc"
+    },
+    {
+      "questionId": "quiz-g4-11",
+      "chapter": 2,
+      "conceptId": "le-paria",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "d5bdcc9f5d98fa336a9fa465f2c20b8fb9fe9be3851ecaa2451ed066b65f1b89",
+      "answerText": "1922"
+    },
+    {
+      "questionId": "quiz-g4-12",
+      "chapter": 2,
+      "conceptId": "socialist-party",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "7c6bc93dd80735bd9572a447a5b699d3e56e678ec71fe219fcc0c65ba596bb9e",
+      "answerText": "1919"
+    },
+    {
+      "questionId": "quiz-g4-13",
+      "chapter": 2,
+      "conceptId": "versailles",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "e4e1fe19f71663927320d1436aea05d505875b11217c61037dcdaa9faf915b99",
+      "answerText": "18-6-1919"
+    },
+    {
+      "questionId": "quiz-g4-14",
+      "chapter": 2,
+      "conceptId": "lenin-theses",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "bceab1d49abc1cd4340095e74c861b0ee555032db19823580e4a303dbe546a3c",
+      "answerText": "7/1920"
+    },
+    {
+      "questionId": "quiz-g4-15",
+      "chapter": 2,
+      "conceptId": "tours",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "140f3743ee188edbabd6f32b745880d4009c8a83118510802ac332189486a262",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "quiz-g4-16",
+      "chapter": 2,
+      "conceptId": "letter1938",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "b2adb80a5c28619a7b34acce9c18c30df68416313a335249d51315f10e909ede",
+      "answerText": "Thư gửi Quốc tế cộng sản năm 1938"
+    },
+    {
+      "questionId": "quiz-g4-17",
+      "chapter": 2,
+      "conceptId": "return1941",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "4500bc7808c246a9e9939920ab80288862577c15faf6490e7e8ed47919e4f2f2",
+      "answerText": "1/1941"
+    },
+    {
+      "questionId": "quiz-g5-01",
+      "chapter": 3,
+      "conceptId": "independence",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "d56066496b62dd081f96785a3c09d68090f9bdfab873a51f6c0cb1891c225cf5",
+      "answerText": "4"
+    },
+    {
+      "questionId": "quiz-g5-02",
+      "chapter": 3,
+      "conceptId": "independence",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "2e8825bb11702cfad9be4e5f9bc7ab979913dac6b1bf296a0d6a1f83bb183b3f",
+      "answerText": "Toàn vẹn lãnh thổ"
+    },
+    {
+      "questionId": "quiz-g5-03",
+      "chapter": 3,
+      "conceptId": "independence",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "0c091f9f6d63f7a5b7e090f8222984e239fe5fc3c12a74f29fc2e396f8cc6d71",
+      "answerText": "Nhân dân"
+    },
+    {
+      "questionId": "quiz-g5-04",
+      "chapter": 3,
+      "conceptId": "versailles",
+      "sectionId": "c3-su-kien",
+      "questionHash": "f51bd3ab1e7cd4f637afdfabf88b6a6deb76422e7d094fb2dc52374ae781b295",
+      "answerText": "1919"
+    },
+    {
+      "questionId": "quiz-g5-05",
+      "chapter": 3,
+      "conceptId": "return1941",
+      "sectionId": "c3-su-kien",
+      "questionHash": "65fe0c36eb5eaa9281f95c704be205be54c3e863fa3c0c0c7294ed6bfb333bec",
+      "answerText": "1941"
+    },
+    {
+      "questionId": "quiz-g5-06",
+      "chapter": 3,
+      "conceptId": "france1946",
+      "sectionId": "c3-su-kien",
+      "questionHash": "8d1b7d60737d35fc1edfd4071fd5086b8200318ca8e2f27d937e479efe52d5c0",
+      "answerText": "Pháp"
+    },
+    {
+      "questionId": "quiz-g5-07",
+      "chapter": 3,
+      "conceptId": "tam-dan",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "77ebc3c769317083c06c740dc74bcf99b3d842c21b209e916ac7349398d8d6c3",
+      "answerText": "Độc lập dân tộc phải gắn liền tự do, cơm no, áo ấm và hạnh phúc của nhân dân"
+    },
+    {
+      "questionId": "quiz-g5-08",
+      "chapter": 3,
+      "conceptId": "lenin-theses",
+      "sectionId": "c3-su-kien",
+      "questionHash": "c3010b1de20814358fb1603dad9c1ed01ce683097fb7f3fb8922c906e78e3ef4",
+      "answerText": "7/1920"
+    },
+    {
+      "questionId": "quiz-g5-10",
+      "chapter": 3,
+      "conceptId": "violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "e24c70a32a280ec933e98a4675cafd3b169816340f342a1ca6804f4434f6ffa1",
+      "answerText": "Phản cách mạng"
+    },
+    {
+      "questionId": "quiz-g5-11",
+      "chapter": 3,
+      "conceptId": "liberation",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "c935b2f1cad0257ee4e3bebd20219d27bea0d5cb5de7c5d436a5006a06878f1b",
+      "answerText": "5"
+    },
+    {
+      "questionId": "quiz-g5-12",
+      "chapter": 3,
+      "conceptId": "marx-violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "10fbbea589e5b7dea62be6a4287c20da659a7cd00225252417d88decdb834a21",
+      "answerText": "C. Mác"
+    },
+    {
+      "questionId": "quiz-g5-13",
+      "chapter": 3,
+      "conceptId": "violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "c1bb7f83f3168c819b0e99fe05421fd71f2457e200a723b6efff387f90e6ee2f",
+      "answerText": "Bạo lực"
+    },
+    {
+      "questionId": "quiz-g5-14",
+      "chapter": 3,
+      "conceptId": "violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "53a39e9de963174ce85efbadf0d03536d23357cbc81cdd7942d2d543f9b4d03f",
+      "answerText": "2"
+    },
+    {
+      "questionId": "quiz-g6-02",
+      "chapter": 4,
+      "conceptId": "party-birth",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "6d3a4c7683ae752eee67e2aefee480ee708c3671aa25119cfbcfe1d655733f2c",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "quiz-g6-03",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "190072a733609c6e371abd51cb835245e70930ce939fba1c085f606d8e2bcd9f",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "quiz-g6-04",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "8c3c907efcb9c33a474842f461b772ac02fec529d6106fce07e5ee5b259d4ca1",
+      "answerText": "Đảng"
+    },
+    {
+      "questionId": "quiz-g6-05",
+      "chapter": 4,
+      "conceptId": "party-principles",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "1d6c71e01410dc24cd3c70fa6bd7755e9253f56d4534c2ba28611d1187097bd7",
+      "answerText": "Lãnh đạo chính phủ và nhân dân"
+    },
+    {
+      "questionId": "quiz-g6-08",
+      "chapter": 4,
+      "conceptId": "three-relations",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "642920521dcad6b20d2b92db54cd4106bd739c7c4d7b4776f2ce8b43e9658c87",
+      "answerText": "Đối với tổ chức"
+    },
+    {
+      "questionId": "quiz-g6-09",
+      "chapter": 4,
+      "conceptId": "centralism",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "951fcd59c2528d5d80210709f685170262bfcc6c8f0b2cffa0a1b53d8f256387",
+      "answerText": "Tập trung dân chủ"
+    },
+    {
+      "questionId": "quiz-g6-10",
+      "chapter": 4,
+      "conceptId": "four-liberations",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "e6ee2390cba1ee6ddd9feed693aae0488233ffcf9ea13862b0cd454f7e722062",
+      "answerText": "Giai cấp"
+    },
+    {
+      "questionId": "quiz-g6-12",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "ed7f078e3b9819f133f2cdf14c3042ccc52d807f9f803e8ad2c295a769915231",
+      "answerText": "Chống lại giai cấp tư sản"
+    },
+    {
+      "questionId": "quiz-g6-13",
+      "chapter": 4,
+      "conceptId": "party-principles",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "15c1eeae49a8a00474d1c4113eb240982cdfbbed15f23dce8865525ebe4bff87",
+      "answerText": "Nguyên tắc nêu gương, đi trước"
+    },
+    {
+      "questionId": "quiz-g6-15",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "bdd86454bc23bc28b81015d8e282fe7b37cf0d2b145866bce49ec9a22c4f47e9",
+      "answerText": "Nhà nước của mọi người dân"
+    },
+    {
+      "questionId": "quiz-g6-16",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "f2c3bf91d88d31289f12e260614e4ca952f91f62bb6bd7a2c002bf0d0a43eb50",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "quiz-g6-18",
+      "chapter": 4,
+      "conceptId": "constitutional",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "5d01b5e9e239d6f3cd303ac7586a4bc5b717c6b2ea1914ef4ac4c5a2dbb9eae4",
+      "answerText": "Nhà nước hợp hiến, hợp pháp"
+    },
+    {
+      "questionId": "quiz-g6-19",
+      "chapter": 4,
+      "conceptId": "law",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "ed3b9927a146216165afb9c8577097356a0a3eee714777e746c7caca205c29db",
+      "answerText": "Nhà nước thượng tôn pháp luật"
+    },
+    {
+      "questionId": "quiz-g6-20",
+      "chapter": 4,
+      "conceptId": "law",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "f1ef410697a6a71b62bfbab8f12fa09602caffcb115a92e62e321ecfc56921e7",
+      "answerText": "Con người"
+    },
+    {
+      "questionId": "quiz-g7-01",
+      "chapter": 5,
+      "conceptId": "unity-conditions",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "c8e1bab66bc840bdcc1007cddadf52d14ee8530ce40405c4d41fac6ab05d467a",
+      "answerText": "Kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc"
+    },
+    {
+      "questionId": "quiz-g7-04",
+      "chapter": 5,
+      "conceptId": "front1955",
+      "sectionId": "c5-moc",
+      "questionHash": "a566dfeb7b85a08530677fdf2f47d984fd0de2c72fe77b55e4d7a8dea4c698b0",
+      "answerText": "1955"
+    },
+    {
+      "questionId": "quiz-g7-06",
+      "chapter": 5,
+      "conceptId": "international-forces",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "f7ccf4cb43846febdbb6d9b41b416fdcd5e44ad8f6acde48196f67aaf817a974",
+      "answerText": "Phong trào chống lại chủ nghĩa tư bản"
+    },
+    {
+      "questionId": "quiz-g7-07",
+      "chapter": 5,
+      "conceptId": "international-principles",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "be4a689260bc22c737f30d9c9294abba465e90ae1939e21905ad3f6cb9fceecb",
+      "answerText": "Đoàn kết trên cơ sở thống nhất mục tiêu và lợi ích; có lý, có tình"
+    },
+    {
+      "questionId": "quiz-g7-08",
+      "chapter": 5,
+      "conceptId": "unity-conditions",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "7906fe374b78f35c249c1a5b8b5c2219e4bbbd6d35a8bbaaae643f4de29f0da9",
+      "answerText": "Dân tộc"
+    },
+    {
+      "questionId": "quiz-g7-09",
+      "chapter": 5,
+      "conceptId": "unity-conditions",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "3bb1af30c8c0de6437ce42d65a6d3ba10a4a7158f537625b80e28b769bb53bee",
+      "answerText": "3"
+    },
+    {
+      "questionId": "quiz-g7-10",
+      "chapter": 5,
+      "conceptId": "international-principles",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "2168d8048213a396c166e6f1b5a3f958e8c0b6f30899f4e72e70fc068aa1a113",
+      "answerText": "2"
+    },
+    {
+      "questionId": "quiz-g8-04",
+      "chapter": 6,
+      "conceptId": "human-role",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "d9832afa34f54e239952a4bed109b1105bcaab5819bd0ad51e0db4d119ea3669",
+      "answerText": "Con người là mục tiêu của cách mạng"
+    },
+    {
+      "questionId": "quiz-g8-06",
+      "chapter": 6,
+      "conceptId": "education",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "6b8b928bcce489f814745e611ccc803a4a40fd7b86d6e84317064bd3a5115b35",
+      "answerText": "Biện pháp giáo dục con người"
+    },
+    {
+      "questionId": "quiz-g8-07",
+      "chapter": 6,
+      "conceptId": "ethics-standards",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "59501e55e363c0f9c0e8a8d91b09a8b60600fde3b069d8a7444f39856c6ab6ea",
+      "answerText": "Trung với nước, hiếu với dân"
+    },
+    {
+      "questionId": "quiz-g8-11",
+      "chapter": 6,
+      "conceptId": "ethics-principles",
+      "sectionId": "c6-nguyen-tac",
+      "questionHash": "665a4a9e660acf983359f871e5ec14ccfa41d11d516e7b6113e01d7a62d250b3",
+      "answerText": "Ý thức lập thân, lập nghiệp"
+    },
+    {
+      "questionId": "quiz-g8-12",
+      "chapter": 6,
+      "conceptId": "lifelong",
+      "sectionId": "c6-nguyen-tac",
+      "questionHash": "fc9e06b1fe87403e5692be5cc9e5839abc8cba84c86e4717c5b37ef6a01a0641",
+      "answerText": "Tu dưỡng đạo đức suốt đời"
+    },
+    {
+      "questionId": "quiz-g8-13",
+      "chapter": 6,
+      "conceptId": "culture-role",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "9e53a9db2fde483ef4746e92ebba9b121164e5add48890295e74ce87b2eb7c7c",
+      "answerText": "Văn hóa phục vụ quần chúng nhân dân"
+    },
+    {
+      "questionId": "quiz-g8-14",
+      "chapter": 6,
+      "conceptId": "culture-role",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "23cd1248b0f23a90ff4e709e2cf0acfc660231708f55675f51be076dac9daad6",
+      "answerText": "Văn hóa là tiền đề của cách mạng"
+    },
+    {
+      "questionId": "quiz-g8-15",
+      "chapter": 6,
+      "conceptId": "human-role",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "fa765f7b02a452dc7fbd6a1bd65441ee4c96354d22fa886c2992c6d2dc494479",
+      "answerText": "Con người là mục tiêu, động lực của cách mạng"
+    },
+    {
+      "questionId": "sample-g1-03",
+      "chapter": 1,
+      "conceptId": "congress7",
+      "sectionId": "c1-dai-hoi",
+      "questionHash": "8d53f02a865dea3e5e8a9e18ab8c0200d8d2716c73cf3be579e543339116fa4d",
+      "answerText": "Đại hội VII"
+    },
+    {
+      "questionId": "sample-g1-04",
+      "chapter": 2,
+      "conceptId": "tax1908",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "5ddc84264f7e1599bc75f99eaf004ec6157087540b9fabd688016c1ebbfacd16",
+      "answerText": "1908"
+    },
+    {
+      "questionId": "sample-g1-05",
+      "chapter": 2,
+      "conceptId": "versailles",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "9c88f0029a6a2a1c9925ef570fbab84f6549634b634aea42c30f32fc02223b41",
+      "answerText": "Tại Hội nghị Vécxay (Pháp) 18/6/1919."
+    },
+    {
+      "questionId": "sample-g1-06",
+      "chapter": 2,
+      "conceptId": "youth1925",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "1cc3a62f87ff02158d746132ec381553ff02cf617ed8eba793d993083070cc82",
+      "answerText": "1925"
+    },
+    {
+      "questionId": "sample-g1-07",
+      "chapter": 2,
+      "conceptId": "death-sentence",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "9a26e4b77c01ae91d0c22776490dfbc3d349eda281cb3f76adac27da78041e23",
+      "answerText": "1929"
+    },
+    {
+      "questionId": "sample-g1-08",
+      "chapter": 2,
+      "conceptId": "lenin-colonies",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "cedc9a236dfaf054a3f9e580d8ba8ca7c96dc150c506e5eb66a897eacb8c29cd",
+      "answerText": "V.I.Lênin"
+    },
+    {
+      "questionId": "sample-g1-09",
+      "chapter": 2,
+      "conceptId": "pac-bo",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "d4e0430529115ab7fb5e9e5dc5a0795a49cebe29b79549acc061f6c63da90d75",
+      "answerText": "Lịch sử Đảng Cộng sản Nga"
+    },
+    {
+      "questionId": "sample-g1-10",
+      "chapter": 1,
+      "conceptId": "foundation",
+      "sectionId": "c1-gia-tri",
+      "questionHash": "bf3b72c12162174f7008d7b5275b1044d47b4df54eee442294ebf9a433c23f39",
+      "answerText": "Cùng với chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng ta."
+    },
+    {
+      "questionId": "sample-g1-12",
+      "chapter": 2,
+      "conceptId": "marx-method",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "3eae861c732e88e0e6047173e0a5850b90851002bbacaee1bc040b12b3b25379",
+      "answerText": "Phương pháp làm việc biện chứng"
+    },
+    {
+      "questionId": "sample-g1-13",
+      "chapter": 3,
+      "conceptId": "industrialization",
+      "sectionId": "c3-qua-do",
+      "questionHash": "9e04946862c6068605b2bf7194fa21755cca8d562d4d9987260b4193527f0de8",
+      "answerText": "Công nghiệp hóa phải bắt đầu từ xây dựng và phát triển công nghiệp nặng."
+    },
+    {
+      "questionId": "sample-g1-14",
+      "chapter": 3,
+      "conceptId": "human-motivation",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "a545a1ebf53d184225fa4f85ad91a2e4e16b577e9346d649fa0ec24766c88cfd",
+      "answerText": "Huy động các nguồn lực sẵn có trong dân."
+    },
+    {
+      "questionId": "sample-g1-15",
+      "chapter": 5,
+      "conceptId": "lenin-slogan",
+      "sectionId": "c5-khau-hieu",
+      "questionHash": "0002ccfdc2ddb78529e18f5291920e6254e8cef95da47f7baef7f089919fa5d8",
+      "answerText": "V.I. Lênin"
+    },
+    {
+      "questionId": "sample-g1-17",
+      "chapter": 2,
+      "conceptId": "lenin-core",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "360b4344bfbc1bca62360bcac244ad828f492b827dba9496d4e7b276ff953091",
+      "answerText": "Nhưng chủ nghĩa chân chính nhất, chắc chắn nhất, cách mệnh nhất là chủ nghĩa Lênin."
+    },
+    {
+      "questionId": "sample-g1-18",
+      "chapter": 6,
+      "conceptId": "early-ethics",
+      "sectionId": "c6-tac-pham",
+      "questionHash": "e39171a79b99345b1f4ff96a7738f30b718fe25edf0bee9e7b06387492d3c33a",
+      "answerText": "Đường Kách mệnh."
+    },
+    {
+      "questionId": "sample-g1-19",
+      "chapter": 3,
+      "conceptId": "van-phuc",
+      "sectionId": "c3-su-kien",
+      "questionHash": "587e18319c50fef996d7a41b65a973e0508acc108df3376c790ace7c6db9ec01",
+      "answerText": "Làng Vạn Phúc, Hà Đông"
+    },
+    {
+      "questionId": "sample-g1-20",
+      "chapter": 6,
+      "conceptId": "young-generation",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "41907ba4c96355a7201476f853606a3b3f3a3c2725701266bb3d266540ae682e",
+      "answerText": "Mọi việc đều hăng hái xung phong, không ngại khó khăn, có chí tiến thủ. Đảng cần phải chăm lo giáo dục đạo đức cách mạng cho họ, đào tạo họ thành những người thừa kế xây dựng chủ nghĩa xã hội vừa “hồng” vừa “chuyên”."
+    },
+    {
+      "questionId": "sample-g1-21",
+      "chapter": 3,
+      "conceptId": "national-first",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "5a20e5fd0e878f9010f31104e00a9bde3da39b5ebf0594665f3557d7566d2e2e",
+      "answerText": "Chúng ta phải đoàn kết lại đánh đổ bọn đế quốc và bọn Việt gian bán nước đặng cứu giống nòi ra khỏi nước sôi lửa bỏng."
+    },
+    {
+      "questionId": "sample-g1-22",
+      "chapter": 2,
+      "conceptId": "truong-son",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "8ac305b6abc4cca8fe26cb2a7eef69cce189442dfd76239757ea42ceeb95a4dc",
+      "answerText": "7/1945"
+    },
+    {
+      "questionId": "azota-e9lwce-001",
+      "chapter": 2,
+      "conceptId": "lenin-theses",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "57a8f2fc8e62f383b58ac0b0c4d6a7c8b5e3b7024377f25865bd6b697b7544a2",
+      "answerText": "Sơ thảo lần thứ nhất về các vấn đề dân tộc và thuộc địa"
+    },
+    {
+      "questionId": "azota-e9lwce-002",
+      "chapter": 2,
+      "conceptId": "theoretical",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "665c40a2caca89578d3aa21090d71f344aac121da30fa4b147af39133dd00653",
+      "answerText": "Tất cả phương án trên"
+    },
+    {
+      "questionId": "azota-e9lwce-003",
+      "chapter": 2,
+      "conceptId": "letter1928",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "cddcec81abc73f10212c0cb38df833767198a378b696567c39e89a187e1b7744",
+      "answerText": "4-1928"
+    },
+    {
+      "questionId": "azota-e9lwce-004",
+      "chapter": 2,
+      "conceptId": "chinh-cuong",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "37098017a05afec67be08b37f4c5424043003004298e2f1e7fc71731fc7a5add",
+      "answerText": "Xã hội Cộng sản"
+    },
+    {
+      "questionId": "azota-e9lwce-005",
+      "chapter": 2,
+      "conceptId": "eastern",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "cc44204f6521fd948ee731ba93a2a72d8f69f65460aad5521014db43b850c6a9",
+      "answerText": "Nho giáo và Phật giáo"
+    },
+    {
+      "questionId": "azota-e9lwce-006",
+      "chapter": 2,
+      "conceptId": "versailles",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "9f465c5d108fa7026d54740c15cc4916e6cf7bef9f8e25b518db4de94655eb1b",
+      "answerText": "Tại Hội Nghị Vécxay (Pháp) ngày 18/6/1919"
+    },
+    {
+      "questionId": "azota-e9lwce-007",
+      "chapter": 2,
+      "conceptId": "west",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "819e2b27c78f08abf53256f1e47b3b6d3fb62bdb3989379e597bc977638fb5c8",
+      "answerText": "Tư tưởng của các nhà Khai sáng Pháp"
+    },
+    {
+      "questionId": "azota-e9lwce-008",
+      "chapter": 1,
+      "conceptId": "eulogy",
+      "sectionId": "c1-ghi-nhan",
+      "questionHash": "1105125f9bf6f5f4b6cd34111fbb1343ce82700330ae292dfae5a2041beca947",
+      "answerText": "Điếu văn của Ban Chấp hành Trung ương Đảng lao động Việt Nam đọc tại lễ truy điệu Chủ tịch Hồ Chí Minh ngày 9/9/1969"
+    },
+    {
+      "questionId": "azota-e9lwce-010",
+      "chapter": 2,
+      "conceptId": "usa-years",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "c162f4c76e94b239b5629581dbdad5b5525a5a13a809c296e50dc44028d4306e",
+      "answerText": "1912-1913"
+    },
+    {
+      "questionId": "azota-e9lwce-012",
+      "chapter": 2,
+      "conceptId": "book1927",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "d87d31112e027df41952ddc2ad8a79005ae6ddeef3899ef6d1f52b81c844851c",
+      "answerText": "Năm 1927"
+    },
+    {
+      "questionId": "azota-e9lwce-013",
+      "chapter": 2,
+      "conceptId": "tam-dan-fit",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "fb0ecc72da73cf5061af3d0e1a012914d34c5f689fa1c737060e586721f16625",
+      "answerText": "Phù hợp với điều kiện thực tế nước ta"
+    },
+    {
+      "questionId": "azota-e9lwce-014",
+      "chapter": 2,
+      "conceptId": "origins-all",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "30b8a833b18f4e69914ab7a4d84145d40c2ccf55a1d337fb1682ecf75f7b7bc2",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-e9lwce-015",
+      "chapter": 1,
+      "conceptId": "definition-full",
+      "sectionId": "c1-khai-niem",
+      "questionHash": "b6cbead7352e2d2e34748d00ada0feff2bf9a1c823640563e0b39190f79e6f19",
+      "answerText": "Cả trong cách mạng dân tộc dân chủ nhân dân và cách mạng xã hội chủ nghĩa"
+    },
+    {
+      "questionId": "azota-e9lwce-016",
+      "chapter": 1,
+      "conceptId": "definition-full",
+      "sectionId": "c1-khai-niem",
+      "questionHash": "ed354c7af91113d7b544361e171189c5c691d5e2fdf9e42707e7a4d7d9a74b00",
+      "answerText": "Cách mạng Việt Nam, chủ nghĩa Mác - Lênin"
+    },
+    {
+      "questionId": "azota-e9lwce-017",
+      "chapter": 1,
+      "conceptId": "definition-full",
+      "sectionId": "c1-khai-niem",
+      "questionHash": "0b6708db292973e5ff6f43e90557bb4a573cb0818dd2da1eb4668c4d02364bd4",
+      "answerText": "Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác – Lênin vào điều kiện cụ thể của nước ta"
+    },
+    {
+      "questionId": "azota-e9lwce-019",
+      "chapter": 2,
+      "conceptId": "marx-humanity",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "d530740178b079ce0579fe1ae9bec579ea5952c9dc964602c11b61a57284650f",
+      "answerText": "Để sống với nhau có nghĩa, có tình"
+    },
+    {
+      "questionId": "azota-e9lwce-020",
+      "chapter": 1,
+      "conceptId": "unesco",
+      "sectionId": "c1-ghi-nhan",
+      "questionHash": "8c82b01449071c05321a4f7090dbd16a8726bd3c27985ca82df7b87ff4cc91d8",
+      "answerText": "1987"
+    },
+    {
+      "questionId": "azota-e9lwce-021",
+      "chapter": 2,
+      "conceptId": "demands1919",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "16fee180c82d81fb0157ff19ea8fcf613269bf528327208874aeaca0c15d6d05",
+      "answerText": "Đòi quyền tự do, dân chủ tối thiểu cho nhân dân"
+    },
+    {
+      "questionId": "azota-e9lwce-023",
+      "chapter": 1,
+      "conceptId": "congress7",
+      "sectionId": "c1-dai-hoi",
+      "questionHash": "ca67605832e7effe24d7b1965a1c6ac2030535dd3f72e8cd525965c4b5113656",
+      "answerText": "Từ năm 1991"
+    },
+    {
+      "questionId": "azota-e9lwce-024",
+      "chapter": 1,
+      "conceptId": "soi-duong",
+      "sectionId": "c1-gia-tri",
+      "questionHash": "7a18acf2a774c3f07370cbf0e3b433cb6a6d2ae7d251422b330ea3c6d2273bdf",
+      "answerText": "Soi đường; tài sản tinh thần"
+    },
+    {
+      "questionId": "azota-e9lwce-025",
+      "chapter": 3,
+      "conceptId": "vo-san",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "3321a36f73987720279d681b33f4cf5b650858aa34672ad805d77b608f981ef7",
+      "answerText": "Giải phóng dân tộc; cách mạng vô sản"
+    },
+    {
+      "questionId": "azota-e9lwce-027",
+      "chapter": 1,
+      "conceptId": "unesco",
+      "sectionId": "c1-ghi-nhan",
+      "questionHash": "39da83298571f52a3c83bc892c818cd858628c0ae3e0df0120042b3c50a4d137",
+      "answerText": "Hồ Chí Minh là anh hùng giải phóng dân tộc và là nhà văn hóa kiệt xuất của Việt Nam"
+    },
+    {
+      "questionId": "azota-e9lwce-028",
+      "chapter": 2,
+      "conceptId": "patriotism",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "b833e2b91e4f012e10ed74f8b21a26732d16f9d78e8797b0bc508a885a758f84",
+      "answerText": "Giá trị truyền thống của dân tộc"
+    },
+    {
+      "questionId": "azota-e9lwce-029",
+      "chapter": 2,
+      "conceptId": "duong-kach-menh",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "8ec89aaaefd9e0da6033dca9051d5da1fbc1c168e881635f9513d3ab41503696",
+      "answerText": "Đường cách mệnh"
+    },
+    {
+      "questionId": "azota-e9lwce-030",
+      "chapter": 2,
+      "conceptId": "theoretical",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "90841f5bee5250e036f6ed401be7dc432ad3cf0597adad59189d55c3545332cc",
+      "answerText": "Chủ nghĩa Mác – Lênin"
+    },
+    {
+      "questionId": "azota-e9lwce-031",
+      "chapter": 2,
+      "conceptId": "patriotism",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "beb4459d7b30ecff789488271f7d4f6e0bd113353beb3225c1f0f2d1b9891172",
+      "answerText": "Chủ nghĩa yêu nước"
+    },
+    {
+      "questionId": "azota-e9lwce-034",
+      "chapter": 3,
+      "conceptId": "declaration",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "fa30f0df8e4ec3b71ff44567924a6cc26d46c72c038d2c72879436e650cb63a6",
+      "answerText": "Tuyên ngôn đọc lập"
+    },
+    {
+      "questionId": "azota-e9lwce-035",
+      "chapter": 2,
+      "conceptId": "predecessors",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "e2f025975344e8ce206028b09958436f0f8f27369eff1ef5282c52ab8cadeb91",
+      "answerText": "Phan Bội Châu"
+    },
+    {
+      "questionId": "azota-e9lwce-036",
+      "chapter": 1,
+      "conceptId": "foundation",
+      "sectionId": "c1-gia-tri",
+      "questionHash": "03844c87fc7836d9b4ca42ab64a1a49b358f6cf3e6bda1d8442fd1d2d2e2fed8",
+      "answerText": "Chủ nghĩa Mác – Lênin, tư tưởng Hồ Chí Minh"
+    },
+    {
+      "questionId": "azota-e9lwce-037",
+      "chapter": 1,
+      "conceptId": "congress7",
+      "sectionId": "c1-dai-hoi",
+      "questionHash": "a0ca99e1f77e89180b9dff976727dec7bc3f5871f4fe4f092d044898cb5c606b",
+      "answerText": "Đại hội lần thứ VII"
+    },
+    {
+      "questionId": "azota-e9lwce-038",
+      "chapter": 2,
+      "conceptId": "uk-years",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "faa17fae01c1fb479decb8c91aa1c83b805a955c5974f2f92802d617f5530c6c",
+      "answerText": "1913-1917"
+    },
+    {
+      "questionId": "azota-e9lwce-039",
+      "chapter": 2,
+      "conceptId": "predecessors",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "a87c5bc1873933703ac74afd3d5a9e091035bae86137d8c0675a47f53af70fa7",
+      "answerText": "Phan Chu Trinh"
+    },
+    {
+      "questionId": "azota-e9lwce-040",
+      "chapter": 2,
+      "conceptId": "lenin-path",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "be0f6fe9def66628011888ae911286ded5b7974708e09877371b5c69af49a6b3",
+      "answerText": "Con đường dẫn tôi đến chủ nghĩa Lênin"
+    },
+    {
+      "questionId": "azota-e9lwce-041",
+      "chapter": 2,
+      "conceptId": "book1925",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "4aa7f0b5d2ca14ccefad115842c9e8ebfb1b02d0f375d6f9a987a86f8b25672d",
+      "answerText": "Năm 1925"
+    },
+    {
+      "questionId": "azota-e9lwce-042",
+      "chapter": 2,
+      "conceptId": "duc-thanh-years",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "ef0163170cb685443b557694af42dd7674a80486429bc506067453ffe94c0f4e",
+      "answerText": "Từ nửa sau tháng 9/1910 đến trước tháng 2/1911"
+    },
+    {
+      "questionId": "azota-e9lwce-043",
+      "chapter": 2,
+      "conceptId": "book1927",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "d7866b71407ed54dc6844bb6a655189303a7f332d2b8a168389f5fcbcefe3329",
+      "answerText": "1927"
+    },
+    {
+      "questionId": "azota-e9lwce-045",
+      "chapter": 2,
+      "conceptId": "west",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "51df72e17d5f4ac1b425e127dd7b6a8df797d90bb32eba729ee265c9ca3dc3c9",
+      "answerText": "Triết học Hy Lạp cổ đại"
+    },
+    {
+      "questionId": "azota-e9lwce-046",
+      "chapter": 2,
+      "conceptId": "jobs",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "e338418495e2204489e45eaa6e14816fc5b5dd464147817714cfc4bf5a5dcc6a",
+      "answerText": "Tất cả các công việc trên"
+    },
+    {
+      "questionId": "azota-e9lwce-047",
+      "chapter": 5,
+      "conceptId": "self-reliance",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "404db1dc4508b99ab29952ad946b12fd3a1334f762b4126a5a80c23a9aff0dc9",
+      "answerText": "Tự giúp lấy mình đã"
+    },
+    {
+      "questionId": "azota-e9lwce-050",
+      "chapter": 5,
+      "conceptId": "unity-origins",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "4227c145dd02703b1a8504a54e7546a624b4c196998a1de46372a094e8cb2892",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-e9lwce-055",
+      "chapter": 2,
+      "conceptId": "return1928",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "7fa006c062da8481d1168f38a76e31c85cd43b452e9f41687feb7a8360bc126a",
+      "answerText": "4-1928"
+    },
+    {
+      "questionId": "azota-e9lwce-056",
+      "chapter": 2,
+      "conceptId": "duc-thanh-years",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "d6e50bb4decfbd5ac4e7b05bb8d6eabbd7c5caf1dd603ef0da960abbb22b06d1",
+      "answerText": "Trường Dục Thanh ở Phan Thiết"
+    },
+    {
+      "questionId": "azota-e9lwce-057",
+      "chapter": 2,
+      "conceptId": "departure",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "54602a8469743dfe572cb531cbd7331d3a1d14c64664a2b9d22a08ca10128e8a",
+      "answerText": "Tháng 6/1911"
+    },
+    {
+      "questionId": "azota-e9lwce-058",
+      "chapter": 6,
+      "conceptId": "human-love",
+      "sectionId": "c6-dao-duc",
+      "questionHash": "7602c5e857651e4263d6d5088fdbfdd63df3fd6926a2c8a280b835839be469bb",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-e9lwce-059",
+      "chapter": 2,
+      "conceptId": "history-poem",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "7cd407f25fb8b9c3c2533a1673754d87a5b1afd0e672bc06a994cdcb59581b40",
+      "answerText": "“Lịch sử nước ta”"
+    },
+    {
+      "questionId": "azota-e9lwce-062",
+      "chapter": 1,
+      "conceptId": "purpose",
+      "sectionId": "c1-khai-niem",
+      "questionHash": "3856bf3dd2bf5d5f87692b5fea5ddc837cdee1e9ef9cf1f9bde2bd57800f92c7",
+      "answerText": "Giải phóng dân tộc, giải phóng giai cấp và giải phóng con người"
+    },
+    {
+      "questionId": "azota-e9lwce-063",
+      "chapter": 2,
+      "conceptId": "departure",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "42ea06aac0319da8ba27c30fe70d999b35e5fb8a2d31f039ff6e7f1b787d7c33",
+      "answerText": "Ngày 5/6/1911 tại Bến cảng Nhà Rồng"
+    },
+    {
+      "questionId": "azota-e9lwce-064",
+      "chapter": 2,
+      "conceptId": "west",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "072c2e6438459d72b1d551c71ca27508944191ed6bf1b1a1b36cb8c424d1b75d",
+      "answerText": "Ở nước Anh, Nguyễn Ái Quốc đã tiếp nhận được lý tưởng tự do, bình đẳng, bác ái và tư tưởng dân chủ của các nhà khai sáng Anh"
+    },
+    {
+      "questionId": "azota-e9lwce-066",
+      "chapter": 2,
+      "conceptId": "departure",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "1b6fabc962fdbac82cd98abae3415e34e34e1eb354029c697cdfae9010a8e349",
+      "answerText": "21 tuổi"
+    },
+    {
+      "questionId": "azota-e9lwce-067",
+      "chapter": 1,
+      "conceptId": "foundation",
+      "sectionId": "c1-gia-tri",
+      "questionHash": "5ebc3e440b8b14b6f0a1ae0569f711f96ec9c338a204fe7776d3e86c04d522e8",
+      "answerText": "Cùng với chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành động cách mạng của Đảng ta"
+    },
+    {
+      "questionId": "azota-e9lwce-068",
+      "chapter": 6,
+      "conceptId": "final-wish",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "98110f0fa9661d0448bb32051f9b725aa8d7caeb836bd4a3c3971b6abacaf76b",
+      "answerText": "Xây dựng một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ, giàu mạnh"
+    },
+    {
+      "questionId": "azota-e9lwce-069",
+      "chapter": 2,
+      "conceptId": "versailles",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "ab343057b303122e989dba592556a1d57d6d9fa72d96d0717c8058416600445e",
+      "answerText": "8 điểm"
+    },
+    {
+      "questionId": "azota-e9lwce-070",
+      "chapter": 2,
+      "conceptId": "tax1908",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "ef6257226633acb4a587d4d370269a4015a5aa5f17eca04e49e3ea94559470ce",
+      "answerText": "Tháng 4/1908"
+    },
+    {
+      "questionId": "azota-e9lwce-071",
+      "chapter": 2,
+      "conceptId": "tours",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "ea6ab81e447d3fc055c54f1930f42355c09efd6c1966f59f661e7d50484158bf",
+      "answerText": "12/1920"
+    },
+    {
+      "questionId": "azota-rnaeqk-001",
+      "chapter": 3,
+      "conceptId": "independence1966",
+      "sectionId": "c3-su-kien",
+      "questionHash": "b2f3ad52c357ef728e4d8f217f0abe08dfdec01a7147b5b87487640a539f4c4e",
+      "answerText": "Không có gì quý bằng độc lập, tự do"
+    },
+    {
+      "questionId": "azota-rnaeqk-002",
+      "chapter": 3,
+      "conceptId": "transition-steps",
+      "sectionId": "c3-qua-do",
+      "questionHash": "f5f9a6699cf99001b8f43549e90cdce3558a186da653ed6c1d8e9295bbaa802d",
+      "answerText": "Căn cứ vào đặc điểm lịch sử cụ thể của nước ta từ đó có bước đi phù hợp, đi bước nào vững bước ấy"
+    },
+    {
+      "questionId": "azota-rnaeqk-003",
+      "chapter": 3,
+      "conceptId": "economy",
+      "sectionId": "c3-cnxh",
+      "questionHash": "eb2f96a9ec2265977ee2148e680eeb3ff68ec33a8bc0266d1c4281aaeb6ba1d0",
+      "answerText": "Kinh tế"
+    },
+    {
+      "questionId": "azota-rnaeqk-004",
+      "chapter": 3,
+      "conceptId": "active-colonies",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "770c3630732ded6ee2c898bd7f947df144182cecbe7396c56cb058e92dda59b5",
+      "answerText": "Được tiến hành 1 cách chủ động và sáng tạo"
+    },
+    {
+      "questionId": "azota-rnaeqk-005",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "89114e1278eff89e666d163f877f0a348ec53a1f3d5afe2576a6bc50eb40d5d7",
+      "answerText": "Lâu dài"
+    },
+    {
+      "questionId": "azota-rnaeqk-006",
+      "chapter": 3,
+      "conceptId": "obstacles",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "b935d47234550587d550d3552593a84654ff0a4c9fb5069f67d774a33a0de28d",
+      "answerText": "Đế quốc, thực dân và tay sai của chúng cùng với nghèo nàn, lạc hậu và chủ nghĩa cá nhân dưới mọi hình thức"
+    },
+    {
+      "questionId": "azota-rnaeqk-007",
+      "chapter": 3,
+      "conceptId": "economy",
+      "sectionId": "c3-cnxh",
+      "questionHash": "717e8b26ca0dca03118df57bf9f53e8413f479ea9fb1470db01a36aad9dd5d5b",
+      "answerText": "Của chung"
+    },
+    {
+      "questionId": "azota-rnaeqk-008",
+      "chapter": 3,
+      "conceptId": "national-before-class",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "9b8ca4e98dbb96e7c12303c64fbca30c93774f4026578e2ed6237436e7afdf54",
+      "answerText": "Giải phóng dân tộc"
+    },
+    {
+      "questionId": "azota-rnaeqk-009",
+      "chapter": 3,
+      "conceptId": "forces-all",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "4de7134f1b6a45ccf259d27c5dda730736dd4ff23b9e8970714b0905d4820a78",
+      "answerText": "Toàn dân trên cơ sở liên minh công - nông – trí thức"
+    },
+    {
+      "questionId": "azota-rnaeqk-010",
+      "chapter": 3,
+      "conceptId": "national-socialism",
+      "sectionId": "c3-quan-he",
+      "questionHash": "134767e186d442dcc4db6d49655bc59c0d330dbf9c5ac2dd60520be38931ffcc",
+      "answerText": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội"
+    },
+    {
+      "questionId": "azota-rnaeqk-011",
+      "chapter": 3,
+      "conceptId": "national-socialism",
+      "sectionId": "c3-quan-he",
+      "questionHash": "197d628ceab8b0a83f7045d00ad1ca0ec0b9f4f57245cbfe5f8c5d9e62f6e29f",
+      "answerText": "Thực hiện mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội"
+    },
+    {
+      "questionId": "azota-rnaeqk-012",
+      "chapter": 3,
+      "conceptId": "distribution",
+      "sectionId": "c3-cnxh",
+      "questionHash": "59de547f90a6fc5a83fbc5c43acc0978db6509b00cf6acc56c0a98118b9f11f6",
+      "answerText": "Làm theo năng lực, hưởng theo lao động"
+    },
+    {
+      "questionId": "azota-rnaeqk-013",
+      "chapter": 3,
+      "conceptId": "chess-strategy",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "9ae0beb577ae15bd0c3680735f909bb259b2ea08f75168fe13c9c4109946a858",
+      "answerText": "Chiến lược, chiến thuật cách mạng"
+    },
+    {
+      "questionId": "azota-rnaeqk-015",
+      "chapter": 3,
+      "conceptId": "declaration",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "295b85e172066b8ecfff481e88d190449e956e20423527fed5096d2592a08589",
+      "answerText": "Tất cả tinh thần và lực lượng, tính mạng và của cải"
+    },
+    {
+      "questionId": "azota-rnaeqk-016",
+      "chapter": 2,
+      "conceptId": "oriental-marx",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "cd86d57abef02682bf022defe49924f1b0eda026e76090d0a8afbd8fc16e85f7",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-017",
+      "chapter": 3,
+      "conceptId": "obstacles",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "306a355a0c4a8c8a643e1bafbfe7f4d9b8335e73219ee3bccabbef33470c1f27",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-019",
+      "chapter": 3,
+      "conceptId": "class-liberation",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "a1acd27152758ed6ba0a3caedff1d257161bf4f2d222c8bc6cab5c0a0eb2c1a9",
+      "answerText": "Xóa hết các giai cấp bóc lột với tính cách là giai cấp thống trị xã hội"
+    },
+    {
+      "questionId": "azota-rnaeqk-020",
+      "chapter": 3,
+      "conceptId": "forces-all",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "46a54b76c1bdf28ec992ffa9b9d48fac36876e35c25db6fb6643a1d7b9807dbd",
+      "answerText": "Toàn dân tộc"
+    },
+    {
+      "questionId": "azota-rnaeqk-021",
+      "chapter": 2,
+      "conceptId": "return1941",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "45a90a03ca6961c0a7f3dee09417a0e147fddded6dc156becbf527f8e5c54888",
+      "answerText": "Nguyễn Ái Quốc"
+    },
+    {
+      "questionId": "azota-rnaeqk-022",
+      "chapter": 3,
+      "conceptId": "foreign-capital",
+      "sectionId": "c3-qua-do",
+      "questionHash": "d32db33e973087c187360b608da077875d938ebf71cc0b751419c67e2ab7a7a0",
+      "answerText": "Đồng thời chúng tôi rất hoan nghênh tư bản Pháp và tư bản các nước khác thật thà cộng tác với chúng tôi. Một là để xây dựng lại Việt Nam sau lúc chiến tranh tàn phá, hai là để điều hoà kinh tế thế giới và giữ gìn hoà bình"
+    },
+    {
+      "questionId": "azota-rnaeqk-023",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "55771f576d9aeb02ded471108e37ca2238b0836978b1275b926b0fafc0d65111",
+      "answerText": "Từ nước nông nghiệp lạc hậu tiến thẳng lên CNXH, không trải qua giai đoạn phát triển tư bản chủ nghĩa"
+    },
+    {
+      "questionId": "azota-rnaeqk-024",
+      "chapter": 2,
+      "conceptId": "classes",
+      "sectionId": "c2-thuc-tien",
+      "questionHash": "58aad4044524c94fc000d7e4776f1a47f048c09c0a19e73f153a5dae14dd50ee",
+      "answerText": "Mâu thuẫn giữa dân tộc bị áp bức với chủ nghĩa thực dân"
+    },
+    {
+      "questionId": "azota-rnaeqk-025",
+      "chapter": 5,
+      "conceptId": "self-reliance",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "1cd0f9248508d5a626a39fc71b0eced171bcd7523ef27c7699f45580f3b78c87",
+      "answerText": "Cả hai luận điểm: tự nỗ lực giải phóng và đem sức ta tự giải phóng cho ta"
+    },
+    {
+      "questionId": "azota-rnaeqk-027",
+      "chapter": 3,
+      "conceptId": "happiness-science",
+      "sectionId": "c3-cnxh",
+      "questionHash": "70f4a86d940b3ae2cce3737b83b91ef8911061b22d5c7a5ba9c8fbcbca21408d",
+      "answerText": "Hạnh phúc vô tận"
+    },
+    {
+      "questionId": "azota-rnaeqk-029",
+      "chapter": 3,
+      "conceptId": "economy",
+      "sectionId": "c3-cnxh",
+      "questionHash": "523356bb6f67efe527d1642bd25322a921d19bc9fc9193de0d2bbaa4986383f5",
+      "answerText": "Sở hữu xã hội về tư liệu sản xuất"
+    },
+    {
+      "questionId": "azota-rnaeqk-030",
+      "chapter": 2,
+      "conceptId": "chinh-cuong",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "fa932034cda7106b3d30be059b024082dd863e60d52cff036a3465befce8b5ce",
+      "answerText": "Chánh cương vắn tắt của Đảng"
+    },
+    {
+      "questionId": "azota-rnaeqk-031",
+      "chapter": 3,
+      "conceptId": "political-owner",
+      "sectionId": "c3-cnxh",
+      "questionHash": "771be6cfa823d3ee41c0217ee2d264cd00f0d23cd211947378535cd3fd5f82d2",
+      "answerText": "Nhân dân"
+    },
+    {
+      "questionId": "azota-rnaeqk-032",
+      "chapter": 2,
+      "conceptId": "return1941",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "f1038df35d2591d9311afd6bc981710e292cb8de24cd75e5fab285b2ddc8ae25",
+      "answerText": "Hội nghị TW8 (5/1941)"
+    },
+    {
+      "questionId": "azota-rnaeqk-033",
+      "chapter": 6,
+      "conceptId": "individual-interest",
+      "sectionId": "c6-dao-duc",
+      "questionHash": "f96820b8037254c40021a70ae311bb497dc6657588bc9f0957ab7e824bbec6cf",
+      "answerText": "Không dày xéo lên lợi ích cá nhân"
+    },
+    {
+      "questionId": "azota-rnaeqk-036",
+      "chapter": 3,
+      "conceptId": "resistance-line",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "8b0cf95b9df4560e193a2a36dac99e1f75ae0ea90f9b007bd585aae8baa94bd7",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-038",
+      "chapter": 5,
+      "conceptId": "self-reliance",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "274cbe873b6727cefa5c6a6cf7222ec89d39dfa94a1badc9c90428f6baa13530",
+      "answerText": "đem sức ta"
+    },
+    {
+      "questionId": "azota-rnaeqk-039",
+      "chapter": 3,
+      "conceptId": "violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "c5ee14e7118198c7832d50ffbd6501a1c038d98ceee12e16d68d058e49c72e95",
+      "answerText": "Thực hiện bằng con đường bạo lực, kết hợp lực lượng chính trị của quần chúng với lực lượng vũ trang của nhân dân"
+    },
+    {
+      "questionId": "azota-rnaeqk-040",
+      "chapter": 2,
+      "conceptId": "tam-dan",
+      "sectionId": "c2-truyen-thong",
+      "questionHash": "d0bd0173516e15b92d2a7aefdb0668ff89f5f0b258e654527f769a8f906b13e6",
+      "answerText": "“Dân tộc độc lập, dân quyền tự do, dân sinh hạnh phúc”"
+    },
+    {
+      "questionId": "azota-rnaeqk-042",
+      "chapter": 2,
+      "conceptId": "oriental-marx",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "7de996936209de401db68c109032646ee2003fdd2a31ce3415f30e3555ecc123",
+      "answerText": "Ở các nước châu Á, phương Đông"
+    },
+    {
+      "questionId": "azota-rnaeqk-043",
+      "chapter": 3,
+      "conceptId": "revolution-not-through",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "61b16e8cbceb4884c86a06494b1c979490318af55e8246dc5d0872122f12870b",
+      "answerText": "Không đến nơi"
+    },
+    {
+      "questionId": "azota-rnaeqk-044",
+      "chapter": 6,
+      "conceptId": "illiteracy",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "621e76586e916e98b0229d5d27dc80c176a89becd8ede1d39fc09528a6d94992",
+      "answerText": "Chống nạn thất học"
+    },
+    {
+      "questionId": "azota-rnaeqk-045",
+      "chapter": 3,
+      "conceptId": "active-colonies",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "dc8a5a9256188f850e7cfbf5f0223a996796811036b30228a99ebd5fec96c6f7",
+      "answerText": "Cách mạng giải phóng dân tộc có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc"
+    },
+    {
+      "questionId": "azota-rnaeqk-046",
+      "chapter": 3,
+      "conceptId": "khoan",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "947a4f610be21a4e848c2f027a59c96f45c3e64bb64adf7ebec58f6ea5650c20",
+      "answerText": "Kết hợp được lợi ích của người lao động, lợi ích tập thể và lợi ích nhà nước"
+    },
+    {
+      "questionId": "azota-rnaeqk-048",
+      "chapter": 3,
+      "conceptId": "independence",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "ea889deac14b2fe89bc49f2cb547b72a62ec959f1a3e449a451d3e322a78d674",
+      "answerText": "Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm"
+    },
+    {
+      "questionId": "azota-rnaeqk-050",
+      "chapter": 3,
+      "conceptId": "national-liberation",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "63bb6877451aebe9a3dba28293be0aa7fa9517d7791a28b635b4708d1f5b936b",
+      "answerText": "Đánh đổ ách áp bức thống trị của đế quốc, thực dân giành độc lập dân tộc, hình thành nhà nước dân tộc độc lập và tự do lựa chọn con đường phát triển của dân tộc phù hợp với phát triển của xu thế thời đại"
+    },
+    {
+      "questionId": "azota-rnaeqk-051",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "67ba2b119e5c04f59b1cdd4e57f8756fd759d754e93cf74fbc087d9c48155ab2",
+      "answerText": "Đường Cách mệnh"
+    },
+    {
+      "questionId": "azota-rnaeqk-053",
+      "chapter": 3,
+      "conceptId": "socialism",
+      "sectionId": "c3-cnxh",
+      "questionHash": "a3d8d722519c275d8c80ca48914b5aa8ae200dae5999fcd48c0f78e3d8c2fc03",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-054",
+      "chapter": 3,
+      "conceptId": "independence",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "bad610748e4d3a17b9015cd81b76cfe5208a1d901d8127f0dfd645a22fea71cc",
+      "answerText": "Dân tộc Việt Nam và tất cả các dân tộc bị áp bức trên thế giới"
+    },
+    {
+      "questionId": "azota-rnaeqk-057",
+      "chapter": 3,
+      "conceptId": "socialism-approach",
+      "sectionId": "c3-cnxh",
+      "questionHash": "2cd0c1b516d562bee5502871a52366e391d36fb8cf6d99ae5ccf33c86a30b604",
+      "answerText": "Khát vọng giải phóng dân tộc, đạo đức, truyền thống văn hóa Việt Nam"
+    },
+    {
+      "questionId": "azota-rnaeqk-058",
+      "chapter": 3,
+      "conceptId": "political-owner",
+      "sectionId": "c3-cnxh",
+      "questionHash": "d814279fd494b0a75287fb1d18dba1ba2016a81d21cc25d879f694f5078f48dd",
+      "answerText": "Do nhân dân làm chủ"
+    },
+    {
+      "questionId": "azota-rnaeqk-059",
+      "chapter": 3,
+      "conceptId": "economy",
+      "sectionId": "c3-cnxh",
+      "questionHash": "faa8612f52ae3296c377dbe2bee0b7e72eaab13a1db16539f427312028d4ff81",
+      "answerText": "Chế độ công hữu về tư liệu sản xuất"
+    },
+    {
+      "questionId": "azota-rnaeqk-060",
+      "chapter": 3,
+      "conceptId": "vo-san",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "a0d36809da96cfe8fb3a07fc7fbc707e7951016f311cc35e9e845ad1ed4c6957",
+      "answerText": "Con đường cách mạng vô sản"
+    },
+    {
+      "questionId": "azota-rnaeqk-061",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "9998e0b55a253f068fd5fb2ebf904c137d15880094a49e21bddae545eacbf48d",
+      "answerText": "Có Đảng của giai cấp công nhân lãnh đạo"
+    },
+    {
+      "questionId": "azota-rnaeqk-062",
+      "chapter": 3,
+      "conceptId": "obstacles",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "25772b71c1de7d25b620384b668cba5a8f88eef060c77123d67c176071035a0f",
+      "answerText": "Tất cả địa chủ, tư sản"
+    },
+    {
+      "questionId": "azota-rnaeqk-063",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "90185dd8eae57aa77d026a23e6a9fb9638549be6223aa50844ee3a5e17d721a0",
+      "answerText": "Từ một nước thuộc địa nửa phong kiến, bỏ qua chế độ tư bản chủ nghĩa tiến lên chủ nghĩa xã hội"
+    },
+    {
+      "questionId": "azota-rnaeqk-064",
+      "chapter": 3,
+      "conceptId": "nationalism",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "e6b4e60627738c3e7793303fb4a9b09dc56997b2b9b5c262004de0aad60fbaa3",
+      "answerText": "Chủ nghĩa dân tộc chân chính"
+    },
+    {
+      "questionId": "azota-rnaeqk-065",
+      "chapter": 3,
+      "conceptId": "forces-all",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "ee5c3f4db30605a2f6feedda47ccbdbddc8ed0ba42c7fd032571d6beb02ff986",
+      "answerText": "Toàn dân trên cơ sở lien minh của giai cấp công nhân với giai cấp nông dân và trí thức"
+    },
+    {
+      "questionId": "azota-rnaeqk-067",
+      "chapter": 2,
+      "conceptId": "chinh-cuong",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "ad9c4d66c5528e8db63e9c050a638769a0beeb6e2453ec1abe3766ca6d134557",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-068",
+      "chapter": 2,
+      "conceptId": "lenin-path",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "1cc49877058e52eb92ada4409d754a6dd3e709775359b4ab60b5146c3e066b38",
+      "answerText": "Lênin đã giải phóng cho dân tộc mình"
+    },
+    {
+      "questionId": "azota-rnaeqk-069",
+      "chapter": 2,
+      "conceptId": "return1941",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "5c39325c392b7ab9070143289390d87c9299158445587345461ca45e8fe7cdce",
+      "answerText": "Hội nghị Trung ương 8 (5/1941)"
+    },
+    {
+      "questionId": "azota-rnaeqk-071",
+      "chapter": 3,
+      "conceptId": "state-economy",
+      "sectionId": "c3-qua-do",
+      "questionHash": "c05825713975b4490c5cb44e3e831f35c94ac9d17c384e06d854893560def758",
+      "answerText": "Kinh tế quốc doanh"
+    },
+    {
+      "questionId": "azota-rnaeqk-072",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "c20f72a3c1e9e956d219e063ffd31f7b5bd06c735e3c9dd3cfd7a1c9244ad360",
+      "answerText": "Phương thức quá độ gián tiếp (từ một nước tiền TBCN đi lên CNXH)"
+    },
+    {
+      "questionId": "azota-rnaeqk-073",
+      "chapter": 3,
+      "conceptId": "progress-need",
+      "sectionId": "c3-qua-do",
+      "questionHash": "6a6b862b034a8436bdddd40c72d47a9b6b8198d09e87b09db00f6020705e3098",
+      "answerText": "Mâu thuẫn giữa yêu cầu phát triển cao đất nước với thực trạng nghèo nàn, lạc hậu"
+    },
+    {
+      "questionId": "azota-rnaeqk-075",
+      "chapter": 3,
+      "conceptId": "vo-san",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "7e220495b838673682d1c72cae59ac277ee0029fc59f242bf5448c3ded55d5d2",
+      "answerText": "Đi theo con đường cách mạng vô sản"
+    },
+    {
+      "questionId": "azota-rnaeqk-077",
+      "chapter": 3,
+      "conceptId": "nationalism",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "0593f8dab5de52c89868fccc44f7c08b09288cb9320623c7630abaa0623c31aa",
+      "answerText": "Chân chính"
+    },
+    {
+      "questionId": "azota-rnaeqk-078",
+      "chapter": 3,
+      "conceptId": "bird-wings",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "cc1c4d39e496c884f06d0dc43ebf4d6d5b3e0cb72a996e2946e284f804039ff4",
+      "answerText": "Hai cánh của con chim"
+    },
+    {
+      "questionId": "azota-rnaeqk-079",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "a07552583b7c4218e1140eb06c42934ba2e3a63613da1784b25946f9e590af9b",
+      "answerText": "Phải có Đảng cộng sản"
+    },
+    {
+      "questionId": "azota-rnaeqk-080",
+      "chapter": 2,
+      "conceptId": "west",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "d595c7d3357659f93399f4db06bffa7d35f2635210cbad87074cee5c835d6d9b",
+      "answerText": "Kế thừa lòng nhân ái, đức hy sinh của Hồi giáo"
+    },
+    {
+      "questionId": "azota-rnaeqk-081",
+      "chapter": 3,
+      "conceptId": "national-before-class",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "11279af82b0059cd087f7b565637714bb92f004d805b0afdfe47dc6f41fb9b06",
+      "answerText": "Đối với phương Đông, trong đó có Việt Nam, giải phóng giai cấp là nhiệm vụ trên hết, trước hết"
+    },
+    {
+      "questionId": "azota-rnaeqk-082",
+      "chapter": 3,
+      "conceptId": "forces-all",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "fffb2efae118543bcd63c3d55fbc361ea2c1aee8da904485be933f7ba76e5f24",
+      "answerText": "Lực lượng cách mạng"
+    },
+    {
+      "questionId": "azota-rnaeqk-083",
+      "chapter": 3,
+      "conceptId": "state-economy",
+      "sectionId": "c3-qua-do",
+      "questionHash": "2dba46a9393f99e28a4415cb8cfc1582cfebbee6a3fd472c64a8e6ad3df7b949",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-086",
+      "chapter": 3,
+      "conceptId": "transition-steps",
+      "sectionId": "c3-qua-do",
+      "questionHash": "94c691380d3b055e7d9bcdaebef98e781ffd00baf0053399a35db978e1647f32",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-087",
+      "chapter": 3,
+      "conceptId": "violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "aeebee385ea2e6aed6f4174aa7a198e0ca4f8555739ff949f96a31555a505c8c",
+      "answerText": "Đánh giá đúng bản chất cực kỳ phản động của đế quốc, tay sai"
+    },
+    {
+      "questionId": "azota-rnaeqk-088",
+      "chapter": 3,
+      "conceptId": "national-before-class",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "7d08bdcefbde160edbd8f92d45a8081cbf330482955e4a2e91ad2209c91695dd",
+      "answerText": "Giải phóng dân tộc là tiền đề để giải phóng giai cấp"
+    },
+    {
+      "questionId": "azota-rnaeqk-090",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "d46f07239709c44c0b3f40c97cb0aac44a648ab45a2d46985574cd916da809c4",
+      "answerText": "Từ một nước nông nghiệp lạc hậu tiến thẳng lên CNXH không phải trải qua giai đoạn phát triển TBCN"
+    },
+    {
+      "questionId": "azota-rnaeqk-091",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "dce59e6016abe0df83b54da25c962be9b3c668cce02abf9b413a1f6801e12a21",
+      "answerText": "Quá độ gián tiếp"
+    },
+    {
+      "questionId": "azota-rnaeqk-092",
+      "chapter": 3,
+      "conceptId": "human-motivation",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "5f1fa2936f0f1c35f0211098102d80166b9216aade0e5f194a43accf61abbf2b",
+      "answerText": "Kết hợp lợi ích vật chất với các động lực chính trị–tinh thần"
+    },
+    {
+      "questionId": "azota-rnaeqk-093",
+      "chapter": 2,
+      "conceptId": "versailles",
+      "sectionId": "c2-1911-1920",
+      "questionHash": "b306e0e43e765d6fc1bf6d499cfacae51143e66ecee9f5baa3f8b8a003109b5b",
+      "answerText": "Nguyễn Ái Quốc"
+    },
+    {
+      "questionId": "azota-rnaeqk-094",
+      "chapter": 5,
+      "conceptId": "self-reliance",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "989aa542b45436c9c9ec0f6b2d4c995cc630c7bb4ca4d109c7f541771f4ccfab",
+      "answerText": "Hồ Chí Minh"
+    },
+    {
+      "questionId": "azota-rnaeqk-096",
+      "chapter": 3,
+      "conceptId": "socialism-goal",
+      "sectionId": "c3-cnxh",
+      "questionHash": "1a2392e67b1c74f1a2f32e15c315263e9901b9fff61683a6b31afd68b57ecf44",
+      "answerText": "Nâng cao đời sống nhân dân"
+    },
+    {
+      "questionId": "azota-rnaeqk-097",
+      "chapter": 3,
+      "conceptId": "vo-san",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "19e68d04653583201a511ecc756283efe920e24cf3e43f641a9032930725c0ed",
+      "answerText": "Chỉ dừng ở tư sản dân quyền cách mạng và thổ địa cách mạng"
+    },
+    {
+      "questionId": "azota-rnaeqk-098",
+      "chapter": 3,
+      "conceptId": "khoan",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "4ad9e46330766d8e9e497f803d7423d1d9e52dfdec285767426146555bbbadd7",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-099",
+      "chapter": 3,
+      "conceptId": "peace-violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "27cf9d06a714612bb201ff5f51f4c0b67536a755d8b308baa0522f79e44228f5",
+      "answerText": "Tư tưởng bạo lực cách mạng gắn bó hữu cơ với tư tưởng nhân đạo và hòa bình"
+    },
+    {
+      "questionId": "azota-rnaeqk-100",
+      "chapter": 3,
+      "conceptId": "forces-combined",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "e1179b4d2972e9f60e10a5fec01d7ba118197de25626acc09db5b2feee14555f",
+      "answerText": "Tất cả các lực lượng trên"
+    },
+    {
+      "questionId": "azota-rnaeqk-102",
+      "chapter": 3,
+      "conceptId": "violence",
+      "sectionId": "c3-bao-luc",
+      "questionHash": "12b45666c2df41513df5d5878788e6c0ff8aa60b61169a1906cb871aec4c2d3e",
+      "answerText": "Đấu tranh chính trị và đấu tranh vũ trang"
+    },
+    {
+      "questionId": "azota-rnaeqk-105",
+      "chapter": 3,
+      "conceptId": "national-before-class",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "6b68604e9cbcfdb4088d72fc9d3e662c2963237f8181c2a9a4a231be9b8cd524",
+      "answerText": "Giải phóng dân tộc là tiền đề để giải phóng giai cấp"
+    },
+    {
+      "questionId": "azota-rnaeqk-106",
+      "chapter": 3,
+      "conceptId": "transition-tasks",
+      "sectionId": "c3-qua-do",
+      "questionHash": "070aef848d71b9cdfd443929ec780135deeaf6d176f79802a60361ad5f999d39",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-107",
+      "chapter": 3,
+      "conceptId": "national-liberation",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "f5d40e8bd990c94431a817a390524c34952fd05f518b04b3fa452068d3fa7bb2",
+      "answerText": "Dân tộc thuộc địa"
+    },
+    {
+      "questionId": "azota-rnaeqk-108",
+      "chapter": 2,
+      "conceptId": "party-founder",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "03b88dc62fcbb9f8e8ff1439ca8af9c8edaf1da177830cc5a1657f8374084972",
+      "answerText": "Đảng cộng sản Việt Nam"
+    },
+    {
+      "questionId": "azota-rnaeqk-110",
+      "chapter": 3,
+      "conceptId": "transition-steps",
+      "sectionId": "c3-qua-do",
+      "questionHash": "7376d198b921a1b291b4f47ac3506c98cee8745a7494e81b46569bd73b9050f3",
+      "answerText": "Phù hợp với từng hoàn cảnh, từng đối tượng"
+    },
+    {
+      "questionId": "azota-rnaeqk-112",
+      "chapter": 3,
+      "conceptId": "independence",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "98bee619979c36617d2fe6429b237d4a12452213ba63921cfba67e07ba7d1b7d",
+      "answerText": "Quyền thiêng liêng và bất khả xâm phạm của tất cả các dân tộc"
+    },
+    {
+      "questionId": "azota-rnaeqk-114",
+      "chapter": 6,
+      "conceptId": "human-socialist",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "60b4fbf4d488d35a44105f6ee558846e251c94a33f05afc58a9711c4f744113b",
+      "answerText": "Con người xã hội chủ nghĩa"
+    },
+    {
+      "questionId": "azota-rnaeqk-115",
+      "chapter": 6,
+      "conceptId": "human-role",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "4d9a02c1a3f515b6e94122ccd53831f1b3f9ffcd9ccd2086ba2d954363367aff",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-rnaeqk-116",
+      "chapter": 3,
+      "conceptId": "state-economy",
+      "sectionId": "c3-qua-do",
+      "questionHash": "a1c2b87263cc8a8cf8afe4ff97dceddef55c3de25f0164e05479fd069ddf2958",
+      "answerText": "Cải tạo họ thành người lao động mới"
+    },
+    {
+      "questionId": "azota-rnaeqk-120",
+      "chapter": 3,
+      "conceptId": "obstacles",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "0403cae474635c6101408f9ba7e4e83c1f599dc9ed90e8394d61a65f915e3d74",
+      "answerText": "Chủ nghĩa cá nhân"
+    },
+    {
+      "questionId": "azota-rnaeqk-123",
+      "chapter": 2,
+      "conceptId": "oriental-marx",
+      "sectionId": "c2-mac-lenin",
+      "questionHash": "abcb63db17d2e3cad0b4e99b8ecf5fac20e4f75e07511376057787c13d0582ba",
+      "answerText": "Cần xem xét lại chủ nghĩa Mác về cơ sở lịch sử của nó, củng cố nó bằng dân tộc học phương Đông"
+    },
+    {
+      "questionId": "azota-rnaeqk-125",
+      "chapter": 6,
+      "conceptId": "human-liberation",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "34d37b82f20ad990038ce216b0929e7bb6d199d23c421138387c44b747e3f02f",
+      "answerText": "Giải phóng con người với tư cách từng cá nhân và cả loài người"
+    },
+    {
+      "questionId": "azota-rnaeqk-126",
+      "chapter": 2,
+      "conceptId": "history-poem",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "529c778744cb8b92455749244ff4f7a24191dc2ad4080c0181847636ab79a85d",
+      "answerText": "Khuyên dân phải học sử dân tộc"
+    },
+    {
+      "questionId": "azota-rnaeqk-128",
+      "chapter": 3,
+      "conceptId": "national-socialism",
+      "sectionId": "c3-quan-he",
+      "questionHash": "e9aafe2b4c4217950607668edbfad2c0063970a7485efdfa7ddf94c8de5e575d",
+      "answerText": "Cách mạng giải phóng dân tộc và cách mạng xã hội chủ nghĩa"
+    },
+    {
+      "questionId": "azota-rnaeqk-129",
+      "chapter": 3,
+      "conceptId": "agriculture",
+      "sectionId": "c3-qua-do",
+      "questionHash": "d0d6a8f97a63e542e9ccc6c6c0dc0d4bdff0213f5ae6907585fd674367fe1cad",
+      "answerText": "Nông nghiệp"
+    },
+    {
+      "questionId": "azota-rnaeqk-130",
+      "chapter": 3,
+      "conceptId": "van-phuc",
+      "sectionId": "c3-su-kien",
+      "questionHash": "49bd5ddf50157da0ad7a2f7692bcbf150ad9679700704beb56e848d58776482a",
+      "answerText": "Không chịu mất nước"
+    },
+    {
+      "questionId": "azota-rnaeqk-134",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "96f6873ba38fb1269f59cd843dcd983a7a21851b43a3cfbbe8bf6c65c76f106d",
+      "answerText": "Đảng Cộng sản lãnh đạo"
+    },
+    {
+      "questionId": "azota-rnaeqk-135",
+      "chapter": 3,
+      "conceptId": "independence",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "9d0f29c2ffcabd20aa27704980634557240b3435db137e9bb1fa5bee348208ed",
+      "answerText": "Độc lập, tự do"
+    },
+    {
+      "questionId": "azota-rnaeqk-136",
+      "chapter": 3,
+      "conceptId": "august-call",
+      "sectionId": "c3-su-kien",
+      "questionHash": "9a718ab715a88f3863b91b0eb0e5849146096359343d46bf6a1e2694798fb109",
+      "answerText": "8/1945"
+    },
+    {
+      "questionId": "azota-rnaeqk-138",
+      "chapter": 3,
+      "conceptId": "state-economy",
+      "sectionId": "c3-qua-do",
+      "questionHash": "aec91de0faddacfef76c44f0022b4130671f219ff5c1364c323d67f83bd9ed58",
+      "answerText": "Làm dần dần, từ thấp đến cao, tự nguyện, cùng có lợi, chống chủ quan, gò ép, hình thức"
+    },
+    {
+      "questionId": "azota-rnaeqk-139",
+      "chapter": 3,
+      "conceptId": "national-liberation",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "1020503fff510f3c27b8a3ad7b154d4915f9ba315d7a6a148383f9c5f81c831d",
+      "answerText": "Đấu tranh giải phóng dân tộc khỏi sự áp bức, thống trị của nước ngoài, giành độc lập dân tộc, thành lập nhà nước dân tộc độc lập, và đưa đất nước phát triển theo xu thế thời đại"
+    },
+    {
+      "questionId": "azota-rnaeqk-140",
+      "chapter": 3,
+      "conceptId": "economy",
+      "sectionId": "c3-cnxh",
+      "questionHash": "a46ebe448fb8c08af611f8ed90a145e8e133348ee61b5dbbbacbfca340cb95ab",
+      "answerText": "Có công nghiệp, nông nghiệp hiện đại, có khoa học – kỹ thuật tiên tiến"
+    },
+    {
+      "questionId": "azota-rnaeqk-141",
+      "chapter": 2,
+      "conceptId": "leech",
+      "sectionId": "c2-1920-1930",
+      "questionHash": "17d451764275d22a1aa502eaf6fb88ead4ee980b5da7f0e94ca986bb3e6bcdd7",
+      "answerText": "Bản án chế độ thực dân pháp"
+    },
+    {
+      "questionId": "azota-rnaeqk-143",
+      "chapter": 6,
+      "conceptId": "human-liberation",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "d4a58d62bff8a8896a3203cdaf50f91eccaea28d52cdd16b178ef2ee09024d0f",
+      "answerText": "Giải phóng quần chúng lao động"
+    },
+    {
+      "questionId": "azota-rnaeqk-144",
+      "chapter": 2,
+      "conceptId": "loseby",
+      "sectionId": "c2-1930-1969",
+      "questionHash": "c45513f494924a9129aae74f570ab58905e27c44ae049d61c45665b51619e850",
+      "answerText": "Luật sư Lôdobai (Lôdobi)"
+    },
+    {
+      "questionId": "azota-rnaeqk-145",
+      "chapter": 3,
+      "conceptId": "active-colonies",
+      "sectionId": "c3-giai-phong",
+      "questionHash": "97483d64057c3c55417ec9c798c8c55a1af9c590a2fa3afcf4de31f73978b5cc",
+      "answerText": "Tiến hành chủ động và sáng tạo"
+    },
+    {
+      "questionId": "azota-rnaeqk-146",
+      "chapter": 3,
+      "conceptId": "transition",
+      "sectionId": "c3-qua-do",
+      "questionHash": "c97d91f42bc8983d1ac9d20137dcda4e7953feb9f3f0a624ce7355873253edc4",
+      "answerText": "Cải biến sâu sắc nhất nhưng phức tạp, lâu dài, khó khăn, gian khổ"
+    },
+    {
+      "questionId": "azota-rnaeqk-147",
+      "chapter": 3,
+      "conceptId": "national-liberation",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "7e3451a48c4aada6eb33f99dce62abccc64eaa58633020da2e128f341f442e3e",
+      "answerText": "Thuộc địa"
+    },
+    {
+      "questionId": "azota-rnaeqk-148",
+      "chapter": 3,
+      "conceptId": "national-socialism",
+      "sectionId": "c3-quan-he",
+      "questionHash": "7bf412ff3c11603c915d4e21ebb1e6db33bf83e22a9a885a582845757732ee18",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ela4jq-001",
+      "chapter": 4,
+      "conceptId": "party-purpose",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "aaf1285737ee5191060e7da18566f8b714ffeb76f0b3d4e22d87b5d7158906c3",
+      "answerText": "Phụng sự Tổ quốc, phụng sự nhân dân"
+    },
+    {
+      "questionId": "azota-ela4jq-002",
+      "chapter": 4,
+      "conceptId": "party-civilized",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "ec2ebd9080079b78a8b4be83bf5dc20b4483e4c17c3d9ea19514d35ba4471112",
+      "answerText": "Diễn văn đọc tại lễ kỷ niệm 30 năm ngày thành lập Đảng"
+    },
+    {
+      "questionId": "azota-ela4jq-003",
+      "chapter": 4,
+      "conceptId": "party-purpose",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "914c6041707047fe58f2660e0ea3c65541ce6fd17c2c3e7c777e6a5cf2366663",
+      "answerText": "Vì lợi ích của dân tộc Việt Nam"
+    },
+    {
+      "questionId": "azota-ela4jq-004",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "18b29b1bd0bb97405788bc5feff21e1bb6b57d7c703655c9d521801c500929c4",
+      "answerText": "Là công bộc"
+    },
+    {
+      "questionId": "azota-ela4jq-005",
+      "chapter": 4,
+      "conceptId": "party-foundation",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "a28a87bd0265a8ec575203633fc2057dc8de2a1e3ce527301cc54f29c19b75e7",
+      "answerText": "Đảng muốn vững thì phải có chủ nghĩa làm cốt"
+    },
+    {
+      "questionId": "azota-ela4jq-006",
+      "chapter": 4,
+      "conceptId": "party-class",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "5309cb59d96edd3c5b5b15d18fcc766f42ee760272588f4fb20c82f10d5c730c",
+      "answerText": "Đảng cộng sản Việt Nam là Đảng của giai cấp công nhân, của nhân dân lao động và của dân tộc Việt Nam"
+    },
+    {
+      "questionId": "azota-ela4jq-007",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "1ef347670883dfc6bf70ee2a41e0d4df2348e4a96c730ec5546823b4c6961119",
+      "answerText": "Nhân dân"
+    },
+    {
+      "questionId": "azota-ela4jq-009",
+      "chapter": 4,
+      "conceptId": "criticism",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "109c4097c518607130c53a9ad5465fdd3faf68d6185da1e9b531ae4b0d73eb87",
+      "answerText": "Giúp nhau sửa chữa"
+    },
+    {
+      "questionId": "azota-ela4jq-010",
+      "chapter": 3,
+      "conceptId": "obstacles",
+      "sectionId": "c3-dong-luc",
+      "questionHash": "1ebed64d4d7760e02e84ce1ec88e5ec3441f4a4c50a1a448295a540a2bbca9c9",
+      "answerText": "Chủ nghĩa cá nhân"
+    },
+    {
+      "questionId": "azota-ela4jq-011",
+      "chapter": 4,
+      "conceptId": "internal-enemy",
+      "sectionId": "c4-trong-sach",
+      "questionHash": "1131f5f027ff5bc57c8c03535c67a5bf8e462c64f5fbd58e608c7154478cb7cd",
+      "answerText": "Tham ô, lãng phí"
+    },
+    {
+      "questionId": "azota-ela4jq-012",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "c6d31754e770af521ad712d29aed52a39b7cc6cb2d68ca0993d8b27164a69a00",
+      "answerText": "Dân chủ, làm chủ"
+    },
+    {
+      "questionId": "azota-ela4jq-013",
+      "chapter": 1,
+      "conceptId": "foundation",
+      "sectionId": "c1-gia-tri",
+      "questionHash": "a8d338bd36d9924312a1a13d3a94161b175c4b885087430f72d295d965265c2d",
+      "answerText": "Là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng ta"
+    },
+    {
+      "questionId": "azota-ela4jq-014",
+      "chapter": 4,
+      "conceptId": "party-renewal",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "3d32cac84f40939ff68db4b1646abf65118609bc5e0c27ea79414c5a6556527d",
+      "answerText": "Cả chính trị, tư tưởng và tổ chức"
+    },
+    {
+      "questionId": "azota-ela4jq-016",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "931667a5a91bd36fc4aee4dc2710dedf148e4822ab0a0d0813a2a1327da3943b",
+      "answerText": "Tất cả đều vì lợi ích của nhân dân"
+    },
+    {
+      "questionId": "azota-ela4jq-017",
+      "chapter": 4,
+      "conceptId": "constitutional",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "4256346ab6fbd30c61c332df82723c6a1c90c6b74a64870d21bb43241e0a15d3",
+      "answerText": "Một nhà nước hợp Hiến"
+    },
+    {
+      "questionId": "azota-ela4jq-018",
+      "chapter": 4,
+      "conceptId": "party-birth",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "067465b3718dd6319a855e235069698f937e4b8d057a649e527c6cd4d7b3d674",
+      "answerText": "Chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước"
+    },
+    {
+      "questionId": "azota-ela4jq-019",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "85c9ec53301265c88344e51260a984bfc58af59de86a984f2b578a342f494872",
+      "answerText": "Cách mệnh; thuyền mới chạy"
+    },
+    {
+      "questionId": "azota-ela4jq-020",
+      "chapter": 4,
+      "conceptId": "state-class",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "e8a4b9d9bdf8f3b2579b43f90b54413bf4956fe2d35916df9bb4ad5dd72caa36",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ela4jq-022",
+      "chapter": 4,
+      "conceptId": "centralism",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "fcadcecded7bb95272b0fef58f5941382c0038fa0adf67de974ffc0029e779a4",
+      "answerText": "Đa số phục tùng thiểu số"
+    },
+    {
+      "questionId": "azota-ela4jq-023",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "da19cc1e658d1d1cee57cf03436c7e050675bf72331412b1cb196e66aea95632",
+      "answerText": "Do nhân dân làm chủ"
+    },
+    {
+      "questionId": "azota-ela4jq-025",
+      "chapter": 4,
+      "conceptId": "party-leads-state",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "f0151d07b02f4752d4985b7ea1f37d8220d22f806c25ada1785d1eb1b219ed91",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ela4jq-026",
+      "chapter": 4,
+      "conceptId": "party-class",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "401fe089129d6d9cc5019dac24b077d8f84f6bed803421effc9595dc5961256d",
+      "answerText": "Xác định bản chất của Đảng"
+    },
+    {
+      "questionId": "azota-ela4jq-028",
+      "chapter": 4,
+      "conceptId": "party-dichuc",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "11052281a132242b9adebb4b0615bf2a5677f2244223f5961838dd6aebce3b9b",
+      "answerText": "Đạo đức cách mạng"
+    },
+    {
+      "questionId": "azota-ela4jq-029",
+      "chapter": 4,
+      "conceptId": "party-birth",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "764e0800493e79e07e19114bd3cb630c20299b640ea0935e4a00e4e49384ff21",
+      "answerText": "Chủ nghĩa Mác – Lênin thâm nhập vào phong trào công nhân và phong trào yêu nước"
+    },
+    {
+      "questionId": "azota-ela4jq-030",
+      "chapter": 4,
+      "conceptId": "party-dichuc",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "f9eb1b3c0ec1c2f507ce97b98a60ea7270396e04d31542b531199afda257202f",
+      "answerText": "Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ trung thành của nhân dân"
+    },
+    {
+      "questionId": "azota-ela4jq-032",
+      "chapter": 4,
+      "conceptId": "party-foundation",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "0f039105aba525d83135cec937af313cab45283c4118fe393a7d1a1d0b535884",
+      "answerText": "Đường Cách mệnh"
+    },
+    {
+      "questionId": "azota-ela4jq-033",
+      "chapter": 4,
+      "conceptId": "party-foundation",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "082d34229f6a30f3d9855fc67de1e7078eacdc402de3d81f41f522e70a7758f3",
+      "answerText": "Chủ nghĩa Mác - Lênin"
+    },
+    {
+      "questionId": "azota-ela4jq-034",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "d6e56bad13eb94a6ac0872b5aa467b61f4979a884c88a3bac599e8a946f59881",
+      "answerText": "Xác định vai trò lãnh đạo của Đảng"
+    },
+    {
+      "questionId": "azota-ela4jq-035",
+      "chapter": 4,
+      "conceptId": "party-names",
+      "sectionId": "c4-van-kien",
+      "questionHash": "f5a92b289454a28ed3990255d05a5e6f80b6f79e210131bf42faecd6ba424b57",
+      "answerText": "Đảng Cộng sản Việt Nam"
+    },
+    {
+      "questionId": "azota-ela4jq-036",
+      "chapter": 4,
+      "conceptId": "party-class",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "7262633c86d9e080b734f383784a016de49b2c90a5a02cc428df372b4f50f3cc",
+      "answerText": "Do đặc tính của giai cấp công nhân"
+    },
+    {
+      "questionId": "azota-ela4jq-037",
+      "chapter": 4,
+      "conceptId": "law",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "23cc5da114f990a7e51f76888343e2b7404e54d3ac86fce18a006fe8ec640c9b",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ela4jq-040",
+      "chapter": 4,
+      "conceptId": "party-launch1951",
+      "sectionId": "c4-van-kien",
+      "questionHash": "d5c963ddb1ce65382c58748e00ffd7c357dece12cf57d97844fb831e68e44f7f",
+      "answerText": "Lễ ra mắt Đảng Lao động Việt Nam ngày 3/3/1951"
+    },
+    {
+      "questionId": "azota-ela4jq-041",
+      "chapter": 4,
+      "conceptId": "cadres",
+      "sectionId": "c4-can-bo",
+      "questionHash": "5f384b322bd349e674a4ad0f1d8a65ffa677831b6d1d7836d605a46df043b72e",
+      "answerText": "Tuyệt đối trung thành với cách mạng"
+    },
+    {
+      "questionId": "azota-ela4jq-042",
+      "chapter": 4,
+      "conceptId": "party-birth",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "e2edafbd32ba68f98bb05d303a1819ea71919e08e4e5bed24cb50736a36fda38",
+      "answerText": "Ba mươi năm hoạt động của Đảng"
+    },
+    {
+      "questionId": "azota-ela4jq-043",
+      "chapter": 4,
+      "conceptId": "party-birth",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "8a3ef22c3d6b1c85abc152fbbd6d5bfb5a76cfe67a56dc02ca3b535d29fe4738",
+      "answerText": "Phong trào yêu nước"
+    },
+    {
+      "questionId": "azota-ela4jq-044",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "8fdff6daa411424027ef8f86ace17113ead233baa5e7434549d27e9dfcba76e7",
+      "answerText": "Nhà nước do dân tạo ra và nhân dân tham gia quản lý"
+    },
+    {
+      "questionId": "azota-ela4jq-046",
+      "chapter": 4,
+      "conceptId": "party-principles",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "0a806151369e1ad0962e1c4e412039b5c4b63979d6e71b17fe70a72797288340",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ela4jq-047",
+      "chapter": 6,
+      "conceptId": "education-lifelong",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "79f6f1e008f34364bccf3af40bf2b107b82b15e49eb47b22e1a7704699b0af5e",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ela4jq-050",
+      "chapter": 4,
+      "conceptId": "party-names",
+      "sectionId": "c4-van-kien",
+      "questionHash": "b7658db4b2996cf07413a9b80e55e5066789ff3bccb156ca101196b546b1d4bb",
+      "answerText": "Đảng Cộng sản Đông Dương"
+    },
+    {
+      "questionId": "azota-ela4jq-051",
+      "chapter": 4,
+      "conceptId": "party-renewal",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "ed44d6d84b68f1e5fd9af33c46dcf573200a7b0f326144a749fe1ff41ea55b73",
+      "answerText": "Việc làm thường xuyên của Đảng"
+    },
+    {
+      "questionId": "azota-ela4jq-052",
+      "chapter": 4,
+      "conceptId": "clean-state",
+      "sectionId": "c4-trong-sach",
+      "questionHash": "6be3162953241ec1d589a7a7be8c28886a9dac87c25c8ac5895156882c4736ea",
+      "answerText": "Đặc quyền, đặc lợi; Tham ô, lãng phí, quan liêu; Tư túng, chia rẽ, kiêu ngạo"
+    },
+    {
+      "questionId": "azota-ela4jq-053",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "15950e33b338bf0c7af15b86d620b89c0c466b00e59b92052df2547127c5c0ba",
+      "answerText": "Người cầm lái"
+    },
+    {
+      "questionId": "azota-ela4jq-056",
+      "chapter": 4,
+      "conceptId": "party-birth",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "5c34d38da60e6bc45332a9def3f12e1774ff25af5370b9624cbaae0c122da61b",
+      "answerText": "Xác định nguồn gốc ra đời của Đảng"
+    },
+    {
+      "questionId": "azota-ela4jq-060",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "372fb828bb2d35901526e3f4eaaca4dd1103c08219cc3cb815aaa78e74731986",
+      "answerText": "Mọi quyền lực trong nhà nước và trong xã hội đều thuộc về nhân dân"
+    },
+    {
+      "questionId": "azota-ela4jq-061",
+      "chapter": 4,
+      "conceptId": "party-names",
+      "sectionId": "c4-van-kien",
+      "questionHash": "04063f2b1b614487d53e5ca51e71cebc228dd982d2ce9c2de43b1589f66bca17",
+      "answerText": "1951"
+    },
+    {
+      "questionId": "azota-ela4jq-062",
+      "chapter": 4,
+      "conceptId": "cadre-role",
+      "sectionId": "c4-can-bo",
+      "questionHash": "d26073785398f371636989f175a506691677a634c1d7d54da49a60675ff6a86e",
+      "answerText": "Cán bộ tốt hay kém"
+    },
+    {
+      "questionId": "azota-ela4jq-063",
+      "chapter": 4,
+      "conceptId": "party-dichuc",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "cc32adec26841fdd5e09cad828407166a1016fa5eea415cb92b9d8efe496a86f",
+      "answerText": "Di chúc"
+    },
+    {
+      "questionId": "azota-ela4jq-064",
+      "chapter": 4,
+      "conceptId": "state-class",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "fb6ce0ca33b1b69dda8f3a87be1e4dbf2db265f2525ba6609e52d5e16c80ee34",
+      "answerText": "Giai cấp công nhân"
+    },
+    {
+      "questionId": "azota-ela4jq-065",
+      "chapter": 4,
+      "conceptId": "party-class",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "ed0cf054201e94d7f92db5da6aa81ee558cbe171fbe5c9ba5d924ac7bee99b93",
+      "answerText": "Nền tảng lý luận, mục tiêu, đường lối, nguyên tắc tổ chức của Đảng"
+    },
+    {
+      "questionId": "azota-ela4jq-067",
+      "chapter": 4,
+      "conceptId": "centralism",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "6166d7e4bd8d1ffd7c35614c3aea63628f54555c0fa153b5fbdd373a0ea3b7be",
+      "answerText": "Tập trung dân chủ"
+    },
+    {
+      "questionId": "azota-ela4jq-069",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "51fe752e56297426e6117b8e06058296ac6c4cb48d4997d393331f76b0c08536",
+      "answerText": "Mọi quyền lực trong nhà nước và ngoài xã hội đều thuộc về nhân dân"
+    },
+    {
+      "questionId": "azota-ela4jq-070",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "87a11bbd92b0998a121c9fde2fdeee69a17ae7d5fbec5f2deccd7338c814d447",
+      "answerText": "Nhân dân"
+    },
+    {
+      "questionId": "azota-ela4jq-074",
+      "chapter": 4,
+      "conceptId": "party-dichuc",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "781632093503979c1c4ae44d3a0a9dd337987119bb9ccb56ff5daaf7902a8a49",
+      "answerText": "Di chúc"
+    },
+    {
+      "questionId": "azota-ela4jq-075",
+      "chapter": 4,
+      "conceptId": "letter-committees",
+      "sectionId": "c4-van-kien",
+      "questionHash": "6bd5177929498b1514de0cc0e1ae56d614969f7216af7aff1ceecba7d9bf113d",
+      "answerText": "Thư gửi ủy ban nhân dân các kỳ, tỉnh, huyện và làng"
+    },
+    {
+      "questionId": "azota-ela4jq-076",
+      "chapter": 4,
+      "conceptId": "party-class",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "9c0ea73a10f51c64ee97f5ac6c987c7a25d2ffedbaee59527ab1d7c6975ed544",
+      "answerText": "Giai cấp công nhân, của nhân dân lao động và của dân tộc Việt Nam"
+    },
+    {
+      "questionId": "azota-ela4jq-077",
+      "chapter": 4,
+      "conceptId": "party-dichuc",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "c1e05cefc06849cddae8b00b5505316a5bcebcda5015038f1d3dce1ddfe68d8f",
+      "answerText": "Ngay sau khi cuộc chống Mỹ, cứu nước hoàn toàn thắng lợi, việc cần làm trước tiên là chỉnh đốn lại Đảng"
+    },
+    {
+      "questionId": "azota-ela4jq-078",
+      "chapter": 4,
+      "conceptId": "democracy",
+      "sectionId": "c4-dan-chu",
+      "questionHash": "811d2bf37dc172a9c98782e2ac22421bbe03fc716d9ee8572918d7929e28c6e7",
+      "answerText": "Việc gì có lợi cho dân ta phải hết sức làm. Việc gì có hại cho dân, ta phải hết sức tránh"
+    },
+    {
+      "questionId": "azota-ela4jq-079",
+      "chapter": 4,
+      "conceptId": "party-role",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "3852cd31ba124423242925f434bd7ed7550df4174dc8a39dbbd0c0699d85352c",
+      "answerText": "Tình hình, đường lối và định phương châm cho đúng"
+    },
+    {
+      "questionId": "azota-ela4jq-080",
+      "chapter": 4,
+      "conceptId": "internal-enemy",
+      "sectionId": "c4-trong-sach",
+      "questionHash": "7ea9a736a9caa12a6ddc858c3149342168763a5735dda4d45631a2bbe6b13f9b",
+      "answerText": "Tham ô, lãng phí, quan liêu"
+    },
+    {
+      "questionId": "azota-ela4jq-081",
+      "chapter": 4,
+      "conceptId": "party-foundation",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "a1336473ddc30fa9838d2d69d14cecea6a04136adcb31a8120ce575007efad53",
+      "answerText": "Chủ nghĩa Mác – Lênin"
+    },
+    {
+      "questionId": "azota-ela4jq-082",
+      "chapter": 4,
+      "conceptId": "party-purpose",
+      "sectionId": "c4-dang-ra-doi",
+      "questionHash": "2c6aa012ea5fb6a58b7a6478bb661aea748cf64e70e3268b5c90423d7f05d2f8",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ela4jq-083",
+      "chapter": 4,
+      "conceptId": "law",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "8aee356ce61351d4553c87088244bdd111f46355b4f1fbbaa17dfd4b531d9922",
+      "answerText": "Nhà nước phải quản lý đất nước bằng hiến pháp và pháp luật"
+    },
+    {
+      "questionId": "azota-ela4jq-084",
+      "chapter": 6,
+      "conceptId": "final-wish",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "718f87e42b3df05525124470a1b2ae796b221a98e79e478b74ff7a45812dc7dc",
+      "answerText": "“Toàn Đảng, toàn dân ta đoàn kết phấn đấu xây dựng một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ, giàu mạnh và góp phần xứng đáng vào sự nghiệp cách mạng thế giới”"
+    },
+    {
+      "questionId": "azota-ijqzcg-001",
+      "chapter": 5,
+      "conceptId": "ho-slogan",
+      "sectionId": "c5-khau-hieu",
+      "questionHash": "f9ef9f7adca2bb8e99f62a2a9369646fead0b7f3711bccdfcef661ec6a56ae4e",
+      "answerText": "Lao động tất cả các nước đoàn kết lại"
+    },
+    {
+      "questionId": "azota-ijqzcg-002",
+      "chapter": 5,
+      "conceptId": "unity-foundation",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "6adce1aed77205932ea6fefda450936299085c53773f49653443d6356254acc2",
+      "answerText": "Liên minh công – nông – lao động trí óc"
+    },
+    {
+      "questionId": "azota-ijqzcg-003",
+      "chapter": 5,
+      "conceptId": "democratic-friends",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "15a4feed1026a2b4c6cfca6a089c7e23094d3cb44f27bd299a0b14f4afe4d230",
+      "answerText": "Mọi nước dân chủ"
+    },
+    {
+      "questionId": "azota-ijqzcg-004",
+      "chapter": 5,
+      "conceptId": "self-reliance",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "fcf7cec9bb545e2f89953333a79fb9fb31cbe21a50920f43fa3cce2d1e84b6d6",
+      "answerText": "Tự lực cánh sinh, dựa vào sức mình là chính"
+    },
+    {
+      "questionId": "azota-ijqzcg-005",
+      "chapter": 5,
+      "conceptId": "nation-strength",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "1dbe55297be32e1c31d0bb2df1dfccf2c2797fc75c51bde271beb7b630b0986c",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ijqzcg-006",
+      "chapter": 3,
+      "conceptId": "nationalism",
+      "sectionId": "c3-doc-lap",
+      "questionHash": "14a3d31ccc68d2ebcc7ab8acafec890a7e76be8fbe4414019f44bafcebfb89d0",
+      "answerText": "Báo cáo Bắc kỳ, trung kỳ, Nam kỳ"
+    },
+    {
+      "questionId": "azota-ijqzcg-008",
+      "chapter": 5,
+      "conceptId": "unity-foundation",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "fc1a900a548208128e2a7e773f669195e7f0bae78278e063b13fae4b53d26726",
+      "answerText": "Đảm bảo lợi ích tối cao của dân tộc, quyền lợi cơ bản của các tầng lớp nhân dân"
+    },
+    {
+      "questionId": "azota-ijqzcg-009",
+      "chapter": 5,
+      "conceptId": "unity-foundation",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "4f7b82eaf697d72505058919013d2c5597048cfbad3ed17d47ba2058a1d7a0b2",
+      "answerText": "Công nhân, nông dân, lao động trí óc"
+    },
+    {
+      "questionId": "azota-ijqzcg-010",
+      "chapter": 5,
+      "conceptId": "unity-foundation",
+      "sectionId": "c5-luc-luong",
+      "questionHash": "0cfe8d1a657be65995ad07262e018acf1e5d1e901bcfcb12b800c47f165e89f2",
+      "answerText": "Liên minh công - nông và lao động trí óc"
+    },
+    {
+      "questionId": "azota-ijqzcg-011",
+      "chapter": 5,
+      "conceptId": "three-fronts",
+      "sectionId": "c5-mat-tran",
+      "questionHash": "d6a8a2165ff963f7a9f6c781617fee8c1afc91491f62e5d0a69fb95d35d3845b",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ijqzcg-012",
+      "chapter": 5,
+      "conceptId": "front",
+      "sectionId": "c5-mat-tran",
+      "questionHash": "b6f1e7bc4bbea21f2bb84c50903070cdd09db568699bab0d02dd814088a53ae3",
+      "answerText": "Tòa án nhân dân"
+    },
+    {
+      "questionId": "azota-ijqzcg-014",
+      "chapter": 5,
+      "conceptId": "unity-goal",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "5b1095f29a8ec3bd28c5d8a9ef842b3951fd4529fd5712833bd5ad29b6ca6d12",
+      "answerText": "Là mục tiêu, nhiệm vụ hàng đầu của cách mạng, của dân tộc"
+    },
+    {
+      "questionId": "azota-ijqzcg-015",
+      "chapter": 5,
+      "conceptId": "unity-role",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "0a0582b7c3b6e7512b09584f5ef826f55869f2445d93dd4fa791781c7386e3b0",
+      "answerText": "Đại đoàn kết là vấn đề chiến lược"
+    },
+    {
+      "questionId": "azota-ijqzcg-016",
+      "chapter": 4,
+      "conceptId": "party-dichuc",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "943a7b7259db91775821f2a9d51fec50233824ecc28e8931e745e0e0de529762",
+      "answerText": "Di chúc"
+    },
+    {
+      "questionId": "azota-ijqzcg-018",
+      "chapter": 5,
+      "conceptId": "ho-slogan",
+      "sectionId": "c5-khau-hieu",
+      "questionHash": "3a569448bebdadc6078db867d85dba6d7c69b08f51297da4411eef8ea3c6d62e",
+      "answerText": "Hồ Chí Minh"
+    },
+    {
+      "questionId": "azota-ijqzcg-019",
+      "chapter": 5,
+      "conceptId": "unity-success",
+      "sectionId": "c5-moc",
+      "questionHash": "a51c56b7d5783d47bf588eb7fd6a5fa3dd3bbda85cc99bf9e1ef253cec468376",
+      "answerText": "Bài nói chuyện tại Đại hội Đại biểu Mặt trận Tổ quốc Việt Nam lần thứ II"
+    },
+    {
+      "questionId": "azota-ijqzcg-020",
+      "chapter": 5,
+      "conceptId": "international-strength",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "1c6322c8762151fce84decef773c571efe8f469f6e27edb7612a85005bf73371",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-ijqzcg-022",
+      "chapter": 5,
+      "conceptId": "vietminh",
+      "sectionId": "c5-moc",
+      "questionHash": "1ea7fb66ecf3c846067625bea13cd4830ada3917259538c804634241953067cf",
+      "answerText": "19/5/1941"
+    },
+    {
+      "questionId": "azota-ijqzcg-023",
+      "chapter": 5,
+      "conceptId": "self-reliance",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "da9f5af9cb3ecac1bee3ee6e93a7b238eae4d03c5650017491c676a918230f07",
+      "answerText": "Nội lực là chính, ngoại lực là quan trọng"
+    },
+    {
+      "questionId": "azota-ijqzcg-024",
+      "chapter": 5,
+      "conceptId": "unity-role",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "4b6a066cbe6f0733dd43e45bb412420ca74ae55fd6037c9603b45c602a20773b",
+      "answerText": "Đoàn kết dân tộc"
+    },
+    {
+      "questionId": "azota-ijqzcg-025",
+      "chapter": 5,
+      "conceptId": "unity-role",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "c51502022c21deb41718aeca90084423924788ac63f52129eafb5eaba8ca2026",
+      "answerText": "Đoàn kết"
+    },
+    {
+      "questionId": "azota-ijqzcg-026",
+      "chapter": 5,
+      "conceptId": "diplomacy",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "c4015977a5d19838dc78e8a2cdb000fdca5c59282f91651a34e6620d9fc1db68",
+      "answerText": "Vừa cứng rắn về nguyên tắc, vừa mềm dẻo về sách lược"
+    },
+    {
+      "questionId": "azota-ijqzcg-028",
+      "chapter": 5,
+      "conceptId": "unity-goal",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "0ad03cd82e74914637e3cc9c899a5304a7021891edca9011319eae2c5fff0b30",
+      "answerText": "Đại đoàn kết dân tộc"
+    },
+    {
+      "questionId": "azota-ijqzcg-029",
+      "chapter": 5,
+      "conceptId": "international-principles",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "52ba408eed8bcf55c747a4ab73747656e7102e4ec9dab8c07eddb6be36abc427",
+      "answerText": "Đoàn kết trên cơ sở thống nhất mục tiêu, lợi ích, có lý, có tình"
+    },
+    {
+      "questionId": "azota-ijqzcg-032",
+      "chapter": 4,
+      "conceptId": "party-dichuc",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "cfed75e49a425eb1fc7a9699bca4c811314392b70bbcb01ce6c7da4ed409eee5",
+      "answerText": "Con ngươi mắt mình"
+    },
+    {
+      "questionId": "azota-ijqzcg-035",
+      "chapter": 5,
+      "conceptId": "unity-role",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "4b971a76dd2a675588f7851e38641fc1cdda39a31a157adcb5aba8aa2c6fff6e",
+      "answerText": "Là vấn đề cơ bản có ý nghĩa chiến lược, quyết định thành công của cách mạng"
+    },
+    {
+      "questionId": "azota-ijqzcg-037",
+      "chapter": 5,
+      "conceptId": "front1939",
+      "sectionId": "c5-moc",
+      "questionHash": "2aa79591050747690500422d6416836355b0e1d952d8f5a6f5e8cf24d249e733",
+      "answerText": "Mặt trận dân tộc thống nhất phản đế Đông Dương"
+    },
+    {
+      "questionId": "azota-ijqzcg-038",
+      "chapter": 5,
+      "conceptId": "international-forces",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "705cef5589177acb92b308c914a460dba752a111c8ae23c3b3f02df35ba41e01",
+      "answerText": "Phong trào cộng sản và công nhân thế giới; Phong trào đấu tranh giải phóng dân tộc; Các lực lượng tiến bộ, những người yêu chuộng hòa bình, dân chủ, tự do, công lý"
+    },
+    {
+      "questionId": "azota-ijqzcg-039",
+      "chapter": 5,
+      "conceptId": "unity-role",
+      "sectionId": "c5-vai-tro",
+      "questionHash": "9cc5e93036760426b3e9cbee5ce56dc5e258d31044357df45520edcfd67bc51f",
+      "answerText": "Đại đoàn kết dân tộc"
+    },
+    {
+      "questionId": "azota-ijqzcg-040",
+      "chapter": 5,
+      "conceptId": "four-seas",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "2cfe26d3dd535fee4a2578a4507d3a7bc1f9871cf16a72c765a33cf4c685aaf8",
+      "answerText": "Vàng đen trắng đỏ"
+    },
+    {
+      "questionId": "azota-ijqzcg-042",
+      "chapter": 5,
+      "conceptId": "self-reliance",
+      "sectionId": "c5-suc-manh",
+      "questionHash": "71565f53082ec7faae97f1b8fad917c258f50cd0569b7c1820a367f237f2a8fd",
+      "answerText": "Quan trọng"
+    },
+    {
+      "questionId": "azota-ijqzcg-043",
+      "chapter": 5,
+      "conceptId": "international-principles",
+      "sectionId": "c5-quoc-te",
+      "questionHash": "f14f63f3dc5ddeaf1185cfcf42d146da9ea7c96135a6e65c86f34ce754bf138c",
+      "answerText": "Đoàn kết trên cơ sở thống nhất mục tiêu và lợi ích, có lý có tình; Đoàn kết trên cở sở độc lập, tự chủ, tự lực tự cường"
+    },
+    {
+      "questionId": "azota-3eggrt-001",
+      "chapter": 6,
+      "conceptId": "education-all",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "6d50c58df003f3e0f1bfa8596c08d3997583d477998e44b50f4fe7033b71a50e",
+      "answerText": "Giáo dục toàn diện cả đức, trí, thể, mỹ"
+    },
+    {
+      "questionId": "azota-3eggrt-002",
+      "chapter": 6,
+      "conceptId": "human-specific",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "27fb3f4cba5e4ce30021693a680668917ff8905f19c04daa97675eb0bce01e7c",
+      "answerText": "Con người cụ thể gắn với hoàn cảnh cụ thể"
+    },
+    {
+      "questionId": "azota-3eggrt-003",
+      "chapter": 6,
+      "conceptId": "culture-nature",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "db74c7c5583c930a852502bc7e9ca47b2170157f816e247a605f6fa452f0fbe7",
+      "answerText": "Văn hóa phải phục vụ nhân dân và do nhân dân xây dựng nên"
+    },
+    {
+      "questionId": "azota-3eggrt-004",
+      "chapter": 6,
+      "conceptId": "highest-ethics",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "239bbc4094a949034f18671015ec1482319cffe6bc4143a80602881b3ebc5584",
+      "answerText": "Trung với nước, hiếu với dân"
+    },
+    {
+      "questionId": "azota-3eggrt-005",
+      "chapter": 6,
+      "conceptId": "ethics-principles",
+      "sectionId": "c6-nguyen-tac",
+      "questionHash": "00a7ad3a7651e9ddcc2ae8428e76ed687190334183f4253a5880b1f8442aa15a",
+      "answerText": "Tạo thành phong trào quần chúng rộng rãi"
+    },
+    {
+      "questionId": "azota-3eggrt-006",
+      "chapter": 6,
+      "conceptId": "new-life",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "b935f950c130e8f55e32e2e1d5a9c4186fa7ea1eab7a3863497444fabfb6f14b",
+      "answerText": "Đạo đức mới, lối sống mới, nếp sống mới"
+    },
+    {
+      "questionId": "azota-3eggrt-007",
+      "chapter": 6,
+      "conceptId": "culture-functions",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "b45350dc1f14644d70a29a1055b4cbc4a22e508f42ab69ffa7f1e8902a4eeb66",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-3eggrt-008",
+      "chapter": 6,
+      "conceptId": "ethics1958",
+      "sectionId": "c6-tac-pham",
+      "questionHash": "f79f37b53cffe498b586d963ac112f28c60bb6244cd53d69acc860d235b73b66",
+      "answerText": "Đạo đức cách mạng"
+    },
+    {
+      "questionId": "azota-3eggrt-009",
+      "chapter": 6,
+      "conceptId": "human-specific",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "91fb0ff92af9db3023050473da096b90516ea3ae2d22795cfc867417380a0d58",
+      "answerText": "Con người cụ thể gắn với hoàn cảnh lịch sử cụ thể"
+    },
+    {
+      "questionId": "azota-3eggrt-010",
+      "chapter": 4,
+      "conceptId": "internal-enemy",
+      "sectionId": "c4-trong-sach",
+      "questionHash": "25ce298aa2ee69050c13a379d4b3a587a31738fe24b1e0dd1f010228dbc00606",
+      "answerText": "Tham ô, lãng phí, quan liêu"
+    },
+    {
+      "questionId": "azota-3eggrt-012",
+      "chapter": 6,
+      "conceptId": "human-role",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "7f3ef5dc5e696ae4852b318d0af8eb05fa7223a9711afa185dc640d3183ac531",
+      "answerText": "Vốn quý nhất, nhân tố quyết định thành công của cách mạng"
+    },
+    {
+      "questionId": "azota-3eggrt-013",
+      "chapter": 6,
+      "conceptId": "culture-position",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "922bd80fad48ad0a57dd1919db517e1628b862706158fb5e726599ef2908e23a",
+      "answerText": "Kinh tế, chính trị, xã hội"
+    },
+    {
+      "questionId": "azota-3eggrt-014",
+      "chapter": 6,
+      "conceptId": "ethics-standards",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "1b71782c4d38db3f144a1e2ea88cb6f6fe393cc5f7ec59f6fd57672d008daec6",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-3eggrt-017",
+      "chapter": 6,
+      "conceptId": "ethics1969",
+      "sectionId": "c6-tac-pham",
+      "questionHash": "0c911897eecc1fe1ade70bba961f72e14446964d94f4b1e1eb1d78d85da4b3c8",
+      "answerText": "T.L. (Trần Lực)"
+    },
+    {
+      "questionId": "azota-3eggrt-018",
+      "chapter": 6,
+      "conceptId": "artist",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "7e6af61a4fd56ec6a6c6db30b4dd93a832ea230a26c128b57455e595f59d3bc7",
+      "answerText": "Là vũ khí sắc bén trong đấu tranh cách mạng, xây dựng xã hội mới, con người mới"
+    },
+    {
+      "questionId": "azota-3eggrt-019",
+      "chapter": 6,
+      "conceptId": "artist",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "2c153fd965edb24db008a414b78f96beb1428ac93578bb545974f63b08193a23",
+      "answerText": "Là người chiến sĩ"
+    },
+    {
+      "questionId": "azota-3eggrt-020",
+      "chapter": 6,
+      "conceptId": "lifelong",
+      "sectionId": "c6-nguyen-tac",
+      "questionHash": "b97e6b1608fb1f219ca5ff82eaf88f4aba77e369be977a22143c42eb9ae2f3f0",
+      "answerText": "Hồ Chí Minh"
+    },
+    {
+      "questionId": "azota-3eggrt-021",
+      "chapter": 6,
+      "conceptId": "culture-nature",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "3e7a961086e694148f797cfbfee7dc629426e7ac83e3f58e91fedce27a9f3529",
+      "answerText": "Tính dân tộc, tính khoa học, tính đại chúng"
+    },
+    {
+      "questionId": "azota-3eggrt-022",
+      "chapter": 6,
+      "conceptId": "new-life",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "3c12528f61f04055038ad9f2c27992a30139b662bc29caf7860668369ec06b66",
+      "answerText": "Sau Cách mạng Tháng Tám năm 1945"
+    },
+    {
+      "questionId": "azota-3eggrt-023",
+      "chapter": 6,
+      "conceptId": "ethics-root",
+      "sectionId": "c6-dao-duc",
+      "questionHash": "37154429589916670b6cd8714d9262ab4c184ce598fe5ba89814cee9a75649ec",
+      "answerText": "Đạo đức"
+    },
+    {
+      "questionId": "azota-3eggrt-024",
+      "chapter": 6,
+      "conceptId": "ethics-standards",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "f97dee5814e7ad0c13dc97e3526a61f319421bf12b75e83e77dd003756327174",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-3eggrt-026",
+      "chapter": 6,
+      "conceptId": "human-nature",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "27cb32c3e816131510e873b8bab64c0a05709e712ec50c5c4ef71b12679331ef",
+      "answerText": "Tốt – xấu, thiện – ác"
+    },
+    {
+      "questionId": "azota-3eggrt-027",
+      "chapter": 6,
+      "conceptId": "human-role",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "350cb00365cc39fe08ad5af129f07b2a9553857fd9befc8076673e2cb9e15690",
+      "answerText": "Công việc đối với con người"
+    },
+    {
+      "questionId": "azota-3eggrt-029",
+      "chapter": 4,
+      "conceptId": "criticism",
+      "sectionId": "c4-nguyen-tac",
+      "questionHash": "67c7cacbd296db8676ea68b92ae097fe5cbdb5e146fbc44309392a7cad1e0c92",
+      "answerText": "Cách thức tự phê bình và phê bình"
+    },
+    {
+      "questionId": "azota-3eggrt-031",
+      "chapter": 6,
+      "conceptId": "culture-definition",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "dafb68290496cc502b2a1b68356247c49de8618295e6c473cbff0de0a5f953c5",
+      "answerText": "Văn hóa gồm toàn bộ những giá trị vật chất và tinh thần mà loài người đã sáng tạo ra, nhằm đáp ứng sự sinh tồn và mục đích cuộc sống của mình"
+    },
+    {
+      "questionId": "azota-3eggrt-032",
+      "chapter": 6,
+      "conceptId": "education-lifelong",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "5543490b32194be71e80a2b5ef6077f831690b32e6b80fa2c1ae59392fdf17ca",
+      "answerText": "Hồ Chí Minh"
+    },
+    {
+      "questionId": "azota-3eggrt-033",
+      "chapter": 6,
+      "conceptId": "ethics-root",
+      "sectionId": "c6-dao-duc",
+      "questionHash": "38dbef767b9dffea598f09cec2df778f5163d5c055717f8fa97c73b7fb4c6e20",
+      "answerText": "Là cái gốc, là nền tảng của người cách mạng"
+    },
+    {
+      "questionId": "azota-3eggrt-034",
+      "chapter": 6,
+      "conceptId": "ethics-root",
+      "sectionId": "c6-dao-duc",
+      "questionHash": "6b643a77738ed41c419026b068c25e9bc1aad77c9e360ebdc8b9a04c14261173",
+      "answerText": "Đạo đức cách mạng"
+    },
+    {
+      "questionId": "azota-3eggrt-035",
+      "chapter": 6,
+      "conceptId": "chinh-relations",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "2b2d2a5c46cb5fb34bab79ffce2ddf688e7467fb1e5a739cf27af424c96c0f7c",
+      "answerText": "Quan hệ với mình, với người, với việc"
+    },
+    {
+      "questionId": "azota-3eggrt-037",
+      "chapter": 6,
+      "conceptId": "fairness1966",
+      "sectionId": "c6-tac-pham",
+      "questionHash": "282d5252e3b325233e1c8b7d600aed4ff9fe9fda6d338b895131ac340e8e7e59",
+      "answerText": "Năm 1966"
+    },
+    {
+      "questionId": "azota-3eggrt-039",
+      "chapter": 6,
+      "conceptId": "education-all",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "e11ecdc5abc32f3ed2e41a41f91042339938e1ec524346ac49e4968678ff52ef",
+      "answerText": "Đào tạo những con người tốt, có ích cho xã hội"
+    },
+    {
+      "questionId": "azota-3eggrt-041",
+      "chapter": 6,
+      "conceptId": "youth-spring",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "50cb62e192474bf3cefca247c8ac618c18e559108491ffa7eea082a825d42bb7",
+      "answerText": "Mùa xuân"
+    },
+    {
+      "questionId": "azota-3eggrt-042",
+      "chapter": 4,
+      "conceptId": "lenin-party",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "609809d27a7bb17eea7635a48d96cd3cfd03cd5ebfc0a79084eb8ec1673b0e50",
+      "answerText": "V.I. Lênin"
+    },
+    {
+      "questionId": "azota-3eggrt-043",
+      "chapter": 6,
+      "conceptId": "ethics-root",
+      "sectionId": "c6-dao-duc",
+      "questionHash": "2629455d99555156d4027be26808e601f64e1c6e608479fd27796767d44f396d",
+      "answerText": "Gốc của người cách mạng"
+    },
+    {
+      "questionId": "azota-3eggrt-045",
+      "chapter": 6,
+      "conceptId": "human-role",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "5957830bf7c25b1595843d0d7c307d29fb7142a228b416d89d34dcd3ce928fd9",
+      "answerText": "Vốn quý nhất, nhân tố quyết định đến thành công của cách mạng"
+    },
+    {
+      "questionId": "azota-3eggrt-047",
+      "chapter": 6,
+      "conceptId": "confucius-liem",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "a4e889cc205dd7c0909e4f6d5e925b2ce7b9f8d208554c1f8c410f56774c5386",
+      "answerText": "Khổng Tử"
+    },
+    {
+      "questionId": "azota-3eggrt-048",
+      "chapter": 6,
+      "conceptId": "culture-position",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "ca462faeff7bf5ea5c2deea38cd590b8ee6bf6d97507f6c0c1f6aa29f8cc7a71",
+      "answerText": "Kiến trúc thượng tầng"
+    },
+    {
+      "questionId": "azota-3eggrt-050",
+      "chapter": 6,
+      "conceptId": "highest-ethics",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "fa9dc47daa555b45e8a7bc4735c411ffac2f8ea80bd709d2c4f98cc3feaef289",
+      "answerText": "Yêu thương dân và phục vụ dân hết lòng"
+    },
+    {
+      "questionId": "azota-3eggrt-051",
+      "chapter": 6,
+      "conceptId": "highest-ethics",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "8e03ab6e9f10a08e57433bf6f4f120c793fcc51f6fcb128829fd923a9d660f84",
+      "answerText": "Thương dân, tin dân, phục vụ nhân dân hết lòng"
+    },
+    {
+      "questionId": "azota-3eggrt-052",
+      "chapter": 6,
+      "conceptId": "human-nature",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "e03143beaa886c2422f4c4894864375fff28612a05a8cfcc84ae84b0d599f905",
+      "answerText": "Sự thống nhất cả hai mặt tự nhiên và xã hội"
+    },
+    {
+      "questionId": "azota-3eggrt-053",
+      "chapter": 6,
+      "conceptId": "ethics1958",
+      "sectionId": "c6-tac-pham",
+      "questionHash": "ee8303801ac22d3b88c8e02d456b986ac20c2465cbe31dc109ce7b87c90db2c0",
+      "answerText": "Tạp chí Học tập"
+    },
+    {
+      "questionId": "azota-3eggrt-055",
+      "chapter": 6,
+      "conceptId": "youth-awaken",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "e1eed535818dd7d65303f2880fb620a7cb4780fcfe4e75d1332c3f24677e0396",
+      "answerText": "Thanh niên"
+    },
+    {
+      "questionId": "azota-3eggrt-057",
+      "chapter": 6,
+      "conceptId": "human-specific",
+      "sectionId": "c6-con-nguoi",
+      "questionHash": "b6e13136dee8db7210bbc8b71779b3826e22e30aceeb3ed185a7efa32d9669d1",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-3eggrt-060",
+      "chapter": 6,
+      "conceptId": "highest-ethics",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "2f03fb6419f7d2233ea3b526e0ee7914903632d9a34dde79792fcd1166f3c8a7",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-3eggrt-061",
+      "chapter": 6,
+      "conceptId": "lifelong",
+      "sectionId": "c6-nguyen-tac",
+      "questionHash": "9a13c33134aa91eb9db1bb8258ca4d07000471edcefd1e561dcb41d8ff50a42a",
+      "answerText": "Mọi hoạt động thực tiễn, mọi mối quan hệ xã hội"
+    },
+    {
+      "questionId": "azota-3eggrt-063",
+      "chapter": 4,
+      "conceptId": "law",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "8647db2c97e58fc299cc2ac99f83d057e9bb22d8e3020fb65867d2a7008ac121",
+      "answerText": "Kết hợp nhuần nhuyễn pháp trị và đức trị"
+    },
+    {
+      "questionId": "azota-3eggrt-064",
+      "chapter": 6,
+      "conceptId": "ethics-life",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "9509730013d295778fb85a8c5e12270c95650dc663371248a97b540b638d12e2",
+      "answerText": "Cần, kiệm, liêm, chính"
+    },
+    {
+      "questionId": "azota-3eggrt-066",
+      "chapter": 4,
+      "conceptId": "three-relations",
+      "sectionId": "c4-dao-duc",
+      "questionHash": "4309e03baf1d83f24ea0706e96c801c09c380dce6757c9a256ca0815ebbb7c1c",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-3eggrt-067",
+      "chapter": 6,
+      "conceptId": "ethics-root",
+      "sectionId": "c6-dao-duc",
+      "questionHash": "d0e22e97b4f7819606f237c55f8a4a75c9be3e567ddbbb9cf184de5ca8417088",
+      "answerText": "Cả ba phương án còn lại"
+    },
+    {
+      "questionId": "azota-3eggrt-068",
+      "chapter": 6,
+      "conceptId": "culture-position",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "dec5f2351e4f94414b2d8a81816531140c894c42039e16dff8787851a647cdaf",
+      "answerText": "Phục vụ nhiệm vụ chính trị, thúc đẩy xây dựng và phát triển kinh tế"
+    },
+    {
+      "questionId": "azota-3eggrt-069",
+      "chapter": 6,
+      "conceptId": "education-all",
+      "sectionId": "c6-giao-duc",
+      "questionHash": "452638f7cead584971b1178ada3dd901f96be0667ffb05dc0d101c1101504723",
+      "answerText": "Để có chất lượng và hiệu quả cao trong học tập"
+    },
+    {
+      "questionId": "azota-3eggrt-070",
+      "chapter": 6,
+      "conceptId": "new-life1947",
+      "sectionId": "c6-tac-pham",
+      "questionHash": "e1c0be37a6eb24ffd1f27c7b2d706eb15cc230aef8ff384a0a58f2ce84761ff4",
+      "answerText": "Tháng 3/1947"
+    },
+    {
+      "questionId": "azota-3eggrt-071",
+      "chapter": 6,
+      "conceptId": "culture-position",
+      "sectionId": "c6-van-hoa",
+      "questionHash": "108733f723d169187dcb90ea37192d1ee4a8bc5a0576f0e86a0fcc4238c382db",
+      "answerText": "Muốn tiến lên chủ nghĩa xã hội thì phải phát triển kinh tế và văn hóa"
+    },
+    {
+      "questionId": "azota-3eggrt-072",
+      "chapter": 6,
+      "conceptId": "ethics-root",
+      "sectionId": "c6-dao-duc",
+      "questionHash": "60010b309fd519e509b5100e5037a3b75c686e41df9437ead5ed112bdbc70df0",
+      "answerText": "Là cái gốc, nền tảng của người cách mạng"
+    },
+    {
+      "questionId": "azota-3eggrt-074",
+      "chapter": 6,
+      "conceptId": "ethics-standards",
+      "sectionId": "c6-chuan-muc",
+      "questionHash": "7511bb188fc2a48bdec37766dad747b05e41aca17b649ebce3309a2934223d67",
+      "answerText": "Lập trường giai cấp công nhân"
+    },
+    {
+      "questionId": "azota-3eggrt-075",
+      "chapter": 6,
+      "conceptId": "ethics1947",
+      "sectionId": "c6-tac-pham",
+      "questionHash": "fa15b36c089bd98dfac2092f02fd6158390cf6aeb48536e7243de481a69586c4",
+      "answerText": "Sửa đổi lối làm việc"
+    },
+    {
+      "questionId": "azota-n6fnzo-004",
+      "chapter": 4,
+      "conceptId": "constitutional",
+      "sectionId": "c4-phap-quyen",
+      "questionHash": "f1378d1ba53db0abaf1c736d3b972b4c7602e649f7f1f3239d49406fb0f72939",
+      "answerText": "Là Nhà nước được xây dựng trên cơ sở bản hiến pháp dân chủ thể theo ý nguyện của nhân dân"
+    },
+    {
+      "questionId": "azota-n6fnzo-095",
+      "chapter": 6,
+      "conceptId": "culture-role",
+      "sectionId": "c6-vai-tro",
+      "questionHash": "32b3620c21e77d74436cf3cc047ac822c7ac46359e20fa41c50fe9f0db21eb1b",
+      "answerText": "Văn hóa là sự nghiệp của quần chúng nhân dân"
+    }
+  ]
+}
