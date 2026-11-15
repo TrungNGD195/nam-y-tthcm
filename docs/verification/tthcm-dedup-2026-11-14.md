@@ -11,3 +11,9 @@ Yêu cầu đã xác nhận: bỏ cả câu trùng nội dung trong ngân hàng 
 - Curator chạy lại tạo cùng hash ngân hàng, không đưa các câu đã gộp trở lại. Word gốc vẫn đủ 522 đề/2088 lựa chọn, phần giới thiệu cập nhật số câu web 506.
 - **31 core tests và 25 browser tests đạt**. Bao gồm nguồn/băm đáp án sau gộp, alias migration, không mất khác biệt giữa câu gần nhau, không trùng trong/toàn bộ đề, đề cuối 6 câu, reload, điểm và lựa chọn, thay/tiếp tục bài, mobile, TTHCM và Xử lý ảnh.
 - `npm run build` đạt, validator kiểm tra alias, nguồn và công thức. Dữ liệu kiểm tra tạm lưu trong `.analysis/`, không công bố.
+
+## Xác nhận xuất bản — 15/11/2026
+
+- Mã thay đổi nội dung `6cecf64`; bản xuất bản `831014c` bổ sung sửa fixture kiểm thử ảnh để không mang alias của toàn ngân hàng vào mẫu một câu. 31 core tests và 25 browser tests đạt trong [GitHub Actions](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/43662021322), triển khai GitHub Pages thành công.
+- Kiểm tra trực tiếp trang public bằng trình duyệt: mở đủ 11 đề, đọc các câu của mỗi bài, xác nhận 506 ID khác nhau trên toàn bộ đề; 10 đề 50 câu và đề cuối 6 câu, cả 6 chương đều xuất hiện trong mỗi đề.
+- Thử chọn đáp án, tải lại, nộp đề cuối và đọc đủ 6 kết quả; không có lỗi JavaScript hoặc phản hồi tài nguyên lỗi trên domain website.
