@@ -8,7 +8,7 @@ TTHCM có **45 mục học theo 6 chương, gồm 213 nhóm kiến thức** đư
 
 | Môn | Trạng thái |
 | --- | --- |
-| Tư tưởng Hồ Chí Minh | 506 câu, 6 chương, 92 câu số liệu; 10 đề × 50 + 1 đề cuối 6 câu, không lặp giữa các đề |
+| Tư tưởng Hồ Chí Minh | 506 câu, 6 chương, 92 câu số liệu; 8 đề × 60 + 1 đề cuối 26 câu, không lặp giữa các đề |
 | Xử lý ảnh | 168 câu/bài tự luận có lời giải, chia ngân hàng theo 4 mức điểm và bộ cô Uyên theo chương |
 | Khoa học dữ liệu | Chờ giáo trình và ngân hàng, chưa tạo câu hoặc chia chương |
 
@@ -114,7 +114,7 @@ CI chạy kiểm tra toán độc lập bằng NumPy/SciPy; khi học chỉ cầ
 
 ## Nội dung TTHCM
 
-[Luyện đề tổng hợp](https://trungngd195.github.io/nam-y-tthcm/#/mon/tthcm/de-tong-hop): 10 đề 50 câu và 1 đề cuối 6 câu. Cả bộ dùng đúng 506 câu, mỗi câu chỉ thuộc một đề. Rải đều số câu của từng chương giữa các đề chính theo lượng câu thực có, không lặp để ép mỗi chương 8–9 câu. Có thể làm lại, lưu bài dang dở và xem lời giải sau nộp. Đề mẫu/đề trộn 20 câu vẫn nằm trong khu Thi thử.
+[Luyện đề tổng hợp](https://trungngd195.github.io/nam-y-tthcm/#/mon/tthcm/de-tong-hop): **8 đề 60 câu và 1 đề cuối 26 câu**. Cả bộ dùng đúng 506 câu, mỗi câu chỉ thuộc một đề. Rải đều số câu của từng chương giữa các đề chính theo lượng câu thực có. Có thể làm lại, lưu bài dang dở và xem lời giải sau nộp. Điểm bộ 50 câu cũ không gán sang bộ mới; bài cũ đang làm vẫn có thể tiếp tục. Đề mẫu/đề trộn 20 câu vẫn nằm trong khu Thi thử.
 
 506 câu chuẩn từ 755 mục nguồn: 233 mục LMS/quiz/đề mẫu và 522 mục tại 6 link Azota. Sau đợt gộp ban đầu còn 623 câu; đợt rà trùng ý gộp thêm 117 bản trong 96 nhóm, còn 506. [Quyết định gộp](content/tthcm/duplicate-decisions.json) giữ hash đề/lựa chọn/đáp án trước gộp; mọi nguồn và bản chụp gốc vẫn giữ. 4 câu Azota và 11 mục cũ còn mơ hồ chưa dùng để chấm. Mỗi câu có keyword, lời giải ngắn và căn cứ đối chiếu. [Báo cáo nội dung](content/tthcm/BAO_CAO_NOI_DUNG.md) và [quyết định từng mục](content/tthcm/azota/reviewed.json) ghi đầy đủ thay đổi.
 

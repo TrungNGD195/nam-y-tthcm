@@ -8,12 +8,15 @@ import type { Bank,Deck } from '../../src/core/types.ts';
 
 const bank=JSON.parse(readFileSync(new URL('../../src/subjects/tthcm/bank.json',import.meta.url),'utf8')) as Bank;
 const map=new Map(bank.questions.map(q=>[q.id,q]));
-const papers=buildComprehensivePapers(bank.questions,50,`tthcm:${bank.version}`);
+const subject=JSON.parse(readFileSync(new URL('../../src/subjects/catalog.json',import.meta.url),'utf8')).find((s:any)=>s.id==='tthcm');
+const size=subject.comprehensiveExamSize;
+const papers=buildComprehensivePapers(bank.questions,size,`tthcm:${bank.version}`);
 
-test('ten full papers and a six-question tail cover every published question exactly once',()=>{
-  assert.equal(papers.length,11);assert.equal(new Set(papers.flatMap(p=>p.questionIds)).size,506);
+test('eight sixty-question papers and a 26-question tail cover every published question exactly once',()=>{
+  assert.equal(size,60);
+  assert.equal(papers.length,9);assert.equal(new Set(papers.flatMap(p=>p.questionIds)).size,506);
   assert.equal(papers.flatMap(p=>p.questionIds).length,506);
-  assert.deepEqual(papers.map(p=>p.questionIds.length),[50,50,50,50,50,50,50,50,50,50,6]);
+  assert.deepEqual(papers.map(p=>p.questionIds.length),[60,60,60,60,60,60,60,60,26]);
   assert.deepEqual(new Set(papers.flatMap(p=>p.questionIds)),new Set(bank.questions.map(q=>q.id)));
   for(const paper of papers){
     assert.equal(new Set(paper.questionIds).size,paper.questionIds.length);
@@ -24,19 +27,22 @@ test('ten full papers and a six-question tail cover every published question exa
   }
   assert(bank.questions.some(q=>q.tags.includes('date')));
   assert.equal(new Set(papers.flatMap(p=>p.questionIds)).size,bank.questions.length);
-  assert(papers.at(-1)!.chapterCounts.every(c=>c.count===1));
+  assert(papers.at(-1)!.chapterCounts.every(c=>c.count>0));
 });
 
 test('paper membership and order are reproducible, independent of input array order and progress',()=>{
   const original=bank.questions.map(q=>q.id);
-  assert.deepEqual(buildComprehensivePapers([...bank.questions].reverse(),50,`tthcm:${bank.version}`),papers);
+  assert.deepEqual(buildComprehensivePapers([...bank.questions].reverse(),size,`tthcm:${bank.version}`),papers);
   assert.deepEqual(bank.questions.map(q=>q.id),original);
   for(const paper of papers){
     const deck:Deck={kind:'comprehensive',count:paper.questionIds.length,title:paper.title,questionIds:paper.questionIds,paperKey:paper.key};
     assert.deepEqual(selectQuestions(bank.questions,deck,{}).map(q=>q.id),paper.questionIds);
     assert.deepEqual(selectQuestions(bank.questions,deck,{},[],()=>0).map(q=>q.id),paper.questionIds);
   }
-  assert.notDeepEqual(buildComprehensivePapers(bank.questions,50,'different edition')[0].questionIds,papers[0].questionIds);
+  assert.notDeepEqual(buildComprehensivePapers(bank.questions,size,'different edition')[0].questionIds,papers[0].questionIds);
+  const old=buildComprehensivePapers(bank.questions,50,`tthcm:${bank.version}`);
+  assert(old.every(p=>!papers.some(next=>next.key===p.key)),'Different paper sizes must not share history or resume keys');
+  assert(papers.every(p=>!old.some(prev=>prev.key.replace(':size:50:',':')===p.key)),'Legacy 50-question keys must not match new papers');
 });
 
 test('each chapter is spread evenly over full papers without any reuse',()=>{
@@ -45,7 +51,7 @@ test('each chapter is spread evenly over full papers without any reuse',()=>{
   for(const chapter of bank.chapters){
     const counts=bank.questions.filter(q=>q.chapter===chapter.number).map(q=>frequency.get(q.id)??0);
     assert(counts.every(n=>n===1));
-    const quotas=papers.filter(p=>p.questionIds.length===50).map(p=>p.chapterCounts.find(c=>c.chapter===chapter.number)!.count);
+    const quotas=papers.filter(p=>p.questionIds.length===size).map(p=>p.chapterCounts.find(c=>c.chapter===chapter.number)!.count);
     assert(Math.max(...quotas)-Math.min(...quotas)<=1);
   }
 });
@@ -60,8 +66,8 @@ test('noncontiguous chapters, exact multiples and tiny banks retain every questi
   assert.throws(()=>buildComprehensivePapers(qs,0,'fixture'));
 });
 
-test('fifty-question session round-trips with saved choices and rejects a corrupted paper definition',()=>{
-  const paper=papers[0];const deck:Deck={kind:'comprehensive',count:50,title:paper.title,questionIds:paper.questionIds,paperKey:paper.key};
+test('sixty-question session round-trips with saved choices and rejects a corrupted paper definition',()=>{
+  const paper=papers[0];const deck:Deck={kind:'comprehensive',count:size,title:paper.title,questionIds:paper.questionIds,paperKey:paper.key};
   const progress=emptyProgress(bank.version);progress.activeSession=createSession(selectQuestions(bank.questions,deck,{}),deck,'exam',60);
   const item=progress.activeSession.items[0];item.selectedOptionId=map.get(item.questionId)!.correctOptionId;
   const restored=parseProgress(JSON.parse(JSON.stringify(progress)),map,bank.version);

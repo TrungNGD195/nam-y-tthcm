@@ -35,7 +35,7 @@ export function buildComprehensivePapers(questions: Question[], size: number, se
       for(let j=0;j<quotas[i];j++)ids.push(buckets[i][cursors[i]++].id);
     }
     const id=String(papers.length+1).padStart(2,'0');
-    papers.push({id,key:`no-repeat:${seed}:${id}`,title:`Đề tổng hợp ${id} · ${ids.length} câu`,questionIds:shuffle(ids,seeded(`${seed}:paper:${id}`)),chapterCounts});
+    papers.push({id,key:`no-repeat:${seed}:size:${size}:${id}`,title:`Đề tổng hợp ${id} · ${ids.length} câu`,questionIds:shuffle(ids,seeded(`${seed}:paper:${id}`)),chapterCounts});
   }
   for(let index=0;index<fullCount;index++){
     const extraChapters=new Set(extras.map((n,i)=>({n,i})).sort((a,b)=>b.n-a.n||((a.i-index+chapters.length*fullCount)%chapters.length)-((b.i-index+chapters.length*fullCount)%chapters.length)).slice(0,extraPerPaper).map(x=>x.i));
