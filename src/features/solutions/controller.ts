@@ -51,7 +51,10 @@ export function mountSolutions(subject: Subject, data: Solutions): {render:()=>v
   }
   function solutionHtml(item:SolvedItem):string {
     if(item.kind==='exercise')return documentHtml(item);
-    return `<section class="worked-answer" id="worked-answer" tabindex="-1" aria-label="Lời giải"><div class="answer-heading"><span class="eyebrow">LỜI GIẢI GỢI Ý</span><h2>Các ý chính để trình bày</h2></div><div class="recall-keywords">${icon('spark')}<strong>Nhớ:</strong> ${item.keywords.map(k=>`<mark>${esc(k)}</mark>`).join(' ')}</div>${item.steps.map((s,index)=>`<section class="solution-step"><div class="step-heading"><span>${index+1}</span><h3>${esc(s.lead)}</h3></div>${s.formula?`<div class="formula-label">Công thức</div>${renderBlocks([{type:'formula',tex:s.formula}])}`:''}${s.substitution?`<p class="substitution"><strong>Thay số / thực hiện:</strong> ${emphasize(s.substitution,item.keywords)}</p>`:''}${s.text?`<p>${emphasize(s.text,item.keywords)}</p>`:''}${s.result?`<p class="solution-result">${emphasize(s.result,item.keywords)}</p>`:''}${(s.blocks??[]).map(block=>('rows' in block&&block.rows.length>14)?`<details class="calculation-detail"><summary>Xem bảng tính chi tiết (${block.rows.length} dòng)</summary>${renderBlocks([block])}</details>`:renderBlocks([block])).join('')}</section>`).join('')}<p class="self-check-note">Đối chiếu các ý và cách làm; “đã nắm” là tự đánh giá, không phải điểm chấm tự động.</p></section>`;
+    return `<section class="worked-answer theory-answer" id="worked-answer" tabindex="-1" aria-label="Câu trả lời lý thuyết"><div class="answer-heading"><span class="eyebrow">LÝ THUYẾT</span><h2>Câu trả lời</h2></div>
+      <div class="theory-response">${item.steps.map(s=>`<section class="theory-answer-part"><h3>${esc(s.lead)}</h3><p>${emphasize(s.text??'',item.keywords)}</p>${s.formula?renderBlocks([{type:'formula',tex:s.formula}]):''}${renderBlocks(s.blocks)}</section>`).join('')}</div>
+      <div class="recall-keywords">${icon('spark')}<strong>Keyword cần nhớ:</strong> ${item.keywords.map(k=>`<mark>${esc(k)}</mark>`).join(' ')}</div>
+      <p class="self-check-note">Đối chiếu câu trả lời trước khi tự đánh dấu Cần ôn hoặc Đã nắm.</p></section>`;
   }
   function documentHtml(item:SolvedItem):string {
     const collection=data.documents,doc=collection?.items[item.id];

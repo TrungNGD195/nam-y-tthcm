@@ -10,8 +10,9 @@
 
 ## Những chỗ cần đọc đúng quy ước hoặc đề có lỗi
 
-- **bank-1-2**: Bản đáp án tham khảo nói CMY dùng được mọi màu nhìn thấy, nhưng khẳng định đó không đúng. Giữ định nghĩa phối màu trừ trong giáo trình, không học thuộc nhận định này.
-- **bank-2-6**: Bản đáp án ghi nhầm trọng số 2 trong một mặt nạ Prewitt. Phân biệt đúng: Prewitt dùng 1, Sobel dùng 2, Frei–Chen dùng √2 ở vị trí giữa.
+- **bank-1-2**: Đáp án tham khảo ghi CMY sử dụng được mọi màu trong phổ nhìn thấy. Nhận định này không đúng; câu trả lời giữ mô hình phối màu trừ và phạm vi màu hữu hạn theo lý thuyết.
+- **bank-2-2**: Đáp án tham khảo trang PDF 10 ghi nhầm 225−R, 225−G, 225−B. Với RGB 8 bit, công thức đúng là 255−R, 255−G, 255−B, phù hợp phép lấy phần bù trong giáo trình.
+- **bank-2-6**: Đáp án tham khảo có mặt nạ Prewitt ghi trọng số giữa là 2. Phân biệt theo lý thuyết: Prewitt dùng 1, Sobel dùng 2, Frei–Chen dùng √2; độ lớn gradient không phải tổng có dấu Gx+Gy.
 - **bank-3-3**: Bản đáp án chi tiết thay nhầm pixel hàng 5 cột 5 từ 1 thành 0 và bỏ mức 7. Lời giải này giữ đúng ma trận của ngân hàng câu hỏi; không chép bảng đếm sai đó.
 - **bank-3-10**: Bảng co trong đáp án tham khảo có điểm 1 tại vị trí vốn là 0, ví dụ (4,3), trái với điều kiện fit khi tâm SE là 1. Lời giải tính lại từ đúng ma trận X và kiểm tra ảnh co phải là tập con của X.
 - **bank-3-11**: Dùng quy ước fit/hit của slide cho kết quả chính; bổ sung riêng kết quả giãn tập hợp chuẩn vì SE không đối xứng, không tráo hai kết quả.
@@ -197,3 +198,13 @@
 | uyen-6-T10 | 6.T10 | uyen | 6 | uyen-6: 6 |
 | uyen-6-T11 | 6.T11 | uyen | 6 | uyen-6: 6,7 |
 | uyen-6-T12 | 6.T12 | uyen | 6 | uyen-6: 7 |
+
+## Câu trả lời lý thuyết hoàn chỉnh — 16/11/2026
+
+- 101 câu lý thuyết được trả lời thành đoạn văn theo từng vế đề hỏi, không phải dàn ý hoặc lời nhắc viết bài.
+- 30 câu ngân hàng: 27 câu có mục đáp án phù hợp để đối chiếu; 1.12–1.14 không có mục tương ứng trong PDF đáp án nên dùng giáo trình. Mục 1.11 của ngân hàng bao gồm nội dung cả 1.11 và 1.12 trong đáp án; không ghép theo số câu một cách máy móc.
+- 71 câu cô Uyên: theo giáo trình/slide, trình bày cùng lối định nghĩa → giải thích/các bước → công thức, ví dụ, so sánh khi đề hỏi.
+- Ghi rõ lỗi 225 thay vì 255 ở đáp án đổi RGB 8 bit sang CMY; sửa phát biểu gamut CMY và nhầm trọng số Prewitt, không chép theo phần sai.
+- Canny: tài liệu mô tả vai trò quan trọng của bước 4 và 5, không đưa xếp hạng tuyệt đối một bước duy nhất. Câu trả lời giải thích trực tiếp vai trò làm mảnh và liên kết bằng hai ngưỡng.
+- `theory-answer-review.json` lưu đủ 101 ID, căn cứ, trang đáp án, các vế trả lời và hash để theo dõi nội dung.
+- 67 bài tính và PDF/ảnh đã xuất giữ nguyên; hash của từng bài tính kiểm tra tính tương thích, độc lập với phiên bản của câu trả lời lý thuyết.

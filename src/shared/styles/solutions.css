@@ -16,4 +16,12 @@
 .answer-document-page>a{display:block;background:#fff;border:1px solid #d3d7d0;cursor:zoom-in}
 .answer-document-page img{display:block;width:100%;height:auto;background:white}
 .answer-document-page figcaption{text-align:center;font-size:.9375rem;color:var(--muted);line-height:1.6;padding-top:9px}
+.theory-response{font-size:1.125rem;line-height:1.9;color:var(--ink)}
+.theory-answer-part{padding:18px 0;border-bottom:1px solid var(--line)}
+.theory-answer-part:first-child{padding-top:0}
+.theory-answer-part h3{font-size:1.1875rem;line-height:1.6;margin:0 0 9px}
+.theory-answer-part p{margin:0 0 12px;line-height:1.9}
+.theory-answer-part .formula-block{margin:14px 0;padding:12px;background:#edf0e8;border:1px solid #dce3d5;border-radius:8px;font-size:1.125rem}
+.theory-answer-part pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:1rem;line-height:1.7}
+.theory-answer .recall-keywords{margin-top:22px}
 @media(max-width:700px){.answer-document-pages{padding:6px;border-radius:6px}.document-toolbar{gap:8px}.document-toolbar .btn{width:100%}.answer-document-page figcaption{font-size:.8125rem}.document-answer .answer-heading h2{font-size:1.375rem}}

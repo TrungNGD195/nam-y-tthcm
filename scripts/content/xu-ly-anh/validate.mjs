@@ -20,9 +20,18 @@ export function validateSolutions(data, subject, assetExists=()=>true) {
     for(const ref of item.references)assert(sources.has(ref.sourceId)&&Number.isInteger(ref.pdfPage)&&ref.pdfPage>0&&ref.pdfPage<=sources.get(ref.sourceId).pages&&ref.section.length>5);
     item.images.forEach(asset);
     if(item.kind==='exercise')assert(item.images.length>0&&item.steps.some(s=>s.formula&&s.substitution),`${item.id}: calculation requires original prompt, formula and substitution`);
+    if(item.kind==='theory'){
+      assert.equal(item.answerStyle,'complete',`${item.id}: theory requires a complete answer`);
+      assert(['checked-key','course-theory'].includes(item.answerBasis));
+      if(item.answerBasis==='checked-key')assert(item.references.some(r=>r.sourceId==='key'));
+    }
     if(item.area==='bank')assert([1,2,3,4].includes(item.points));
     for(const step of item.steps) {
-      assert(step.lead&&step.lead.length>8);
+      assert(step.lead&&step.lead.trim().length>=(item.kind==='theory'?3:9));
+      if(item.kind==='theory'){
+        assert(typeof step.text==='string'&&step.text.length>35,`${item.id}: theory section needs an actual response`);
+        assert(!/ý chính cần trình bày|khi hỏi.*nhấn mạnh|nhắc ba dạng/iu.test(step.lead+' '+step.text),`${item.id}: outline instructions leaked into answer`);
+      }
       if(step.formula)katex.renderToString(step.formula,{throwOnError:true,trust:false});
       for(const block of step.blocks??[]) {
         if(block.type==='image')asset(block.src);
@@ -45,7 +54,9 @@ export function validateSolutions(data, subject, assetExists=()=>true) {
 
 export function validateDocuments(data,assetExists=()=>true){
   const docs=data.documents;
-  assert(docs&&docs.subjectId===data.subjectId&&docs.dataVersion===data.version,'Missing or stale exercise documents');
+  // The document's dataVersion records its provenance. Per-exercise contentHash
+  // below detects stale PDFs, without invalidating them after theory-only edits.
+  assert(docs&&docs.subjectId===data.subjectId,'Missing exercise documents');
   const asset=(src,extension)=>assert(typeof src==='string'&&new RegExp(`^subjects/${data.subjectId}/answer-pages/[a-zA-Z0-9.-]+\\.${extension}$`).test(src)&&assetExists(src),`Missing or unsafe document asset: ${src}`);
   asset(docs.book.src,'pdf');assert(Number.isInteger(docs.book.pages)&&docs.book.pages>0);
   assert(/^[a-f0-9]{64}$/.test(docs.book.sha256));

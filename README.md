@@ -90,7 +90,7 @@ Mô hình câu có block ảnh, ma trận, bảng, code và công thức TeX. C�
 
 - **giải ngân hàng**: 51 mục — 1 điểm 14, 2 điểm 16, 3 điểm 11, 4 điểm 10 (có một bài bổ sung không đánh số sau 4.8).
 - **giải bài cô Uyên**: 117 mục, gộp hai bản lý thuyết Việt–Anh trùng 28 câu; chia theo chương của slide/bộ Ôn tập, ưu tiên chương 3–7.
-- Đọc đề → tự làm → mở lời giải → đánh dấu Cần ôn/Đã nắm. Bài tính giữ ảnh đề, có câu dẫn, công thức rồi thay số và kết quả. Lý thuyết có keyword nổi bật.
+- Đọc đề → tự làm → mở lời giải → đánh dấu Cần ôn/Đã nắm. Bài tính giữ ảnh đề, có câu dẫn, công thức rồi thay số và kết quả. **101 câu lý thuyết có câu trả lời hoàn chỉnh**, chia theo từng vế đề hỏi, có keyword, công thức, ví dụ hoặc giải thích đúng/sai khi cần. Ngân hàng bám đáp án đã đối chiếu giáo trình/slide; khu cô Uyên theo lý thuyết, cùng cách trình bày. [Bảng đối chiếu từng câu](content/xu-ly-anh/theory-answer-review.json) ghi căn cứ và hash câu hỏi/câu trả lời; ghi chú tại câu các lỗi nguồn như CMY `225` thay vì `255`, mặt nạ Prewitt và phạm vi màu CMY.
 - **67 bài tính hiển thị bằng ảnh trang PDF**, không dựng lại công thức/ma trận trực tiếp trong trang học. Có PDF tổng hợp gồm đề và lời giải, mục lục dấu trang, liên kết đến đúng trang bài, ảnh lớn và bản văn bản. Dàn theo đáp án ngân hàng: chữ serif, bảng histogram ngang, ma trận cạnh nhau, bước làm rõ ràng.
 - Cấu trúc đề theo người học: đạo đức, lý thuyết, hai bài tập chương 3–7. Chưa có bộ câu đạo đức riêng nên chưa biên soạn lời giải phần đó.
 - [Kiểm kê và các quy ước/sai sót nguồn](content/xu-ly-anh/KIEM_KE_VA_QUY_UOC.md).

@@ -1,6 +1,30 @@
 import { test,expect } from '@playwright/test';
 import {readFileSync} from 'node:fs';
 const documents=JSON.parse(readFileSync(new URL('../../src/subjects/xu-ly-anh/documents.json',import.meta.url),'utf8'));
+const solutions=JSON.parse(readFileSync(new URL('../../src/subjects/xu-ly-anh/solutions.json',import.meta.url),'utf8'));
+
+test('theory renders complete responses, corrected formulas, true-false reasons and MATLAB code',async({page})=>{
+  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+  for(const id of ['bank-2-2','bank-2-6','uyen-6-L9','uyen-7-L5']){
+    const item=solutions.items.find((i:any)=>i.id===id);
+    await page.goto('/#/mon/xu-ly-anh/bai/'+id);
+    await page.getByRole('button',{name:'Mở lời giải',exact:false}).click();
+    await expect(page.locator('.theory-answer h2')).toHaveText('Câu trả lời');
+    await expect(page.locator('.theory-answer-part')).toHaveCount(item.steps.length);
+    for(let n=0;n<item.steps.length;n++){
+      await expect(page.locator('.theory-answer-part>p').nth(n)).toHaveText(item.steps[n].text);
+    }
+    await expect(page.locator('.theory-answer .solution-step,.katex-error')).toHaveCount(0);
+    await expect(page.locator('.recall-keywords mark').first()).toBeVisible();
+    if(id==='bank-2-2'){
+      await expect(page.locator('.source-correction')).toContainText('225');
+      await expect(page.locator('.theory-answer .katex').first()).toBeVisible();
+      await page.screenshot({path:'test-results/theory-complete-answer.png',fullPage:true});
+    }
+    if(id==='uyen-7-L5')await expect(page.locator('.theory-answer pre')).toContainText('padarray');
+  }
+  expect(errors).toEqual([]);
+});
 
 test('desktop gives two obvious study entrances and all four point groups',async({page})=>{
   await page.goto('/#/mon/xu-ly-anh');

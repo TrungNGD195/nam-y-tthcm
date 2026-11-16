@@ -6,6 +6,7 @@ export type SolvedItem = {
   kind: 'theory' | 'exercise'; points: number | null; chapter: number; title: string; prompt: string;
   originalText: string; images: string[]; keywords: string[]; steps: SolutionStep[]; note: string;
   references: { sourceId: string; pdfPage: number; section: string }[];
+  answerStyle?: 'complete'; answerBasis?: 'checked-key' | 'course-theory';
 };
 export type Solutions = {
   subjectId: string; version: string; updatedAt: string; chapters: { number: number; title: string }[];

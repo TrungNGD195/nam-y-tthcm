@@ -1,10 +1,10 @@
 """Build the static self-study collection from source snapshots and authored solutions."""
 from pathlib import Path
 from copy import deepcopy
-import json, re, unicodedata
-from theory import THEORY, BANK_MAP, UYEN_THEORY_MAP, CHAPTER_MAP
+import json, re, unicodedata, hashlib
+from theory import BANK_MAP, UYEN_THEORY_MAP, CHAPTER_MAP
+from theory_answers import resolve_answer, THEORY_KEY_PAGES, CORRECTIONS
 from exercises import SOLUTIONS
-from calculations import step
 
 ROOT=Path(__file__).resolve().parents[3]
 raw=json.loads((ROOT/'content/xu-ly-anh/source-prompts.json').read_text(encoding='utf-8'))
@@ -28,7 +28,7 @@ REFS={
  'otsu':(32,'Tìm ngưỡng tự động; đẳng liệu trang 69'),'thresholds':(69,'Các thuật toán tìm ngưỡng, trang 69–71'),
  'restoration':(40,'Khôi phục ảnh'),'cmyk':(23,'CMY; bổ sung slide hệ màu'),
  'color-tf':(19,'In ảnh; màu sắc trang 22–28'),'lzw':(99,'Mã hóa LZW'),'redundancy':(96,'Nén ảnh'),
- 'huffman':(97,'Huffman'),'compression':(96,'Các cách tiếp cận nén ảnh; slide nén ảnh trang 39'),
+ 'huffman':(97,'Huffman'),'compression':(96,'Nén không tổn thất/có tổn thất; tỷ lệ tham khảo ở slide tiếng Anh trang 17'),
  'coder':(96,'Nén ảnh; xem slide mô hình mã hóa'),'jpeg':(105,'Nén ảnh JPEG'),'compression-tf':(105,'DCT và lượng tử hóa'),
  'morphology':(59,'Các phép toán hình thái'),'erode-dilate':(59,'Co và giãn'),
  'open-close':(60,'Tính chất hình thái; bổ sung slide chương 7'),'clean':(60,'Mở và đóng'),
@@ -48,28 +48,12 @@ for original in raw['records']:
         if r['area']=='bank':concept=BANK_MAP[code]
         elif r['sourceId']=='uyen-theory':concept=UYEN_THEORY_MAP[code]
         else:concept=CHAPTER_MAP[r['chapter']][int(code.split('L')[-1])-1]
-        authored=deepcopy(THEORY[concept]);chapter=r['chapter'] or authored['chapter']
-        if r['id']=='bank-1-11':
-            authored['steps']+=deepcopy(THEORY['edge']['steps'])
-        if r['id']=='uyen-3-L1':
-            authored['steps'].append(step('Nhắc ba dạng biến đổi mức xám cơ bản.',r's=L-1-r,\quad s=c\ln(1+r),\quad s=c r^\gamma',text='Âm bản đảo sáng–tối; log mở rộng mức tối và nén mức cao; hàm lũy thừa chỉnh gamma (trên đầu vào chuẩn hóa: γ<1 làm sáng, γ>1 làm tối).'))
-        if r['id']=='uyen-5-L1':
-            authored['steps']+=deepcopy(THEORY['kernels']['steps'][2:])
-            authored['steps'].append(step('Tính độ mạnh biên từ hai đáp ứng.',r'G_x=I\otimes H_x,\quad G_y=I\otimes H_y,\quad |G|\approx|G_x|+|G_y|',text='Prewitt dùng a=1, Sobel dùng a=2 trong mặt nạ ở trên.'))
-        if r['id']=='uyen-5-L7':
-            authored['steps'].append(step('Cập nhật ISODATA từ hai trung bình lớp.',r't_{n+1}=\operatorname{round}((\mu_1(t_n)+\mu_2(t_n))/2)',text='Theo đề chương 5 làm tròn mỗi vòng, dừng khi ngưỡng không đổi.'))
-        if r['id']=='uyen-5-L8':
-            authored['steps']+=deepcopy(THEORY['triangle']['steps'])
-        if r['id']=='uyen-7-L5':
-            authored['steps'].append(step('Đệm 0 tường minh trước khi gọi phép co trong MATLAB.',blocks=[dict(type='code',language='MATLAB',code="Ap = padarray(logical(A), [1 1], 0, 'both');\nEp = imerode(Ap, strel('square', 3));\nE = Ep(2:end-1, 2:end-1);\nbeta = logical(A) & ~E;")]))
+        authored=resolve_answer(r['id'],concept);chapter=r['chapter'] or authored['chapter']
     r.update(authored);r['chapter']=chapter;r['revision']=1
     if not r['prompt']:
         r['prompt']=f"Bài {code.replace('-bs',' (bổ sung không đánh số)')}: {r['title']}. Đọc đầy đủ dữ kiện và các ý hỏi trong đề gốc bên dưới."
     r['note']=r.get('note','')
-    if r['id']=='bank-1-2':
-        r['note']='Bản đáp án tham khảo nói CMY dùng được mọi màu nhìn thấy, nhưng khẳng định đó không đúng. Giữ định nghĩa phối màu trừ trong giáo trình, không học thuộc nhận định này.'
-    if r['id']=='bank-2-6':
-        r['note']='Bản đáp án ghi nhầm trọng số 2 trong một mặt nạ Prewitt. Phân biệt đúng: Prewitt dùng 1, Sobel dùng 2, Frei–Chen dùng √2 ở vị trí giữa.'
+    if r['id'] in CORRECTIONS:r['note']=CORRECTIONS[r['id']]
     if r['id']=='bank-3-10':
         r['note']='Bảng co trong đáp án tham khảo có điểm 1 tại vị trí vốn là 0, ví dụ (4,3), trái với điều kiện fit khi tâm SE là 1. Lời giải tính lại từ đúng ma trận X và kiểm tra ảnh co phải là tập con của X.'
     if r['id']=='uyen-5-T6':
@@ -83,13 +67,34 @@ for original in raw['records']:
         if s.get('formula'):
             s['formula']=''.join(c for c in unicodedata.normalize('NFD',s['formula'].replace('đ','d').replace('Đ','D')) if not unicodedata.combining(c))
     r['references']=[dict(sourceId=r['sourceId'],pdfPage=p,section=f"Câu/bài {code}") for p in r['sourcePages']]
-    if r['area']=='bank' and code in KEY_PAGES:
-        r['references'].append(dict(sourceId='key',pdfPage=KEY_PAGES[code],section='Đáp án tham khảo; đối chiếu và tính lại, không mặc định mọi dòng đều đúng'))
+    if r['area']=='bank':
+        pages=THEORY_KEY_PAGES.get(code,[]) if r['kind']=='theory' else [KEY_PAGES[code]] if code in KEY_PAGES else []
+        for page in pages:
+            section='Đáp án tham khảo; đối chiếu theo nội dung câu hỏi và kiểm tra với lý thuyết' if r['kind']=='theory' else 'Đáp án tham khảo; đối chiếu và tính lại, không mặc định mọi dòng đều đúng'
+            r['references'].append(dict(sourceId='key',pdfPage=page,section=section))
     if concept:
         page,section=REFS[concept]
     else:
         page,section={2:(13,'Biểu diễn ảnh'),3:(31,'Nâng cao chất lượng ảnh; công thức ngưỡng trang 32, lọc trang 33–39, ngưỡng theo histogram trang 68–71'),4:(20,'Khuếch tán lỗi; màu sắc trang 22–28'),5:(44,'Biên; Laplace/Canny trang 48–49, phân vùng trang 68–71'),6:(97,'Nén ảnh; Huffman trang 97, LZW trang 99, JPEG trang 105–109'),7:(59,'Hình thái; tham khảo thêm slide chương 7'),8:(85,'Nhận dạng ảnh')}[chapter]
     r['references'].append(dict(sourceId='textbook',pdfPage=page,section=section))
+    if r['kind']=='theory':
+        r['answerStyle']='complete'
+        r['answerBasis']='checked-key' if r['area']=='bank' and code in THEORY_KEY_PAGES else 'course-theory'
+        extra_pages={
+            'noise':[40], 'filters':[37,38,39], 'canny':[49,50],
+            'kernels':[45,46,47], 'hopfield':[91,92], 'kohonen':[93,94],
+            'boundary':[65], 'background':[70], 'triangle':[71],
+            'equalize':[31], 'compression':[96],
+        }.get(concept,[])
+        if r['id']=='bank-1-11':extra_pages+=[44]
+        if r['id']=='uyen-5-L1':extra_pages+=[46]
+        if r['id']=='uyen-5-L8':extra_pages+=[71]
+        if concept=='restoration':
+            for p in [70,71,72,75,78]:r['references'].append(dict(sourceId=SLIDES[3],pdfPage=p,section='Các bộ lọc không gian loại nhiễu'))
+            for p in [68,69,70,71,73,77]:r['references'].append(dict(sourceId=source_with('3_DIP3_'),pdfPage=p,section='Restoration in the presence of noise; spatial filters'))
+        for p in extra_pages:
+            if not any(ref['sourceId']=='textbook' and ref['pdfPage']==p for ref in r['references']):
+                r['references'].append(dict(sourceId='textbook',pdfPage=p,section=authored['title']+' — đối chiếu các vế câu hỏi'))
     # Page 1 identifies the supplied chapter slide deck; detailed reference is the section/topic.
     r['references'].append(dict(sourceId=SLIDES[chapter],pdfPage=1,section='Bộ slide chương '+str(chapter)+' — '+CHAPTERS[chapter]))
     if chapter==7:
@@ -107,7 +112,7 @@ for original in raw['records']:
 
 assert len(records)==168 and len(SOLUTIONS)==67
 assert all(r['steps'] for r in records)
-data=dict(subjectId='xu-ly-anh',version='2026.11.14.1',updatedAt='2026-11-14',
+data=dict(subjectId='xu-ly-anh',version='2026.11.16.1',updatedAt='2026-11-16',
           chapters=[dict(number=n,title=t) for n,t in CHAPTERS.items()],sources=sources,items=records,
           coverage=dict(bank=51,uyen=117,theory=101,exercises=67,bankPoints={'1':14,'2':16,'3':11,'4':10},
                         englishTheory='28 câu trùng với Lý thuyết.pdf, gộp và giữ nguồn tiếng Anh trong danh mục'),
@@ -115,6 +120,17 @@ data=dict(subjectId='xu-ly-anh',version='2026.11.14.1',updatedAt='2026-11-14',
                     note='Cấu trúc đề theo thông tin người học cung cấp. Chưa thấy bộ câu hỏi/đáp án đạo đức riêng trong tài liệu, nên chưa có lời giải phần này. Ngân hàng cũ chia mức điểm để tra bài, không dùng làm cấu trúc thi hiện tại.'))
 target=ROOT/'src/subjects/xu-ly-anh/solutions.json';target.parent.mkdir(parents=True,exist_ok=True)
 target.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+def digest(value):
+    return hashlib.sha256(json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf8')).hexdigest()
+theory_items=[r for r in records if r['kind']=='theory']
+theory_audit=dict(version='2026.11.16.1',questionCount=len(theory_items),
+    policy='Ngân hàng theo đáp án đã kiểm tra với giáo trình; cô Uyên theo giáo trình/slide và cùng lối trình bày câu trả lời hoàn chỉnh. Đối chiếu mục đáp án theo nội dung, không chỉ theo số câu.',
+    keyBacked=sum(r['answerBasis']=='checked-key' for r in theory_items),
+    questions=[dict(id=r['id'],chapter=r['chapter'],area=r['area'],basis=r['answerBasis'],
+                    keyPages=[ref['pdfPage'] for ref in r['references'] if ref['sourceId']=='key'],
+                    headings=[s['lead'] for s in r['steps']],promptHash=digest(r['prompt']),answerHash=digest(r['steps'])) for r in theory_items])
+assert len(theory_items)==101 and theory_audit['keyBacked']==27
+(ROOT/'content/xu-ly-anh/theory-answer-review.json').write_text(json.dumps(theory_audit,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
 catalog_file=ROOT/'src/subjects/catalog.json';catalog=json.loads(catalog_file.read_text(encoding='utf-8'))
 for s in catalog:
     if s['id']=='xu-ly-anh':
@@ -133,5 +149,13 @@ for r in records:
     if r['note']:report.append(f"- **{r['id']}**: {r['note']}")
 report+=['','## Danh mục và vị trí nguồn','', '| ID | Câu/bài | Khu vực | Chương | Trang PDF đề |','|---|---|---|---|---|']
 for r in records:report.append(f"| {r['id']} | {r['code']} | {r['area']} | {r['chapter']} | {r['sourceId']}: {','.join(map(str,r['sourcePages']))} |")
+report+=['','## Câu trả lời lý thuyết hoàn chỉnh — 16/11/2026','',
+    '- 101 câu lý thuyết được trả lời thành đoạn văn theo từng vế đề hỏi, không phải dàn ý hoặc lời nhắc viết bài.',
+    '- 30 câu ngân hàng: 27 câu có mục đáp án phù hợp để đối chiếu; 1.12–1.14 không có mục tương ứng trong PDF đáp án nên dùng giáo trình. Mục 1.11 của ngân hàng bao gồm nội dung cả 1.11 và 1.12 trong đáp án; không ghép theo số câu một cách máy móc.',
+    '- 71 câu cô Uyên: theo giáo trình/slide, trình bày cùng lối định nghĩa → giải thích/các bước → công thức, ví dụ, so sánh khi đề hỏi.',
+    '- Ghi rõ lỗi 225 thay vì 255 ở đáp án đổi RGB 8 bit sang CMY; sửa phát biểu gamut CMY và nhầm trọng số Prewitt, không chép theo phần sai.',
+    '- Canny: tài liệu mô tả vai trò quan trọng của bước 4 và 5, không đưa xếp hạng tuyệt đối một bước duy nhất. Câu trả lời giải thích trực tiếp vai trò làm mảnh và liên kết bằng hai ngưỡng.',
+    '- `theory-answer-review.json` lưu đủ 101 ID, căn cứ, trang đáp án, các vế trả lời và hash để theo dõi nội dung.',
+    '- 67 bài tính và PDF/ảnh đã xuất giữ nguyên; hash của từng bài tính kiểm tra tính tương thích, độc lập với phiên bản của câu trả lời lý thuyết.']
 (ROOT/'content/xu-ly-anh/KIEM_KE_VA_QUY_UOC.md').write_text('\n'.join(report)+'\n',encoding='utf-8')
 print(f'Built {len(records)} solved items; {sum(r["kind"]=="exercise" for r in records)} calculations.')

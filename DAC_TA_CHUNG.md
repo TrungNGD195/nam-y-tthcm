@@ -1,6 +1,6 @@
 # Đặc tả chung — Nắm ý, ôn tập nhiều môn
 
-Phiên bản 2.7 · 15/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
+Phiên bản 2.8 · 16/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -84,7 +84,8 @@ Các block này chỉ đưa vào khi có tài liệu đối chiếu. Chế độ
 - **giải bài cô Uyên** dùng ZIP Ôn tập: 117 mục, gộp 28 câu lý thuyết Việt–Anh trùng nhau. Theo chương: 2 có 2, 3 có 28, 4 có 20, 5 có 21, 6 có 23, 7 có 19, 8 có 4. Chương 3–7 hiển thị trước; 2 và 8 là lý thuyết bổ sung có thật trong bộ này.
 - Mẫu đề người dùng cung cấp: câu 1 đạo đức, câu 2 lý thuyết, câu 3–4 bài tập chương 3–7. Không coi bốn mức điểm của ngân hàng cũ là bốn vị trí của đề hiện tại. Chưa có bộ câu đạo đức riêng: báo rõ, không tự viết câu giả định.
 - Luồng: chọn khu → chọn phần/chương → danh sách có tìm kiếm keyword và lọc lý thuyết/bài tính → đọc đề → tự làm → mở/ẩn lời giải → tự đánh dấu **Cần ôn** hoặc **Đã nắm**. Bấm lại để bỏ đánh dấu. Không chấm điểm tự động phần tự luận, không khóa chương, không giới hạn lượt.
-- Lý thuyết: dàn ý ngắn, đúng các ý hỏi, highlight keyword. 67 bài tính được dàn thành PDF trước rồi raster ảnh trang để hiển thị trên web; không dựng lại lời giải bài tính thành các khối HTML/công thức ở trang học. Nội dung vẫn theo **câu dẫn ngắn → công thức tổng quát → thay số/thực hiện → kết quả**.
+- Lý thuyết: 101 câu trả lời hoàn chỉnh theo từng vế đề hỏi, làm nổi bật keyword; có công thức, ví dụ, kết luận và giải thích đúng/sai hoặc lệnh MATLAB khi đề yêu cầu. Không dùng dàn ý hướng dẫn người học tự viết thay cho câu trả lời. Khu ngân hàng bám đáp án sau khi kiểm tra bằng giáo trình/slide: 27/30 câu lý thuyết có mục tương ứng trong đáp án; ba câu 1.12–1.14 dùng lý thuyết vì đáp án không có mục tương ứng nội dung. Khu cô Uyên có 71 câu lý thuyết viết theo giáo trình/slide, trình bày cùng cách trả lời của khu ngân hàng. Sai sót nguồn phải sửa và ghi chú ngay tại câu; không chép nguyên đáp án sai.
+- 67 bài tính được dàn thành PDF trước rồi raster ảnh trang để hiển thị trên web; không dựng lại lời giải bài tính thành các khối HTML/công thức ở trang học. Nội dung vẫn theo **câu dẫn ngắn → công thức tổng quát → thay số/thực hiện → kết quả**. Mỗi bài được kiểm tra hash nội dung riêng; thay đổi lý thuyết không bắt buộc tạo lại PDF của bài tính không thay đổi.
 - PDF theo cách trình bày đáp án ngân hàng: chữ serif đen trên giấy trắng, bảng histogram ngang, ma trận có ngoặc và chú thích, đặt cạnh nhau khi so sánh. Đánh số bước, không tự gán chữ a/b/c cho bước làm khi một bước trả lời nhiều ý của đề.
 - Có một PDF tổng hợp đủ đề và lời giải 67 bài, dấu trang theo bộ/chương/bài. Trang học giữ đề gốc riêng, chỉ hiển thị ảnh những trang lời giải; liên kết mở PDF tại đúng trang, tải cả bộ, mở ảnh lớn và bản văn bản hỗ trợ đọc/tìm kiếm. Ảnh tải dần, có kích thước và alt; không làm trang tràn ngang.
 - Manifest `documents.json` ghi hash nội dung từng bài, trang PDF tương ứng, kích thước và SHA256 từng ảnh/PDF. Không phát hành khi bài đã sửa mà ảnh chưa tạo lại hoặc thiếu trang. Kiểm tra ảnh bằng render lại đúng trang PDF và so pixel; kiểm tra tính toán riêng với NumPy/SciPy, không coi ảnh đẹp là bằng chứng đáp án đúng.
