@@ -1,0 +1,30 @@
+Bài 3.5. Cân bằng ảnh 6 mức xám
+
+
+Câu (a) — Cân bằng theo giáo trình
+Bước 1. Cân bằng theo công thức giáo trình/đề bài.
+Công thức: t(g)=\sum_{i=0}^g h(i),\quad TB=N/L,\quad f(g)=\max\{0,\operatorname{round}(t(g)/TB)-1\}
+Ký hiệu: h(i) là số pixel ở mức i; t(g) là số pixel có mức ≤g; N là tổng pixel; L là số mức xám; TB=N/L là số pixel trung bình mỗi mức; f(g) hoặc s(g) là mức mới; round là làm tròn gần nhất.
+Cách làm: Cộng dồn h để có t. Tính mức mới bằng đúng công thức giáo trình hoặc slide mà câu đang dùng, làm tròn rồi giới hạn mức khi công thức yêu cầu. Thay từng pixel theo bảng ánh xạ, không sửa lần lượt trên ảnh đã biến đổi.
+Thay số / thực hiện: N = 36, L = 6, TB = 6; tại g=0: t(0)=2, mức mới=0.
+Kết luận: Histogram mới = [8, 0, 7, 0, 16, 5]; chưa cân bằng lý tưởng vì các cột không bằng nhau.
+
+g	h(g)	t(g)	mức mới
+0	2	2	0
+1	3	5	0
+2	3	8	0
+3	7	15	2
+4	16	31	4
+5	5	36	5
+Ảnh sau cân bằng
+2	4	0	0	4	2
+2	4	4	5	0	4
+4	4	2	4	5	4
+0	4	5	4	0	0
+2	4	5	4	5	4
+0	4	2	4	0	2
+
+Câu (b) — Cân bằng lý tưởng
+Bước 1. Đối chiếu histogram với cân bằng lý tưởng.
+Cách làm: Ảnh cân bằng lý tưởng có cùng số pixel ở mọi mức xám. So từng cột của histogram kết quả, không chỉ kiểm tra tổng pixel. Histogram mới = [8, 0, 7, 0, 16, 5]; chưa cân bằng lý tưởng vì các cột không bằng nhau.
+Giải thích: Ảnh cân bằng lý tưởng có cùng số pixel ở mọi mức xám. So từng cột của histogram kết quả, không chỉ kiểm tra tổng pixel. Histogram mới = [8, 0, 7, 0, 16, 5]; chưa cân bằng lý tưởng vì các cột không bằng nhau.

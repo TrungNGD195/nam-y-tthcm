@@ -1,0 +1,33 @@
+Bài 6.T3. Giải mã Huffman và ảnh hưởng lỗi bit
+
+
+Câu (a) — Tính tiền tố
+Bước 1. Kiểm tra không từ nào mở đầu từ khác.
+Cách làm: Bảng mã là tiền tố vì mỗi từ kết thúc ở một lá riêng, không từ nào mở đầu từ khác.
+Giải thích: Bảng mã là tiền tố vì mỗi từ kết thúc ở một lá riêng, không từ nào mở đầu từ khác.
+
+Câu (b) — Giải mã và dựng ảnh
+Bước 1. Đọc bit đến khi khớp trọn một từ mã.
+Công thức: \text{Tu ma hop le}\Rightarrow\text{xuat ky hieu va quay ve goc cay}
+Ký hiệu: Từ mã là chuỗi bit ứng với một ký hiệu; mã tiền tố nghĩa là không từ mã nào là phần đầu của từ mã khác; gốc cây là nơi bắt đầu mỗi lượt đọc.
+Cách làm: Đọc từng bit, đi theo nhánh của cây; tới lá thì xuất một ký hiệu và trở lại gốc. Khi dựng ảnh, thay ký hiệu bằng đúng khối 2×2 rồi ghép theo hàng khối đề cho.
+Thay số / thực hiện: Chuỗi gốc: 0100110001011111101001110; các ký hiệu: A, B, A, C, A, A, B, E, C, B, A, D; phần bit dư: không.
+Kết luận: Bảng mã là tiền tố vì mỗi từ kết thúc ở một lá riêng, không từ nào mở đầu từ khác.
+Ảnh I khôi phục
+1	1	0	0	1	1	1	0	1	1	1	1
+1	1	0	0	1	1	1	0	1	1	1	1
+0	0	1	1	1	0	0	0	1	1	0	1
+0	0	0	0	1	0	0	0	1	1	1	0
+
+Câu (c) — Tỷ lệ nén
+Bước 1. Tính tỷ lệ nén từ kích thước ảnh đã giải.
+Công thức: n_1=4\cdot12,\quad n_2=\text{so bit nhan},\quad C_R=n_1/n_2
+Ký hiệu: n₁ là dung lượng trước mã; n₂ là dung lượng sau mã; CR=n₁/n₂. M,N là số hàng/cột; b_pixel là bit/pixel; N_mã là số từ mã xuất; b_mã là bit/từ mã nếu có trong công thức.
+Cách làm: Đếm dữ liệu đầu vào và số từ mã thực xuất. Nhân mỗi số lượng với đúng số bit một đơn vị rồi tính n₁/n₂. Dùng cùng đơn vị ở tử và mẫu; CR<1 nghĩa là dữ liệu nở.
+Thay số / thực hiện: n₁=48, n₂=25, CR=48/25=1.92.
+Kết luận: Không tính bảng mã.
+
+Câu (d) — Đảo bit và nhận xét
+Bước 1. Đảo bit thứ 5 rồi giải lại theo cùng cây.
+Cách làm: Chuỗi lỗi: 0100010001011111101001110; giải được: A, B, A, A, B, A, A, B, E, C, B, A, D. Phần dư: không. Số khối từ 12 thành 13: một bit sai có thể đổi ranh giới nhiều từ mã và mất đồng bộ. Không tự thêm/bớt bit để ép đủ kích thước.
+Giải thích: Chuỗi lỗi: 0100010001011111101001110; giải được: A, B, A, A, B, A, A, B, E, C, B, A, D. Phần dư: không. Số khối từ 12 thành 13: một bit sai có thể đổi ranh giới nhiều từ mã và mất đồng bộ. Không tự thêm/bớt bit để ép đủ kích thước.

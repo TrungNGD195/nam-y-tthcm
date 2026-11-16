@@ -1,0 +1,58 @@
+Bài 4.9. Mã hóa và giải mã LZW
+
+
+Câu (a) — Mã hóa và giải mã
+Bước 1. Đổi khối ảnh thành ký hiệu rồi xây từ điển thích nghi.
+Công thức: \text{Neu }wc\notin D:\ \text{xuat }D[w],\ D[wc]=\text{ma moi},\ w=c
+Ký hiệu: D là từ điển ánh xạ chuỗi sang mã; w là chuỗi đang giữ; c là ký hiệu mới đọc; wc là nối chuỗi w với c; D[w] là mã của w.
+Cách làm: Nếu wc đã có trong từ điển thì mở rộng w thành wc. Nếu chưa có thì xuất mã của w, thêm wc bằng mã kế tiếp và đặt w=c. Đọc hết dữ liệu phải xuất nốt mã của w.
+Thay số / thực hiện: Từ điển ban đầu: 0…3; mã mới bắt đầu 4. Chuỗi ký hiệu: 2, 0, 3, 0, 3, 2, 1, 3, 3, 0, 3, 1, 1, 3, 2, 0.
+Kết luận: Dãy mã xuất: 2, 0, 3, 5, 2, 1, 3, 6, 3, 1, 9, 4.
+
+w đang xét	ký hiệu c đọc	mã xuất	mục mới
+(2,)	0	2	4: (2, 0)
+(0,)	3	0	5: (0, 3)
+(3,)	0	3	6: (3, 0)
+(0,)	3	—	—
+(0, 3)	2	5	7: (0, 3, 2)
+(2,)	1	2	8: (2, 1)
+(1,)	3	1	9: (1, 3)
+(3,)	3	3	10: (3, 3)
+(3,)	0	—	—
+(3, 0)	3	6	11: (3, 0, 3)
+(3,)	1	3	12: (3, 1)
+(1,)	1	1	13: (1, 1)
+(1,)	3	—	—
+(1, 3)	2	9	14: (1, 3, 2)
+(2,)	0	—	—
+(2, 0)	Kết thúc	4	—
+Bước 2. Giải mã và tái tạo cùng từ điển ở phía nhận.
+Công thức: D[\mathrm{next}]=w+\operatorname{first}(\mathrm{entry})
+Ký hiệu: D là từ điển phía nhận; next là chỉ số mục sắp thêm; w là chuỗi giải ở lượt trước; entry là chuỗi giải từ mã hiện tại; first là lấy ký hiệu đầu; dấu + giữa chuỗi là phép nối.
+Cách làm: Giải mã đầu theo từ điển gốc. Với mỗi mã sau, đọc entry, xuất entry rồi thêm w+first(entry), cập nhật w=entry. Nếu mã chính là next chưa có, lấy entry=w+first(w); không tự đoán một mục bất kỳ.
+Thay số / thực hiện: Mã đầu 2 giải thành 2; mỗi mã sau bổ sung chuỗi trước + ký hiệu đầu chuỗi hiện tại.
+Kết luận: Chuỗi sau giải mã trùng chuỗi ký hiệu ban đầu, ghép lại thu được đúng ảnh đề bài. Trường hợp mã bằng vị trí từ điển kế tiếp chưa có: entry = w + first(w).
+
+mã đọc	chuỗi giải	mục mới
+2	(2,)	—
+0	(0,)	4: (2, 0)
+3	(3,)	5: (0, 3)
+5	(0, 3)	6: (3, 0)
+2	(2,)	7: (0, 3, 2)
+1	(1,)	8: (2, 1)
+3	(3,)	9: (1, 3)
+6	(3, 0)	10: (3, 3)
+3	(3,)	11: (3, 0, 3)
+1	(1,)	12: (3, 1)
+9	(1, 3)	13: (1, 1)
+4	(2, 0)	14: (1, 3, 2)
+Ảnh khôi phục
+1	0	0	0	1	1	0	0
+1	1	1	0	0	1	1	1
+1	1	0	0	1	1	0	1
+0	1	1	1	1	0	0	0
+
+Câu (b) — Ý tưởng, hạn chế và xử lý
+Bước 1. Giải thích vì sao dùng từ điển thích nghi.
+Cách làm: LZW thay chuỗi lặp bằng mã từ điển; bên nhận tự tái tạo từ điển theo cùng quy tắc nên không phải gửi toàn bộ từ điển đã xây. Dữ liệu ngắn, ít lặp có thể nở; từ điển tăng làm tốn bộ nhớ và cần mã dài hơn. Khi đầy có thể ngừng thêm hoặc reset theo quy tắc đồng bộ giữa hai phía.
+Giải thích: LZW thay chuỗi lặp bằng mã từ điển; bên nhận tự tái tạo từ điển theo cùng quy tắc nên không phải gửi toàn bộ từ điển đã xây. Dữ liệu ngắn, ít lặp có thể nở; từ điển tăng làm tốn bộ nhớ và cần mã dài hơn. Khi đầy có thể ngừng thêm hoặc reset theo quy tắc đồng bộ giữa hai phía.

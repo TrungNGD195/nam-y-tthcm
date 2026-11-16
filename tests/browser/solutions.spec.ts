@@ -128,3 +128,24 @@ test('PDF download and large-page links work while reveal and reading marks stay
   await expect(page.getByRole('button',{name:'Đã nắm',exact:false})).toHaveAttribute('aria-pressed','true');
   await expect(page.locator('.answer-document-page')).toHaveCount(0);
 });
+
+test('exercise subpart buttons jump to their PDF heading and text exports explain each step',async({page})=>{
+  await page.goto('/#/mon/xu-ly-anh/bai/uyen-6-T11');
+  await page.getByRole('button',{name:'Mở lời giải',exact:false}).click();
+  const buttons=page.locator('.answer-part-nav button');await expect(buttons).toHaveCount(7);
+  const target=documents.items['uyen-6-T11'].parts.at(-1);
+  await buttons.last().click();
+  const img=page.locator(`.answer-document-page[data-document-page="${target.pdfPage}"] img`);
+  await expect.poll(()=>img.evaluate((el:HTMLImageElement)=>el.complete&&el.naturalWidth>0)).toBe(true);
+  await expect.poll(async()=>Math.abs(await img.evaluate((el:HTMLImageElement,offset:number)=>el.getBoundingClientRect().top+el.getBoundingClientRect().height*offset-16,target.top))).toBeLessThan(5);
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  const href=await page.getByRole('link',{name:'Bản văn bản',exact:true}).getAttribute('href');
+  const res=await page.request.get(href!);expect(res.ok()).toBe(true);
+  const text=await res.text();
+  for(const label of ['Câu (a)','Câu (g)','Ký hiệu:','Cách làm:','Thay số / thực hiện:'])expect(text).toContain(label);
+  await page.screenshot({path:'test-results/worked-subpart.png'});
+  await page.goto('/#/mon/xu-ly-anh/bai/uyen-7-L8');
+  await expect(page.locator('.prompt-subpart')).toHaveCount(7);
+  await page.getByRole('button',{name:'Mở lời giải',exact:false}).click();
+  await expect(page.locator('.theory-statement')).toHaveCount(7);
+});

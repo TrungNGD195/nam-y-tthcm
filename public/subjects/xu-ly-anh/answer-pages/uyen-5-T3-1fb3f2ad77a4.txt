@@ -1,0 +1,86 @@
+Bài 5.T3. Ảnh hưởng nhiễu lên đạo hàm
+
+
+Câu (a) — Xử lý ảnh thứ nhất
+Bước 1. Tính đáp ứng theo hướng x.
+Công thức: G_x(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_x(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3,cột 3): Gx = (40·-1) + (60·0) + (60·1) + (20·-1) + (40·0) + (60·1) + (20·-1) + (20·0) + (40·1) = 80.
+S₁ ⊗ Hx
+100	60	20	0	0	-120
+120	80	60	20	0	-180
+80	60	80	60	20	-180
+60	20	60	80	60	-160
+60	0	20	60	80	-120
+40	0	0	20	60	-60
+Bước 2. Tính đáp ứng theo hướng y.
+Công thức: G_y(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_y(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3, cột 3): Gy = (40·-1) + (60·-1) + (60·-1) + (20·0) + (40·0) + (60·0) + (20·1) + (20·1) + (40·1) = -80.
+S₁ ⊗ Hy
+60	120	160	180	180	120
+-60	-80	-60	-20	0	0
+-20	-60	-80	-60	-20	0
+0	-20	-60	-80	-60	-20
+0	0	-20	-60	-80	-60
+-40	-60	-60	-80	-120	-100
+Bước 3. Ghép hai đáp ứng theo đúng yêu cầu đề.
+Công thức: I_1=|G_x|+|G_y|
+Ký hiệu: Gx,Gy là hai đáp ứng vừa tính tại cùng pixel; I₁ là kết quả ghép. Dấu | | là trị tuyệt đối khi có trong công thức.
+Cách làm: Ghép từng cặp phần tử cùng vị trí. Cộng có dấu khi đề yêu cầu cộng hai ảnh; lấy trị tuyệt đối trước khi cộng khi đề yêu cầu độ lớn gradient. Không cắt giá trị âm ở giữa phép tính.
+Thay số / thực hiện: Tại (3,3), Gx=80, Gy=-80 ⇒ kết quả=160.
+S₁₁ = |Gx| + |Gy|
+160	180	180	180	180	240
+180	160	120	40	0	180
+100	120	160	120	40	180
+60	40	120	160	120	180
+60	0	40	120	160	180
+80	60	60	100	180	160
+
+Câu (b) — Xử lý ảnh thứ hai
+Bước 1. Tính đáp ứng theo hướng x.
+Công thức: G_x(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_x(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3,cột 3): Gx = (40·-1) + (60·0) + (60·1) + (20·-1) + (40·0) + (90·1) + (20·-1) + (20·0) + (40·1) = 110.
+S₂ ⊗ Hx
+100	60	20	0	0	-120
+120	80	90	20	-30	-180
+80	60	110	60	-10	-180
+60	20	75	80	45	-160
+60	0	5	60	95	-120
+40	0	-15	20	75	-60
+Bước 2. Tính đáp ứng theo hướng y.
+Công thức: G_y(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_y(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3, cột 3): Gy = (40·-1) + (60·-1) + (60·-1) + (20·0) + (40·0) + (90·0) + (20·1) + (20·1) + (40·1) = -80.
+S₂ ⊗ Hy
+60	120	160	180	180	120
+-60	-80	-30	10	30	0
+-20	-60	-80	-60	-20	0
+0	-20	-105	-125	-105	-20
+0	0	-20	-60	-80	-60
+-40	-60	-45	-65	-105	-100
+Bước 3. Ghép hai đáp ứng theo đúng yêu cầu đề.
+Công thức: I_1=|G_x|+|G_y|
+Ký hiệu: Gx,Gy là hai đáp ứng vừa tính tại cùng pixel; I₁ là kết quả ghép. Dấu | | là trị tuyệt đối khi có trong công thức.
+Cách làm: Ghép từng cặp phần tử cùng vị trí. Cộng có dấu khi đề yêu cầu cộng hai ảnh; lấy trị tuyệt đối trước khi cộng khi đề yêu cầu độ lớn gradient. Không cắt giá trị âm ở giữa phép tính.
+Thay số / thực hiện: Tại (3,3), Gx=110, Gy=-80 ⇒ kết quả=190.
+S₂₁ = |Gx| + |Gy|
+160	180	180	180	180	240
+180	160	120	30	60	180
+100	120	190	120	30	180
+60	40	180	205	150	180
+60	0	25	120	175	180
+80	60	60	85	180	160
+
+Câu (c) — So sánh hai ảnh
+Bước 1. Đối chiếu hai đáp ứng.
+Cách làm: Nhiễu tại (3,4) và (5,4) làm thay đổi các cửa sổ 3×3 phủ chúng, sinh đáp ứng mạnh hoặc triệt tiêu đáp ứng biên thật. Lọc nhiễu/làm trơn trước rồi mới tính đạo hàm; ngưỡng đơn lẻ không khắc phục được mọi ảnh hưởng.
+Giải thích: Nhiễu tại (3,4) và (5,4) làm thay đổi các cửa sổ 3×3 phủ chúng, sinh đáp ứng mạnh hoặc triệt tiêu đáp ứng biên thật. Lọc nhiễu/làm trơn trước rồi mới tính đạo hàm; ngưỡng đơn lẻ không khắc phục được mọi ảnh hưởng.
+Bước 2. Chuyển đáp ứng thành biên cần thêm bước chọn biên.
+Cách làm: Các ma trận trên là đáp ứng lọc. Với gradient, tính |Gx|+|Gy| (không cộng có dấu vì có thể triệt tiêu), rồi làm mảnh/đặt ngưỡng và liên kết biên. Laplace thường xét đổi dấu kết hợp ngưỡng sau làm trơn. Ví dụ minh họa gradient: chọn τ=10 thì pixel có |Gx|+|Gy|≥10 là ứng viên biên; đây là ngưỡng minh họa, không phải đáp án duy nhất của đề. Đệm 0 có thể tạo đáp ứng giả ở rìa ảnh.
+Giải thích: Các ma trận trên là đáp ứng lọc. Với gradient, tính |Gx|+|Gy| (không cộng có dấu vì có thể triệt tiêu), rồi làm mảnh/đặt ngưỡng và liên kết biên. Laplace thường xét đổi dấu kết hợp ngưỡng sau làm trơn. Ví dụ minh họa gradient: chọn τ=10 thì pixel có |Gx|+|Gy|≥10 là ứng viên biên; đây là ngưỡng minh họa, không phải đáp án duy nhất của đề. Đệm 0 có thể tạo đáp ứng giả ở rìa ảnh.

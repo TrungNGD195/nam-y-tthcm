@@ -1,0 +1,57 @@
+Bài 3.3. Làm trơn histogram W=3, W=5
+Bản đáp án chi tiết thay nhầm pixel hàng 5 cột 5 từ 1 thành 0 và bỏ mức 7. Lời giải này giữ đúng ma trận của ngân hàng câu hỏi; không chép bảng đếm sai đó.
+
+Câu (a) — Biểu đồ tần suất
+Bước 1. Đếm số pixel tại từng mức xám.
+Công thức: h(g)=\#\{(r,c):I(r,c)=g\},\quad N=\sum_g h(g)
+Ký hiệu: I là ảnh đầu vào; (r,c) là hàng và cột; g là mức xám; h(g) là số pixel bằng g; N là tổng số pixel; # là phép đếm, Σ là phép cộng các giá trị.
+Cách làm: Lần lượt xét các mức xám, đếm số lần mỗi mức xuất hiện trong ảnh và ghi vào bảng. Cộng các tần suất để kiểm tra bằng số hàng nhân số cột.
+Thay số / thực hiện: N = 4 + 5 + 6 + 6 + 4 + 4 + 4 + 0 + 1 + 2 = 36.
+
+g	h(g)
+0	4
+1	5
+2	6
+3	6
+4	4
+5	4
+6	4
+7	0
+8	1
+9	2
+
+Câu (b) — Biến đổi/làm trơn histogram
+Bước 1. Làm trơn bằng cửa sổ W = 3; ngoài miền mức xám coi h = 0.
+Công thức: h_s(g)=\frac1W\sum_{j=-(W-1)/2}^{(W-1)/2}h(g-j)
+Ký hiệu: h(g) là tần suất gốc; h_s(g) là tần suất đã làm trơn; W là số mức trong cửa sổ, phải lẻ; j là độ lệch so với mức đang xét.
+Cách làm: Đặt cửa sổ quanh g, cộng W tần suất rồi chia cho W. Ngoài miền mức xám lấy h=0 và vẫn chia đúng W. Dịch sang mức kế tiếp, chỉ làm tròn ở kết quả theo yêu cầu đề.
+Thay số / thực hiện: h_s(0) = (0 + 4 + 5)/3 = 3.
+
+g	h_s, W=3
+0	3
+1	5
+2	5.66667
+3	5.33333
+4	4.66667
+5	4
+6	2.66667
+7	1.66667
+8	1
+9	1
+Bước 2. Làm trơn bằng cửa sổ W = 5; ngoài miền mức xám coi h = 0.
+Công thức: h_s(g)=\frac1W\sum_{j=-(W-1)/2}^{(W-1)/2}h(g-j)
+Ký hiệu: h(g) là tần suất gốc; h_s(g) là tần suất đã làm trơn; W là số mức trong cửa sổ, phải lẻ; j là độ lệch so với mức đang xét.
+Cách làm: Đặt cửa sổ quanh g, cộng W tần suất rồi chia cho W. Ngoài miền mức xám lấy h=0 và vẫn chia đúng W. Dịch sang mức kế tiếp, chỉ làm tròn ở kết quả theo yêu cầu đề.
+Thay số / thực hiện: h_s(0) = (0 + 0 + 4 + 5 + 6)/5 = 3.
+
+g	h_s, W=5
+0	3
+1	4.2
+2	5
+3	5
+4	4.8
+5	3.6
+6	2.6
+7	2.2
+8	1.4
+9	0.6

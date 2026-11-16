@@ -100,10 +100,11 @@ def edge_steps(a,hx,hy,hz=None,signed=False,name='I'):
                 r'G_x(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_x(i+1,j+1),\quad G_y=I\otimes H_y',
                 f'Tại (hàng 3,cột 3): Gx = '+ ' + '.join(terms)+f' = {gx[r][c]}.',
                 'Dùng quy ước thực hành của môn: không lật mặt nạ. Chưa cắt đáp ứng âm về 0.',blocks=rows)]
+    steps[0]['ySubstitution']='Tại (hàng 3, cột 3): Gy = '+' + '.join(f'({a[r+i-1][c+j-1]}·{hy[i][j]})' for i in range(3) for j in range(3))+f' = {gy[r][c]}.'
     if hz:
         lap=correlate(a,hz)
         steps.append(step('Tính đáp ứng Laplace với cùng cách đặt tâm.',r'I_2(r,c)=\sum_i\sum_j I(r+i,c+j)H_z(i+1,j+1)',
-                          f'Tại (3,3): tổng có trọng số = {lap[2][2]}.',blocks=[matrix(lap,'Ảnh I₂')]))
+                          'Tại (3,3): I₂ = '+' + '.join(f'({a[r+i-1][c+j-1]}·{hz[i][j]})' for i in range(3) for j in range(3))+f' = {lap[2][2]}.',blocks=[matrix(lap,'Ảnh I₂')]))
     steps.append(step('Chuyển đáp ứng thành biên cần thêm bước chọn biên.',text='Các ma trận trên là đáp ứng lọc. Với gradient, tính |Gx|+|Gy| (không cộng có dấu vì có thể triệt tiêu), rồi làm mảnh/đặt ngưỡng và liên kết biên. Laplace thường xét đổi dấu kết hợp ngưỡng sau làm trơn. Ví dụ minh họa gradient: chọn τ=10 thì pixel có |Gx|+|Gy|≥10 là ứng viên biên; đây là ngưỡng minh họa, không phải đáp án duy nhất của đề. Đệm 0 có thể tạo đáp ứng giả ở rìa ảnh.'))
     return steps
 

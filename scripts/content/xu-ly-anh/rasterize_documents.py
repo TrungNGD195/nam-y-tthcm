@@ -69,17 +69,30 @@ for record in render['items']:
         pages.append(dict(src=relative+'/'+filename,width=cached[0],height=cached[1],pdfPage=offset+n+1,
                           sha256=hashlib.sha256((target/filename).read_bytes()).hexdigest()))
     plain=[f'Bài {item["code"]}. {item["title"]}',item.get('note','')]
-    for n,step in enumerate(item['steps'],1):
-        plain.extend([f'{n}. {step["lead"]}',*(f'{k}: {step[k]}' for k in ['formula','substitution','text','result'] if k in step)])
+    section=None;local_step=0
+    for step in item['steps']:
+        if step['section']!=section:
+            section=step['section'];local_step=0;plain.append('\n'+section)
+        local_step+=1
+        names=dict(formula='Công thức',symbols='Ký hiệu',method='Cách làm',substitution='Thay số / thực hiện',text='Giải thích',result='Kết luận')
+        plain.extend([f'Bước {local_step}. {step["lead"]}',*(f'{names[k]}: {step[k]}' for k in names if k in step)])
         for block in step.get('blocks',[]):
             plain.append(block.get('caption',''))
             if 'headers' in block:plain.append('\t'.join(map(str,block['headers'])))
             plain.extend('\t'.join(map(str,row)) for row in block.get('rows',[]))
     text_name=f'{item["id"]}-{fingerprint}.txt'
     (target/text_name).write_text('\n'.join(plain)+'\n',encoding='utf8')
+    sections=list(dict.fromkeys(step['section'] for step in item['steps']))
+    part_pages=[];cursor=answer_start
+    for section in sections:
+        found=next((n for n in range(cursor,len(doc)) if ' '.join(section.split()) in ' '.join(doc[n].get_text().split())),None)
+        assert found is not None,f'{item["id"]}: missing subpart heading in PDF: {section}'
+        rects=doc[found].search_for(section)
+        top=max(0,(min(r.y0 for r in rects)-10)/doc[found].rect.height) if rects else 0
+        part_pages.append(dict(title=section,pdfPage=offset+found+1,top=round(top,6)));cursor=found
     manifest['items'][item['id']]=dict(contentHash=record['contentHash'],pdfStartPage=offset+1,
         pdfEndPage=offset+len(doc),answerStartPage=offset+answer_start+1,
-        textSrc=relative+'/'+text_name,pages=pages)
+        textSrc=relative+'/'+text_name,pages=pages,parts=part_pages)
     audit.append(dict(id=item['id'],pdfPages=len(doc),answerPages=len(pages),answerCharacters=sum(len(doc[n].get_text()) for n in range(answer_start,len(doc)))))
     if len(audit)%10==0:print(f'Rasterized {len(audit)}/{len(render["items"])} exercises',flush=True)
 book.set_toc(toc)

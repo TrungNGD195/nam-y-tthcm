@@ -1,0 +1,15 @@
+Bài 4.T1. Đổi RGB sang CMY
+
+
+Bài giải
+Bước 1. Chuẩn hóa RGB 8 bit rồi lấy phần bù.
+Công thức: R_n=R/255,\ G_n=G/255,\ B_n=B/255;\quad(C,M,Y)=(1-R_n,1-G_n,1-B_n)
+Ký hiệu: R,G,B là ba kênh đỏ/lục/lam 8 bit; R_n,G_n,B_n là kênh đã chia 255; C,M,Y là lượng cyan/magenta/yellow chuẩn hóa trong [0,1].
+Cách làm: Chia từng kênh RGB 8 bit cho 255 rồi lấy 1 trừ kênh tương ứng. So sánh C,M,Y để nhận ra loại mực cần nhiều nhất; không lấy 1 trừ trực tiếp giá trị 0–255.
+Thay số / thực hiện: Màu a: C=1−200/255=0.21569, M=1−100/255=0.60784, Y=1−50/255=0.80392.
+
+màu	C	M	Y	mực cần nhiều nhất
+a	0.21569	0.60784	0.80392	Y
+b	1	0	0.49804	C
+c	0	0	1	Y
+d	0.86667	0.4549	0.86667	C/Y

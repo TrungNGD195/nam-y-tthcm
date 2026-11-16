@@ -1,6 +1,6 @@
 import type { ContentBlock } from '../../core/types.ts';
 
-export type SolutionStep = { lead: string; formula?: string; substitution?: string; result?: string; text?: string; blocks?: ContentBlock[] };
+export type SolutionStep = { lead: string; section?: string; symbols?: string; method?: string; formula?: string; substitution?: string; result?: string; text?: string; blocks?: ContentBlock[] };
 export type SolvedItem = {
   id: string; revision: number; code: string; area: 'bank' | 'uyen'; sourceId: string; sourcePages: number[];
   kind: 'theory' | 'exercise'; points: number | null; chapter: number; title: string; prompt: string;
@@ -21,5 +21,6 @@ export type SolutionDocuments = {
   subjectId:string; version:string; dataVersion:string; renderFingerprint:string;
   book:{src:string;pages:number;sha256:string};
   items:Record<string,{contentHash:string;pdfStartPage:number;pdfEndPage:number;answerStartPage:number;textSrc:string;
+    parts:{title:string;pdfPage:number;top:number}[];
     pages:{src:string;width:number;height:number;pdfPage:number;sha256:string}[]}>;
 };

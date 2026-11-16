@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { parseMarks,filterItems,readingKey } from '../../src/features/solutions/model.ts';
 import type { Solutions } from '../../src/features/solutions/types.ts';
 import { validateSolutions } from '../../scripts/content/xu-ly-anh/validate.mjs';
+import {exerciseHtml} from '../../scripts/content/xu-ly-anh/document-layout.mjs';
 
 const data=JSON.parse(readFileSync(new URL('../../src/subjects/xu-ly-anh/solutions.json',import.meta.url),'utf8')) as Solutions;
 data.documents=JSON.parse(readFileSync(new URL('../../src/subjects/xu-ly-anh/documents.json',import.meta.url),'utf8'));
@@ -57,4 +58,32 @@ test('document presentation refuses stale answers, missing pages and reused imag
   assert.throws(()=>validateSolutions(reused,subject),/Reused exercise screenshot/);
   const wrongPage=structuredClone(data);wrongPage.documents!.items[exercise.id].pages[0].pdfPage++;
   assert.throws(()=>validateSolutions(wrongPage,subject),/pages out of order/);
+});
+
+test('worked subparts match the source clauses and formulas explain symbols before substitution',()=>{
+  const cases:{[id:string]:string[]}={
+    'bank-4-1':['a','b','c'],'bank-3-6':['a','b'],'uyen-3-T3':['a','b','c'],
+    'uyen-3-T5':['a','b','c','d','e','f'],'uyen-3-T7':['a','b','c'],
+    'uyen-6-T1':['a','b','c','d','e'],'uyen-6-T9':['a','b','c','d','e'],
+    'uyen-6-T11':['a','b','c','d','e','f','g'],'uyen-7-T7':['a','b','c'],
+    'uyen-7-T11':['a','b','c','d'],
+  };
+  for(const [id,letters] of Object.entries(cases)){
+    const item=data.items.find(i=>i.id===id)!;
+    assert.deepEqual([...new Set(item.steps.map(s=>s.section!.match(/Câu \(([a-g])\)/)![1]))],letters,id);
+    const html=exerciseHtml(item,data.sources,[]);
+    assert.equal((html.match(/class="answer-part"/g)??[]).length,letters.length,id);
+    for(const piece of html.split('class="answer-step"').slice(1)){
+      assert.match(piece,/Bước \d+\./);
+      if(piece.includes('class="equation"')){
+        assert(piece.indexOf('class="equation"')<piece.indexOf('Ký hiệu:'));
+        assert(piece.indexOf('Ký hiệu:')<piece.indexOf('Cách làm:'));
+        if(piece.includes('Thay số / thực hiện:'))assert(piece.indexOf('Cách làm:')<piece.indexOf('Thay số / thực hiện:'));
+      }
+    }
+  }
+  for(const item of data.items.filter(i=>i.kind==='exercise'))for(const step of item.steps){
+    assert(step.section&&step.method&&step.method.length>20);
+    if(step.formula)assert(step.symbols&&step.symbols.length>25);
+  }
 });

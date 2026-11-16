@@ -1,0 +1,43 @@
+Bài 4.8. Đẳng liệu và đối xứng nền
+Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
+
+Câu (a) — Đẳng điệu cho ảnh I
+Bước 1. Lặp ngưỡng đẳng liệu/đẳng điệu theo trung bình hai lớp.
+Công thức: \mu_1(t)=\frac{\sum_{g\le t}gh(g)}{\sum_{g\le t}h(g)},\quad \mu_2(t)=\frac{\sum_{g>t}gh(g)}{\sum_{g>t}h(g)},\quad t_{n+1}=\frac{\mu_1+\mu_2}{2}
+Ký hiệu: h(g) là tần suất mức g; t là ngưỡng đang thử; μ₁,μ₂ là trung bình có trọng số của hai lớp ≤t và >t; n là chỉ số vòng lặp; t_n+1 là ngưỡng vòng sau.
+Cách làm: Tách histogram bằng ngưỡng hiện tại. Với mỗi lớp, lấy tổng g·h(g) chia tổng h(g), rồi lấy trung bình hai kết quả làm ngưỡng mới. Lặp tới khi ngưỡng/phân hoạch không đổi; chỉ làm tròn mỗi vòng khi đề quy định.
+Thay số / thực hiện: t₀ = 5; t₁ trước làm tròn = (2.60234 + 7.08148)/2 = 4.84191.
+Kết luận: Ngưỡng cuối = 4.30312; phân nhóm g ≤ t và g > t. Giữ số thực trong khi lặp theo giáo trình; ngưỡng thực xác định cùng phân hoạch như phần nguyên của nó, không làm tròn mỗi vòng.
+
+t hiện tại	μ₁	μ₂	t kế tiếp
+5	2.60234	7.08148	4.84191
+4.84191	1.96296	6.64327	4.30312
+4.30312	1.96296	6.64327	4.30312
+
+Câu (b) — Đối xứng nền cho ảnh I′
+Bước 1. Tìm đỉnh nền, mức phân vị rồi lấy đối xứng.
+Công thức: T=2\mathrm{maxp}-a,\quad P(a)=\frac{\sum_{g=0}^a h(g)}{N}
+Ký hiệu: N là tổng pixel; h(g) là tần suất; maxp là mức có tần suất nền lớn nhất; p% là tỷ lệ tích lũy yêu cầu; a là mức phân vị được chọn; P(a) là tỷ lệ tích lũy tới a; T là ngưỡng.
+Cách làm: Cộng dồn histogram, tính p%·N, xác định đỉnh maxp và chọn a theo đúng quy ước ≥ hoặc ≤ ghi tại bài. Lấy điểm đối xứng của a qua maxp bằng T=2maxp−a; kiểm tra giả thiết nền trội gần đối xứng.
+Thay số / thực hiện: N=101; 91%N=91.91; maxp=6; a=7; T=2·6−7=5.
+Kết luận: Theo quy ước riêng của đề này, lấy a lớn nhất có tích lũy ≤ p%N. Đỉnh nền rõ, chọn cách này hợp lý hơn khi nền trội gần đối xứng.
+
+g	h(g)	tích lũy
+0	2	2
+1	3	5
+2	4	9
+3	5	14
+4	7	21
+5	12	33
+6	47	80
+7	11	91
+8	8	99
+9	2	101
+
+Câu (c) — Đánh giá và chọn phương pháp
+Bước 1. Đánh giá giả thiết trước khi đổi phương pháp.
+Cách làm: Đẳng liệu phù hợp khi hai lớp có trung bình khác nhau; đối xứng nền phù hợp nền trội gần đối xứng, không mặc nhiên đúng chỉ vì có một đỉnh lớn. Với mỗi biểu đồ cần nhìn hình dạng: nếu nền không trội hoặc nhiều đỉnh, ưu tiên thử Otsu/đẳng liệu và kiểm tra ảnh nhị phân; không thể chứng minh ngưỡng đúng về ngữ nghĩa chỉ từ histogram.
+Giải thích: Đẳng liệu phù hợp khi hai lớp có trung bình khác nhau; đối xứng nền phù hợp nền trội gần đối xứng, không mặc nhiên đúng chỉ vì có một đỉnh lớn. Với mỗi biểu đồ cần nhìn hình dạng: nếu nền không trội hoặc nhiều đỉnh, ưu tiên thử Otsu/đẳng liệu và kiểm tra ảnh nhị phân; không thể chứng minh ngưỡng đúng về ngữ nghĩa chỉ từ histogram.
+Bước 2. Chốt cách chọn cho đúng cặp histogram này.
+Cách làm: Giữ đẳng liệu cho ảnh A vì có hai cụm mức xám; giữ đối xứng nền cho ảnh B vì có đỉnh nền trội ở phía sáng. Không cần hoán đổi chỉ vì hai phương pháp cho ngưỡng khác nhau.
+Giải thích: Giữ đẳng liệu cho ảnh A vì có hai cụm mức xám; giữ đối xứng nền cho ảnh B vì có đỉnh nền trội ở phía sáng. Không cần hoán đổi chỉ vì hai phương pháp cho ngưỡng khác nhau.

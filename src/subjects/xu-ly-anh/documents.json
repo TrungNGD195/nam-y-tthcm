@@ -1,1468 +1,2984 @@
 {
   "subjectId": "xu-ly-anh",
-  "version": "2026.11.15.1",
-  "dataVersion": "2026.11.14.1",
-  "renderFingerprint": "4dc7c820fd81",
+  "version": "2026.11.16.2",
+  "dataVersion": "2026.11.16.2",
+  "renderFingerprint": "1fb3f2ad77a4",
   "book": {
-    "src": "subjects/xu-ly-anh/answer-pages/xu-ly-anh-67-bai-giai-4dc7c820fd81.pdf",
-    "pages": 192,
-    "sha256": "4a538269a3f6c805cd49b2468297b0446c42437e106736fc838ebd62fa08378b"
+    "src": "subjects/xu-ly-anh/answer-pages/xu-ly-anh-67-bai-giai-1fb3f2ad77a4.pdf",
+    "pages": 263,
+    "sha256": "95827f8364823ccc3565f2a33fd75cd8c572f6f4d849cfa021e5a4e8b44e51b4"
   },
   "items": {
     "bank-3-1": {
-      "contentHash": "4aac629fb458b4b4392accd718be98e3d2d2365298b9699800ceee92de8ed53b",
+      "contentHash": "d72a3e3adb58acee7b463ce3673278484254930d87623dc8e9e9560c74b06424",
       "pdfStartPage": 2,
-      "pdfEndPage": 3,
+      "pdfEndPage": 4,
       "answerStartPage": 3,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-1-4dc7c820fd81.txt",
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-1-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-1-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-1-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
           "pdfPage": 3,
-          "sha256": "bcbcde8e86767a2122e514b3368804e5d866f5ad9c3bc3ba1593e38c6ce88e05"
+          "sha256": "d4db290fbec29d7e419d91fd049c2c78d0d64da0cc0007e9a861a12facc3a718"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-1-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 4,
+          "sha256": "4258ce10563f3288999f49357d8541258494702e30887618f5e99047015d2f87"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Biểu đồ tần suất",
+          "pdfPage": 3,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Biến đổi/làm trơn histogram",
+          "pdfPage": 3,
+          "top": 0.543988
         }
       ]
     },
     "bank-3-2": {
-      "contentHash": "7f76a3540d377dddaddb269e4eb3233b5960de451582a28a4401c7040699e170",
-      "pdfStartPage": 4,
-      "pdfEndPage": 5,
-      "answerStartPage": 5,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-2-4dc7c820fd81.txt",
+      "contentHash": "3f52c462f9d14cc5b48136ae6c0db5f0a70249a9f709e78e384b965992b1fa69",
+      "pdfStartPage": 5,
+      "pdfEndPage": 7,
+      "answerStartPage": 6,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-2-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-2-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-2-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 5,
-          "sha256": "96c911c8403288726aa7e569d8c5516babbe3bfc6eecdc4e8c2a073cb0a078b3"
+          "pdfPage": 6,
+          "sha256": "8545ff42570e8afa5d067c0da24a925f7c28b9f965ddd850dbfdbb0cd78f3593"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-2-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 7,
+          "sha256": "dd68ddb4fd9f61a3860252f9e7cabe96113ac90a795165eae4719287b899fbf6"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Biểu đồ tần suất",
+          "pdfPage": 6,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Biến đổi/làm trơn histogram",
+          "pdfPage": 6,
+          "top": 0.543988
         }
       ]
     },
     "bank-3-3": {
-      "contentHash": "3f8e09a0fe366e7e3bdcce9759de46d5f32c616c7537a69d3e913931bd49103a",
-      "pdfStartPage": 6,
-      "pdfEndPage": 8,
-      "answerStartPage": 7,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-3-4dc7c820fd81.txt",
+      "contentHash": "3da52d9363aab27fcb0b85c13da096c51f08250ea2abe2e4be22737999f5bf3f",
+      "pdfStartPage": 8,
+      "pdfEndPage": 10,
+      "answerStartPage": 9,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-3-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-3-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-3-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 7,
-          "sha256": "e9a3cabc42da2a11d4d52da10d6cbac32cda1c096e812d95c93a54a37c9cf643"
+          "pdfPage": 9,
+          "sha256": "125b238a295fa073efbf7b3856c2c0eed12f039fb261d7960dc93836efddfe2c"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-3-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-3-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 8,
-          "sha256": "574f663a9aac502d4e1b590e84034fecb3b50977d4b1951647c1086c64e15705"
+          "pdfPage": 10,
+          "sha256": "e468b22743c7ef0d75aa6ad7ee17805cb75d2d8b09654cf9d9adaf6bf38205f3"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Biểu đồ tần suất",
+          "pdfPage": 9,
+          "top": 0.216166
+        },
+        {
+          "title": "Câu (b) — Biến đổi/làm trơn histogram",
+          "pdfPage": 9,
+          "top": 0.620599
         }
       ]
     },
     "bank-3-4": {
-      "contentHash": "6459a271feb09f73362f69c3b1e555737c93151bd422d3cb1395b9a6f61a75fb",
-      "pdfStartPage": 9,
-      "pdfEndPage": 10,
-      "answerStartPage": 10,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-4-4dc7c820fd81.txt",
+      "contentHash": "55b400281671e0b28468eea66ffdddf5c796a71fc61993c9d658fe0195335cb2",
+      "pdfStartPage": 11,
+      "pdfEndPage": 13,
+      "answerStartPage": 12,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-4-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-4-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-4-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 10,
-          "sha256": "0316de9a4908d4155313108f91541438a2ad0491a14b3d6412a0059a50532f24"
+          "pdfPage": 12,
+          "sha256": "f717ec584abd2c5a19dc5bf773524d8b2894387c1956ea08371ed74a6494d396"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-4-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 13,
+          "sha256": "59f7a0c1a10184e41bc5834a3a3f582512962c72d6ad8f61734d97bfe2bf9a19"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Cân bằng theo giáo trình",
+          "pdfPage": 12,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Cân bằng lý tưởng",
+          "pdfPage": 13,
+          "top": 0.054927
         }
       ]
     },
     "bank-3-5": {
-      "contentHash": "335a310419eed84e501b087f29a1830c5cdb1460842d607eac4442c446e8a78d",
-      "pdfStartPage": 11,
-      "pdfEndPage": 12,
-      "answerStartPage": 12,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-5-4dc7c820fd81.txt",
+      "contentHash": "682ba333dfbb9334f13ebe3d21f89cf67369695cfe18cc3d6e55ef7b7f5c5478",
+      "pdfStartPage": 14,
+      "pdfEndPage": 16,
+      "answerStartPage": 15,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-5-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-5-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-5-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 12,
-          "sha256": "76d598157983dec3576542bb77b763aa8b4c35585daf851eb7d55ca49d90d146"
+          "pdfPage": 15,
+          "sha256": "e15364c6cfc29501d5bf0b1b2251113bf96ca71348d7e2fcda2d52aa465dbd3f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-5-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 16,
+          "sha256": "018e172026ca0827b8afed64258bd63473252e8d89ffe803eb6bb0d806e4282b"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Cân bằng theo giáo trình",
+          "pdfPage": 15,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Cân bằng lý tưởng",
+          "pdfPage": 16,
+          "top": 0.054927
         }
       ]
     },
     "bank-3-6": {
-      "contentHash": "a2379049a7d74391bd7ac6d12388d853e7f2f53a8bffdbfed249da1e2606d441",
-      "pdfStartPage": 13,
-      "pdfEndPage": 15,
-      "answerStartPage": 14,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-6-4dc7c820fd81.txt",
+      "contentHash": "4e85ccdc6b294b1b9e6a613c54532ba93453be76c9be6865e326d5b079524580",
+      "pdfStartPage": 17,
+      "pdfEndPage": 20,
+      "answerStartPage": 18,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-6-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-6-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-6-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 14,
-          "sha256": "45efdb0ba677ae7432b35600277bf8ee761bfca737feba8207b043d4eb4d13f5"
+          "pdfPage": 18,
+          "sha256": "bd1f86b337b126fc176d096f9cac03446aafd1993af9e19b95c471ccbc85884e"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-6-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-6-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 15,
-          "sha256": "c68efb09172c437b6e3d17077df6e09b23e255ba55c084a87c532e19516a26ad"
+          "pdfPage": 19,
+          "sha256": "705d2c8477ade08979ef6f324636b9521f0a46962ee620ed405b7880622dd925"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-6-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 20,
+          "sha256": "b02d65aab12d6124c5ec8b29a3c222bdb8b22bb0707d9fd34e26d988486cc97b"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Thực hiện khuếch tán lỗi",
+          "pdfPage": 18,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Mục đích và so sánh",
+          "pdfPage": 19,
+          "top": 0.351571
         }
       ]
     },
     "bank-3-7": {
-      "contentHash": "ad106600352dfc0db0b77bcecb77e95a0a05d73718bd6adc7dacf055ed771be8",
-      "pdfStartPage": 16,
-      "pdfEndPage": 18,
-      "answerStartPage": 17,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-7-4dc7c820fd81.txt",
+      "contentHash": "ed47e0c9f00d8ba52fb3b27a5b74cbde920f5d07c34d16ae60369e050b93a65d",
+      "pdfStartPage": 21,
+      "pdfEndPage": 24,
+      "answerStartPage": 22,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-7-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-7-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-7-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 17,
-          "sha256": "dd60cd369a83d13a866428b34e0d453c30e497055906f5f436f8c218a585fa5e"
+          "pdfPage": 22,
+          "sha256": "6ea76acf34a71d614c1638c5dc2a7189879ef1412d284b4c5cd2b8d9af5d42d7"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-7-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-7-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 18,
-          "sha256": "efabe37c49e97173636cadbdc7dd3a161e07e83863f440aecf69a808bb6fa8b1"
+          "pdfPage": 23,
+          "sha256": "847efa58d197806ddb8da55874e48a922d4d0088a8d59690385e30edc359a0c5"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-7-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 24,
+          "sha256": "32c2b0e6e74120e2ad55e1a496d823f608be21494dd4e6c7497a246f4aa2c8f3"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Thực hiện khuếch tán lỗi",
+          "pdfPage": 22,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Mục đích và so sánh",
+          "pdfPage": 23,
+          "top": 0.351571
         }
       ]
     },
     "bank-3-8": {
-      "contentHash": "f7fa8227c1105b400672c794a369397b15a04c85aa7acd114c97305764ef7366",
-      "pdfStartPage": 19,
-      "pdfEndPage": 21,
-      "answerStartPage": 20,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-8-4dc7c820fd81.txt",
+      "contentHash": "5c7895670ff55ce94418261fbb5f3faddd88e4309906d6105cbc42fdb08227b3",
+      "pdfStartPage": 25,
+      "pdfEndPage": 28,
+      "answerStartPage": 26,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-8-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-8-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-8-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 20,
-          "sha256": "3cf37a2d1ee4ca5ec82b215652d6638d68c29cf526b30be922c1a02498580ea4"
+          "pdfPage": 26,
+          "sha256": "e5b6ced2d5855f4a79620ec1554c8376c0f45f09f60da1c54f3ed8244ca84046"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-8-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-8-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 21,
-          "sha256": "e37c8970c08d6d4998326fa8e489f4275f73b7a75aa41f3a2708e18165116ec2"
+          "pdfPage": 27,
+          "sha256": "0515c63d38b9cfeff778a7778d8963e883b1afeb242c9c6ec25a039c7a201d36"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-8-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 28,
+          "sha256": "7c18518fb50c4be57d4562a9acbc6694724e9eacea0e902a6be550485fcaf204"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 26,
+          "top": 0.139555
         }
       ]
     },
     "bank-3-9": {
-      "contentHash": "a9fd3689295107632c4e677a2a466a25ee520c246cb64a038a667dbed393b8f5",
-      "pdfStartPage": 22,
-      "pdfEndPage": 24,
-      "answerStartPage": 23,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-9-4dc7c820fd81.txt",
+      "contentHash": "ae33b774e7cbed135c5f406a407cbf10136ac9266050428d6d703f91060b9707",
+      "pdfStartPage": 29,
+      "pdfEndPage": 32,
+      "answerStartPage": 30,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-9-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-9-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-9-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 23,
-          "sha256": "b1778aa8e9d5cb3f848996ed4c3921b1c068682690edce379d5bd7983de54d6b"
+          "pdfPage": 30,
+          "sha256": "cd2bba2b99e70a02255a4217ace64fcf77a94d8e25d72210ea67f51dbb020f89"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-9-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-9-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 24,
-          "sha256": "84a441834e386967da24bfd91f9a3ef75730e39ccae4c99ce405b3882fe814a8"
+          "pdfPage": 31,
+          "sha256": "6e6994bbd1c6c20540c9036a61e39af736f629d102f39a2a79fef67ff7fdf5e4"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-9-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 32,
+          "sha256": "43d3b7aa37ccc07e555d4be54ebd10c04cbe846484b8be1fd19a0b7d6a5f3489"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 30,
+          "top": 0.139555
         }
       ]
     },
     "bank-3-10": {
-      "contentHash": "83ce99e88c50f38daeeae90c08295a8f3f1406fb66d8ee02d42ee689e0576dbd",
-      "pdfStartPage": 25,
-      "pdfEndPage": 26,
-      "answerStartPage": 26,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-10-4dc7c820fd81.txt",
+      "contentHash": "1a3db472c4fd812ffb4fe031003e13279cb8975de0ac80d623d0e96420e9e285",
+      "pdfStartPage": 33,
+      "pdfEndPage": 35,
+      "answerStartPage": 34,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-10-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-10-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-10-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 26,
-          "sha256": "f4c2fc7bf22b6861290f868bca0688e0864103254bf273031b3209a2afc666bd"
+          "pdfPage": 34,
+          "sha256": "f6d6efef6efcf38c060f3b206c7d4be0f6ad2802cda4a842938a5f311ee2c7a9"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-10-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 35,
+          "sha256": "58a645fd799dea39912e5b40b5bfa3c741550ad5723bb738cdb9e815a93e7c55"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Phép tính — Co ảnh",
+          "pdfPage": 34,
+          "top": 0.236655
+        },
+        {
+          "title": "Phép tính — Giãn ảnh",
+          "pdfPage": 35,
+          "top": 0.054927
         }
       ]
     },
     "bank-3-11": {
-      "contentHash": "f53dddefaa5465fc35feb310c2bcbf47d64595a02cb72bc96eb9f5971c1ba4ef",
-      "pdfStartPage": 27,
-      "pdfEndPage": 29,
-      "answerStartPage": 28,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-11-4dc7c820fd81.txt",
+      "contentHash": "dae89c087f2c9dd59f5f483069196ab831942c6bc5245c1d10265644e68ef86a",
+      "pdfStartPage": 36,
+      "pdfEndPage": 39,
+      "answerStartPage": 37,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-3-11-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-11-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-11-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 28,
-          "sha256": "691f9439ab09980cf03b25098969c4c0ff65693bfbfffd49ea28987c0f6f32fb"
+          "pdfPage": 37,
+          "sha256": "2dbee87f889028e2566faa0da6c7a77d54c4a4f0830b7141383f3e5826b0f0f1"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-3-11-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-11-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 29,
-          "sha256": "87ab9207cbb4dcdcb37328d9124c6e26b5757c1cc3d6a6a788b03aabbe9f9b20"
+          "pdfPage": 38,
+          "sha256": "a13f6c7042c902966ab05147a2f60f4ea45054be7c73aa817623af25a40b3fa6"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-3-11-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 39,
+          "sha256": "bacf43373076cbf3f26fd07b285265573b5debfc53ad61eda7727a180fe331ad"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Phép tính — Co ảnh",
+          "pdfPage": 37,
+          "top": 0.216166
+        },
+        {
+          "title": "Phép tính — Giãn ảnh",
+          "pdfPage": 38,
+          "top": 0.054927
+        },
+        {
+          "title": "Đối chiếu quy ước — SE phản xạ và giãn chuẩn",
+          "pdfPage": 38,
+          "top": 0.66514
         }
       ]
     },
     "bank-4-1": {
-      "contentHash": "92ee9a96cdf6763856b3998ec01a08bd5935796639c944bc5e5ab8a9bf08b77e",
-      "pdfStartPage": 30,
-      "pdfEndPage": 32,
-      "answerStartPage": 31,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-1-4dc7c820fd81.txt",
+      "contentHash": "5cfa03f5c02971b16ce6b120f2ec17d495a8a043e0757c49b086524121661f2e",
+      "pdfStartPage": 40,
+      "pdfEndPage": 44,
+      "answerStartPage": 41,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-1-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-1-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-1-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 31,
-          "sha256": "a41546fea27ce5b363e54e86a374466c40f6c6c2410c9f37899f4e9bc9e371d0"
+          "pdfPage": 41,
+          "sha256": "67f9dc1ad77bccb379e5b5235ba6cad3d7ab645d2cb241dd7a4740573a7c6b8f"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-1-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-1-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 32,
-          "sha256": "c5fc52513b529890c5fe6dc33818cda3627140a0bb49be3f8298872a55c8695e"
+          "pdfPage": 42,
+          "sha256": "825d05ddef09a0d7015cab3ec2a16808e76c01cd8969846a9a80651df0335f59"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-1-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 43,
+          "sha256": "8976aebcb7b34c23ff52764958624c7ac090434f138a61bbd89e1722f88101a2"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-1-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 44,
+          "sha256": "cf3fb33b2a2abf912105fa530a36c9c9087d4def2719b4cb19f2844902464b15"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Hai đáp ứng và ảnh I₁",
+          "pdfPage": 41,
+          "top": 0.236655
+        },
+        {
+          "title": "Câu (b) — Đáp ứng Laplace I₂",
+          "pdfPage": 43,
+          "top": 0.290995
+        },
+        {
+          "title": "Câu (c) — Từ đáp ứng đến ảnh biên",
+          "pdfPage": 44,
+          "top": 0.054927
         }
       ]
     },
     "bank-4-2": {
-      "contentHash": "da647a159d70feaa572f5938259e8b8320e03ce94d11e9bd24d4a9798aee8339",
-      "pdfStartPage": 33,
-      "pdfEndPage": 35,
-      "answerStartPage": 34,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-2-4dc7c820fd81.txt",
+      "contentHash": "f97cdaac564f3f6354cbf33f9ad5dc7871ef07565beb4584b73eb2e706d82621",
+      "pdfStartPage": 45,
+      "pdfEndPage": 49,
+      "answerStartPage": 46,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-2-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-2-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-2-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 34,
-          "sha256": "4bce5f0688e112b6da23c45a2165ae66f03886e2d0d0891d09c93bb7daeaafd5"
+          "pdfPage": 46,
+          "sha256": "32bf9ec0b86586b26f1a70c6e2d03e3cf24566ec0d6bb6966a5b720828b1dca4"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-2-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-2-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 35,
-          "sha256": "e0826da445f7fba30ca255f3bae5b5f3a0f072e14d8b9b0d7a8a44f1b0aab8d5"
+          "pdfPage": 47,
+          "sha256": "1b739e10aa0ba053db0102e3a259220632d6cf5fdf27d8d2859d625f81ea3a8f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-2-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 48,
+          "sha256": "590417273964ad3bdc0084ee34b526002b94f0c5cfb2a4451d6404e36c138a6c"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-2-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 49,
+          "sha256": "9aec330d87c952d3a437d1f2b0f2e3cd7d1db60686e1ea1b3d3fa22943f26ccf"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Hai đáp ứng và ảnh I₁",
+          "pdfPage": 46,
+          "top": 0.236655
+        },
+        {
+          "title": "Câu (b) — Đáp ứng Laplace I₂",
+          "pdfPage": 48,
+          "top": 0.290995
+        },
+        {
+          "title": "Câu (c) — Từ đáp ứng đến ảnh biên",
+          "pdfPage": 49,
+          "top": 0.054927
         }
       ]
     },
     "bank-4-3": {
-      "contentHash": "9d51ebe2814fa1957cead3e93b501cdfa23701a06dc3303af0e540724d00e9a5",
-      "pdfStartPage": 36,
-      "pdfEndPage": 39,
-      "answerStartPage": 37,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-3-4dc7c820fd81.txt",
+      "contentHash": "8378816a5524ae870dd975e32a526f7e518126980e9ec52739de0629bece896e",
+      "pdfStartPage": 50,
+      "pdfEndPage": 55,
+      "answerStartPage": 51,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-3-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 37,
-          "sha256": "0ec319823b73918c8d289a0e515d5eab4ac54731fc7a29aa610c0dcbdec1b570"
+          "pdfPage": 51,
+          "sha256": "e2f40653b597b857a556fdb9218f86c87961662d069c9d25ca11550aa1e668c9"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 38,
-          "sha256": "804200cff43d22a7ca9551de28fa88c7df59e7266d7a44c1cb171c2eb019f25a"
+          "pdfPage": 52,
+          "sha256": "e401a76449ce8c44199f0969f39ac287d5666eb855d40661b162db4382b7b531"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 39,
-          "sha256": "6bf2acc6ce3e6cd8a05d5d92185b9c8fcb8fb6538646758565cf138d3089be9b"
+          "pdfPage": 53,
+          "sha256": "018bbd42580783ccc97eadfd87025ec88686ec80f4d2c779d92c2e1e016124b7"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 54,
+          "sha256": "9eac5f5e1152ce4b3ca531f2731cbd25a39573441068af078dbffcad76f04826"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-3-1fb3f2ad77a4-p5.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 55,
+          "sha256": "9baad4d31cf7321afc92329e59b210608622dbdc77e0f9e068c67b86e452785d"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Xử lý ảnh thứ nhất",
+          "pdfPage": 51,
+          "top": 0.216166
+        },
+        {
+          "title": "Câu (b) — Xử lý ảnh thứ hai",
+          "pdfPage": 53,
+          "top": 0.290995
+        },
+        {
+          "title": "Câu (c) — So sánh hai ảnh",
+          "pdfPage": 55,
+          "top": 0.290995
         }
       ]
     },
     "bank-4-4": {
-      "contentHash": "878a2f161b73af09f1bbc197f217ab43637863d65fc727780c8068c623b60c07",
-      "pdfStartPage": 40,
-      "pdfEndPage": 43,
-      "answerStartPage": 41,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-4-4dc7c820fd81.txt",
+      "contentHash": "7b73f191a62f6c0efa611debf4b1eb92ae440382a931d11749445f0a1466e6f2",
+      "pdfStartPage": 56,
+      "pdfEndPage": 61,
+      "answerStartPage": 57,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-4-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 41,
-          "sha256": "3e74e7da12079fd2e065c94d96d8fe6678e7474566120aef4377992e763a1d53"
+          "pdfPage": 57,
+          "sha256": "704f049e53b111b5f30aed87dc08f7adffe108ab02b5a7c9e3819d0710c12433"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 42,
-          "sha256": "57187e12600341c96321910ee8fb18cb4ef1342e90f40168965ddce1f1f3aa89"
+          "pdfPage": 58,
+          "sha256": "d12e824e07d1215e9e2f0cff881a6c285acf152b566e4b7cfb07c8898f2b6aa2"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 43,
-          "sha256": "96816a64e458e5cb0f92474bd151bb0f5aefaf7dfaacc623a76f8ee98eba9edd"
+          "pdfPage": 59,
+          "sha256": "f55ccfa2dc12bed36344ad37da026f724d40ff4654b99f51c762500b0ce60f46"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 60,
+          "sha256": "419d39c1b5f55e28bf649393bc279c48dbbc22cb809cc9ebda45ac5e1af45bd2"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-4-1fb3f2ad77a4-p5.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 61,
+          "sha256": "a675ba2b5d69dc8139f3c0a513b8c5e9207c1cc8bd8e37e9148b088137cf572c"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Xử lý ảnh thứ nhất",
+          "pdfPage": 57,
+          "top": 0.216166
+        },
+        {
+          "title": "Câu (b) — Xử lý ảnh thứ hai",
+          "pdfPage": 59,
+          "top": 0.290995
+        },
+        {
+          "title": "Câu (c) — So sánh hai ảnh",
+          "pdfPage": 61,
+          "top": 0.290995
         }
       ]
     },
     "bank-4-5": {
-      "contentHash": "24b66f27fc6027ef005c2eed48386b0b310f1485fad2da72979d929b50c28c9d",
-      "pdfStartPage": 44,
-      "pdfEndPage": 46,
-      "answerStartPage": 45,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-5-4dc7c820fd81.txt",
+      "contentHash": "93599d73234d232e9e61e7c26ddfd7f3f762913577599ff8b6815e93550850eb",
+      "pdfStartPage": 62,
+      "pdfEndPage": 65,
+      "answerStartPage": 63,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-5-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-5-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-5-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 45,
-          "sha256": "56b8d0a93f6c3a98259b389888b3285715e853ba6ca9fcd054393648c7aaee9f"
+          "pdfPage": 63,
+          "sha256": "d9a7edf07c7545248992c683fdd0b2a60be72934de8247dbcb7b66d768833c91"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-5-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-5-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 46,
-          "sha256": "a88e22d30faa3554dbbc4b85a9102ccb9bc1d476b96c2e6ad1927a7908218d71"
+          "pdfPage": 64,
+          "sha256": "821dee1d167aabc259535abe04197806cb5cb3029841b5b44e36d000dab2fc64"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-5-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 65,
+          "sha256": "1d366adad85e4c106d99b57105a8105a69ef3f613326eb0bdd741699292e819a"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tìm ngưỡng và tách ảnh",
+          "pdfPage": 63,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Khi có nhiều ngưỡng cực đại",
+          "pdfPage": 64,
+          "top": 0.669594
         }
       ]
     },
     "bank-4-6": {
-      "contentHash": "396f90822f0e276c5ac66a765238060bd40934adfc85ad4fe737025062070465",
-      "pdfStartPage": 47,
-      "pdfEndPage": 49,
-      "answerStartPage": 48,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-6-4dc7c820fd81.txt",
+      "contentHash": "66cfb3ab8addcde0407b2dc6803a9d0f8e23747662d0d1d8855e8b5ef2125b41",
+      "pdfStartPage": 66,
+      "pdfEndPage": 69,
+      "answerStartPage": 67,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-6-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-6-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-6-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 48,
-          "sha256": "97962ce0099f1db7957ab38edc850ee9e3390f50d7c9b2730b6c4d899f7658d7"
+          "pdfPage": 67,
+          "sha256": "c5100a6b2f4d513fa5947ad81444248d1f008c1251089dbed21a839607ba286b"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-6-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-6-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 49,
-          "sha256": "4dd878ab0a8a2a4d0e54fea50adbd1a4451d93e33afcedb7e3a054ecbce43f26"
+          "pdfPage": 68,
+          "sha256": "4d81807479fb72e0b6c83ccc16bfa624a461f11eeb5449e3eba07ba922f9b120"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-6-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 69,
+          "sha256": "c32b4f37b83cbbc6170480ad00484eb0ac81610077d69336b6ab76a95c4b468d"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tìm ngưỡng và tách ảnh",
+          "pdfPage": 67,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Khi có nhiều ngưỡng cực đại",
+          "pdfPage": 68,
+          "top": 0.669594
         }
       ]
     },
     "bank-4-7": {
-      "contentHash": "2520013e94118600e1e15bec273265aa62144f1ce1656afc1ac788c7376d8d21",
-      "pdfStartPage": 50,
-      "pdfEndPage": 52,
-      "answerStartPage": 51,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-7-4dc7c820fd81.txt",
+      "contentHash": "16eb4dcc2c4125f3b1853197ca93ed2973a139c63036e58ccc96b0c43d292bf7",
+      "pdfStartPage": 70,
+      "pdfEndPage": 73,
+      "answerStartPage": 71,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-7-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-7-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-7-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 51,
-          "sha256": "3eefe31db3f4b32966df6e1484e6b2bd7fcff577eb2e22c13bb58310a4312c1d"
+          "pdfPage": 71,
+          "sha256": "463f637209cbf23ed9d2b3bc38b9336ad97e3a69dac86532074efc5899bde729"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-7-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-7-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 52,
-          "sha256": "775ccd8641e615d50195168877c5fc043b3910db8c668a6a373820b512321d32"
+          "pdfPage": 72,
+          "sha256": "82d01b9d2bbc7384fc9c018c60439882deb495a3196311244c8ef77d5607ff07"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-7-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 73,
+          "sha256": "a17397949f6d8d7bf97821bdf61d1271dcf4de4b1574911e25af7f7189c66ce5"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Đẳng điệu cho ảnh I",
+          "pdfPage": 71,
+          "top": 0.256253
+        },
+        {
+          "title": "Câu (b) — Đối xứng nền cho ảnh I′",
+          "pdfPage": 72,
+          "top": 0.054927
+        },
+        {
+          "title": "Câu (c) — Đánh giá và chọn phương pháp",
+          "pdfPage": 72,
+          "top": 0.569822
         }
       ]
     },
     "bank-4-8": {
-      "contentHash": "af4950eb34a5ad33dba01f1af25e56f64c79893793d7fd505a20b18d2b1af458",
-      "pdfStartPage": 53,
-      "pdfEndPage": 55,
-      "answerStartPage": 54,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-8-4dc7c820fd81.txt",
+      "contentHash": "ad457350986e799b2ca48029d14652efca5eb2330ed2c8cf70b3df29545ae3ef",
+      "pdfStartPage": 74,
+      "pdfEndPage": 77,
+      "answerStartPage": 75,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-8-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 54,
-          "sha256": "58978d6868feb3424f34b51348d44c34b6cce00e862eea6a537a0ac68c6eaf8e"
+          "pdfPage": 75,
+          "sha256": "404613220d0da3c5db6099f31d73b985cdfb67966a77d8fd5c504522a79b8404"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 55,
-          "sha256": "c708d0b4c0bcdc96be98809e18b72361ea8a80dc7434b15bb7f0957e4390dd3e"
+          "pdfPage": 76,
+          "sha256": "ed964ef440a0648db393f5c0113822f245f10adcae7626f6872b056bc5909bf5"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 77,
+          "sha256": "3c5854815a8c09aae42fed39ba7f32f3af3aecff29379f4de77d0115d046a869"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Đẳng điệu cho ảnh I",
+          "pdfPage": 75,
+          "top": 0.256253
+        },
+        {
+          "title": "Câu (b) — Đối xứng nền cho ảnh I′",
+          "pdfPage": 76,
+          "top": 0.054927
+        },
+        {
+          "title": "Câu (c) — Đánh giá và chọn phương pháp",
+          "pdfPage": 76,
+          "top": 0.569822
         }
       ]
     },
     "bank-4-8-bs": {
-      "contentHash": "c60f80de0248d90e214801c912b341cd0908722c6b8643e370398f60e99c9367",
-      "pdfStartPage": 56,
-      "pdfEndPage": 59,
-      "answerStartPage": 57,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-4dc7c820fd81.txt",
+      "contentHash": "78e230e239f936d8fda3a3f86bfff732bed0e2bca24fe50da6def132afbdf5fd",
+      "pdfStartPage": 78,
+      "pdfEndPage": 82,
+      "answerStartPage": 79,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 57,
-          "sha256": "a86bf6f20115595cad3201079763a218a8767a76ad3578ca047e77ad842beb0d"
+          "pdfPage": 79,
+          "sha256": "ed062d56dfd35b5bd056ce776f5452bfccf6c7cb639bc5a8120f1ca3d2084a18"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 58,
-          "sha256": "288c5805c5b6637aa6c4eb2ec843b30239ab4ce06e25a5604f5b523fb357d899"
+          "pdfPage": 80,
+          "sha256": "a95e91b26a9b9908e11e433bd70e8e36eed5a432824c28dfd6a07431b3769ade"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 59,
-          "sha256": "f82d213b4064a6da86f49bc009b71460f1e0810526d4c61dfebf61b157378491"
+          "pdfPage": 81,
+          "sha256": "00f681986c66170e9aa1929a9802f1225fe029d465574106b4e538ed98e518e4"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-8-bs-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 82,
+          "sha256": "f01ad69d54afd0c79195982db10fe31deb419b32a68b3128bbb7ff27838930e7"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Đẳng điệu cho ảnh I",
+          "pdfPage": 79,
+          "top": 0.256253
+        },
+        {
+          "title": "Câu (b) — Đối xứng nền cho ảnh I′",
+          "pdfPage": 80,
+          "top": 0.054927
+        },
+        {
+          "title": "Câu (c) — Đánh giá và chọn phương pháp",
+          "pdfPage": 80,
+          "top": 0.569822
         }
       ]
     },
     "bank-4-9": {
-      "contentHash": "9bae546019e74add5d17f481933387f28f68f35faaf0d131affbd7a8039e18c1",
-      "pdfStartPage": 60,
-      "pdfEndPage": 63,
-      "answerStartPage": 62,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-9-4dc7c820fd81.txt",
+      "contentHash": "02de4d3ad67eb2f8024ee06097bb2f5a54cc8caba57697d2c16752b0582ab072",
+      "pdfStartPage": 83,
+      "pdfEndPage": 87,
+      "answerStartPage": 85,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/bank-4-9-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-9-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-9-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 62,
-          "sha256": "3f584bc8a3e2d0dbd9828b88df880f7339f3fc157eeaff3a65b6459663dfabdb"
+          "pdfPage": 85,
+          "sha256": "8dbe707d945b75bf7d593f1741bb23f6e34e023a98ea687a4d56125b27941123"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/bank-4-9-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-9-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 63,
-          "sha256": "b797682fc7ac94d235227b00f43bc85fdd071a041b44566be9d237e357f8f432"
+          "pdfPage": 86,
+          "sha256": "d83ed6fac7e862bc0bad1d5abc8ba91a580725e07412206797bc251937a2cf7c"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/bank-4-9-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 87,
+          "sha256": "5a3f448c2ff1a92c3c6bec6b942c9df2748195d257f25bfc72c21ee1aa9cb65e"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Mã hóa và giải mã",
+          "pdfPage": 85,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Ý tưởng, hạn chế và xử lý",
+          "pdfPage": 87,
+          "top": 0.121739
         }
       ]
     },
     "uyen-3-T1": {
-      "contentHash": "f915a283c16bec5d47091baff0d011f0df3aee691e445200b33780f83b2042c0",
-      "pdfStartPage": 64,
-      "pdfEndPage": 66,
-      "answerStartPage": 65,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-4dc7c820fd81.txt",
+      "contentHash": "812f098e3479b1a05967c2db75a6bc3cae08621912ebd44cf71e61c79e83954b",
+      "pdfStartPage": 88,
+      "pdfEndPage": 90,
+      "answerStartPage": 89,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 65,
-          "sha256": "cd7f93cdb6a2aa5afb8c990a6086aed7bcb6cb605438dc11917929bfc9a5418e"
+          "pdfPage": 89,
+          "sha256": "d478c8af0082e79375b3f4757d91544d4aeee97e7fb4f9c1f1b0faf45b90ba46"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T1-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 66,
-          "sha256": "463d9d482ac92a9fb1dabfa4c4199d5d761154f1ed2e2642db467d4dc7852dbd"
+          "pdfPage": 90,
+          "sha256": "8ff2d91c3b95abd625e76d5d72ca4ac7251a61b19202ed15bbc74cc15ca5cd14"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Biểu đồ tần suất",
+          "pdfPage": 89,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Biến đổi/làm trơn histogram",
+          "pdfPage": 89,
+          "top": 0.543988
         }
       ]
     },
     "uyen-3-T2": {
-      "contentHash": "a2810b7b58d68e469423f983b50610edfec8f01e53d70c51aa60db96458e18f9",
-      "pdfStartPage": 67,
-      "pdfEndPage": 68,
-      "answerStartPage": 68,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T2-4dc7c820fd81.txt",
+      "contentHash": "9f2f5b506cd75214cbb5600b7a2becb525e5c7429f6ac86974f4a58af9e3d01b",
+      "pdfStartPage": 91,
+      "pdfEndPage": 93,
+      "answerStartPage": 92,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T2-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T2-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T2-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 68,
-          "sha256": "a761afb791d218be3c4854a13e5a9a238a904e58b06cb4c98bd6a3be879f2383"
+          "pdfPage": 92,
+          "sha256": "5f492aa720a7dbd849badca2699ec4912bb4747299d18bd2c1c507cceef65db9"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T2-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 93,
+          "sha256": "60dc0f3b74b68526e906e3d627f9183ef9bccfe8a8ac3c8317c66a067950f876"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 92,
+          "top": 0.139555
         }
       ]
     },
     "uyen-3-T3": {
-      "contentHash": "564f904fde062bfb539359327ac40da3898473e8f372d7c5b068af16528db241",
-      "pdfStartPage": 69,
-      "pdfEndPage": 71,
-      "answerStartPage": 70,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-4dc7c820fd81.txt",
+      "contentHash": "fa2fe64bf8a394aa9d629679dbee1d99d11ae491292d5fe4d8b1dabc97a73536",
+      "pdfStartPage": 94,
+      "pdfEndPage": 97,
+      "answerStartPage": 95,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 70,
-          "sha256": "348932a948117e1ba777dab71a1cc57ee79e7f7baa606d8d69f699bcda5ceea2"
+          "pdfPage": 95,
+          "sha256": "0cba4687f07401a4e52aab38476689708962c833c3f1ef63bb3c6722b8c76008"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 71,
-          "sha256": "91d499f40d3d6a69126e0482d5ba8a7714e37103257462c983f306dd8cfabf36"
+          "pdfPage": 96,
+          "sha256": "1f58674a6a9427af12345ba08fc4fe2b09033e93929dacafdb8cfaf315517cc1"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T3-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 97,
+          "sha256": "b3a012ee24048351a92d87e75dc93d276e57cfbdc9994f013d22a6d5ded4727e"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Cân bằng theo giáo trình",
+          "pdfPage": 95,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Cân bằng lý tưởng",
+          "pdfPage": 96,
+          "top": 0.054927
+        },
+        {
+          "title": "Câu (c) — Công thức slide và so sánh",
+          "pdfPage": 96,
+          "top": 0.233982
         }
       ]
     },
     "uyen-3-T4": {
-      "contentHash": "9f3f79441549d619fd616dbec2fbf11d53aabfd10b81d5c828e686bb3ac84bfc",
-      "pdfStartPage": 72,
-      "pdfEndPage": 73,
-      "answerStartPage": 73,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T4-4dc7c820fd81.txt",
+      "contentHash": "3e8bd74df8387f4915cd1ae65b7c38c51cec2ad2c3895b2c380610095a3c2a94",
+      "pdfStartPage": 98,
+      "pdfEndPage": 100,
+      "answerStartPage": 99,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T4-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T4-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T4-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 73,
-          "sha256": "5a0ba11b7e03367874f81c076354e05d183be6fa834e366af83ad742f1a37803"
+          "pdfPage": 99,
+          "sha256": "f2e2eeb82f2b4459e8b7ba6148c92dda60b5e4055b39d3e6de86591aaf7490f2"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T4-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 100,
+          "sha256": "71927b75eb43a6633f33f4c6860ee5e05542eeedd725251067ae179d14e4f2a4"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 99,
+          "top": 0.139555
         }
       ]
     },
     "uyen-3-T5": {
-      "contentHash": "b47fe3073099ede99d435b2ca01ecfa7f8eb6609c06fe90eec83756e954f8f46",
-      "pdfStartPage": 74,
-      "pdfEndPage": 77,
-      "answerStartPage": 75,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-4dc7c820fd81.txt",
+      "contentHash": "b352ecc8d2a7fd010f9cc75edb4f0ed3a1d1efb15302b541344cf2202fe8eefb",
+      "pdfStartPage": 101,
+      "pdfEndPage": 106,
+      "answerStartPage": 102,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 75,
-          "sha256": "aa9107dc0751d2dd624750b5999dea1a38dcea4f11ddc21b88387d8a99f54e9f"
+          "pdfPage": 102,
+          "sha256": "f38151de5e318c20aebebc4758061b402e99d94aa40ca5013646c251499d6e02"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 76,
-          "sha256": "b968283623cbe1ea2211f24bab7b1bae6b3e0ca94e5c70a398ef942902e23e5f"
+          "pdfPage": 103,
+          "sha256": "b2c954ac4edc7a4c0d001ed0855e1e64106c12c0ab243790da95c4021477e09d"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 77,
-          "sha256": "88a68854d9aa58141520650b88cfe9253f651e3e10004adf6009d11accdcaa66"
+          "pdfPage": 104,
+          "sha256": "ce19d91ea6448f650078b06ad01dd7cbb90de58bc886ed1321a05c04356e19fb"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 105,
+          "sha256": "ac8074a2aca8cd9cd92e406e527a3f1f6b707ca12a3ab794fb1be145d19ea84b"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T5-1fb3f2ad77a4-p5.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 106,
+          "sha256": "cc6b7fde0e1d55f4a1cd9f2d3fc46afa37e46ec69a3aa353a3434bdd6761c9a5"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tăng sáng",
+          "pdfPage": 102,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Giảm sáng",
+          "pdfPage": 102,
+          "top": 0.606345
+        },
+        {
+          "title": "Câu (c) — Âm bản",
+          "pdfPage": 103,
+          "top": 0.190332
+        },
+        {
+          "title": "Câu (d) — Logarithm",
+          "pdfPage": 103,
+          "top": 0.657122
+        },
+        {
+          "title": "Câu (e) — Hai giá trị gamma",
+          "pdfPage": 104,
+          "top": 0.304357
+        },
+        {
+          "title": "Câu (f) — Kéo giãn và nhận xét",
+          "pdfPage": 105,
+          "top": 0.304357
         }
       ]
     },
     "uyen-3-T6": {
-      "contentHash": "50e259c89b1ee5e67df5086377bcef39b0a2b409e5c1d360d4674168d4507ff1",
-      "pdfStartPage": 78,
-      "pdfEndPage": 79,
-      "answerStartPage": 79,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T6-4dc7c820fd81.txt",
+      "contentHash": "799e6608cfed6a07d6dc0d8fe9bc784cb94b5ca1737359d492b8919f1af9ebfa",
+      "pdfStartPage": 107,
+      "pdfEndPage": 109,
+      "answerStartPage": 108,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T6-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T6-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T6-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 79,
-          "sha256": "c358498d419a13606c79b3f05bb982823c17ce71ac24875784110f40ca61e31d"
+          "pdfPage": 108,
+          "sha256": "b513efb162886fc69831d604e25e453964c223ac1f786e47dbe6e572963db9db"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T6-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 109,
+          "sha256": "4c6ca855ebeafffbf9902f767f85c97b9ef15678fa90ea439900b34a65100c71"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tính tại tâm (2,2)",
+          "pdfPage": 108,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Kết quả tại chín điểm trong",
+          "pdfPage": 108,
+          "top": 0.55735
+        },
+        {
+          "title": "Câu (c) — Hai cách xử lý góc",
+          "pdfPage": 109,
+          "top": 0.218838
         }
       ]
     },
     "uyen-3-T7": {
-      "contentHash": "fab8376e4929c9991a81b2ae11840f4c6342dab6c0ab10db9a4e7362b281beec",
-      "pdfStartPage": 80,
-      "pdfEndPage": 81,
-      "answerStartPage": 81,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T7-4dc7c820fd81.txt",
+      "contentHash": "773a51d7ae8d4367da4f6e9a65727912bbe3c4b993bfc8629f982d0cec2b91b8",
+      "pdfStartPage": 110,
+      "pdfEndPage": 112,
+      "answerStartPage": 111,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T7-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T7-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T7-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 81,
-          "sha256": "4872af1d99e65674639ee57710b892493dbd18f1bbd7d8d5b0a1503834a4aa88"
+          "pdfPage": 111,
+          "sha256": "513aa9015ea07a542f14ff5e924ba9bc266175fcac281f99b3757b15b830fd4b"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T7-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 112,
+          "sha256": "e7feb2b030069b53ca8ac11433fcdcb2ba2e64e6da3ad811f55b6e3b4d58906f"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Lọc trung vị",
+          "pdfPage": 111,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Lọc trung bình",
+          "pdfPage": 111,
+          "top": 0.629507
+        },
+        {
+          "title": "Câu (c) — Đối chiếu ảnh gốc và chọn bộ lọc",
+          "pdfPage": 112,
+          "top": 0.327519
         }
       ]
     },
     "uyen-3-T8": {
-      "contentHash": "e946a097e209d5d256a18cf4137d72e5453cc499b9d01c0e8a728c2fc7e30fb8",
-      "pdfStartPage": 82,
-      "pdfEndPage": 83,
-      "answerStartPage": 83,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T8-4dc7c820fd81.txt",
+      "contentHash": "e3f077fa91bf3d78ebe16e7f0312c7cd16402c6adb2cac0ce7f853e551661a64",
+      "pdfStartPage": 113,
+      "pdfEndPage": 115,
+      "answerStartPage": 114,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T8-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T8-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T8-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 83,
-          "sha256": "eca871b38b84e6580534acf29ddf2ec6d371f094499723aa5a084ac77c42dd6a"
+          "pdfPage": 114,
+          "sha256": "e389666cb6c0a840a1e2ca3d93f96ed63dff29f4b66ebc7536c342681a99e986"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T8-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 115,
+          "sha256": "7f810ceb6d9df63ef39c3e2af0439ce468fd268f677911890c394ff5d1aca7b3"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 114,
+          "top": 0.139555
         }
       ]
     },
     "uyen-3-T9": {
-      "contentHash": "4caa841166f2892d7f5794cb23e743e7a5c26fd3f19c3cd4cd3bead61809d018",
-      "pdfStartPage": 84,
-      "pdfEndPage": 85,
-      "answerStartPage": 85,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T9-4dc7c820fd81.txt",
+      "contentHash": "653b7de04fb48055c26b2a48aab947dec69c508c9916ac8ccd19e3b7b28a89df",
+      "pdfStartPage": 116,
+      "pdfEndPage": 118,
+      "answerStartPage": 117,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T9-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T9-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T9-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 85,
-          "sha256": "d03b688494ba1a9a20f14d4d478afd4fc4215611351869e60dbfe4f1b88e934f"
+          "pdfPage": 117,
+          "sha256": "3c0c21795ef3f96a09cab92109957e0bbe5ae8b09a8208071893364ec39a7959"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T9-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 118,
+          "sha256": "45c90e0d7eb786a44fa4c55e8d0ccba22606a8ca52732c896e83b4125d03be0a"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tính bảy bộ lọc",
+          "pdfPage": 117,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Nhận diện nhiễu và chọn bộ lọc",
+          "pdfPage": 118,
+          "top": 0.054927
         }
       ]
     },
     "uyen-3-T10": {
-      "contentHash": "da1efb8843fc7a48316593aa9b15ecf1ac61b47a5a80feeca558064352362021",
-      "pdfStartPage": 86,
-      "pdfEndPage": 88,
-      "answerStartPage": 87,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-4dc7c820fd81.txt",
+      "contentHash": "b8452bdbe01253b83c653732274c25de3a4d4cbbfde288f1ac3de4b822ad9d91",
+      "pdfStartPage": 119,
+      "pdfEndPage": 121,
+      "answerStartPage": 120,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 87,
-          "sha256": "fb0f981a992861afce04ef0ef051776275550e200e68090730cc1de0793de3a1"
+          "pdfPage": 120,
+          "sha256": "8c86945f7e13bc65b7e21de2617f2ccacbcd20373ff29c9365037029757cce1b"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T10-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 88,
-          "sha256": "f328274253989e22cf4bbdf080f72e8701530af08efc3d5e32c7516d1ebe680a"
+          "pdfPage": 121,
+          "sha256": "0c8de79562152b7a9b54d4007945a824fcc4b76884a566df91abcb82d7633724"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tìm ngưỡng và tách ảnh",
+          "pdfPage": 120,
+          "top": 0.236655
+        },
+        {
+          "title": "Câu (b) — Khi có nhiều ngưỡng cực đại",
+          "pdfPage": 121,
+          "top": 0.325737
         }
       ]
     },
     "uyen-3-T11": {
-      "contentHash": "712c2eb61b62334f2bff8667000d78598e53d8a14cbf6ba93ab84cab454c8770",
-      "pdfStartPage": 89,
-      "pdfEndPage": 91,
-      "answerStartPage": 90,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-4dc7c820fd81.txt",
+      "contentHash": "147a54cb150678a81f24d8f5b02d4321db50d38353fb5ea36d2af1e0cce65d7d",
+      "pdfStartPage": 122,
+      "pdfEndPage": 125,
+      "answerStartPage": 123,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 90,
-          "sha256": "5eeca46e70814c27db1db860c24e3fac631123d5992188f34ab8c708163184aa"
+          "pdfPage": 123,
+          "sha256": "85b1c496a33a1e29c99f802cf543c4639ffe667438a212e95796203e6d22f5d9"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 91,
-          "sha256": "516333af8929b9a7d3f19f39366874e7d2a1857e4d1242ed31d08dd729dba9d9"
+          "pdfPage": 124,
+          "sha256": "94a0831902b4f3a62f815959c4d921f25bd8ea618c33d118af65f22bea2130e9"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T11-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 125,
+          "sha256": "d1ea3589f38dba355c4c1aa4db8699884ebfcdcaac3d2b67dbe5161cff704d0f"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Đẳng điệu ảnh A",
+          "pdfPage": 123,
+          "top": 0.216166
+        },
+        {
+          "title": "Câu (b) — Đối xứng nền ảnh B",
+          "pdfPage": 123,
+          "top": 0.737296
+        },
+        {
+          "title": "Câu (c) — Đổi chéo và nhận xét",
+          "pdfPage": 124,
+          "top": 0.40502
         }
       ]
     },
     "uyen-3-T12": {
-      "contentHash": "4f024cf86a5d09ce5074e7c1fa79671acdb838e896a1038ea6c2c48649881aca",
-      "pdfStartPage": 92,
-      "pdfEndPage": 93,
-      "answerStartPage": 93,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T12-4dc7c820fd81.txt",
+      "contentHash": "1fe1cf4fcc5f13e2fcbea5324f5410491f6f9fe83b3509a20e08c6c3683c4126",
+      "pdfStartPage": 126,
+      "pdfEndPage": 127,
+      "answerStartPage": 127,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-3-T12-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T12-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-3-T12-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 93,
-          "sha256": "9b254c7e0bcae3021a543ec6179b148ebbf6bd61460fd9f55ff68d7a4d2e2f32"
+          "pdfPage": 127,
+          "sha256": "a78aafe2075aaac022b3f7878e925a2c44e2431392b41d0e90f6e96b1a7eae7d"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 127,
+          "top": 0.139555
         }
       ]
     },
     "uyen-4-T1": {
-      "contentHash": "0ad2a33e6ebb6dfdf5a765335793ceb80720dd4f2ecef0678dcc382a5d34f9d4",
-      "pdfStartPage": 94,
-      "pdfEndPage": 95,
-      "answerStartPage": 95,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T1-4dc7c820fd81.txt",
+      "contentHash": "d5014f8f439d497856fcf048d1c176863a22dd4466b8e44afcd229f4eda026f9",
+      "pdfStartPage": 128,
+      "pdfEndPage": 129,
+      "answerStartPage": 129,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T1-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T1-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T1-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 95,
-          "sha256": "271e22c9dfe8b7ef973dbb35e53204f7fb76ded80754812de358d7d4be0b205e"
+          "pdfPage": 129,
+          "sha256": "4ddadc5455fb7c1977f8afd1964750549941db6e7f3426751b352e64f0dadcec"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 129,
+          "top": 0.139555
         }
       ]
     },
     "uyen-4-T2": {
-      "contentHash": "15c1c0051e695cceac6f97e148b5c673614e4e3c6c6a2720098bd82534adf76d",
-      "pdfStartPage": 96,
-      "pdfEndPage": 98,
-      "answerStartPage": 97,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-4dc7c820fd81.txt",
+      "contentHash": "71ee5cfdbbd093a8d010f87da9ea8eb79db0fb32eb55b5cc31fc4851bea3cf51",
+      "pdfStartPage": 130,
+      "pdfEndPage": 133,
+      "answerStartPage": 131,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 97,
-          "sha256": "dd24f6ee949585212e2253a42b9856a32ca116409b88ec374b2bed0cdd5c4f31"
+          "pdfPage": 131,
+          "sha256": "e281cbd90c761f5c45758bba9374c71d82a6fb8a5188110cbdc152371058a9f5"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 98,
-          "sha256": "f59188a5523315cc802f02cc6913130b066989e8d7caf1110c2174ca59389d0e"
+          "pdfPage": 132,
+          "sha256": "2e10ff1fcd2c7e66e2a90016bc9b139ba44c4edff0e714e608ebffdbd99befba"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T2-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 133,
+          "sha256": "ed5285c8c1c63603b1da54fd531317ccce97c26bce49648adee96b3c3bcd1318"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Thực hiện khuếch tán lỗi",
+          "pdfPage": 131,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Mục đích và so sánh",
+          "pdfPage": 132,
+          "top": 0.351571
         }
       ]
     },
     "uyen-4-T3": {
-      "contentHash": "6d5423e8644996d0ec4223276f50e6483b5fd61a71d6b145f29e2e399aef3a1d",
-      "pdfStartPage": 99,
-      "pdfEndPage": 101,
-      "answerStartPage": 100,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-4dc7c820fd81.txt",
+      "contentHash": "3fd3056a1d8187bb89d866ab1aed280a55f0ed5d1ace66da3ec00fe5340802c1",
+      "pdfStartPage": 134,
+      "pdfEndPage": 137,
+      "answerStartPage": 135,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 100,
-          "sha256": "0622a1fa19d50f0000ba3a7e5e8dc54d5193194df120355826919338a7a4192f"
+          "pdfPage": 135,
+          "sha256": "8b9aae8eebd4208fffab5cffdbc865adcc033882f0f4e983b8551e2c2d3b36e8"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 101,
-          "sha256": "a34cb772f3fd7e5c03fcc55223cf255089d61c1ca642fb620dfbadf2138a5190"
+          "pdfPage": 136,
+          "sha256": "313e41a602e113c058b01e5e7917f0947c7ea95749042977f256960cf534c5e7"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T3-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 137,
+          "sha256": "eee2f043c25284f5c8f2eac06194c309e382b30ebb19381c6491fa1d3c9249fb"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Thực hiện khuếch tán lỗi",
+          "pdfPage": 135,
+          "top": 0.236655
+        },
+        {
+          "title": "Câu (b) — Mục đích và so sánh",
+          "pdfPage": 136,
+          "top": 0.516373
         }
       ]
     },
     "uyen-4-T4": {
-      "contentHash": "95825917f69509e6118be1d6aca66589328f0c820e1872c71875246805a95d7e",
-      "pdfStartPage": 102,
-      "pdfEndPage": 104,
-      "answerStartPage": 103,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-4dc7c820fd81.txt",
+      "contentHash": "8e569d28da53020408fd7d8a4f76bdb5b9ecfd277784d2e94f00f558d3ddf927",
+      "pdfStartPage": 138,
+      "pdfEndPage": 141,
+      "answerStartPage": 139,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 103,
-          "sha256": "cdb2fd6fc51f1f5d21dc762195756d06cbca24039b9078da4984800dca297f59"
+          "pdfPage": 139,
+          "sha256": "41ac97abbc723794f615b190d0b1d7b0dc9f8f4da9072441c908a38da89cde38"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 104,
-          "sha256": "3e2a6dc0cb8d99173c6768bcd7f1589fc37222445605153f58ead8711bb39111"
+          "pdfPage": 140,
+          "sha256": "7d90dc187b4c83db43544a58bd710ab05da833e7b871814e51925724c3e67d27"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-4-T4-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 141,
+          "sha256": "9fae535eccb0c05c0714d39fa224525833c54d77816cb1ba093240ce0606afde"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Thực hiện khuếch tán lỗi",
+          "pdfPage": 139,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Mục đích và so sánh",
+          "pdfPage": 140,
+          "top": 0.351571
         }
       ]
     },
     "uyen-5-T1": {
-      "contentHash": "0296541a5ac4c9f576ae77808a89d2476a2ca2cd328fe05a12691d9bcbd33f66",
-      "pdfStartPage": 105,
-      "pdfEndPage": 107,
-      "answerStartPage": 106,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-4dc7c820fd81.txt",
+      "contentHash": "2cf8e4ffe719c5f0fbba77beae2662f6a8a8f9ff5cb9c6ac0bd72e1814b82479",
+      "pdfStartPage": 142,
+      "pdfEndPage": 146,
+      "answerStartPage": 143,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 106,
-          "sha256": "1c6317090c9cf6ef2334981ff7812d3575497ff8ebe9252d95f8817f33e10b60"
+          "pdfPage": 143,
+          "sha256": "a48e0f6fe93738399559ec089a85731de4e067b2dd4c60b62556b7ec9341eba4"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 107,
-          "sha256": "33d79d383a5a21df1f7d6012c2775a8f8211fd3c21210b3e4b921535de7b5d15"
+          "pdfPage": 144,
+          "sha256": "61afea82db5a2d55278a2ba9f584155d0e52c4184aba76a80073b22792e6d8db"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 145,
+          "sha256": "827958ec500728f2f918560b58e614f7240baca8457e8a03d459270b5b39f096"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T1-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 146,
+          "sha256": "3a7d3e698042bb1f4858b07ae066663dcf04a8f243cd2ff553dfad5c8a2b16cc"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Hai đáp ứng và ảnh I₁",
+          "pdfPage": 143,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Đáp ứng Laplace I₂",
+          "pdfPage": 145,
+          "top": 0.290995
+        },
+        {
+          "title": "Câu (c) — Từ đáp ứng đến ảnh biên",
+          "pdfPage": 146,
+          "top": 0.054927
         }
       ]
     },
     "uyen-5-T2": {
-      "contentHash": "9e9a670bba3b5ce14ff6472ceae846af3af285bf7c441bd7e029b2ee476f08be",
-      "pdfStartPage": 108,
-      "pdfEndPage": 110,
-      "answerStartPage": 109,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-4dc7c820fd81.txt",
+      "contentHash": "ab2583aefdc1fb8f3bba3e224d6b10ae65bd96c6af813a1167a00a36bb229cd6",
+      "pdfStartPage": 147,
+      "pdfEndPage": 151,
+      "answerStartPage": 148,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 109,
-          "sha256": "0f411998ed10605aed12884faec84f9ecd1accf66438486ec2dddc610149486f"
+          "pdfPage": 148,
+          "sha256": "1604f38222e4a03d9cee590bfc7dd891e9d53c0bf3de8cf146b72a1ba6385699"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 110,
-          "sha256": "a8b0a8af357c16dcbfbb1f2128d232fe78aed19c532f9c8f29fe903185742e0d"
+          "pdfPage": 149,
+          "sha256": "46caf84d77a077e3ac90f66ab577af4f6dc4b0c78a32985331b81ccec570bc81"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 150,
+          "sha256": "62b2a53ef974e330c9838d87113fb3b57ae979f7f89ff98c8507df254c65db13"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T2-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 151,
+          "sha256": "5aacfc761fda25a2f8e4600898b0d1479cf1b394171b35654a19786537c7892f"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Hai đáp ứng và ảnh I₁",
+          "pdfPage": 148,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Đáp ứng Laplace I₂",
+          "pdfPage": 150,
+          "top": 0.290995
+        },
+        {
+          "title": "Câu (c) — Từ đáp ứng đến ảnh biên",
+          "pdfPage": 151,
+          "top": 0.054927
         }
       ]
     },
     "uyen-5-T3": {
-      "contentHash": "7efce57b094ee67f197928d81c2c27b21148b031d311e19f2cf06afff85cee1e",
-      "pdfStartPage": 111,
-      "pdfEndPage": 114,
-      "answerStartPage": 112,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-4dc7c820fd81.txt",
+      "contentHash": "30914f82574681c5f79a40ba649ba0d0bc7d5bd6fbff85d8cab55c88bc77494a",
+      "pdfStartPage": 152,
+      "pdfEndPage": 157,
+      "answerStartPage": 153,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 112,
-          "sha256": "4a9b7d5eec50e6ee5826be876363eb5e6a92860559aa6cc77928c340941d7761"
+          "pdfPage": 153,
+          "sha256": "3edd9c50636d84b2beb9811d7fbff1f6e63914220060d896640d10ea85850e2b"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 113,
-          "sha256": "8e2009e3891adca4d8ccb4fd9f0381bc396dbb627871c1006ef4053f083fb9a6"
+          "pdfPage": 154,
+          "sha256": "824248216c21dce8d91b7ad84e070cd81415537ba300573af1f2ff8cae0611a2"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 114,
-          "sha256": "7f6e25ab531fcb9e3405afca1063bd1c02be0e152d0a9011d4bd8d835c68c0be"
+          "pdfPage": 155,
+          "sha256": "ae906783941fad5322c5207e829395080df5e0b4d30d13bb1d9532f9a69038ac"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 156,
+          "sha256": "eea7b0af67815cd7cb2b900a9925b3775bd0ff4fcc346f2925c65256ef480aae"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T3-1fb3f2ad77a4-p5.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 157,
+          "sha256": "e71da0c740021ec0807eba0dedb8330f40edec9834e69df49768969a6d410d4b"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Xử lý ảnh thứ nhất",
+          "pdfPage": 153,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Xử lý ảnh thứ hai",
+          "pdfPage": 155,
+          "top": 0.266052
+        },
+        {
+          "title": "Câu (c) — So sánh hai ảnh",
+          "pdfPage": 157,
+          "top": 0.266052
         }
       ]
     },
     "uyen-5-T4": {
-      "contentHash": "cde4b13da4c37a5a851c441db4e3aa925bf77be9ac022401b69aa263bc23b71d",
-      "pdfStartPage": 115,
-      "pdfEndPage": 117,
-      "answerStartPage": 116,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-4dc7c820fd81.txt",
+      "contentHash": "bc0b5ee4a4dd59342d8b0fe0802f05941086332c6467a7337f8649acd31a7375",
+      "pdfStartPage": 158,
+      "pdfEndPage": 161,
+      "answerStartPage": 159,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 116,
-          "sha256": "74db80727eaadefae92b1118896107ca50acb2150cf24b6776ac8d9eef57188f"
+          "pdfPage": 159,
+          "sha256": "c343ec0e02359855622be2b681d07ad5d807a87bc8ef6ff4f61a6cf6c1ba966f"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 117,
-          "sha256": "47265212babd9e0901823833c1415253bb14d9b4860ef7cceda8d08505a17b83"
+          "pdfPage": 160,
+          "sha256": "4199f8bd322a53557d5d3e2a48a45639072398f96cd725fb3876fdcd171080d3"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T4-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 161,
+          "sha256": "e6499c33e631e81f632375caeed3bd96155a11132e9262d87d45105ea5010b3d"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Ngưỡng ảnh đã cho",
+          "pdfPage": 159,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Ví dụ nhiều ngưỡng cực đại",
+          "pdfPage": 160,
+          "top": 0.35068
         }
       ]
     },
     "uyen-5-T5": {
-      "contentHash": "ea04ca1a691da6c127499d584048254315a6d7d0cdf701d1d3d0611f1ad813fa",
-      "pdfStartPage": 118,
-      "pdfEndPage": 120,
-      "answerStartPage": 119,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-4dc7c820fd81.txt",
+      "contentHash": "b55960d725d6f22110eb96e6b0f72e31ec960d2d87784645ab4a9a5e27189281",
+      "pdfStartPage": 162,
+      "pdfEndPage": 165,
+      "answerStartPage": 163,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 119,
-          "sha256": "75c60fe8d7f33fbd62d6d4a4a141b934f50982c8a3ad7bcfc2e5b59c0b5346a7"
+          "pdfPage": 163,
+          "sha256": "d9d1a2dcd68720aefa223155eee9011f2c715a45071e1f836c9e1635c5025c8a"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 120,
-          "sha256": "6a3af8dc5b8bee7b5520b8f190681d47f01eed94a2f542f476ff9e09779a2477"
+          "pdfPage": 164,
+          "sha256": "4a1143c2bdba5333319107939f75c3ff299d422779a04f68a8f4054bcceca186"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T5-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 165,
+          "sha256": "1c6523d0e65209c4b7f238eb0f439c39a97731c7948ab7a781fbc59aa52782e3"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Đẳng điệu ảnh A",
+          "pdfPage": 163,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Đối xứng nền ảnh B",
+          "pdfPage": 163,
+          "top": 0.660686
+        },
+        {
+          "title": "Câu (c) — Đổi chéo và nhận xét",
+          "pdfPage": 164,
+          "top": 0.335536
         }
       ]
     },
     "uyen-5-T6": {
-      "contentHash": "d206a483d071b09d0fcaaa9ca0d792890e2417830713a7bb113e52412f3e6b33",
-      "pdfStartPage": 121,
-      "pdfEndPage": 123,
-      "answerStartPage": 122,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-4dc7c820fd81.txt",
+      "contentHash": "eaaf6deb290cf5a6c7d98534126b603b2d7bf2482f9d629fed542616ce6d5e80",
+      "pdfStartPage": 166,
+      "pdfEndPage": 168,
+      "answerStartPage": 167,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 122,
-          "sha256": "c3f9b75c5f0eadb4639a99f74df54d71303bf1b80ea2bc78e09543512cef2762"
+          "pdfPage": 167,
+          "sha256": "7e253872223aab67262cf1d4ae1c36d945c9cf9dcc3c82321899f0fea2902f59"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T6-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 123,
-          "sha256": "7f07b49610d9d582109fd599c1f91da8960f79ea918cfac1275475c7bd7cadf2"
+          "pdfPage": 168,
+          "sha256": "8eadd169ff99c791050e0094d29bf58f984a48e01d7e5a8ee78c5a9d7e5c2b35"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Biểu đồ tần suất",
+          "pdfPage": 167,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Biến đổi/làm trơn histogram",
+          "pdfPage": 167,
+          "top": 0.543988
+        },
+        {
+          "title": "Câu (c) — Đếm và nhận xét các đỉnh",
+          "pdfPage": 168,
+          "top": 0.467377
         }
       ]
     },
     "uyen-5-T7": {
-      "contentHash": "5c4d1a9e8db7162199edc66541e1df09369d82839ec9df61319850442b7632dc",
-      "pdfStartPage": 124,
-      "pdfEndPage": 125,
-      "answerStartPage": 125,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T7-4dc7c820fd81.txt",
+      "contentHash": "451d989342abe9bcf7a3f3903bf0bbf392a84ff4630901ed39436c6560acce41",
+      "pdfStartPage": 169,
+      "pdfEndPage": 170,
+      "answerStartPage": 170,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-5-T7-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T7-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-5-T7-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 125,
-          "sha256": "a70d72d3a3121cf54769cf61ce1a7c2e2d74c1853a93820470eb9b2cbda06dc9"
+          "pdfPage": 170,
+          "sha256": "db42bf8358fa718fbf05a6c95036bb8ba090727a6fac1f28e69aef4c7b1ca549"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 170,
+          "top": 0.139555
         }
       ]
     },
     "uyen-6-T1": {
-      "contentHash": "3b37579d24e35e56e779f11c99f5872b1aa65ad9bdd2653c8a820914221c6851",
-      "pdfStartPage": 126,
-      "pdfEndPage": 128,
-      "answerStartPage": 127,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-4dc7c820fd81.txt",
+      "contentHash": "ea7c30e4713377bc2b3a255813a6a14680dd5e3dc1cc5d39f1342377f622f466",
+      "pdfStartPage": 171,
+      "pdfEndPage": 175,
+      "answerStartPage": 172,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 127,
-          "sha256": "e600e9e8dc5a474380b046e62fac143ca8712dd5966dee0e776281d61c610986"
+          "pdfPage": 172,
+          "sha256": "e13f5ab34de5a17acb820c2fe344cf5f6bb22254da9c3811e6b62cd25927c160"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 128,
-          "sha256": "00e7a07044e49ba03763f3bf1d43aff3782af7e30a395034814322f4d4760fe0"
+          "pdfPage": 173,
+          "sha256": "f383c60e55ebefdeabdfad4499cf09f1008a6d306d3fbd30ba9484ad6041955e"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 174,
+          "sha256": "d4f3512fb9eee8b05e18f2a5a13e1e0a04f3c20ab530297589df2d641854f3ff"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T1-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 175,
+          "sha256": "571591c6ac50309ad85b45debe18b54752f0e23f152a329ace258ad8a4ad0e39"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tần suất khối",
+          "pdfPage": 172,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Cây và bảng mã",
+          "pdfPage": 172,
+          "top": 0.751549
+        },
+        {
+          "title": "Câu (c) — Ma trận mã",
+          "pdfPage": 173,
+          "top": 0.800544
+        },
+        {
+          "title": "Câu (d) — Số bit và tỷ lệ nén",
+          "pdfPage": 174,
+          "top": 0.248235
+        },
+        {
+          "title": "Câu (e) — Entropy và hiệu suất",
+          "pdfPage": 174,
+          "top": 0.661576
         }
       ]
     },
     "uyen-6-T2": {
-      "contentHash": "2721962580834667da74b6a2be9ec03c897d5794447d848453ebf421c048eb59",
-      "pdfStartPage": 129,
-      "pdfEndPage": 131,
-      "answerStartPage": 130,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-4dc7c820fd81.txt",
+      "contentHash": "59f0bff553f1f04d7295cba596c12c5d6c5b47e115ff551f68d502a169094141",
+      "pdfStartPage": 176,
+      "pdfEndPage": 179,
+      "answerStartPage": 177,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 130,
-          "sha256": "b9891122511f0f547ef72701cfa6699f3a671a8e064bda9cd0d2a0396742b368"
+          "pdfPage": 177,
+          "sha256": "dd5a9f99ad529fdc1b7ba7a28e808bcd0bc268707361c140585e92f1f5c18515"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 131,
-          "sha256": "84084d1bdfa32f66f51151b11f38446f88c1a85b159ef2cbd349ad767ef1ea1d"
+          "pdfPage": 178,
+          "sha256": "37ca3f1835d7ae241942bb7e8114ebdcc3f8139970b98408937be7f41ee65036"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T2-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 179,
+          "sha256": "6d750a26c665a985420ffea482e6fcb16fc27ff82d3865f2e7311e11ec62438e"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Mã hóa Huffman và tỷ lệ nén",
+          "pdfPage": 177,
+          "top": 0.236655
+        },
+        {
+          "title": "Câu (b) — Đổi nhánh hoặc hòa tần suất",
+          "pdfPage": 179,
+          "top": 0.179642
+        },
+        {
+          "title": "Câu (c) — Mã độ dài cố định",
+          "pdfPage": 179,
+          "top": 0.358697
         }
       ]
     },
     "uyen-6-T3": {
-      "contentHash": "1f8a36b5df9000a4aab331b09168d7a68024962d5582f3e1d2bd157880d1c1fa",
-      "pdfStartPage": 132,
-      "pdfEndPage": 133,
-      "answerStartPage": 133,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T3-4dc7c820fd81.txt",
+      "contentHash": "b2fb208b0b5364460a31e58310a503592043780a32c1d0e8bdecd6c3fa7b1e0b",
+      "pdfStartPage": 180,
+      "pdfEndPage": 182,
+      "answerStartPage": 181,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T3-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T3-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T3-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 133,
-          "sha256": "b61995b7dc52dc1cfafb63c210233066240a2369a60576b249aae58c5394826d"
+          "pdfPage": 181,
+          "sha256": "96253d2d7dc48f8645e43f46633af9f1fdfda4f0d3cca4ea8ec47945400bf2cd"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T3-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 182,
+          "sha256": "6cb7a067fbac120682542a8a6dffd991847cd09e773f81458be256fb1397c5b2"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tính tiền tố",
+          "pdfPage": 181,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Giải mã và dựng ảnh",
+          "pdfPage": 181,
+          "top": 0.29634
+        },
+        {
+          "title": "Câu (c) — Tỷ lệ nén",
+          "pdfPage": 182,
+          "top": 0.054927
+        },
+        {
+          "title": "Câu (d) — Đảo bit và nhận xét",
+          "pdfPage": 182,
+          "top": 0.407692
         }
       ]
     },
     "uyen-6-T4": {
-      "contentHash": "86f796ee097ffb7a71062987fbe4b881fe04130f51378169ea918f92ffab6334",
-      "pdfStartPage": 134,
-      "pdfEndPage": 137,
-      "answerStartPage": 135,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-4dc7c820fd81.txt",
+      "contentHash": "5519ba8fb11b1679c045ab026aafe6e700fc49c1cf65c9880f0e9b031fd2ce1b",
+      "pdfStartPage": 183,
+      "pdfEndPage": 186,
+      "answerStartPage": 184,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 135,
-          "sha256": "99a9aaa22bf1b5834deb76fd6a1c20622e5c7173cae5745ab2056e4fdd7d758c"
+          "pdfPage": 184,
+          "sha256": "daef3ea3d1ceb5a8d883dd7d2fb14a6b8dca5e15b122e33e5eab285d85394663"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 136,
-          "sha256": "7b48d3335a45df5d7c4bc8d942051ee39e36b2c14e5d6265a1e6e679c9f21aed"
+          "pdfPage": 185,
+          "sha256": "561297c30b74e5cbfce1b1483577717b671bb5de14c216a99a7000166953c0ce"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T4-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 137,
-          "sha256": "68ba6efb8850a1999e28814353508862beb9fb746cd95982d36508deaa36c207"
+          "pdfPage": 186,
+          "sha256": "09d13c5c9d6453000ee866259fde3db0eacb12674d17f3154ebda774cf37499e"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Mã hóa và giải mã",
+          "pdfPage": 184,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Số bit và tỷ lệ nén",
+          "pdfPage": 186,
+          "top": 0.121739
+        },
+        {
+          "title": "Câu (c) — Ý tưởng và hạn chế",
+          "pdfPage": 186,
+          "top": 0.496775
         }
       ]
     },
     "uyen-6-T5": {
-      "contentHash": "90f557e1dfce85da292407da40b3e3baca426adc65e46ca5793526e6825ae2a4",
-      "pdfStartPage": 138,
-      "pdfEndPage": 141,
-      "answerStartPage": 139,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-4dc7c820fd81.txt",
+      "contentHash": "b22758a9e152f85b19f13cb13c94c4fb9b2766ef7f64b159d127ae8302980a8e",
+      "pdfStartPage": 187,
+      "pdfEndPage": 190,
+      "answerStartPage": 188,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 139,
-          "sha256": "b717f624fa048db3854c87bebf499d24b00b0d00701553a474fab7f6a1ebdc02"
+          "pdfPage": 188,
+          "sha256": "beb6cbb0e74ce841e63b64d4aed01bc2ee76057cdafe82d2dafc3154e2b5db75"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 140,
-          "sha256": "ad3b4cab342c7cd4ea895eebaa2a7dcb5c5f6ac151a8b240f9a270bb0f96ddd1"
+          "pdfPage": 189,
+          "sha256": "0a026611d856e917c3343ebbc06412d020c9aa01bcd0ca60ffa68858ccf97a0e"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T5-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 141,
-          "sha256": "fd5be31b17aaed254bdc33bd1d65f9e20167e2db6926503819685e0d7d53a06c"
+          "pdfPage": 190,
+          "sha256": "eac362126470e374e944d289298242fb35047d0a73822c2c18e01438e51a1767"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 188,
+          "top": 0.139555
         }
       ]
     },
     "uyen-6-T6": {
-      "contentHash": "3726a70caadb8861a02d35bdfd165d05a78bb9147c86db6b61257c3f64aac0bf",
-      "pdfStartPage": 142,
-      "pdfEndPage": 144,
-      "answerStartPage": 143,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-4dc7c820fd81.txt",
+      "contentHash": "c3b76a873ce97b0d2e300303711d396ac4bbac379a5f4eb42d47a2be02bfc607",
+      "pdfStartPage": 191,
+      "pdfEndPage": 194,
+      "answerStartPage": 192,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 143,
-          "sha256": "70eeaec463aaa6906656837ea74bdad70c94c378a3b43514ef28a558f6a1850e"
+          "pdfPage": 192,
+          "sha256": "b732672a0a6897bf36808b9b89ce2156929070e3bd557c128cb0eea965a68fd3"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 144,
-          "sha256": "dd88995af784a6eb438496e3a10d3fc484945f58aa5304cb06279d9d7f662da5"
+          "pdfPage": 193,
+          "sha256": "a752c4ac80d2edc321527798916755e1f6fc0bb504380064d531b9e4da0816f2"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T6-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 194,
+          "sha256": "512faff9424a8e7cb03240b5554f17ff9df3b33bd4e84c2bced62215c4a5ae35"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Bài giải",
+          "pdfPage": 192,
+          "top": 0.139555
         }
       ]
     },
     "uyen-6-T7": {
-      "contentHash": "1c2d16084a0b373d93ee33f6f13cfb9cc62306258ef833c9b8be8a6d415cc3fe",
-      "pdfStartPage": 145,
-      "pdfEndPage": 147,
-      "answerStartPage": 146,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-4dc7c820fd81.txt",
+      "contentHash": "749c68a3c842863b8de31b7885cce1229850978e630b11aa9f234c4637737ef1",
+      "pdfStartPage": 195,
+      "pdfEndPage": 197,
+      "answerStartPage": 196,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 146,
-          "sha256": "4e860e5ecad89c68966b0baefa44d47d70f2f7c895d8fbbf1d28f4542193373e"
+          "pdfPage": 196,
+          "sha256": "8a519d0e90afed17e6069334870167d408c55f02ac76efa7a484f5a17f0f1128"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T7-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 147,
-          "sha256": "8a2a873314ab133dc9552043d5e0a140756f6181b8c1b7609bf69e6509ab9617"
+          "pdfPage": 197,
+          "sha256": "e5a1ed14c82a012d02145d6491a7b3abfe2ca626450cf1be34d98585d803e776"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Loạt 0 trước bit 1",
+          "pdfPage": 196,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Ký tự và số lần lặp",
+          "pdfPage": 196,
+          "top": 0.702554
+        },
+        {
+          "title": "Câu (c) — Cặp giá trị–độ dài",
+          "pdfPage": 197,
+          "top": 0.258035
         }
       ]
     },
     "uyen-6-T8": {
-      "contentHash": "cd1e285734649c42ad314674544dc51ee2bdef154b8c8bdd9c742c998c2224f8",
-      "pdfStartPage": 148,
-      "pdfEndPage": 149,
-      "answerStartPage": 149,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T8-4dc7c820fd81.txt",
+      "contentHash": "c6d08ed8d89232685677f5e21271f04d6b5ba9ae95a53c9bf0cb3684fb50fedf",
+      "pdfStartPage": 198,
+      "pdfEndPage": 200,
+      "answerStartPage": 199,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T8-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T8-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T8-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 149,
-          "sha256": "50b4c96d4011ba49b8851c1c59a23bd2149d4e53352311b428c1ee450dabf03b"
+          "pdfPage": 199,
+          "sha256": "e845e510ac848baffddf6eec8e61eaa1c5e65d7a6d7e5ac51b6d27078b4d8dd2"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T8-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 200,
+          "sha256": "1090b2f3f737d7c3de633950c48d7d2de32735084451378045a3e8c0e30f93ff"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Hệ số DC T(0,0)",
+          "pdfPage": 199,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Ba hệ số T(0,v)",
+          "pdfPage": 199,
+          "top": 0.562695
+        },
+        {
+          "title": "Câu (c) — Các hệ số bằng 0",
+          "pdfPage": 200,
+          "top": 0.099468
+        },
+        {
+          "title": "Câu (d) — Khôi phục chỉ bằng DC",
+          "pdfPage": 200,
+          "top": 0.255362
         }
       ]
     },
     "uyen-6-T9": {
-      "contentHash": "2245cee440ea974985f356e17ddeb2a076c9e3dc9fe9f0ce762d0006c42cb8c3",
-      "pdfStartPage": 150,
-      "pdfEndPage": 152,
-      "answerStartPage": 151,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-4dc7c820fd81.txt",
+      "contentHash": "c68fbe5c5914c9e367971337093e572bdce26f01be11c26376b1efad1a861d98",
+      "pdfStartPage": 201,
+      "pdfEndPage": 204,
+      "answerStartPage": 202,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 151,
-          "sha256": "d16477f7aa02c5cf31e99aad5e24570913d82bae74ddda4ec5de76db67c071b3"
+          "pdfPage": 202,
+          "sha256": "f2c7638eac1a2f8051768da344ff39630714b96bf763c80b8a5c15a6c1b94137"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 152,
-          "sha256": "0205e06b02d805c8a17f4cc03e144636691e9c576c1c9435cb1d261334a320c8"
+          "pdfPage": 203,
+          "sha256": "8c8eca7bde99724bba524e88a319d75db7db2724430233a5946dd3253722ee7e"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T9-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 204,
+          "sha256": "2b16257b19c97ab6b5692116c9b02978b392657ca3a02ec00033af422257add4"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Lượng tử hóa",
+          "pdfPage": 202,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Đếm hệ số khác 0",
+          "pdfPage": 202,
+          "top": 0.737296
+        },
+        {
+          "title": "Câu (c) — Vector zig-zag",
+          "pdfPage": 203,
+          "top": 0.054927
+        },
+        {
+          "title": "Câu (d) — RLE các AC",
+          "pdfPage": 203,
+          "top": 0.290104
+        },
+        {
+          "title": "Câu (e) — Giải lượng tử và sai số",
+          "pdfPage": 203,
+          "top": 0.67672
         }
       ]
     },
     "uyen-6-T10": {
-      "contentHash": "5b98e733a5d3fa8fbd4d4aaf302b5ec2616bd5b1c580c9b9ae7303faf69c6ccd",
-      "pdfStartPage": 153,
-      "pdfEndPage": 155,
-      "answerStartPage": 154,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-4dc7c820fd81.txt",
+      "contentHash": "9602f3a779ea8716a68125ac19f966f2ff1e2042b366f4f42c7a7aa00f5e07e0",
+      "pdfStartPage": 205,
+      "pdfEndPage": 208,
+      "answerStartPage": 206,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 154,
-          "sha256": "181c6bcc843a2cffe3daaa0ee34ff1336df078999a23f0bcac4e79f2d1b5f628"
+          "pdfPage": 206,
+          "sha256": "2955b4d1e27d8e4fa2205394b22ac9f253f8d4931569cac6b3cba0603c715c9a"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 155,
-          "sha256": "388ee26c2b8d2fa41e4e1ab9ff2ce4b256516af403b9bf5c5209bff191f8bcac"
+          "pdfPage": 207,
+          "sha256": "791e7f164a43b998567fce8906dcc2dce01442549f70685d625055a21eef8559"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T10-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 208,
+          "sha256": "5909618338eba5a5515dcb317320e35e3b358d866d66902ad49c4147f08861ed"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Dãy DPCM",
+          "pdfPage": 206,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — CAT, bit biên độ và tổng bit",
+          "pdfPage": 206,
+          "top": 0.48074
+        },
+        {
+          "title": "Câu (c) — Khôi phục DC",
+          "pdfPage": 207,
+          "top": 0.281196
+        },
+        {
+          "title": "Câu (d) — Vì sao DPCM giảm bit",
+          "pdfPage": 207,
+          "top": 0.656231
+        },
+        {
+          "title": "Câu (e) — Mã hóa và giải mã AC",
+          "pdfPage": 208,
+          "top": 0.054927
         }
       ]
     },
     "uyen-6-T11": {
-      "contentHash": "30c7f4bc3bc243292cce49ee4825879dd66e16a5486f63fdb3b80fe9dfefc266",
-      "pdfStartPage": 156,
-      "pdfEndPage": 158,
-      "answerStartPage": 157,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-4dc7c820fd81.txt",
+      "contentHash": "a9c46843e72333396513d9254baa9617dd8ece1f26756f63a2065c01e0091632",
+      "pdfStartPage": 209,
+      "pdfEndPage": 214,
+      "answerStartPage": 210,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 157,
-          "sha256": "5a8d59c2f3c1ecbfaada00cc0d2fe3919d791e8f121534d7509fe473740e19ce"
+          "pdfPage": 210,
+          "sha256": "2b0a1a4131769fa447efcb93f4d8be70679e56f3349c4388f5c078c43a66122e"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 158,
-          "sha256": "e0f018c17c5abeb8f846682698329f09dad57e3061efdb4c11e3d923b1d9be9b"
+          "pdfPage": 211,
+          "sha256": "175b80d0deb7c6d61445363ebc3c0fa9d78418a362d26be454024a34cbba6705"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 212,
+          "sha256": "9111e366ed9271671eee0acbd01c6e2bfaca28e9abb53a2380bd168a0285b62f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 213,
+          "sha256": "873d7c7f2cf20158e13f233abf1b8012e97a0026dee5fb57fd9c30d9a4ba3ffd"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T11-1fb3f2ad77a4-p5.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 214,
+          "sha256": "0fef8c12e819e69aaf60d727dd2bcd1c4f80963dc7c99b71bfb3a1bd1b900b97"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — DCT",
+          "pdfPage": 210,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Lượng tử hóa",
+          "pdfPage": 210,
+          "top": 0.585857
+        },
+        {
+          "title": "Câu (c) — Zig-zag",
+          "pdfPage": 211,
+          "top": 0.168952
+        },
+        {
+          "title": "Câu (d) — Mã DC",
+          "pdfPage": 211,
+          "top": 0.338208
+        },
+        {
+          "title": "Câu (e) — Mã AC và EOB",
+          "pdfPage": 211,
+          "top": 0.713244
+        },
+        {
+          "title": "Câu (f) — Chuỗi bit toàn khối",
+          "pdfPage": 212,
+          "top": 0.290104
+        },
+        {
+          "title": "Câu (g) — Giải nén và RMS",
+          "pdfPage": 212,
+          "top": 0.478958
         }
       ]
     },
     "uyen-6-T12": {
-      "contentHash": "c490d9003c29ab60df102e0198a95e55eea96a2652d5a296510bfad72786d540",
-      "pdfStartPage": 159,
-      "pdfEndPage": 160,
-      "answerStartPage": 160,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T12-4dc7c820fd81.txt",
+      "contentHash": "6600d57cd0ed1d9e86770b75ff3bdf92ba97f20fb5bc0a89ffeb6be85a4f0bee",
+      "pdfStartPage": 215,
+      "pdfEndPage": 217,
+      "answerStartPage": 216,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-6-T12-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T12-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T12-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 160,
-          "sha256": "64248a6037cd466435e19f1983ca1acc434f5b72caf1d8143eeac8afca7cae94"
+          "pdfPage": 216,
+          "sha256": "ed0d7b676e4024bf7fecc690f5a38e0ce9d17b1d227cf309a39e7c03c42e9bc1"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-6-T12-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 217,
+          "sha256": "9932bdbd657c7499aa352a3d59bf71790895942d14c404e52d19387d377ebb01"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Sai số RMS",
+          "pdfPage": 216,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Tỷ số SNR",
+          "pdfPage": 216,
+          "top": 0.49232
+        },
+        {
+          "title": "Câu (c) — Chất lượng và tỷ lệ nén",
+          "pdfPage": 217,
+          "top": 0.054927
         }
       ]
     },
     "uyen-7-T1": {
-      "contentHash": "d307e1f3f6b3f44f408594faa8eb5693e088823e9b327ffc7c34a7829a7e3f88",
-      "pdfStartPage": 161,
-      "pdfEndPage": 162,
-      "answerStartPage": 162,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T1-4dc7c820fd81.txt",
+      "contentHash": "bb17e42e8bfba3003ae029b1a42d83824f4748bfab4fe01ddcd63e833ca72e15",
+      "pdfStartPage": 218,
+      "pdfEndPage": 220,
+      "answerStartPage": 219,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T1-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T1-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T1-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 162,
-          "sha256": "c637ba76ab9610fbeda657d463b2774373c1aae7019f661f0e071a08d76a8d57"
+          "pdfPage": 219,
+          "sha256": "695c3337242213d74903c27b3812155a090740cacd6252ec8175c5840c87f62b"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T1-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 220,
+          "sha256": "eef39bd73798bac35293170232412b919137fa85e8454497d5d63d943dcb3ed9"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Co và giãn ảnh",
+          "pdfPage": 219,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Số điểm 1 và tác dụng",
+          "pdfPage": 220,
+          "top": 0.429072
         }
       ]
     },
     "uyen-7-T2": {
-      "contentHash": "8a9afa676aef0ccc05f085e7d5a03be6d947baf1954d184e2257d5b5a05c51a5",
-      "pdfStartPage": 163,
-      "pdfEndPage": 165,
-      "answerStartPage": 164,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-4dc7c820fd81.txt",
+      "contentHash": "58be435fa68679eacb0c820808f2429ee25cf7c6bbf4fef43ee5705567609eca",
+      "pdfStartPage": 221,
+      "pdfEndPage": 224,
+      "answerStartPage": 222,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 164,
-          "sha256": "c03a67df7a2ef5ffb03f2e4a5d396c7e0f93b4db69a40a73d920025fd9dac8f9"
+          "pdfPage": 222,
+          "sha256": "8e547b4a68528d4b19f5b8a93005a30ff7a35c48b648024e93d266716216dd82"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 165,
-          "sha256": "74734e9df61cc3300b46c00d9b27f95fbca625fc15dfc3910d097ca7cf07582f"
+          "pdfPage": 223,
+          "sha256": "28929ae70087a8c0fef07458d6c6ac6b5a13d5189bd1b5d042c86f6916e7c3f1"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T2-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 224,
+          "sha256": "aad03fa0f1ade392a08c9288b32fbd540563e303da016161154a849786637949"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Co và giãn ảnh",
+          "pdfPage": 222,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — SE phản xạ và giãn chuẩn",
+          "pdfPage": 223,
+          "top": 0.429072
         }
       ]
     },
     "uyen-7-T3": {
-      "contentHash": "9083913ce81d3cd10ee847111b4c2b7565ff83447086332f3b19b6e1d8664865",
-      "pdfStartPage": 166,
-      "pdfEndPage": 168,
-      "answerStartPage": 167,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-4dc7c820fd81.txt",
+      "contentHash": "7fa79ad5c6efa2ee9070e0c8b9712b3ce21ea2a4df1a1abb1ee9cc183dcf3b1e",
+      "pdfStartPage": 225,
+      "pdfEndPage": 228,
+      "answerStartPage": 226,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 167,
-          "sha256": "4be070b1305419f8f83babb99dfc5b54bf36f79272808c217a81cf30064232be"
+          "pdfPage": 226,
+          "sha256": "41b5a445865d09a0682a1a9d72d5c832a7591bbee493e120b165474c3f1a8098"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 168,
-          "sha256": "031bdf579c9baab4751ebd9a2473ec9dff6a74f986c4a0b3c363c9337635271b"
+          "pdfPage": 227,
+          "sha256": "a0d9a6a1510fcb3ae04033afd5216e701c2007985981cfc8bbb1490bdc8bc0df"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T3-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 228,
+          "sha256": "3ad02827a9b60cc906e45d3c92a00e017b388669221199946f3589f52a004b32"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Co với hai SE",
+          "pdfPage": 226,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Giãn với SE chữ thập",
+          "pdfPage": 227,
+          "top": 0.429072
+        },
+        {
+          "title": "Câu (c) — So sánh và chứng minh bao hàm",
+          "pdfPage": 228,
+          "top": 0.315938
         }
       ]
     },
     "uyen-7-T4": {
-      "contentHash": "baddc3cef3f8492798587d2f8ec7ae43d9d991f6bbb0a857dfb9a014a2963e2b",
-      "pdfStartPage": 169,
-      "pdfEndPage": 170,
-      "answerStartPage": 170,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T4-4dc7c820fd81.txt",
+      "contentHash": "484dfc743d13069a1a9e75007473fac9e3f54f6910effdadb73585c3c0983955",
+      "pdfStartPage": 229,
+      "pdfEndPage": 231,
+      "answerStartPage": 230,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T4-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T4-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T4-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 170,
-          "sha256": "7fb365a907f084a5961c8b9b023e797ddf6d172fce26d63e552c1c2225ce1936"
+          "pdfPage": 230,
+          "sha256": "b08e05adce2185b3b5ec844a504a9fd2c71a5b59d138994df841636bd9191eb5"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T4-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 231,
+          "sha256": "810ea06fae9ce4ea443dcc55dc2870a57040a18e5a44192e11b95339ae1337a5"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Co trung gian",
+          "pdfPage": 230,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Mở ảnh",
+          "pdfPage": 230,
+          "top": 0.724825
+        },
+        {
+          "title": "Câu (c) — Giải thích các chi tiết thay đổi",
+          "pdfPage": 231,
+          "top": 0.404129
         }
       ]
     },
     "uyen-7-T5": {
-      "contentHash": "e62221b5f6326b02d8e2fb6c8779dcc74cae80ed6f19b3bc548078d5f7cefd97",
-      "pdfStartPage": 171,
-      "pdfEndPage": 172,
-      "answerStartPage": 172,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T5-4dc7c820fd81.txt",
+      "contentHash": "bddb4becde89ef1bd361d42079858a13a49c13837c71aa35d6f35671c88d3814",
+      "pdfStartPage": 232,
+      "pdfEndPage": 234,
+      "answerStartPage": 233,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T5-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T5-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T5-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 172,
-          "sha256": "1ca9395b3fac03d256ebc71bcbdcd0cd6843cc0077977dce6eb21b51d9d9380e"
+          "pdfPage": 233,
+          "sha256": "b293c52e90c966496696e8d14554254f96b3b83f1c2e1461703f4fcb8c47962a"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T5-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 234,
+          "sha256": "6b0bd03a97530587044d5bacfeaeaa5830175b24b002f0d31a257c75d3bc635c"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Giãn trung gian",
+          "pdfPage": 233,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Đóng ảnh",
+          "pdfPage": 233,
+          "top": 0.699882
+        },
+        {
+          "title": "Câu (c) — Giải thích các chi tiết thay đổi",
+          "pdfPage": 234,
+          "top": 0.379186
         }
       ]
     },
     "uyen-7-T6": {
-      "contentHash": "16b8b63ee32d043ad0ff54803989b1a46b3ec78318763bf1ab9ed710eb4e3149",
-      "pdfStartPage": 173,
-      "pdfEndPage": 174,
-      "answerStartPage": 174,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T6-4dc7c820fd81.txt",
+      "contentHash": "f63d02964109cc4a52fd4b5767293b0ab7d52b7843105349f107bd7e194dcbf5",
+      "pdfStartPage": 235,
+      "pdfEndPage": 238,
+      "answerStartPage": 236,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T6-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T6-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T6-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 174,
-          "sha256": "c9b0e9f66e0c520b3b914bf44d74caa370cdeecfcbadfea953e47992727aed18"
+          "pdfPage": 236,
+          "sha256": "86e865ced3826089a81fa5082894cf289d4d9ca7958d9e840906b49c6783a76f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T6-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 237,
+          "sha256": "26a6601aebea03bc376f4686ed7899da1ca3b4d5cc5edf5bf8fc9b26e5f5bd59"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T6-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 238,
+          "sha256": "b4e0249776919796ef931a8d27b5f4af0958156296b249db44afedd879fbe8c1"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Tính mở và đóng",
+          "pdfPage": 236,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Kiểm tra bao hàm",
+          "pdfPage": 237,
+          "top": 0.054927
+        },
+        {
+          "title": "Câu (c) — Lặp lại và tính lũy đẳng",
+          "pdfPage": 237,
+          "top": 0.210821
+        },
+        {
+          "title": "Câu (d) — Vì sao mất phần bên trái",
+          "pdfPage": 238,
+          "top": 0.054927
         }
       ]
     },
     "uyen-7-T7": {
-      "contentHash": "8e4e792ce0a9b0b9c6f3a98a1af5f2cd4e2908d3a3ac690207ea934f3c23915c",
-      "pdfStartPage": 175,
-      "pdfEndPage": 176,
-      "answerStartPage": 176,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T7-4dc7c820fd81.txt",
+      "contentHash": "f1688086dd8d317cf032606cda71afa3492e029dcfff7eea5d5420625fcfa6a8",
+      "pdfStartPage": 239,
+      "pdfEndPage": 242,
+      "answerStartPage": 240,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T7-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T7-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T7-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 176,
-          "sha256": "1f4397768b3e1d13d42aa4df101ef72b585321fbf5471e2cbbc1682c19790167"
+          "pdfPage": 240,
+          "sha256": "c58152042da469f114db0f80511337a22ecc896f6be6cd2e7cdb87ef75ad7cb7"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T7-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 241,
+          "sha256": "7653fe397a5c3e771f9d895ba32479edccc7e733130eea1dfb94bad0afe82587"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T7-1fb3f2ad77a4-p3.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 242,
+          "sha256": "6493541832d193140be38716a7e3636398a5ab15293c789fc73bfc781e92089d"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Ảnh co E",
+          "pdfPage": 240,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Phần bù Eᶜ",
+          "pdfPage": 240,
+          "top": 0.658904
+        },
+        {
+          "title": "Câu (c) — Biên trong và số điểm",
+          "pdfPage": 241,
+          "top": 0.299903
         }
       ]
     },
     "uyen-7-T8": {
-      "contentHash": "939dfe33e37d9eefd06c30a9523accfdfd2db76f8d24a64ef4e634e61f1d19bd",
-      "pdfStartPage": 177,
-      "pdfEndPage": 178,
-      "answerStartPage": 178,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T8-4dc7c820fd81.txt",
+      "contentHash": "af2435280b3361c7b408db45e649420a73bfc5e1846478d601c7274f0698ba78",
+      "pdfStartPage": 243,
+      "pdfEndPage": 245,
+      "answerStartPage": 244,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T8-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T8-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T8-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 178,
-          "sha256": "3b7280513431d3bc97eac2ae83c303bb8aaf45e36877a56cd669a8f7beb6f863"
+          "pdfPage": 244,
+          "sha256": "38f4aa11d51884f6aa0d0e750c1856d2b909280e393745caf7c932f1bb4a5ea2"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T8-1fb3f2ad77a4-p2.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 245,
+          "sha256": "be348c28c51687718017a7301c27c6e6523724c197ceef729c0a7277b3be5a2d"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Hai đường biên",
+          "pdfPage": 244,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Khác biệt và liên thông",
+          "pdfPage": 244,
+          "top": 0.684738
         }
       ]
     },
     "uyen-7-T9": {
-      "contentHash": "d50ccbcb5c9bd6002a6b8d3fafbdf504c62ac8ee0a1ea67a0a97c97ec3806903",
-      "pdfStartPage": 179,
-      "pdfEndPage": 182,
-      "answerStartPage": 180,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-4dc7c820fd81.txt",
+      "contentHash": "6013de356b3ae273daf952163f39279902d4304286b8a52b4a6e5446fe6d85c7",
+      "pdfStartPage": 246,
+      "pdfEndPage": 250,
+      "answerStartPage": 247,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 180,
-          "sha256": "e152ad551972aede14939a01d7f9c53f3ca0645db1d49e8d19e419650e9a81e0"
+          "pdfPage": 247,
+          "sha256": "7aca8046af2bb6cbe151b9485f416fe1516c4b6c6500a5ef1e71e894d3b12a06"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 181,
-          "sha256": "e7db33af08f2f4ab6bb948b28ccca68f2dda541799f983a11ad030c533d49074"
+          "pdfPage": 248,
+          "sha256": "283dbde64fd4fa207d17da0eb1027ac5e0ba81a30868425eae830fd8328a6fa3"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 182,
-          "sha256": "0ed46f1a6dcf04ce6109879b52180dca15b9e4623b798a9f679b9b95429ed4b1"
+          "pdfPage": 249,
+          "sha256": "092cb772525da864516eea0fa28689c70aff660e64394628f21614e9144d27b6"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T9-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 250,
+          "sha256": "21a833d1d6aa33c1081ace41522ae886a47c35237310a4b4b44d697751cd3f12"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Lặp lan hạt giống",
+          "pdfPage": 247,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Hợp với đường biên",
+          "pdfPage": 248,
+          "top": 0.330191
+        },
+        {
+          "title": "Câu (c) — Thay SE và chỉ ra chỗ rò",
+          "pdfPage": 249,
+          "top": 0.054927
         }
       ]
     },
     "uyen-7-T10": {
-      "contentHash": "c1faabafba97f50af7259d8c7331f46ec05730acb4b63e5eb8ab2c525c72dad7",
-      "pdfStartPage": 183,
-      "pdfEndPage": 187,
-      "answerStartPage": 184,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81.txt",
+      "contentHash": "dcf3c4919f0fdea8e2c9b0c93e1c4928d48f2e19f1b26f60cec1420b58715faf",
+      "pdfStartPage": 251,
+      "pdfEndPage": 257,
+      "answerStartPage": 252,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 184,
-          "sha256": "5b2e53836a430e3d0ed6a9107f4c4f26691117582069486219beceee2b376452"
+          "pdfPage": 252,
+          "sha256": "15cbe842a9418118f23285a99f6c0b01a18361663dae79069b7c5665df556a0d"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 185,
-          "sha256": "e9b1f2d78e612222ff7344bfee3117deeb5ab6e6f308ba90391e4c0851a0f8a6"
+          "pdfPage": 253,
+          "sha256": "1a5fc9c8c0d0f54dffb0984e8923ac4543e291a9e491ac8b75fd65ed4a515f35"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 186,
-          "sha256": "33c4f7ef39c52d9d1ba69c523db6f9876d6d3faaa49df5b0c06b6305a0209227"
+          "pdfPage": 254,
+          "sha256": "1b4c4bb1e618bc6eb3fd424f8f5facb92a0e47dc7a280cee9eff146e58d00b1d"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-4dc7c820fd81-p4.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-1fb3f2ad77a4-p4.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 187,
-          "sha256": "720a4e2c8bafce79378279463429298f13dc7b159f163adcd1c13e4552ec0ffe"
+          "pdfPage": 255,
+          "sha256": "a8b3d82c0fa460f7f731ccd1a4bd21d2ac4ab1f5973eb33538822d3cb0b684c1"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-1fb3f2ad77a4-p5.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 256,
+          "sha256": "e269adfecdfe5458869dfadde3e694471064820f7f29a253b55adb0678d12149"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T10-1fb3f2ad77a4-p6.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 257,
+          "sha256": "ff69783b630bd07f7e2d32ecf9b2993cc847840db4d9375d76657ba0f74eef26"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — Hai hạt giống",
+          "pdfPage": 252,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — Một hạt giống",
+          "pdfPage": 253,
+          "top": 0.353352
+        },
+        {
+          "title": "Câu (c) — Nền ngoài và cách tô toàn bộ",
+          "pdfPage": 254,
+          "top": 0.48074
         }
       ]
     },
     "uyen-7-T11": {
-      "contentHash": "eca4b2bbe8971bc215da57cec6a4bd46d6f597d3cc456a09060dca5d00a6151b",
-      "pdfStartPage": 188,
-      "pdfEndPage": 192,
-      "answerStartPage": 190,
-      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-4dc7c820fd81.txt",
+      "contentHash": "0774693ff03f2f8a7154245b87db2c7f251c7db4002088cd0b770b1069fa7ad8",
+      "pdfStartPage": 258,
+      "pdfEndPage": 263,
+      "answerStartPage": 260,
+      "textSrc": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-1fb3f2ad77a4.txt",
       "pages": [
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-4dc7c820fd81-p1.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-1fb3f2ad77a4-p1.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 190,
-          "sha256": "b31929ec59855e2dd66362b829a151c4fb79d4a02806393b1c9072db2a3c2ef6"
+          "pdfPage": 260,
+          "sha256": "24a8d0eb165b8d8fcabf182091917b4bc215ddc8cf5617e79d54c3b78891d318"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-4dc7c820fd81-p2.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-1fb3f2ad77a4-p2.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 191,
-          "sha256": "d3b3aea93f92867005c28f74768e146d2f42b90f6cc0599dc4339a992b702d3b"
+          "pdfPage": 261,
+          "sha256": "5684174dbaaec99aadfac487e1b02959df0c7d5d2f33e310e1556986f9b04e05"
         },
         {
-          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-4dc7c820fd81-p3.png",
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-1fb3f2ad77a4-p3.png",
           "width": 1389,
           "height": 1965,
-          "pdfPage": 192,
-          "sha256": "1803903fd65efde719b37479bb69f815fc19d91967cdb099f1817a1db3bee71e"
+          "pdfPage": 262,
+          "sha256": "08e16ad3a1a27424ca7bd063f9def9d8aa0e930de7c0c5926559080dfaaf4d0f"
+        },
+        {
+          "src": "subjects/xu-ly-anh/answer-pages/uyen-7-T11-1fb3f2ad77a4-p4.png",
+          "width": 1389,
+          "height": 1965,
+          "pdfPage": 263,
+          "sha256": "f66a3171540a7e93404a9e96f4669033ab03aeeaf76aab1cd1dd6ae821bf54b4"
+        }
+      ],
+      "parts": [
+        {
+          "title": "Câu (a) — SE vuông, hạt (2,2)",
+          "pdfPage": 260,
+          "top": 0.139555
+        },
+        {
+          "title": "Câu (b) — SE chữ thập",
+          "pdfPage": 261,
+          "top": 0.054927
+        },
+        {
+          "title": "Câu (c) — Hạt (2,7)",
+          "pdfPage": 261,
+          "top": 0.760458
+        },
+        {
+          "title": "Câu (d) — Đếm thành phần",
+          "pdfPage": 262,
+          "top": 0.695428
         }
       ]
     }

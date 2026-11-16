@@ -1,0 +1,69 @@
+Bài 6.T1. Huffman: mã, tỷ lệ nén và entropy
+
+
+Câu (a) — Tần suất khối
+Bước 1. Chia ảnh thành khối 2×2 không chồng lấn; quét theo hàng khối.
+Công thức: p_i=n_i/N_b
+Ký hiệu: n_i là số lần khối i xuất hiện; N_b là tổng số khối 2×2; p_i=n_i/N_b là xác suất khối; H là entropy, đơn vị bit/khối; log₂ là logarithm cơ số 2.
+Cách làm: Quét theo hàng khối, mỗi khối 2×2 đọc trái sang phải rồi trên xuống dưới. Đếm từng mẫu khối và chia cho tổng số khối để có xác suất; chỉ cộng các mẫu có xác suất khác 0 khi tính entropy.
+Thay số / thực hiện: N_b=120/4=30; khối đầu 00/00 có tần suất 10.
+Kết luận: Ký hiệu viết theo thứ tự trái→phải, trên→dưới trong mỗi khối.
+
+khối (2 hàng viết liền)	số lần	xác suất
+0000	10	0.33333
+0011	1	0.03333
+0101	5	0.16667
+0110	1	0.03333
+1001	3	0.1
+1100	2	0.06667
+1111	8	0.26667
+
+Câu (b) — Cây và bảng mã
+Bước 1. Ghép hai trọng số nhỏ nhất liên tiếp để tạo cây Huffman.
+Công thức: w_{\mathrm{cha}}=w_{\mathrm{trai}}+w_{\mathrm{phai}}
+Ký hiệu: w là trọng số của một nút, bằng tần suất hoặc tổng tần suất các lá thuộc nút; cha là nút mới, trái/phải là hai nút được ghép.
+Cách làm: Chọn hai nút nhỏ nhất, ghép thành cha có trọng số bằng tổng, đưa cha lại danh sách và lặp. Gán nhánh trái 0, phải 1; từ mã là các bit trên đường từ gốc đến lá. Khi hòa dùng quy tắc đã ghi tại bài.
+Thay số / thực hiện: Lần ghép đầu: 1 + 1 = 2.
+Kết luận: Bảng ghép mô tả cây: nhánh trái 0, phải 1; hòa tần suất dùng thứ tự khối nhị phân tăng dần rồi thứ tự tạo nút. Đổi các nhánh/hòa tần suất có thể đổi chuỗi mã nhưng không đổi độ dài tối ưu.
+
+cây con trái	n trái	cây con phải	n phải	n cha
+0011	1	0110	1	2
+1100	2	('0011', '0110')	2	4
+1001	3	('1100', ('0011', '0110'))	4	7
+0101	5	('1001', ('1100', ('0011', '0110')))	7	12
+1111	8	0000	10	18
+('0101', ('1001', ('1100', ('0011', '0110'))))	12	('1111', '0000')	18	30
+
+khối (2 hàng viết liền)	số lần	xác suất	mã
+0000	10	0.33333	11
+0011	1	0.03333	01110
+0101	5	0.16667	00
+0110	1	0.03333	01111
+1001	3	0.1	010
+1100	2	0.06667	0110
+1111	8	0.26667	10
+
+Câu (c) — Ma trận mã
+Bước 1. Thay từng khối bằng từ mã tương ứng.
+Cách làm: Tra mẫu khối trong bảng mã câu (b), ghi nguyên chuỗi bit vào vị trí khối đó. Ví dụ mẫu 0000 có mã 11. Không cộng các bit thành một số.
+Giải thích: Mỗi ô của ma trận mã ứng với một khối 2×2 trong ảnh gốc. Quét hàng khối từ trái sang phải, trên xuống dưới; các từ mã có độ dài khác nhau.
+Ma trận mã theo hàng khối
+11	10	11	10	010	11	11	00	11	0110
+11	11	01111	11	0110	00	11	010	10	10
+00	010	00	10	01110	00	10	11	10	10
+
+Câu (d) — Số bit và tỷ lệ nén
+Bước 1. Tính độ dài mã, tỷ lệ nén và hiệu suất.
+Công thức: n_2=\sum_i n_i\ell_i,\quad C_R=n_1/n_2,\quad R_D=1-n_2/n_1
+Ký hiệu: n₁,n₂ là số bit trước/sau mã; n_i là số lần ký hiệu i; ℓ_i là độ dài từ mã i; N_b là số khối; L là số bit trung bình mỗi khối; CR là tỷ lệ nén; RD là dư thừa tương đối; H là entropy; η là hiệu suất.
+Cách làm: Nhân số lần mỗi ký hiệu với độ dài từ mã rồi cộng để có n₂. Chia n₁ cho n₂ để có CR; tính L và H cùng đơn vị bit/khối trước khi lấy η=H/L. Chi phí bảng mã chỉ cộng nếu đề yêu cầu.
+Thay số / thực hiện: n₁=120 bit; n₂=10·2+1·5+5·2+1·5+3·3+2·4+8·2=73 bit.
+Kết luận: n₁=120 bit; n₂=73 bit; CR=1.64384; RD=0.39167. Chưa tính bảng mã.
+
+Câu (e) — Entropy và hiệu suất
+Bước 1. Tính entropy, độ dài trung bình và hiệu suất.
+Công thức: H=-\sum_i p_i\log_2p_i,\quad L=n_2/N_b,\quad\eta=H/L
+Ký hiệu: n₁,n₂ là số bit trước/sau mã; n_i là số lần ký hiệu i; ℓ_i là độ dài từ mã i; N_b là số khối; L là số bit trung bình mỗi khối; CR là tỷ lệ nén; RD là dư thừa tương đối; H là entropy; η là hiệu suất.
+Cách làm: Nhân số lần mỗi ký hiệu với độ dài từ mã rồi cộng để có n₂. Chia n₁ cho n₂ để có CR; tính L và H cùng đơn vị bit/khối trước khi lấy η=H/L. Chi phí bảng mã chỉ cộng nếu đề yêu cầu.
+Thay số / thực hiện: Các xác suất p_i: 0.33333, 0.03333, 0.16667, 0.03333, 0.1, 0.06667, 0.26667; L=73/30=2.43333.
+Kết luận: H=2.38743 bit/khối; L=2.43333 bit/khối; η=0.98114.

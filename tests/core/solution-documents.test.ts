@@ -9,8 +9,9 @@ test('every exercise retains its leads, formulas, substitutions and results in t
   for(const item of data.items.filter((i:any)=>i.kind==='exercise')){
     const html=exerciseHtml(item,data.sources,item.images);
     assert.equal((html.match(/data-step=/g)??[]).length,item.steps.length,item.id);
+    const fragments=html.split('data-step="').slice(1);
     for(const [n,step] of item.steps.entries()){
-      const fragment=html.split(`data-step="${n}"`)[1].split('</section>')[0];
+      const fragment=fragments[n].split('</section>')[0];
       const lead=fragment.indexOf(escapeHtml(step.lead));assert(lead>=0,item.id);
       if(step.formula){
         const formula=fragment.indexOf('data-tex=');assert(formula>lead,item.id);

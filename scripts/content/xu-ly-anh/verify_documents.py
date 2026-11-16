@@ -19,6 +19,11 @@ for item in data['items']:
     if item['kind']!='exercise':continue
     record=manifest['items'][item['id']]
     assert 'BÀI GIẢI' in book[record['answerStartPage']-1].get_text()
+    answer_text='\n'.join(book[n-1].get_text() for n in range(record['answerStartPage'],record['pdfEndPage']+1))
+    assert answer_text.count('Ký hiệu:')==sum(bool(s.get('formula')) for s in item['steps']),f'{item["id"]}: symbol notes missing from PDF'
+    assert answer_text.count('Cách làm:')==len(item['steps']),f'{item["id"]}: procedure explanations missing from PDF'
+    for part in record['parts']:
+        assert ' '.join(part['title'].split()) in ' '.join(book[part['pdfPage']-1].get_text().split()),f'{item["id"]}: incorrect subpart link'
     for page in record['pages']:
         image_path=ROOT/'public'/page['src']
         assert hashlib.sha256(image_path.read_bytes()).hexdigest()==page['sha256']

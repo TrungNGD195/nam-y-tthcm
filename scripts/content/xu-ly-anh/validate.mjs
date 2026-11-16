@@ -32,6 +32,11 @@ export function validateSolutions(data, subject, assetExists=()=>true) {
         assert(typeof step.text==='string'&&step.text.length>35,`${item.id}: theory section needs an actual response`);
         assert(!/ý chính cần trình bày|khi hỏi.*nhấn mạnh|nhắc ba dạng/iu.test(step.lead+' '+step.text),`${item.id}: outline instructions leaked into answer`);
       }
+      if(item.kind==='exercise'){
+        assert(typeof step.section==='string'&&step.section.length>5,`${item.id}: missing source subpart heading`);
+        assert(typeof step.method==='string'&&step.method.length>20,`${item.id}: missing explanation of the procedure`);
+        if(step.formula)assert(typeof step.symbols==='string'&&step.symbols.length>25,`${item.id}: formula needs local symbol definitions`);
+      }
       if(step.formula)katex.renderToString(step.formula,{throwOnError:true,trust:false});
       for(const block of step.blocks??[]) {
         if(block.type==='image')asset(block.src);
@@ -70,6 +75,11 @@ export function validateDocuments(data,assetExists=()=>true){
     assert(doc.pdfStartPage<doc.answerStartPage&&doc.answerStartPage<=doc.pdfEndPage);
     assert.equal(doc.pages.length,doc.pdfEndPage-doc.answerStartPage+1,'Missing screenshot page');
     asset(doc.textSrc,'txt');
+    assert.deepEqual(doc.parts?.map(p=>p.title),[...new Set(item.steps.map(s=>s.section))],`${item.id}: PDF subparts mismatch`);
+    for(const part of doc.parts){
+      assert(Number.isInteger(part.pdfPage)&&part.pdfPage>=doc.answerStartPage&&part.pdfPage<=doc.pdfEndPage,`${item.id}: subpart page outside answer`);
+      assert(typeof part.top==='number'&&part.top>=0&&part.top<1,`${item.id}: invalid subpart location`);
+    }
     for(const [index,page] of doc.pages.entries()){
       asset(page.src,'png');assert(!seenImages.has(page.src),'Reused exercise screenshot');seenImages.add(page.src);
       assert.equal(page.pdfPage,doc.answerStartPage+index,'PDF screenshot pages out of order');

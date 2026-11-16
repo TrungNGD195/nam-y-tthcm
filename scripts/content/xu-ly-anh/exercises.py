@@ -181,7 +181,7 @@ put('uyen-6-T11','Một vòng JPEG 2×2',6,'DCT|lượng tử hóa|bit biên đ�
     step('Lượng tử hóa từng hệ số rồi quét zig-zag.',r'I_Q=\operatorname{round}(I_{DCT}/Q)',f'I_Q(0,0)=round(22/2)=11; I_Q(0,1)=round(4/10)=0.',f'Zig-zag (00,01,10,11): {zz}. Làm tròn nửa ra xa 0.',blocks=[matrix(quant,'I_Q')]),
     step('Mã DC bằng hiệu, category và biên độ.',r'd=DC-DC_{trước},\quad\mathrm{bits}_{DC}=\mathrm{Huff}(CAT)+\mathrm{amplitude}(d)',f'd={zz[0]}−13={delta}; CAT={category(delta)}; Huff={DC_CODES[category(delta)]}; biên độ={amplitude(delta)}.',f'Bit DC: {dcbit}. Số âm dùng phần bù các bit của độ lớn trong CAT bit, không phải biểu diễn bù hai.'),
     step('Mã hóa AC theo RUN/CAT và ghép toàn bộ khối.',r'\mathrm{bits}_{AC}=\mathrm{Huff}(RUN/CAT)+\mathrm{amplitude}(value)',f'Các cặp: {pairs}; bit AC={acbit}.',f'Chuỗi toàn khối: {dcbit+acbit} ({len(dcbit+acbit)} bit). '+('Có EOB vì đuôi còn hệ số 0.' if pairs[-1]==(0,0) else 'Không gửi EOB vì hệ số AC cuối khác 0, đã đủ 3 AC.'),blocks=[table(['RUN','value','CAT','bit gửi'],acrows)]),
-    step('Giải lượng tử, DCT ngược và đo sai số.',r'I^{\prime}=T^T(I_Q\odot Q)T,\quad e_{rms}=\sqrt{\frac14\sum(I-I^{\prime})^2}',f'I_Q⊙Q={dequant}; e_rms={fmt(rms)}.',blocks=[matrix(restored,'Ảnh I′ sau giải nén')])])
+    step('Giải lượng tử, DCT ngược và đo sai số.',r'I^{\prime}=T^T(I_Q\odot Q)T,\quad e_{rms}=\sqrt{\frac14\sum(I-I^{\prime})^2}',f'I_Q⊙Q={dequant}; e_rms={fmt(rms)}.',blocks=[matrix(dequant,'DCT sau giải lượng tử'),matrix(restored,'Ảnh I′ sau giải nén'),matrix(A,'Ảnh gốc I để đối chiếu')])])
 F=M('52 85 128 160/97 78 107 86/61 175 115 80/42 135 127 99');FH=M('54 82 128 161/96 82 105 86/64 175 111 82/42 134 128 94');err=sum((F[i][j]-FH[i][j])**2 for i in range(4) for j in range(4));energy=sum(x*x for row in FH for x in row)
 put('uyen-6-T12','Đánh giá RMS và SNR sau nén',6,'sai số căn quân phương|SNR|cảm nhận',[
     step('Lấy bình phương sai số rồi trung bình trên 16 pixel.',r'e_{rms}=\sqrt{\frac{\sum(\hat f-f)^2}{16}}',f'SSE={err}; e_rms=√({err}/16)={fmt(math.sqrt(err/16))}.'),
@@ -220,3 +220,6 @@ def components(a,b):
         r,c=min(remaining);x,_=grow(a,[(r+1,c+1)],b);remaining -= {(r,c) for r,row in enumerate(x) for c,v in enumerate(row) if v};countc+=1
     return countc
 put('uyen-7-T11','Trích thành phần liên thông 4 và 8',7,'giao A|liên thông chéo',[growstep(XA,[(2,2)],SQUARE),growstep(XA,[(2,2)],CROSS),growstep(XA,[(2,7)],SQUARE),step('Đếm toàn bộ thành phần, không chỉ thành phần có hạt đã chọn.',text=f'Liên thông 8: {components(XA,SQUARE)} thành phần; liên thông 4: {components(XA,CROSS)} thành phần. Các tiếp xúc chéo nối được với SE vuông nhưng không nối với chữ thập.')])
+
+from worked_parts import apply as apply_worked_parts
+apply_worked_parts(SOLUTIONS)

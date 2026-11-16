@@ -1,0 +1,29 @@
+Bài 6.T8. DCT khối hai vùng sáng
+
+
+Câu (a) — Hệ số DC T(0,0)
+Bước 1. Tính DCT trực giao 8×8; đề chưa dịch mức nên dùng trực tiếp P.
+Công thức: T(u,v)=\frac14C(u)C(v)\sum_{x=0}^7\sum_{y=0}^7P(x,y)\cos\frac{(2x+1)u\pi}{16}\cos\frac{(2y+1)v\pi}{16},\quad C(0)=1/\sqrt2,\ C(k>0)=1
+Ký hiệu: P(x,y) là mức xám tại hàng x, cột y, chỉ số từ 0 đến 7; u,v là chỉ số tần số hàng/cột; T(u,v) là hệ số DCT; C(0)=1/√2, C(k>0)=1 là hệ số chuẩn hóa; π tính theo radian.
+Cách làm: Cố định u,v cần tìm, tính các trọng số cos theo x và y, nhân với P rồi cộng 64 pixel và nhân hệ số chuẩn hóa. Tận dụng các hàng giống nhau để rút gọn tổng, không tự trừ 128 khi đề yêu cầu bỏ dịch mức.
+Thay số / thực hiện: T(0,0)=(1/8)·[32·30+32·110]=560. Với u=0: T(0,v)=√2·Σ_y P(0,y)cos((2y+1)vπ/16), v>0.
+
+Câu (b) — Ba hệ số T(0,v)
+Bước 1. Thay u=0, lần lượt v=1,2,3.
+Công thức: T(u,v)=\frac14C(u)C(v)\sum_{x=0}^7\sum_{y=0}^7P(x,y)\cos\frac{(2x+1)u\pi}{16}\cos\frac{(2y+1)v\pi}{16},\quad C(0)=1/\sqrt2,\ C(k>0)=1
+Ký hiệu: P(x,y) là mức xám tại hàng x, cột y, chỉ số từ 0 đến 7; u,v là chỉ số tần số hàng/cột; T(u,v) là hệ số DCT; C(0)=1/√2, C(k>0)=1 là hệ số chuẩn hóa; π tính theo radian.
+Cách làm: Cố định u,v cần tìm, tính các trọng số cos theo x và y, nhân với P rồi cộng 64 pixel và nhân hệ số chuẩn hóa. Tận dụng các hàng giống nhau để rút gọn tổng, không tự trừ 128 khi đề yêu cầu bỏ dịch mức.
+Thay số / thực hiện: T(0,1)=-289.96078; T(0,2)=0; T(0,3)=101.82069.
+
+Câu (c) — Các hệ số bằng 0
+Bước 1. Dùng tính trực giao của các hàm cos.
+Cách làm: Các hàng P giống nhau nên tổng cos theo x bằng 0 với u≥1. Với v chẵn≠0, hai nửa bù nhau làm tổng bằng 0.
+Giải thích: Các hàng P giống nhau nên tổng cos theo x bằng 0 với u≥1. Với v chẵn≠0, hai nửa bù nhau làm tổng bằng 0.
+
+Câu (d) — Khôi phục chỉ bằng DC
+Bước 1. Chỉ giữ hệ số DC rồi biến đổi ngược.
+Công thức: \hat P(x,y)=T(0,0)/8,\quad e_{rms}=\sqrt{\frac1{64}\sum(P-\hat P)^2}
+Ký hiệu: T(0,0) là hệ số DC trực giao của khối 8×8; P̂ là ảnh tái tạo; P là ảnh gốc; e_rms là căn trung bình bình phương sai số trên 64 pixel.
+Cách làm: Đặt mọi hệ số AC bằng 0. DCT ngược khi chỉ còn DC cho mọi pixel bằng T(0,0)/8. Lấy từng sai lệch P−P̂, bình phương, cộng, chia 64 và lấy căn.
+Thay số / thực hiện: P̂=560/8=70; e_rms=√((32·(30−70)²+32·(110−70)²)/64)=40.
+Kết luận: DC giữ độ sáng trung bình; bỏ AC làm mất ranh giới hai nửa. Nếu có bước dịch −128 thì DC là −464 và cộng lại 128 khi khôi phục, kết quả ảnh vẫn là 70.

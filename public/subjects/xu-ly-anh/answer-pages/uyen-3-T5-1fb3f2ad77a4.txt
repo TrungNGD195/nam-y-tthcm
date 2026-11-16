@@ -1,0 +1,80 @@
+Bài 3.T5. Các toán tử điểm
+
+
+Câu (a) — Tăng sáng
+Bước 1. Áp dụng toán tử điểm: +60.
+Công thức: s=\min(255,\max(0,r+60))
+Ký hiệu: r là mức xám đầu vào; s là mức xám đầu ra; ảnh 8 bit có miền 0–255; γ là số mũ gamma khi có; ln là logarithm tự nhiên; min/max giới hạn kết quả vào miền cho phép.
+Cách làm: Với từng pixel, lấy r từ ảnh gốc, chọn đúng nhánh của hàm nếu có, thay r vào công thức rồi làm tròn theo đề. Mỗi phép biến đổi áp dụng riêng trên ảnh gốc, không dùng kết quả phép trước làm đầu vào phép sau.
+Thay số / thực hiện: Tại r=20 ⇒ s=80; làm tròn nửa lên khi cần.
++60
+80	105	150
+190	240	255
+70	160	255
+
+Câu (b) — Giảm sáng
+Bước 1. Áp dụng toán tử điểm: −60.
+Công thức: s=\min(255,\max(0,r-60))
+Ký hiệu: r là mức xám đầu vào; s là mức xám đầu ra; ảnh 8 bit có miền 0–255; γ là số mũ gamma khi có; ln là logarithm tự nhiên; min/max giới hạn kết quả vào miền cho phép.
+Cách làm: Với từng pixel, lấy r từ ảnh gốc, chọn đúng nhánh của hàm nếu có, thay r vào công thức rồi làm tròn theo đề. Mỗi phép biến đổi áp dụng riêng trên ảnh gốc, không dùng kết quả phép trước làm đầu vào phép sau.
+Thay số / thực hiện: Tại r=20 ⇒ s=0; làm tròn nửa lên khi cần.
+−60
+0	0	30
+70	120	170
+0	40	190
+
+Câu (c) — Âm bản
+Bước 1. Áp dụng toán tử điểm: Âm bản.
+Công thức: s=255-r
+Ký hiệu: r là mức xám đầu vào; s là mức xám đầu ra; ảnh 8 bit có miền 0–255; γ là số mũ gamma khi có; ln là logarithm tự nhiên; min/max giới hạn kết quả vào miền cho phép.
+Cách làm: Với từng pixel, lấy r từ ảnh gốc, chọn đúng nhánh của hàm nếu có, thay r vào công thức rồi làm tròn theo đề. Mỗi phép biến đổi áp dụng riêng trên ảnh gốc, không dùng kết quả phép trước làm đầu vào phép sau.
+Thay số / thực hiện: Tại r=20 ⇒ s=235; làm tròn nửa lên khi cần.
+Âm bản
+235	210	165
+125	75	25
+245	155	5
+
+Câu (d) — Logarithm
+Bước 1. Áp dụng toán tử điểm: Log.
+Công thức: s=\frac{255}{\ln256}\ln(1+r)
+Ký hiệu: r là mức xám đầu vào; s là mức xám đầu ra; ảnh 8 bit có miền 0–255; γ là số mũ gamma khi có; ln là logarithm tự nhiên; min/max giới hạn kết quả vào miền cho phép.
+Cách làm: Với từng pixel, lấy r từ ảnh gốc, chọn đúng nhánh của hàm nếu có, thay r vào công thức rồi làm tròn theo đề. Mỗi phép biến đổi áp dụng riêng trên ảnh gốc, không dùng kết quả phép trước làm đầu vào phép sau.
+Thay số / thực hiện: Tại r=20 ⇒ s=140; làm tròn nửa lên khi cần.
+Log
+140	176	207
+224	239	250
+110	212	254
+
+Câu (e) — Hai giá trị gamma
+Bước 1. Áp dụng toán tử điểm: Gamma = 2.
+Công thức: s=255(r/255)^2
+Ký hiệu: r là mức xám đầu vào; s là mức xám đầu ra; ảnh 8 bit có miền 0–255; γ là số mũ gamma khi có; ln là logarithm tự nhiên; min/max giới hạn kết quả vào miền cho phép.
+Cách làm: Với từng pixel, lấy r từ ảnh gốc, chọn đúng nhánh của hàm nếu có, thay r vào công thức rồi làm tròn theo đề. Mỗi phép biến đổi áp dụng riêng trên ảnh gốc, không dùng kết quả phép trước làm đầu vào phép sau.
+Thay số / thực hiện: Tại r=20 ⇒ s=2; làm tròn nửa lên khi cần.
+Gamma = 2
+2	8	32
+66	127	207
+0	39	245
+Bước 2. Áp dụng toán tử điểm: Gamma = 0,5.
+Công thức: s=255(r/255)^{0.5}
+Ký hiệu: r là mức xám đầu vào; s là mức xám đầu ra; ảnh 8 bit có miền 0–255; γ là số mũ gamma khi có; ln là logarithm tự nhiên; min/max giới hạn kết quả vào miền cho phép.
+Cách làm: Với từng pixel, lấy r từ ảnh gốc, chọn đúng nhánh của hàm nếu có, thay r vào công thức rồi làm tròn theo đề. Mỗi phép biến đổi áp dụng riêng trên ảnh gốc, không dùng kết quả phép trước làm đầu vào phép sau.
+Thay số / thực hiện: Tại r=20 ⇒ s=71; làm tròn nửa lên khi cần.
+Gamma = 0,5
+71	107	151
+182	214	242
+50	160	252
+
+Câu (f) — Kéo giãn và nhận xét
+Bước 1. Áp dụng toán tử điểm: Kéo giãn.
+Công thức: s=\begin{cases}0&r<50\\255(r-50)/150&50\le r\le200\\255&r>200\end{cases}
+Ký hiệu: r là mức xám đầu vào; s là mức xám đầu ra; ảnh 8 bit có miền 0–255; γ là số mũ gamma khi có; ln là logarithm tự nhiên; min/max giới hạn kết quả vào miền cho phép.
+Cách làm: Với từng pixel, lấy r từ ảnh gốc, chọn đúng nhánh của hàm nếu có, thay r vào công thức rồi làm tròn theo đề. Mỗi phép biến đổi áp dụng riêng trên ảnh gốc, không dùng kết quả phép trước làm đầu vào phép sau.
+Thay số / thực hiện: Tại r=20 ⇒ s=0; làm tròn nửa lên khi cần.
+Kéo giãn
+0	0	68
+136	221	255
+0	85	255
+Bước 2. Nhận xét theo dạng hàm.
+Cách làm: Cộng/trừ làm sáng/tối và có thể bão hòa; âm bản đảo sáng–tối; log và gamma<1 nâng mức tối; gamma>1 hạ mức trung gian; kéo giãn tăng tương phản trong [50,200] nhưng cắt mất chi tiết ngoài đoạn.
+Giải thích: Cộng/trừ làm sáng/tối và có thể bão hòa; âm bản đảo sáng–tối; log và gamma<1 nâng mức tối; gamma>1 hạ mức trung gian; kéo giãn tăng tương phản trong [50,200] nhưng cắt mất chi tiết ngoài đoạn.

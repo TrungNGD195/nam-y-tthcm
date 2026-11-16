@@ -1,0 +1,142 @@
+Bài 7.T10. Làm đầy đồng thời hai vùng
+
+
+Câu (a) — Hai hạt giống
+Bước 1. Lan hạt giống trong phần không phải biên.
+Công thức: X_k=(X_{k-1}\oplus B)\cap A^c
+Ký hiệu: A là ảnh đối tượng hoặc đường biên theo đề; Aᶜ là phần bù; B là SE điều khiển liên thông; X₀ là hạt giống; X_k là tập sau vòng k; ⊕ là giãn, ∩ là giao.
+Cách làm: Khởi tạo X₀ đúng các hạt đã cho. Mỗi vòng giãn X trước, sau đó AND với Aᶜ để làm đầy hoặc với A để trích thành phần. Ghi các điểm mới, lặp đến X_k=X_k−1. Làm đầy kết thúc bằng A′=A∪X_k.
+Thay số / thực hiện: X₀ = (3, 3), (4, 9); sau lần giãn đầu có 7 điểm.
+Kết luận: Dừng ở k=3 vì Xk=Xk−1. SE chữ thập (4 hướng).
+Aᶜ
+1	1	1	1	1	1	1	1	1	1	1
+1	0	0	0	0	1	1	1	1	1	1
+1	0	1	1	0	1	1	0	0	0	1
+1	0	1	1	0	1	0	1	1	1	0
+1	0	0	0	0	1	0	1	1	1	0
+1	1	1	1	1	1	1	0	0	0	1
+1	1	1	1	1	1	1	1	1	1	1
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(3,4), (4,3), (4,8), (4,10), (5,9)	7
+2	(4,4), (5,8), (5,10)	10
+3	Không có điểm mới — dừng	10
+Xk khi dừng
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+A′ = A ∪ Xk
+0	0	0	0	0	0	0	0	0	0	0
+0	1	1	1	1	0	0	0	0	0	0
+0	1	1	1	1	0	0	1	1	1	0
+0	1	1	1	1	0	1	1	1	1	1
+0	1	1	1	1	0	1	1	1	1	1
+0	0	0	0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0	0	0	0
+
+Câu (b) — Một hạt giống
+Bước 1. Chỉ chọn hạt giống ở vùng trái.
+Công thức: X_k=(X_{k-1}\oplus B)\cap A^c
+Ký hiệu: A là ảnh đối tượng hoặc đường biên theo đề; Aᶜ là phần bù; B là SE điều khiển liên thông; X₀ là hạt giống; X_k là tập sau vòng k; ⊕ là giãn, ∩ là giao.
+Cách làm: Khởi tạo X₀ đúng các hạt đã cho. Mỗi vòng giãn X trước, sau đó AND với Aᶜ để làm đầy hoặc với A để trích thành phần. Ghi các điểm mới, lặp đến X_k=X_k−1. Làm đầy kết thúc bằng A′=A∪X_k.
+Thay số / thực hiện: X₀ = (3, 3); sau lần giãn đầu có 3 điểm.
+Kết luận: Dừng ở k=3 vì Xk=Xk−1. SE chữ thập (4 hướng).
+Aᶜ
+1	1	1	1	1	1	1	1	1	1	1
+1	0	0	0	0	1	1	1	1	1	1
+1	0	1	1	0	1	1	0	0	0	1
+1	0	1	1	0	1	0	1	1	1	0
+1	0	0	0	0	1	0	1	1	1	0
+1	1	1	1	1	1	1	0	0	0	1
+1	1	1	1	1	1	1	1	1	1	1
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(3,4), (4,3)	3
+2	(4,4)	4
+3	Không có điểm mới — dừng	4
+Xk khi dừng
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+A′ = A ∪ Xk
+0	0	0	0	0	0	0	0	0	0	0
+0	1	1	1	1	0	0	0	0	0	0
+0	1	1	1	1	0	0	1	1	1	0
+0	1	1	1	1	0	1	0	0	0	1
+0	1	1	1	1	0	1	0	0	0	1
+0	0	0	0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0	0	0	0
+
+Câu (c) — Nền ngoài và cách tô toàn bộ
+Bước 1. Chọn nhầm hạt giống ở nền ngoài.
+Công thức: X_k=(X_{k-1}\oplus B)\cap A^c
+Ký hiệu: A là ảnh đối tượng hoặc đường biên theo đề; Aᶜ là phần bù; B là SE điều khiển liên thông; X₀ là hạt giống; X_k là tập sau vòng k; ⊕ là giãn, ∩ là giao.
+Cách làm: Khởi tạo X₀ đúng các hạt đã cho. Mỗi vòng giãn X trước, sau đó AND với Aᶜ để làm đầy hoặc với A để trích thành phần. Ghi các điểm mới, lặp đến X_k=X_k−1. Làm đầy kết thúc bằng A′=A∪X_k.
+Thay số / thực hiện: X₀ = (1, 1); sau lần giãn đầu có 3 điểm.
+Kết luận: Dừng ở k=18 vì Xk=Xk−1. SE chữ thập (4 hướng).
+Aᶜ
+1	1	1	1	1	1	1	1	1	1	1
+1	0	0	0	0	1	1	1	1	1	1
+1	0	1	1	0	1	1	0	0	0	1
+1	0	1	1	0	1	0	1	1	1	0
+1	0	0	0	0	1	0	1	1	1	0
+1	1	1	1	1	1	1	0	0	0	1
+1	1	1	1	1	1	1	1	1	1	1
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(1,2), (2,1)	3
+2	(1,3), (3,1)	5
+3	(1,4), (4,1)	7
+4	(1,5), (5,1)	9
+5	(1,6), (6,1)	11
+6	(1,7), (2,6), (6,2), (7,1)	15
+7	(1,8), (2,7), (3,6), (6,3), (7,2)	20
+8	(1,9), (2,8), (3,7), (4,6), (6,4), (7,3)	26
+9	(1,10), (2,9), (5,6), (6,5), (7,4)	31
+10	(1,11), (2,10), (6,6), (7,5)	35
+11	(2,11), (6,7), (7,6)	38
+12	(3,11), (7,7)	40
+13	(7,8)	41
+14	(7,9)	42
+15	(7,10)	43
+16	(7,11)	44
+17	(6,11)	45
+18	Không có điểm mới — dừng	45
+Xk khi dừng
+1	1	1	1	1	1	1	1	1	1	1
+1	0	0	0	0	1	1	1	1	1	1
+1	0	0	0	0	1	1	0	0	0	1
+1	0	0	0	0	1	0	0	0	0	0
+1	0	0	0	0	1	0	0	0	0	0
+1	1	1	1	1	1	1	0	0	0	1
+1	1	1	1	1	1	1	1	1	1	1
+A′ = A ∪ Xk
+1	1	1	1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1	1	1	1
+1	1	0	0	1	1	1	1	1	1	1
+1	1	0	0	1	1	1	0	0	0	1
+1	1	1	1	1	1	1	0	0	0	1
+1	1	1	1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1	1	1	1
+Bước 2. Tận dụng nền ngoài để tô tất cả vùng kín.
+Công thức: A_{day}=X_{ngoai}^{c}
+Ký hiệu: X_ngoài là toàn bộ nền ngoài lan được tới từ hạt ngoài; A_đầy là ảnh gồm đường biên và các vùng kín; số mũ c là phần bù trong khung ảnh.
+Cách làm: Lan từ nền ngoài bằng SE chữ thập với ràng buộc không vượt đường biên, tới khi ổn định. Đảo 0↔1 của tập nền ngoài đã tìm để giữ đường biên và toàn bộ vùng kín.
+Thay số / thực hiện: Nền ngoài có 45 điểm; phần bù có 32 điểm.
+Kết luận: Một hạt chỉ tô vùng liên thông chứa nó, nên muốn tô riêng cả hai cần hạt trong mỗi vùng. Cách tô toàn bộ: lan từ mọi pixel biên khung thuộc nền ngoài, rồi lấy phần bù; trong bài này (1,1) nối được toàn nền ngoài nên đủ.
+Cả hai vùng đã tô bằng phần bù nền ngoài
+0	0	0	0	0	0	0	0	0	0	0
+0	1	1	1	1	0	0	0	0	0	0
+0	1	1	1	1	0	0	1	1	1	0
+0	1	1	1	1	0	1	1	1	1	1
+0	1	1	1	1	0	1	1	1	1	1
+0	0	0	0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0	0	0	0

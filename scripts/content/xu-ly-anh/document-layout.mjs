@@ -46,16 +46,23 @@ function blocksHtml(blocks=[]){
 export function exerciseHtml(item,sources,images){
   const area=item.area==='bank'?`giải ngân hàng · ${item.points} điểm`:`giải bài cô Uyên · Chương ${item.chapter}`;
   const refs=item.references.map(r=>`${sources.find(s=>s.id===r.sourceId)?.title??r.sourceId}, trang PDF ${r.pdfPage}`).filter((r,i,a)=>a.indexOf(r)===i);
+  const sections=[];
+  for(const s of item.steps){
+    if(sections.at(-1)?.title!==s.section)sections.push({title:s.section,steps:[]});
+    sections.at(-1).steps.push(s);
+  }
   return `<header class="item-header"><p class="area">XỬ LÝ ẢNH · ${e(area)}</p><h1>Bài ${e(item.code)}. ${e(item.title)}</h1></header>
     <section class="problem"><h2>Đề bài</h2>${images.map((src,i)=>`<figure class="prompt-figure"><img src="${src}" alt="Đề gốc bài ${e(item.code)}, phần ${i+1}"></figure>`).join('')}</section>
     <section class="answer-start"><h2>BÀI GIẢI · Bài ${e(item.code)}</h2><p class="answer-cue"><strong>Cần nhớ:</strong> ${item.keywords.map(e).join(' · ')}</p>
     ${item.note?`<aside class="correction"><strong>Lưu ý dữ kiện / quy ước:</strong> ${text(item.note)}</aside>`:''}
-    ${item.steps.map((s,i)=>`<section class="answer-step" data-step="${i}"><h3>Bước ${i+1}. ${e(s.lead)}</h3>
+    ${sections.map(group=>`<section class="answer-part"><h3 class="part-heading">${e(group.title)}</h3>${group.steps.map((s,i)=>`<section class="answer-step" data-step="${i}"><h4>Bước ${i+1}. ${e(s.lead)}</h4>
       ${s.formula?`<p class="label">Áp dụng công thức:</p><div class="equation" data-tex="${e(s.formula)}">${math(s.formula)}</div>`:''}
+      ${s.symbols?`<p class="symbol-note"><strong>Ký hiệu:</strong> ${text(s.symbols)}</p>`:''}
+      ${s.method?`<p class="method"><strong>Cách làm:</strong> ${text(s.method)}</p>`:''}
       ${s.substitution?`<p class="substitution"><strong>Thay số / thực hiện:</strong> ${text(s.substitution)}</p>`:''}
-      ${s.text?`<p>${text(s.text)}</p>`:''}
+      ${s.text&&s.text!==s.method?`<p>${text(s.text)}</p>`:''}
       ${blocksHtml(s.blocks)}
-      ${s.result?`<p class="result"><strong>Kết luận:</strong> ${text(s.result)}</p>`:''}</section>`).join('')}
+      ${s.result&&s.result!==s.method?`<p class="result"><strong>Kết luận:</strong> ${text(s.result)}</p>`:''}</section>`).join('')}</section>`).join('')}
     <section class="references"><h3>Nguồn đối chiếu</h3><ul>${refs.map(r=>`<li>${e(r)}</li>`).join('')}</ul></section></section>`;
 }
 
@@ -65,3 +72,4 @@ export const printCss=`
 h1{font-size:19pt;line-height:1.3;margin:6pt 0 14pt}h2{font-size:17pt;margin:12pt 0 10pt}h3{font-size:14pt;line-height:1.4;margin:16pt 0 7pt;break-after:avoid-page}p{margin:7pt 0;orphans:3;widows:3}.area{font-family:Arial,sans-serif;font-size:10pt;letter-spacing:.25pt;color:#3c5147}.item-header{border-bottom:1pt solid #555;padding-bottom:8pt}.prompt-figure{margin:8pt 0;break-inside:avoid}.prompt-figure img{display:block;max-width:100%;max-height:225mm;object-fit:contain;margin:0 auto}.answer-start{break-before:page}.answer-start>h2{text-align:center;margin-top:0}.answer-cue{font-style:italic;margin-bottom:12pt}.correction{padding:9pt 12pt;border-left:2pt solid #555;background:#f4f4f4;font-size:12pt;margin:10pt 0;break-inside:avoid}.label{margin:6pt 0 0;font-style:italic;break-after:avoid}.equation{text-align:center;font-size:13pt;margin:5pt 0 10pt;break-inside:avoid}.katex-display{margin:.4em 0}.katex{font-size:1.05em}.substitution{margin:8pt 0}.result{font-weight:normal;margin:10pt 0}.result strong{border-bottom:1px solid #333}figure{margin:10pt 0 14pt;max-width:100%}figcaption{font-style:italic;text-align:center;font-size:12pt;margin:5pt 0}.matrix-figure{display:flex;align-items:center;flex-direction:column;break-inside:avoid}.matrix-brackets{display:inline-block;position:relative;padding:3pt 8pt;border-left:1.3pt solid #111;border-right:1.3pt solid #111}.matrix-brackets:before,.matrix-brackets:after{content:'';position:absolute;inset:0;border-top:1.3pt solid #111;border-bottom:1.3pt solid #111;width:6pt}.matrix-brackets:before{left:0}.matrix-brackets:after{left:auto;right:0}.matrix-brackets table{border-collapse:collapse;font-size:12pt;font-variant-numeric:tabular-nums}.matrix-brackets td{padding:2pt 5pt;text-align:center;white-space:nowrap}.matrix-pair{display:flex;justify-content:space-evenly;align-items:flex-start;gap:12pt;break-inside:avoid}.matrix-pair>.matrix-figure{max-width:49%;flex:0 1 auto}.data-table{break-inside:auto}.data-table table{border-collapse:collapse;margin:0 auto;max-width:100%;width:auto;font-size:11.5pt;text-align:center}.data-table th,.data-table td{border:.55pt solid #555;padding:3pt 5pt;overflow-wrap:anywhere}.data-table th{background:#f2f2f2;font-weight:bold}.data-table tr{break-inside:avoid}.data-table thead{display:table-header-group}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:10.5pt/1.4 Consolas,monospace;break-inside:avoid}.references{font-size:10.5pt;border-top:.5pt solid #aaa;margin-top:18pt;padding-top:5pt}.references h3{font-size:11pt;margin:5pt 0}.references ul{padding-left:15pt;margin:5pt 0}.cover{padding:40mm 8mm 0}.cover h1{font-size:28pt}.cover h2{font-size:20pt}.cover p{font-size:15pt;line-height:1.7}.cover .byline{margin-top:35pt;font-size:12pt;color:#444}
 `;
 export const sizingCss=`body{width:178mm}p{overflow-wrap:anywhere}.matrix-figure{font-size:12pt}.matrix-brackets table{font-size:inherit}.data-table{font-size:11.5pt}.data-table table{font-size:inherit}.table-note{font-size:11pt;font-style:italic}`;
+export const teachingCss=`.part-heading{font-size:16pt;border-bottom:1pt solid #555;padding:7pt 0;margin:18pt 0 10pt;break-after:avoid-page}.answer-step h4{font-size:13.5pt;line-height:1.4;margin:12pt 0 7pt;break-after:avoid-page}.symbol-note{font-size:12.5pt;background:#f5f5f3;padding:7pt 9pt;border-left:1.5pt solid #888;orphans:3;widows:3;break-inside:avoid}.method{margin:9pt 0;break-inside:avoid}.answer-step{margin-bottom:16pt}.answer-part>.answer-step:first-of-type h4{margin-top:7pt}`;

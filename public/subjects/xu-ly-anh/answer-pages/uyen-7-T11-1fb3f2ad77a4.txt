@@ -1,0 +1,72 @@
+Bài 7.T11. Trích thành phần liên thông 4 và 8
+
+
+Câu (a) — SE vuông, hạt (2,2)
+Bước 1. Lan hạt giống trong đối tượng.
+Công thức: X_k=(X_{k-1}\oplus B)\cap A
+Ký hiệu: A là ảnh đối tượng hoặc đường biên theo đề; Aᶜ là phần bù; B là SE điều khiển liên thông; X₀ là hạt giống; X_k là tập sau vòng k; ⊕ là giãn, ∩ là giao.
+Cách làm: Khởi tạo X₀ đúng các hạt đã cho. Mỗi vòng giãn X trước, sau đó AND với Aᶜ để làm đầy hoặc với A để trích thành phần. Ghi các điểm mới, lặp đến X_k=X_k−1. Làm đầy kết thúc bằng A′=A∪X_k.
+Thay số / thực hiện: X₀ = (2, 2); sau lần giãn đầu có 3 điểm.
+Kết luận: Dừng ở k=4 vì Xk=Xk−1. SE vuông (8 hướng).
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(2,3), (3,2)	3
+2	(4,3)	4
+3	(4,4)	5
+4	Không có điểm mới — dừng	5
+Xk khi dừng
+0	0	0	0	0	0	0	0	0
+0	1	1	0	0	0	0	0	0
+0	1	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+
+Câu (b) — SE chữ thập
+Bước 1. Lan hạt giống trong đối tượng.
+Công thức: X_k=(X_{k-1}\oplus B)\cap A
+Ký hiệu: A là ảnh đối tượng hoặc đường biên theo đề; Aᶜ là phần bù; B là SE điều khiển liên thông; X₀ là hạt giống; X_k là tập sau vòng k; ⊕ là giãn, ∩ là giao.
+Cách làm: Khởi tạo X₀ đúng các hạt đã cho. Mỗi vòng giãn X trước, sau đó AND với Aᶜ để làm đầy hoặc với A để trích thành phần. Ghi các điểm mới, lặp đến X_k=X_k−1. Làm đầy kết thúc bằng A′=A∪X_k.
+Thay số / thực hiện: X₀ = (2, 2); sau lần giãn đầu có 3 điểm.
+Kết luận: Dừng ở k=2 vì Xk=Xk−1. SE chữ thập (4 hướng).
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(2,3), (3,2)	3
+2	Không có điểm mới — dừng	3
+Xk khi dừng
+0	0	0	0	0	0	0	0	0
+0	1	1	0	0	0	0	0	0
+0	1	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+
+Câu (c) — Hạt (2,7)
+Bước 1. Lan hạt giống trong đối tượng.
+Công thức: X_k=(X_{k-1}\oplus B)\cap A
+Ký hiệu: A là ảnh đối tượng hoặc đường biên theo đề; Aᶜ là phần bù; B là SE điều khiển liên thông; X₀ là hạt giống; X_k là tập sau vòng k; ⊕ là giãn, ∩ là giao.
+Cách làm: Khởi tạo X₀ đúng các hạt đã cho. Mỗi vòng giãn X trước, sau đó AND với Aᶜ để làm đầy hoặc với A để trích thành phần. Ghi các điểm mới, lặp đến X_k=X_k−1. Làm đầy kết thúc bằng A′=A∪X_k.
+Thay số / thực hiện: X₀ = (2, 7); sau lần giãn đầu có 3 điểm.
+Kết luận: Dừng ở k=5 vì Xk=Xk−1. SE vuông (8 hướng).
+
+k	Điểm mới (hàng,cột) từ 1	Tổng pixel trong Xk
+1	(2,8), (3,8)	3
+2	(4,7), (4,8)	5
+3	(5,6)	6
+4	(6,6), (6,7)	8
+5	Không có điểm mới — dừng	8
+Xk khi dừng
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	1	1	0
+0	0	0	0	0	0	0	1	0
+0	0	0	0	0	0	1	1	0
+0	0	0	0	0	1	0	0	0
+0	0	0	0	0	1	1	0	0
+0	0	0	0	0	0	0	0	0
+
+Câu (d) — Đếm thành phần
+Bước 1. Đếm toàn bộ thành phần, không chỉ thành phần có hạt đã chọn.
+Cách làm: Liên thông 8: 3 thành phần; liên thông 4: 5 thành phần. Các tiếp xúc chéo nối được với SE vuông nhưng không nối với chữ thập.
+Giải thích: Liên thông 8: 3 thành phần; liên thông 4: 5 thành phần. Các tiếp xúc chéo nối được với SE vuông nhưng không nối với chữ thập.

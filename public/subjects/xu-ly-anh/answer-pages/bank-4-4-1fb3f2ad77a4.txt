@@ -1,0 +1,92 @@
+Bài 4.4. So sánh biên ảnh có dải sáng
+ Đề gốc đánh nhãn a hai lần; lời giải gọi yêu cầu xử lý ảnh thứ hai là câu (b), giữ nguyên dữ kiện và thứ tự.
+
+Câu (a) — Xử lý ảnh thứ nhất
+Bước 1. Tính đáp ứng theo hướng x.
+Công thức: G_x(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_x(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3,cột 3): Gx = (5·1) + (5·0) + (5·-1) + (5·2) + (5·0) + (5·-2) + (5·1) + (5·0) + (5·-1) = 0.
+I₁ ⊗ Hx
+-15	0	0	0	0	0	15
+-20	0	0	0	0	0	20
+-20	0	0	0	0	0	20
+-20	0	1	1	0	0	19
+-19	1	3	3	0	0	16
+-16	3	3	3	0	0	13
+-10	3	1	1	0	0	9
+Bước 2. Tính đáp ứng theo hướng y.
+Công thức: G_y(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_y(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3, cột 3): Gy = (5·1) + (5·2) + (5·1) + (5·0) + (5·0) + (5·0) + (5·-1) + (5·-2) + (5·-1) = 0.
+I₁ ⊗ Hy
+-15	-20	-20	-20	-20	-20	-15
+0	0	0	0	0	0	0
+0	0	0	0	0	0	0
+0	0	1	3	4	4	3
+1	3	5	7	8	8	6
+4	7	7	5	4	4	3
+14	17	15	13	12	12	9
+Bước 3. Ghép hai đáp ứng theo đúng yêu cầu đề.
+Công thức: I_1=G_x+G_y
+Ký hiệu: Gx,Gy là hai đáp ứng vừa tính tại cùng pixel; I₁ là kết quả ghép. Dấu | | là trị tuyệt đối khi có trong công thức.
+Cách làm: Ghép từng cặp phần tử cùng vị trí. Cộng có dấu khi đề yêu cầu cộng hai ảnh; lấy trị tuyệt đối trước khi cộng khi đề yêu cầu độ lớn gradient. Không cắt giá trị âm ở giữa phép tính.
+Thay số / thực hiện: Tại (3,3), Gx=0, Gy=0 ⇒ kết quả=0.
+I₁₁ = Gx + Gy (cộng có dấu theo đề)
+-30	-20	-20	-20	-20	-20	0
+-20	0	0	0	0	0	20
+-20	0	0	0	0	0	20
+-20	0	2	4	4	4	22
+-18	4	8	10	8	8	22
+-12	10	10	8	4	4	16
+4	20	16	14	12	12	18
+
+Câu (b) — Xử lý ảnh thứ hai
+Bước 1. Tính đáp ứng theo hướng x.
+Công thức: G_x(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_x(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3,cột 3): Gx = (5·1) + (5·0) + (5·-1) + (5·2) + (5·0) + (5·-2) + (5·1) + (5·0) + (5·-1) = 0.
+I₂ ⊗ Hx
+-15	0	0	0	0	0	15
+-20	0	0	0	0	0	20
+-20	0	0	0	0	0	20
+-20	0	-9	-9	0	0	29
+-29	-9	-7	-7	0	0	36
+-36	-7	13	13	0	0	23
+-20	13	11	11	0	0	9
+Bước 2. Tính đáp ứng theo hướng y.
+Công thức: G_y(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_y(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3, cột 3): Gy = (5·1) + (5·2) + (5·1) + (5·0) + (5·0) + (5·0) + (5·-1) + (5·-2) + (5·-1) = 0.
+I₂ ⊗ Hy
+-15	-20	-20	-20	-20	-20	-15
+0	0	0	0	0	0	0
+0	0	0	0	0	0	0
+0	0	-9	-27	-36	-36	-27
+-9	-27	-25	-3	8	8	6
+-16	-3	17	35	44	44	33
+24	47	45	23	12	12	9
+Bước 3. Ghép hai đáp ứng theo đúng yêu cầu đề.
+Công thức: I_1=G_x+G_y
+Ký hiệu: Gx,Gy là hai đáp ứng vừa tính tại cùng pixel; I₁ là kết quả ghép. Dấu | | là trị tuyệt đối khi có trong công thức.
+Cách làm: Ghép từng cặp phần tử cùng vị trí. Cộng có dấu khi đề yêu cầu cộng hai ảnh; lấy trị tuyệt đối trước khi cộng khi đề yêu cầu độ lớn gradient. Không cắt giá trị âm ở giữa phép tính.
+Thay số / thực hiện: Tại (3,3), Gx=0, Gy=0 ⇒ kết quả=0.
+I₂₁ = Gx + Gy (cộng có dấu theo đề)
+-30	-20	-20	-20	-20	-20	0
+-20	0	0	0	0	0	20
+-20	0	0	0	0	0	20
+-20	0	-18	-36	-36	-36	2
+-38	-36	-32	-10	8	8	42
+-52	-10	30	48	44	44	56
+4	60	56	34	12	12	18
+
+Câu (c) — So sánh hai ảnh
+Bước 1. So sánh đáp ứng của hai ảnh.
+Cách làm: Ảnh thứ hai thay dải chuyển tiếp bằng mức 14 nên tạo biến thiên lớn hơn và thêm đáp ứng quanh dải đó; không chỉ khuếch đại đều toàn ảnh. Phép đạo hàm nhạy với nhiễu/đỉnh sáng; cần làm trơn trước khi tìm biên. Phép cộng có dấu có thể che khuất một số đáp ứng do triệt tiêu.
+Giải thích: Ảnh thứ hai thay dải chuyển tiếp bằng mức 14 nên tạo biến thiên lớn hơn và thêm đáp ứng quanh dải đó; không chỉ khuếch đại đều toàn ảnh. Phép đạo hàm nhạy với nhiễu/đỉnh sáng; cần làm trơn trước khi tìm biên. Phép cộng có dấu có thể che khuất một số đáp ứng do triệt tiêu.
+Bước 2. Chuyển đáp ứng thành biên cần thêm bước chọn biên.
+Cách làm: Các ma trận trên là đáp ứng lọc. Với gradient, tính |Gx|+|Gy| (không cộng có dấu vì có thể triệt tiêu), rồi làm mảnh/đặt ngưỡng và liên kết biên. Laplace thường xét đổi dấu kết hợp ngưỡng sau làm trơn. Ví dụ minh họa gradient: chọn τ=10 thì pixel có |Gx|+|Gy|≥10 là ứng viên biên; đây là ngưỡng minh họa, không phải đáp án duy nhất của đề. Đệm 0 có thể tạo đáp ứng giả ở rìa ảnh.
+Giải thích: Các ma trận trên là đáp ứng lọc. Với gradient, tính |Gx|+|Gy| (không cộng có dấu vì có thể triệt tiêu), rồi làm mảnh/đặt ngưỡng và liên kết biên. Laplace thường xét đổi dấu kết hợp ngưỡng sau làm trơn. Ví dụ minh họa gradient: chọn τ=10 thì pixel có |Gx|+|Gy|≥10 là ứng viên biên; đây là ngưỡng minh họa, không phải đáp án duy nhất của đề. Đệm 0 có thể tạo đáp ứng giả ở rìa ảnh.

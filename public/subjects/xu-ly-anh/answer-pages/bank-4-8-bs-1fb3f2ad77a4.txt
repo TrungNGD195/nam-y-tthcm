@@ -1,0 +1,70 @@
+Bài 4.8-bs. Đẳng liệu và đối xứng nền
+Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
+
+Câu (a) — Đẳng điệu cho ảnh I
+Bước 1. Lặp ngưỡng đẳng liệu/đẳng điệu theo trung bình hai lớp.
+Công thức: \mu_1(t)=\frac{\sum_{g\le t}gh(g)}{\sum_{g\le t}h(g)},\quad \mu_2(t)=\frac{\sum_{g>t}gh(g)}{\sum_{g>t}h(g)},\quad t_{n+1}=\frac{\mu_1+\mu_2}{2}
+Ký hiệu: h(g) là tần suất mức g; t là ngưỡng đang thử; μ₁,μ₂ là trung bình có trọng số của hai lớp ≤t và >t; n là chỉ số vòng lặp; t_n+1 là ngưỡng vòng sau.
+Cách làm: Tách histogram bằng ngưỡng hiện tại. Với mỗi lớp, lấy tổng g·h(g) chia tổng h(g), rồi lấy trung bình hai kết quả làm ngưỡng mới. Lặp tới khi ngưỡng/phân hoạch không đổi; chỉ làm tròn mỗi vòng khi đề quy định.
+Thay số / thực hiện: t₀ = 5; t₁ trước làm tròn = (3.07407 + 7.04082)/2 = 5.05745.
+Kết luận: Ngưỡng cuối = 5.05745; phân nhóm g ≤ t và g > t. Giữ số thực trong khi lặp theo giáo trình; ngưỡng thực xác định cùng phân hoạch như phần nguyên của nó, không làm tròn mỗi vòng.
+
+t hiện tại	μ₁	μ₂	t kế tiếp
+5	3.07407	7.04082	5.05745
+5.05745	3.07407	7.04082	5.05745
+
+Câu (b) — Đối xứng nền cho ảnh I′
+Bước 1. Tìm đỉnh nền, mức phân vị rồi lấy đối xứng.
+Công thức: T=2\mathrm{maxp}-a,\quad P(a)=\frac{\sum_{g=0}^a h(g)}{N}
+Ký hiệu: N là tổng pixel; h(g) là tần suất; maxp là mức có tần suất nền lớn nhất; p% là tỷ lệ tích lũy yêu cầu; a là mức phân vị được chọn; P(a) là tỷ lệ tích lũy tới a; T là ngưỡng.
+Cách làm: Cộng dồn histogram, tính p%·N, xác định đỉnh maxp và chọn a theo đúng quy ước ≥ hoặc ≤ ghi tại bài. Lấy điểm đối xứng của a qua maxp bằng T=2maxp−a; kiểm tra giả thiết nền trội gần đối xứng.
+Thay số / thực hiện: N=456; 88%N=401.28; maxp=5; a=6; T=2·5−6=4.
+Kết luận: Theo quy ước riêng của đề này, lấy a lớn nhất có tích lũy ≤ p%N. Histogram này không có nền sáng trội rõ; kết quả chỉ là áp dụng cơ học, cần xem lại giả thiết.
+
+g	h(g)	tích lũy
+0	39	39
+1	45	84
+2	53	137
+3	72	209
+4	40	249
+5	112	361
+6	25	386
+7	34	420
+8	23	443
+9	13	456
+
+Câu (c) — Đánh giá và chọn phương pháp
+Bước 1. Đánh giá giả thiết trước khi đổi phương pháp.
+Cách làm: Đẳng liệu phù hợp khi hai lớp có trung bình khác nhau; đối xứng nền phù hợp nền trội gần đối xứng, không mặc nhiên đúng chỉ vì có một đỉnh lớn. Với mỗi biểu đồ cần nhìn hình dạng: nếu nền không trội hoặc nhiều đỉnh, ưu tiên thử Otsu/đẳng liệu và kiểm tra ảnh nhị phân; không thể chứng minh ngưỡng đúng về ngữ nghĩa chỉ từ histogram.
+Giải thích: Đẳng liệu phù hợp khi hai lớp có trung bình khác nhau; đối xứng nền phù hợp nền trội gần đối xứng, không mặc nhiên đúng chỉ vì có một đỉnh lớn. Với mỗi biểu đồ cần nhìn hình dạng: nếu nền không trội hoặc nhiều đỉnh, ưu tiên thử Otsu/đẳng liệu và kiểm tra ảnh nhị phân; không thể chứng minh ngưỡng đúng về ngữ nghĩa chỉ từ histogram.
+Bước 2. Tìm đỉnh nền, mức phân vị rồi lấy đối xứng.
+Công thức: T=2\mathrm{maxp}-a,\quad P(a)=\frac{\sum_{g=0}^a h(g)}{N}
+Ký hiệu: N là tổng pixel; h(g) là tần suất; maxp là mức có tần suất nền lớn nhất; p% là tỷ lệ tích lũy yêu cầu; a là mức phân vị được chọn; P(a) là tỷ lệ tích lũy tới a; T là ngưỡng.
+Cách làm: Cộng dồn histogram, tính p%·N, xác định đỉnh maxp và chọn a theo đúng quy ước ≥ hoặc ≤ ghi tại bài. Lấy điểm đối xứng của a qua maxp bằng T=2maxp−a; kiểm tra giả thiết nền trội gần đối xứng.
+Thay số / thực hiện: N=760; 88%N=668.8; maxp=7; a=7; T=2·7−7=7.
+Kết luận: Theo quy ước riêng của đề này, lấy a lớn nhất có tích lũy ≤ p%N. Đỉnh nền rõ, chọn cách này hợp lý hơn khi nền trội gần đối xứng.
+
+g	h(g)	tích lũy
+0	20	20
+1	40	60
+2	30	90
+3	50	140
+4	70	210
+5	60	270
+6	120	390
+7	250	640
+8	100	740
+9	20	760
+Bước 3. Lặp ngưỡng đẳng liệu/đẳng điệu theo trung bình hai lớp.
+Công thức: \mu_1(t)=\frac{\sum_{g\le t}gh(g)}{\sum_{g\le t}h(g)},\quad \mu_2(t)=\frac{\sum_{g>t}gh(g)}{\sum_{g>t}h(g)},\quad t_{n+1}=\frac{\mu_1+\mu_2}{2}
+Ký hiệu: h(g) là tần suất mức g; t là ngưỡng đang thử; μ₁,μ₂ là trung bình có trọng số của hai lớp ≤t và >t; n là chỉ số vòng lặp; t_n+1 là ngưỡng vòng sau.
+Cách làm: Tách histogram bằng ngưỡng hiện tại. Với mỗi lớp, lấy tổng g·h(g) chia tổng h(g), rồi lấy trung bình hai kết quả làm ngưỡng mới. Lặp tới khi ngưỡng/phân hoạch không đổi; chỉ làm tròn mỗi vòng khi đề quy định.
+Thay số / thực hiện: t₀ = 5; t₁ trước làm tròn = (3.01108 + 7.25263)/2 = 5.13186.
+Kết luận: Ngưỡng cuối = 5.13186; phân nhóm g ≤ t và g > t. Giữ số thực trong khi lặp theo giáo trình; ngưỡng thực xác định cùng phân hoạch như phần nguyên của nó, không làm tròn mỗi vòng.
+
+t hiện tại	μ₁	μ₂	t kế tiếp
+5	3.01108	7.25263	5.13186
+5.13186	3.01108	7.25263	5.13186
+Bước 4. Đề xuất đổi phương pháp cho bài bổ sung.
+Cách làm: Ảnh A có đỉnh trội tại 7 với đuôi trái dài, có thể thử đối xứng nền; ảnh B có nhiều đỉnh, nền không trội rõ nên ưu tiên đẳng liệu/Otsu hơn đối xứng nền. Hai phép tính đổi chéo ở trên minh họa lựa chọn này; vẫn phải kiểm tra ảnh phân vùng vì histogram không cho biết hình học đối tượng.
+Giải thích: Ảnh A có đỉnh trội tại 7 với đuôi trái dài, có thể thử đối xứng nền; ảnh B có nhiều đỉnh, nền không trội rõ nên ưu tiên đẳng liệu/Otsu hơn đối xứng nền. Hai phép tính đổi chéo ở trên minh họa lựa chọn này; vẫn phải kiểm tra ảnh phân vùng vì histogram không cho biết hình học đối tượng.

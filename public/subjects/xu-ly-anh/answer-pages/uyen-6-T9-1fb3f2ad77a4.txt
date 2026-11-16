@@ -1,0 +1,43 @@
+Bài 6.T9. Lượng tử hóa, zig-zag và RLE JPEG
+
+
+Câu (a) — Lượng tử hóa
+Bước 1. Chia từng hệ số cho bước lượng tử và làm tròn gần nhất.
+Công thức: T^{\prime}(u,v)=\operatorname{round}(T(u,v)/Q(u,v))
+Ký hiệu: T hoặc I_DCT là hệ số DCT trước lượng tử; Q là bước lượng tử tại cùng ô, không phải số lượng màu; T′ hoặc I_Q là hệ số sau lượng tử; round là làm tròn gần nhất.
+Cách làm: Chia từng hệ số DCT cho đúng phần tử Q cùng vị trí rồi làm tròn nửa ra xa 0. Đây là phép chia từng phần tử, không phải phép chia ma trận. Đếm số ô khác 0 trên kết quả đã làm tròn.
+Thay số / thực hiện: T′(0,0)=round(425/16)=27; T′(0,1)=round(51/11)=5.
+Ma trận sau lượng tử hóa
+27	5	3	-3	-1	0	0	0
+7	-5	3	1	0	0	0	0
+3	2	-1	0	0	0	0	0
+2	1	-1	0	0	0	0	0
+1	1	0	0	0	0	0	0
+-1	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+
+Câu (b) — Đếm hệ số khác 0
+Bước 1. Đếm trên ma trận đã lượng tử.
+Cách làm: Duyệt từng hàng của T′, đánh dấu các ô khác 0 rồi cộng số lượng. Đếm sau khi làm tròn, gồm cả DC, không đếm hệ số trước lượng tử hóa.
+Giải thích: Có 18 hệ số khác 0.
+
+Câu (c) — Vector zig-zag
+Bước 1. Quét chéo từ DC đến tần số cao.
+Cách làm: Bắt đầu (0,0), đi từng đường chéo và đảo hướng xen kẽ; đọc đủ 64 ô, không sắp xếp theo độ lớn hệ số.
+Thay số / thực hiện: Vector zig-zag: [27, 5, 7, 3, -5, 3, -3, 3, 2, 2, 1, 1, -1, 1, -1, 0, 0, 0, -1, 1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0].
+
+Câu (d) — RLE các AC
+Bước 1. Quét đường chéo zig-zag rồi đếm 0 trước mỗi AC khác 0.
+Công thức: \mathrm{RLE}_{AC}=(\mathrm{skip},\mathrm{value})
+Ký hiệu: AC là các hệ số ngoài DC; skip hoặc RUN là số hệ số 0 đứng trước một hệ số khác 0; value là hệ số đó; EOB=(0,0) báo đuôi toàn 0; ZRL=(15,0) biểu diễn 16 số 0.
+Cách làm: Đọc các AC theo zig-zag, đếm số 0 trước mỗi giá trị khác 0 rồi xuất cặp. Nếu đuôi còn toàn 0 thì kết thúc bằng EOB; không đưa DC vào dãy AC. Giải mã bằng chèn đúng số 0 trước mỗi value.
+Kết luận: Các cặp AC: [(0, 5), (0, 7), (0, 3), (0, -5), (0, 3), (0, -3), (0, 3), (0, 2), (0, 2), (0, 1), (0, 1), (0, -1), (0, 1), (0, -1), (3, -1), (0, 1), (0, -1), (0, 0)]. (0,0) là EOB cho phần đuôi toàn 0; (15,0) nếu xuất hiện là ZRL cho 16 số 0.
+
+Câu (e) — Giải lượng tử và sai số
+Bước 1. Giải lượng tử hóa và dùng bảo toàn năng lượng DCT để tính sai số.
+Công thức: T^{\prime\prime}=T^{\prime}\odot Q,\quad SSE=\sum(T-T^{\prime\prime})^2,\quad e_{rms}=\sqrt{SSE/64}
+Ký hiệu: T′ là hệ số lượng tử; Q là bảng bước lượng tử; T″ là hệ số khôi phục; ⊙ là nhân từng phần tử; SSE là tổng bình phương sai số hệ số; e_rms là sai số căn quân phương của khối 8×8.
+Cách làm: Nhân từng T′ với Q cùng ô để giải lượng tử. Lấy T−T″ ở mỗi ô, bình phương và cộng thành SSE; với DCT trực giao, chia SSE cho 64 rồi lấy căn để suy ra RMS trong miền ảnh.
+Thay số / thực hiện: DC: 27·16=432 so với 425; (0,1): 5·11=55 so với 51. SSE=6705.
+Kết luận: e_rms=10.23551, bỏ qua làm tròn pixel theo đề.

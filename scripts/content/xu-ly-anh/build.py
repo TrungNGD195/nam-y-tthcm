@@ -54,6 +54,8 @@ for original in raw['records']:
         r['prompt']=f"Bài {code.replace('-bs',' (bổ sung không đánh số)')}: {r['title']}. Đọc đầy đủ dữ kiện và các ý hỏi trong đề gốc bên dưới."
     r['note']=r.get('note','')
     if r['id'] in CORRECTIONS:r['note']=CORRECTIONS[r['id']]
+    if r['id'] in ['bank-4-3','bank-4-4']:
+        r['note']+=' Đề gốc đánh nhãn a hai lần; lời giải gọi yêu cầu xử lý ảnh thứ hai là câu (b), giữ nguyên dữ kiện và thứ tự.'
     if r['id']=='bank-3-10':
         r['note']='Bảng co trong đáp án tham khảo có điểm 1 tại vị trí vốn là 0, ví dụ (4,3), trái với điều kiện fit khi tâm SE là 1. Lời giải tính lại từ đúng ma trận X và kiểm tra ảnh co phải là tập con của X.'
     if r['id']=='uyen-5-T6':
@@ -112,7 +114,7 @@ for original in raw['records']:
 
 assert len(records)==168 and len(SOLUTIONS)==67
 assert all(r['steps'] for r in records)
-data=dict(subjectId='xu-ly-anh',version='2026.11.16.1',updatedAt='2026-11-16',
+data=dict(subjectId='xu-ly-anh',version='2026.11.16.2',updatedAt='2026-11-16',
           chapters=[dict(number=n,title=t) for n,t in CHAPTERS.items()],sources=sources,items=records,
           coverage=dict(bank=51,uyen=117,theory=101,exercises=67,bankPoints={'1':14,'2':16,'3':11,'4':10},
                         englishTheory='28 câu trùng với Lý thuyết.pdf, gộp và giữ nguồn tiếng Anh trong danh mục'),
@@ -156,6 +158,7 @@ report+=['','## Câu trả lời lý thuyết hoàn chỉnh — 16/11/2026','',
     '- Ghi rõ lỗi 225 thay vì 255 ở đáp án đổi RGB 8 bit sang CMY; sửa phát biểu gamut CMY và nhầm trọng số Prewitt, không chép theo phần sai.',
     '- Canny: tài liệu mô tả vai trò quan trọng của bước 4 và 5, không đưa xếp hạng tuyệt đối một bước duy nhất. Câu trả lời giải thích trực tiếp vai trò làm mảnh và liên kết bằng hai ngưỡng.',
     '- `theory-answer-review.json` lưu đủ 101 ID, căn cứ, trang đáp án, các vế trả lời và hash để theo dõi nội dung.',
-    '- 67 bài tính và PDF/ảnh đã xuất giữ nguyên; hash của từng bài tính kiểm tra tính tương thích, độc lập với phiên bản của câu trả lời lý thuyết.']
+    '- 67 bài tính chia riêng từng câu (a), (b), (c) theo đề; công thức kèm ký hiệu, cách làm và thay số. PDF/ảnh được xuất lại từ bản trình bày mới, hash từng bài kiểm tra tính tương thích.',
+    '- scripts/content/xu-ly-anh/worked_parts.py lưu ánh xạ ý hỏi và cách giải thích ký hiệu. Công thức, bảng và ma trận tính từ calculations.py/exercises.py, tiếp tục được kiểm tra độc lập bằng NumPy/SciPy.']
 (ROOT/'content/xu-ly-anh/KIEM_KE_VA_QUY_UOC.md').write_text('\n'.join(report)+'\n',encoding='utf-8')
 print(f'Built {len(records)} solved items; {sum(r["kind"]=="exercise" for r in records)} calculations.')

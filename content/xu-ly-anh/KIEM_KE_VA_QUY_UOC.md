@@ -18,6 +18,8 @@
 - **bank-3-11**: Dùng quy ước fit/hit của slide cho kết quả chính; bổ sung riêng kết quả giãn tập hợp chuẩn vì SE không đối xứng, không tráo hai kết quả.
 - **bank-4-1**: Đề yêu cầu cộng hai đáp ứng: giữ phép cộng có dấu ở phần a. Để có độ lớn gradient cần |Gx|+|Gy|. Đề chỉ ghi tâm giữa, chưa nói biên: lời giải công bố đệm 0; phần trong không phụ thuộc cách đệm.
 - **bank-4-2**: Đề yêu cầu cộng hai đáp ứng: giữ phép cộng có dấu ở phần a. Để có độ lớn gradient cần |Gx|+|Gy|. Đề chỉ ghi tâm giữa, chưa nói biên: lời giải công bố đệm 0; phần trong không phụ thuộc cách đệm.
+- **bank-4-3**:  Đề gốc đánh nhãn a hai lần; lời giải gọi yêu cầu xử lý ảnh thứ hai là câu (b), giữ nguyên dữ kiện và thứ tự.
+- **bank-4-4**:  Đề gốc đánh nhãn a hai lần; lời giải gọi yêu cầu xử lý ảnh thứ hai là câu (b), giữ nguyên dữ kiện và thứ tự.
 - **bank-4-7**: Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
 - **bank-4-8**: Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
 - **bank-4-8-bs**: Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
@@ -207,4 +209,5 @@
 - Ghi rõ lỗi 225 thay vì 255 ở đáp án đổi RGB 8 bit sang CMY; sửa phát biểu gamut CMY và nhầm trọng số Prewitt, không chép theo phần sai.
 - Canny: tài liệu mô tả vai trò quan trọng của bước 4 và 5, không đưa xếp hạng tuyệt đối một bước duy nhất. Câu trả lời giải thích trực tiếp vai trò làm mảnh và liên kết bằng hai ngưỡng.
 - `theory-answer-review.json` lưu đủ 101 ID, căn cứ, trang đáp án, các vế trả lời và hash để theo dõi nội dung.
-- 67 bài tính và PDF/ảnh đã xuất giữ nguyên; hash của từng bài tính kiểm tra tính tương thích, độc lập với phiên bản của câu trả lời lý thuyết.
+- 67 bài tính chia riêng từng câu (a), (b), (c) theo đề; công thức kèm ký hiệu, cách làm và thay số. PDF/ảnh được xuất lại từ bản trình bày mới, hash từng bài kiểm tra tính tương thích.
+- scripts/content/xu-ly-anh/worked_parts.py lưu ánh xạ ý hỏi và cách giải thích ký hiệu. Công thức, bảng và ma trận tính từ calculations.py/exercises.py, tiếp tục được kiểm tra độc lập bằng NumPy/SciPy.

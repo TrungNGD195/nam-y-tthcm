@@ -1,0 +1,56 @@
+Bài 7.T3. So sánh SE chữ thập và vuông
+
+
+Câu (a) — Co với hai SE
+Bước 1. Tính ảnh co bằng điều kiện fit.
+Công thức: E(p)=\bigwedge_{b\in B}X(p+b)
+Ký hiệu: X hoặc A là ảnh nhị phân; B là các độ lệch tại ô SE bằng 1 tính từ gốc; p là vị trí đang xét; b là một độ lệch của B; E là ảnh co; D là ảnh giãn; ∧ là AND, ∨ là OR.
+Cách làm: Đặt gốc SE tại p, chỉ xét các ô SE bằng 1. Co cho 1 khi tất cả điểm tương ứng bằng 1; giãn theo hit cho 1 khi có ít nhất một điểm bằng 1. Ngoài khung lấy 0. Với SE bất đối xứng, giãn chuẩn xét X(p−b), khác hit trực tiếp X(p+b).
+Thay số / thực hiện: Tại (1,1), E=0; một ô ngoài ảnh bằng 0 đã đủ làm điều kiện AND sai.
+X₁ — phép co
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	1	1	1	0	0	0
+0	0	1	1	1	1	0	0
+0	0	0	1	1	1	0	0
+0	0	0	0	1	1	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+Bước 2. Co với SE vuông B₂.
+Công thức: E_2(p)=\bigwedge_{b\in B_2}X(p+b)
+Ký hiệu: X hoặc A là ảnh nhị phân; B là các độ lệch tại ô SE bằng 1 tính từ gốc; p là vị trí đang xét; b là một độ lệch của B; E là ảnh co; D là ảnh giãn; ∧ là AND, ∨ là OR.
+Cách làm: Đặt gốc SE tại p, chỉ xét các ô SE bằng 1. Co cho 1 khi tất cả điểm tương ứng bằng 1; giãn theo hit cho 1 khi có ít nhất một điểm bằng 1. Ngoài khung lấy 0. Với SE bất đối xứng, giãn chuẩn xét X(p−b), khác hit trực tiếp X(p+b).
+Thay số / thực hiện: Co chữ thập có 12 điểm 1, co vuông có 6.
+X ⊖ B₂ (vuông)
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	0
+0	0	0	1	1	0	0	0
+0	0	0	0	1	1	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+
+Câu (b) — Giãn với SE chữ thập
+Bước 1. Tính ảnh giãn theo điều kiện hit của bộ bài.
+Công thức: D_{hit}(p)=\bigvee_{b\in B}X(p+b)
+Ký hiệu: X hoặc A là ảnh nhị phân; B là các độ lệch tại ô SE bằng 1 tính từ gốc; p là vị trí đang xét; b là một độ lệch của B; E là ảnh co; D là ảnh giãn; ∧ là AND, ∨ là OR.
+Cách làm: Đặt gốc SE tại p, chỉ xét các ô SE bằng 1. Co cho 1 khi tất cả điểm tương ứng bằng 1; giãn theo hit cho 1 khi có ít nhất một điểm bằng 1. Ngoài khung lấy 0. Với SE bất đối xứng, giãn chuẩn xét X(p−b), khác hit trực tiếp X(p+b).
+Thay số / thực hiện: Tại (1,1), D_hit=0; chỉ cần một vị trí SE hoạt động trùng pixel 1.
+X₂ — giãn theo hit B của slide
+0	1	1	1	1	0	0	0
+1	1	1	1	1	1	0	0
+1	1	1	1	1	1	1	0
+1	1	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	0
+0	1	0	0	1	1	0	0
+
+Câu (c) — So sánh và chứng minh bao hàm
+Bước 1. Co bằng SE vuông có nhiều điều kiện hơn.
+Công thức: B_1\subseteq B_2\Rightarrow A\ominus B_2\subseteq A\ominus B_1
+Ký hiệu: A là ảnh nhị phân; B là SE; ⊖ là co; ⊕ là giãn; ∘ là mở; • là đóng; O,C lần lượt là kết quả mở/đóng; ⊆ là bao hàm.
+Cách làm: Với mở, co trước rồi giãn chính ảnh vừa co. Với đóng, giãn trước rồi co chính ảnh vừa giãn. Giữ cùng SE và quy ước ngoài khung; khi kiểm tra bao hàm, so từng vị trí 1 chứ không chỉ so tổng số điểm.
+Thay số / thực hiện: Co chữ thập có 12 điểm 1, co vuông có 6.
+Kết luận: Nếu toàn bộ B₂ fit thì tập con B₁ cũng fit; chiều ngược không bảo đảm.
