@@ -10,7 +10,7 @@
 - Giữ các biến thể lọc có ngưỡng θ trong giáo trình. Câu Canny giải thích vai trò của bước loại cực đại và hai ngưỡng; tài liệu không xác định một bước quan trọng nhất tuyệt đối. Tỷ lệ nén không tổn thất 2–10 có căn cứ tại slide nén ảnh tiếng Anh trang 17; không gán một khoảng tỷ lệ phổ quát cho nén có tổn thất.
 - Giữ nguyên toàn bộ 67 bản ghi bài tính và các PDF/PNG đã xuất. Kiểm tra sự tương thích PDF dựa trên hash từng bài tính, độc lập với thay đổi phiên bản lý thuyết.
 
-`content/xu-ly-anh/theory-answer-review.json` lưu 101 ID, căn cứ, trang đáp án, các phần trả lời, hash đề và hash câu trả lời. Đây là bảng theo dõi nội dung, không phải cam kết rằng đáp án nguồn không thể có sai sót.
+`content/xu-ly-anh/theory-answer-review.json` lưu 101 ID, căn cứ, trang đáp án, các phần trả lời, hash đề và hash câu trả lời.
 
 ## Kiểm tra tại máy
 
@@ -20,3 +20,10 @@
 - `python -X utf8 scripts/content/xu-ly-anh/verify.py`: đạt toàn bộ kiểm tra tính toán độc lập và khớp 67 lời giải đã xuất.
 - So sánh dữ liệu với bản trước: 67/67 bản ghi bài tính giống hoàn toàn; manifest PDF và thư mục ảnh lời giải không thay đổi.
 - Đã xem ảnh chụp toàn trang câu CMY ở desktop 1366 px: đoạn trả lời, tiêu đề từng phần, công thức, keyword và ghi chú nguồn hiển thị rõ.
+
+## Kiểm tra bản public
+
+- Commit triển khai: `deae60d`. [Workflow 43813323857](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/43813323857) hoàn tất thành công cả build và deploy, gồm kiểm tra tính toán, PDF, trình duyệt.
+- Lúc 05:57 UTC ngày 16/11/2026, đã truy cập đủ **101 câu lý thuyết trên GitHub Pages**, mở lời giải và so sánh từng đoạn với dữ liệu đã biên tập: khớp toàn bộ.
+- **59 khối công thức** hiển thị thành công, không có KaTeX error hoặc lỗi JavaScript. Ảnh chụp lưu tại `.analysis/theory-bank-2-2.png` và `.analysis/theory-uyen-6-L9.png` ở máy làm việc.
+- [Mở câu CMY có ghi chú sửa đáp án nguồn](https://trungngd195.github.io/nam-y-tthcm/#/mon/xu-ly-anh/bai/bank-2-2).
