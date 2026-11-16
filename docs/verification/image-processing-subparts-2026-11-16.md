@@ -24,3 +24,11 @@
 - `verify.py`: các phép tính tương quan, hình thái, histogram, DCT, LZW, Otsu, ISODATA, làm trơn, AC đều qua đối chiếu độc lập và khớp 67 lời giải xuất bản.
 - `verify_documents.py`: 67 bài, 263 trang, **193 ảnh khớp PDF với sai số pixel 0**; xác nhận đủ phần “Ký hiệu”, “Cách làm” và đúng vị trí tiêu đề từng câu.
 - So sánh với bản trước: 101 câu lý thuyết không đổi dữ liệu; 67 đề gốc và 124 ma trận giữ nguyên. Đã xem ảnh trang PDF và ảnh chụp trên desktop để rà bố cục.
+
+## Bản public
+
+- Commit `93975f4`, [workflow 43892044797](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/43892044797) hoàn tất thành công cả kiểm tra và triển khai.
+- Đã mở đủ **67 bài trên GitHub Pages**, đối chiếu số trang, danh sách từng câu và bản văn bản; đủ phần “Ký hiệu”, “Cách làm” tương ứng mỗi công thức/bước.
+- Tải và kiểm tra SHA-256 toàn bộ **193 ảnh và PDF 263 trang** từ bản public: khớp manifest, không có lỗi JavaScript.
+- Lúc 15:05 UTC ngày 16/11/2026, kiểm tra nút câu (g) của bài JPEG 6.T11: cuộn đúng vị trí tiêu đề trong ảnh. Câu lý thuyết 7.L8 có đủ bảy nhận định riêng và bảy phần trả lời tương ứng.
+- Ảnh chụp public tại `.analysis/subpart-navigation-public.png`; kết quả đủ 67 bài tại `.analysis/document-solutions-live-qa.json` trong workspace.
