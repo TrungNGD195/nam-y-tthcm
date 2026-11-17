@@ -1,0 +1,33 @@
+Bài 6.T12. SNR và đánh giá chất lượng ảnh nén
+
+ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI
+Các kết quả trung gian được tính cho đúng dữ kiện của bài này và cho sẵn ở dưới. Chỉ làm các yêu cầu còn lại; phần phương pháp đã học có liên kết để xem lại.
+Ảnh gốc f
+52	85	128	160
+97	78	107	86
+61	175	115	80
+42	135	127	99
+Ảnh khôi phục f̂
+54	82	128	161
+96	82	105	86
+64	175	111	82
+42	134	128	94
+Sai số đã tính
+SSE=91; e_rms=√(91/16)=2.38485.
+YÊU CẦU CẦN LÀM
+Câu (b): Dùng SSE=91 đã tính để tìm SNR_ms với năng lượng ảnh khôi phục ở tử số, rồi đổi sang dB.
+Câu (c): Ảnh có CR=12 có luôn tốt hơn ảnh có CR=6 không? Vì sao cần kết hợp đánh giá chủ quan?
+BÀI GIẢI
+
+Câu (b) — Tỷ số SNR
+Bước 1. Tính SNR theo công thức slide: năng lượng ảnh khôi phục ở tử.
+Công thức: SNR_{ms}=\frac{\sum\hat f^2}{\sum(\hat f-f)^2},\quad SNR_{dB}=10\log_{10}(SNR_{ms})
+Ký hiệu: f̂ là ảnh khôi phục; f là ảnh gốc; Σf̂² là năng lượng ảnh khôi phục theo quy ước slide; Σ(f̂−f)² là năng lượng sai số; SNR_ms là tỷ số, SNR_dB là giá trị decibel.
+Cách làm: Bình phương và cộng các pixel khôi phục để có tử số, chia cho SSE đã tính ở câu a. Đổi sang dB bằng 10log₁₀ của tỷ số, không lấy 20log₁₀ vì đây là tỷ số năng lượng.
+Thay số / thực hiện: Σf̂²=185012; SNRms=185012/91=2033.0989.
+Kết luận: SNR=33.08159 dB. Nếu dùng năng lượng ảnh gốc ở tử số sẽ ra 2045.50549; đó là quy ước khác, không trộn với slide.
+
+Câu (c) — Chất lượng và tỷ lệ nén
+Bước 1. Đánh giá tỷ lệ nén đi cùng mục đích sử dụng.
+Cách làm: CR=12 không luôn tốt hơn CR=6: cần so cả chất lượng, chi tiết quan trọng, sai dạng và yêu cầu lưu trữ/truyền. RMS/SNR không phản ánh hoàn toàn cảm nhận nên cần đánh giá chủ quan.
+Giải thích: CR=12 không luôn tốt hơn CR=6: cần so cả chất lượng, chi tiết quan trọng, sai dạng và yêu cầu lưu trữ/truyền. RMS/SNR không phản ánh hoàn toàn cảm nhận nên cần đánh giá chủ quan.

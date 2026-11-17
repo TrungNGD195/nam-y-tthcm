@@ -7,6 +7,12 @@ export type SolvedItem = {
   originalText: string; images: string[]; keywords: string[]; steps: SolutionStep[]; note: string;
   references: { sourceId: string; pdfPage: number; section: string }[];
   answerStyle?: 'complete'; answerBasis?: 'checked-key' | 'course-theory';
+  editedQuestion?: {
+    intro:string; givens:ContentBlock[];
+    supplied:{title:string;text:string;blocks:ContentBlock[]}[];
+    parts:{label:string;text:string}[];
+    previous:{id:string;covered:string}[];
+  };
 };
 export type Solutions = {
   subjectId: string; version: string; updatedAt: string; chapters: { number: number; title: string }[];

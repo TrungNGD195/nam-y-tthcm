@@ -29,4 +29,11 @@
 .answer-document-page{scroll-margin-top:20px}
 .prompt-subpart{padding:12px 0;border-top:1px solid var(--line);font-size:1.125rem;line-height:1.85}
 .theory-statement{margin:0 0 14px;padding:12px 16px;background:var(--surface-soft);border-left:3px solid #90a69b;font-size:1.0625rem;line-height:1.85}
+.focus-context{padding:14px 18px;background:#e8ede7;border:1px solid #d1ddcf;border-radius:9px;margin-bottom:18px;font-size:1rem}
+.focus-context p{margin:6px 0 0}.focus-context a{font-weight:650;text-decoration:underline}
+.focused-givens,.supplied-data{padding:16px 0;border-bottom:1px solid var(--line);min-width:0}
+.supplied-data{background:var(--surface-soft);padding:16px;margin:16px 0;border-radius:8px}
+.focused-requirements{margin-top:24px}.focused-question-part{padding:14px 0;border-bottom:1px solid var(--line)}
+.focused-question-part h4{font-size:1.125rem;margin:0 0 8px}.focused-question-part p{font-size:1.125rem;line-height:1.85;margin:0}
+.source-original{margin-top:24px;border-top:1px solid var(--line);padding-top:16px}.source-original>summary{cursor:pointer;font-weight:650;color:var(--accent)}
 @media(max-width:700px){.answer-document-pages{padding:6px;border-radius:6px}.document-toolbar{gap:8px}.document-toolbar .btn{width:100%}.answer-document-page figcaption{font-size:.8125rem}.document-answer .answer-heading h2{font-size:1.375rem}}

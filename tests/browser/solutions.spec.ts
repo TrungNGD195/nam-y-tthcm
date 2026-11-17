@@ -56,6 +56,8 @@ test('chapter lists combine theory and calculations with accent-insensitive keyw
   await page.locator('#solution-kind').selectOption('exercise');await expect(page.locator('.solution-row')).toHaveCount(11);
   await page.locator('#solution-search').fill('phan xa');await expect(page.locator('.solution-row')).toHaveCount(1);
   await page.locator('.solution-row').click();await expect(page.locator('.solved-heading h1')).toContainText('bất đối xứng');
+  await expect(page.locator('.focused-question-part')).toHaveCount(1);
+  await page.locator('.source-original>summary').click();
   const images=page.locator('.original-problem img');await expect(images).toHaveCount(1);
   await expect.poll(()=>images.first().evaluate((img:HTMLImageElement)=>img.complete&&img.naturalWidth>0)).toBe(true);
   await page.getByRole('button',{name:'Mở lời giải',exact:false}).click();
@@ -132,7 +134,7 @@ test('PDF download and large-page links work while reveal and reading marks stay
 test('exercise subpart buttons jump to their PDF heading and text exports explain each step',async({page})=>{
   await page.goto('/#/mon/xu-ly-anh/bai/uyen-6-T11');
   await page.getByRole('button',{name:'Mở lời giải',exact:false}).click();
-  const buttons=page.locator('.answer-part-nav button');await expect(buttons).toHaveCount(7);
+  const buttons=page.locator('.answer-part-nav button');await expect(buttons).toHaveCount(4);
   const target=documents.items['uyen-6-T11'].parts.at(-1);
   await buttons.last().click();
   const img=page.locator(`.answer-document-page[data-document-page="${target.pdfPage}"] img`);
@@ -148,4 +150,31 @@ test('exercise subpart buttons jump to their PDF heading and text exports explai
   await expect(page.locator('.prompt-subpart')).toHaveCount(7);
   await page.getByRole('button',{name:'Mở lời giải',exact:false}).click();
   await expect(page.locator('.theory-statement')).toHaveCount(7);
+});
+
+test('later exercises ask only the new focus, provide earlier computations and retain all original problems',async({page})=>{
+  await page.goto('/#/mon/xu-ly-anh/co-uyen/chuong/6');
+  await page.locator('#solution-kind').selectOption('exercise');await expect(page.locator('.solution-row')).toHaveCount(12);
+  await page.goto('/#/mon/xu-ly-anh/bai/uyen-6-T2');
+  await expect(page.locator('.focused-question-part h4')).toHaveText(['Câu (b)','Câu (c)']);
+  await expect(page.locator('.supplied-data')).toContainText('n₂=61 bit');
+  await expect(page.locator('.source-original')).not.toHaveAttribute('open');
+  await page.locator('.focus-context a').first().click();
+  await expect(page).toHaveURL(/uyen-6-T1$/);await expect(page.locator('.original-problem img').first()).toBeVisible();
+  await page.goto('/#/mon/xu-ly-anh/bai/uyen-5-T6');
+  await expect(page.locator('.focused-question-part h4')).toHaveText(['Câu (c)']);
+  await expect(page.locator('.focused-givens table')).toHaveCount(3);
+  await expect(page.locator('.focused-requirements')).toContainText('plateau');
+  await page.locator('.source-original>summary').click();
+  await expect(page.locator('.source-original img').first()).toBeVisible();
+  await page.locator('.source-original .original-transcript>summary').click();
+  await expect(page.locator('.original-transcript pre')).toContainText('Tính biểu đồ tần suất');
+  await page.locator('.source-original>summary').click();
+  await page.getByRole('button',{name:'Mở lời giải',exact:false}).click();
+  await expect(page.locator('.answer-part-nav button')).toHaveCount(1);
+  await expect(page.locator('.answer-part-nav')).toContainText('Câu (c)');
+  await page.goto('/#/mon/xu-ly-anh/bai/uyen-6-T11');
+  await expect(page.locator('.focused-question-part h4')).toHaveText(['Câu (a)','Câu (e)','Câu (f)','Câu (g)']);
+  await page.screenshot({path:'test-results/focused-exercise-question.png',fullPage:true});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });

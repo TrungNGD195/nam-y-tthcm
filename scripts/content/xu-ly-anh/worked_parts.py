@@ -28,7 +28,7 @@ GUIDES={
  'edge':('I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.',
           'Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.'),
  'otsu':('h(i) là tần suất mức i; N là tổng pixel; t(g) là số pixel lớp ≤g; m(g) là trung bình lớp ≤g; μ là trung bình toàn ảnh; f(g) là tiêu chuẩn tương đương phương sai giữa hai lớp; θ là ngưỡng chọn.',
-          'Tính N và μ, rồi với từng g cộng số pixel và tổng mức xám có trọng số của lớp ≤g. Tính m và f, bỏ ngưỡng làm một lớp rỗng. Tìm f lớn nhất; nếu hòa thì ghi đủ nghiệm và dùng quy tắc lấy trung bình của bộ bài.'),
+          'Tính N và μ, rồi với từng g cộng số pixel và tổng mức xám có trọng số của lớp ≤g. Tính m và f, bỏ ngưỡng làm một lớp rỗng. Ghi đủ nghiệm tối ưu; chỉ lấy trung bình nếu phân hoạch tương ứng vẫn đạt cực đại, nếu không phải chọn một nghiệm tối ưu.'),
  'iso':('h(g) là tần suất mức g; t là ngưỡng đang thử; μ₁,μ₂ là trung bình có trọng số của hai lớp ≤t và >t; n là chỉ số vòng lặp; t_n+1 là ngưỡng vòng sau.',
          'Tách histogram bằng ngưỡng hiện tại. Với mỗi lớp, lấy tổng g·h(g) chia tổng h(g), rồi lấy trung bình hai kết quả làm ngưỡng mới. Lặp tới khi ngưỡng/phân hoạch không đổi; chỉ làm tròn mỗi vòng khi đề quy định.'),
  'background':('N là tổng pixel; h(g) là tần suất; maxp là mức có tần suất nền lớn nhất; p% là tỷ lệ tích lũy yêu cầu; a là mức phân vị được chọn; P(a) là tỷ lệ tích lũy tới a; T là ngưỡng.',
@@ -202,7 +202,6 @@ def organize(ident,original):
         if len(s)>1:add('Câu (c) — Công thức slide và so sánh',*s[1:])
     elif ident in ['bank-3-6','bank-3-7','uyen-4-T2','uyen-4-T3','uyen-4-T4']:
         a,b=diffuse_parts(s[0]);add('Câu (a) — Thực hiện khuếch tán lỗi',a);add('Câu (b) — Mục đích và so sánh',b)
-        if ident=='uyen-4-T3':groups[-1]['text']+=' Dòng 2 của ảnh gốc đều bằng 90: tách ngưỡng 127 cho toàn 0, còn khuếch tán lỗi xen các điểm trắng do sai số được bù dọc dòng.'
     elif ident in ['bank-4-1','bank-4-2','uyen-5-T1','uyen-5-T2']:
         add('Câu (a) — Hai đáp ứng và ảnh I₁',*edge_parts(s[0]));add('Câu (b) — Đáp ứng Laplace I₂',s[1]);add('Câu (c) — Từ đáp ứng đến ảnh biên',s[2])
     elif ident in ['bank-4-3','bank-4-4','uyen-5-T3']:
@@ -210,7 +209,7 @@ def organize(ident,original):
     elif ident in ['bank-4-5','bank-4-6','uyen-3-T10']:
         add('Câu (a) — Tìm ngưỡng và tách ảnh',*s)
         add('Câu (b) — Khi có nhiều ngưỡng cực đại',plain('Giữ đầy đủ các nghiệm trước khi chọn ngưỡng.',
-          'Nhiều mức g có thể cùng đạt tiêu chuẩn lớn nhất, nhất là khi giữa hai nhóm mức xám có khoảng trống. Ghi đủ các ngưỡng cực đại và lấy trung bình theo quy ước bộ bài; không tự chọn một nghiệm mà bỏ các nghiệm còn lại. '+s[-1]['result']))
+          'Nhiều mức g có thể cùng đạt tiêu chuẩn lớn nhất, nhất là khi giữa hai nhóm mức xám có khoảng trống. Ghi đủ nghiệm tối ưu; chỉ dùng ngưỡng trung bình khi phân hoạch đó vẫn đạt cực đại. Nếu không, chọn một nghiệm tối ưu và công bố cách phá hòa. '+s[-1]['result']))
     elif ident in ['bank-4-7','bank-4-8','bank-4-8-bs']:
         add('Câu (a) — Đẳng điệu cho ảnh I',s[0]);add('Câu (b) — Đối xứng nền cho ảnh I′',s[1]);add('Câu (c) — Đánh giá và chọn phương pháp',*s[2:])
     elif ident=='bank-4-9':

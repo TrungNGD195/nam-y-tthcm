@@ -69,6 +69,20 @@ for record in render['items']:
         pages.append(dict(src=relative+'/'+filename,width=cached[0],height=cached[1],pdfPage=offset+n+1,
                           sha256=hashlib.sha256((target/filename).read_bytes()).hexdigest()))
     plain=[f'Bài {item["code"]}. {item["title"]}',item.get('note','')]
+    if item.get('editedQuestion'):
+        q=item['editedQuestion'];plain.extend(['ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI',q['intro']])
+        def append_given(block):
+            plain.append(block.get('caption',''))
+            if 'tex' in block:plain.append(block['tex'])
+            if 'headers' in block:plain.append('\t'.join(map(str,block['headers'])))
+            plain.extend('\t'.join(map(str,row)) for row in block.get('rows',[]))
+        for block in q['givens']:append_given(block)
+        for given in q['supplied']:
+            plain.extend([given['title'],given['text']])
+            for block in given['blocks']:append_given(block)
+        plain.append('YÊU CẦU CẦN LÀM')
+        for part in q['parts']:plain.append(f"Câu ({part['label']}): {part['text']}")
+        plain.append('BÀI GIẢI')
     section=None;local_step=0
     for step in item['steps']:
         if step['section']!=section:

@@ -1,0 +1,92 @@
+Bài 6.T11. JPEG 2×2: DCT, mã AC và giải nén
+
+ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI
+Các kết quả trung gian được tính cho đúng dữ kiện của bài này và cho sẵn ở dưới. Chỉ làm các yêu cầu còn lại; phần phương pháp đã học có liên kết để xem lại.
+Ảnh gốc I
+11	5
+15	13
+Bảng lượng tử Q
+2	10
+3	2
+
+T=\frac1{\sqrt2}\begin{bmatrix}1&1\\1&-1\end{bmatrix},\quad DC_{truoc}=13
+
+RUN/CAT	mã Huffman AC
+0/1	00
+0/2	01
+0/3	100
+0/4	1011
+0/5	11010
+1/1	1100
+1/2	11011
+1/3	1111001
+1/4	111110110
+Kết quả lượng tử hóa đã tính
+
+I_Q
+11	0
+-2	1
+Vector zig-zag đã tính
+Zig-zag (00,01,10,11): [11, 0, -2, 1].
+Mã DC đã tính, DC trước bằng 13
+Bit DC: 01101.
+YÊU CẦU CẦN LÀM
+Câu (a): Tính I_DCT=T·I·Tᵀ theo ma trận DCT 2 điểm đã cho; bỏ dịch mức.
+Câu (e): Từ vector lượng tử đã cho, mã hóa AC thành RUN/value, xác định CAT, tra Huffman và nối bit biên độ. Có cần EOB không?
+Câu (f): Nối mã DC cho sẵn với các mã AC vừa tìm để viết toàn bộ chuỗi bit và độ dài.
+Câu (g): Giải lượng tử, DCT ngược và tính RMS so với I gốc. Viết rõ từng bước và ký hiệu.
+BÀI GIẢI
+
+Câu (a) — DCT
+Bước 1. Biến đổi DCT theo ma trận đề cho, bỏ dịch mức.
+Công thức: I_{DCT}=TIT^T,\quad T=\frac1{\sqrt2}\begin{bmatrix}1&1\\1&-1\end{bmatrix}
+Ký hiệu: I là khối ảnh 2×2; T là ma trận DCT trực giao đề cho; Tᵀ là chuyển vị, đổi hàng thành cột; I_DCT là ma trận hệ số.
+Cách làm: Nhân T với I trước, rồi nhân kết quả với Tᵀ. Mỗi ô của tích lấy một hàng nhân một cột và cộng hai tích. Giữ dấu hệ số và chưa làm tròn trước bước lượng tử.
+Thay số / thực hiện: I_DCT(0,0)=(11+5+15+13)/2=22.
+I_DCT
+22	4
+-6	2
+
+Câu (e) — Mã AC và EOB
+Bước 1. Mã hóa AC theo RUN/CAT và ghép toàn bộ khối.
+Công thức: \mathrm{bits}_{AC}=\mathrm{Huff}(RUN/CAT)+\mathrm{amplitude}(value)
+Ký hiệu: RUN là số 0 trước value; CAT là số bit biểu diễn độ lớn value; Huff(RUN/CAT) là từ mã tra bảng AC; amplitude(value) là chuỗi bit biên độ, dấu + là nối chuỗi.
+Cách làm: Lập cặp RUN/value, tìm CAT của value, tra đúng hàng RUN/CAT rồi nối bit biên độ. Ghép các từ mã theo thứ tự quét và chỉ thêm EOB nếu còn đuôi 0.
+Thay số / thực hiện: Các cặp: [(1, -2), (0, 1)]; bit AC=1101101001.
+Kết luận: Không gửi EOB vì hệ số AC cuối khác 0, đã đủ 3 AC.
+
+RUN	value	CAT	bit gửi
+1	-2	2	1101101
+0	1	1	001
+
+Câu (f) — Chuỗi bit toàn khối
+Bước 1. Nối bit DC rồi bit AC theo thứ tự.
+Cách làm: Lấy nguyên chuỗi DC ở câu (d), nối các từ mã AC ở câu (e). Đếm từng bit trong chuỗi kết quả, không cộng các giá trị nhị phân như số.
+Giải thích: Chuỗi toàn khối: 011011101101001 (15 bit).
+
+Câu (g) — Giải nén và RMS
+Bước 1. Giải lượng tử hóa trước khi DCT ngược.
+Công thức: \widehat I_{DCT}=I_Q\odot Q
+Ký hiệu: I_Q là ma trận lượng tử ở câu (b); Q là bảng bước lượng tử của đề; ⊙ là nhân từng ô; Î_DCT là các hệ số khôi phục trước DCT ngược.
+Cách làm: Nhân mỗi ô I_Q với đúng ô Q cùng hàng/cột; không nhân ma trận theo hàng–cột ở bước này. Hệ số đã làm tròn không tự khôi phục đúng hệ số DCT gốc.
+Thay số / thực hiện: Tại DC: 11·2=22; thu được ma trận dưới đây.
+DCT sau giải lượng tử
+22	0
+-6	2
+Bước 2. Biến đổi DCT ngược để khôi phục ảnh.
+Công thức: I'=T^T\widehat I_{DCT}T
+Ký hiệu: T là ma trận DCT 2 điểm ở câu (a); Tᵀ là chuyển vị; Î_DCT là ma trận vừa giải lượng tử; I′ là ảnh khôi phục.
+Cách làm: Nhân Tᵀ với ma trận hệ số đã giải lượng tử, rồi nhân kết quả với T. Với T của đề, ô (0,0) bằng tổng bốn hệ số chia 2.
+Thay số / thực hiện: I′(0,0)=(22 + 0 + -6 + 2)/2=9. Các ô còn lại tính cùng quy tắc hàng nhân cột.
+Ảnh I′ sau giải nén
+9	7
+13	15
+Bước 3. Tính RMS từ bốn sai lệch pixel.
+Công thức: e_{rms}=\sqrt{\frac14\sum_{r,c}(I(r,c)-I^{\prime}(r,c))^2}
+Ký hiệu: I là ảnh gốc; I′ là ảnh khôi phục; (r,c) là vị trí pixel tương ứng; e_rms là căn trung bình bình phương sai số; 4 là số pixel của khối 2×2.
+Cách làm: Trừ từng cặp pixel cùng vị trí, bình phương, cộng bốn số rồi chia 4 và lấy căn. Không lấy sai lệch có dấu trung bình vì chúng có thể triệt tiêu.
+Thay số / thực hiện: Các sai lệch: 11−9=2, 5−7=-2, 15−13=2, 13−15=-2.
+Kết luận: e_rms=√((4+4+4+4)/4)=2.0.
+Ảnh gốc I để đối chiếu
+11	5
+15	13

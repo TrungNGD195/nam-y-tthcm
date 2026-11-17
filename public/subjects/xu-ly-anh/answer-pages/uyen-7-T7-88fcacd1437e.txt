@@ -1,0 +1,57 @@
+Bài 7.T7. Phần bù và tách biên từ ảnh co
+
+ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI
+Các kết quả trung gian được tính cho đúng dữ kiện của bài này và cho sẵn ở dưới. Chỉ làm các yêu cầu còn lại; phần phương pháp đã học có liên kết để xem lại.
+Ảnh A
+1	1	1	1	0	0	1	1	1	1
+1	1	1	1	0	0	1	1	1	1
+1	1	1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1	1	0
+1	1	1	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	1	0	0
+SE s vuông
+1	1	1
+1	1	1
+1	1	1
+E=A⊖s đã tính
+
+E
+0	0	0	0	0	0	0	0	0	0
+0	1	1	0	0	0	0	1	1	0
+0	1	1	0	0	0	0	1	0	0
+0	1	1	1	1	1	1	1	0	0
+0	0	1	1	1	1	1	0	0	0
+0	0	0	0	0	0	0	0	0	0
+YÊU CẦU CẦN LÀM
+Câu (b): Lấy phần bù Eᶜ trong đúng khung 6×10.
+Câu (c): Tính β(A)=A∩Eᶜ và đếm số điểm biên.
+BÀI GIẢI
+
+Câu (b) — Phần bù Eᶜ
+Bước 1. Lấy phần bù của ảnh co.
+Công thức: E^c(r,c)=1-E(r,c)
+Ký hiệu: E là ảnh co ở câu (a); Eᶜ là phần bù trong khung 6×10; (r,c) là tọa độ hàng/cột; 1−E đổi giá trị nhị phân 0↔1.
+Cách làm: Giữ nguyên kích thước E, thay mỗi 0 bằng 1 và mỗi 1 bằng 0; không đảo cả miền ngoài ảnh.
+Thay số / thực hiện: Tại ô đầu, E=0 ⇒ Eᶜ=1−E=1. Lặp phép đảo 0↔1 trên cả khung 6×10.
+Eᶜ
+1	1	1	1	1	1	1	1	1	1
+1	0	0	1	1	1	1	0	0	1
+1	0	0	1	1	1	1	0	1	1
+1	0	0	0	0	0	0	0	1	1
+1	1	0	0	0	0	0	1	1	1
+1	1	1	1	1	1	1	1	1	1
+
+Câu (c) — Biên trong và số điểm
+Bước 1. Giao ảnh gốc với phần bù ảnh co.
+Công thức: \beta(A)=A\cap E^c
+Ký hiệu: A là ảnh gốc; Eᶜ là phần bù vừa tính; β(A) là biên trong; ∩ hay AND chỉ cho 1 nếu cả hai pixel cùng bằng 1.
+Cách làm: Lấy AND từng pixel của Eᶜ với A; chỉ các điểm thuộc A mà bị phép co xóa mới là biên.
+Thay số / thực hiện: A có 51 điểm, E có 19 điểm ⇒ biên có 51−19=32 điểm.
+Kết luận: Eᶜ chỉ tính trong khung ảnh 6×10; ngoài ảnh đệm 0 khi co.
+β(A)
+1	1	1	1	0	0	1	1	1	1
+1	0	0	1	0	0	1	0	0	1
+1	0	0	1	1	1	1	0	1	1
+1	0	0	0	0	0	0	0	1	0
+1	1	0	0	0	0	0	1	1	0
+0	1	1	1	1	1	1	1	0	0

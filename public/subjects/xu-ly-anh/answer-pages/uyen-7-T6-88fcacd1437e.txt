@@ -1,0 +1,73 @@
+Bài 7.T6. Bao hàm, lũy đẳng và chi tiết bị xóa
+
+ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI
+Các kết quả trung gian được tính cho đúng dữ kiện của bài này và cho sẵn ở dưới. Chỉ làm các yêu cầu còn lại; phần phương pháp đã học có liên kết để xem lại.
+Ảnh A
+0	0	0	0	0	0	0	0
+0	1	1	1	0	0	1	0
+0	1	1	1	1	1	1	0
+0	1	1	0	1	1	1	0
+0	1	1	1	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0
+SE B vuông
+1	1	1
+1	1	1
+1	1	1
+O=A∘B và C=A•B đã tính
+
+O=A∘B đã tính
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0
+C=A•B đã tính
+0	0	0	0	0	0	0	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0
+YÊU CẦU CẦN LÀM
+Câu (b): Kiểm tra O⊆A⊆C trên từng pixel của các ma trận đã cho.
+Câu (c): Tính O∘B và C•B bằng cùng SE rồi so với O,C. Rút ra tính chất.
+Câu (d): Vì sao phần bên trái cột 2–4 bị xóa sau mở dù rộng đúng ba pixel?
+BÀI GIẢI
+
+Câu (b) — Kiểm tra bao hàm
+Bước 1. Kiểm tra ở từng pixel.
+Cách làm: Mọi pixel 1 của O đều thuộc A; mọi pixel 1 của A đều thuộc C. Vì vậy O⊆A⊆C trên kết quả bài này; chỉ so số lượng pixel là chưa đủ chứng minh bao hàm.
+Giải thích: Mọi pixel 1 của O đều thuộc A; mọi pixel 1 của A đều thuộc C. Vì vậy O⊆A⊆C trên kết quả bài này; chỉ so số lượng pixel là chưa đủ chứng minh bao hàm.
+
+Câu (c) — Lặp lại và tính lũy đẳng
+Bước 1. Áp dụng lại cùng SE trên kết quả.
+Công thức: O\circ B=O,\quad C\bullet B=C
+Ký hiệu: A là ảnh nhị phân; B là SE; ⊖ là co; ⊕ là giãn; ∘ là mở; • là đóng; O,C lần lượt là kết quả mở/đóng; ⊆ là bao hàm.
+Cách làm: Với mở, co trước rồi giãn chính ảnh vừa co. Với đóng, giãn trước rồi co chính ảnh vừa giãn. Giữ cùng SE và quy ước ngoài khung; khi kiểm tra bao hàm, so từng vị trí 1 chứ không chỉ so tổng số điểm.
+Thay số / thực hiện: Số điểm 1: A=24, O=12, C=27; O lần 2=12, C lần 2=27.
+Kết luận: Mở lần 2 bằng mở lần 1; đóng lần 2 bằng đóng lần 1. Đây là tính lũy đẳng.
+Mở (lần 1 = lần 2)
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0
+Đóng (lần 1 = lần 2)
+0	0	0	0	0	0	0	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	1	1	1	1	1	1	0
+0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0
+
+Câu (d) — Vì sao mất phần bên trái
+Bước 1. Xét nơi có cửa sổ SE fit.
+Cách làm: Phần bên trái có bề rộng 3 nhưng lỗ ở (4,4) và chiều cao/biên làm không có cửa sổ vuông 3×3 fit đầy đủ, nên mở xóa phần đó.
+Giải thích: Phần bên trái có bề rộng 3 nhưng lỗ ở (4,4) và chiều cao/biên làm không có cửa sổ vuông 3×3 fit đầy đủ, nên mở xóa phần đó.

@@ -1,0 +1,556 @@
+{
+  "version": "2026.11.17.1",
+  "totalUyenExercises": 46,
+  "editedExercises": 23,
+  "policy": "Giữ đủ số bài và nguyên bản nguồn; phần đã luyện được cho sẵn, yêu cầu mới và điều kiện khác biệt vẫn giữ. So theo ý hỏi, không xóa cả bài chỉ vì cùng thuật toán.",
+  "items": [
+    {
+      "id": "uyen-5-T2",
+      "sourceHash": "44c892fab92dd4be9718ea363c66be82ce0e0159767b73ac503b6f6bb8d246b7",
+      "questionHash": "a8d735df130a1ca246681ef376b101e5b17193cc541b96dadc962ed1a7d5252b",
+      "answerHash": "bf6aa079d3e6b4408446ccb182a1839d61b37c15f9e421e6e60e84e92711935f",
+      "previous": [
+        {
+          "id": "uyen-5-T1",
+          "covered": "Nhận xét đáp ứng lọc và các bước tạo biên"
+        }
+      ],
+      "removedRequests": [
+        "Hỏi lại I₁/I₂ đã là ảnh biên chưa và cần làm gì tiếp"
+      ],
+      "preservedFocus": [
+        "Hai mặt nạ mới Sobel/Laplace 4; ghép bằng trị tuyệt đối thay cho cộng có dấu"
+      ],
+      "questionLabels": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "uyen-5-T3",
+      "sourceHash": "4691932ea05773ce4569574254868d75b6e845ad7b48ceb40d77fdda99c33286",
+      "questionHash": "32f3063d1d3979105b23a5798c382d078023f64943fb748765ca061fe579b951",
+      "answerHash": "222100224ba987e923435f7c15596ed4bc2e0543e6e205223ec6e04100dd4b72",
+      "previous": [
+        {
+          "id": "uyen-5-T1",
+          "covered": "Nhân mặt nạ Prewitt và tính đáp ứng"
+        },
+        {
+          "id": "uyen-5-T2",
+          "covered": "Tính độ lớn gradient"
+        }
+      ],
+      "removedRequests": [
+        "Nhân chập lại toàn bộ hai ảnh"
+      ],
+      "preservedFocus": [
+        "Vị trí đáp ứng thay đổi, ảnh hưởng khuếch đại/triệt tiêu và cách giảm nhiễu"
+      ],
+      "questionLabels": [
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-5-T4",
+      "sourceHash": "ba6a9c1385b8150bdb1478e5d0caaed201d606c4ed05bbd6d0e5477ff51300c4",
+      "questionHash": "9e640d4f862718c656ba7944c9e86bdb0ee7a1860f23b86c8c360902c5228809",
+      "answerHash": "d99a53d9d55213c312df367270ce85abc59ef2fa1ec9f2b2d4e0c1347c8ea023",
+      "previous": [
+        {
+          "id": "uyen-3-T10",
+          "covered": "Lập bảng Otsu và câu hỏi chung về nhiều ngưỡng"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại Otsu toàn ảnh",
+        "Hỏi lại chung chung khi nào có nhiều ngưỡng"
+      ],
+      "preservedFocus": [
+        "Áp dụng trên histogram có hai cực đại rời nhau; kiểm tra quy tắc lấy trung bình"
+      ],
+      "questionLabels": [
+        "b"
+      ]
+    },
+    {
+      "id": "uyen-5-T5",
+      "sourceHash": "4e9df4f5b4c6b9ca032e71c5d6ca4831e1e3f8fb2c06b407bd368702f15cf89b",
+      "questionHash": "4e66b0add7d3f81ac62182dbb30270b174560e7f5441104bd100eac48cb252c8",
+      "answerHash": "c224424e14163da896b1608bf9757779b0f2dca3e4aeb38c5f5586e2b2e2f0eb",
+      "previous": [
+        {
+          "id": "uyen-3-T11",
+          "covered": "Lặp đẳng điệu và đối xứng nền với phân vị cuối không vượt p%"
+        }
+      ],
+      "removedRequests": [
+        "Lặp lại các bảng đẳng điệu đã học"
+      ],
+      "preservedFocus": [
+        "Quy ước phân vị đầu đạt p%; độ chính xác 95%/90%; đánh giá hai histogram mới"
+      ],
+      "questionLabels": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-5-T6",
+      "sourceHash": "153b535c2989f004df5b7d0fcc3a8402dc7695730c74364f2bbedf8d83779444",
+      "questionHash": "e483eb3e31f708f544daa5d45bb2c17ea8733ba8efa67afa50dcc93f254db7fc",
+      "answerHash": "e1d91c65ec8e16388989cab3ef249d18b26dbcde85edaab4bc929c0aea56d4ba",
+      "previous": [
+        {
+          "id": "uyen-3-T1",
+          "covered": "Đếm histogram"
+        },
+        {
+          "id": "uyen-3-T2",
+          "covered": "Làm trơn W=3, W=5"
+        }
+      ],
+      "removedRequests": [
+        "Đếm lại histogram và tính lại hai cửa sổ làm trơn"
+      ],
+      "preservedFocus": [
+        "Đếm cực đại cục bộ, xử lý plateau, ảnh hưởng của làm trơn đến tìm ngưỡng"
+      ],
+      "questionLabels": [
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-5-T7",
+      "sourceHash": "27e67b2f80ffac5d562c5ee0f2834c1f27409e67c4fa6ef73344313f638c629f",
+      "questionHash": "4204e02f30b806d03196f5f0601c5393ead495bb8926977355e0e3e888683e92",
+      "answerHash": "0d8aef570b5bf3e10147bf0d86e748eaf3d787c423747d1612cded7071cba623",
+      "previous": [
+        {
+          "id": "uyen-3-T12",
+          "covered": "Dựng đường tam giác và tính mọi khoảng cách"
+        }
+      ],
+      "removedRequests": [
+        "Dựng lại đường thẳng và tính lại toàn bộ bảng khoảng cách"
+      ],
+      "preservedFocus": [
+        "Kiểm tra hai mức quanh ngưỡng trên dữ kiện có đỉnh g=2 đã cố định"
+      ],
+      "questionLabels": [
+        "a"
+      ]
+    },
+    {
+      "id": "uyen-3-T4",
+      "sourceHash": "8b466f60918d12ea55f6e2fa6f5852abc4fc0e67310951927afe6519a293967e",
+      "questionHash": "3f0abab23c3f431a0793d2f83035ba1320b9598785f2c9aae76a70e88432adca",
+      "answerHash": "ffb943d37a3824ea990570e26bb2c131c60ce4891ffc2e70e8c79d8741c56ca5",
+      "previous": [
+        {
+          "id": "uyen-3-T3",
+          "covered": "Công thức cân bằng theo slide"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại toàn bộ ánh xạ cân bằng theo cùng công thức"
+      ],
+      "preservedFocus": [
+        "Chuẩn hóa xác suất, CDF trên ảnh 32×32; nhận diện nhóm mức bị gộp"
+      ],
+      "questionLabels": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "uyen-3-T7",
+      "sourceHash": "6b22b2df981c0afdc4748b874fbd77c7ecd4295bb54dedaf31db4265e7262de7",
+      "questionHash": "6467ea9af15bd1f25b39c2b93c3f8734f7fe37900da29e90ff8cac4e913b73ba",
+      "answerHash": "754b95078beeee4626180414f2e0dbf505808a9b12299fec867f2eca6db05004",
+      "previous": [
+        {
+          "id": "uyen-3-T6",
+          "covered": "Lọc trung bình trên chín điểm trong"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại ma trận lọc trung bình"
+      ],
+      "preservedFocus": [
+        "Lọc trung vị; so sánh hai bộ lọc trên nhiễu muối tiêu"
+      ],
+      "questionLabels": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-3-T9",
+      "sourceHash": "55691ed6f8ab300b416c1b3d44790a3b8bb18d14e86f18819569db35b70f2e19",
+      "questionHash": "2fca18c0d04b623eb38ac07ef163d8cb3be2299ec4c922812ca9483349576735",
+      "answerHash": "d619df8ab5d0f366279b744472be74d4814a3761dd2c1799e0c4cb15ffbdc604",
+      "previous": [
+        {
+          "id": "uyen-3-T6",
+          "covered": "Trung bình số học"
+        },
+        {
+          "id": "uyen-3-T7",
+          "covered": "Trung vị"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại trung bình số học và trung vị"
+      ],
+      "preservedFocus": [
+        "Trung bình hình học, max, min, điểm giữa và alpha-trimmed; tác động của hai cực trị"
+      ],
+      "questionLabels": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "uyen-4-T3",
+      "sourceHash": "2ffd7531ec81dcb929396a9966bbe7be8d0bb3110b909e184d800ed8ffd474f0",
+      "questionHash": "42b85a0d6355762440e4d8d437d21fd24f613da297d843ba50ca5ecc6416e167",
+      "answerHash": "51e82a59b7e570457c861f90d38d30ab3c5a0960df7f11b76674f2ee0f123b66",
+      "previous": [
+        {
+          "id": "uyen-4-T2",
+          "covered": "Tính khuếch tán lỗi và giải thích mục đích chung"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại toàn bộ khuếch tán lỗi với cùng ngưỡng 127",
+        "Hỏi lại mục đích và lợi ích chung"
+      ],
+      "preservedFocus": [
+        "So sánh cụ thể trường hợp hai ma trận đầu ra trùng nhau"
+      ],
+      "questionLabels": [
+        "b"
+      ]
+    },
+    {
+      "id": "uyen-4-T4",
+      "sourceHash": "0c0455c5588708699b3da7dd57b39dfdc722404669476ff291d69ef1a7bc7e66",
+      "questionHash": "c7dc48a63ae395719d86aa5a1d3287895a98b8750ff73fd4dae76b21737a1106",
+      "answerHash": "7edddbdd7ebd0e50e3227025733940d04b128be7d16390bea4919c2bfb785299",
+      "previous": [
+        {
+          "id": "uyen-4-T2",
+          "covered": "Quy trình khuếch tán lỗi toàn ảnh; mục đích chung"
+        },
+        {
+          "id": "uyen-4-T3",
+          "covered": "Đối chiếu hai ảnh đầu ra"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại các dòng không có ý mới",
+        "Hỏi lại định nghĩa/mục đích khuếch tán lỗi"
+      ],
+      "preservedFocus": [
+        "Đổi ngưỡng sang 100; xử lý riêng dòng toàn 90; hai ảnh cùng độ sáng nhưng khác vị trí pixel"
+      ],
+      "questionLabels": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "uyen-7-T2",
+      "sourceHash": "6fcd276863bfb75db41a6984293fcd9429eb16045299a589836355f70f773b0f",
+      "questionHash": "0a9eda10c4eb0959e16f9a5bcf524be935a83107431ff7158039f71390997178",
+      "answerHash": "8995a905c8f603f8d134f037240b868dc5de2ecba0705f0c2a075c59c55ee658",
+      "previous": [
+        {
+          "id": "uyen-7-T1",
+          "covered": "Tính co và giãn theo fit/hit"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại co và giãn hit toàn ảnh"
+      ],
+      "preservedFocus": [
+        "Phản xạ SE bất đối xứng; phân biệt hit trực tiếp và giãn chuẩn; co có đổi không"
+      ],
+      "questionLabels": [
+        "b"
+      ]
+    },
+    {
+      "id": "uyen-7-T3",
+      "sourceHash": "fbb81aaa3a6125c9f66eef9dc5467ee4e0debb3032256a3b43c9e21abda4fb5c",
+      "questionHash": "eb4ff5c8d0127d5721c4759b2e16bdeff5505382205498c6436e2da2bdaf8a7a",
+      "answerHash": "4224f6828dca809e8f163f6731e2f51bff661bd9d2584d1dc4270241bcb3d74a",
+      "previous": [
+        {
+          "id": "uyen-7-T1",
+          "covered": "Co và giãn"
+        },
+        {
+          "id": "uyen-7-T2",
+          "covered": "Ảnh hưởng của SE"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại ba ma trận co/giãn cơ bản"
+      ],
+      "preservedFocus": [
+        "Số điều kiện fit tăng khi SE lớn hơn; chứng minh quan hệ bao hàm với cùng gốc"
+      ],
+      "questionLabels": [
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-7-T4",
+      "sourceHash": "c504f6a1be84eb2096d4c75c7011869584cd7093c46787d47fdc821eefa131f6",
+      "questionHash": "4512d53460d94c548c09ee600390c0ab3f74a887638325bab329a5482b362407",
+      "answerHash": "b76b9fc9fe7b2a7ee55fdf7b209ae05ecf5db185da362e0441ae044f878edbaa",
+      "previous": [
+        {
+          "id": "uyen-7-T1",
+          "covered": "Co cơ bản"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại ảnh co trung gian"
+      ],
+      "preservedFocus": [
+        "Phép mở và các chi tiết mất"
+      ],
+      "questionLabels": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-7-T5",
+      "sourceHash": "2a49cadc98b8a6835212bdfec13027febd2a98f035a30f33ceabd6cb6a92e07f",
+      "questionHash": "9243beb84df31f763dc9882608923f8fcb6a7ed3f5267a2c42674aae54ad0d2b",
+      "answerHash": "dbb33f6fba5c555daf62b8f02c0a13edc3f2e26f00db7d1e79d65573ee4885c6",
+      "previous": [
+        {
+          "id": "uyen-7-T1",
+          "covered": "Giãn cơ bản"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại ảnh giãn trung gian"
+      ],
+      "preservedFocus": [
+        "Phép đóng và phụ thuộc hình dạng khe/SE"
+      ],
+      "questionLabels": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-7-T6",
+      "sourceHash": "166c32ca2bacbb32420eadad24fef2a81f386021fe7357f161a7ae02a60d4ec4",
+      "questionHash": "e452f3b06ab52d379cb578503a79e9200bcdef52de04fb6ce19ab5dad00925d3",
+      "answerHash": "9f5a5aef17c7a54d280d2786468e6937ba4aed5a3453c57727b6ae90ca788f9f",
+      "previous": [
+        {
+          "id": "uyen-7-T4",
+          "covered": "Phép mở"
+        },
+        {
+          "id": "uyen-7-T5",
+          "covered": "Phép đóng"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại mở và đóng lần thứ nhất"
+      ],
+      "preservedFocus": [
+        "Kiểm tra bao hàm từng pixel; lặp trên kết quả để chứng minh lũy đẳng; vai trò lỗ đối với vùng rộng đúng 3 pixel"
+      ],
+      "questionLabels": [
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "id": "uyen-7-T7",
+      "sourceHash": "6a30d214cdd57b010a1862c3fe8d5a0c9b7c0a910c441c3ec0fcdd9cd2d9c6f1",
+      "questionHash": "460915de3d0553a2f496dc42f46bc11bd0fd248ff5a9c552f728c24f2043fda3",
+      "answerHash": "a96045ed00e8f94b17b7f0c910ad4a26d55031cc84c0b7f57ee44dbfff4e429e",
+      "previous": [
+        {
+          "id": "uyen-7-T1",
+          "covered": "Tính ảnh co"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại ảnh co E"
+      ],
+      "preservedFocus": [
+        "Phần bù trong khung ảnh; AND với ảnh gốc để tách biên trong; đếm điểm biên"
+      ],
+      "questionLabels": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-7-T8",
+      "sourceHash": "9135404f087d314468a920814da7b5bb252eba4baef74835cc289b62c7bb249d",
+      "questionHash": "87170e09804c5ccda78267db07778b89e1b4a5ddac68da82108645ffccb54258",
+      "answerHash": "126709480963a0af720aad666235cd6d1d4ceba5142e715b9b9f30e3068f49ca",
+      "previous": [
+        {
+          "id": "uyen-7-T7",
+          "covered": "Tính biên trong bằng ảnh co"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại hai ảnh biên trong"
+      ],
+      "preservedFocus": [
+        "Đối chiếu vị trí biên theo hai SE; phân biệt liên thông 4 và 8"
+      ],
+      "questionLabels": [
+        "b"
+      ]
+    },
+    {
+      "id": "uyen-6-T2",
+      "sourceHash": "b937a15b6de9bc3ba0582e7f71b3f0628fb811daa01126437d0a8c3be5b3e2f1",
+      "questionHash": "9af969bd06556e0319312ddc26520709e215df4438716dbb7f502cfe1c931cbf",
+      "answerHash": "47b4349ab18463c26eefd7761acc5fc6c3b0a6bac69238b3b1fbf966da6ee255",
+      "previous": [
+        {
+          "id": "uyen-6-T1",
+          "covered": "Mã hóa Huffman, số bit và tỷ lệ nén"
+        }
+      ],
+      "removedRequests": [
+        "Lập lại toàn bộ mã Huffman và tỷ lệ nén"
+      ],
+      "preservedFocus": [
+        "Đổi vai trò ký hiệu cùng tần suất/nhánh 0–1; mã có độ dài cố định"
+      ],
+      "questionLabels": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": "uyen-6-T6",
+      "sourceHash": "e70cfc1f8252d4d71e3a28d9b1fd39e63836ac19b6a6c8a08b168c48a3be2cae",
+      "questionHash": "bcfb355400fe3f5bb55e3187b67e18ca9e7862d697a40fcdc1c9c26039799992",
+      "answerHash": "01301823cd577a8707e2cd422e127c1318a8ca5582b23029c736037aae8546ba",
+      "previous": [
+        {
+          "id": "uyen-6-T4",
+          "covered": "Mã hóa/giải mã LZW và tính số bit"
+        },
+        {
+          "id": "uyen-6-T5",
+          "covered": "Thay đổi từ điển gốc và độ dài mã"
+        }
+      ],
+      "removedRequests": [
+        "Lập lại toàn bộ bảng mã hóa và giải mã thường",
+        "Tính lại CR theo cùng cách"
+      ],
+      "preservedFocus": [
+        "Tình huống thực tế mã nhận bằng mục kế tiếp; từ điển gốc 0–7 cho khối 1×3"
+      ],
+      "questionLabels": [
+        "a"
+      ]
+    },
+    {
+      "id": "uyen-6-T10",
+      "sourceHash": "c958f6b5b14e50971c3f002af38f4bdb05de1528596d871d4e23e6daf3939d96",
+      "questionHash": "6794552c5d66fb99ab45aa5bb3eac240ac16588947542194c843b919a7cf0a7b",
+      "answerHash": "452a0546807d2e323f9b49c7368694f18e77d7821387cd85afdff74035ae49c3",
+      "previous": [
+        {
+          "id": "uyen-6-T9",
+          "covered": "Quét AC và mã hóa RLE thành cặp"
+        }
+      ],
+      "removedRequests": [
+        "Mã hóa lại vector AC thành các cặp"
+      ],
+      "preservedFocus": [
+        "DPCM và Huffman DC; khôi phục DC; giải ngược cặp RLE và xác định chỉ số AC"
+      ],
+      "questionLabels": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "id": "uyen-6-T11",
+      "sourceHash": "efcef22cbe7c42ee05065583529fcbf68d6cc429e4cad73d175b4481baed8054",
+      "questionHash": "a9cf6a1693409f903bc957d5edb4d45085ba8a690ac2720a1a27e59823c0f790",
+      "answerHash": "6c0c005936ecee856405ac1c1fae82ee75646f49201fdfa7b432720010674058",
+      "previous": [
+        {
+          "id": "uyen-6-T9",
+          "covered": "Lượng tử hóa và quét zig-zag"
+        },
+        {
+          "id": "uyen-6-T10",
+          "covered": "Mã hóa DC bằng DPCM/CAT/bit biên độ"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại lượng tử hóa và vector zig-zag",
+        "Mã hóa lại DC theo quy trình đã học"
+      ],
+      "preservedFocus": [
+        "DCT ma trận 2 điểm; Huffman RUN/CAT của AC; ghép chuỗi toàn khối; DCT ngược 2×2 và RMS"
+      ],
+      "questionLabels": [
+        "a",
+        "e",
+        "f",
+        "g"
+      ]
+    },
+    {
+      "id": "uyen-6-T12",
+      "sourceHash": "0ad569620a49db627f40e8979182406a46aeb9000ad87fd376ef5b728288db0b",
+      "questionHash": "7137291f60c4505feec6c0756318c0a9569b10475275bbb9f142abcb77b6ce25",
+      "answerHash": "13d679a716cd92faf38f79884ac7e384274241d35c42f477a33029cd26db1e30",
+      "previous": [
+        {
+          "id": "uyen-6-T8",
+          "covered": "RMS khi khôi phục bằng DC"
+        },
+        {
+          "id": "uyen-6-T9",
+          "covered": "RMS từ sai số lượng tử"
+        },
+        {
+          "id": "uyen-6-T11",
+          "covered": "RMS sau DCT ngược"
+        }
+      ],
+      "removedRequests": [
+        "Tính lại RMS từ hai ma trận"
+      ],
+      "preservedFocus": [
+        "SNR theo năng lượng ảnh khôi phục; đổi dB; so sánh CR kết hợp chất lượng cảm nhận"
+      ],
+      "questionLabels": [
+        "b",
+        "c"
+      ]
+    }
+  ]
+}

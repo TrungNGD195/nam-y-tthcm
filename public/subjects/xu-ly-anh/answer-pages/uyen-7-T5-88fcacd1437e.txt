@@ -1,0 +1,47 @@
+Bài 7.T5. Đóng ảnh, lỗ và khe hẹp
+
+ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI
+Các kết quả trung gian được tính cho đúng dữ kiện của bài này và cho sẵn ở dưới. Chỉ làm các yêu cầu còn lại; phần phương pháp đã học có liên kết để xem lại.
+Ảnh A
+0	0	0	0	0	0	0	0	0	0	0
+0	1	1	1	1	0	1	1	1	0	0
+0	1	0	1	1	0	1	1	1	0	0
+0	1	1	1	1	0	1	1	1	1	0
+0	1	1	1	1	0	1	1	1	1	0
+0	0	0	0	0	0	0	0	0	0	0
+SE B chữ thập
+0	1	0
+1	1	1
+0	1	0
+Ảnh giãn trung gian đã tính
+
+A ⊕ B
+0	1	1	1	1	0	1	1	1	0	0
+1	1	1	1	1	1	1	1	1	1	0
+1	1	1	1	1	1	1	1	1	1	0
+1	1	1	1	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	1	1	1	1
+0	1	1	1	1	0	1	1	1	1	0
+YÊU CẦU CẦN LÀM
+Câu (b): Dùng ảnh giãn cho sẵn để tính phép đóng A•B.
+Câu (c): Lỗ trong khối trái và khe cột 6 thay đổi thế nào? Vì sao khe chỉ lấp ở một số hàng?
+BÀI GIẢI
+
+Câu (b) — Đóng ảnh
+Bước 1. Giãn trước, sau đó co bằng cùng SE chữ thập.
+Công thức: A\bullet B=(A\oplus B)\ominus B
+Ký hiệu: A là ảnh nhị phân; B là SE; ⊖ là co; ⊕ là giãn; ∘ là mở; • là đóng; O,C lần lượt là kết quả mở/đóng; ⊆ là bao hàm.
+Cách làm: Với mở, co trước rồi giãn chính ảnh vừa co. Với đóng, giãn trước rồi co chính ảnh vừa giãn. Giữ cùng SE và quy ước ngoài khung; khi kiểm tra bao hàm, so từng vị trí 1 chứ không chỉ so tổng số điểm.
+Thay số / thực hiện: Số điểm 1: A=29, giãn=57, đóng=32.
+A • B
+0	0	0	0	0	0	0	0	0	0	0
+0	1	1	1	1	0	1	1	1	0	0
+0	1	1	1	1	1	1	1	1	0	0
+0	1	1	1	1	1	1	1	1	1	0
+0	1	1	1	1	0	1	1	1	1	0
+0	0	0	0	0	0	0	0	0	0	0
+
+Câu (c) — Giải thích các chi tiết thay đổi
+Bước 1. Đối chiếu ảnh đầu vào và kết quả.
+Cách làm: Lỗ (3,3) sau đóng=1; cột 6 sau đóng=[0, 0, 1, 1, 0, 0]. Khe chỉ lấp tại vị trí có đủ láng giềng chữ thập sau giãn; không phải mọi khoảng trống 1 pixel đều tự được lấp.
+Giải thích: Lỗ (3,3) sau đóng=1; cột 6 sau đóng=[0, 0, 1, 1, 0, 0]. Khe chỉ lấp tại vị trí có đủ láng giềng chữ thập sau giãn; không phải mọi khoảng trống 1 pixel đều tự được lấp.

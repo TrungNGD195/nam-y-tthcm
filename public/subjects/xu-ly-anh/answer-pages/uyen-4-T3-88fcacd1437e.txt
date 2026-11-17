@@ -1,0 +1,26 @@
+Bài 4.T3. Khi hai cách nhị phân hóa cho cùng kết quả
+Đề gốc nhắc nhầm dòng 2 toàn 90; ma trận thực tế của 4.T3 có dòng 2 là 143,27,5,251,33,76. Dòng toàn 90 thuộc 4.T4. Phần ôn tập dùng đúng dữ kiện và hai kết quả đã kiểm tra.
+ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI
+Các kết quả trung gian được tính cho đúng dữ kiện của bài này và cho sẵn ở dưới. Chỉ làm các yêu cầu còn lại; phần phương pháp đã học có liên kết để xem lại.
+Ảnh gốc I
+8	64	190	12	99	205
+143	27	5	251	33	76
+220	101	60	134	18	240
+Hai ảnh nhị phân đã tính
+
+Ảnh khuếch tán lỗi
+0	0	255	0	0	255
+255	0	0	255	0	0
+255	0	0	255	0	255
+Ảnh tách ngưỡng để so sánh
+0	0	255	0	0	255
+255	0	0	255	0	0
+255	0	0	255	0	255
+YÊU CẦU CẦN LÀM
+Câu (b): Với θ=127 và hai kết quả đã tính dưới đây, có pixel đầu ra nào khác nhau không? So sánh số điểm trắng và độ sáng trung bình. Có thể suy ra hai phương pháp luôn tương đương không?
+BÀI GIẢI
+
+Câu (b) — Trường hợp hai ảnh kết quả trùng nhau
+Bước 1. Đối chiếu từng pixel của hai kết quả đã cho.
+Cách làm: So từng cặp pixel cùng hàng/cột, không chỉ so số điểm trắng. Kết quả ở bài 4.T2 cho ví dụ khác; sự trùng nhau tại một ảnh không chứng minh hai phép biến đổi giống nhau với mọi đầu vào.
+Giải thích: Trong đúng ma trận này, khuếch tán lỗi và tách ngưỡng cho cùng ảnh nhị phân: không có pixel khác nhau. Cả hai có 7 điểm trắng, độ sáng trung bình 7·255/18=99,16667. Đây là kết quả riêng của dữ kiện này; không suy ra hai phương pháp luôn tương đương.

@@ -1,0 +1,57 @@
+Bài 3.T4. Xác suất và các mức xám bị gộp
+
+ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI
+Ảnh 32×32 có 8 mức xám. Số pixel từng mức và ánh xạ đã tính theo công thức slide được cho dưới đây.
+
+r	n(r)
+0	190
+1	261
+2	305
+3	138
+4	70
+5	36
+6	16
+7	8
+Ánh xạ cân bằng đã tính
+
+
+r_k	s_k
+0	1
+1	3
+2	5
+3	6
+4	7
+5	7
+6	7
+7	7
+YÊU CẦU CẦN LÀM
+Câu (a): Lập p(r_k) và tổng tích lũy F(k). Kiểm tra tổng xác suất.
+Câu (b): Dùng bảng ánh xạ cho sẵn để chỉ ra các mức bị gộp và lập histogram đầu ra.
+BÀI GIẢI
+
+Câu (a) — Xác suất và tích lũy
+Bước 1. Chuẩn hóa số pixel thành xác suất.
+Công thức: p(r_k)=n_k/N,\quad F(k)=\sum_{j=0}^k p(r_j)
+Ký hiệu: n_k là số pixel ở mức r_k; N=1024 là tổng pixel; p là xác suất; F(k) là xác suất tích lũy tới k.
+Cách làm: Chia từng số đếm cho 1024, sau đó cộng dồn các xác suất từ mức 0 tới mức đang xét. Tổng xác suất cuối phải bằng 1.
+Thay số / thực hiện: p(0)=190/1024=0,185546875; F(1)=(190+261)/1024=0,4404296875.
+Kết luận: F(7)=1.
+
+r	n(r)	p(r)	F(r)
+0	190	0.18555	0.18555
+1	261	0.25488	0.44043
+2	305	0.29785	0.73828
+3	138	0.13477	0.87305
+4	70	0.06836	0.94141
+5	36	0.03516	0.97656
+6	16	0.01562	0.99219
+7	8	0.00781	1
+
+Câu (b) — Những mức bị gộp
+Bước 1. Đọc bảng ánh xạ đã cho và cộng số pixel.
+Công thức: h_{out}(s)=\sum_{k:\,s_k=s}n_k
+Ký hiệu: s_k là mức đầu ra đã cho của mức k; n_k là số pixel mức k; h_out(s) là số pixel sau gộp ở mức s.
+Cách làm: Các mức 4,5,6,7 cùng được ánh xạ tới 7. Các nhóm còn lại là 0→1, 1→3, 2→5, 3→6. Không cần tính lại hàm cân bằng.
+Thay số / thực hiện: h_out(7)=70+36+16+8=130.
+Giải thích: Các mức 4,5,6,7 cùng được ánh xạ tới 7. Các nhóm còn lại là 0→1, 1→3, 2→5, 3→6. Không cần tính lại hàm cân bằng.
+Kết luận: Histogram đầu ra: [0, 190, 0, 261, 0, 305, 138, 130].

@@ -71,6 +71,9 @@ def checked_otsu(h):
     checks['otsu']+=1
     return result,opts
 calc.otsu=checked_otsu
+tie_rows,tie_options=checked_otsu([7,2,2,1,11,11,1,2,2,7])
+assert tie_options==[3,5] and tie_rows[4][-1]<tie_rows[3][-1]
+assert calc.otsu_threshold(tie_options) in tie_options
 
 original_iso=calc.isodata
 def checked_iso(h,t,round_each=True):

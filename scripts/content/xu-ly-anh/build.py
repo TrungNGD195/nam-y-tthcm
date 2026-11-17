@@ -5,6 +5,7 @@ import json, re, unicodedata, hashlib
 from theory import BANK_MAP, UYEN_THEORY_MAP, CHAPTER_MAP
 from theory_answers import resolve_answer, THEORY_KEY_PAGES, CORRECTIONS
 from exercises import SOLUTIONS
+from exercise_focus import REVIEW
 
 ROOT=Path(__file__).resolve().parents[3]
 raw=json.loads((ROOT/'content/xu-ly-anh/source-prompts.json').read_text(encoding='utf-8'))
@@ -49,7 +50,9 @@ for original in raw['records']:
         elif r['sourceId']=='uyen-theory':concept=UYEN_THEORY_MAP[code]
         else:concept=CHAPTER_MAP[r['chapter']][int(code.split('L')[-1])-1]
         authored=resolve_answer(r['id'],concept);chapter=r['chapter'] or authored['chapter']
-    r.update(authored);r['chapter']=chapter;r['revision']=1
+    r.update(authored);r['chapter']=chapter;r['revision']=authored.get('revision',1)
+    if r.get('editedQuestion'):
+        r['prompt']='\n'.join([r['editedQuestion']['intro'],*(f"({p['label']}) {p['text']}" for p in r['editedQuestion']['parts'])])
     if not r['prompt']:
         r['prompt']=f"Bài {code.replace('-bs',' (bổ sung không đánh số)')}: {r['title']}. Đọc đầy đủ dữ kiện và các ý hỏi trong đề gốc bên dưới."
     r['note']=r.get('note','')
@@ -79,7 +82,9 @@ for original in raw['records']:
     else:
         page,section={2:(13,'Biểu diễn ảnh'),3:(31,'Nâng cao chất lượng ảnh; công thức ngưỡng trang 32, lọc trang 33–39, ngưỡng theo histogram trang 68–71'),4:(20,'Khuếch tán lỗi; màu sắc trang 22–28'),5:(44,'Biên; Laplace/Canny trang 48–49, phân vùng trang 68–71'),6:(97,'Nén ảnh; Huffman trang 97, LZW trang 99, JPEG trang 105–109'),7:(59,'Hình thái; tham khảo thêm slide chương 7'),8:(85,'Nhận dạng ảnh')}[chapter]
     r['references'].append(dict(sourceId='textbook',pdfPage=page,section=section))
+    if r['id']=='uyen-5-T4':r['references'].append(dict(sourceId='textbook',pdfPage=32,section='Mục 3.1.5: ngưỡng phải đạt cực đại f(g); kiểm tra trước khi lấy trung bình nhiều nghiệm'))
     if r['kind']=='theory':
+        if concept in ['otsu','thresholds']:r['revision']=2
         r['answerStyle']='complete'
         r['answerBasis']='checked-key' if r['area']=='bank' and code in THEORY_KEY_PAGES else 'course-theory'
         extra_pages={
@@ -114,7 +119,7 @@ for original in raw['records']:
 
 assert len(records)==168 and len(SOLUTIONS)==67
 assert all(r['steps'] for r in records)
-data=dict(subjectId='xu-ly-anh',version='2026.11.16.2',updatedAt='2026-11-16',
+data=dict(subjectId='xu-ly-anh',version='2026.11.17.1',updatedAt='2026-11-17',
           chapters=[dict(number=n,title=t) for n,t in CHAPTERS.items()],sources=sources,items=records,
           coverage=dict(bank=51,uyen=117,theory=101,exercises=67,bankPoints={'1':14,'2':16,'3':11,'4':10},
                         englishTheory='28 câu trùng với Lý thuyết.pdf, gộp và giữ nguồn tiếng Anh trong danh mục'),
@@ -125,7 +130,7 @@ target.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='ut
 def digest(value):
     return hashlib.sha256(json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf8')).hexdigest()
 theory_items=[r for r in records if r['kind']=='theory']
-theory_audit=dict(version='2026.11.16.1',questionCount=len(theory_items),
+theory_audit=dict(version=data['version'],questionCount=len(theory_items),
     policy='Ngân hàng theo đáp án đã kiểm tra với giáo trình; cô Uyên theo giáo trình/slide và cùng lối trình bày câu trả lời hoàn chỉnh. Đối chiếu mục đáp án theo nội dung, không chỉ theo số câu.',
     keyBacked=sum(r['answerBasis']=='checked-key' for r in theory_items),
     questions=[dict(id=r['id'],chapter=r['chapter'],area=r['area'],basis=r['answerBasis'],
@@ -133,6 +138,11 @@ theory_audit=dict(version='2026.11.16.1',questionCount=len(theory_items),
                     headings=[s['lead'] for s in r['steps']],promptHash=digest(r['prompt']),answerHash=digest(r['steps'])) for r in theory_items])
 assert len(theory_items)==101 and theory_audit['keyBacked']==27
 (ROOT/'content/xu-ly-anh/theory-answer-review.json').write_text(json.dumps(theory_audit,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
+focused=[r for r in records if r.get('editedQuestion')]
+focus_audit=dict(version=data['version'],totalUyenExercises=46,editedExercises=len(focused),
+    policy='Giữ đủ số bài và nguyên bản nguồn; phần đã luyện được cho sẵn, yêu cầu mới và điều kiện khác biệt vẫn giữ. So theo ý hỏi, không xóa cả bài chỉ vì cùng thuật toán.',
+    items=[dict(id=r['id'],sourceHash=digest(r['originalText']),questionHash=digest(r['editedQuestion']),answerHash=digest(r['steps']),**REVIEW[r['id']]) for r in focused])
+(ROOT/'content/xu-ly-anh/exercise-focus-review.json').write_text(json.dumps(focus_audit,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
 catalog_file=ROOT/'src/subjects/catalog.json';catalog=json.loads(catalog_file.read_text(encoding='utf-8'))
 for s in catalog:
     if s['id']=='xu-ly-anh':
@@ -160,5 +170,14 @@ report+=['','## Câu trả lời lý thuyết hoàn chỉnh — 16/11/2026','',
     '- `theory-answer-review.json` lưu đủ 101 ID, căn cứ, trang đáp án, các vế trả lời và hash để theo dõi nội dung.',
     '- 67 bài tính chia riêng từng câu (a), (b), (c) theo đề; công thức kèm ký hiệu, cách làm và thay số. PDF/ảnh được xuất lại từ bản trình bày mới, hash từng bài kiểm tra tính tương thích.',
     '- scripts/content/xu-ly-anh/worked_parts.py lưu ánh xạ ý hỏi và cách giải thích ký hiệu. Công thức, bảng và ma trận tính từ calculations.py/exercises.py, tiếp tục được kiểm tra độc lập bằng NumPy/SciPy.']
+report+=['','## Lược ý hỏi lặp — 17/11/2026','',
+    f'- Giữ đủ 46 bài tập cô Uyên; {len(focused)} bài được chỉnh từng ý hỏi, không xóa bài.',
+    '- Phần đã luyện được cho sẵn theo đúng dữ kiện của bài hiện tại; đề mới, đáp án, PDF và bản văn bản thống nhất. Ảnh và bản chép đề gốc vẫn giữ nguyên để đối chiếu.',
+    '- exercise-focus-review.json lưu hash đề gốc, đề ôn tập, lời giải, các ý lược và trọng tâm còn lại.',
+    '- Sửa phần 4.T3 từng nhắc nhầm dòng toàn 90 của 4.T4. Với 5.T4, cực đại Otsu tại 3 và 5 nhưng không tại 4: không lấy trung bình làm mất tính tối ưu. Căn cứ tiêu chuẩn cực đại tại giáo trình trang PDF 32.',
+    '', '| Bài | Ý đã có trước | Trọng tâm giữ lại |','|---|---|---|']
+for r in focused:
+    review=REVIEW[r['id']]
+    report.append(f"| {r['code']} | {'; '.join(x['id']+': '+x['covered'] for x in review['previous'])} | {'; '.join(review['preservedFocus'])} |")
 (ROOT/'content/xu-ly-anh/KIEM_KE_VA_QUY_UOC.md').write_text('\n'.join(report)+'\n',encoding='utf-8')
 print(f'Built {len(records)} solved items; {sum(r["kind"]=="exercise" for r in records)} calculations.')

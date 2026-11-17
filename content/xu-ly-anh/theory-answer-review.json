@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.16.1",
+  "version": "2026.11.17.1",
   "questionCount": 101,
   "policy": "Ngân hàng theo đáp án đã kiểm tra với giáo trình; cô Uyên theo giáo trình/slide và cùng lối trình bày câu trả lời hoàn chỉnh. Đối chiếu mục đáp án theo nội dung, không chỉ theo số câu.",
   "keyBacked": 27,
@@ -584,7 +584,7 @@
         "ISODATA: các bước và điều kiện dừng"
       ],
       "promptHash": "fca499e6ea00e358c4f8999f775da47a936c123fa74e3f3b640025569f728168",
-      "answerHash": "e833a5de618d80d8f9f4338c068dd369c43cc7c4f31d6b90481c451412967c02"
+      "answerHash": "a1452a229bfceb110e28b82226b1b91dae2bb8c49b342b96b5ad2bce90d23068"
     },
     {
       "id": "uyen-5-L8",
@@ -1109,7 +1109,7 @@
         "Tam giác"
       ],
       "promptHash": "1e81ea9d798d39184d53eca6dfa355f174c37c19a48a47afe9cf4159dab181e1",
-      "answerHash": "2745e7d1754f8df4afa4c0e1e6c3ea082ebfe7ee5782becdbfd0ba75baaeb51f"
+      "answerHash": "d94b0af76d5da4c01090bfc469f0bd0951cadb85fefb55fe694e1e75f3bdeae7"
     },
     {
       "id": "uyen-3-L9",

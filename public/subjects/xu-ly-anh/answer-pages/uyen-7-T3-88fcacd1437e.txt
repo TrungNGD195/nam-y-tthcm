@@ -1,0 +1,61 @@
+Bài 7.T3. So sánh hai SE và chứng minh bao hàm
+
+ĐỀ ÔN TẬP — TẬP TRUNG Ý MỚI
+Các kết quả trung gian được tính cho đúng dữ kiện của bài này và cho sẵn ở dưới. Chỉ làm các yêu cầu còn lại; phần phương pháp đã học có liên kết để xem lại.
+Ảnh X
+0	0	0	0	0	0	0	0
+0	1	1	1	1	0	0	0
+0	1	1	1	1	1	0	0
+0	1	1	1	1	1	1	0
+0	0	1	1	1	1	1	0
+0	0	0	1	1	1	1	0
+0	1	0	0	1	1	0	0
+0	0	0	0	0	0	0	0
+B₁ chữ thập
+0	1	0
+1	1	1
+0	1	0
+B₂ vuông
+1	1	1
+1	1	1
+1	1	1
+Các phép co/giãn đã tính
+
+X₁ — phép co
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	1	1	1	0	0	0
+0	0	1	1	1	1	0	0
+0	0	0	1	1	1	0	0
+0	0	0	0	1	1	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+X ⊖ B₂ (vuông)
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	1	1	0	0	0	0
+0	0	0	1	1	0	0	0
+0	0	0	0	1	1	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+X₂ — giãn theo hit B của slide
+0	1	1	1	1	0	0	0
+1	1	1	1	1	1	0	0
+1	1	1	1	1	1	1	0
+1	1	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+1	1	1	1	1	1	1	0
+0	1	0	0	1	1	0	0
+YÊU CẦU CẦN LÀM
+Câu (c): So số điểm 1 trong hai ảnh co đã cho. Chứng minh B₁⊆B₂, cùng gốc, thì X⊖B₂⊆X⊖B₁.
+BÀI GIẢI
+
+Câu (c) — So sánh và chứng minh bao hàm
+Bước 1. Co bằng SE vuông có nhiều điều kiện hơn.
+Công thức: B_1\subseteq B_2\Rightarrow A\ominus B_2\subseteq A\ominus B_1
+Ký hiệu: A là ảnh nhị phân; B là SE; ⊖ là co; ⊕ là giãn; ∘ là mở; • là đóng; O,C lần lượt là kết quả mở/đóng; ⊆ là bao hàm.
+Cách làm: Với mở, co trước rồi giãn chính ảnh vừa co. Với đóng, giãn trước rồi co chính ảnh vừa giãn. Giữ cùng SE và quy ước ngoài khung; khi kiểm tra bao hàm, so từng vị trí 1 chứ không chỉ so tổng số điểm.
+Thay số / thực hiện: Co chữ thập có 12 điểm 1, co vuông có 6.
+Kết luận: Nếu toàn bộ B₂ fit thì tập con B₁ cũng fit; chiều ngược không bảo đảm.

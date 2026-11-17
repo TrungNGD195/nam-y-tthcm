@@ -16,5 +16,5 @@ export function parseMarks(raw: string | null, items: SolvedItem[]): Record<stri
 }
 export function filterItems(items: SolvedItem[], query: string, kind: string, state: string, marks: Record<string, ReadingMark>): SolvedItem[] {
   const words=normalize(query).trim().split(/\s+/).filter(Boolean);
-  return items.filter(item => (kind==='all'||item.kind===kind) && (state==='all'||(state==='new'?!marks[item.id]:marks[item.id]?.state===state)) && words.every(word=>normalize(`${item.code} ${item.title} ${item.prompt} ${item.keywords.join(' ')}`).includes(word)));
+  return items.filter(item => (kind==='all'||item.kind===kind) && (state==='all'||(state==='new'?!marks[item.id]:marks[item.id]?.state===state)) && words.every(word=>normalize(`${item.code} ${item.title} ${item.prompt} ${item.keywords.join(' ')} ${item.editedQuestion?.previous.map(p=>p.covered).join(' ')??''}`).includes(word)));
 }

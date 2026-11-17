@@ -117,14 +117,20 @@ def otsu(h):
     best=max(x[-1] for x in out); opts=[x[0] for x in out if abs(x[-1]-best)<1e-10]
     return out,opts
 
+def otsu_threshold(opts):
+    mean=sum(opts)/len(opts)
+    return mean if math.floor(mean) in opts else opts[0]
+
+
 def otsustep(h,a=None):
-    rows,opts=otsu(h);theta=sum(opts)/len(opts);n=sum(h);mu=sum(i*v for i,v in enumerate(h))/n
+    rows,opts=otsu(h);theta=otsu_threshold(opts)
+    n=sum(h);mu=sum(i*v for i,v in enumerate(h))/n
     blocks=[table(['g','h(g)','t(g)','m(g)','f(g)'],rows+[[len(h)-1,h[-1],n,mu,'Không xét: lớp >g rỗng']],'m(g) là trung bình lớp ≤g; f(g) tương đương phương sai giữa hai lớp')]
     if a:blocks.append(matrix([[0 if x<=theta else 1 for x in row] for row in a],'Ảnh nhị phân (≤ θ là 0)'))
     return step('Lập histogram và tìm cực đại tiêu chuẩn tách hai lớp.',
                 r't(g)=\sum_{i=0}^{g}h(i),\quad m(g)=\frac{\sum_{i=0}^{g}ih(i)}{t(g)},\quad f(g)=\frac{t(g)}{N-t(g)}[m(g)-\mu]^2',
                 f'N = {n}; μ = {fmt(mu)}; tại g={opts[0]}: f = {fmt(rows[opts[0]][-1])}.',
-                f'Các ngưỡng cực đại: {opts}; lấy trung bình khi có nhiều nghiệm ⇒ θ = {fmt(theta)}. Chỉ xét ngưỡng có hai lớp không rỗng. Có thể có nhiều cực đại bằng nhau; không chọn ngẫu nhiên mà nêu quy ước.',blocks=blocks)
+                f'Các ngưỡng cực đại: {opts}; θ = {fmt(theta)}. Chỉ lấy trung bình nếu phân hoạch do ngưỡng trung bình vẫn đạt cực đại; nếu không, chọn nghiệm nhỏ nhất trong tập tối ưu và nêu quy tắc. Chỉ xét hai lớp không rỗng.',blocks=blocks)
 
 def isodata(h,t,round_each=True):
     rows=[];seen=set()

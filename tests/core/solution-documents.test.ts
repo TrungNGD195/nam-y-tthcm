@@ -31,7 +31,7 @@ test('histogram is horizontal and Huffman nodes remain fully defined rather than
   const h=exerciseHtml(histogram,data.sources,histogram.images);
   assert(h.includes('<th>g</th><td>0</td><td>1</td>'));
   assert(h.includes('h′(4) = h(0) + h(8) = 4 + 1 = 5.'));
-  for(const id of ['bank-3-8','bank-3-9','uyen-6-T1','uyen-6-T2']){
+  for(const id of ['bank-3-8','bank-3-9','uyen-6-T1']){
     const item=data.items.find((i:any)=>i.id===id),html=exerciseHtml(item,data.sources,item.images);
     const merges=item.steps.flatMap((s:any)=>s.blocks??[]).find((b:any)=>b.headers?.[0]==='cây con trái');
     for(let n=1;n<=merges.rows.length;n++)assert(html.includes(`<td>N${n}</td>`),id);
