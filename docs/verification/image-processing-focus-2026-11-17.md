@@ -24,3 +24,11 @@
 - PDF mới **249 trang**, **170 ảnh trang lời giải**, 67 bản văn bản. `verify_documents.py` kiểm tra SHA, vị trí tiêu đề, đủ ký hiệu/cách làm và sai số pixel giữa ảnh/PDF bằng **0**.
 - Fingerprint `88fcacd1437e`; SHA-256 PDF `63fe86a23a4dc383f77aaaddf540e06de7ee570a4bc971e1abb7ba217f5bbddb`.
 - Đã xem bản chụp desktop và các trang PDF mẫu: yêu cầu còn lại rõ, các phần trung gian cung cấp đủ dữ kiện và bản gốc không lẫn vào đề cần làm.
+
+## Kiểm tra bản public
+
+- Commit triển khai `e9b2f09`, [workflow 44043003755](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/44043003755) thành công cả kiểm tra và triển khai GitHub Pages.
+- Đã mở đủ 67 bài, đối chiếu danh sách phần giải và bản văn bản; 23 đề đã chỉnh khớp các yêu cầu mới và vẫn có ảnh đề gốc trong mục mở riêng. Đã đối chiếu SHA-256 đủ 170 PNG tải từ web.
+- Lần tải PDF bằng Playwright vượt giới hạn 30 giây sau khi trả HTTP 200. Kiểm tra tiếp bằng Python đọc luồng thành công: **11.813.287 byte**, SHA-256 khớp `63fe86a23a4dc383f77aaaddf540e06de7ee570a4bc971e1abb7ba217f5bbddb`.
+- Kiểm tra riêng toàn bộ **23 đề đã chỉnh** cùng hai câu lý thuyết Otsu liên quan hoàn tất lúc 08:23 UTC ngày 17/11/2026: yêu cầu và nhãn từng câu khớp, không có lỗi JavaScript. Đề gốc 5.T6 mở được, ảnh nguồn trả HTTP 200 và tải thành công.
+- Kết quả tại workspace: `.analysis/focused-questions-public-review.json`, `.analysis/focus-public-pdf-review.json`; ảnh desktop tại `test-results/focused-exercise-question.png`.
