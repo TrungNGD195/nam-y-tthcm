@@ -89,12 +89,24 @@ function recordItem(progress: Progress, item: SessionItem, q: Question, now: num
 export function checkCurrent(progress: Progress, questions: Map<string, Question>, skip = false, now = Date.now()): Progress {
   const next = structuredClone(progress);
   const session = next.activeSession;
-  if (!session || session.mode !== 'practice' || session.status !== 'active') return next;
+  if (!session || (session.mode !== 'practice' && session.examFeedback !== 'immediate') || session.status !== 'active') return next;
   const item = session.items[session.cursor];
   const q = questions.get(item.questionId);
   if (!q || item.checked || (!skip && item.selectedOptionId === null)) return next;
   if (skip) item.selectedOptionId = null;
   recordItem(next, item, q, now);
+  return next;
+}
+
+export function enableImmediateExamFeedback(progress: Progress, questions: Map<string, Question>, now = Date.now()): Progress {
+  if (!progress.activeSession || progress.activeSession.mode !== 'exam') return progress;
+  const next = structuredClone(progress), session = next.activeSession!;
+  session.examFeedback = 'immediate';
+  // Previously saved choices receive feedback without changing the paper or its deadline.
+  for (const item of session.items) {
+    const q = questions.get(item.questionId);
+    if (q && item.selectedOptionId !== null) recordItem(next, item, q, now);
+  }
   return next;
 }
 

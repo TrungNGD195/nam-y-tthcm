@@ -26,18 +26,10 @@ Xuất lại PDF **263 trang**, **193 ảnh lời giải**, fingerprint `399fc00
 
 Web tĩnh dùng dữ liệu JSON và tài liệu cùng bản build; không có API, đăng nhập hoặc dịch vụ dữ liệu cần cấu hình.
 
-## C?ng b? v? ki?m tra c?ng khai
+## Công bố và kiểm tra công khai
 
-- Commit tri?n khai: `39b43cc`; [GitHub Actions 44060253789](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/44060253789) ho?n t?t th?nh c?ng, g?m ki?m tra n?i dung, ph?p t?nh, PDF, build v? 34 b?i ki?m tra tr?nh duy?t tr?n Linux.
-- [Web c?ng khai](https://trungngd195.github.io/nam-y-tthcm/): ??i chi?u ?? **67 b?i t?nh** (?nh ?? g?c, b?n ch?p, c?c ph?n l?i gi?i, c?ng th?c v? c?ch l?m), **36 c?u l? thuy?t ?? s?a** (g?m 10 tham chi?u), m? ???c ?? g?c v? n?i dung tr? l?i kh?p d? li?u; kh?ng c? l?i JavaScript hay tr?n ngang ? m?n h?nh 1366?768.
-- Ki?m tra SHA-256 ?? **193 ?nh** c?ng khai. M?t l??t t?i ?nh b? timeout v? m?t ?nh tr? HTTP 503; t?i l?i v?i s? k?t n?i ??ng th?i th?p h?n ?? ??t, kh?ng thay ??i n?i dung ?? n? l?i m?ng.
-- T?i ???c PDF c?ng khai **13.837.861 byte**, ?? 263 trang, SHA-256 `2e2c2202fb8518a77ae0e4c5826bdd04c726f398360197f97724f697704d53b8` kh?p ch?nh x?c b?n xu?t.
-- ?? xem ?nh ch?p giao di?n c?u 4.L3 (ch? h?i l? do th?m m?c K), 4.L4 (tham chi?u HSV/HSL), v? b?i t?nh 6.T11 (c?c c?u a?g gi? ??y ??).
-
-| Lu?ng | K?t qu? | B?ng ch?ng |
-|---|---|---|
-| Ch?n c?u ? d? li?u | ??t | To?n b? ID gi? nguy?n; 168 m?c |
-| L? thuy?t ? ph?n m?i / tham chi?u | ??t | 36 c?u c?ng khai ??ng prompt, ??p ?n v? li?n k?t |
-| ?? g?c ? ??i chi?u | ??t | N?i dung g?c gi? nguy?n v? m? ???c |
-| B?i t?nh ? PDF / ?nh / b?n v?n b?n | ??t | 67 b?i ?? ph?n, 193 hash ?nh v? hash PDF kh?p |
-| Ti?n ?? h?c ? t?i l?i | ??t | L?u d?u C?n ?n qua reload, l?i gi?i v?n thu g?n khi m? l?i |
+- Commit `39b43cc`; [GitHub Actions 44060253789](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/44060253789) thành công.
+- Web công khai: đối chiếu đủ 67 bài tính, 36 câu lý thuyết đã sửa (gồm 10 tham chiếu), đề gốc và nội dung trả lời khớp dữ liệu; không có lỗi JavaScript hoặc tràn ngang ở màn hình 1366×768.
+- Kiểm tra SHA-256 đủ 193 ảnh công khai. Một lượt tải timeout và một ảnh trả HTTP 503; kiểm tra lại với số kết nối thấp hơn đã đạt.
+- PDF công khai đủ 263 trang, 13.837.861 byte; SHA-256 `2e2c2202fb8518a77ae0e4c5826bdd04c726f398360197f97724f697704d53b8` khớp bản xuất.
+- Đã xem ảnh giao diện câu 4.L3, 4.L4 và bài tính 6.T11; tiến độ Cần ôn giữ qua tải lại trang.

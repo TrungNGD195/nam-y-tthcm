@@ -58,7 +58,7 @@ test('quiz keyboard Enter is a separate action; key repeat cannot auto advance',
   expect((await readProgress(page)).activeSession.cursor).toBe(1);
 });
 
-test('exam hides answers, saves choices and auto-submits on original deadline',async({page})=>{
+test('TTHCM exam shows feedback on selection, saves it and auto-submits on original deadline',async({page})=>{
   await page.clock.install();
   await page.goto('/#/mon/tthcm/thi-thu');await page.selectOption('#exam-minutes','15');
   await page.locator('[data-kind=sample]').click();
@@ -67,10 +67,12 @@ test('exam hides answers, saves choices and auto-submits on original deadline',a
   let p=await readProgress(page);expect(p.activeSession.items).toHaveLength(20);
   const q=qmap.get(p.activeSession.items[0].questionId)!;
   await page.locator(`[data-option="${q.correctOptionId}"]`).click();
-  p=await readProgress(page);expect(Object.keys(p.records)).toHaveLength(0);const deadline=p.activeSession.deadline;
+  await expect(page.locator('.feedback')).toBeVisible();
+  p=await readProgress(page);expect(p.records[q.id].seen).toBe(1);const deadline=p.activeSession.deadline;
   await page.reload();
   p=await readProgress(page);expect(p.activeSession.deadline).toBe(deadline);
   await expect(page.locator(`[data-option="${q.correctOptionId}"]`)).toHaveAttribute('aria-checked','true');
+  await expect(page.locator('.feedback')).toBeVisible();
   await page.clock.fastForward(16*60_000);
   await expect(page).toHaveURL(/ket-qua/);
   p=await readProgress(page);expect(p.history).toHaveLength(1);expect(p.history[0].correct).toBe(1);expect(p.activeSession).toBeNull();

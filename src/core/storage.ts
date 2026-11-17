@@ -12,6 +12,7 @@ function sanitizeSession(value: unknown, questions: Map<string, Question>, statu
   if (!object(value) || value.status !== status || !['practice', 'exam'].includes(String(value.mode)) || typeof value.id !== 'string' || value.id.length > 120 || !object(value.deck)) return null;
   if (!Array.isArray(value.items) || value.items.length < 1 || value.items.length > questions.size || !integer(value.cursor) || value.cursor >= value.items.length || !time(value.startedAt)) return null;
   const deck = value.deck;
+  if (value.examFeedback !== undefined && !['immediate','after-submit'].includes(String(value.examFeedback))) return null;
   if (!['chapter', 'numbers', 'review', 'mixed', 'sample', 'collection', 'comprehensive'].includes(String(deck.kind)) || typeof deck.title !== 'string' || deck.title.length > 200 || !integer(deck.count) || !deck.count) return null;
   if(deck.kind==='comprehensive'&&(!Array.isArray(deck.questionIds)||deck.questionIds.length!==deck.count||value.items.length!==deck.count||new Set(deck.questionIds).size!==deck.count))return null;
   if (deck.kind === 'chapter' && (!integer(deck.chapter) || ![...questions.values()].some(q => q.chapter === deck.chapter))) return null;
@@ -23,7 +24,7 @@ function sanitizeSession(value: unknown, questions: Map<string, Question>, statu
     if (!q || raw.revision !== q.revision || !Array.isArray(raw.optionOrder) || raw.optionOrder.length !== q.options.length || new Set(raw.optionOrder).size !== q.options.length || raw.optionOrder.some(id => !q.options.some(o => o.id === id))) return null;
     if (raw.selectedOptionId !== null && !q.options.some(o => o.id === raw.selectedOptionId)) return null;
     if (typeof raw.checked !== 'boolean' || typeof raw.usedHint !== 'boolean' || typeof raw.recorded !== 'boolean' || raw.checked !== raw.recorded) return null;
-    if (value.mode === 'exam' && (raw.usedHint || (status === 'active' && raw.checked))) return null;
+    if (value.mode === 'exam' && (raw.usedHint || (status === 'active' && raw.checked && value.examFeedback !== 'immediate'))) return null;
     if (status === 'finished' && !raw.checked) return null;
     ids.add(q.id);
     items.push({ questionId: q.id, revision: q.revision, optionOrder: [...raw.optionOrder] as string[], selectedOptionId: raw.selectedOptionId as string | null, checked: raw.checked, usedHint: raw.usedHint, recorded: raw.recorded });
@@ -33,6 +34,7 @@ function sanitizeSession(value: unknown, questions: Map<string, Question>, statu
   if (status === 'finished' && !time(value.finishedAt)) return null;
   return {
     id: value.id, mode: value.mode as Session['mode'], status, items, cursor: value.cursor, startedAt: value.startedAt,
+    ...(value.examFeedback === 'immediate' || value.examFeedback === 'after-submit' ? {examFeedback:value.examFeedback} : {}),
     deadline: value.deadline as number | null, finishedAt: status === 'finished' ? value.finishedAt as number : null,
     deck: { kind: deck.kind as Session['deck']['kind'], title: deck.title, count: deck.count,
       ...(integer(deck.chapter) ? { chapter: deck.chapter } : {}),

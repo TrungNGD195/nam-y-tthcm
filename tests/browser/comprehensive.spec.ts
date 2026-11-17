@@ -22,14 +22,29 @@ test('comprehensive papers are discoverable, complete, balanced and support full
   let p=await progress(page);const ids=p.activeSession.items.map((i:any)=>i.questionId);const deadline=p.activeSession.deadline;
   expect(new Set(ids).size).toBe(60);expect(p.activeSession.deck.kind).toBe('comprehensive');
   await page.locator(`[data-option="${qmap.get(ids[0])!.correctOptionId}"]`).click();
+  await expect(page.locator('.feedback')).toContainText('Chính xác');
+  await expect(page.locator('.correct-answer')).toContainText(qmap.get(ids[0])!.options.find((o:any)=>o.id===qmap.get(ids[0])!.correctOptionId).text);
+  await expect(page.locator('.feedback .keyword-chip').first()).toBeVisible();
+  expect(await page.locator('.option').evaluateAll(options=>options.every(o=>(o as HTMLButtonElement).disabled))).toBe(true);
   await page.reload();await expect(page.locator('.question-num')).toHaveCount(60);
   p=await progress(page);expect(p.activeSession.deadline).toBe(deadline);expect(p.activeSession.items.map((i:any)=>i.questionId)).toEqual(ids);
   await expect(page.locator(`[data-option="${qmap.get(ids[0])!.correctOptionId}"]`)).toHaveAttribute('aria-checked','true');
+  await expect(page.locator('.feedback')).toBeVisible();expect(p.records[ids[0]].seen).toBe(1);
+  await page.locator('[data-action=next]').click();
+  const second=qmap.get(ids[1])!,wrong=second.options.find((o:any)=>o.id!==second.correctOptionId)!;
+  await page.locator(`[data-option="${wrong.id}"]`).click();
+  await expect(page.locator('.feedback.wrong')).toBeVisible();
+  await expect(page.locator(`[data-option="${second.correctOptionId}"]`)).toHaveClass(/correct/);
+  await expect(page.locator(`[data-option="${wrong.id}"]`)).toHaveClass(/incorrect/);
+  await page.keyboard.press(String(second.options.findIndex((o:any)=>o.id===second.correctOptionId)+1));
+  expect((await progress(page)).activeSession.items[1].selectedOptionId).toBe(wrong.id);
+  await page.locator('[data-action=previous]').click();await expect(page.locator('.feedback')).toContainText('Chính xác');
   await page.locator('[data-action=jump][data-index="59"]').click();
   await page.locator(`[data-option="${qmap.get(ids[59])!.correctOptionId}"]`).click();
   await page.locator('[data-action=finish]').click();await page.locator('[data-action=submit]').click();
   await expect(page.locator('.result-item')).toHaveCount(60);
   p=await progress(page);expect(p.lastResult.items).toHaveLength(60);expect(p.history[0].correct).toBe(2);
+  expect(p.records[ids[0]].seen).toBe(1);expect(p.records[ids[1]].seen).toBe(1);
   await page.getByRole('link',{name:'Chọn đề tổng hợp khác',exact:true}).click();
   await expect(page.locator('.comprehensive-card[data-paper="01"]')).toContainText('2/60');
   await page.locator('[data-action=start-paper][data-paper="01"]').click();await expect(page.locator('.question-num')).toHaveCount(60);
@@ -87,4 +102,26 @@ test('legacy 50-question attempts remain resumable without marking new 60-questi
   await page.locator('[data-action=replace-session]').click();
   await expect(page.locator('.question-num')).toHaveCount(60);
   expect((await progress(page)).activeSession.deck.paperKey).toContain(':size:60:');
+});
+
+test('an unfinished exam from before instant feedback keeps its selections, position and deadline',async({page})=>{
+  await page.goto('/#/mon/tthcm/de-tong-hop');await page.selectOption('#exam-minutes','60');
+  await page.locator('[data-action=start-paper][data-paper="01"]').click();
+  const initial=await progress(page),first=qmap.get(initial.activeSession.items[0].questionId)!;
+  await page.evaluate(({key,optionId})=>{
+    const saved=JSON.parse(localStorage.getItem(key)!);
+    delete saved.activeSession.examFeedback;
+    saved.activeSession.items[0].selectedOptionId=optionId;
+    saved.activeSession.cursor=1;
+    localStorage.setItem(key,JSON.stringify(saved));
+  },{key,optionId:first.correctOptionId});
+  await page.reload();
+  let saved=await progress(page);
+  expect(saved.activeSession.id).toBe(initial.activeSession.id);
+  expect(saved.activeSession.deadline).toBe(initial.activeSession.deadline);
+  expect(saved.activeSession.cursor).toBe(1);expect(saved.records[first.id].seen).toBe(1);
+  await expect(page.locator('.feedback')).toHaveCount(0);
+  await page.locator('[data-action=jump][data-index="0"]').click();
+  await expect(page.locator('.feedback')).toContainText('Chính xác');
+  await page.reload();saved=await progress(page);expect(saved.records[first.id].seen).toBe(1);
 });

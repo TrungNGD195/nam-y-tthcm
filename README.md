@@ -161,3 +161,6 @@ Việc học trên web không cần Python hay các PDF gốc. Importer gốc kh
 Website tĩnh, deploy bằng `.github/workflows/pages.yml`; các bước check, test, build và browser test phải qua trước khi triển khai. Repository public; Settings → Pages dùng GitHub Actions. Chỉ `dist/` được xuất bản; tài liệu gốc và tệp phân tích không đẩy lên GitHub.
 
 Tham khảo: [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), [Vite import theo yêu cầu](https://vite.dev/guide/features.html#glob-import), [KaTeX API](https://katex.org/docs/api.html).
+
+
+Đề TTHCM (tổng hợp, mẫu và trộn) hiện đúng/sai, đáp án đúng, giải thích và keyword **ngay khi chọn phương án**. Câu đã chấm giữ nguyên lựa chọn; tải lại hoặc tiếp tục bài cũ vẫn giữ kết quả và deadline, không chấm lặp.

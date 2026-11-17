@@ -1,6 +1,6 @@
 # Đặc tả chung — Nắm ý, ôn tập nhiều môn
 
-Phiên bản 2.12 · 17/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
+Phiên bản 2.13 · 17/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -124,14 +124,14 @@ URL cũ như `#/chuong/2`, `#/lam-bai` tự chuyển về route tương ứng c�
 - Mỗi đề chính có 60 câu theo yêu cầu mới: 8 đề đúng 60 câu và 1 đề cuối 26 câu. Toàn bộ 506 câu, gồm 92 câu số liệu, xuất hiện đúng một lần trong cả bộ. Không lấy lại câu cũ để lấp đề cuối.
 - Số câu từng chương sau gộp là 30/123/115/105/52/81. Rải câu của mỗi chương đều giữa các đề chính: số câu cùng chương ở các đề 60 câu chênh tối đa 1. Đề cuối 26 câu vẫn có đủ sáu chương, phân bổ theo lượng câu thực có.
 - Trộn ổn định từng chương, chia theo hạn mức không quay vòng rồi trộn thứ tự trong đề. Thành phần đề tái lập theo phiên bản ngân hàng, không phụ thuộc tiến độ. Mã bộ đề gồm cả số câu mỗi đề để không hiển thị điểm/bài dang dở của bộ cũ lên đề mới trùng số thứ tự. Bài 50 câu cũ đang làm vẫn có thể tiếp tục; chọn đề mới sẽ hỏi trước khi thay bài dang dở.
-- Thẻ đề ghi phân bố từng chương, số câu đã gặp và kết quả nộp gần nhất còn trong lịch sử. Thời gian tùy chọn, mặc định không giới hạn. Làm theo chế độ thi, đáp án/keyword/lời giải hiện sau nộp.
-- Lưu lựa chọn, thứ tự đáp án và deadline trong bài dang dở. Tải lại, chuyển môn, làm lại cùng đề và ôn riêng câu sai dùng luồng sẵn có; không mất bài cũ nếu hủy thao tác chọn đề khác.
+- Thẻ đề ghi phân bố từng chương, số câu đã gặp và kết quả nộp gần nhất còn trong lịch sử. Thời gian tùy chọn, mặc định không giới hạn. Chọn đáp án là chấm ngay và hiện đáp án đúng, giải thích cùng keyword; không cần chờ nộp toàn đề. Câu đã chấm giữ nguyên lựa chọn để điểm và tiến độ không bị chấm lại.
+- Lưu lựa chọn, trạng thái chấm, thứ tự đáp án và deadline trong bài dang dở. Bài TTHCM cũ đang làm hoặc nhập từ tệp chuyển sang phản hồi ngay; chấm các câu đã chọn đúng một lần, giữ ID đề, vị trí và deadline. Tải lại, chuyển môn, làm lại cùng đề và ôn riêng câu sai dùng luồng sẵn có; không mất bài cũ nếu hủy thao tác chọn đề khác.
 - Dữ liệu lượt dùng `Deck.kind = comprehensive`, `questionIds`, `paperKey`, số câu thực tế và tên đề. Nhập/lưu lại phải giữ đủ bộ ID đúng thứ tự, không chấp nhận ID trùng hoặc bộ đề không khớp lượt.
 - Giữ đề mẫu và đề trộn 20 câu trong khu Thi thử hiện có.
 
 Với chế độ trắc nghiệm, giữ luồng v1: chọn đáp án → Kiểm tra → lời giải → Câu tiếp. Phím 1–4 và Enter có thao tác tách riêng; giữ phím không chuyển liên tiếp. Đáp án lưu theo mã, thứ tự đã đảo lưu theo lượt. Câu tham chiếu A/B giữ thứ tự.
 
-Thi thử trộn theo các chương thực có của môn, không trộn môn; đề mẫu chỉ hiện khi có danh sách câu hợp lệ từ nguồn. Thời gian tùy chọn, deadline không reset khi tải lại. Gợi ý không tính đúng độc lập; bài thi không lộ đáp án trước nộp.
+Thi thử trộn theo các chương thực có của môn, không trộn môn; đề mẫu chỉ hiện khi có danh sách câu hợp lệ từ nguồn. Thời gian tùy chọn, deadline không reset khi tải lại. Gợi ý không tính đúng độc lập. TTHCM bật `examFeedback: immediate` cho cả đề tổng hợp, đề mẫu và đề trộn: chọn là xem ngay lời giải. Các môn chưa cấu hình vẫn dùng luồng mặc định sau nộp.
 
 Chuyển môn tự giữ bài đang làm, gỡ listener/timer của màn hình cũ để không chấm lặp hoặc tự chuyển trang của môn khác. Deadline bài có thời gian vẫn theo đồng hồ thực; khi quay lại bài đã hết giờ, chấm và lưu một lần.
 

@@ -1,5 +1,5 @@
 import type { Bank, Concept, Deck, LessonSection, Progress, Question, Session, Subject } from '../../core/types.ts';
-import { checkCurrent, createSession, finishSession, needsReview, normalize, scoreSession, selectQuestions, toggleBookmark } from '../../core/engine.ts';
+import { checkCurrent, createSession, enableImmediateExamFeedback, finishSession, needsReview, normalize, scoreSession, selectQuestions, toggleBookmark } from '../../core/engine.ts';
 import { emptyProgress, loadProgress, parseProgress, saveProgress, storageKey } from '../../core/storage.ts';
 import { button, durationText, emphasize, esc, icon, link, pill, progressBar, promptText, referencesHtml, sourceDetails, sourceName, sourceLocation, renderBlocks } from '../../shared/ui.ts';
 
@@ -50,6 +50,11 @@ function persist(): void {
     storageWarning = 'Trình duyệt chưa cho lưu tiến độ. Bạn vẫn học bình thường; hãy xuất tiến độ trước khi đóng trang.';
     toast(storageWarning);
   }
+}
+function applyExamFeedback(): void {
+  if (subject.examFeedback !== 'immediate' || progress.activeSession?.mode !== 'exam') return;
+  progress = enableImmediateExamFeedback(progress,qmap);
+  persist();
 }
 function toast(message: string): void {
   const el = document.createElement('div');
@@ -190,7 +195,7 @@ function examPage(): string {
     <div class="filter-bar"><label for="exam-minutes" class="small muted">Thời gian tự chọn</label><select id="exam-minutes" class="filter-select">${[[0,'Không giới hạn'],[15,'15 phút'],[20,'20 phút'],[30,'30 phút']].map(([v,t])=>`<option value="${v}" ${minutes===v?'selected':''}>${t}</option>`).join('')}</select><span class="small muted">Đây là thời gian luyện tập do bạn chọn.</span></div>
     <div class="exam-cards">${bank.sampleQuestionIds.length?`<article class="panel exam-card"><div class="large-icon">${icon('book')}</div><div class="row wrap" style="margin-bottom:12px">${pill('ĐỀ MẪU','red')}${pill(`${examSize} CÂU`)}</div><h2>${esc(subject.sampleTitle??'Đề mẫu')}</h2><p>Luyện đề có trong tài liệu của môn; giữ thứ tự câu gốc để đối chiếu và làm quen cách hỏi.</p>${button('start',`Làm đề mẫu ${icon('arrow')}`,'btn primary full','data-kind="sample"')}</article>`:''}
     <article class="panel exam-card"><div class="large-icon" style="background:#edf1e8;color:#71815c">${icon('target')}</div><div class="row wrap" style="margin-bottom:12px">${pill('ĐỀ TRỘN','green')}${pill(`${examSize} CÂU`)}</div><h2>Mỗi lượt một bộ câu mới</h2><p>Trộn câu từ ${bank.chapters.length} chương và các chuyên đề của môn. Phân bổ giữa các chương, ưu tiên các ý khác nhau để kiểm tra rộng hơn.</p>${button('start',`Tạo đề trộn ${icon('arrow')}`,'btn full','data-kind="mixed"')}</article></div>
-    <div class="exam-info">${icon('info')} Đáp án và lời giải chỉ hiện sau khi nộp bài. Đề trộn phục vụ luyện tập, chưa phải ma trận hoặc thời lượng thi chính thức của trường. Bạn có thể thi lại không giới hạn.</div>
+    <div class="exam-info">${icon('info')} ${subject.examFeedback==='immediate'?'Chọn đáp án để xem ngay đúng/sai, đáp án đúng, giải thích và keyword.':'Đáp án và lời giải chỉ hiện sau khi nộp bài.'} Đề trộn phục vụ luyện tập, chưa phải ma trận hoặc thời lượng thi chính thức của trường. Bạn có thể thi lại không giới hạn.</div>
     ${progress.history.length?`<div class="section-head"><h2>Những lượt gần đây</h2><p>Lưu riêng trên trình duyệt này</p></div><div class="panel"><ul class="history-list">${progress.history.slice(0,5).map(h=>`<li><span>${esc(h.title)}<br><small>${new Date(h.at).toLocaleString('vi-VN')}</small></span><span><strong>${h.correct}/${h.total}</strong>${h.assisted?` · ${h.assisted} gợi ý`:''}</span></li>`).join('')}</ul></div>`:''}`;
 }
 function comprehensivePage(): string {
@@ -200,7 +205,7 @@ function comprehensivePage(): string {
   return `${pageIntro('ÔN TẬP TOÀN MÔN',`Luyện đề tổng hợp ${comprehensiveSize} câu`,`${papers.filter(p=>p.questionIds.length===comprehensiveSize).length} đề ${comprehensiveSize} câu${tail?` và 1 đề cuối ${tail.questionIds.length} câu`:''}. Cả bộ dùng đủ ${bank.questions.length} câu, gồm cả câu số liệu; mỗi câu chỉ thuộc một đề. Bạn có thể làm lại tùy ý.`)}
     ${active?.deck.kind==='comprehensive'?`<div class="continue-banner">${icon('clock')}<div class="grow"><strong>${esc(active.deck.title)}</strong><p>${active.items.filter(i=>i.selectedOptionId!==null).length}/${active.items.length} câu đã chọn · Bài đang làm được tự lưu.</p></div>${link('#/lam-bai','Tiếp tục đề này '+icon('arrow'),'btn small')}</div>`:''}
     <section class="comprehensive-overview"><div><strong>${papers.length}</strong><span>đề để luyện</span></div><div><strong>${comprehensiveSize}</strong><span>câu / đề chính</span></div><div><strong>${bank.questions.length}</strong><span>câu, không lặp giữa các đề</span></div><div><strong>${countSeen()}/${bank.questions.length}</strong><span>câu đã gặp trên web</span></div></section>
-    <div class="comprehensive-note">${icon('info')}<p><strong>Mỗi câu chỉ xuất hiện một lần trong cả bộ đề.</strong> Các chương được rải đều theo số câu thực tế của từng chương.${tail?` Đề cuối giữ ${tail.questionIds.length} câu còn lại, không lấy lại câu đã dùng để đủ ${comprehensiveSize}.`:''} Đáp án, lời giải và keyword hiện sau khi nộp bài.</p></div>
+    <div class="comprehensive-note">${icon('info')}<p><strong>Mỗi câu chỉ xuất hiện một lần trong cả bộ đề.</strong> Các chương được rải đều theo số câu thực tế của từng chương.${tail?` Đề cuối giữ ${tail.questionIds.length} câu còn lại, không lấy lại câu đã dùng để đủ ${comprehensiveSize}.`:''} ${subject.examFeedback==='immediate'?'Chọn đáp án là thấy ngay đúng/sai, lời giải và keyword. Câu đã chấm được giữ nguyên để bạn ôn lại.':'Đáp án, lời giải và keyword hiện sau khi nộp bài.'}</p></div>
     <div class="filter-bar"><label for="exam-minutes" class="small muted">Thời gian làm mỗi đề</label><select id="exam-minutes" class="filter-select">${[[0,'Không giới hạn'],[15,'15 phút'],[20,'20 phút'],[30,'30 phút'],[45,'45 phút'],[60,'60 phút'],[90,'90 phút']].map(([v,t])=>`<option value="${v}" ${minutes===v?'selected':''}>${t}</option>`).join('')}</select></div>
     <section class="comprehensive-grid" aria-label="Danh sách đề tổng hợp">${papers.map(paper=>{
       const seen=paper.questionIds.filter(id=>(progress.records[id]?.seen??0)>0).length;
@@ -239,9 +244,9 @@ function quizPage(): string {
   if (!s) return `<div class="empty-state">${icon('book')}<h1>Bạn chưa có bài đang làm</h1><p>Chọn chương hoặc một đề để bắt đầu.</p>${link('#/','Chọn bộ câu hỏi')}</div>`;
   const item=s.items[s.cursor],q=qmap.get(item.questionId)!;
   const answered=s.items.filter(i=>s.mode==='practice'?i.checked:i.selectedOptionId!==null).length;
-  const showAnswer=s.mode==='practice'&&item.checked;
+  const showAnswer=(s.mode==='practice'||s.examFeedback==='immediate')&&item.checked;
   const record=progress.records[q.id];
-  return `<div class="quiz-header"><div><div class="eyebrow">${s.mode==='practice'?'LUYỆN TẬP':'THI THỬ'} · ${esc(s.deck.title)}</div><h1>Từng câu một, vững từng ý.</h1><div class="quiz-top-meta">${s.mode==='practice'?'Lời giải hiện sau khi kiểm tra':'Đáp án được giữ kín đến khi nộp bài'} · ${s.items.length} câu</div></div>${button('save-exit','Lưu và thoát','btn')}</div>
+  return `<div class="quiz-header"><div><div class="eyebrow">${s.examFeedback==='immediate'?'LUYỆN ĐỀ':s.mode==='practice'?'LUYỆN TẬP':'THI THỬ'} · ${esc(s.deck.title)}</div><h1>Từng câu một, vững từng ý.</h1><div class="quiz-top-meta">${s.examFeedback==='immediate'?'Chọn đáp án để xem ngay lời giải và keyword':s.mode==='practice'?'Lời giải hiện sau khi kiểm tra':'Đáp án được giữ kín đến khi nộp bài'} · ${s.items.length} câu</div></div>${button('save-exit','Lưu và thoát','btn')}</div>
     <div class="question-progress"><div class="progress-caption"><span>Đã trả lời ${answered}/${s.items.length}</span><span>${s.mode==='exam'&&s.deadline?`<span id="timer" class="quiz-timer" aria-label="Thời gian còn lại">${durationText(s.deadline-Date.now())}</span>`:`Câu ${s.cursor+1}/${s.items.length}`}</span></div>${progressBar(answered/s.items.length*100,'Tiến độ lượt làm')}</div>
     <div class="quiz-layout"><section class="panel question-card" data-quiz><div class="question-head"><div class="row wrap">${pill('CHƯƠNG '+q.chapter)}${q.tags.map(tag=>subject.collections.flatMap(c=>c.filters).find(f=>f.tag===tag)?.label).filter(Boolean).map(label=>pill(label!,'orange')).join('')}${q.originType==='converted'?pill('ĐÃ BIÊN TẬP'):''}</div>${button('bookmark',icon('flag'),'icon-button bookmark '+(record?.bookmarked?'active':''),`data-id="${q.id}" aria-label="${record?.bookmarked?'Bỏ đánh dấu':'Đánh dấu'} câu này" aria-pressed="${!!record?.bookmarked}"`)}</div>
     <h2 id="question-prompt" tabindex="-1">${promptText(q.prompt)}</h2>${renderBlocks(q.blocks)}<div class="options" role="radiogroup" aria-labelledby="question-prompt">${item.optionOrder.map((id,index)=>{
@@ -255,7 +260,7 @@ function quizPage(): string {
       const correct=i.checked&&i.selectedOptionId===qmap.get(i.questionId)?.correctOptionId;
       const state=i.checked?(correct?'right':'wrong'):i.selectedOptionId!==null?'answered':'';
       return `<button class="question-num ${state} ${index===s.cursor?'current':''} ${progress.records[i.questionId]?.bookmarked?'flagged':''}" data-action="jump" data-index="${index}" aria-label="Câu ${index+1}${i.checked?(correct?', đúng':', cần ôn'):i.selectedOptionId?', đã chọn':', chưa làm'}" ${index===s.cursor?'aria-current="step"':''}>${index+1}</button>`;
-    }).join('')}</div><div class="nav-legend"><span></span> Đã trả lời<br><span class="empty-dot"></span> Chưa làm</div>${button('finish',s.mode==='exam'?'Nộp bài':'Kết thúc lượt','btn full small','style="margin-top:20px"')}<p class="setup-note">${s.mode==='exam'?'Kiểm tra lại trước khi nộp.':'Bạn có thể quay lại xem câu đã chấm.'}</p></aside></div>`;
+    }).join('')}</div><div class="nav-legend"><span></span> Đã trả lời<br><span class="empty-dot"></span> Chưa làm</div>${button('finish',s.mode==='exam'?'Nộp bài':'Kết thúc lượt','btn full small','style="margin-top:20px"')}<p class="setup-note">${s.mode==='exam'&&s.examFeedback!=='immediate'?'Kiểm tra lại trước khi nộp.':'Bạn có thể quay lại xem câu đã chấm.'}</p></aside></div>`;
 }
 function resultPage(): string {
   const s=progress.lastResult;
@@ -315,6 +320,7 @@ function begin(deck: Deck, mode: Session['mode'], timeLimit = minutes, specific?
   const qs=specific??selectQuestions(bank.questions,deck,progress.records,bank.sampleQuestionIds);
   if(!qs.length||(deck.kind==='comprehensive'&&qs.length!==deck.count)){toast('Chưa có đủ câu phù hợp. Hãy thử lựa chọn khác.');return;}
   progress.activeSession=createSession(qs,deck,mode,timeLimit);
+  applyExamFeedback();
   persist();go('#/lam-bai');window.scrollTo(0,0);
 }
 function submit(): void {
@@ -330,8 +336,10 @@ function current(): {session: Session; item: Session['items'][number]; question:
   const item=session.items[session.cursor],question=qmap.get(item.questionId);return question?{session,item,question}:null;
 }
 function choose(optionId: string): void {
-  const c=current();if(!c||c.session.mode==='practice'&&c.item.checked||!c.question.options.some(o=>o.id===optionId))return;
-  c.item.selectedOptionId=optionId;persist();render();
+  const c=current();if(!c||c.item.checked||!c.question.options.some(o=>o.id===optionId))return;
+  c.item.selectedOptionId=optionId;
+  if(c.session.examFeedback==='immediate')progress=checkCurrent(progress,qmap);
+  persist();render();
 }
 function nextQuestion(): void {
   const c=current();if(!c)return;
@@ -407,7 +415,7 @@ document.addEventListener('click',event=>{
     }
     case 'import':document.querySelector<HTMLInputElement>('#import-file')?.click();break;
     case 'confirm-import':{
-      if(importCandidate){progress=importCandidate;importCandidate=null;storageWarning='';persist();dialog.close();render();toast('Đã nhập tiến độ.');}break;
+      if(importCandidate){progress=importCandidate;importCandidate=null;storageWarning='';applyExamFeedback();persist();dialog.close();render();toast('Đã nhập tiến độ.');}break;
     }
     case 'reset':openDialog('Xóa tiến độ trên trình duyệt này?','<p>Thao tác sẽ xóa lịch sử, đánh dấu và bài đang làm. Bạn nên xuất một bản sao trước nếu muốn giữ lại.</p>',button('close-dialog','Giữ tiến độ','btn')+button('confirm-reset','Xóa tiến độ','btn danger'));break;
     case 'confirm-reset':progress=emptyProgress(bank.version,subject.id);persist();dialog.close();render();toast('Đã xóa tiến độ trên trình duyệt này.');break;
@@ -466,7 +474,7 @@ function checkDeadline(): void {
 window.addEventListener('storage',event=>{
   if(event.key===storageKey(subject.id))toast('Tiến độ vừa thay đổi ở tab khác. Tải lại trang nếu bạn muốn dùng bản mới nhất.');
 }, { signal: events.signal });
-render();checkDeadline();
+applyExamFeedback();render();checkDeadline();
 const timer=setInterval(checkDeadline,1000);
 return { render:()=>{menuOpen=false;render();checkDeadline();}, dispose:()=>{events.abort();clearInterval(timer);if(dialog.open)dialog.close();} };
 }

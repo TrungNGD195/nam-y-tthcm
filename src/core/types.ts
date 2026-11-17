@@ -8,6 +8,7 @@ export type Subject = {
   solutionPresentation?: 'documents';
   questionCount?: number; chapterCount?: number; examSize?: number; sampleTitle?: string; comprehensiveExamSize?: number;
   sourceDescription?: string; collections: Collection[];
+  examFeedback?: 'immediate' | 'after-submit';
 };
 export type ContentBlock =
   | { type: 'image'; src: string; alt: string; caption?: string }
@@ -57,6 +58,7 @@ export type SessionItem = {
 export type Deck = { kind: 'chapter' | 'numbers' | 'review' | 'mixed' | 'sample' | 'collection' | 'comprehensive'; chapter?: number; tag?: string; tags?: string[]; includeNumbers?: boolean; order?: 'unseen' | 'random'; count: number; title: string; questionIds?: string[];paperKey?:string };
 export type Session = {
   id: string; mode: 'practice' | 'exam'; status: 'active' | 'finished'; deck: Deck;
+  examFeedback?: 'immediate' | 'after-submit';
   items: SessionItem[]; cursor: number; startedAt: number; deadline: number | null; finishedAt: number | null;
 };
 export type HistoryEntry = { id: string; title: string; at: number; total: number; correct: number; assisted: number; mode: 'practice' | 'exam';paperKey?:string };
