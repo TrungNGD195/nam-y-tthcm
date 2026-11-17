@@ -19,3 +19,9 @@ Câu đã chấm giữ nguyên lựa chọn; quay lại vẫn xem được đáp
 - Build đạt. Phần hiển thị nhãn đổi thành Luyện đề cho lượt có phản hồi ngay.
 
 Luồng kiểm tra: chọn đề → chọn phương án → hiện đáp án và giải thích → lưu tiến độ → tải lại/quay lại vẫn giữ kết quả → nộp không tăng số lượt chấm. Đây là web tĩnh, không có API hoặc dữ liệu máy chủ cần cấu hình.
+
+## Công bố
+
+Commit `38c3f61`; [GitHub Actions 44071538891](https://github.com/TrungNGD195/nam-y-tthcm/actions/runs/44071538891) thành công.
+
+Đã thử trực tiếp trên [web công khai](https://trungngd195.github.io/nam-y-tthcm/): cả đề tổng hợp 60 câu, đề mẫu 20 câu và đề trộn 20 câu đều hiện đúng/sai và lời giải ngay khi chọn. Đã kiểm tra đáp án đúng, đáp án sai, keyword, khóa lựa chọn đã chấm, quay lại, tải lại giữ deadline và nộp giữ số lần ghi nhận bằng một. Không có lỗi JavaScript hoặc tràn ngang ở màn hình 1366×768. Đã xem ảnh chụp trang đề tổng hợp sau khi chọn đáp án.
