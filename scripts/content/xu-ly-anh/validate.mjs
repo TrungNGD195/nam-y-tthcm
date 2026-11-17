@@ -19,32 +19,21 @@ export function validateSolutions(data, subject, assetExists=()=>true) {
     for(const page of item.sourcePages)assert(item.references.some(r=>r.sourceId===item.sourceId&&r.pdfPage===page));
     for(const ref of item.references)assert(sources.has(ref.sourceId)&&Number.isInteger(ref.pdfPage)&&ref.pdfPage>0&&ref.pdfPage<=sources.get(ref.sourceId).pages&&ref.section.length>5);
     item.images.forEach(asset);
-    if(item.kind==='exercise')assert(item.images.length>0&&(item.editedQuestion||item.steps.some(s=>s.formula&&s.substitution)),`${item.id}: calculation requires original prompt, formula and substitution`);
-    if(item.editedQuestion){
-      const q=item.editedQuestion;
-      assert(item.area==='uyen'&&item.kind==='exercise'&&item.revision>=2);
-      assert(q.intro.length>20&&Array.isArray(q.givens)&&Array.isArray(q.supplied)&&q.parts.length>0&&q.previous.length>0);
-      const labels=q.parts.map(p=>p.label);
-      assert.equal(new Set(labels).size,labels.length);
-      assert(q.parts.every(p=>/^[a-g]$/.test(p.label)&&p.text.length>20));
-      assert.deepEqual([...new Set(item.steps.map(s=>s.section.match(/^Câu \(([a-g])\)/)?.[1]))],labels,`${item.id}: focused question and answer disagree`);
-      const ordinal=id=>{const m=id.match(/^uyen-(\d+)-T(\d+)$/);return m?Number(m[1])*100+Number(m[2]):Infinity;};
-      assert(q.previous.every(p=>data.items.some(i=>i.id===p.id)&&ordinal(p.id)<ordinal(item.id)&&p.covered.length>5),`${item.id}: invalid/cyclic prerequisite`);
-      for(const group of q.supplied)assert(group.title.length>5&&(group.text.length>10||group.blocks.length>0),`${item.id}: missing supplied prerequisite`);
-      const given=[...q.givens,...q.supplied.flatMap(g=>g.blocks)];
-      for(const b of given){
-        if(b.type==='formula')katex.renderToString(b.tex,{throwOnError:true,trust:false});
-        else if(b.type==='matrix'||b.type==='table'){
-          const width=b.type==='table'?b.headers.length:b.rows[0]?.length;
-          assert(width>0&&b.rows.length>0&&b.rows.every(r=>r.length===width&&r.every(x=>typeof x==='string'||typeof x==='number'&&Number.isFinite(x))));
-        }else assert.fail(`${item.id}: unsupported focused-question block`);
-      }
-    }
+    if(item.kind==='exercise')assert(item.images.length>0&&item.steps.some(s=>s.formula&&s.substitution),`${item.id}: calculation requires original prompt, formula and substitution`);
     if(item.kind==='theory'){
       assert.equal(item.answerStyle,'complete',`${item.id}: theory requires a complete answer`);
       assert(['checked-key','course-theory'].includes(item.answerBasis));
       if(item.answerBasis==='checked-key')assert(item.references.some(r=>r.sourceId==='key'));
     }
+    if(item.theoryFocus){
+      const focus=item.theoryFocus;
+      assert(item.kind==='theory'&&item.area==='uyen','Only Uyên theory may have edited clauses');
+      assert(['new-parts','reference'].includes(focus.mode)&&focus.sourcePrompt.length>20);
+      assert(focus.previous.length&&focus.previous.every(p=>p.id!==item.id&&data.items.some(i=>i.id===p.id&&i.kind==='theory'&&i.area==='uyen')));
+      assert(focus.removed.length>0);
+      assert(focus.mode==='reference'?focus.retained.length===0:focus.retained.length>0);
+    }
+    assert(!('editedQuestion' in item),'Numerical exercise shortening has been retired');
     if(item.area==='bank')assert([1,2,3,4].includes(item.points));
     for(const step of item.steps) {
       assert(step.lead&&step.lead.trim().length>=(item.kind==='theory'?3:9));

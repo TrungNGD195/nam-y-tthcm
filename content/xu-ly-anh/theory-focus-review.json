@@ -1,0 +1,733 @@
+{
+  "version": "2026.11.17.2",
+  "totalUyenTheory": 71,
+  "editedQuestions": 36,
+  "referenceQuestions": 10,
+  "policy": "Chỉ lược ý hỏi lý thuyết đã có trước; giữ số câu, đề gốc và các ý mới. Không rút gọn bài tập tính toán.",
+  "items": [
+    {
+      "id": "uyen-5-L1",
+      "sourcePromptHash": "191623ef90ba1c75ef9eda582e285c6a655783615ff6d6c8098a8c1d2978918d",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "ee0797bad1a42e745cca0654fda8639a29d6b8f7944354ddcdf302fcaff2f6ca",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-1-12",
+          "covered": "Biên và phát hiện trực tiếp"
+        },
+        {
+          "id": "uyen-lt-2-6",
+          "covered": "Mặt nạ và cách tạo ảnh biên"
+        }
+      ],
+      "removed": [
+        "Khái niệm biên, phát hiện trực tiếp, ví dụ mặt nạ và hậu xử lý"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-5-L2",
+      "sourcePromptHash": "41f132b82cc2e7a9bed02bf44e094be6f4da719f6c0ad612b0df3d97f66b202f",
+      "promptHash": "8d76e3082ce5bad342285591d259052a088d48d1d3a530ce98ca0c852f27a49f",
+      "answerHash": "bb326a71ece9fac9214ea6aebe75bfbae39a58e427172e64ebeb7de887a74427",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-5",
+          "covered": "Nguyên lý đạo hàm và mặt nạ ngang"
+        }
+      ],
+      "removed": [
+        "Hỏi lại nguyên lý phát hiện biên bằng đạo hàm"
+      ],
+      "retained": [
+        "Mặt nạ chuyển vị theo hướng dọc; xấp xỉ độ lớn gradient"
+      ]
+    },
+    {
+      "id": "uyen-5-L3",
+      "sourcePromptHash": "87fd270b5fadfde376874dbefa285812efebcfedf899bd7fad8f346f2450a24a",
+      "promptHash": "ee0b11e93088aa147efe0fae6c4dac4baed69a5296b023f9bc60133731db2171",
+      "answerHash": "cf905a646c86937ec08bc1601d99d6acb547c7c4989182421a25c102ad4c1877",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-6",
+          "covered": "Ba loại mặt nạ và các bước tạo biên"
+        }
+      ],
+      "removed": [
+        "Nêu lại toàn bộ ba mặt nạ và hậu xử lý"
+      ],
+      "retained": [
+        "So sánh trọng số và tác dụng của Sobel"
+      ]
+    },
+    {
+      "id": "uyen-5-L5",
+      "sourcePromptHash": "c7072c491627c2a6bbfa6be561a9ff7092cf9a8bcc12e9438371d020cbabf56b",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "0d4aecc1cf53f47b4c105032af0ca7a20dff3880595398951e4378e8a7aa177b",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-2-7",
+          "covered": "Các bước Canny và vai trò các bước then chốt"
+        }
+      ],
+      "removed": [
+        "Toàn bộ yêu cầu về Canny"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-5-L7",
+      "sourcePromptHash": "fca499e6ea00e358c4f8999f775da47a936c123fa74e3f3b640025569f728168",
+      "promptHash": "8752cd4a75345497f23bafe81becd8c701244701974ec4da563bccf707e9ccc6",
+      "answerHash": "312ff16569d1b26f47faee2d293ca77c10f26a46fb9b0e4624aaf50749f83446",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-3-L8",
+          "covered": "So sánh tham số, điều kiện và trường hợp nhiều ngưỡng"
+        }
+      ],
+      "removed": [
+        "Hỏi lại chung về nhiều ngưỡng và cách chọn nghiệm"
+      ],
+      "retained": [
+        "Trình tự thực hiện và công thức Otsu; lặp ISODATA và dừng"
+      ]
+    },
+    {
+      "id": "uyen-5-L8",
+      "sourcePromptHash": "0113b48ba715bdf8f0f82c63a5aad117f50fff19ff19005207fa67d55f77e354",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "45ac1f5c962b529fbd79ff2c81f6862234bdaabfe4b0323e319e0f6c5cfb8190",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-2-8",
+          "covered": "Khái niệm và điều kiện đối xứng nền"
+        },
+        {
+          "id": "uyen-3-L6",
+          "covered": "Các bước và tỷ lệ tích lũy"
+        },
+        {
+          "id": "uyen-lt-2-9",
+          "covered": "Tam giác và trường hợp không phù hợp"
+        }
+      ],
+      "removed": [
+        "Toàn bộ các ý đối xứng nền và tam giác"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-5-L9",
+      "sourcePromptHash": "599d3ef3d1fbc94ae72a72c5101d10d1d43c40104337a2b86e408f50b14a2fe0",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "efedc1f3a0553535a52ddd98773422fc8310f9266aff8ba5fbc97eb02b15d209",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-2-10",
+          "covered": "Ý tưởng và tiêu chuẩn của tách/hợp vùng"
+        }
+      ],
+      "removed": [
+        "Toàn bộ yêu cầu tách cây tứ phân, hợp và tách–hợp"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-lt-1-6",
+      "sourcePromptHash": "d402ad2b7d4318c332a8463e906977a28017f30067bd128ecfe254edd55dca9c",
+      "promptHash": "7c8597bf61002d2e95ed95670bd2efad8fc0aaa066127621f30bef7c6921a39b",
+      "answerHash": "33452090f504544c0d43b52c389dbd654d6e14a6f275f954046ec35b4f3d4af8",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-5",
+          "covered": "Halftone và lý do dùng trong in ấn"
+        }
+      ],
+      "removed": [
+        "Hỏi lại kỹ thuật in đa cấp xám chỉ bằng mực đen"
+      ],
+      "retained": [
+        "Vai trò khuếch tán lỗi; so với tách ngưỡng"
+      ]
+    },
+    {
+      "id": "uyen-lt-1-7",
+      "sourcePromptHash": "cea030d12b90403e228da691466c3484c9d8d4d03ec6f6aa18612bcd5da82636",
+      "promptHash": "db8b4724cdd889a0119b84be8db9843a455f445f5220194d8cbe8b67974bd97b",
+      "answerHash": "71fd408aa8e0e312d7effabbb2894b6ea038256c40791ffae76e3efa02d6bcdb",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-6",
+          "covered": "Khái niệm, vai trò và khác biệt với tách ngưỡng"
+        }
+      ],
+      "removed": [
+        "Định nghĩa lại khuếch tán lỗi"
+      ],
+      "retained": [
+        "Một chiều/hai chiều; vệt giả theo hướng quét"
+      ]
+    },
+    {
+      "id": "uyen-lt-2-1",
+      "sourcePromptHash": "94e4c3c9e41c5bd903109a350ed546b887b33405cc4c04e1db219eafff6cac10",
+      "promptHash": "c73ccca898dbd288870b1a161198169af627ef34d153610fed901409b232887d",
+      "answerHash": "d6af53224f2f9eb0747f668e5bca3e192b3431ea57e0d0fba5fefa281b76e114",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-2",
+          "covered": "Nguyên lý CMY và khác biệt với RGB"
+        }
+      ],
+      "removed": [
+        "Định nghĩa lại hai nguyên lý phối màu"
+      ],
+      "retained": [
+        "Trường hợp sử dụng"
+      ]
+    },
+    {
+      "id": "uyen-lt-2-2",
+      "sourcePromptHash": "ae589dd58afbb84e2c3b6f42accfb31592898f3e3ce910526e7a7060e2e2ebdb",
+      "promptHash": "146ad359609c5aaf79ff1cfe33ec6a5632305d6afd962e9789a459526e1ee52b",
+      "answerHash": "62ffb897115529c13706882471b0c9b895b0f94711ff13ed4b1ef2b6316fa9c2",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-2",
+          "covered": "CMY và khác biệt RGB"
+        },
+        {
+          "id": "uyen-lt-2-1",
+          "covered": "Ứng dụng phối màu trừ"
+        }
+      ],
+      "removed": [
+        "Định nghĩa CMY; hỏi lại lý do dùng trong in ấn"
+      ],
+      "retained": [
+        "Phép chuyển RGB→CMY, hai miền giá trị"
+      ]
+    },
+    {
+      "id": "uyen-lt-2-3",
+      "sourcePromptHash": "c40d5dd541ba00aa9b382922082c71f840ab59aaec8e67ae04ef2a780c2a2240",
+      "promptHash": "51c2eb434e03ac97f2e2039886ac3b8a0df668b6d9d63a72ffc9a55b4b13d367",
+      "answerHash": "60fa10c533cc95cb9c19fc7ce30ac4ad83b0814d72ee290dbc94bef7fe1f5f4b",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-4",
+          "covered": "So sánh raster với vector"
+        }
+      ],
+      "removed": [
+        "So sánh lại hai mô hình nói chung"
+      ],
+      "retained": [
+        "Cách lưu hình học vector; lý do raster vẫn cần thiết"
+      ]
+    },
+    {
+      "id": "uyen-lt-2-6",
+      "sourcePromptHash": "34ab09e875b85c2eb5b1b24952d47e001820929658f53243bc61ec7c38cc7827",
+      "promptHash": "95dceac28d9a4f26e02488fe9aad0d7d01de29341ca00b82a2b443d3dbb177df",
+      "answerHash": "a68caf6f7c05d53893e4d1bc12d4291b57bcaacce688f8037077b804514c89e8",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-5",
+          "covered": "Nguyên lý dùng đạo hàm"
+        }
+      ],
+      "removed": [
+        "Nhắc lại nguyên lý phát hiện biên bằng đạo hàm"
+      ],
+      "retained": [
+        "Ba cặp mặt nạ và hậu xử lý đáp ứng"
+      ]
+    },
+    {
+      "id": "uyen-3-L1",
+      "sourcePromptHash": "beab2149a18c5cba1c8ccbba06f3ad0d9bdb35a901d9acc5592502a33461c579",
+      "promptHash": "2dcde6120d4f8dceb36586a344b20a5ad2e60fe3249c30c80e3afeb575e1317e",
+      "answerHash": "6a87f70831e8947d3d7fd6a61ee5d96cb4c60e669e899db4482132649b27b886",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-8",
+          "covered": "Tăng/giảm sáng bằng toán tử điểm"
+        }
+      ],
+      "removed": [
+        "Cách tăng/giảm sáng; phân loại toán tử"
+      ],
+      "retained": [
+        "Âm bản, log, gamma"
+      ]
+    },
+    {
+      "id": "uyen-3-L2",
+      "sourcePromptHash": "551be74d7fb4c9d8677820cf5ef72d9d405c586189b58f0e901452180fdefe69",
+      "promptHash": "224de906d774d3951517641966dc45db15650191bc57d64de897d147a9b81053",
+      "answerHash": "c96a903f62636a982c4e92b347bd327b12014afe903134a792bf8ccc59644a63",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-9",
+          "covered": "Khái niệm và mục đích cân bằng histogram"
+        }
+      ],
+      "removed": [
+        "Định nghĩa và lý do cân bằng"
+      ],
+      "retained": [
+        "Cân bằng lý tưởng và giới hạn rời rạc"
+      ]
+    },
+    {
+      "id": "uyen-3-L3",
+      "sourcePromptHash": "5d5d572068fe12cef48092046f05038799a88965bd6e137c5a65c53c96ea1110",
+      "promptHash": "fba11f6599ddc64c5c53d650e5899e2625116183e0556f0f7c6c9a1af94c2b63",
+      "answerHash": "8408ce567c91c5b3cfedf322fddcae3baabd008452e4b9e82f408b473e9a7af0",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-10",
+          "covered": "Toán tử không gian và ý tưởng cửa sổ di chuyển"
+        }
+      ],
+      "removed": [
+        "Định nghĩa, loại toán tử, ý tưởng cơ bản"
+      ],
+      "retained": [
+        "Đệm 0, lặp rìa, phản xạ, bỏ biên"
+      ]
+    },
+    {
+      "id": "uyen-3-L4",
+      "sourcePromptHash": "1fdba22d6473ec6f8b4cfade523379f03a97299a652ac7ce12272caf7882811c",
+      "promptHash": "0b578d01ac229995fe8a832c20cb49a7bbeefa77f2670a52e5d960daf76d54c1",
+      "answerHash": "883397ad68510deed42b48efb86a97ebd9ef4d70976931d76b8ad54d8a2032fa",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-11",
+          "covered": "Khái niệm, mục đích và mô hình nhiễu rời rạc"
+        }
+      ],
+      "removed": [
+        "Định nghĩa và mục đích mô hình; công thức rời rạc"
+      ],
+      "retained": [
+        "Mô hình liên tục; các loại nhiễu"
+      ]
+    },
+    {
+      "id": "uyen-3-L5",
+      "sourcePromptHash": "ea5c4eba1ada41814a2de659cf9a27fd1ef5fad92f6f6bc8e3e41dcdfc04bf64",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "31a03b914b9e439960d72160837613bfb93481d739ad34368f9b6c2e34a438d7",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-2-4",
+          "covered": "So sánh trung vị, trung bình, k gần nhất và trường hợp sử dụng"
+        }
+      ],
+      "removed": [
+        "Toàn bộ yêu cầu so sánh ba bộ lọc"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-3-L6",
+      "sourcePromptHash": "dad3e22eadeacd598853bad2aa9907ecf5eb508a3bb813e7334584949fa2c6b8",
+      "promptHash": "3ebe3e7ef247d01968253d7e68885d362a0fd3701f0a1d3dda70a994d6d1b6be",
+      "answerHash": "658c71ac9fb014461b3fc04eb71e3835087f4250912863bb9faa9ddb4f128aec",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-8",
+          "covered": "Khái niệm và giả thiết nền phù hợp"
+        }
+      ],
+      "removed": [
+        "Định nghĩa lại đối xứng nền và điều kiện nền"
+      ],
+      "retained": [
+        "Các bước; ảnh hưởng của p%"
+      ]
+    },
+    {
+      "id": "uyen-3-L7",
+      "sourcePromptHash": "4f8e2e289330c3d32c2f741799ab24b2a244896157c9d12b6826b924cf9fa145",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "8924c9a4e00eb99fb1e80fdbab13e11c63748a9a543d1623b694722b79bf246c",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-2-9",
+          "covered": "Ý tưởng tam giác và trường hợp không phù hợp"
+        }
+      ],
+      "removed": [
+        "Toàn bộ yêu cầu về thuật toán tam giác"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-3-L8",
+      "sourcePromptHash": "1e81ea9d798d39184d53eca6dfa355f174c37c19a48a47afe9cf4159dab181e1",
+      "promptHash": "3b68e3761064519649bc72156604c078371a0a96c1ca7a9d2ad6c3a7492374ff",
+      "answerHash": "87997a95b6f5284981262817b0193a57080d75345c186947c8d3d578aded5a5a",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-8",
+          "covered": "Đối xứng nền"
+        },
+        {
+          "id": "uyen-lt-2-9",
+          "covered": "Tam giác"
+        }
+      ],
+      "removed": [
+        "Hỏi lại điều kiện và tham số của đối xứng nền/tam giác"
+      ],
+      "retained": [
+        "Otsu và ISODATA: điều kiện, khởi tạo, lựa chọn và nhiều nghiệm"
+      ]
+    },
+    {
+      "id": "uyen-3-L9",
+      "sourcePromptHash": "a57a19c5bf703dad974a5f831eb27455cb866a7280e02df487248447d437b2f3",
+      "promptHash": "a0daebdbd6084a14f145f49a817557a870f630cf068b6bc8098a77db65d23ce8",
+      "answerHash": "1079ae4eb8110be4bbb6279b9ed8c3934167de512c7e8eeeae7129479d51895b",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-4",
+          "covered": "Trung bình số học, trung vị và k gần nhất"
+        }
+      ],
+      "removed": [
+        "Trình bày lại trung bình số học và trung vị"
+      ],
+      "retained": [
+        "Tăng cường/khôi phục; hai miền; các bộ lọc nhiễu còn lại"
+      ]
+    },
+    {
+      "id": "uyen-4-L1",
+      "sourcePromptHash": "025cb75fc3ebed1e244eb64faba2feeaa50e60f6dfd671cffd23d4ce214e2d7a",
+      "promptHash": "0d116e7f85396f073b97ba21bceab82b9a169fd3770bbee8a532cfc665d42500",
+      "answerHash": "59252868cca56b6e3ffe2ee2e1fe969834d8603cce9fe99ba34dd5b6bfde1715",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-2",
+          "covered": "Phân biệt RGB và CMY"
+        },
+        {
+          "id": "uyen-lt-2-1",
+          "covered": "Trường hợp sử dụng hai nguyên lý phối màu"
+        }
+      ],
+      "removed": [
+        "Định nghĩa lại phối màu cộng/trừ; cơ chế màn hình RGB và máy in CMY"
+      ],
+      "retained": [
+        "Ví dụ phối hai màu"
+      ]
+    },
+    {
+      "id": "uyen-4-L2",
+      "sourcePromptHash": "59e4b41cbf11001e071fe8be2c975626a053483f8c36870101eb423da9c88050",
+      "promptHash": "ef8e16d3b4a8487f73f8905d885915a750ce0cf14122110985ee712a6f06032c",
+      "answerHash": "bf8e7acd28f6542c4296ade43142ab82fc3c072fc9c87d06cbeea4f90ec14c6d",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-1",
+          "covered": "Khái niệm và tên các mô hình màu"
+        },
+        {
+          "id": "uyen-lt-1-3",
+          "covered": "Ý nghĩa các thành phần HSV/HSL"
+        },
+        {
+          "id": "uyen-lt-2-1",
+          "covered": "Ứng dụng RGB và CMY"
+        }
+      ],
+      "removed": [
+        "Định nghĩa và liệt kê lại mô hình; ứng dụng RGB/CMY"
+      ],
+      "retained": [
+        "Ứng dụng HSV/HSL trong thao tác màu"
+      ]
+    },
+    {
+      "id": "uyen-4-L3",
+      "sourcePromptHash": "02c16f16144a2cc4156f2d5bd3cb9a1f516346d3fb7447e9dd849109a834b62e",
+      "promptHash": "95be68843d9a5fb8b414ef4d355c53561a856d01b6555e1eb02227ce40065102",
+      "answerHash": "b019af887bb381c35d61cc60377c8b36455cc1436e6c8ee8c47cc5572e9e0bfa",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-2",
+          "covered": "So sánh CMY với RGB"
+        }
+      ],
+      "removed": [
+        "So sánh lại CMY và RGB"
+      ],
+      "retained": [
+        "Lý do thực tế dùng thêm mực đen K"
+      ]
+    },
+    {
+      "id": "uyen-4-L4",
+      "sourcePromptHash": "57a00f202e0ee0f16dc4cf3be50e99d384135e72bbac6cb5fcd423d05c7f47b2",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "e550cec33adce3c7ec671cc7fc69a1ddf7a89cb5db2def04bbff90387e58deb5",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-1-3",
+          "covered": "Lý do phát triển HSV/HSL và ý nghĩa từng chữ cái"
+        }
+      ],
+      "removed": [
+        "Toàn bộ yêu cầu HSV/HSL"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-4-L5",
+      "sourcePromptHash": "ad73ad142f7c75492eeeff03c0cec5db4e70406cddf3ad5b61a4c7fab52780ba",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "e35d2c9075be63fd75aeda9f1b2505fa434415bac8d22dc0684169dfe6a0522b",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-1-4",
+          "covered": "Raster/vector và trường hợp sử dụng"
+        },
+        {
+          "id": "uyen-lt-2-3",
+          "covered": "Vector và lý do vẫn dùng raster"
+        }
+      ],
+      "removed": [
+        "Định nghĩa, so sánh và lựa chọn raster/vector"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-4-L6",
+      "sourcePromptHash": "cf405ba9f2522e7030df91446b9e52c761038a7dc1dc9ec88480bf2b98ec63c4",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "b8045375e289cef7f9005d8dfbf4dc97d3f5e2680b957e15382611fe4776b767",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-1-5",
+          "covered": "Mục đích và ý tưởng halftone"
+        }
+      ],
+      "removed": [
+        "Toàn bộ yêu cầu halftone"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-4-L7",
+      "sourcePromptHash": "7dd4794bb92e254c817469be82610550ff9a022642931f782f2c046d07cf4fb2",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
+      "answerHash": "53e075190af04c042f33cb74b8986bd0e2aca3f27d8aa16d6fda5ccb3a6dafb2",
+      "mode": "reference",
+      "previous": [
+        {
+          "id": "uyen-lt-1-6",
+          "covered": "Khuếch tán lỗi so với tách ngưỡng"
+        },
+        {
+          "id": "uyen-lt-1-7",
+          "covered": "Một chiều, hai chiều và nhược điểm được khắc phục"
+        }
+      ],
+      "removed": [
+        "Định nghĩa khuếch tán lỗi; so với ngưỡng; so sánh một/hai chiều"
+      ],
+      "retained": []
+    },
+    {
+      "id": "uyen-4-L8",
+      "sourcePromptHash": "f89e66b2c698ad9af2cdd2c9d1dd746a55313b24f0d401256226e7b5d65b3606",
+      "promptHash": "6957bcc8ae9234f447140e8405549033f9d726ed186614c69701372c29a489e5",
+      "answerHash": "9f3e12b9a9e4e50634b68573c310e52f2246ada93efd9ddbc37dd0657ce01f5d",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-1-2",
+          "covered": "CMY là phối màu trừ"
+        },
+        {
+          "id": "uyen-lt-1-4",
+          "covered": "Phóng to raster/vector"
+        },
+        {
+          "id": "uyen-lt-1-5",
+          "covered": "Cảm nhận cường độ trung bình trong halftone"
+        }
+      ],
+      "removed": [
+        "Các nhận định (a), (b), (c) đã hỏi"
+      ],
+      "retained": [
+        "Nhận định (d): số mức xám sau lượng tử hóa"
+      ]
+    },
+    {
+      "id": "uyen-7-L8",
+      "sourcePromptHash": "23813e935aa5a6b71094a5b14aa6d6de0d08d20b7a77f0e45a7e3eb74d8dbfa8",
+      "promptHash": "7c236904e0ab703aa38aadf4644b3b882ffdd2dd52bfb1d0312407dbf793253c",
+      "answerHash": "749889498e15aed861d36a70299684508feec8f070017988cf444809bf0c68b8",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-7-L3",
+          "covered": "Mở không luôn trả ảnh gốc; tác dụng nối khe của đóng"
+        },
+        {
+          "id": "uyen-7-L6",
+          "covered": "Vì sao phải giao với Aᶜ khi làm đầy"
+        }
+      ],
+      "removed": [
+        "Nhận định (a), (d), (g) đã hỏi"
+      ],
+      "retained": [
+        "(b) điều kiện bao hàm co/giãn; (c) lũy đẳng; (e) SE bất đối xứng; (f) đối ngẫu"
+      ]
+    },
+    {
+      "id": "uyen-6-L1",
+      "sourcePromptHash": "9a5bda86256750286ac341313e18bbdc668ce983b6c1291653a17d0146586bf7",
+      "promptHash": "81e4d0af76f48fb294680b376bcc873eaf6c6d7b9702e03e7576e5ab443bf954",
+      "answerHash": "307a8e001a542139942d3b349ba66c551a2b5257979ef98809d5ee1ecafd644f",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-15",
+          "covered": "Khái niệm RLC và khi nào dữ liệu nở"
+        }
+      ],
+      "removed": [
+        "Định nghĩa lại RLC và điều kiện chung"
+      ],
+      "retained": [
+        "Ví dụ có số bit cụ thể"
+      ]
+    },
+    {
+      "id": "uyen-6-L2",
+      "sourcePromptHash": "4c4dba78ebda651b5eb770cef88a5a1f984df1fc88c3190f0741647450831512",
+      "promptHash": "613835940a5fc34287403981d51ec0d34beec21d425fc1b7ecafff13a7e4e63b",
+      "answerHash": "8b0642defec7cdde615b0135d129401c5bd430aca40186cbb9f304ae34da895b",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-16",
+          "covered": "Mục đích DCT và bước lượng tử gây tổn thất"
+        }
+      ],
+      "removed": [
+        "Mục đích DCT; xác định lại bước lượng tử hóa"
+      ],
+      "retained": [
+        "Sai số số học thực tế và tính khả nghịch lý thuyết"
+      ]
+    },
+    {
+      "id": "uyen-6-L5",
+      "sourcePromptHash": "92ed326dd6fd614700527cfb90dedc5d3d21bfdeeea5394cc7a9e5219536d985",
+      "promptHash": "3db1c4e4d9430fbdba7370bb560d72dda464d2c3bc717a5e851e0b50ee7ddf99",
+      "answerHash": "ae5d06ceeddd183a578e3994c8b3b0123453809b6c4d95abce90336c1fd1cc7f",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-6-L3",
+          "covered": "Tần suất và việc gửi bảng mã trong Huffman tĩnh"
+        }
+      ],
+      "removed": [
+        "Nhắc lại nhược điểm cần tần suất/bảng mã"
+      ],
+      "retained": [
+        "Các bước; mã tiền tố; chia khối; mất đồng bộ vì lỗi bit"
+      ]
+    },
+    {
+      "id": "uyen-6-L7",
+      "sourcePromptHash": "10b25b1eed67ea4524c9bd93cc451e99a0061df385099c14b5ca4eb499f4524b",
+      "promptHash": "bac1305d3c2b7e450e4c5acf0b4934e47bcd547f369b9a2479cf07fa8697d780",
+      "answerHash": "42a8b21f622778c0f421a682c7d9c4b5fa3bafd4e1d27057cf4c1f7a24cc6a63",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-lt-2-16",
+          "covered": "Lượng tử hóa không khôi phục chính xác"
+        },
+        {
+          "id": "uyen-6-L2",
+          "covered": "Sai số và tổn thất trong JPEG"
+        }
+      ],
+      "removed": [
+        "Hỏi lại riêng khối gây mất thông tin và lý do"
+      ],
+      "retained": [
+        "Cấu trúc và chức năng các khối mã hóa"
+      ]
+    },
+    {
+      "id": "uyen-6-L9",
+      "sourcePromptHash": "65f950138152585d88d5d27d95119fbef8e47928e7b3decd3ee31fb26465685c",
+      "promptHash": "cfec45b18357727aed95d954a1390a2f7c0d47da032c95e38f4980fb5158b7e4",
+      "answerHash": "af658692ca11317e3483a9a7b83396984775e06c480a1e42bbb088c2ef1ed552",
+      "mode": "new-parts",
+      "previous": [
+        {
+          "id": "uyen-6-L3",
+          "covered": "LZW tự tái tạo từ điển"
+        },
+        {
+          "id": "uyen-lt-2-16",
+          "covered": "DCT khả nghịch và lượng tử hóa gây mất mát"
+        }
+      ],
+      "removed": [
+        "Nhận định (b) về gửi từ điển; (c) về DCT làm mất thông tin"
+      ],
+      "retained": [
+        "(a) entropy/Huffman; (d) DCT/DFT và blocking; (e) bước lượng tử theo tần số"
+      ]
+    }
+  ]
+}

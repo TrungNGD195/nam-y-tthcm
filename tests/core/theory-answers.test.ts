@@ -39,8 +39,8 @@ test('responses answer the additional clauses, numerical examples and true/false
   assert.match(text('uyen-5-L1'),/H_x/);
   assert.match(text('uyen-5-L7'),/P_1/);assert.match(text('uyen-5-L7'),/t_{n\+1}/);
   assert.match(text('uyen-6-L1'),/5 bit.*9 bit/);
-  assert.equal(item('uyen-4-L8').steps.length,4);assert.equal(item('uyen-6-L9').steps.length,5);assert.equal(item('uyen-7-L8').steps.length,7);
-  assert.deepEqual(item('uyen-7-L8').steps.map((s:any)=>s.lead.match(/^\(([a-g])\)/)[1]),['a','b','c','d','e','f','g']);
+  assert.equal(item('uyen-4-L8').steps.length,1);assert.equal(item('uyen-6-L9').steps.length,3);assert.equal(item('uyen-7-L8').steps.length,4);
+  assert.deepEqual(item('uyen-7-L8').steps.map((s:any)=>s.lead.match(/^\(([a-g])\)/)[1]),['b','c','e','f']);
   const code=item('uyen-7-L5').steps.flatMap((s:any)=>s.blocks??[]).find((b:any)=>b.type==='code').code;
   assert.match(code,/padarray/);assert.match(code,/beta = A & ~E/);
 });

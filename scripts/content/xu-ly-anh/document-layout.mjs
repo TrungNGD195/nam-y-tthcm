@@ -42,12 +42,6 @@ function blocksHtml(blocks=[]){
   }
   return html;
 }
-function focusedQuestionHtml(q){
-  return `<p class="focus-intro">${text(q.intro)}</p><p class="table-note">Phần đã luyện: ${q.previous.map(p=>`${e(p.id.replace('uyen-','').replace('-','.'))} — ${e(p.covered)}`).join('; ')}. Các kết quả trung gian tương ứng được cho sẵn.</p>
-    ${q.givens.length?`<h3>Dữ kiện</h3>${blocksHtml(q.givens)}`:''}
-    ${q.supplied.map(g=>`<section class="given-section"><h3>${text(g.title)}</h3>${g.text?`<p>${text(g.text)}</p>`:''}${blocksHtml(g.blocks)}</section>`).join('')}
-    <h3>Yêu cầu cần làm</h3>${q.parts.map(p=>`<p class="focused-request"><strong>Câu (${e(p.label)}).</strong> ${text(p.text)}</p>`).join('')}`;
-}
 
 export function exerciseHtml(item,sources,images){
   const area=item.area==='bank'?`giải ngân hàng · ${item.points} điểm`:`giải bài cô Uyên · Chương ${item.chapter}`;
@@ -58,7 +52,7 @@ export function exerciseHtml(item,sources,images){
     sections.at(-1).steps.push(s);
   }
   return `<header class="item-header"><p class="area">XỬ LÝ ẢNH · ${e(area)}</p><h1>Bài ${e(item.code)}. ${e(item.title)}</h1></header>
-    <section class="problem"><h2>${item.editedQuestion?'Đề ôn tập — tập trung ý mới':'Đề bài'}</h2>${item.editedQuestion?focusedQuestionHtml(item.editedQuestion):images.map((src,i)=>`<figure class="prompt-figure"><img src="${src}" alt="Đề gốc bài ${e(item.code)}, phần ${i+1}"></figure>`).join('')}</section>
+    <section class="problem"><h2>Đề bài</h2>${images.map((src,i)=>`<figure class="prompt-figure"><img src="${src}" alt="Đề gốc bài ${e(item.code)}, phần ${i+1}"></figure>`).join('')}</section>
     <section class="answer-start"><h2>BÀI GIẢI · Bài ${e(item.code)}</h2><p class="answer-cue"><strong>Cần nhớ:</strong> ${item.keywords.map(e).join(' · ')}</p>
     ${item.note?`<aside class="correction"><strong>Lưu ý dữ kiện / quy ước:</strong> ${text(item.note)}</aside>`:''}
     ${sections.map(group=>`<section class="answer-part"><h3 class="part-heading">${e(group.title)}</h3>${group.steps.map((s,i)=>`<section class="answer-step" data-step="${i}"><h4>Bước ${i+1}. ${e(s.lead)}</h4>
@@ -79,4 +73,3 @@ h1{font-size:19pt;line-height:1.3;margin:6pt 0 14pt}h2{font-size:17pt;margin:12p
 `;
 export const sizingCss=`body{width:178mm}p{overflow-wrap:anywhere}.matrix-figure{font-size:12pt}.matrix-brackets table{font-size:inherit}.data-table{font-size:11.5pt}.data-table table{font-size:inherit}.table-note{font-size:11pt;font-style:italic}`;
 export const teachingCss=`.part-heading{font-size:16pt;border-bottom:1pt solid #555;padding:7pt 0;margin:18pt 0 10pt;break-after:avoid-page}.answer-step h4{font-size:13.5pt;line-height:1.4;margin:12pt 0 7pt;break-after:avoid-page}.symbol-note{font-size:12.5pt;background:#f5f5f3;padding:7pt 9pt;border-left:1.5pt solid #888;orphans:3;widows:3;break-inside:avoid}.method{margin:9pt 0;break-inside:avoid}.answer-step{margin-bottom:16pt}.answer-part>.answer-step:first-of-type h4{margin-top:7pt}`;
-export const focusCss=`.given-section{border-top:.5pt solid #aaa;margin-top:12pt;padding-top:3pt}.focus-intro{font-size:13pt}.focused-request{font-size:13.5pt}.problem .given-section h3{font-size:13pt}.problem .matrix-pair{gap:8pt}.problem .matrix-brackets table{font-size:11.5pt}`;

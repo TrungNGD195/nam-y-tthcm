@@ -1,0 +1,22 @@
+Bài 6.T12. Đánh giá RMS và SNR sau nén
+
+
+Câu (a) — Sai số RMS
+Bước 1. Lấy bình phương sai số rồi trung bình trên 16 pixel.
+Công thức: e_{rms}=\sqrt{\frac{\sum(\hat f-f)^2}{16}}
+Ký hiệu: f là ảnh gốc, f̂ là ảnh giải nén ở cùng vị trí; SSE=Σ(f̂−f)² là tổng bình phương sai số; e_rms là căn trung bình bình phương sai số; 16 là số pixel của ảnh 4×4.
+Cách làm: Trừ hai ảnh từng ô, bình phương từng sai lệch rồi cộng thành SSE. Chia cho 16 và lấy căn; không lấy tổng sai lệch có dấu rồi mới bình phương.
+Thay số / thực hiện: SSE=91; e_rms=√(91/16)=2.38485.
+
+Câu (b) — Tỷ số SNR
+Bước 1. Tính SNR theo công thức slide: năng lượng ảnh khôi phục ở tử.
+Công thức: SNR_{ms}=\frac{\sum\hat f^2}{\sum(\hat f-f)^2},\quad SNR_{dB}=10\log_{10}(SNR_{ms})
+Ký hiệu: f̂ là ảnh khôi phục; f là ảnh gốc; Σf̂² là năng lượng ảnh khôi phục theo quy ước slide; Σ(f̂−f)² là năng lượng sai số; SNR_ms là tỷ số, SNR_dB là giá trị decibel.
+Cách làm: Bình phương và cộng các pixel khôi phục để có tử số, chia cho SSE đã tính ở câu a. Đổi sang dB bằng 10log₁₀ của tỷ số, không lấy 20log₁₀ vì đây là tỷ số năng lượng.
+Thay số / thực hiện: Σf̂²=185012; SNRms=185012/91=2033.0989.
+Kết luận: SNR=33.08159 dB. Nếu dùng năng lượng ảnh gốc ở tử số sẽ ra 2045.50549; đó là quy ước khác, không trộn với slide.
+
+Câu (c) — Chất lượng và tỷ lệ nén
+Bước 1. Đánh giá tỷ lệ nén đi cùng mục đích sử dụng.
+Cách làm: CR=12 không luôn tốt hơn CR=6: cần so cả chất lượng, chi tiết quan trọng, sai dạng và yêu cầu lưu trữ/truyền. RMS/SNR không phản ánh hoàn toàn cảm nhận nên cần đánh giá chủ quan.
+Giải thích: CR=12 không luôn tốt hơn CR=6: cần so cả chất lượng, chi tiết quan trọng, sai dạng và yêu cầu lưu trữ/truyền. RMS/SNR không phản ánh hoàn toàn cảm nhận nên cần đánh giá chủ quan.

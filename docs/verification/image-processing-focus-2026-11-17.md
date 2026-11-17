@@ -1,5 +1,7 @@
 # Lược ý hỏi lặp trong bài cô Uyên — 17/11/2026
 
+> Báo cáo lịch sử, đã hủy áp dụng do nhầm phạm vi. Theo yêu cầu chỉ sửa lý thuyết, mọi bài tính đã khôi phục đầy đủ. Xem [báo cáo thay thế](image-processing-theory-focus-2026-11-17.md).
+
 ## Kết quả
 
 - Giữ đủ **46 bài tập cô Uyên**, 117 mục cô Uyên và 168 mục toàn môn. Giữ ID/mã bài; không xóa hay gộp cả bài chỉ vì cùng phương pháp.

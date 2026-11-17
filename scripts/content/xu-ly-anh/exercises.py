@@ -3,10 +3,8 @@ from calculations import *
 
 def M(s):return [[int(x) for x in row.split()] for row in s.split('/')]
 SOLUTIONS={}
-INPUTS={}
-def put(id,title,ch,keys,steps,note='',inputs=None):
+def put(id,title,ch,keys,steps,note=''):
     SOLUTIONS[id]=solution(title,ch,keys,steps,note)
-    if inputs:INPUTS[id]=inputs
 
 I=M('1 2 1 3 2 1/4 4 3 2 4 0/6 9 2 3 2 1/6 2 0 5 3 0/3 4 0 5 1 5/5 6 8 9 3 6')
 H=hist(I,10)
@@ -51,7 +49,7 @@ A=M('2 5 1 5 2 2/4 2 2 0 3 2/2 3 2 2 1 2/1 2 3 2 2 5/5 3 2 2 1 5/2 1 3 3 3 4')
 put('uyen-3-T3','So sánh hai công thức cân bằng',3,'tích lũy|làm tròn',[equalstep(A,6),equalstep(A,6,True),step('Giải thích sự khác nhau.',text='Hai công thức rời rạc hóa khác nhau nên có thể cho ánh xạ khác. Cả hai gộp nguyên nhóm pixel cùng mức xám, vì vậy không bảo đảm histogram lý tưởng.')])
 H=[190,261,305,138,70,36,16,8];N=sum(H);cum=[sum(H[:i+1]) for i in range(8)];mapping=[rnd(7*x/N) for x in cum];out=Counter()
 for i,n in enumerate(H):out[mapping[i]]+=n
-put('uyen-3-T4','Cân bằng ảnh 32×32',3,'xác suất|tích lũy',[step('Chuẩn hóa histogram rồi dùng tổng tích lũy.',r'p(r_k)=n_k/1024,\quad s_k=\operatorname{round}(7\sum_{j=0}^k p(r_j))',f'p(0)=190/1024={fmt(190/1024)}; s₀=round(7·190/1024)={mapping[0]}.',f'Histogram mới: {[out[i] for i in range(8)]}; các mức 4,5,6,7 cùng gộp về mức 7, còn 0→1, 1→3, 2→5, 3→6.',blocks=[table(['r','n','p','CDF','s'],[[i,H[i],H[i]/N,cum[i]/N,mapping[i]] for i in range(8)])])],inputs=[table(['r','n(r)'],list(enumerate(H)))])
+put('uyen-3-T4','Cân bằng ảnh 32×32',3,'xác suất|tích lũy',[step('Chuẩn hóa histogram rồi dùng tổng tích lũy.',r'p(r_k)=n_k/1024,\quad s_k=\operatorname{round}(7\sum_{j=0}^k p(r_j))',f'p(0)=190/1024={fmt(190/1024)}; s₀=round(7·190/1024)={mapping[0]}.',f'Histogram mới: {[out[i] for i in range(8)]}; các mức 4,5,6,7 cùng gộp về mức 7, còn 0→1, 1→3, 2→5, 3→6.',blocks=[table(['r','n','p','CDF','s'],[[i,H[i],H[i]/N,cum[i]/N,mapping[i]] for i in range(8)])])])
 A=M('20 45 90/130 180 230/10 100 250')
 steps=[]
 for label,formula,func in [('+60',r's=\min(255,\max(0,r+60))',lambda x:min(255,x+60)),('−60',r's=\min(255,\max(0,r-60))',lambda x:max(0,x-60)),('Âm bản',r's=255-r',lambda x:255-x),('Log',r's=\frac{255}{\ln256}\ln(1+r)',lambda x:rnd(255/math.log(256)*math.log(1+x))),('Gamma = 2',r's=255(r/255)^2',lambda x:rnd(255*(x/255)**2)),('Gamma = 0,5',r's=255(r/255)^{0.5}',lambda x:rnd(255*(x/255)**.5)),('Kéo giãn',r's=\begin{cases}0&r<50\\255(r-50)/150&50\le r\le200\\255&r>200\end{cases}',lambda x:rnd(min(255,max(0,255*(x-50)/150))))]:
@@ -65,7 +63,6 @@ put('uyen-3-T6','Lọc trung bình và lọc trọng số',3,'cửa sổ 3×3|đ
     step('So sánh cách xử lý góc.',r'g_0(0,0)=\frac{I_{00}+I_{01}+I_{10}+I_{11}}9,\quad g_{lặp}(0,0)=\frac{4I_{00}+2I_{01}+2I_{10}+I_{11}}9',f'Đệm 0: (10+12+11+40)/9={fmt(73/9)}; lặp rìa: (4·10+2·12+2·11+40)/9={fmt(replicate_corner)}.','Đệm 0 làm tối rìa; lặp rìa giảm tác động đó.')])
 A=M('50 50 52 51 50/50 51 255 52 51/52 0 53 53 52/51 52 53 255 53/50 51 52 53 53');med=[[sorted(A[r+i][c+j] for i in range(-1,2) for j in range(-1,2))[4] for c in range(1,4)] for r in range(1,4)];avg=correlate(A,mean,True);truth=M('51 52 52/52 53 53/52 53 54');mae=lambda a:sum(abs(a[r][c]-truth[r][c]) for r in range(3) for c in range(3))/9
 put('uyen-3-T7','Lọc nhiễu muối tiêu',3,'trung vị|xung|giữ biên',[step('Lấy phần tử giữa hoặc trung bình trên cùng cửa sổ.',r'g_{med}=\operatorname{median}(W),\quad g_{avg}=\frac19\sum_{q\in W}I(q)',f'Tại điểm trong đầu: trung vị={med[0][0]}, trung bình={fmt(avg[0][0])}; trung bình=(50+50+52+50+51+255+52+0+53)/9.', 'Đối chiếu ma trận gốc dưới đây: trung vị gần các mức xám gốc hơn trung bình trong bài này. Xung 0/255 kéo lệch tổng trung bình mạnh; trung vị dựa thứ tự nên ít bị cực trị kéo lệch.',blocks=[matrix(truth,'9 điểm trong của ảnh gốc để đối chiếu'),matrix(med,'Trung vị'),matrix(avg,'Trung bình')])])
-INPUTS['uyen-3-T7']=[matrix(A,'Ảnh nhiễu I'),matrix(truth,'Chín điểm trong của ảnh gốc')]
 A=M('5 5 5 4 8/4 15 4 5 8/3 6 1 6 7/4 6 6 5 2/6 2 8 7 7');rows=[];result=[]
 for r in range(1,4):
     line=[]
@@ -76,7 +73,6 @@ for r in range(1,4):
 put('uyen-3-T8','Trung bình k=3 gần nhất, θ=2',3,'k gần nhất|giữ tâm|ngưỡng',[step('Chọn k giá trị gần tâm, rồi chỉ thay khi chênh lệch vượt θ.',r'AV_k=\frac1k\sum_{q\in K}I(q),\quad g(p)=\begin{cases}I(p)&|I(p)-AV_k|\le\theta\\AV_k&|I(p)-AV_k|>\theta\end{cases}',f'Tâm 15: chọn {rows[0][2]}, AV₃={fmt(rows[0][3])}; |15−AV₃|={fmt(rows[0][4])}>2 nên thay.', 'Kể cả tâm trong k giá trị; hòa khoảng cách chọn giá trị nhỏ trước. Các cửa sổ tính từ ảnh gốc, không cập nhật dây chuyền.',blocks=[table(['vị trí (từ 1)','tâm','3 giá trị','AV₃','độ lệch','kết quả'],rows),matrix(result,'9 điểm trong')])])
 values=[24,26,25,200,27,26,25,3,24];ordered=sorted(values);results=[sum(values)/9,math.prod(values)**(1/9),ordered[4],max(values),min(values),(max(values)+min(values))/2,sum(ordered[1:-1])/7]
 put('uyen-3-T9','So sánh bảy bộ lọc',3,'muối tiêu|trung vị|alpha-trimmed',[step('Tính mỗi bộ lọc trên đúng 9 mẫu.',r'\begin{gathered}\bar x=\frac{\sum x_i}9,\quad G=(\prod x_i)^{1/9},\quad M=\operatorname{median}(x_i)\\ A_{d=2}=\frac{\sum_{i=2}^{8}x_{(i)}}7,\quad P=\frac{\max(x_i)+\min(x_i)}2\end{gathered}',f'Dãy tăng: {ordered}; alpha-trimmed bỏ 3 và 200, lấy trung bình 7 số còn lại. Điểm giữa P=(200+3)/2=101,5.', 'Có xung sáng 200 và tối 3, dạng muối tiêu. Trung vị/alpha-trimmed loại ảnh hưởng cực trị tốt; trung bình số học/hình học còn chịu xung, max/min chỉ hợp một phía; điểm giữa chịu cả hai cực trị.',blocks=[table(['bộ lọc','kết quả'],list(zip(['số học','hình học','trung vị','max','min','điểm giữa','alpha-trimmed d=2'],results)))])])
-INPUTS['uyen-3-T9']=[matrix([values[:3],values[3:6],values[6:]],'Cửa sổ 3×3, tâm bằng 27')]
 A=M('6 4 0 3 1 7/4 1 2 0 6 2/1 2 1 6 0 1/1 1 2 6 1 7/3 4 2 7 7 5')
 put('uyen-3-T10','Tìm ngưỡng tự động và tách ảnh',3,'trung bình lớp|cực đại',[otsustep(hist(A,8),A)],'Công thức f(g) trong PDF bị dàn trang dễ đọc nhầm. Dùng công thức giáo trình trang PDF 32: t/(N−t) nhân bình phương chênh trung bình, không chia cho bình phương đó.')
 HA=[30,55,40,12,6,10,35,50,28,10];HB=[8,12,20,35,80,160,90,40,15,5]
@@ -91,22 +87,18 @@ for label,row in zip('abcd',rgb):
 put('uyen-4-T1','Đổi RGB sang CMY',4,'chuẩn hóa|phần bù',[step('Chuẩn hóa RGB 8 bit rồi lấy phần bù.',r'R_n=R/255,\ G_n=G/255,\ B_n=B/255;\quad(C,M,Y)=(1-R_n,1-G_n,1-B_n)',f'Màu a: C=1−200/255={fmt(55/255)}, M=1−100/255={fmt(155/255)}, Y=1−50/255={fmt(205/255)}.',blocks=[table(['màu','C','M','Y','mực cần nhiều nhất'],rows)])])
 for id,s,theta in [('T2','20 200 90 140 60/250 35 180 70 120/15 100 230 45 160',127),('T3','8 64 190 12 99 205/143 27 5 251 33 76/220 101 60 134 18 240',127),('T4','130 125 128 40 200/90 90 90 90 90/210 15 177 63 142',100)]:
     put('uyen-4-'+id,'Khuếch tán lỗi một chiều',4,'truyền sai số|hai mức',[diffusionstep(M(s),theta)],'Câu 4.T3 phần b nói dòng 2 toàn 90 nhưng ma trận cho dòng 2 là 143,27,5,251,33,76. Giữ đúng ma trận; dòng toàn 90 nằm ở 4.T4. Không thay dữ kiện để khớp câu nhận xét.' if id=='T3' else '')
-    INPUTS['uyen-4-'+id]=[matrix(M(s),'Ảnh gốc I')]
 
 # Cô Uyên — chương 5
 A=M('4 4 4 4 4 4 4/4 4 4 4 4 4 4/4 4 18 18 18 4 4/4 4 17 14 19 4 4/4 4 18 18 18 4 4/4 4 4 4 4 4 4/4 4 4 4 4 4 4')
 put('uyen-5-T1','Prewitt và Laplace 8 láng giềng',5,'đặt tâm|cộng có dấu|Laplace',edge_steps(A,PREWITT,transpose(PREWITT),LAP8,True))
 A=M('3 3 3 3 3 3 3/3 3 3 12 13 12 3/3 3 3 13 11 12 3/3 3 3 12 12 13 3/3 3 3 3 3 3 3/3 3 3 3 3 3 3/3 3 3 3 3 3 3')
 put('uyen-5-T2','Sobel và Laplace 4 láng giềng',5,'gradient|Laplace',edge_steps(A,SOBEL,transpose(SOBEL),LAP4))
-INPUTS['uyen-5-T2']=[matrix(A,'Ảnh I'),matrix(SOBEL,'Hx'),matrix(transpose(SOBEL),'Hy'),matrix(LAP4,'Hz')]
 A=M('40 60 60 60 60 60/20 40 60 60 60 60/20 20 40 60 60 60/20 20 20 40 60 60/20 20 20 20 40 60/20 20 20 20 20 40');B=[row[:] for row in A];B[2][3]=90;B[4][3]=5
 put('uyen-5-T3','Ảnh hưởng nhiễu lên đạo hàm',5,'gradient|khuếch đại nhiễu',edge_steps(A,PREWITT,transpose(PREWITT),name='S₁')+edge_steps(B,PREWITT,transpose(PREWITT),name='S₂')+[step('Đối chiếu hai đáp ứng.',text='Nhiễu tại (3,4) và (5,4) làm thay đổi các cửa sổ 3×3 phủ chúng, sinh đáp ứng mạnh hoặc triệt tiêu đáp ứng biên thật. Lọc nhiễu/làm trơn trước rồi mới tính đạo hàm; ngưỡng đơn lẻ không khắc phục được mọi ảnh hưởng.')])
-INPUTS['uyen-5-T3']=[matrix(A,'S₁'),matrix(B,'S₂'),matrix(PREWITT,'Hx'),matrix(transpose(PREWITT),'Hy')]
 A=M('3 7 3 2 5 2 3 7/1 1 2 4 8 4 1 9/9 2 7 2 7 2 2 5/0 8 7 8 1 0 2 6/8 4 5 1 1 1 6 4/7 8 2 2 7 1 1 2')
 put('uyen-5-T4','Otsu và trường hợp nhiều ngưỡng',5,'phương sai giữa lớp|tập nghiệm',[otsustep(hist(A,10),A),otsustep([7,2,2,1,11,11,1,2,2,7])])
 HA=[6,15,19,9,4,3,8,21,12,3];HB=[4,9,5,3,2,4,48,17,6,2]
 put('uyen-5-T5','Đổi chéo hai phương pháp tìm ngưỡng',5,'đẳng điệu|đối xứng nền',[isostep(HA,2),backgroundstep(HB,95),backgroundstep(HA,90),isostep(HB,6),step('Đối chiếu giả thiết với histogram.',text='A có hai cụm nên đẳng điệu hợp lý hơn; B có đỉnh nền lớn tại 6 nên đối xứng nền có cơ sở hơn. Khi đổi chéo vẫn tính ra ngưỡng nhưng với A, đỉnh cao phía phải không áp đảo rõ và phân vị có thể làm ngưỡng lệch; không lấy việc thuật toán hội tụ làm chứng minh phân vùng đúng.')])
-INPUTS['uyen-5-T5']=[table(['g','h_A(g)','h_B(g)'],[[i,HA[i],HB[i]] for i in range(10)])]
 A=M('3 4 1 8 3 3/8 6 1 8 1 2/4 8 3 1 8 5/3 9 6 8 2 6/2 0 3 1 0 7/3 9 1 8 8 9');H=hist(A,10)
 def peaks(h):
     # Strict interior local maxima; plateaus counted once if higher on both sides.
@@ -178,7 +170,6 @@ put('uyen-6-T10','DPCM hệ số DC và RLE hệ số AC',6,'hiệu DC|category|
     step('Lấy hiệu DC với khối liền trước; khối đầu dùng DC trước bằng 0.',r'd_i=DC_i-DC_{i-1},\quad CAT=\lfloor\log_2|d_i|\rfloor+1\ (d_i\ne0)',f'Dãy DPCM: {diff}; d₁=58−0=58, CAT=6.',f'Tổng số bit DC={sum(row[-1] for row in dcrows)}.',blocks=[table(['DPCM','CAT','Huffman CAT','bit biên độ','tổng bit'],dcrows)]),
     step('Cộng dồn DPCM để khôi phục DC.',r'DC_i=DC_{i-1}+d_i',f'DC đầu=0+40=40; DC tiếp=40−3=37.',f'Dãy DC giải mã: {decdc}. DPCM hiệu quả vì DC các khối kề thường gần nhau nên hiệu cần CAT nhỏ hơn giá trị DC tuyệt đối.'),
     step('Đếm số 0 trước hệ số AC, EOB kết thúc đuôi 0.',r'\mathrm{pair}=(\mathrm{skip},\mathrm{value})',f'Vector đề cho ⇒ {acpairs(AC)}.', 'Giải dãy (0,5),(1,−3),(3,2),(0,−1),(0,0): AC khác 0 ở chỉ số vector 1×64 là 1:5, 3:−3, 7:2, 8:−1; tất cả vị trí AC còn lại bằng 0. Chỉ số 0 dành cho DC, không phải AC.')])
-INPUTS['uyen-6-T10']=[table(['khối i','DC_i'],list(enumerate(DC,1))),matrix([AC[i:i+9] for i in range(0,63,9)],'63 hệ số AC, đọc theo hàng'),table(['CAT','mã Huffman'],[[k,v] for k,v in enumerate(DC_CODES)])]
 A=M('11 5/15 13');Q=M('2 10/3 2');D=dct(A);D=[[round(x,10) for x in row] for row in D];quant=[[rnd(D[i][j]/Q[i][j]) for j in range(2)] for i in range(2)];zz=zigzag(quant);delta=zz[0]-13;dcbit=DC_CODES[category(delta)]+amplitude(delta);pairs=acpairs(zz[1:]);AC_TABLE={(0,1):'00',(0,2):'01',(0,3):'100',(0,4):'1011',(0,5):'11010',(1,1):'1100',(1,2):'11011',(1,3):'1111001',(1,4):'111110110'};acbit='';acrows=[]
 for run,value in pairs:
     word='1010' if (run,value)==(0,0) else AC_TABLE[(run,category(value))]+amplitude(value)
@@ -191,42 +182,33 @@ put('uyen-6-T11','Một vòng JPEG 2×2',6,'DCT|lượng tử hóa|bit biên đ�
     step('Mã DC bằng hiệu, category và biên độ.',r'd=DC-DC_{trước},\quad\mathrm{bits}_{DC}=\mathrm{Huff}(CAT)+\mathrm{amplitude}(d)',f'd={zz[0]}−13={delta}; CAT={category(delta)}; Huff={DC_CODES[category(delta)]}; biên độ={amplitude(delta)}.',f'Bit DC: {dcbit}. Số âm dùng phần bù các bit của độ lớn trong CAT bit, không phải biểu diễn bù hai.'),
     step('Mã hóa AC theo RUN/CAT và ghép toàn bộ khối.',r'\mathrm{bits}_{AC}=\mathrm{Huff}(RUN/CAT)+\mathrm{amplitude}(value)',f'Các cặp: {pairs}; bit AC={acbit}.',f'Chuỗi toàn khối: {dcbit+acbit} ({len(dcbit+acbit)} bit). '+('Có EOB vì đuôi còn hệ số 0.' if pairs[-1]==(0,0) else 'Không gửi EOB vì hệ số AC cuối khác 0, đã đủ 3 AC.'),blocks=[table(['RUN','value','CAT','bit gửi'],acrows)]),
     step('Giải lượng tử, DCT ngược và đo sai số.',r'I^{\prime}=T^T(I_Q\odot Q)T,\quad e_{rms}=\sqrt{\frac14\sum(I-I^{\prime})^2}',f'I_Q⊙Q={dequant}; e_rms={fmt(rms)}.',blocks=[matrix(dequant,'DCT sau giải lượng tử'),matrix(restored,'Ảnh I′ sau giải nén'),matrix(A,'Ảnh gốc I để đối chiếu')])])
-INPUTS['uyen-6-T11']=[matrix(A,'Ảnh gốc I'),matrix(Q,'Bảng lượng tử Q'),dict(type='formula',tex=r'T=\frac1{\sqrt2}\begin{bmatrix}1&1\\1&-1\end{bmatrix},\quad DC_{truoc}=13'),table(['CAT','mã Huffman DC'],[[k,v] for k,v in enumerate(DC_CODES)]),table(['RUN/CAT','mã Huffman AC'],[[str(k[0])+'/'+str(k[1]),v] for k,v in sorted(AC_TABLE.items())])]
 F=M('52 85 128 160/97 78 107 86/61 175 115 80/42 135 127 99');FH=M('54 82 128 161/96 82 105 86/64 175 111 82/42 134 128 94');err=sum((F[i][j]-FH[i][j])**2 for i in range(4) for j in range(4));energy=sum(x*x for row in FH for x in row)
 put('uyen-6-T12','Đánh giá RMS và SNR sau nén',6,'sai số căn quân phương|SNR|cảm nhận',[
     step('Lấy bình phương sai số rồi trung bình trên 16 pixel.',r'e_{rms}=\sqrt{\frac{\sum(\hat f-f)^2}{16}}',f'SSE={err}; e_rms=√({err}/16)={fmt(math.sqrt(err/16))}.'),
     step('Tính SNR theo công thức slide: năng lượng ảnh khôi phục ở tử.',r'SNR_{ms}=\frac{\sum\hat f^2}{\sum(\hat f-f)^2},\quad SNR_{dB}=10\log_{10}(SNR_{ms})',f'Σf̂²={energy}; SNRms={energy}/{err}={fmt(energy/err)}.',f'SNR={fmt(10*math.log10(energy/err))} dB. Nếu dùng năng lượng ảnh gốc ở tử số sẽ ra {fmt(sum(x*x for row in F for x in row)/err)}; đó là quy ước khác, không trộn với slide.'),
     step('Đánh giá tỷ lệ nén đi cùng mục đích sử dụng.',text='CR=12 không luôn tốt hơn CR=6: cần so cả chất lượng, chi tiết quan trọng, sai dạng và yêu cầu lưu trữ/truyền. RMS/SNR không phản ánh hoàn toàn cảm nhận nên cần đánh giá chủ quan.')])
-INPUTS['uyen-6-T12']=[matrix(F,'Ảnh gốc f'),matrix(FH,'Ảnh khôi phục f̂')]
 
 # Cô Uyên — chương 7
 XA=M('1 1 0 0 0 0 1 1/1 1 1 0 0 1 1 1/0 1 1 1 0 1 1 0/0 0 1 1 1 1 0 0/0 0 1 1 1 1 1 0/1 0 0 1 1 1 1 0/1 1 0 0 0 1 1 1/1 1 1 0 0 0 1 1')
 put('uyen-7-T1','Co và giãn với chữ thập',7,'fit|hit',[morphstep(XA,CROSS)])
 XA=M('0 0 1 1 0 0 1 0/0 1 1 1 0 1 1 0/1 1 0 1 1 1 0 0/1 1 1 1 0 1 1 1/0 1 1 0 1 1 1 1/0 0 1 1 1 0 1 0/1 0 1 1 1 1 1 0/1 0 0 1 0 0 1 1')
 put('uyen-7-T2','SE bất đối xứng: hit và giãn chuẩn',7,'phản xạ SE|gốc ở tâm',[morphstep(XA,M('0 0 1/1 1 0/0 0 1'),True)])
-INPUTS['uyen-7-T2']=[matrix(XA,'Ảnh X'),matrix(M('0 0 1/1 1 0/0 0 1'),'SE B, gốc ở giữa')]
 XA=M('0 0 0 0 0 0 0 0/0 1 1 1 1 0 0 0/0 1 1 1 1 1 0 0/0 1 1 1 1 1 1 0/0 0 1 1 1 1 1 0/0 0 0 1 1 1 1 0/0 1 0 0 1 1 0 0/0 0 0 0 0 0 0 0')
 put('uyen-7-T3','So sánh SE chữ thập và vuông',7,'tập con|điều kiện fit',[morphstep(XA,CROSS),step('Co bằng SE vuông có nhiều điều kiện hơn.',r'B_1\subseteq B_2\Rightarrow A\ominus B_2\subseteq A\ominus B_1',f'Co chữ thập có {count(morph(XA,CROSS))} điểm 1, co vuông có {count(morph(XA,SQUARE))}.','Nếu toàn bộ B₂ fit thì tập con B₁ cũng fit; chiều ngược không bảo đảm.',blocks=[matrix(morph(XA,SQUARE),'X ⊖ B₂ (vuông)')])])
-INPUTS['uyen-7-T3']=[matrix(XA,'Ảnh X'),matrix(CROSS,'B₁ chữ thập'),matrix(SQUARE,'B₂ vuông')]
 def openclose(a,b):
     e=morph(a,b);d=morph(a,b,'dilate');op=morph(e,b,'dilate');cl=morph(d,b)
     return e,d,op,cl
 XA=M('0 0 0 0 0 0 0 0 0 0 0/0 1 1 1 0 0 0 1 1 1 0/0 1 1 1 1 1 1 1 1 1 0/0 1 1 1 0 0 0 1 1 1 0/0 0 0 0 0 0 0 1 1 1 0/0 1 0 0 0 0 0 1 1 0 0/0 0 0 0 0 0 0 0 0 0 0');e,d,op,cl=openclose(XA,SQUARE)
 put('uyen-7-T4','Mở ảnh: bỏ cầu hẹp và nhiễu',7,'co rồi giãn|cầu hẹp',[step('Co bằng SE vuông rồi giãn kết quả co.',r'A\circ B=(A\ominus B)\oplus B',f'Số điểm 1: A={count(XA)}, co={count(e)}, mở={count(op)}.','Điểm nhiễu đơn lẻ và dải nối một pixel bị loại vì không chứa được SE 3×3; một số mép nhô nhỏ cũng mất.',blocks=[matrix(e,'A ⊖ B'),matrix(op,'A ∘ B')])])
-INPUTS['uyen-7-T4']=[matrix(XA,'Ảnh A'),matrix(SQUARE,'SE B vuông')]
 XA=M('0 0 0 0 0 0 0 0 0 0 0/0 1 1 1 1 0 1 1 1 0 0/0 1 0 1 1 0 1 1 1 0 0/0 1 1 1 1 0 1 1 1 1 0/0 1 1 1 1 0 1 1 1 1 0/0 0 0 0 0 0 0 0 0 0 0');e,d,op,cl=openclose(XA,CROSS)
 put('uyen-7-T5','Đóng ảnh: lấp lỗ và khe',7,'giãn rồi co|hình SE',[step('Giãn trước, sau đó co bằng cùng SE chữ thập.',r'A\bullet B=(A\oplus B)\ominus B',f'Số điểm 1: A={count(XA)}, giãn={count(d)}, đóng={count(cl)}.',f'Lỗ (3,3) sau đóng={cl[2][2]}; cột 6 sau đóng={[row[5] for row in cl]}. Khe chỉ lấp tại vị trí có đủ láng giềng chữ thập sau giãn; không phải mọi khoảng trống 1 pixel đều tự được lấp.',blocks=[matrix(d,'A ⊕ B'),matrix(cl,'A • B')])])
-INPUTS['uyen-7-T5']=[matrix(XA,'Ảnh A'),matrix(CROSS,'SE B chữ thập')]
 XA=M('0 0 0 0 0 0 0 0/0 1 1 1 0 0 1 0/0 1 1 1 1 1 1 0/0 1 1 0 1 1 1 0/0 1 1 1 1 1 1 0/0 0 0 0 1 1 1 0/0 0 0 0 0 0 0 0');e,d,op,cl=openclose(XA,SQUARE);op2=openclose(op,SQUARE)[2];cl2=openclose(cl,SQUARE)[3]
 assert op2==op and cl2==cl
 put('uyen-7-T6','Mở/đóng, bao hàm và lũy đẳng',7,'bao hàm|lũy đẳng|fit',[step('Tính hai phép ghép và lặp lại trên kết quả.',r'O=(A\ominus B)\oplus B,\quad C=(A\oplus B)\ominus B',f'Số điểm 1: A={count(XA)}, O={count(op)}, C={count(cl)}; O lần 2={count(op2)}, C lần 2={count(cl2)}.', 'Kiểm tra từng pixel cho O⊆A⊆C; O∘B=O và C•B=C (lũy đẳng). Phần bên trái có bề rộng 3 nhưng lỗ ở (4,4) và chiều cao/biên làm không có cửa sổ vuông 3×3 fit đầy đủ, nên mở xóa phần đó.',blocks=[matrix(e,'Ảnh co trung gian'),matrix(op,'Mở (lần 1 = lần 2)'),matrix(cl,'Đóng (lần 1 = lần 2)')])])
-INPUTS['uyen-7-T6']=[matrix(XA,'Ảnh A'),matrix(SQUARE,'SE B vuông')]
 XA=M('1 1 1 1 0 0 1 1 1 1/1 1 1 1 0 0 1 1 1 1/1 1 1 1 1 1 1 1 1 1/1 1 1 1 1 1 1 1 1 0/1 1 1 1 1 1 1 1 1 0/0 1 1 1 1 1 1 1 0 0');e=morph(XA,SQUARE);boundary=binary(XA,e,lambda x,y:x and not y)
 put('uyen-7-T7','Tách biên bằng ảnh co và phần bù',7,'biên trong|phần bù',[step('Co ảnh rồi lấy phần đối tượng bị loại.',r'E=A\ominus s,\quad\beta(A)=A\cap E^c',f'A có {count(XA)} điểm, E có {count(e)} điểm ⇒ biên có {count(XA)}−{count(e)}={count(boundary)} điểm.', 'Eᶜ chỉ tính trong khung ảnh 6×10; ngoài ảnh đệm 0 khi co.',blocks=[matrix(e,'E'),matrix(complement(e),'Eᶜ'),matrix(boundary,'β(A)')])])
-INPUTS['uyen-7-T7']=[matrix(XA,'Ảnh A'),matrix(SQUARE,'SE s vuông')]
 XA=M('0 0 0 0 0 0 0/0 1 1 1 1 0 0/0 1 1 1 1 1 0/0 1 1 1 1 1 0/0 0 1 1 1 1 0/0 0 0 0 0 0 0');b1=binary(XA,morph(XA,SQUARE),lambda x,y:x and not y);b2=binary(XA,morph(XA,CROSS),lambda x,y:x and not y);changes=[f'({r+1},{c+1})' for r in range(len(XA)) for c in range(len(XA[0])) if b1[r][c]!=b2[r][c]]
 put('uyen-7-T8','Biên theo SE vuông và chữ thập',7,'biên trong|liên thông',[step('Tách biên lần lượt với từng SE.',r'\beta_i=A\setminus(A\ominus B_i)',f'Số điểm biên vuông={count(b1)}, chữ thập={count(b2)}.', 'Khác tại '+', '.join(changes)+'. Kiểm tra lân cận trên ma trận: biên vuông liên thông 4 (nên cũng liên thông 8); biên chữ thập chỉ liên thông 8, không liên thông 4. Không gọi hai khái niệm là loại trừ nhau.',blocks=[matrix(b1,'β₁ — SE vuông'),matrix(b2,'β₂ — SE chữ thập')])])
-INPUTS['uyen-7-T8']=[matrix(XA,'Ảnh A'),matrix(SQUARE,'B₁ vuông'),matrix(CROSS,'B₂ chữ thập')]
 XA=M('0 0 0 0 0 0 0 0/0 0 1 1 1 0 0 0/0 1 0 0 0 1 1 0/0 1 0 0 0 0 1 0/0 1 0 1 0 0 1 0/0 0 1 1 1 1 0 0/0 0 0 0 0 0 0 0');x4,tr4=grow(XA,[(3,3)],CROSS,True);x8,tr8=grow(XA,[(3,3)],SQUARE,True)
 put('uyen-7-T9','Làm đầy vùng và rò qua góc',7,'hạt giống|giao Aᶜ|4 hướng',[growstep(XA,[(3,3)],CROSS,True),growstep(XA,[(3,3)],SQUARE,True,'Thử thay bằng SE vuông để thấy rò qua góc.'),step('Xác định chỗ rò đầu tiên.',text='Ngay k=1 với SE vuông, từ (3,3) đi chéo được tới (2,2), vốn là nền ngoài nhưng không thuộc A; đó là chỗ rò đầu tiên. Sau đó lan ra nền ngoài qua (1,1),... Chữ thập không cho đi chéo vượt cặp pixel biên nên giữ được trong vùng.')])
 XA=M('0 0 0 0 0 0 0 0 0 0 0/0 1 1 1 1 0 0 0 0 0 0/0 1 0 0 1 0 0 1 1 1 0/0 1 0 0 1 0 1 0 0 0 1/0 1 1 1 1 0 1 0 0 0 1/0 0 0 0 0 0 0 1 1 1 0/0 0 0 0 0 0 0 0 0 0 0');outside,trace=grow(XA,[(1,1)],CROSS,True);allfilled=complement(outside)
@@ -242,5 +224,6 @@ put('uyen-7-T11','Trích thành phần liên thông 4 và 8',7,'giao A|liên th�
 from worked_parts import apply as apply_worked_parts
 apply_worked_parts(SOLUTIONS)
 
-from exercise_focus import apply as apply_exercise_focus
-apply_exercise_focus(SOLUTIONS,INPUTS)
+# Full exercise requests restored after clarifying the scope.
+for ident in ['uyen-5-T2', 'uyen-5-T3', 'uyen-5-T4', 'uyen-5-T5', 'uyen-5-T6', 'uyen-5-T7', 'uyen-3-T4', 'uyen-3-T7', 'uyen-3-T9', 'uyen-4-T3', 'uyen-4-T4', 'uyen-7-T2', 'uyen-7-T3', 'uyen-7-T4', 'uyen-7-T5', 'uyen-7-T6', 'uyen-7-T7', 'uyen-7-T8', 'uyen-6-T2', 'uyen-6-T6', 'uyen-6-T10', 'uyen-6-T11', 'uyen-6-T12']:
+    SOLUTIONS[ident]['revision']=3

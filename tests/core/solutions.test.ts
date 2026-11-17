@@ -70,10 +70,9 @@ test('worked subparts match the source clauses and formulas explain symbols befo
   };
   for(const [id,letters] of Object.entries(cases)){
     const item=data.items.find(i=>i.id===id)!;
-    const expected=item.editedQuestion?.parts.map(p=>p.label)??letters;
-    assert.deepEqual([...new Set(item.steps.map(s=>s.section!.match(/Câu \(([a-g])\)/)![1]))],expected,id);
+    assert.deepEqual([...new Set(item.steps.map(s=>s.section!.match(/Câu \(([a-g])\)/)![1]))],letters,id);
     const html=exerciseHtml(item,data.sources,[]);
-    assert.equal((html.match(/class="answer-part"/g)??[]).length,expected.length,id);
+    assert.equal((html.match(/class="answer-part"/g)??[]).length,letters.length,id);
     for(const piece of html.split('class="answer-step"').slice(1)){
       assert.match(piece,/Bước \d+\./);
       if(piece.includes('class="equation"')){

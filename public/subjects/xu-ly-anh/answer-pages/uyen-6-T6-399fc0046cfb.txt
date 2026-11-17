@@ -1,0 +1,51 @@
+Bài 6.T6. LZW khối 1×3 và mã chưa có
+
+
+Bài giải
+Bước 1. Đổi khối ảnh thành ký hiệu rồi xây từ điển thích nghi.
+Công thức: \text{Neu }wc\notin D:\ \text{xuat }D[w],\ D[wc]=\text{ma moi},\ w=c
+Ký hiệu: D là từ điển ánh xạ chuỗi sang mã; w là chuỗi đang giữ; c là ký hiệu mới đọc; wc là nối chuỗi w với c; D[w] là mã của w.
+Cách làm: Nếu wc đã có trong từ điển thì mở rộng w thành wc. Nếu chưa có thì xuất mã của w, thêm wc bằng mã kế tiếp và đặt w=c. Đọc hết dữ liệu phải xuất nốt mã của w.
+Thay số / thực hiện: Từ điển ban đầu: 0…7; mã mới bắt đầu 8. Chuỗi ký hiệu: 1, 1, 1, 5, 5, 5, 2, 0, 3, 5, 5, 2.
+Kết luận: Dãy mã xuất: 1, 8, 5, 10, 2, 0, 3, 11.
+
+w đang xét	ký hiệu c đọc	mã xuất	mục mới
+(1,)	1	1	8: (1, 1)
+(1,)	1	—	—
+(1, 1)	5	8	9: (1, 1, 5)
+(5,)	5	5	10: (5, 5)
+(5,)	5	—	—
+(5, 5)	2	10	11: (5, 5, 2)
+(2,)	0	2	12: (2, 0)
+(0,)	3	0	13: (0, 3)
+(3,)	5	3	14: (3, 5)
+(5,)	5	—	—
+(5, 5)	2	—	—
+(5, 5, 2)	Kết thúc	11	—
+Bước 2. Giải mã và tái tạo cùng từ điển ở phía nhận.
+Công thức: D[\mathrm{next}]=w+\operatorname{first}(\mathrm{entry})
+Ký hiệu: D là từ điển phía nhận; next là chỉ số mục sắp thêm; w là chuỗi giải ở lượt trước; entry là chuỗi giải từ mã hiện tại; first là lấy ký hiệu đầu; dấu + giữa chuỗi là phép nối.
+Cách làm: Giải mã đầu theo từ điển gốc. Với mỗi mã sau, đọc entry, xuất entry rồi thêm w+first(entry), cập nhật w=entry. Nếu mã chính là next chưa có, lấy entry=w+first(w); không tự đoán một mục bất kỳ.
+Thay số / thực hiện: Mã đầu 1 giải thành 1; mỗi mã sau bổ sung chuỗi trước + ký hiệu đầu chuỗi hiện tại.
+Kết luận: Chuỗi sau giải mã trùng chuỗi ký hiệu ban đầu, ghép lại thu được đúng ảnh đề bài. Trường hợp mã bằng vị trí từ điển kế tiếp chưa có: entry = w + first(w).
+
+mã đọc	chuỗi giải	mục mới
+1	(1,)	—
+8	(1, 1)	8: (1, 1) (mã chưa có: w + ký hiệu đầu của w)
+5	(5,)	9: (1, 1, 5)
+10	(5, 5)	10: (5, 5) (mã chưa có: w + ký hiệu đầu của w)
+2	(2,)	11: (5, 5, 2)
+0	(0,)	12: (2, 0)
+3	(3,)	13: (0, 3)
+11	(5, 5, 2)	14: (3, 5)
+Ảnh khôi phục
+0	0	1	0	0	1	0	0	1
+1	0	1	1	0	1	1	0	1
+0	1	0	0	0	0	0	1	1
+1	0	1	1	0	1	0	1	0
+Bước 3. Tính số bit theo độ dài từ mã mà đề cho.
+Công thức: n_1=MN\,b_{pixel},\quad n_2=N_{ma}\,b_{ma},\quad C_R=n_1/n_2
+Ký hiệu: n₁ là dung lượng trước mã; n₂ là dung lượng sau mã; CR=n₁/n₂. M,N là số hàng/cột; b_pixel là bit/pixel; N_mã là số từ mã xuất; b_mã là bit/từ mã nếu có trong công thức.
+Cách làm: Đếm dữ liệu đầu vào và số từ mã thực xuất. Nhân mỗi số lượng với đúng số bit một đơn vị rồi tính n₁/n₂. Dùng cùng đơn vị ở tử và mẫu; CR<1 nghĩa là dữ liệu nở.
+Thay số / thực hiện: n₁=36; n₂=8·4=32.
+Kết luận: CR=1.125. LZW có lợi khi chuỗi đủ dài và nhiều lặp; từ điển đầy cần ngừng thêm hoặc reset đồng bộ.

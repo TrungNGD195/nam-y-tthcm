@@ -23,10 +23,9 @@
 - **bank-4-7**: Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
 - **bank-4-8**: Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
 - **bank-4-8-bs**: Giữ đúng số liệu trong ngân hàng đề. Bản đáp án gọi một bài khác là 4.8 và còn thay 250 thành 120; không dùng bảng tính đó cho dữ kiện này. Ngân hàng không nêu quy ước phân vị rời rạc: dùng mức cuối không vượt p% như cách làm đáp án; xem thêm quy ước đạt p% ở bài cô Uyên chương 5.
-- **uyen-5-T4**: Histogram này có cực đại tại 3 và 5 nhưng không tại 4. Lấy trung bình máy móc sẽ làm mất điều kiện tối ưu; lời giải kiểm tra lại bằng tiêu chuẩn Otsu.
 - **uyen-3-T10**: Công thức f(g) trong PDF bị dàn trang dễ đọc nhầm. Dùng công thức giáo trình trang PDF 32: t/(N−t) nhân bình phương chênh trung bình, không chia cho bình phương đó.
 - **uyen-3-T11**: Chương 3 quy định phân vị cuối không vượt p%; khác quy ước đầu tiên đạt p% của chương 5. Kết quả được tính theo từng đề, không trộn quy ước.
-- **uyen-4-T3**: Đề gốc nhắc nhầm dòng 2 toàn 90; ma trận thực tế của 4.T3 có dòng 2 là 143,27,5,251,33,76. Dòng toàn 90 thuộc 4.T4. Phần ôn tập dùng đúng dữ kiện và hai kết quả đã kiểm tra.
+- **uyen-4-T3**: Câu 4.T3 phần b nói dòng 2 toàn 90 nhưng ma trận cho dòng 2 là 143,27,5,251,33,76. Giữ đúng ma trận; dòng toàn 90 nằm ở 4.T4. Không thay dữ kiện để khớp câu nhận xét.
 - **uyen-6-T2**: Đề nhắc ký hiệu C, D nhưng chưa gán chữ cho mẫu khối. Lời giải dùng chuỗi 4 bit nhận diện khối để tránh gán nhầm; hòa tần suất đổi mã nhưng không đổi tổng số bit tối ưu.
 
 ## Danh mục và vị trí nguồn
@@ -213,35 +212,49 @@
 - 67 bài tính chia riêng từng câu (a), (b), (c) theo đề; công thức kèm ký hiệu, cách làm và thay số. PDF/ảnh được xuất lại từ bản trình bày mới, hash từng bài kiểm tra tính tương thích.
 - scripts/content/xu-ly-anh/worked_parts.py lưu ánh xạ ý hỏi và cách giải thích ký hiệu. Công thức, bảng và ma trận tính từ calculations.py/exercises.py, tiếp tục được kiểm tra độc lập bằng NumPy/SciPy.
 
-## Lược ý hỏi lặp — 17/11/2026
+## Chỉ lược ý hỏi lý thuyết — 17/11/2026
 
-- Giữ đủ 46 bài tập cô Uyên; 23 bài được chỉnh từng ý hỏi, không xóa bài.
-- Phần đã luyện được cho sẵn theo đúng dữ kiện của bài hiện tại; đề mới, đáp án, PDF và bản văn bản thống nhất. Ảnh và bản chép đề gốc vẫn giữ nguyên để đối chiếu.
-- exercise-focus-review.json lưu hash đề gốc, đề ôn tập, lời giải, các ý lược và trọng tâm còn lại.
-- Sửa phần 4.T3 từng nhắc nhầm dòng toàn 90 của 4.T4. Với 5.T4, cực đại Otsu tại 3 và 5 nhưng không tại 4: không lấy trung bình làm mất tính tối ưu. Căn cứ tiêu chuẩn cực đại tại giáo trình trang PDF 32.
+- Khôi phục đầy đủ mọi ý hỏi của 67 bài tính, trong đó có 46 bài cô Uyên. Bản PDF và ảnh lời giải trả lời đủ từng câu.
+- Giữ đủ 71 câu lý thuyết cô Uyên; 36 câu được rà ý hỏi lặp, gồm 10 câu tham chiếu về nội dung đã hỏi.
+- Câu trùng một phần chỉ hỏi các ý mới; câu trùng hoàn toàn giữ mã, đề gốc và câu trả lời đối chiếu, dẫn đến câu đã có. Không thêm kiến thức ngoài đề.
+- theory-focus-review.json lưu ý lược, ý giữ, liên kết câu trước và hash. Audit rút gọn bài tính cũ chuyển vào archive và không còn áp dụng.
+- Giữ các sửa lỗi đã kiểm tra: 4.T3 không dùng nhầm dòng toàn 90 của 4.T4; 5.T4 chọn cực đại Otsu 3 hoặc 5, không lấy 4.
 
-| Bài | Ý đã có trước | Trọng tâm giữ lại |
+| Câu | Nội dung đã hỏi | Phần giữ lại |
 |---|---|---|
-| 5.T2 | uyen-5-T1: Nhận xét đáp ứng lọc và các bước tạo biên | Hai mặt nạ mới Sobel/Laplace 4; ghép bằng trị tuyệt đối thay cho cộng có dấu |
-| 5.T3 | uyen-5-T1: Nhân mặt nạ Prewitt và tính đáp ứng; uyen-5-T2: Tính độ lớn gradient | Vị trí đáp ứng thay đổi, ảnh hưởng khuếch đại/triệt tiêu và cách giảm nhiễu |
-| 5.T4 | uyen-3-T10: Lập bảng Otsu và câu hỏi chung về nhiều ngưỡng | Áp dụng trên histogram có hai cực đại rời nhau; kiểm tra quy tắc lấy trung bình |
-| 5.T5 | uyen-3-T11: Lặp đẳng điệu và đối xứng nền với phân vị cuối không vượt p% | Quy ước phân vị đầu đạt p%; độ chính xác 95%/90%; đánh giá hai histogram mới |
-| 5.T6 | uyen-3-T1: Đếm histogram; uyen-3-T2: Làm trơn W=3, W=5 | Đếm cực đại cục bộ, xử lý plateau, ảnh hưởng của làm trơn đến tìm ngưỡng |
-| 5.T7 | uyen-3-T12: Dựng đường tam giác và tính mọi khoảng cách | Kiểm tra hai mức quanh ngưỡng trên dữ kiện có đỉnh g=2 đã cố định |
-| 3.T4 | uyen-3-T3: Công thức cân bằng theo slide | Chuẩn hóa xác suất, CDF trên ảnh 32×32; nhận diện nhóm mức bị gộp |
-| 3.T7 | uyen-3-T6: Lọc trung bình trên chín điểm trong | Lọc trung vị; so sánh hai bộ lọc trên nhiễu muối tiêu |
-| 3.T9 | uyen-3-T6: Trung bình số học; uyen-3-T7: Trung vị | Trung bình hình học, max, min, điểm giữa và alpha-trimmed; tác động của hai cực trị |
-| 4.T3 | uyen-4-T2: Tính khuếch tán lỗi và giải thích mục đích chung | So sánh cụ thể trường hợp hai ma trận đầu ra trùng nhau |
-| 4.T4 | uyen-4-T2: Quy trình khuếch tán lỗi toàn ảnh; mục đích chung; uyen-4-T3: Đối chiếu hai ảnh đầu ra | Đổi ngưỡng sang 100; xử lý riêng dòng toàn 90; hai ảnh cùng độ sáng nhưng khác vị trí pixel |
-| 7.T2 | uyen-7-T1: Tính co và giãn theo fit/hit | Phản xạ SE bất đối xứng; phân biệt hit trực tiếp và giãn chuẩn; co có đổi không |
-| 7.T3 | uyen-7-T1: Co và giãn; uyen-7-T2: Ảnh hưởng của SE | Số điều kiện fit tăng khi SE lớn hơn; chứng minh quan hệ bao hàm với cùng gốc |
-| 7.T4 | uyen-7-T1: Co cơ bản | Phép mở và các chi tiết mất |
-| 7.T5 | uyen-7-T1: Giãn cơ bản | Phép đóng và phụ thuộc hình dạng khe/SE |
-| 7.T6 | uyen-7-T4: Phép mở; uyen-7-T5: Phép đóng | Kiểm tra bao hàm từng pixel; lặp trên kết quả để chứng minh lũy đẳng; vai trò lỗ đối với vùng rộng đúng 3 pixel |
-| 7.T7 | uyen-7-T1: Tính ảnh co | Phần bù trong khung ảnh; AND với ảnh gốc để tách biên trong; đếm điểm biên |
-| 7.T8 | uyen-7-T7: Tính biên trong bằng ảnh co | Đối chiếu vị trí biên theo hai SE; phân biệt liên thông 4 và 8 |
-| 6.T2 | uyen-6-T1: Mã hóa Huffman, số bit và tỷ lệ nén | Đổi vai trò ký hiệu cùng tần suất/nhánh 0–1; mã có độ dài cố định |
-| 6.T6 | uyen-6-T4: Mã hóa/giải mã LZW và tính số bit; uyen-6-T5: Thay đổi từ điển gốc và độ dài mã | Tình huống thực tế mã nhận bằng mục kế tiếp; từ điển gốc 0–7 cho khối 1×3 |
-| 6.T10 | uyen-6-T9: Quét AC và mã hóa RLE thành cặp | DPCM và Huffman DC; khôi phục DC; giải ngược cặp RLE và xác định chỉ số AC |
-| 6.T11 | uyen-6-T9: Lượng tử hóa và quét zig-zag; uyen-6-T10: Mã hóa DC bằng DPCM/CAT/bit biên độ | DCT ma trận 2 điểm; Huffman RUN/CAT của AC; ghép chuỗi toàn khối; DCT ngược 2×2 và RMS |
-| 6.T12 | uyen-6-T8: RMS khi khôi phục bằng DC; uyen-6-T9: RMS từ sai số lượng tử; uyen-6-T11: RMS sau DCT ngược | SNR theo năng lượng ảnh khôi phục; đổi dB; so sánh CR kết hợp chất lượng cảm nhận |
+| 5.L1 | uyen-lt-1-12: Biên và phát hiện trực tiếp; uyen-lt-2-6: Mặt nạ và cách tạo ảnh biên | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 5.L2 | uyen-lt-2-5: Nguyên lý đạo hàm và mặt nạ ngang | Mặt nạ chuyển vị theo hướng dọc; xấp xỉ độ lớn gradient |
+| 5.L3 | uyen-lt-2-6: Ba loại mặt nạ và các bước tạo biên | So sánh trọng số và tác dụng của Sobel |
+| 5.L5 | uyen-lt-2-7: Các bước Canny và vai trò các bước then chốt | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 5.L7 | uyen-3-L8: So sánh tham số, điều kiện và trường hợp nhiều ngưỡng | Trình tự thực hiện và công thức Otsu; lặp ISODATA và dừng |
+| 5.L8 | uyen-lt-2-8: Khái niệm và điều kiện đối xứng nền; uyen-3-L6: Các bước và tỷ lệ tích lũy; uyen-lt-2-9: Tam giác và trường hợp không phù hợp | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 5.L9 | uyen-lt-2-10: Ý tưởng và tiêu chuẩn của tách/hợp vùng | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 1.6 | uyen-lt-1-5: Halftone và lý do dùng trong in ấn | Vai trò khuếch tán lỗi; so với tách ngưỡng |
+| 1.7 | uyen-lt-1-6: Khái niệm, vai trò và khác biệt với tách ngưỡng | Một chiều/hai chiều; vệt giả theo hướng quét |
+| 2.1 | uyen-lt-1-2: Nguyên lý CMY và khác biệt với RGB | Trường hợp sử dụng |
+| 2.2 | uyen-lt-1-2: CMY và khác biệt RGB; uyen-lt-2-1: Ứng dụng phối màu trừ | Phép chuyển RGB→CMY, hai miền giá trị |
+| 2.3 | uyen-lt-1-4: So sánh raster với vector | Cách lưu hình học vector; lý do raster vẫn cần thiết |
+| 2.6 | uyen-lt-2-5: Nguyên lý dùng đạo hàm | Ba cặp mặt nạ và hậu xử lý đáp ứng |
+| 3.L1 | uyen-lt-1-8: Tăng/giảm sáng bằng toán tử điểm | Âm bản, log, gamma |
+| 3.L2 | uyen-lt-1-9: Khái niệm và mục đích cân bằng histogram | Cân bằng lý tưởng và giới hạn rời rạc |
+| 3.L3 | uyen-lt-1-10: Toán tử không gian và ý tưởng cửa sổ di chuyển | Đệm 0, lặp rìa, phản xạ, bỏ biên |
+| 3.L4 | uyen-lt-1-11: Khái niệm, mục đích và mô hình nhiễu rời rạc | Mô hình liên tục; các loại nhiễu |
+| 3.L5 | uyen-lt-2-4: So sánh trung vị, trung bình, k gần nhất và trường hợp sử dụng | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 3.L6 | uyen-lt-2-8: Khái niệm và giả thiết nền phù hợp | Các bước; ảnh hưởng của p% |
+| 3.L7 | uyen-lt-2-9: Ý tưởng tam giác và trường hợp không phù hợp | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 3.L8 | uyen-lt-2-8: Đối xứng nền; uyen-lt-2-9: Tam giác | Otsu và ISODATA: điều kiện, khởi tạo, lựa chọn và nhiều nghiệm |
+| 3.L9 | uyen-lt-2-4: Trung bình số học, trung vị và k gần nhất | Tăng cường/khôi phục; hai miền; các bộ lọc nhiễu còn lại |
+| 4.L1 | uyen-lt-1-2: Phân biệt RGB và CMY; uyen-lt-2-1: Trường hợp sử dụng hai nguyên lý phối màu | Ví dụ phối hai màu |
+| 4.L2 | uyen-lt-1-1: Khái niệm và tên các mô hình màu; uyen-lt-1-3: Ý nghĩa các thành phần HSV/HSL; uyen-lt-2-1: Ứng dụng RGB và CMY | Ứng dụng HSV/HSL trong thao tác màu |
+| 4.L3 | uyen-lt-1-2: So sánh CMY với RGB | Lý do thực tế dùng thêm mực đen K |
+| 4.L4 | uyen-lt-1-3: Lý do phát triển HSV/HSL và ý nghĩa từng chữ cái | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 4.L5 | uyen-lt-1-4: Raster/vector và trường hợp sử dụng; uyen-lt-2-3: Vector và lý do vẫn dùng raster | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 4.L6 | uyen-lt-1-5: Mục đích và ý tưởng halftone | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 4.L7 | uyen-lt-1-6: Khuếch tán lỗi so với tách ngưỡng; uyen-lt-1-7: Một chiều, hai chiều và nhược điểm được khắc phục | Tham chiếu câu đã hỏi; giữ nguyên bản để đối chiếu |
+| 4.L8 | uyen-lt-1-2: CMY là phối màu trừ; uyen-lt-1-4: Phóng to raster/vector; uyen-lt-1-5: Cảm nhận cường độ trung bình trong halftone | Nhận định (d): số mức xám sau lượng tử hóa |
+| 7.L8 | uyen-7-L3: Mở không luôn trả ảnh gốc; tác dụng nối khe của đóng; uyen-7-L6: Vì sao phải giao với Aᶜ khi làm đầy | (b) điều kiện bao hàm co/giãn; (c) lũy đẳng; (e) SE bất đối xứng; (f) đối ngẫu |
+| 6.L1 | uyen-lt-2-15: Khái niệm RLC và khi nào dữ liệu nở | Ví dụ có số bit cụ thể |
+| 6.L2 | uyen-lt-2-16: Mục đích DCT và bước lượng tử gây tổn thất | Sai số số học thực tế và tính khả nghịch lý thuyết |
+| 6.L5 | uyen-6-L3: Tần suất và việc gửi bảng mã trong Huffman tĩnh | Các bước; mã tiền tố; chia khối; mất đồng bộ vì lỗi bit |
+| 6.L7 | uyen-lt-2-16: Lượng tử hóa không khôi phục chính xác; uyen-6-L2: Sai số và tổn thất trong JPEG | Cấu trúc và chức năng các khối mã hóa |
+| 6.L9 | uyen-6-L3: LZW tự tái tạo từ điển; uyen-lt-2-16: DCT khả nghịch và lượng tử hóa gây mất mát | (a) entropy/Huffman; (d) DCT/DFT và blocking; (e) bước lượng tử theo tần số |

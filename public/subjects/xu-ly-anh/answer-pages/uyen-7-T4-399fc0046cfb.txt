@@ -1,0 +1,37 @@
+Bài 7.T4. Mở ảnh: bỏ cầu hẹp và nhiễu
+
+
+Câu (a) — Co trung gian
+Bước 1. Thực hiện phép đầu tiên trên ảnh gốc.
+Công thức: E(p)=\bigwedge_{b\in B}A(p+b)
+Ký hiệu: X hoặc A là ảnh nhị phân; B là các độ lệch tại ô SE bằng 1 tính từ gốc; p là vị trí đang xét; b là một độ lệch của B; E là ảnh co; D là ảnh giãn; ∧ là AND, ∨ là OR.
+Cách làm: Đặt gốc SE tại p, chỉ xét các ô SE bằng 1. Co cho 1 khi tất cả điểm tương ứng bằng 1; giãn theo hit cho 1 khi có ít nhất một điểm bằng 1. Ngoài khung lấy 0. Với SE bất đối xứng, giãn chuẩn xét X(p−b), khác hit trực tiếp X(p+b).
+Thay số / thực hiện: Số điểm 1: A=27, co=3, mở=21.
+A ⊖ B
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	1	0	0	0	0	0	1	0	0
+0	0	0	0	0	0	0	0	1	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+
+Câu (b) — Mở ảnh
+Bước 1. Co bằng SE vuông rồi giãn kết quả co.
+Công thức: A\circ B=(A\ominus B)\oplus B
+Ký hiệu: A là ảnh nhị phân; B là SE; ⊖ là co; ⊕ là giãn; ∘ là mở; • là đóng; O,C lần lượt là kết quả mở/đóng; ⊆ là bao hàm.
+Cách làm: Với mở, co trước rồi giãn chính ảnh vừa co. Với đóng, giãn trước rồi co chính ảnh vừa giãn. Giữ cùng SE và quy ước ngoài khung; khi kiểm tra bao hàm, so từng vị trí 1 chứ không chỉ so tổng số điểm.
+Thay số / thực hiện: Số điểm 1: A=27, co=3, mở=21.
+A ∘ B
+0	0	0	0	0	0	0	0	0	0	0
+0	1	1	1	0	0	0	1	1	1	0
+0	1	1	1	0	0	0	1	1	1	0
+0	1	1	1	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	1	1	1	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+
+Câu (c) — Giải thích các chi tiết thay đổi
+Bước 1. Đối chiếu ảnh đầu vào và kết quả.
+Cách làm: Điểm nhiễu đơn lẻ và dải nối một pixel bị loại vì không chứa được SE 3×3; một số mép nhô nhỏ cũng mất.
+Giải thích: Điểm nhiễu đơn lẻ và dải nối một pixel bị loại vì không chứa được SE 3×3; một số mép nhô nhỏ cũng mất.

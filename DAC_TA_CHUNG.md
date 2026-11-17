@@ -1,6 +1,6 @@
 # Đặc tả chung — Nắm ý, ôn tập nhiều môn
 
-Phiên bản 2.11 · 17/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
+Phiên bản 2.12 · 17/11/2026. Chuẩn triển khai hiện tại; bản Tư tưởng Hồ Chí Minh đầu tiên được lưu trong `docs/archive/`.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -90,7 +90,7 @@ Các block này chỉ đưa vào khi có tài liệu đối chiếu. Chế độ
 - Có một PDF tổng hợp đủ đề và lời giải 67 bài, dấu trang theo bộ/chương/bài. Trang học giữ đề gốc riêng, chỉ hiển thị ảnh những trang lời giải; nút từng câu nhảy tới đúng trang và vị trí tiêu đề trong ảnh, liên kết mở PDF tại đúng trang, tải cả bộ, mở ảnh lớn và bản văn bản hỗ trợ đọc/tìm kiếm. Ảnh tải dần, có kích thước và alt; không làm trang tràn ngang. Lý thuyết đúng/sai tách từng nhận định ở cả đề và câu trả lời, không đặt toàn bộ (a)–(g) trong một đoạn.
 - Manifest `documents.json` ghi hash nội dung từng bài, trang PDF tương ứng, kích thước và SHA256 từng ảnh/PDF. Không phát hành khi bài đã sửa mà ảnh chưa tạo lại hoặc thiếu trang. Kiểm tra ảnh bằng render lại đúng trang PDF và so pixel; kiểm tra tính toán riêng với NumPy/SciPy, không coi ảnh đẹp là bằng chứng đáp án đúng.
 - Giữ hình đề gốc và bản chép văn bản cho 67 bài tính. Mỗi mục có nguồn đề, trang PDF và nguồn lý thuyết/đáp án tham khảo.
-- Khu cô Uyên giữ đủ **46 bài tập**. 23 bài phía sau được biên tập ở cấp ý hỏi: phần đã luyện ở bài trước chuyển thành kết quả trung gian tính cho đúng dữ kiện của bài hiện tại; giữ các yêu cầu mới và điều kiện khác biệt. Không xóa cả bài chỉ vì cùng thuật toán, không bắt mở/làm xong bài trước. Đề ôn tập hiển thị yêu cầu trước, dữ kiện/kết quả cho sẵn sau; đề gốc đầy đủ đặt trong mục mở riêng. Lời giải và PDF chỉ trả lời các yêu cầu còn lại. `exercise-focus-review.json` ghi những ý lược, ý giữ và liên kết bài trước; bài đã đổi tăng revision để dấu Đã nắm cũ không tự chứng nhận đề mới.
+- Chỉ lược ý hỏi trùng ở **lý thuyết cô Uyên**: giữ đủ 71 câu; 26 câu giữ các vế mới, 10 câu trùng hoàn toàn giữ mã/đề gốc và dẫn đến câu đã hỏi. Câu trả lời viết đầy đủ, làm nổi keyword; đề gốc luôn mở được để đối chiếu. **67 bài tính (46 bài cô Uyên) giữ đủ mọi yêu cầu**, lời giải từng phần và ảnh PDF. [Bảng rà lý thuyết](content/xu-ly-anh/theory-focus-review.json) ghi từng ý lược, ý giữ và câu tham chiếu. Bản rút gọn bài tập trước đó đã được hủy áp dụng.
 - Với Otsu, ngưỡng được chọn phải thật sự đạt cực đại tiêu chuẩn. Chỉ lấy trung bình nhiều nghiệm khi phân hoạch đó vẫn tối ưu; trường hợp 5.T4 có cực đại rời nhau tại 3,5 nhưng không tại 4 được giải thích riêng và kiểm tra hồi quy.
 - Công bố quy ước: đệm 0, đặt tâm và không lật mặt nạ theo bộ bài; sai số đầu dòng bằng 0; hai công thức cân bằng histogram; hai cách lấy phân vị ở chương 3/5; SE phản xạ khi phân biệt giãn chuẩn và hit B. Sai dữ kiện/đáp án có ghi chú tại đúng bài.
 - Kiểm tra phép tính độc lập bằng NumPy/SciPy và giải mã ngược Huffman/LZW. Kiểm kê đủ 168 mục và kiểm tra công thức KaTeX trước phát hành.

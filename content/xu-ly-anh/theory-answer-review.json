@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.17.1",
+  "version": "2026.11.17.2",
   "questionCount": 101,
   "policy": "Ngân hàng theo đáp án đã kiểm tra với giáo trình; cô Uyên theo giáo trình/slide và cùng lối trình bày câu trả lời hoàn chỉnh. Đối chiếu mục đáp án theo nội dung, không chỉ theo số câu.",
   "keyBacked": 27,
@@ -496,7 +496,7 @@
         "Mặt nạ Sobel",
         "Các bước tạo ảnh biên"
       ],
-      "promptHash": "191623ef90ba1c75ef9eda582e285c6a655783615ff6d6c8098a8c1d2978918d",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "ee0797bad1a42e745cca0654fda8639a29d6b8f7944354ddcdf302fcaff2f6ca"
     },
     {
@@ -506,12 +506,11 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Nguyên lý phát hiện biên",
         "Ý nghĩa hai mặt nạ",
         "Độ lớn gradient"
       ],
-      "promptHash": "41f132b82cc2e7a9bed02bf44e094be6f4da719f6c0ad612b0df3d97f66b202f",
-      "answerHash": "545b2ced53543eceea5cea21e1176883ff7cf025a45213cc82f515c6c1b150c2"
+      "promptHash": "8d76e3082ce5bad342285591d259052a088d48d1d3a530ce98ca0c852f27a49f",
+      "answerHash": "bb326a71ece9fac9214ea6aebe75bfbae39a58e427172e64ebeb7de887a74427"
     },
     {
       "id": "uyen-5-L3",
@@ -520,14 +519,11 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Nguyên lý",
-        "Mặt nạ Prewitt",
-        "Mặt nạ Sobel",
-        "Mặt nạ Frei–Chen",
-        "Các bước tạo ảnh biên"
+        "Khác biệt về trọng số",
+        "Tác dụng"
       ],
-      "promptHash": "87fd270b5fadfde376874dbefa285812efebcfedf899bd7fad8f346f2450a24a",
-      "answerHash": "348a93fdbb19e448a2a4b026a8f632484b741e22a4d69e181aa7bb80149f6562"
+      "promptHash": "ee0b11e93088aa147efe0fae6c4dac4baed69a5296b023f9bc60133731db2171",
+      "answerHash": "cf905a646c86937ec08bc1601d99d6acb547c7c4989182421a25c102ad4c1877"
     },
     {
       "id": "uyen-5-L4",
@@ -554,7 +550,7 @@
         "Năm bước",
         "Vai trò của những bước then chốt"
       ],
-      "promptHash": "c7072c491627c2a6bbfa6be561a9ff7092cf9a8bcc12e9438371d020cbabf56b",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "0d4aecc1cf53f47b4c105032af0ca7a20dff3880595398951e4378e8a7aa177b"
     },
     {
@@ -580,11 +576,10 @@
       "headings": [
         "Otsu: ý tưởng và các bước",
         "Tiêu chuẩn Otsu",
-        "Trường hợp nhiều ngưỡng",
         "ISODATA: các bước và điều kiện dừng"
       ],
-      "promptHash": "fca499e6ea00e358c4f8999f775da47a936c123fa74e3f3b640025569f728168",
-      "answerHash": "a1452a229bfceb110e28b82226b1b91dae2bb8c49b342b96b5ad2bce90d23068"
+      "promptHash": "8752cd4a75345497f23bafe81becd8c701244701974ec4da563bccf707e9ccc6",
+      "answerHash": "312ff16569d1b26f47faee2d293ca77c10f26a46fb9b0e4624aaf50749f83446"
     },
     {
       "id": "uyen-5-L8",
@@ -599,7 +594,7 @@
         "Ý tưởng và cách thực hiện",
         "Trường hợp phù hợp và không phù hợp"
       ],
-      "promptHash": "0113b48ba715bdf8f0f82c63a5aad117f50fff19ff19005207fa67d55f77e354",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "45ac1f5c962b529fbd79ff2c81f6862234bdaabfe4b0323e319e0f6c5cfb8190"
     },
     {
@@ -613,7 +608,7 @@
         "Tách, hợp và kết hợp",
         "Yếu tố quyết định kết quả"
       ],
-      "promptHash": "599d3ef3d1fbc94ae72a72c5101d10d1d43c40104337a2b86e408f50b14a2fe0",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "efedc1f3a0553535a52ddd98773422fc8310f9266aff8ba5fbc97eb02b15d209"
     },
     {
@@ -689,12 +684,11 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Kỹ thuật sử dụng",
         "Vai trò của khuếch tán lỗi",
         "Ưu điểm so với tách ngưỡng"
       ],
-      "promptHash": "d402ad2b7d4318c332a8463e906977a28017f30067bd128ecfe254edd55dca9c",
-      "answerHash": "1eefb0dd167c113f03fc9414c8503672262b211599562cf5e9d276a370e8cdb4"
+      "promptHash": "7c8597bf61002d2e95ed95670bd2efad8fc0aaa066127621f30bef7c6921a39b",
+      "answerHash": "33452090f504544c0d43b52c389dbd654d6e14a6f275f954046ec35b4f3d4af8"
     },
     {
       "id": "uyen-lt-1-7",
@@ -703,12 +697,11 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Khái niệm và khác biệt với tách ngưỡng",
         "Một chiều và hai chiều",
         "Nhược điểm được khắc phục"
       ],
-      "promptHash": "cea030d12b90403e228da691466c3484c9d8d4d03ec6f6aa18612bcd5da82636",
-      "answerHash": "53e075190af04c042f33cb74b8986bd0e2aca3f27d8aa16d6fda5ccb3a6dafb2"
+      "promptHash": "db8b4724cdd889a0119b84be8db9843a455f445f5220194d8cbe8b67974bd97b",
+      "answerHash": "71fd408aa8e0e312d7effabbb2894b6ea038256c40791ffae76e3efa02d6bcdb"
     },
     {
       "id": "uyen-lt-1-8",
@@ -731,11 +724,10 @@
       "keyPages": [],
       "headings": [
         "Khái niệm và mục đích",
-        "Công thức trong giáo trình",
-        "Ảnh cân bằng lý tưởng"
+        "Công thức trong giáo trình"
       ],
       "promptHash": "b32228df8c0adb416092b6691fd529980b9f79c317b7d0aaf3ddcb69a72ba29f",
-      "answerHash": "71392115b8c04adeb949daae6df98ccdfc7ed4aece6dc1b08ffce213c943e98f"
+      "answerHash": "54dbed697e41a5525f0dbd26c2e912ee9acb89ce7087f4669b0e953273de157c"
     },
     {
       "id": "uyen-lt-1-10",
@@ -744,11 +736,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Loại toán tử và ý tưởng",
-        "Xử lý biên ảnh"
+        "Loại toán tử và ý tưởng"
       ],
       "promptHash": "14f624e627b52e8e48dc5da0cc57da3cf649bfadd6a7c01527887923ad680877",
-      "answerHash": "bd59175a23f0a22d0fa888d96ef0adafd8d37575470d2883cb18422f5b19d1af"
+      "answerHash": "0d100200f59c9b0112fd8ca03fd9d3d06e71d4353f05ad706fd73a0cd1390240"
     },
     {
       "id": "uyen-lt-1-11",
@@ -783,11 +774,11 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Phối màu cộng",
-        "Phối màu trừ"
+        "Thiết bị phát sáng",
+        "Bề mặt phản xạ"
       ],
-      "promptHash": "94e4c3c9e41c5bd903109a350ed546b887b33405cc4c04e1db219eafff6cac10",
-      "answerHash": "e6411a48acdc89e92884a666782c40009cfb3270c76221a100bf434e7d23a4c9"
+      "promptHash": "c73ccca898dbd288870b1a161198169af627ef34d153610fed901409b232887d",
+      "answerHash": "d6af53224f2f9eb0747f668e5bca3e192b3431ea57e0d0fba5fefa281b76e114"
     },
     {
       "id": "uyen-lt-2-2",
@@ -796,12 +787,11 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "CMY và lý do sử dụng",
         "Chuyển hệ màu",
         "Trường hợp ảnh 8 bit"
       ],
-      "promptHash": "ae589dd58afbb84e2c3b6f42accfb31592898f3e3ce910526e7a7060e2e2ebdb",
-      "answerHash": "9ee34811a106e2631f9bbb4caff65b367f7f895732a2a55e8f57e282102aade4"
+      "promptHash": "146ad359609c5aaf79ff1cfe33ec6a5632305d6afd962e9789a459526e1ee52b",
+      "answerHash": "62ffb897115529c13706882471b0c9b895b0f94711ff13ed4b1ef2b6316fa9c2"
     },
     {
       "id": "uyen-lt-2-3",
@@ -811,11 +801,10 @@
       "keyPages": [],
       "headings": [
         "Mô hình vector",
-        "So sánh với raster",
         "Lý do raster vẫn cần thiết"
       ],
-      "promptHash": "c40d5dd541ba00aa9b382922082c71f840ab59aaec8e67ae04ef2a780c2a2240",
-      "answerHash": "93ff44c9ef87deefe7bb657b5bab8ab5831c8858f6ecddbd41ad89e5be16d3a7"
+      "promptHash": "51c2eb434e03ac97f2e2039886ac3b8a0df668b6d9d63a72ffc9a55b4b13d367",
+      "answerHash": "60fa10c533cc95cb9c19fc7ce30ac4ad83b0814d72ee290dbc94bef7fe1f5f4b"
     },
     {
       "id": "uyen-lt-2-4",
@@ -840,11 +829,10 @@
       "keyPages": [],
       "headings": [
         "Nguyên lý phát hiện biên",
-        "Ý nghĩa hai mặt nạ",
-        "Độ lớn gradient"
+        "Mặt nạ sai phân ngang"
       ],
       "promptHash": "e551dc6838b42b22fa4fa27971d59b40a82a971ccd29c1ceeb7465a0a5845d5a",
-      "answerHash": "545b2ced53543eceea5cea21e1176883ff7cf025a45213cc82f515c6c1b150c2"
+      "answerHash": "a4228ce92f1ab6b59ff9cca65ed82a532560dcad9a575332ef9fc85352f2bd01"
     },
     {
       "id": "uyen-lt-2-6",
@@ -853,14 +841,13 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Nguyên lý",
         "Mặt nạ Prewitt",
         "Mặt nạ Sobel",
         "Mặt nạ Frei–Chen",
         "Các bước tạo ảnh biên"
       ],
-      "promptHash": "34ab09e875b85c2eb5b1b24952d47e001820929658f53243bc61ec7c38cc7827",
-      "answerHash": "348a93fdbb19e448a2a4b026a8f632484b741e22a4d69e181aa7bb80149f6562"
+      "promptHash": "95dceac28d9a4f26e02488fe9aad0d7d01de29341ca00b82a2b443d3dbb177df",
+      "answerHash": "a68caf6f7c05d53893e4d1bc12d4291b57bcaacce688f8037077b804514c89e8"
     },
     {
       "id": "uyen-lt-2-7",
@@ -1005,12 +992,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Cách thực hiện và loại toán tử",
-        "Công thức",
         "Ba biến đổi mức xám cơ bản"
       ],
-      "promptHash": "beab2149a18c5cba1c8ccbba06f3ad0d9bdb35a901d9acc5592502a33461c579",
-      "answerHash": "6e820ed5d68f9ce58bdf8f336a7acf68e569ae61c648e7247b097dc7239dd068"
+      "promptHash": "2dcde6120d4f8dceb36586a344b20a5ad2e60fe3249c30c80e3afeb575e1317e",
+      "answerHash": "6a87f70831e8947d3d7fd6a61ee5d96cb4c60e669e899db4482132649b27b886"
     },
     {
       "id": "uyen-3-L2",
@@ -1019,12 +1004,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Khái niệm và mục đích",
-        "Công thức trong giáo trình",
         "Ảnh cân bằng lý tưởng"
       ],
-      "promptHash": "551be74d7fb4c9d8677820cf5ef72d9d405c586189b58f0e901452180fdefe69",
-      "answerHash": "71392115b8c04adeb949daae6df98ccdfc7ed4aece6dc1b08ffce213c943e98f"
+      "promptHash": "224de906d774d3951517641966dc45db15650191bc57d64de897d147a9b81053",
+      "answerHash": "c96a903f62636a982c4e92b347bd327b12014afe903134a792bf8ccc59644a63"
     },
     {
       "id": "uyen-3-L3",
@@ -1033,11 +1016,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Loại toán tử và ý tưởng",
         "Xử lý biên ảnh"
       ],
-      "promptHash": "5d5d572068fe12cef48092046f05038799a88965bd6e137c5a65c53c96ea1110",
-      "answerHash": "bd59175a23f0a22d0fa888d96ef0adafd8d37575470d2883cb18422f5b19d1af"
+      "promptHash": "fba11f6599ddc64c5c53d650e5899e2625116183e0556f0f7c6c9a1af94c2b63",
+      "answerHash": "8408ce567c91c5b3cfedf322fddcae3baabd008452e4b9e82f408b473e9a7af0"
     },
     {
       "id": "uyen-3-L4",
@@ -1046,13 +1028,11 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Khái niệm và mục đích",
         "Mô hình liên tục",
-        "Mô hình rời rạc",
         "Các loại nhiễu thường gặp"
       ],
-      "promptHash": "1fdba22d6473ec6f8b4cfade523379f03a97299a652ac7ce12272caf7882811c",
-      "answerHash": "2744398f0324a9256d29775b0c68edd8bd2f1e04691599648f2acd2d5c909405"
+      "promptHash": "0b578d01ac229995fe8a832c20cb49a7bbeefa77f2670a52e5d960daf76d54c1",
+      "answerHash": "883397ad68510deed42b48efb86a97ebd9ef4d70976931d76b8ad54d8a2032fa"
     },
     {
       "id": "uyen-3-L5",
@@ -1066,7 +1046,7 @@
         "Trung bình k giá trị gần nhất",
         "Biến thể có ngưỡng trong giáo trình"
       ],
-      "promptHash": "ea5c4eba1ada41814a2de659cf9a27fd1ef5fad92f6f6bc8e3e41dcdfc04bf64",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "31a03b914b9e439960d72160837613bfb93481d739ad34368f9b6c2e34a438d7"
     },
     {
@@ -1076,12 +1056,11 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Khái niệm và giả thiết",
         "Các bước và công thức",
-        "Điều kiện cho kết quả tốt"
+        "Ảnh hưởng của tỷ lệ tích lũy"
       ],
-      "promptHash": "dad3e22eadeacd598853bad2aa9907ecf5eb508a3bb813e7334584949fa2c6b8",
-      "answerHash": "63f57c71f93ec01dd09c6d30fc919ccc502bcf79c1b97bf6b4c25cd99f16a3d0"
+      "promptHash": "3ebe3e7ef247d01968253d7e68885d362a0fd3701f0a1d3dda70a994d6d1b6be",
+      "answerHash": "658c71ac9fb014461b3fc04eb71e3835087f4250912863bb9faa9ddb4f128aec"
     },
     {
       "id": "uyen-3-L7",
@@ -1093,7 +1072,7 @@
         "Ý tưởng và cách thực hiện",
         "Trường hợp phù hợp và không phù hợp"
       ],
-      "promptHash": "4f8e2e289330c3d32c2f741799ab24b2a244896157c9d12b6826b924cf9fa145",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "8924c9a4e00eb99fb1e80fdbab13e11c63748a9a543d1623b694722b79bf246c"
     },
     {
@@ -1104,12 +1083,10 @@
       "keyPages": [],
       "headings": [
         "Otsu",
-        "Đẳng điệu ISODATA",
-        "Đối xứng nền",
-        "Tam giác"
+        "Đẳng điệu ISODATA"
       ],
-      "promptHash": "1e81ea9d798d39184d53eca6dfa355f174c37c19a48a47afe9cf4159dab181e1",
-      "answerHash": "d94b0af76d5da4c01090bfc469f0bd0951cadb85fefb55fe694e1e75f3bdeae7"
+      "promptHash": "3b68e3761064519649bc72156604c078371a0a96c1ca7a9d2ad6c3a7492374ff",
+      "answerHash": "87997a95b6f5284981262817b0193a57080d75345c186947c8d3d578aded5a5a"
     },
     {
       "id": "uyen-3-L9",
@@ -1120,13 +1097,13 @@
       "headings": [
         "Tăng cường và khôi phục",
         "Miền không gian và miền tần số",
-        "Trung bình số học và hình học",
+        "Trung bình hình học",
         "Trung bình điều hòa và phản điều hòa",
-        "Trung vị, min và max",
+        "Bộ lọc min và max",
         "Điểm giữa và trung bình cắt tỉa"
       ],
-      "promptHash": "a57a19c5bf703dad974a5f831eb27455cb866a7280e02df487248447d437b2f3",
-      "answerHash": "7396a763563fc7fc086c8f9e2902acd34027e14d22418eec512dec9c01df90f9"
+      "promptHash": "a0daebdbd6084a14f145f49a817557a870f630cf068b6bc8098a77db65d23ce8",
+      "answerHash": "1079ae4eb8110be4bbb6279b9ed8c3934167de512c7e8eeeae7129479d51895b"
     },
     {
       "id": "uyen-4-L1",
@@ -1135,11 +1112,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Phối màu cộng",
-        "Phối màu trừ"
+        "Hai ví dụ phối màu"
       ],
-      "promptHash": "025cb75fc3ebed1e244eb64faba2feeaa50e60f6dfd671cffd23d4ce214e2d7a",
-      "answerHash": "e6411a48acdc89e92884a666782c40009cfb3270c76221a100bf434e7d23a4c9"
+      "promptHash": "0d116e7f85396f073b97ba21bceab82b9a169fd3770bbee8a532cfc665d42500",
+      "answerHash": "59252868cca56b6e3ffe2ee2e1fe969834d8603cce9fe99ba34dd5b6bfde1715"
     },
     {
       "id": "uyen-4-L2",
@@ -1148,11 +1124,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Khái niệm",
-        "Các mô hình thông dụng"
+        "Ứng dụng chọn và hiệu chỉnh màu"
       ],
-      "promptHash": "59e4b41cbf11001e071fe8be2c975626a053483f8c36870101eb423da9c88050",
-      "answerHash": "7fc942a9cc607febd954f3c99a95b50989d1054772d656069d1fc828ad850e48"
+      "promptHash": "ef8e16d3b4a8487f73f8905d885915a750ce0cf14122110985ee712a6f06032c",
+      "answerHash": "bf8e7acd28f6542c4296ade43142ab82fc3c072fc9c87d06cbeea4f90ec14c6d"
     },
     {
       "id": "uyen-4-L3",
@@ -1161,11 +1136,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Khác nhau giữa CMY và RGB",
         "Vì sao thêm K"
       ],
-      "promptHash": "02c16f16144a2cc4156f2d5bd3cb9a1f516346d3fb7447e9dd849109a834b62e",
-      "answerHash": "c33fde7b37702db870a44014d2f614d949ea3c48417beb7fb846c36c2139c4b8"
+      "promptHash": "95be68843d9a5fb8b414ef4d355c53561a856d01b6555e1eb02227ce40065102",
+      "answerHash": "b019af887bb381c35d61cc60377c8b36455cc1436e6c8ee8c47cc5572e9e0bfa"
     },
     {
       "id": "uyen-4-L4",
@@ -1177,7 +1151,7 @@
         "Lý do phát triển",
         "Ý nghĩa các chữ cái"
       ],
-      "promptHash": "57a00f202e0ee0f16dc4cf3be50e99d384135e72bbac6cb5fcd423d05c7f47b2",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "e550cec33adce3c7ec671cc7fc69a1ddf7a89cb5db2def04bbff90387e58deb5"
     },
     {
@@ -1191,7 +1165,7 @@
         "Khác với vector",
         "Trường hợp sử dụng"
       ],
-      "promptHash": "ad73ad142f7c75492eeeff03c0cec5db4e70406cddf3ad5b61a4c7fab52780ba",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "e35d2c9075be63fd75aeda9f1b2505fa434415bac8d22dc0684169dfe6a0522b"
     },
     {
@@ -1204,7 +1178,7 @@
         "Mục đích sử dụng",
         "Ý tưởng cơ bản"
       ],
-      "promptHash": "cf405ba9f2522e7030df91446b9e52c761038a7dc1dc9ec88480bf2b98ec63c4",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "b8045375e289cef7f9005d8dfbf4dc97d3f5e2680b957e15382611fe4776b767"
     },
     {
@@ -1218,7 +1192,7 @@
         "Một chiều và hai chiều",
         "Nhược điểm được khắc phục"
       ],
-      "promptHash": "7dd4794bb92e254c817469be82610550ff9a022642931f782f2c046d07cf4fb2",
+      "promptHash": "308ec13f5acb7e1aaa4fe60571120e1868b3edc3ec9159793c64edbcd0e28e0f",
       "answerHash": "53e075190af04c042f33cb74b8986bd0e2aca3f27d8aa16d6fda5ccb3a6dafb2"
     },
     {
@@ -1228,13 +1202,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "(a) Sai — CMY là phối màu trừ",
-        "(b) Sai — vector không vỡ hạt như raster",
-        "(c) Đúng — mắt cảm nhận trung bình vùng nhỏ",
         "(d) Sai — khuếch tán lỗi không giữ nguyên số mức xám"
       ],
-      "promptHash": "f89e66b2c698ad9af2cdd2c9d1dd746a55313b24f0d401256226e7b5d65b3606",
-      "answerHash": "b4ad258a3b8b81519d210e63d178f3cb961920dba22fabfd7632bd82cf904502"
+      "promptHash": "6957bcc8ae9234f447140e8405549033f9d726ed186614c69701372c29a489e5",
+      "answerHash": "9f3e12b9a9e4e50634b68573c310e52f2246ada93efd9ddbc37dd0657ce01f5d"
     },
     {
       "id": "uyen-7-L1",
@@ -1275,10 +1246,10 @@
         "Định nghĩa",
         "Tác dụng",
         "Vì sao mở không phục hồi ảnh gốc",
-        "Bao hàm và lũy đẳng"
+        "Quan hệ bao hàm"
       ],
       "promptHash": "5c121f0a9ffba75786f6eac9c162df3f99b2ebb6662cf583fff677cb865d4743",
-      "answerHash": "bd2274ef0f64c56f6be613c22cb648a41c0e070a29a17c89f7d05dc439a30f89"
+      "answerHash": "8fd9fa2a078977e0e5c88a00f097ffd595d4348c20a51a45e1c6788971b593c5"
     },
     {
       "id": "uyen-7-L4",
@@ -1343,16 +1314,13 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "(a) Sai — co và giãn không luôn đảo ngược",
         "(b) Đúng khi gốc SE là điểm 1",
         "(c) Sai — mở có tính lũy đẳng",
-        "(d) Đúng — đóng có thể nối khe hẹp",
         "(e) Sai — cần phân biệt B và B phản xạ",
-        "(f) Đúng — đối ngẫu co và giãn",
-        "(g) Đúng với SE lan chuẩn trên miền ảnh đang xét"
+        "(f) Đúng — đối ngẫu co và giãn"
       ],
-      "promptHash": "23813e935aa5a6b71094a5b14aa6d6de0d08d20b7a77f0e45a7e3eb74d8dbfa8",
-      "answerHash": "ae4ba6ae33e27201efdf401147ae39e9172f6744a2f03c17843a48f7c4f5164f"
+      "promptHash": "7c236904e0ab703aa38aadf4644b3b882ffdd2dd52bfb1d0312407dbf793253c",
+      "answerHash": "749889498e15aed861d36a70299684508feec8f070017988cf444809bf0c68b8"
     },
     {
       "id": "uyen-6-L1",
@@ -1361,11 +1329,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Khái niệm và hiệu quả",
         "Ví dụ bằng số"
       ],
-      "promptHash": "9a5bda86256750286ac341313e18bbdc668ce983b6c1291653a17d0146586bf7",
-      "answerHash": "3e420715659abbb4e389ded2d4ad349a7f53c7fe788f904d91f81c207af89d85"
+      "promptHash": "81e4d0af76f48fb294680b376bcc873eaf6c6d7b9702e03e7576e5ab443bf954",
+      "answerHash": "307a8e001a542139942d3b349ba66c551a2b5257979ef98809d5ee1ecafd644f"
     },
     {
       "id": "uyen-6-L2",
@@ -1374,12 +1341,10 @@
       "basis": "course-theory",
       "keyPages": [],
       "headings": [
-        "Mục đích của DCT",
-        "Bước gây mất thông tin",
         "Trường hợp tính toán thực tế"
       ],
-      "promptHash": "4c4dba78ebda651b5eb770cef88a5a1f984df1fc88c3190f0741647450831512",
-      "answerHash": "6c66aa2eb19f3ffb566b24f88bfa67fa0851b27ab5fba30a4bc13d77b0ff8821"
+      "promptHash": "613835940a5fc34287403981d51ec0d34beec21d425fc1b7ecafff13a7e4e63b",
+      "answerHash": "8b0642defec7cdde615b0135d129401c5bd430aca40186cbb9f304ae34da895b"
     },
     {
       "id": "uyen-6-L3",
@@ -1419,10 +1384,10 @@
         "Nguyên lý và các bước",
         "Giải mã tức thời",
         "Vì sao chia khối ảnh nhị phân",
-        "Hai nhược điểm"
+        "Ảnh hưởng của lỗi bit"
       ],
-      "promptHash": "92ed326dd6fd614700527cfb90dedc5d3d21bfdeeea5394cc7a9e5219536d985",
-      "answerHash": "164df81153d7210a53fd95cab9df889f350077787c06b1778d449569795b75d4"
+      "promptHash": "3db1c4e4d9430fbdba7370bb560d72dda464d2c3bc717a5e851e0b50ee7ddf99",
+      "answerHash": "ae5d06ceeddd183a578e3994c8b3b0123453809b6c4d95abce90336c1fd1cc7f"
     },
     {
       "id": "uyen-6-L6",
@@ -1447,11 +1412,10 @@
       "keyPages": [],
       "headings": [
         "Các khối chính",
-        "Chức năng từng khối",
-        "Phần không khôi phục chính xác"
+        "Chức năng từng khối"
       ],
-      "promptHash": "10b25b1eed67ea4524c9bd93cc451e99a0061df385099c14b5ca4eb499f4524b",
-      "answerHash": "ff2f4e80daf28204bae1a342a4611382a24e1ab1a40a1fce9f3fc3bb997fd3ca"
+      "promptHash": "bac1305d3c2b7e450e4c5acf0b4934e47bcd547f369b9a2479cf07fa8697d780",
+      "answerHash": "42a8b21f622778c0f421a682c7d9c4b5fa3bafd4e1d27057cf4c1f7a24cc6a63"
     },
     {
       "id": "uyen-6-L8",
@@ -1476,13 +1440,11 @@
       "keyPages": [],
       "headings": [
         "(a) Sai — không luôn bằng entropy",
-        "(b) Sai — LZW tự tái tạo từ điển",
-        "(c) Sai về mặt lý thuyết — DCT khả nghịch",
         "(d) Đúng trong ngữ cảnh đang xét",
         "(e) Đúng với bảng lượng tử JPEG thường dùng"
       ],
-      "promptHash": "65f950138152585d88d5d27d95119fbef8e47928e7b3decd3ee31fb26465685c",
-      "answerHash": "8729f8af7693dea897ead46c0c700453c90dfee692c89b03b426c047f4b7a3cb"
+      "promptHash": "cfec45b18357727aed95d954a1390a2f7c0d47da032c95e38f4980fb5158b7e4",
+      "answerHash": "af658692ca11317e3483a9a7b83396984775e06c480a1e42bbb088c2ef1ed552"
     }
   ]
 }

@@ -1,0 +1,63 @@
+Bài 5.T2. Sobel và Laplace 4 láng giềng
+
+
+Câu (a) — Hai đáp ứng và ảnh I₁
+Bước 1. Tính đáp ứng theo hướng x.
+Công thức: G_x(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_x(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3,cột 3): Gx = (3·1) + (3·0) + (12·-1) + (3·2) + (3·0) + (13·-2) + (3·1) + (3·0) + (12·-1) = -38.
+I ⊗ Hx
+-9	0	-9	-10	0	10	18
+-12	0	-28	-28	1	28	39
+-12	0	-38	-35	1	35	49
+-12	0	-28	-26	-1	26	41
+-12	0	-9	-9	-1	9	22
+-12	0	0	0	0	0	12
+-9	0	0	0	0	0	9
+Bước 2. Tính đáp ứng theo hướng y.
+Công thức: G_y(r,c)=\sum_{i=-1}^{1}\sum_{j=-1}^{1}I(r+i,c+j)H_y(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (hàng 3, cột 3): Gy = (3·1) + (3·2) + (12·1) + (3·0) + (3·0) + (13·0) + (3·-1) + (3·-2) + (12·-1) = 0.
+I ⊗ Hy
+-9	-12	-21	-40	-50	-40	-18
+0	0	-10	-28	-35	-26	-9
+0	0	0	1	1	-1	-1
+0	0	10	28	35	26	9
+0	0	9	27	37	29	10
+0	0	0	0	0	0	0
+9	12	12	12	12	12	9
+Bước 3. Ghép hai đáp ứng theo đúng yêu cầu đề.
+Công thức: I_1=|G_x|+|G_y|
+Ký hiệu: Gx,Gy là hai đáp ứng vừa tính tại cùng pixel; I₁ là kết quả ghép. Dấu | | là trị tuyệt đối khi có trong công thức.
+Cách làm: Ghép từng cặp phần tử cùng vị trí. Cộng có dấu khi đề yêu cầu cộng hai ảnh; lấy trị tuyệt đối trước khi cộng khi đề yêu cầu độ lớn gradient. Không cắt giá trị âm ở giữa phép tính.
+Thay số / thực hiện: Tại (3,3), Gx=-38, Gy=0 ⇒ kết quả=38.
+I₁ = |Gx| + |Gy|
+18	12	30	50	50	50	36
+12	0	38	56	36	54	48
+12	0	38	36	2	36	50
+12	0	38	54	36	52	50
+12	0	18	36	38	38	32
+12	0	0	0	0	0	12
+18	12	12	12	12	12	18
+
+Câu (b) — Đáp ứng Laplace I₂
+Bước 1. Tính đáp ứng Laplace với cùng cách đặt tâm.
+Công thức: I_2(r,c)=\sum_i\sum_j I(r+i,c+j)H_z(i+1,j+1)
+Ký hiệu: I là ảnh đầu vào; (r,c) là vị trí tâm; i,j∈{−1,0,1} là độ lệch trong cửa sổ; Hx,Hy,Hz là mặt nạ; Gx,Gy là đáp ứng hai hướng; ⊗ ở bài này là đặt tâm, nhân tương ứng rồi cộng, không lật mặt nạ.
+Cách làm: Lấy cửa sổ 3×3 quanh tâm, nhân từng pixel với đúng trọng số cùng ô của mặt nạ rồi cộng đủ chín tích. Dịch tâm qua toàn ảnh, ngoài khung lấy 0. Giữ đáp ứng âm; chỉ cộng có dấu hoặc lấy trị tuyệt đối theo đúng ý hỏi.
+Thay số / thực hiện: Tại (3,3): I₂ = (3·0) + (3·-1) + (12·0) + (3·-1) + (3·4) + (13·-1) + (3·0) + (3·-1) + (12·0) = -10.
+Ảnh I₂
+6	3	3	-6	-7	-6	6
+3	0	-9	16	14	17	-6
+3	0	-10	14	-6	9	-6
+3	0	-9	17	9	22	-7
+3	0	0	-9	-9	-10	3
+3	0	0	0	0	0	3
+6	3	3	3	3	3	6
+
+Câu (c) — Từ đáp ứng đến ảnh biên
+Bước 1. Chuyển đáp ứng thành biên cần thêm bước chọn biên.
+Cách làm: Các ma trận trên là đáp ứng lọc. Với gradient, tính |Gx|+|Gy| (không cộng có dấu vì có thể triệt tiêu), rồi làm mảnh/đặt ngưỡng và liên kết biên. Laplace thường xét đổi dấu kết hợp ngưỡng sau làm trơn. Ví dụ minh họa gradient: chọn τ=10 thì pixel có |Gx|+|Gy|≥10 là ứng viên biên; đây là ngưỡng minh họa, không phải đáp án duy nhất của đề. Đệm 0 có thể tạo đáp ứng giả ở rìa ảnh.
+Giải thích: Các ma trận trên là đáp ứng lọc. Với gradient, tính |Gx|+|Gy| (không cộng có dấu vì có thể triệt tiêu), rồi làm mảnh/đặt ngưỡng và liên kết biên. Laplace thường xét đổi dấu kết hợp ngưỡng sau làm trơn. Ví dụ minh họa gradient: chọn τ=10 thì pixel có |Gx|+|Gy|≥10 là ứng viên biên; đây là ngưỡng minh họa, không phải đáp án duy nhất của đề. Đệm 0 có thể tạo đáp ứng giả ở rìa ảnh.
